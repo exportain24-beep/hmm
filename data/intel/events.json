@@ -1,4 +1,261 @@
 {
   "_comment": "Master events maintained by the intelligence desk (see docs/INTELLIGENCE-ENGINE.md). One entry per real-world event; reports from several sources are clustered into it.",
-  "events": {}
+  "events": {
+    "HM-2026-111201": {
+      "eventId": "HM-2026-111201",
+      "slug": "imo-hormuz-enforcement-call",
+      "type": "imo",
+      "title": "IMO Urges Hormuz Rule Enforcement",
+      "location": "STRAIT OF HORMUZ",
+      "eventDate": "11 NOV 2026",
+      "sources": [
+        {
+          "title": "IMO Chief Calls for Strict Enforcement of SOLAS Rules in Strait of Hormuz",
+          "publisher": "gCaptain",
+          "url": "https://gcaptain.com/imo-chief-calls-for-strict-enforcement-of-solas-rules-in-strait-of-hormuz/",
+          "date": "2026-11-11"
+        },
+        {
+          "title": "IMO Chief Calls For Enforcement Of Maritime Rules In Strait Of Hormuz After 25 Seafarers Die In 133 Incidents",
+          "publisher": "Marine Insight",
+          "url": "https://www.marineinsight.com/imo-chief-calls-for-enforcement-of-maritime-rules-in-strait-of-hormuz-after-25-seafarers-die-in-133-incidents/",
+          "date": "2026-11-12"
+        },
+        {
+          "title": "IMO Calls for All Parties in Hormuz Crisis to Respect Seafarer Safety",
+          "publisher": "The Maritime Executive",
+          "url": "https://maritime-executive.com/article/imo-calls-for-all-parties-in-hormuz-crisis-to-respect-seafarer-safety",
+          "date": "2026-11-12"
+        }
+      ],
+      "verifiedFacts": [
+        "IMO SG statement 11 Nov 2026 urging flag, port and coastal states to enforce rules",
+        "133 confirmed incidents involving merchant vessels as of 10 Nov",
+        "At least 25 seafarers killed since 28 Feb",
+        "Cited substandard ships, concealed IMO numbers, fraudulent registration and false flags"
+      ],
+      "unverifiedClaims": [
+        "Attribution of individual attacks"
+      ],
+      "verificationStatus": "CORROBORATED",
+      "priorityScore": 80,
+      "cardFile": "content/cards/queue/2026-11-12T2122-imo-hormuz-enforcement-call.json",
+      "publishAtUtc": "2026-11-12T21:22:00Z",
+      "published": false,
+      "updatedAt": "2026-11-12T20:55:00Z"
+    },
+    "HM-2026-111202": {
+      "eventId": "HM-2026-111202",
+      "slug": "maersk-cincinnati-yantian-crane-strike",
+      "type": "incident",
+      "title": "Maersk Boxship Topples Crane at Yantian",
+      "location": "YANTIAN, SHENZHEN",
+      "eventDate": "9 NOV 2026",
+      "sources": [
+        {
+          "title": "Crane overturned",
+          "publisher": "Vertikal.net",
+          "url": "https://vertikal.net/en/news/story/49651/crane-overturned",
+          "date": "2026-11-11"
+        },
+        {
+          "title": "Containership Maersk Cincinnati Knocks Down Crane While Berthing at Yantian",
+          "publisher": "DataPortuaria",
+          "url": "https://dataportuaria.com/en/destacadas/containership-maersk-cincinnati-knocks-down-crane-while-berthing-at-yantian-5fb510",
+          "date": "2026-11-10"
+        },
+        {
+          "title": "15,516 TEU Container Ship Hits And Topples Ship-To-Shore Crane At Yantian Port In China",
+          "publisher": "Marine Insight",
+          "url": "https://www.marineinsight.com/15516-teu-container-ship-hits-and-topples-ship-to-shore-crane-at-yantian-port-in-china/",
+          "date": "2026-11-12"
+        }
+      ],
+      "verifiedFacts": [
+        "Maersk Cincinnati, 15,516 TEU, Singapore flag, built 2024",
+        "Struck STS crane while berthing at Yantian on 9 Nov 2026",
+        "Crane toppled onto stacked containers",
+        "No injuries reported",
+        "Yantian District Emergency Management Bureau investigating"
+      ],
+      "unverifiedClaims": [
+        "Wind gusts as cause (reported, not confirmed)",
+        "Extent of port disruption"
+      ],
+      "verificationStatus": "CORROBORATED",
+      "priorityScore": 78,
+      "cardFile": "content/cards/queue/2026-11-12T2222-maersk-cincinnati-yantian-crane-strike.json",
+      "publishAtUtc": "2026-11-12T22:22:00Z",
+      "published": false,
+      "updatedAt": "2026-11-12T20:55:00Z"
+    },
+    "HM-2026-111203": {
+      "eventId": "HM-2026-111203",
+      "slug": "singapore-strait-three-robberies-november",
+      "type": "security",
+      "title": "Three Robberies Hit Singapore Strait",
+      "location": "SINGAPORE STRAIT",
+      "eventDate": "10 NOV 2026",
+      "sources": [
+        {
+          "title": "ReCAAP warns of further Singapore Strait robberies after three November boardings",
+          "publisher": "Baird Maritime",
+          "url": "https://www.bairdmaritime.com/security/incidents/piracy/singapore-strait-robberies-prompt-alert",
+          "date": "2026-11-12"
+        },
+        {
+          "title": "One Of The World's Busiest Shipping Lanes Sees Three Robberies In Eight Days",
+          "publisher": "Marine Insight",
+          "url": "https://www.marineinsight.com/one-of-the-worlds-busiest-shipping-lanes-sees-three-robberies-in-eight-days/",
+          "date": "2026-11-12"
+        },
+        {
+          "title": "Two incidents of armed robbery against ships in Asia Nov 3-9: ReCAAP",
+          "publisher": "Shipping Telegraph",
+          "url": "https://shippingtelegraph.com/piracy-news/two-incidents-of-armed-robbery-against-ships-in-asia-nov-3-9-recaap/"
+        }
+      ],
+      "verifiedFacts": [
+        "Star Calypso boarded 2 Nov 21:25, engine spares stolen, crew member tied up with minor injury",
+        "APJ Priti 2 boarded 4 Nov 23:35, nothing stolen",
+        "Tanker boarded 10 Nov 02:40, engine spares stolen",
+        "All in eastbound lane of Singapore Strait TSS"
+      ],
+      "unverifiedClaims": [
+        "Name and flag of the tanker boarded on 10 Nov"
+      ],
+      "verificationStatus": "CORROBORATED",
+      "priorityScore": 74,
+      "cardFile": "content/cards/queue/2026-11-12T2322-singapore-strait-three-robberies-november.json",
+      "publishAtUtc": "2026-11-12T23:22:00Z",
+      "published": false,
+      "updatedAt": "2026-11-12T20:55:00Z"
+    },
+    "HM-2026-111204": {
+      "eventId": "HM-2026-111204",
+      "slug": "panama-canal-50-foot-draft-34-slots",
+      "type": "navigation",
+      "title": "Panama Canal Restores 50-Foot Draft",
+      "location": "PANAMA CANAL",
+      "eventDate": "9 NOV 2026",
+      "sources": [
+        {
+          "title": "Panama Canal Raises Daily Transit Capacity as Water Conditions Improve",
+          "publisher": "gCaptain",
+          "url": "https://gcaptain.com/panama-canal-raises-daily-transit-capacity-as-water-conditions-improve/",
+          "date": "2026-11-11"
+        },
+        {
+          "title": "Panama Canal Raises Daily Transits To 34 And Restores 50-Foot Neopanamax Draft As Water Levels Recover",
+          "publisher": "Marine Insight",
+          "url": "https://www.marineinsight.com/panama-canal-raises-daily-transits-to-34-and-restores-50-foot-neopanamax-draft-as-water-levels-recover/",
+          "date": "2026-11-12"
+        },
+        {
+          "title": "Panama Canal announces increase in draft and daily transit (October 2026 step)",
+          "publisher": "Panama Canal Authority",
+          "url": "https://pancanal.com/en/panama-canal-announces-increase-in-draft-and-daily-transit/",
+          "date": "2026-09-28"
+        }
+      ],
+      "verifiedFacts": [
+        "Advisory issued 9 Nov 2026",
+        "Neopanamax max draft 15.24 m (50 ft) effective immediately",
+        "Daily slots 33 to 34 (24 Panamax, 10 Neopanamax)",
+        "Previous step: 49 ft in October 2026"
+      ],
+      "unverifiedClaims": [],
+      "verificationStatus": "CORROBORATED",
+      "priorityScore": 70,
+      "cardFile": "content/cards/queue/2026-11-13T0022-panama-canal-50-foot-draft-34-slots.json",
+      "publishAtUtc": "2026-11-13T00:22:00Z",
+      "published": false,
+      "updatedAt": "2026-11-12T20:55:00Z"
+    },
+    "HM-2026-111205": {
+      "eventId": "HM-2026-111205",
+      "slug": "maersk-it-security-incident-legacy-system",
+      "type": "technology",
+      "title": "Maersk Confirms IT Security Incident",
+      "location": "COPENHAGEN",
+      "eventDate": "11 NOV 2026",
+      "sources": [
+        {
+          "title": "IT security incident",
+          "publisher": "A.P. Moller - Maersk",
+          "url": "https://www.maersk.com/news/articles/2026/11/11/it-security-incident",
+          "date": "2026-11-11"
+        },
+        {
+          "title": "Shipping giant Maersk probes IT security incident, data theft",
+          "publisher": "The Register",
+          "url": "https://www.theregister.com/security/2026/11/11/shipping-giant-maersk-probes-it-security-incident-data-theft/5309096",
+          "date": "2026-11-11"
+        },
+        {
+          "title": "Maersk investigates data breach involving legacy IT system",
+          "publisher": "Smart Maritime Network",
+          "url": "https://smartmaritimenetwork.com/2026/11/12/maersk-investigates-data-breach-involving-legacy-it-system",
+          "date": "2026-11-12"
+        }
+      ],
+      "verifiedFacts": [
+        "Maersk statement 11 Nov 2026",
+        "Unauthorised access and data extraction from one local legacy system from a previous acquisition",
+        "No expected disruption to customer operations",
+        "Investigation ongoing"
+      ],
+      "unverifiedClaims": [
+        "Hacker group's claims about volume and type of stolen data",
+        "Ransom demand reports"
+      ],
+      "verificationStatus": "VERIFIED",
+      "priorityScore": 66,
+      "cardFile": "content/cards/queue/2026-11-13T0122-maersk-it-security-incident-legacy-system.json",
+      "publishAtUtc": "2026-11-13T01:22:00Z",
+      "published": false,
+      "updatedAt": "2026-11-12T20:55:00Z"
+    },
+    "HM-2026-111206": {
+      "eventId": "HM-2026-111206",
+      "slug": "amsa-bans-wooyang-venus-rest-hours",
+      "type": "psc",
+      "title": "AMSA Bans Bulker Over False Rest Hours",
+      "location": "NEWCASTLE, AUSTRALIA",
+      "eventDate": "3 NOV 2026",
+      "sources": [
+        {
+          "title": "Australia Bans Bulk Carrier Over Repeated Falsification of Crew Rest Records",
+          "publisher": "gCaptain",
+          "url": "https://gcaptain.com/australia-bans-bulk-carrier-over-repeated-falsification-of-crew-rest-records/",
+          "date": "2026-11-03"
+        },
+        {
+          "title": "AMSA bans vessel over repeatedly falsifying seafarer hours of work and rest records",
+          "publisher": "Marine Business News",
+          "url": "https://www.marinebusinessnews.com.au/2026/11/amsa-bans-vessel-over-repeatedly-falsifying-seafarer-hours-of-work-and-rest-records/",
+          "date": "2026-11-09"
+        },
+        {
+          "title": "AMSA bans bulk carrier over repeated falsification of seafarer work and rest records",
+          "publisher": "SAFETY4SEA",
+          "url": "https://safety4sea.com/amsa-bans-bulk-carrier-over-repeated-falsification-of-seafarer-work-and-rest-records/"
+        }
+      ],
+      "verifiedFacts": [
+        "Wooyang Venus, Marshall Islands flag, bulk carrier",
+        "PSC inspection Newcastle 29 Oct 2026 after MLC complaint",
+        "Falsified work and rest records",
+        "90-day ban under section 246 Navigation Act 2012",
+        "Third detention for hours records (Dec 2023, Aug 2026)"
+      ],
+      "unverifiedClaims": [],
+      "verificationStatus": "CORROBORATED",
+      "priorityScore": 62,
+      "cardFile": "content/cards/queue/2026-11-13T0222-amsa-bans-wooyang-venus-rest-hours.json",
+      "publishAtUtc": "2026-11-13T02:22:00Z",
+      "published": false,
+      "updatedAt": "2026-11-12T20:55:00Z"
+    }
+  }
 }

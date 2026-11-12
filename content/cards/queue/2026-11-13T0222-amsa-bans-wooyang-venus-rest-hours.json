@@ -1,0 +1,70 @@
+{
+  "id": "amsa-bans-wooyang-venus-rest-hours",
+  "type": "psc",
+  "headline": "AMSA Bans Bulker Over False Rest Hours",
+  "headlineAccent": "False Rest Hours",
+  "subheadline": "Fatigue records are a PSC priority",
+  "location": "NEWCASTLE, AUSTRALIA",
+  "dateLabel": "3 NOV 2026",
+  "insight": "AMSA banned the bulk carrier Wooyang Venus from Australian ports for 90 days after finding falsified work and rest records, its third such detention.",
+  "publishAtUtc": "2026-11-13T02:22:00Z",
+  "eventId": "HM-2026-111206",
+  "priorityScore": 62,
+  "pillar": "regulation",
+  "audience": [
+    "Master",
+    "Chief Officer",
+    "DPA",
+    "Ship Manager"
+  ],
+  "sources": [
+    {
+      "title": "Australia Bans Bulk Carrier Over Repeated Falsification of Crew Rest Records",
+      "publisher": "gCaptain",
+      "url": "https://gcaptain.com/australia-bans-bulk-carrier-over-repeated-falsification-of-crew-rest-records/",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "AMSA bans vessel over repeatedly falsifying seafarer hours of work and rest records",
+      "publisher": "Marine Business News",
+      "url": "https://www.marinebusinessnews.com.au/2026/11/amsa-bans-vessel-over-repeatedly-falsifying-seafarer-hours-of-work-and-rest-records/",
+      "date": "2026-11-09"
+    },
+    {
+      "title": "AMSA bans bulk carrier over repeated falsification of seafarer work and rest records",
+      "publisher": "SAFETY4SEA",
+      "url": "https://safety4sea.com/amsa-bans-bulk-carrier-over-repeated-falsification-of-seafarer-work-and-rest-records/"
+    }
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner intelligence desk",
+    "checkedAt": "2026-11-12T20:55:00Z",
+    "notes": "Facts cross-checked against at least two independent outlets or the primary statement; only verified facts used."
+  },
+  "image": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Merchant_Vessel_Transports_Decommissioned_U_S_Navy_Avenger-class_Mine_Countermeasures_Ships_(9487755).jpg?width=1600",
+    "credit": "U.S. Navy / DVIDS / Wikimedia Commons",
+    "license": "Public domain",
+    "representative": true
+  },
+  "meta": {
+    "description": "The Australian Maritime Safety Authority banned the Marshall Islands-flagged bulk carrier Wooyang Venus from Australian ports for 90 days under section 246 of the Navigation Act 2012. A port State control inspection at Newcastle on 29 October, prompted by an MLC 2006 complaint, found work and rest records had been falsified and did not reflect hours actually worked. It was the ship's third detention involving falsified or incorrect hours records, after August 2026 and December 2023.",
+    "keywords": [
+      "AMSA ban",
+      "Wooyang Venus",
+      "hours of rest",
+      "port state control",
+      "MLC 2006 fatigue"
+    ],
+    "hashtags": [
+      "#PortStateControl",
+      "#AMSA",
+      "#MLC2006",
+      "#Fatigue",
+      "#SeafarerWelfare"
+    ],
+    "question": "Are the rest hours on your ship recorded as worked or as planned?",
+    "altText": "Representative photo of a merchant cargo ship with HeyMariner news card text on AMSA banning a bulk carrier over falsified rest hours."
+  }
+}

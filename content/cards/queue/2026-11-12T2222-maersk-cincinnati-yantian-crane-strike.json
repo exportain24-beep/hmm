@@ -1,0 +1,71 @@
+{
+  "id": "maersk-cincinnati-yantian-crane-strike",
+  "type": "incident",
+  "headline": "Maersk Boxship Topples Crane at Yantian",
+  "headlineAccent": "Crane at Yantian",
+  "subheadline": "Wind limits for berthing big boxships",
+  "location": "YANTIAN, SHENZHEN",
+  "dateLabel": "9 NOV 2026",
+  "insight": "The 15,516 TEU Maersk Cincinnati struck a ship-to-shore crane while berthing, toppling it onto stacked boxes. No injuries reported; strong gusts reported.",
+  "publishAtUtc": "2026-11-12T22:22:00Z",
+  "eventId": "HM-2026-111202",
+  "priorityScore": 78,
+  "pillar": "safety",
+  "audience": [
+    "Master",
+    "Pilot",
+    "OOW",
+    "Terminal Operator"
+  ],
+  "sources": [
+    {
+      "title": "Crane overturned",
+      "publisher": "Vertikal.net",
+      "url": "https://vertikal.net/en/news/story/49651/crane-overturned",
+      "date": "2026-11-11"
+    },
+    {
+      "title": "Containership Maersk Cincinnati Knocks Down Crane While Berthing at Yantian",
+      "publisher": "DataPortuaria",
+      "url": "https://dataportuaria.com/en/destacadas/containership-maersk-cincinnati-knocks-down-crane-while-berthing-at-yantian-5fb510",
+      "date": "2026-11-10"
+    },
+    {
+      "title": "15,516 TEU Container Ship Hits And Topples Ship-To-Shore Crane At Yantian Port In China",
+      "publisher": "Marine Insight",
+      "url": "https://www.marineinsight.com/15516-teu-container-ship-hits-and-topples-ship-to-shore-crane-at-yantian-port-in-china/",
+      "date": "2026-11-12"
+    }
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner intelligence desk",
+    "checkedAt": "2026-11-12T20:55:00Z",
+    "notes": "Facts cross-checked against at least two independent outlets or the primary statement; only verified facts used."
+  },
+  "image": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/US_Navy_100221-N-5787K-002_An_aerial_view_of_the_logistical_area_near_the_port_in_Port-au-Prince.jpg?width=1600",
+    "credit": "U.S. Navy / Wikimedia Commons",
+    "license": "Public domain",
+    "representative": true
+  },
+  "meta": {
+    "description": "On 9 November 2026 the Singapore-flagged, 366 m, 15,516 TEU container ship Maersk Cincinnati struck a ship-to-shore crane while berthing at Yantian port, Shenzhen, and the crane toppled onto containers stacked behind it. No injuries have been reported. Wind gusts of Force 8 or more were reported around the time of the approach. The Yantian District Emergency Management Bureau confirmed the incident and said an investigation is under way.",
+    "keywords": [
+      "Maersk Cincinnati",
+      "Yantian crane collapse",
+      "ship-to-shore crane",
+      "berthing accident",
+      "container ship incident"
+    ],
+    "hashtags": [
+      "#MaritimeIncident",
+      "#Yantian",
+      "#ContainerShip",
+      "#PortSafety",
+      "#Shipping"
+    ],
+    "question": "What wind limit does your company set for berthing large boxships?",
+    "altText": "Representative aerial photo of a container port with HeyMariner news card text on Maersk Cincinnati toppling a crane at Yantian."
+  }
+}

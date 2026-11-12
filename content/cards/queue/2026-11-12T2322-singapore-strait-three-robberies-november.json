@@ -1,0 +1,70 @@
+{
+  "id": "singapore-strait-three-robberies-november",
+  "type": "security",
+  "headline": "Three Robberies Hit Singapore Strait",
+  "headlineAccent": "Singapore Strait",
+  "subheadline": "Lookout and CCTV at night are key",
+  "location": "SINGAPORE STRAIT",
+  "dateLabel": "10 NOV 2026",
+  "insight": "ReCAAP ISC reports three night boardings in the eastbound lane between 2 and 10 Nov; engine spares stolen and one crew member tied up with a minor injury.",
+  "publishAtUtc": "2026-11-12T23:22:00Z",
+  "eventId": "HM-2026-111203",
+  "priorityScore": 74,
+  "pillar": "safety",
+  "audience": [
+    "Master",
+    "OOW",
+    "Ship Security Officer",
+    "Chief Engineer"
+  ],
+  "sources": [
+    {
+      "title": "ReCAAP warns of further Singapore Strait robberies after three November boardings",
+      "publisher": "Baird Maritime",
+      "url": "https://www.bairdmaritime.com/security/incidents/piracy/singapore-strait-robberies-prompt-alert",
+      "date": "2026-11-12"
+    },
+    {
+      "title": "One Of The World's Busiest Shipping Lanes Sees Three Robberies In Eight Days",
+      "publisher": "Marine Insight",
+      "url": "https://www.marineinsight.com/one-of-the-worlds-busiest-shipping-lanes-sees-three-robberies-in-eight-days/",
+      "date": "2026-11-12"
+    },
+    {
+      "title": "Two incidents of armed robbery against ships in Asia Nov 3-9: ReCAAP",
+      "publisher": "Shipping Telegraph",
+      "url": "https://shippingtelegraph.com/piracy-news/two-incidents-of-armed-robbery-against-ships-in-asia-nov-3-9-recaap/"
+    }
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner intelligence desk",
+    "checkedAt": "2026-11-12T20:55:00Z",
+    "notes": "Facts cross-checked against at least two independent outlets or the primary statement; only verified facts used."
+  },
+  "image": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Coast_Guard_Cutter_Sea_Otter_conducts_boarding_130727-G-ZZ999-001.jpg?width=1600",
+    "credit": "U.S. Coast Guard / Wikimedia Commons",
+    "license": "Public domain",
+    "representative": true
+  },
+  "meta": {
+    "description": "ReCAAP ISC reported three boardings in the eastbound lane of the Singapore Strait TSS at night. On 2 November three perpetrators, one with a gun-like object, boarded the bulk carrier Star Calypso, stole engine spares and tied up a crew member who suffered a minor hand injury. On 4 November seven to eight men were seen on the poop deck of the bulk carrier APJ Priti 2, and on 10 November engine spare parts were stolen from a tanker. ReCAAP urges a sharp lookout at night and CCTV at likely boarding points.",
+    "keywords": [
+      "Singapore Strait robbery",
+      "ReCAAP ISC",
+      "ship security",
+      "armed robbery against ships",
+      "engine spares theft"
+    ],
+    "hashtags": [
+      "#MaritimeSecurity",
+      "#SingaporeStrait",
+      "#ReCAAP",
+      "#ShipSecurity",
+      "#Seafarers"
+    ],
+    "question": "How does your ship harden the poop deck and engine room at night?",
+    "altText": "Representative photo of a coast guard boarding team with HeyMariner news card text on three robberies in the Singapore Strait."
+  }
+}

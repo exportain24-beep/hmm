@@ -1,0 +1,71 @@
+{
+  "id": "imo-hormuz-enforcement-call",
+  "type": "imo",
+  "headline": "IMO Urges Hormuz Rule Enforcement",
+  "headlineAccent": "Rule Enforcement",
+  "subheadline": "What it means for ships trading in the Gulf",
+  "location": "STRAIT OF HORMUZ",
+  "dateLabel": "11 NOV 2026",
+  "insight": "IMO Secretary-General asks flag, port and coastal states to act on unsafe ships in Hormuz: 133 incidents and at least 25 seafarers killed since 28 Feb.",
+  "publishAtUtc": "2026-11-12T21:22:00Z",
+  "eventId": "HM-2026-111201",
+  "priorityScore": 80,
+  "pillar": "regulation",
+  "audience": [
+    "Master",
+    "DPA",
+    "Ship Manager",
+    "OOW"
+  ],
+  "sources": [
+    {
+      "title": "IMO Chief Calls for Strict Enforcement of SOLAS Rules in Strait of Hormuz",
+      "publisher": "gCaptain",
+      "url": "https://gcaptain.com/imo-chief-calls-for-strict-enforcement-of-solas-rules-in-strait-of-hormuz/",
+      "date": "2026-11-11"
+    },
+    {
+      "title": "IMO Chief Calls For Enforcement Of Maritime Rules In Strait Of Hormuz After 25 Seafarers Die In 133 Incidents",
+      "publisher": "Marine Insight",
+      "url": "https://www.marineinsight.com/imo-chief-calls-for-enforcement-of-maritime-rules-in-strait-of-hormuz-after-25-seafarers-die-in-133-incidents/",
+      "date": "2026-11-12"
+    },
+    {
+      "title": "IMO Calls for All Parties in Hormuz Crisis to Respect Seafarer Safety",
+      "publisher": "The Maritime Executive",
+      "url": "https://maritime-executive.com/article/imo-calls-for-all-parties-in-hormuz-crisis-to-respect-seafarer-safety",
+      "date": "2026-11-12"
+    }
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner intelligence desk",
+    "checkedAt": "2026-11-12T20:55:00Z",
+    "notes": "Facts cross-checked against at least two independent outlets or the primary statement; only verified facts used."
+  },
+  "image": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Headquarters_of_International_Maritime_Organization,_London_SE1_-_geograph.org.uk_-_2063392.jpg?width=1600",
+    "credit": "Geograph Britain and Ireland contributor (geograph.org.uk 2063392) / Wikimedia Commons",
+    "license": "CC BY-SA 2.0",
+    "representative": true
+  },
+  "meta": {
+    "description": "On 11 November 2026 IMO Secretary-General Arsenio Dominguez called on flag, port and coastal states to step up enforcement of IMO safety rules in the Strait of Hormuz. He cited substandard ships, vessels hiding their IMO numbers, fraudulent registrations and false flags. IMO has confirmed 133 incidents involving merchant ships since 28 February, with at least 25 seafarers killed. He also urged owners to avoid trading that exposes crews to unacceptable risk.",
+    "keywords": [
+      "IMO Hormuz enforcement",
+      "Strait of Hormuz shipping",
+      "SOLAS enforcement",
+      "seafarer safety",
+      "flag state control"
+    ],
+    "hashtags": [
+      "#IMO",
+      "#StraitOfHormuz",
+      "#SeafarerSafety",
+      "#SOLAS",
+      "#MaritimeSecurity"
+    ],
+    "question": "Should port states detain ships that hide their IMO numbers?",
+    "altText": "Representative photo of the IMO headquarters building in London with HeyMariner news card text on IMO's call for rule enforcement in the Strait of Hormuz."
+  }
+}

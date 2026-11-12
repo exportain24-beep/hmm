@@ -1,0 +1,71 @@
+{
+  "id": "maersk-it-security-incident-legacy-system",
+  "type": "technology",
+  "headline": "Maersk Confirms IT Security Incident",
+  "headlineAccent": "IT Security Incident",
+  "subheadline": "Verify unexpected messages via known contacts",
+  "location": "COPENHAGEN",
+  "dateLabel": "11 NOV 2026",
+  "insight": "Maersk found unauthorised access and data extraction from one local legacy system from a past acquisition. It says operations are not affected.",
+  "publishAtUtc": "2026-11-13T01:22:00Z",
+  "eventId": "HM-2026-111205",
+  "priorityScore": 66,
+  "pillar": "technology",
+  "audience": [
+    "Ship Manager",
+    "Master",
+    "IT Officer",
+    "Shipper"
+  ],
+  "sources": [
+    {
+      "title": "IT security incident",
+      "publisher": "A.P. Moller - Maersk",
+      "url": "https://www.maersk.com/news/articles/2026/11/11/it-security-incident",
+      "date": "2026-11-11"
+    },
+    {
+      "title": "Shipping giant Maersk probes IT security incident, data theft",
+      "publisher": "The Register",
+      "url": "https://www.theregister.com/security/2026/11/11/shipping-giant-maersk-probes-it-security-incident-data-theft/5309096",
+      "date": "2026-11-11"
+    },
+    {
+      "title": "Maersk investigates data breach involving legacy IT system",
+      "publisher": "Smart Maritime Network",
+      "url": "https://smartmaritimenetwork.com/2026/11/12/maersk-investigates-data-breach-involving-legacy-it-system",
+      "date": "2026-11-12"
+    }
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner intelligence desk",
+    "checkedAt": "2026-11-12T20:55:00Z",
+    "notes": "Facts cross-checked against at least two independent outlets or the primary statement; only verified facts used."
+  },
+  "image": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Container_ship_MV_Maersk_Alabama.jpg?width=1600",
+    "credit": "U.S. Navy / Wikimedia Commons",
+    "license": "Public domain",
+    "representative": true
+  },
+  "meta": {
+    "description": "On 11 November 2026 A.P. Moller - Maersk said it had identified unauthorised access and data extraction from one local legacy system that came from a previous acquisition. The company said findings so far strongly suggest no sensitive data was disclosed, with no sign of impact on other Maersk systems or on customer and partner API and EDI connections. Maersk does not expect disruption to customer operations, has secured the affected system and advises customers to verify any unexpected messages about the incident through their usual Maersk contact.",
+    "keywords": [
+      "Maersk cyber incident",
+      "maritime cybersecurity",
+      "data breach shipping",
+      "legacy IT system",
+      "phishing risk"
+    ],
+    "hashtags": [
+      "#MaritimeCyber",
+      "#CyberSecurity",
+      "#Maersk",
+      "#Shipping",
+      "#Logistics"
+    ],
+    "question": "Does your ship have a drill for suspicious emails after a supplier breach?",
+    "altText": "Representative photo of a Maersk container ship at sea with HeyMariner news card text on Maersk confirming an IT security incident."
+  }
+}

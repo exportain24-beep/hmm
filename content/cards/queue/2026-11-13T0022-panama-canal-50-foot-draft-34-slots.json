@@ -1,0 +1,71 @@
+{
+  "id": "panama-canal-50-foot-draft-34-slots",
+  "type": "navigation",
+  "headline": "Panama Canal Restores 50-Foot Draft",
+  "headlineAccent": "50-Foot Draft",
+  "subheadline": "More cargo per transit for Neopanamax ships",
+  "location": "PANAMA CANAL",
+  "dateLabel": "9 NOV 2026",
+  "insight": "The Panama Canal Authority raised the Neopanamax lock draft to 15.24 m (50 ft) with immediate effect and daily transit slots from 33 to 34 as lake levels improve.",
+  "publishAtUtc": "2026-11-13T00:22:00Z",
+  "eventId": "HM-2026-111204",
+  "priorityScore": 70,
+  "pillar": "news",
+  "audience": [
+    "Master",
+    "Chief Officer",
+    "Chartering",
+    "Ship Operator"
+  ],
+  "sources": [
+    {
+      "title": "Panama Canal Raises Daily Transit Capacity as Water Conditions Improve",
+      "publisher": "gCaptain",
+      "url": "https://gcaptain.com/panama-canal-raises-daily-transit-capacity-as-water-conditions-improve/",
+      "date": "2026-11-11"
+    },
+    {
+      "title": "Panama Canal Raises Daily Transits To 34 And Restores 50-Foot Neopanamax Draft As Water Levels Recover",
+      "publisher": "Marine Insight",
+      "url": "https://www.marineinsight.com/panama-canal-raises-daily-transits-to-34-and-restores-50-foot-neopanamax-draft-as-water-levels-recover/",
+      "date": "2026-11-12"
+    },
+    {
+      "title": "Panama Canal announces increase in draft and daily transit (October 2026 step)",
+      "publisher": "Panama Canal Authority",
+      "url": "https://pancanal.com/en/panama-canal-announces-increase-in-draft-and-daily-transit/",
+      "date": "2026-09-28"
+    }
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner intelligence desk",
+    "checkedAt": "2026-11-12T20:55:00Z",
+    "notes": "Facts cross-checked against at least two independent outlets or the primary statement; only verified facts used."
+  },
+  "image": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/USNS_Comfort_Transits_the_Panama_Canal_(9143468).jpg?width=1600",
+    "credit": "U.S. Navy / DVIDS / Wikimedia Commons",
+    "license": "Public domain",
+    "representative": true
+  },
+  "meta": {
+    "description": "In an advisory issued on 9 November 2026 the Panama Canal Authority raised the maximum authorised draft at the Neopanamax locks to 15.24 m (50 ft), effective immediately and until further notice, after an October increase to 49 ft. Total daily reservation slots rise from 33 to 34, with 24 at the Panamax locks and 10 at the Neopanamax locks. The authority cited improving lake levels and favourable hydrological forecasts and said the booking system remains the only way to guarantee a transit date.",
+    "keywords": [
+      "Panama Canal draft",
+      "Neopanamax locks",
+      "Panama Canal transit slots",
+      "canal draft restriction",
+      "voyage planning"
+    ],
+    "hashtags": [
+      "#PanamaCanal",
+      "#Neopanamax",
+      "#Shipping",
+      "#VoyagePlanning",
+      "#Maritime"
+    ],
+    "question": "How much extra cargo does one more foot of draft mean for your ship?",
+    "altText": "Representative photo of a ship transiting the Panama Canal with HeyMariner news card text on the canal restoring a 50-foot Neopanamax draft."
+  }
+}
