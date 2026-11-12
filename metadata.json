@@ -1,0 +1,149 @@
+{
+  "id": "ecdis-safety-contour",
+  "title": "How does an ECDIS safety contour work?",
+  "description": "The ECDIS safety contour marks the boundary between safe and unsafe water and drives the anti-grounding alarm. See how ECDIS chooses the contour, what goes into the value and the most common mistake officers make.",
+  "category": "equipment",
+  "template": "equipment-explained",
+  "targetAudience": [
+    "OOW",
+    "Second Officer",
+    "Chief Officer",
+    "Deck Cadet"
+  ],
+  "source": [
+    {
+      "title": "Resolution MSC.232(82): Revised performance standards for ECDIS",
+      "publisher": "IMO",
+      "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.232(82).pdf"
+    },
+    {
+      "title": "IHO S-52: Specifications for chart content and display aspects of ECDIS",
+      "publisher": "IHO",
+      "url": "https://iho.int/en/standards-and-specifications"
+    }
+  ],
+  "sourceDate": null,
+  "script": "One setting on your ECDIS decides where safe water ends. Set it wrong, and the grounding alarm may warn you too late. The safety contour is a depth contour that you select. ECDIS draws it as a bold line. Deeper water is shown as safe, shallower water as unsafe, and an alarm sounds before you cross it. Here is the catch. If you enter twelve metres and the chart has no twelve metre contour, ECDIS uses the next deeper one available. Here, that is fifteen metres. To set it, start with your deepest draught. Add squat at your planned speed, and the under keel clearance your company requires. Allow for height of tide only where your procedures permit it. The common mistake is keeping the value from the last voyage. A new draught needs a new safety contour, so check it in every passage plan. Key takeaway: the alarm only protects you if the contour is right. Learn more with HeyMariner.",
+  "voiceId": null,
+  "duration": 65.96666666666667,
+  "publishSchedule": "2026-11-12T17:37:43.703Z",
+  "platforms": {
+    "youtube": {
+      "title": "How does an ECDIS safety contour work? #Shorts",
+      "caption": "The ECDIS safety contour marks the boundary between safe and unsafe water and drives the anti-grounding alarm. See how ECDIS chooses the contour, what goes into the value and the most common mistake officers make.\n\nKnow Your Equipment | For: OOW, Second Officer, Chief Officer, Deck Cadet\n\nStay updated with the maritime industry.\nhttps://www.heymariner.com\n\nSources:\nIMO: https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.232(82).pdf\nIHO: https://iho.int/en/standards-and-specifications\n\n#ECDIS #navigation #deckofficer #bridgeteam #passageplanning #HeyMariner #maritime #seafarers",
+      "hashtags": [
+        "#ECDIS",
+        "#navigation",
+        "#deckofficer",
+        "#bridgeteam",
+        "#passageplanning",
+        "#HeyMariner",
+        "#maritime",
+        "#seafarers"
+      ],
+      "keywords": [
+        "ECDIS",
+        "safety contour",
+        "safety depth",
+        "anti-grounding alarm",
+        "passage planning",
+        "navigation",
+        "ENC"
+      ]
+    },
+    "tiktok": {
+      "title": "How does an ECDIS safety contour work?",
+      "caption": "One ECDIS setting separates safe water from danger. #ECDIS #navigation #deckofficer #bridgeteam #passageplanning",
+      "hashtags": [
+        "#ECDIS",
+        "#navigation",
+        "#deckofficer",
+        "#bridgeteam",
+        "#passageplanning"
+      ],
+      "keywords": [
+        "ECDIS",
+        "safety contour",
+        "safety depth",
+        "anti-grounding alarm",
+        "passage planning"
+      ]
+    },
+    "instagram": {
+      "title": "How does an ECDIS safety contour work?",
+      "caption": "One ECDIS setting separates safe water from danger.\n\nThe ECDIS safety contour marks the boundary between safe and unsafe water and drives the anti-grounding alarm. See how ECDIS chooses the contour, what goes into the value and the most common mistake officers make.\n\nStay updated with the maritime industry.\n.\n#ECDIS #navigation #deckofficer #bridgeteam #passageplanning #HeyMariner #maritime #seafarers #shipping",
+      "hashtags": [
+        "#ECDIS",
+        "#navigation",
+        "#deckofficer",
+        "#bridgeteam",
+        "#passageplanning",
+        "#HeyMariner",
+        "#maritime",
+        "#seafarers",
+        "#shipping"
+      ],
+      "keywords": [
+        "ECDIS",
+        "safety contour",
+        "safety depth",
+        "anti-grounding alarm",
+        "passage planning",
+        "navigation",
+        "ENC"
+      ]
+    },
+    "facebook": {
+      "title": "How does an ECDIS safety contour work?",
+      "caption": "How does an ECDIS safety contour work?\n\nThe ECDIS safety contour marks the boundary between safe and unsafe water and drives the anti-grounding alarm. See how ECDIS chooses the contour, what goes into the value and the most common mistake officers make.\n\nStay updated with the maritime industry.\n\n#ECDIS #navigation #deckofficer #bridgeteam",
+      "hashtags": [
+        "#ECDIS",
+        "#navigation",
+        "#deckofficer",
+        "#bridgeteam"
+      ],
+      "keywords": [
+        "ECDIS",
+        "safety contour",
+        "safety depth",
+        "anti-grounding alarm",
+        "passage planning",
+        "navigation",
+        "ENC"
+      ]
+    },
+    "linkedin": {
+      "title": "How does an ECDIS safety contour work?",
+      "caption": "How does an ECDIS safety contour work?\n\nThe ECDIS safety contour marks the boundary between safe and unsafe water and drives the anti-grounding alarm. See how ECDIS chooses the contour, what goes into the value and the most common mistake officers make.\n\nRelevant for: OOW, Second Officer, Chief Officer, Deck Cadet.\n\nSource: IMO\nMore maritime knowledge: https://www.heymariner.com\n\n#ECDIS #navigation #deckofficer #bridgeteam",
+      "hashtags": [
+        "#ECDIS",
+        "#navigation",
+        "#deckofficer",
+        "#bridgeteam"
+      ],
+      "keywords": [
+        "ECDIS",
+        "safety contour",
+        "safety depth",
+        "anti-grounding alarm",
+        "passage planning",
+        "navigation",
+        "ENC"
+      ]
+    },
+    "x": {
+      "title": "How does an ECDIS safety contour work?",
+      "caption": "How does an ECDIS safety contour work? #ECDIS #navigation",
+      "hashtags": [
+        "#ECDIS",
+        "#navigation"
+      ],
+      "keywords": [
+        "ECDIS",
+        "safety contour",
+        "safety depth",
+        "anti-grounding alarm"
+      ]
+    }
+  }
+}
