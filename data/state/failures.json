@@ -95,5 +95,19 @@
     "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"error_subcode\":5258005,\"fbtrace_id\":\"AmGg4uJ3mL1s_4NGWSuLC_Z\"}}",
     "at": "2026-11-12T23:19:40.285Z",
     "run": "43322825540"
+  },
+  {
+    "id": "singapore-strait-three-robberies-november",
+    "stage": "card:facebook",
+    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"error_subcode\":5258005,\"fbtrace_id\":\"A_pghT1FIUJrNBLJrCoZdbj\"}}",
+    "at": "2026-11-12T23:25:19.842Z",
+    "run": "43328627856"
+  },
+  {
+    "id": "singapore-strait-three-robberies-november",
+    "stage": "card:instagram",
+    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"error_subcode\":5258005,\"fbtrace_id\":\"ATYAVd97mTuWBjhYld_PNMT\"}}",
+    "at": "2026-11-12T23:25:20.007Z",
+    "run": "43328627856"
   }
 ]
