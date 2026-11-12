@@ -3,7 +3,7 @@ import React, {useMemo} from 'react';
 import * as THREE from 'three';
 
 /** Animated low-poly sea surface. `time` in seconds. */
-export const Ocean: React.FC<{time: number; size?: number; color?: string; y?: number; opacity?: number; amp?: number}> = ({time, size = 70, color = '#1F7FA8', y = 0, opacity = 1, amp = 0.13}) => {
+export const Ocean: React.FC<{time: number; size?: number; color?: string; y?: number; opacity?: number; amp?: number}> = ({time, size = 70, color = '#17678F', y = 0, opacity = 1, amp = 0.13}) => {
   const geo = useMemo(() => {
     const g = new THREE.PlaneGeometry(size, size, 44, 44);
     g.rotateX(-Math.PI / 2);
@@ -106,8 +106,8 @@ export const Vessel: React.FC<{x: number; z: number; heading: number; time: numb
   const wake = useMemo(() => {
     const s = new THREE.Shape();
     s.moveTo(-1.9, 0);
-    s.lineTo(-7.5, 1.25);
-    s.lineTo(-7.5, -1.25);
+    s.lineTo(-5.2, 0.62);
+    s.lineTo(-5.2, -0.62);
     s.closePath();
     const g = new THREE.ShapeGeometry(s);
     g.rotateX(-Math.PI / 2);
@@ -119,7 +119,7 @@ export const Vessel: React.FC<{x: number; z: number; heading: number; time: numb
         <ShipModel kind={kind} hull={hull} />
       </group>
       <mesh geometry={wake} position={[0, 0.2, 0]} scale={[Math.min(1, 0.35 + speed * 0.65), 1, 1]}>
-        <meshBasicMaterial color="#E0F7FF" transparent opacity={0.3} depthWrite={false} />
+        <meshBasicMaterial color="#E0F7FF" transparent opacity={0.24} depthWrite={false} />
       </mesh>
     </group>
   );

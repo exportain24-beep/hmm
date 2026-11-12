@@ -83,7 +83,7 @@ export const StatementScene: React.FC<SceneProps> = ({scene, timing, accent}) =>
           <div style={{alignSelf: 'flex-start', background: accent, color: C.deep, fontFamily: FONT_HEAD, fontWeight: 800, fontSize: fit(scene.label ?? '', 54, 16) * L.u, letterSpacing: 1, padding: `${12 * L.u}px ${26 * L.u}px`, borderRadius: 14 * L.u, transform: `scale(${0.7 + 0.3 * enter(frame, fps, 0, 0.35)})`, transformOrigin: 'left center', opacity: enter(frame, fps, 0, 0.3)}}>
             {scene.label}
           </div>
-          <div style={{fontFamily: FONT_HEAD, fontWeight: 700, fontSize: fit(scene.heading ?? '', 64, 30) * L.u, lineHeight: 1.12, color: C.white, marginTop: 22 * L.u, opacity: enter(frame, fps, 0.25, 0.45), transform: `translateY(${(1 - enter(frame, fps, 0.25, 0.45)) * 24}px)`}}>
+          <div style={{fontFamily: FONT_HEAD, fontWeight: 700, fontSize: fit(scene.heading ?? '', 72, 30) * L.u, lineHeight: 1.12, color: C.white, marginTop: 22 * L.u, opacity: enter(frame, fps, 0.25, 0.45), transform: `translateY(${(1 - enter(frame, fps, 0.25, 0.45)) * 24}px)`}}>
             {scene.heading}
           </div>
         </div>
@@ -94,7 +94,7 @@ export const StatementScene: React.FC<SceneProps> = ({scene, timing, accent}) =>
         <Content L={L}>
           <div style={{opacity: a, transform: `translateY(${(1 - a) * 40}px)`, marginTop: 20 * L.u}}>
             <Card L={L} accent={accent}>
-              <div style={bodyStyle(L, fit(scene.body, 50, 120, 0.72))}>
+              <div style={bodyStyle(L, fit(scene.body, 60, 110, 0.74))}>
                 {scene.body.split(/\s+/).map((w, i) => (
                   <span key={i} style={{opacity: 0.25 + 0.75 * enter(frame, fps, 0.5 + i * 0.045, 0.3)}}>{w} </span>
                 ))}
@@ -121,15 +121,15 @@ export const BulletsScene: React.FC<SceneProps> = ({scene, timing, accent}) => {
           const a = enter(frame, fps, at, 0.4);
           const tick = enter(frame, fps, at + 0.12, 0.3);
           return (
-            <div key={i} style={{opacity: a, transform: `translateX(${(1 - a) * 70}px)`, display: 'flex', alignItems: 'center', gap: 26 * L.u, background: 'linear-gradient(160deg, rgba(255,255,255,0.10), rgba(255,255,255,0.04))', border: `2px solid ${C.white}22`, borderRadius: 24 * L.u, padding: `${(compact ? 20 : 28) * L.u}px ${30 * L.u}px`}}>
-              <div style={{flex: 'none', width: 72 * L.u, height: 72 * L.u, borderRadius: check ? 18 * L.u : 36 * L.u, background: check ? `${accent}${tick > 0.5 ? 'FF' : '00'}` : accent, border: `4px solid ${accent}`, display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: FONT_HEAD, fontWeight: 800, fontSize: 38 * L.u, color: C.deep}}>
+            <div key={i} style={{opacity: a, transform: `translateX(${(1 - a) * 70}px)`, display: 'flex', alignItems: 'center', gap: 26 * L.u, background: 'linear-gradient(160deg, rgba(255,255,255,0.10), rgba(255,255,255,0.04))', border: `2px solid ${C.white}22`, borderRadius: 24 * L.u, padding: `${(compact ? 24 : 36) * L.u}px ${32 * L.u}px`}}>
+              <div style={{flex: 'none', width: 84 * L.u, height: 84 * L.u, borderRadius: check ? 20 * L.u : 42 * L.u, background: check ? `${accent}${tick > 0.5 ? 'FF' : '00'}` : accent, border: `4px solid ${accent}`, display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: FONT_HEAD, fontWeight: 800, fontSize: 44 * L.u, color: C.deep}}>
                 {check ? (
                   <svg width={44 * L.u} height={44 * L.u} viewBox="0 0 24 24"><path d="M4 12.5 L10 18 L20 6" fill="none" stroke={C.deep} strokeWidth="3.6" strokeLinecap="round" strokeLinejoin="round" strokeDasharray="26" strokeDashoffset={26 * (1 - tick)} /></svg>
                 ) : i + 1}
               </div>
               <div style={{flex: 1, minWidth: 0}}>
-                <div style={{fontFamily: FONT_HEAD, fontWeight: 600, fontSize: fit(it.title, compact ? 42 : 46, 28, 0.74) * L.u, color: C.white, lineHeight: 1.18}}>{it.title}</div>
-                {it.text ? <div style={{...bodyStyle(L, 32), color: C.mist, marginTop: 6 * L.u, lineHeight: 1.25}}>{it.text}</div> : null}
+                <div style={{fontFamily: FONT_HEAD, fontWeight: 600, fontSize: fit(it.title, compact ? 46 : 54, 26, 0.74) * L.u, color: C.white, lineHeight: 1.18}}>{it.title}</div>
+                {it.text ? <div style={{...bodyStyle(L, compact ? 34 : 38), color: C.mist, marginTop: 8 * L.u, lineHeight: 1.25}}>{it.text}</div> : null}
               </div>
             </div>
           );
@@ -151,7 +151,7 @@ export const CompareScene: React.FC<SceneProps> = ({scene, timing, accent}) => {
           const a = enter(frame, fps, at, 0.4);
           const warn = i >= items.length - 2;
           return (
-            <div key={i} style={{opacity: a, transform: `translateY(${(1 - a) * 30}px)`, display: 'flex', alignItems: 'center', gap: 24 * L.u, background: 'rgba(255,255,255,0.07)', border: `2px solid ${C.white}20`, borderRadius: 22 * L.u, padding: `${18 * L.u}px ${28 * L.u}px`}}>
+            <div key={i} style={{opacity: a, transform: `translateY(${(1 - a) * 30}px)`, display: 'flex', alignItems: 'center', gap: 24 * L.u, background: 'rgba(255,255,255,0.07)', border: `2px solid ${C.white}20`, borderRadius: 22 * L.u, padding: `${26 * L.u}px ${28 * L.u}px`}}>
               <div style={{flex: 'none', minWidth: 120 * L.u, textAlign: 'center', fontFamily: FONT_HEAD, fontWeight: 800, fontSize: fit(it.title, 56, 4, 0.5) * L.u, color: C.deep, background: warn ? C.amber : accent, borderRadius: 16 * L.u, padding: `${8 * L.u}px ${18 * L.u}px`}}>{it.title}</div>
               <div style={{flex: 1, ...bodyStyle(L, 34), color: C.mist}}>{it.text}</div>
               <div style={{flex: 'none', fontFamily: FONT_HEAD, fontWeight: 700, fontSize: 52 * L.u, color: warn ? C.amber : C.white}}>{it.value}</div>

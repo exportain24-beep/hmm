@@ -50,7 +50,7 @@ export const Contour3DScene: React.FC<SceneProps> = ({scene, timing, accent}) =>
   const marker = proj(xm, 0.2, DEPTH_Z / 2);
   return (
     <AbsoluteFill style={{opacity: vis}}>
-      <Title scene={scene} accent={accent} L={L} frame={frame} fps={fps} size={58} />
+      <Title scene={scene} accent={accent} L={L} frame={frame} fps={fps} size={66} />
       <Stage
         L={L}
         cam={cam}
@@ -129,7 +129,7 @@ export const Zoc3DScene: React.FC<SceneProps> = ({scene, timing, accent}) => {
   const lines = [-2.6, 0, 2.6];
   return (
     <AbsoluteFill style={{opacity: vis}}>
-      <Title scene={scene} accent={accent} L={L} frame={frame} fps={fps} size={58} />
+      <Title scene={scene} accent={accent} L={L} frame={frame} fps={fps} size={66} />
       <Stage
         L={L}
         cam={cam}
