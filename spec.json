@@ -1,0 +1,119 @@
+{
+  "id": "colreg-rule-15-crossing",
+  "template": "colreg-scenario",
+  "pillar": "colreg",
+  "audience": [
+    "OOW",
+    "Deck Cadet",
+    "Second Officer"
+  ],
+  "title": "Crossing situation: who gives way? COLREG Rule 15 explained",
+  "thumbnailText": "WHO GIVES WAY?",
+  "aspect": "9:16",
+  "mood": "curious",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "label": "WHO GIVES WAY?",
+      "heading": "Crossing situation. Who gives way?",
+      "narration": "Two power-driven vessels are crossing, and there is risk of collision. Who gives way?"
+    },
+    {
+      "id": "sim",
+      "kind": "colreg3d",
+      "label": "RULE 15",
+      "heading": "She is on your starboard side: you give way",
+      "visual": {
+        "type": "colreg",
+        "scenario": "crossing"
+      },
+      "cues": [
+        "bearing is not changing",
+        "alter course to starboard"
+      ],
+      "narration": "You are heading north. Another vessel is crossing from your starboard side, and her compass bearing is not changing. Under Rule 15, you are the give-way vessel. The usual action: alter course to starboard, early and substantially, and pass astern of her."
+    },
+    {
+      "id": "duties",
+      "kind": "bullets",
+      "label": "WHAT THE RULES REQUIRE",
+      "heading": "Give-way and stand-on",
+      "items": [
+        {
+          "title": "Give-way vessel",
+          "text": "Early and substantial action to keep well clear (Rule 16)"
+        },
+        {
+          "title": "Avoid crossing ahead",
+          "text": "If the circumstances of the case admit (Rule 15)"
+        },
+        {
+          "title": "Stand-on vessel",
+          "text": "Keeps course and speed, and keeps watching (Rule 17)"
+        }
+      ],
+      "cues": [
+        "give-way vessel takes",
+        "avoids crossing ahead",
+        "stand-on vessel keeps"
+      ],
+      "narration": "The give-way vessel takes early and substantial action to keep well clear, and avoids crossing ahead of the other. The stand-on vessel keeps her course and speed, but she must keep watching."
+    },
+    {
+      "id": "mistake",
+      "kind": "statement",
+      "label": "COMMON MISTAKE",
+      "heading": "Small alterations nobody can see",
+      "body": "A succession of small alterations of course or speed should be avoided (Rule 8). Make the action readily apparent.",
+      "narration": "The common mistake is a series of small alterations. Rule 8 requires an action large enough to be readily apparent to the other vessel, visually or by radar."
+    },
+    {
+      "id": "take",
+      "kind": "takeaway",
+      "label": "KEY TAKEAWAY",
+      "heading": "On your starboard side? You give way.",
+      "narration": "Remember: if she is on your starboard side, you give way."
+    },
+    {
+      "id": "end",
+      "kind": "endcard",
+      "narration": "Follow HeyMariner for practical maritime knowledge."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Convention on the International Regulations for Preventing Collisions at Sea, 1972 (COLREG)",
+      "publisher": "IMO",
+      "url": "https://www.imo.org/en/About/Conventions/Pages/COLREG.aspx"
+    }
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner editorial bank: written and checked against the cited conventions",
+    "checkedAt": "2026-11-12"
+  },
+  "meta": {
+    "description": "COLREG Rule 15 in 3D: two power-driven vessels crossing with risk of collision. Who is the give-way vessel, what action is expected, and the common mistake of small alterations.",
+    "keywords": [
+      "COLREG",
+      "collision regulations",
+      "rules of the road",
+      "give-way vessel",
+      "stand-on vessel",
+      "OOW",
+      "navigation"
+    ],
+    "hashtags": [
+      "#COLREG",
+      "#navigation",
+      "#rulesoftheroad",
+      "#deckcadet",
+      "#OOW"
+    ]
+  },
+  "origin": {
+    "type": "bank"
+  },
+  "series": "Who Gives Way?"
+}

@@ -1,0 +1,143 @@
+{
+  "id": "colreg-rule-15-crossing",
+  "title": "Crossing situation: who gives way? COLREG Rule 15 explained",
+  "description": "COLREG Rule 15 in 3D: two power-driven vessels crossing with risk of collision. Who is the give-way vessel, what action is expected, and the common mistake of small alterations.",
+  "category": "colreg",
+  "template": "colreg-scenario",
+  "targetAudience": [
+    "OOW",
+    "Deck Cadet",
+    "Second Officer"
+  ],
+  "source": [
+    {
+      "title": "Convention on the International Regulations for Preventing Collisions at Sea, 1972 (COLREG)",
+      "publisher": "IMO",
+      "url": "https://www.imo.org/en/About/Conventions/Pages/COLREG.aspx"
+    }
+  ],
+  "sourceDate": null,
+  "script": "Two power-driven vessels are crossing, and there is risk of collision. Who gives way? You are heading north. Another vessel is crossing from your starboard side, and her compass bearing is not changing. Under Rule 15, you are the give-way vessel. The usual action: alter course to starboard, early and substantially, and pass astern of her. The give-way vessel takes early and substantial action to keep well clear, and avoids crossing ahead of the other. The stand-on vessel keeps her course and speed, but she must keep watching. The common mistake is a series of small alterations. Rule 8 requires an action large enough to be readily apparent to the other vessel, visually or by radar. Remember: if she is on your starboard side, you give way. Follow HeyMariner for practical maritime knowledge.",
+  "voiceId": null,
+  "duration": 58.766666666666666,
+  "publishSchedule": "2026-11-12T18:01:47.744Z",
+  "platforms": {
+    "youtube": {
+      "title": "Crossing situation: who gives way? COLREG Rule 15 explained #Shorts",
+      "caption": "COLREG Rule 15 in 3D: two power-driven vessels crossing with risk of collision. Who is the give-way vessel, what action is expected, and the common mistake of small alterations.\n\nWho Gives Way? | For: OOW, Deck Cadet, Second Officer\n\nStay updated with the maritime industry.\nhttps://www.heymariner.com\n\nSources:\nIMO: https://www.imo.org/en/About/Conventions/Pages/COLREG.aspx\n\n#COLREG #navigation #rulesoftheroad #deckcadet #OOW #HeyMariner #maritime #seafarers",
+      "hashtags": [
+        "#COLREG",
+        "#navigation",
+        "#rulesoftheroad",
+        "#deckcadet",
+        "#OOW",
+        "#HeyMariner",
+        "#maritime",
+        "#seafarers"
+      ],
+      "keywords": [
+        "COLREG",
+        "collision regulations",
+        "rules of the road",
+        "give-way vessel",
+        "stand-on vessel",
+        "OOW",
+        "navigation"
+      ]
+    },
+    "tiktok": {
+      "title": "Crossing situation: who gives way? COLREG Rule 15 explained",
+      "caption": "Crossing situation. Who gives way? #COLREG #navigation #rulesoftheroad #deckcadet #OOW",
+      "hashtags": [
+        "#COLREG",
+        "#navigation",
+        "#rulesoftheroad",
+        "#deckcadet",
+        "#OOW"
+      ],
+      "keywords": [
+        "COLREG",
+        "collision regulations",
+        "rules of the road",
+        "give-way vessel",
+        "stand-on vessel"
+      ]
+    },
+    "instagram": {
+      "title": "Crossing situation: who gives way? COLREG Rule 15 explained",
+      "caption": "Crossing situation. Who gives way?\n\nCOLREG Rule 15 in 3D: two power-driven vessels crossing with risk of collision. Who is the give-way vessel, what action is expected, and the common mistake of small alterations.\n\nStay updated with the maritime industry.\n.\n#COLREG #navigation #rulesoftheroad #deckcadet #OOW #HeyMariner #maritime #seafarers #shipping",
+      "hashtags": [
+        "#COLREG",
+        "#navigation",
+        "#rulesoftheroad",
+        "#deckcadet",
+        "#OOW",
+        "#HeyMariner",
+        "#maritime",
+        "#seafarers",
+        "#shipping"
+      ],
+      "keywords": [
+        "COLREG",
+        "collision regulations",
+        "rules of the road",
+        "give-way vessel",
+        "stand-on vessel",
+        "OOW",
+        "navigation"
+      ]
+    },
+    "facebook": {
+      "title": "Crossing situation: who gives way? COLREG Rule 15 explained",
+      "caption": "Crossing situation: who gives way? COLREG Rule 15 explained\n\nCOLREG Rule 15 in 3D: two power-driven vessels crossing with risk of collision. Who is the give-way vessel, what action is expected, and the common mistake of small alterations.\n\nStay updated with the maritime industry.\n\n#COLREG #navigation #rulesoftheroad #deckcadet",
+      "hashtags": [
+        "#COLREG",
+        "#navigation",
+        "#rulesoftheroad",
+        "#deckcadet"
+      ],
+      "keywords": [
+        "COLREG",
+        "collision regulations",
+        "rules of the road",
+        "give-way vessel",
+        "stand-on vessel",
+        "OOW",
+        "navigation"
+      ]
+    },
+    "linkedin": {
+      "title": "Crossing situation: who gives way? COLREG Rule 15 explained",
+      "caption": "Crossing situation: who gives way? COLREG Rule 15 explained\n\nCOLREG Rule 15 in 3D: two power-driven vessels crossing with risk of collision. Who is the give-way vessel, what action is expected, and the common mistake of small alterations.\n\nRelevant for: OOW, Deck Cadet, Second Officer.\n\nSource: IMO\nMore maritime knowledge: https://www.heymariner.com\n\n#COLREG #navigation #rulesoftheroad #deckcadet",
+      "hashtags": [
+        "#COLREG",
+        "#navigation",
+        "#rulesoftheroad",
+        "#deckcadet"
+      ],
+      "keywords": [
+        "COLREG",
+        "collision regulations",
+        "rules of the road",
+        "give-way vessel",
+        "stand-on vessel",
+        "OOW",
+        "navigation"
+      ]
+    },
+    "x": {
+      "title": "Crossing situation: who gives way? COLREG Rule 15 explained",
+      "caption": "Crossing situation: who gives way? COLREG Rule 15 explained #COLREG #navigation",
+      "hashtags": [
+        "#COLREG",
+        "#navigation"
+      ],
+      "keywords": [
+        "COLREG",
+        "collision regulations",
+        "rules of the road",
+        "give-way vessel"
+      ]
+    }
+  }
+}
