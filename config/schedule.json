@@ -1,38 +1,44 @@
 {
-  "_comment": "Times in UTC. Video slots: production starts at the hour, publishing follows after render + QC (about 30-40 min). 06 UTC = 12:00 Dhaka / 14:00 Manila / 07:00 London; 12 UTC = 18:00 Dhaka / 20:00 Manila / 13:00 CET; 17 UTC = 23:00 Dhaka / 18:00 CET / 12:00 New York. Cards: 04 UTC = 10:00 Dhaka / 12:00 Manila; 14 UTC = 20:00 Dhaka / 15:00 CET.",
+  "_comment": "Times in UTC. Video slots: production starts at the hour, publishing follows after render + QC (about 30-40 min). 06 UTC = 12:00 Dhaka / 14:00 Manila / 07:00 London; 12 UTC = 18:00 Dhaka / 20:00 Manila / 13:00 CET; 17 UTC = 23:00 Dhaka / 18:00 CET / 12:00 New York. Cards: 04 UTC = 10:00 Dhaka / 12:00 Manila; 14 UTC = 20:00 Dhaka / 15:00 CET. All three daily videos are 100% educational (no news); news and incidents go to photo cards only.",
   "graceHours": 3,
   "slots": [
     {
       "id": "morning",
       "utcHour": 6,
-      "mode": "news-first",
+      "mode": "evergreen",
+      "stream": "deck",
       "pillars": [
-        "news",
-        "regulation",
-        "safety"
-      ]
+        "deck",
+        "colreg",
+        "terminology"
+      ],
+      "label": "Video 1: deck / navigation / seamanship"
     },
     {
       "id": "midday",
       "utcHour": 12,
       "mode": "evergreen",
+      "stream": "engine",
       "pillars": [
-        "deck",
-        "colreg",
-        "terminology",
-        "equipment"
-      ]
+        "engine"
+      ],
+      "label": "Video 2: engine / machinery / electrical / technical"
     },
     {
       "id": "evening",
       "utcHour": 17,
       "mode": "evergreen",
+      "stream": "safety",
       "pillars": [
-        "engine",
         "safety",
         "regulation",
+        "equipment",
+        "environment",
+        "career",
+        "technology",
         "ship-type"
-      ]
+      ],
+      "label": "Video 3: safety / regulation / equipment / professional knowledge"
     }
   ],
   "cards": [

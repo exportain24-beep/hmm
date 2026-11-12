@@ -8,6 +8,7 @@ type ContentSpec = {
   template: string;                 // one of the template ids below
   pillar: 'news'|'regulation'|'safety'|'deck'|'engine'|'equipment'|'terminology'|'colreg'|'ship-type'|'career'|'technology'|'market'|'environment'|'history';
   series?: string;
+  level: 'L1'|'L2'|'L3'|'L4'|'L5';  // L1 cadet .. L5 Master / Chief Engineer; match depth and wording to it
   audience: string[];               // e.g. ["OOW","Deck Cadet"]
   title: string;                    // max 90 chars, no clickbait
   thumbnailText: string;            // max 30 chars

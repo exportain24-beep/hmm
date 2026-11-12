@@ -24,7 +24,7 @@
   "tailSeconds": 0.35,
   "placeholderCharsPerSecond": 14.5,
   "maxCharsPerVideo": 1800,
-  "defaultVoiceId": "uFIXVu9mmnDZ7dTKCBTX",
-  "_comment": "Model is LOCKED to lockedModelId (no variable can change it). defaultVoiceId is the HeyMariner voice; the ELEVENLABS_VOICE_ID variable is optional. Billing: ElevenLabs pay-as-you-go through the API key. Speed raised 4% on request (13 Nov 2026).",
+  "defaultVoiceId": "s3TPKV1kjDlVtZbl4Ksh",
+  "_comment": "Model is LOCKED to lockedModelId (no variable can change it). defaultVoiceId is the HeyMariner voice (s3TPKV1kjDlVtZbl4Ksh since 13 Nov 2026); the ELEVENLABS_VOICE_ID variable is optional. Billing: ElevenLabs pay-as-you-go through the API key. Speed raised 4% on request (13 Nov 2026).",
   "lockedModelId": "eleven_v4_turbo"
 }

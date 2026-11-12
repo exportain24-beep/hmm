@@ -51,6 +51,8 @@ export type ContentSpec = {
   template: TemplateId;
   pillar: Pillar;
   series?: string;
+  /** L1 beginner (cadet) .. L5 expert (Master / Chief Engineer). */
+  level?: 'L1' | 'L2' | 'L3' | 'L4' | 'L5';
   audience: string[];
   title: string;
   /** Short line for thumbnails (max ~28 chars). */

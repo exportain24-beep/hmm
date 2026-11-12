@@ -46,7 +46,7 @@ export const choose = async (slot: Slot | null, opts: {research: boolean}): Prom
     if (errors.length) { log('plan', `queue item ${q.spec.id} is invalid, skipped`, errors.slice(0, 5)); continue; }
     return {spec: q.spec, reason: 'queued spec', queueFile: q.file};
   }
-  // 2. verified news, only when a writer + validator are available and the topic is strong enough
+  // 2. verified news (only for slots configured as news-first; the daily educational schedule has none)
   const mode = slot?.mode ?? 'evergreen';
   if (mode === 'news-first') {
     if (!llmProvider()) log('plan', 'news slot but no LLM key: research is scored, script writing skipped');

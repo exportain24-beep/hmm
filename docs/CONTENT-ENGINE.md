@@ -15,13 +15,19 @@ NEWS -> VERIFY -> ANALYZE -> EXPLAIN -> VISUALIZE. Never copy a headline, never 
 
 ## Daily mix
 
-| Slot | Video | Card |
-|---|---|---|
-| 1 | Current maritime insight: news, incident or regulation, only if verified today. Otherwise regulation/safety evergreen | Incident / news / regulation insight (verified) |
-| 2 | Deck or COLREG / navigation knowledge | Mariner knowledge, equipment, term of the day or "one rule" |
-| 3 | Engine, safety or equipment knowledge | |
+**The 3 daily videos are 100% educational. No news video, ever.** The full syllabus is `docs/VIDEO-CURRICULUM-BN.md`.
 
-Rotate deck and engine fairly. Vary the audience: cadet, OOW, chief officer / master, junior engineer, chief engineer.
+| Slot (UTC) | Video stream | Topics (rotate, never repeat) |
+|---|---|---|
+| 1 (06) | DECK / NAVIGATION / SEAMANSHIP | ECDIS, radar/ARPA, AIS, GNSS, gyro, echo sounder, parallel indexing, passage planning (appraisal to monitoring, safety contour, UKC, XTD, wheel-over, abort point), COLREG Rules 1-19 one per video (rule -> situation -> vessel movement -> correct action), mooring, anchoring, berthing, pilotage, ship handling, cargo, ballast, tanker / bulk / container operations |
+| 2 (12) | ENGINE / MACHINERY / ELECTRICAL / TECHNICAL | main engine systems, generators, boilers, purifiers, FWG, compressors, pumps, STP, OWS, incinerator, refrigeration, switchboard, emergency generator, insulation, batteries, automation, PLC, alarms, and troubleshooting videos (symptoms -> possible causes -> investigation -> corrective action -> safety) |
+| 3 (17) | SAFETY / REGULATION / EQUIPMENT / PROFESSIONAL | SOLAS, MARPOL annexes, STCW, ISM, ISPS, MLC, enclosed space, permit to work, hot work, working aloft, LOTO, fire, emergencies ("what would you do?"), Know Your Equipment (what / how / why / what can go wrong / what to check), term of the day, cadet academy, career, green shipping, maritime technology |
+
+Weekly rotation example: Mon ECDIS / main engine / SOLAS; Tue COLREG / purifier / enclosed space; Wed passage planning / boiler / MARPOL; Thu radar-ARPA / generator / ISM; Fri mooring / OWS / STCW; Sat cargo / automation / fire safety; Sun seamanship / troubleshooting / cadet academy. Next week the same categories with new topics.
+
+**Difficulty level** on every video (`level` in the spec): L1 beginner (cadet, student), L2 basic professional (junior officer), L3 intermediate (experienced officer), L4 advanced (senior officer), L5 expert (Master / Chief Engineer). A topic may return at another level, never as the same video (ECDIS L1 "what is ECDIS?", L2 "safety contour", L3 "CATZOC and route planning", L4 "route-checking errors", L5 "ECDIS risk management").
+
+**Photo cards** (2 a day) carry the current layer: card 1 = verified incident / regulation / news insight, card 2 = mariner knowledge.
 Series names: ONE MINUTE MARINER, MARITIME TERM OF THE DAY, KNOW YOUR EQUIPMENT, ONE RULE MARINERS SHOULD KNOW, REGULATION WATCH, SAFETY INSIGHT, INCIDENT LESSON, COLREG CHALLENGE, CADET CORNER, ENGINE ROOM INSIGHT.
 
 ## Frameworks
