@@ -12,7 +12,7 @@ export const validateCard = (c: CardSpec): string[] => {
   const e: string[] = [];
   if (!/^[a-z0-9][a-z0-9-]{2,80}$/.test(c.id ?? '')) e.push('id must be a slug');
   if (!['breaking', 'incident', 'casualty', 'safety', 'lesson', 'investigation', 'regulation', 'imo', 'psc', 'navigation', 'cargo', 'machinery', 'environment', 'security', 'technology', 'seafarer', 'knowledge', 'equipment', 'analysis'].includes(c.type)) e.push('unknown type');
-  if (c.image && (!c.image.url || !c.image.credit || !c.image.license)) e.push('image needs url, credit and license');
+  if (!c.image?.url || !c.image.credit || !c.image.license) e.push('a real photo is required: image.url, credit and license');
   if (c.breaking && (c.priorityScore ?? 0) < config<{breakingMinScore: number}>('cards').breakingMinScore) e.push('breaking needs priorityScore >= breakingMinScore');
   if (['breaking', 'incident', 'casualty', 'investigation', 'psc'].includes(c.type) && !c.eventId) e.push('real-time cards need an eventId');
   if (!c.headline || c.headline.length > LIM.headline) e.push(`headline missing or over ${LIM.headline}`);
@@ -147,6 +147,14 @@ export const runCard = async (id?: string, only?: string[], breakingOnly = false
   mkdirSync(dir, {recursive: true});
   const logo = config<{logoFile: string}>('brand').logoFile;
   const photo = await fetchPhoto(c);
+  if (!photo) {
+    state.addFailure({id: c.id, stage: 'card:photo', error: 'real photo missing or not downloadable; card not posted'});
+    const done0 = posted();
+    if (!isDryRun()) { done0[c.id] = {platforms: {}, at: new Date().toISOString()}; writeJson(p('data/state/cards.json'), done0); }
+    summary(`### Photo card skipped: ${c.headline}\n\nNo real photo could be downloaded, so nothing was posted (cards are never posted without a real photo).\n`);
+    log('cards', 'skipped: no real photo', {id: c.id});
+    return;
+  }
   const socialIcons = existsSync(p('public/brand/social')) ? readdirSync(p('public/brand/social')).filter((f) => /\.(png|svg|webp)$/i.test(f)).map((f) => `brand/social/${f}`) : [];
   writeJson(`${dir}/props.json`, {card: c, logo, photo, socialIcons});
   const img = `${dir}/card.png`;
