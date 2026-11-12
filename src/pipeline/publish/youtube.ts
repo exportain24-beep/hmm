@@ -40,7 +40,7 @@ export const YouTubePublisher: Publisher = {
     // Single PUT, not retried blindly: a retry after an unknown outcome could create a duplicate video.
     const up = await fetchRetry(uploadUrl, {method: 'PUT', headers: {'content-type': 'video/mp4'}, body: fileBody(file)}, {stage: 'youtube', retries: 0, timeoutMs: 15 * 60 * 1000});
     const j = await okJson<{id: string}>(up, 'youtube');
-    if (thumb && meta.duration > 180) {
+    if (thumb) {
       const t = await fetchRetry(`https://www.googleapis.com/upload/youtube/v3/thumbnails/set?videoId=${j.id}`, {method: 'POST', headers: {authorization: `Bearer ${token}`, 'content-type': 'image/png'}, body: fileBody(thumb)}, {stage: 'youtube', retries: 1});
       if (!t.ok) log('youtube', `custom thumbnail not set (HTTP ${t.status}); the channel may need verification`);
     }

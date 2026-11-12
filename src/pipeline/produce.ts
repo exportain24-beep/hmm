@@ -1,11 +1,17 @@
 // Spec -> voice -> silent Remotion render -> music + SFX mix -> final MP4 -> thumbnail.
 import {existsSync, mkdirSync, statSync} from 'node:fs';
 import type {ContentSpec, Timeline, VideoProps} from '../shared/types.ts';
-import {THREE_D_KINDS} from '../shared/templates.ts';
+import {TEMPLATES, THREE_D_KINDS} from '../shared/templates.ts';
+import {layoutFor} from '../shared/layout.ts';
 import {config, log, p, run, sha1, writeJson} from './lib.ts';
 import {buildVoice} from './voice.ts';
 
 const ENTRY = 'src/video/index.ts';
+const accentHex = (spec: ContentSpec) => {
+  const c = config<{colors: Record<string, string>}>('brand').colors;
+  const a = TEMPLATES[spec.template]?.accent ?? 'teal';
+  return a === 'amber' ? c.amber : a === 'red' ? c.red : a === 'green' ? c.green : c.tealBright;
+};
 
 const sfxEvents = (spec: ContentSpec, tl: Timeline) => {
   const ev: {name: string; t: number}[] = [];
@@ -62,7 +68,6 @@ export const produce = async (spec: ContentSpec, opts: {skipRender?: boolean} = 
   log('render', 'render started', {composition: 'HeyMariner', frames: Math.round(timeline.totalSeconds * timeline.fps), uses3d});
   const common = [`--props=${workDir}/props.json`, '--gl=swangle', '--log=error'];
   run('npx', ['remotion', 'render', ENTRY, 'HeyMariner', `${workDir}/silent.mp4`, ...common, '--muted', '--codec=h264', '--crf=14', '--timeout=120000'], {stage: 'render', timeoutMs: 100 * 60 * 1000});
-  run('npx', ['remotion', 'still', ENTRY, timeline.height > timeline.width ? 'ThumbnailVertical' : 'ThumbnailWide', thumb, ...common], {stage: 'render', timeoutMs: 10 * 60 * 1000});
   // Final encode: broadcast-safe limited-range yuv420p with BT.709 tags (Remotion's JPEG frames arrive full-range).
   run('ffmpeg', ['-y', '-loglevel', 'error', '-i', `${workDir}/silent.mp4`, '-i', `${workDir}/mix.m4a`, '-map', '0:v:0', '-map', '1:a:0',
     '-vf', 'scale=in_range=full:out_range=tv,format=yuv420p', '-c:v', 'libx264', '-preset', 'medium', '-crf', '18', '-profile:v', 'high',
@@ -70,5 +75,18 @@ export const produce = async (spec: ContentSpec, opts: {skipRender?: boolean} = 
     '-c:a', 'copy', '-movflags', '+faststart', '-shortest', final], {stage: 'render', timeoutMs: 20 * 60 * 1000});
   log('render', 'render completed', {file: final, mb: +(statSync(final).size / 1e6).toFixed(1)});
   contactSheet(final, timeline, `${workDir}/sheet.jpg`);
+  // Thumbnail from the strongest visual moment of the video itself (topic graphic + big highlighted headline).
+  const vis = spec.scenes.findIndex((s) => THREE_D_KINDS.includes(s.kind) || ['radar', 'ukc', 'stat', 'compare'].includes(s.kind));
+  const k = vis >= 0 ? vis : 1;
+  const tt = timeline.scenes[k];
+  const at = tt.start + Math.min(tt.end - tt.start - 0.4, (tt.cueTimes[0] ?? 0.8) + 1.4);
+  const tpl = TEMPLATES[spec.template];
+  const lay = layoutFor(timeline.width, timeline.height);
+  const r = run('python3', [p('tools/thumbnail.py'), '--video', final, '--at', at.toFixed(2), '--text', spec.thumbnailText, '--badge', spec.series ? spec.series.toUpperCase() : tpl.badge,
+    '--logo', p('public', config<{logoFile: string}>('brand').logoFile), '--fonts', p('public/fonts'), '--accent', accentHex(spec), '--out', thumb, '--wide', `${workDir}/thumb_16x9.jpg`, '--crop', [lay.panel.x, lay.panel.y, lay.panel.w, lay.panel.h].join(',')], {stage: 'thumbnail', allowFail: true});
+  if (r.code !== 0) {
+    log('thumbnail', 'custom thumbnail failed, falling back to the Remotion still', {error: r.stderr.slice(-300)});
+    run('npx', ['remotion', 'still', ENTRY, timeline.height > timeline.width ? 'ThumbnailVertical' : 'ThumbnailWide', thumb, ...common], {stage: 'render', timeoutMs: 10 * 60 * 1000});
+  }
   return {workDir, final, thumb, timeline, voiceId, uses3d};
 };

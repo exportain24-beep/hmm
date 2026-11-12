@@ -6,10 +6,10 @@
 //   validate                      validate every spec in content/bank and content/queue
 //   health                        check credentials, providers and the render environment
 //   cleanup                       delete old temporary media
-import {copyFileSync, existsSync, mkdirSync, rmSync} from 'node:fs';
+import {copyFileSync, existsSync, mkdirSync, rmSync, writeFileSync} from 'node:fs';
 import {config, env, isAutoPublish, isDryRun, log, p, PipelineError, run, setOutput, state, summary, writeJson} from './lib.ts';
 import {llmProvider} from './llm.ts';
-import {buildMetadata} from './metadata.ts';
+import {buildMetadata, uploadKit} from './metadata.ts';
 import {archiveQueueFile, choose, dueSlot, findSpec, loadBank, markSlot} from './plan.ts';
 import {produce} from './produce.ts';
 import {PUBLISHERS, publishAll} from './publish/index.ts';
@@ -56,12 +56,13 @@ const cmdRun = async () => {
   const out = await produce(spec, {skipRender: has('skip-render')});
   const meta = buildMetadata(spec, out.timeline, out.voiceId, new Date().toISOString());
   writeJson(`${out.workDir}/metadata.json`, meta);
+  writeFileSync(`${out.workDir}/upload.md`, uploadKit(meta));
   const qc = has('skip-render') ? null : runQc(spec, out.timeline, out.final, `${out.workDir}/qc.json`);
 
   // review bundle (uploaded as a workflow artifact)
   const outDir = p('out', spec.id);
   mkdirSync(outDir, {recursive: true});
-  for (const f of ['final.mp4', 'sheet.jpg', 'thumb.png', 'metadata.json', 'qc.json', 'spec.json', 'timeline.json']) {
+  for (const f of ['final.mp4', 'sheet.jpg', 'thumb.png', 'thumb_16x9.jpg', 'upload.md', 'metadata.json', 'qc.json', 'spec.json', 'timeline.json']) {
     if (existsSync(`${out.workDir}/${f}`)) copyFileSync(`${out.workDir}/${f}`, `${outDir}/${f}`);
   }
   summary([
@@ -114,6 +115,19 @@ const cmdHealth = async () => {
     } catch (e) { add('ElevenLabs', false, (e as Error).message); }
   }
   add('Script writer (LLM)', llmProvider() ? true : null, llmProvider() ?? 'no ANTHROPIC_API_KEY / OPENAI_API_KEY: only bank + queue content will be produced');
+  if (env('META_ACCESS_TOKEN')) {
+    // Meta diagnostics: which object rejects the token, and what the token itself is allowed to do
+    const v = env('META_GRAPH_VERSION') || 'v23.0';
+    for (const [name, path] of [['meta: token owner (/me)', 'me?fields=id,name'], ['meta: pages on token (/me/accounts)', 'me/accounts?fields=id,name,tasks'], ['meta: granted permissions', 'me/permissions']] as [string, string][]) {
+      try {
+        const r = await fetch(`https://graph.facebook.com/${v}/${path}${path.includes('?') ? '&' : '?'}access_token=${encodeURIComponent(env('META_ACCESS_TOKEN'))}`, {signal: AbortSignal.timeout(20_000)});
+        const j = (await r.json()) as {data?: {id?: string; name?: string; permission?: string; status?: string}[]; name?: string; id?: string; error?: {message: string; code: number; error_subcode?: number}};
+        if (j.error) add(name, false, `${j.error.message} (code ${j.error.code}/${j.error.error_subcode ?? '-'})`);
+        else if (j.data) add(name, true, j.data.map((d) => d.permission ? `${d.permission}:${d.status}` : `${d.name} (${d.id})`).join(', ').slice(0, 400) || 'none');
+        else add(name, true, `${j.name ?? ''} (${j.id ?? ''})`);
+      } catch (e) { add(name, false, (e as Error).message); }
+    }
+  }
   for (const pub of PUBLISHERS) {
     const missing = pub.requiredEnv.filter((k) => !env(k));
     if (missing.length) { add(`publisher: ${pub.id}`, null, `missing ${missing.join(', ')}`); continue; }

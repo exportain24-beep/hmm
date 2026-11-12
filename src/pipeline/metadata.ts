@@ -43,3 +43,13 @@ export const buildMetadata = (spec: ContentSpec, timeline: Timeline, voiceId: st
     script: narrationText(spec), voiceId, duration: timeline.totalSeconds, publishSchedule, platforms,
   };
 };
+
+/** Copy-paste kit for a manual upload: one block per platform. */
+export const uploadKit = (m: Metadata): string => {
+  const P: [string, keyof Metadata['platforms']][] = [['YouTube Shorts', 'youtube'], ['Facebook Reel', 'facebook'], ['Instagram Reel', 'instagram'], ['TikTok', 'tiktok'], ['LinkedIn', 'linkedin'], ['X', 'x']];
+  return [`# Upload kit: ${m.title}`, '', `Duration ${m.duration.toFixed(1)} s. Thumbnail: thumb.png (vertical), thumb_16x9.jpg (wide).`, '',
+    ...P.flatMap(([name, k]) => {
+      const x = m.platforms[k];
+      return [`## ${name}`, '', '**Title**', '', '```', x.title, '```', '', '**Description / caption**', '', '```', x.caption, '```', '', ...(k === 'youtube' ? ['**Tags**', '', '```', x.keywords.join(', '), '```', ''] : [])];
+    })].join('\n');
+};
