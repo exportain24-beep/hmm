@@ -167,6 +167,8 @@ export type CardSpec = {
   /** Event date shown on the card, e.g. "12 NOV 2026". */
   dateLabel?: string;
   priorityScore?: number;
+  /** Exact UTC publish time (ISO). The hourly HH:22 run posts the card once this time has passed. */
+  publishAtUtc?: string;
   /** Publish immediately outside the slots (only with priorityScore >= breakingMinScore). */
   breaking?: boolean;
 };

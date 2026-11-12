@@ -33,8 +33,10 @@
       "id": "marineinsight",
       "name": "Marine Insight",
       "url": "https://www.marineinsight.com/feed/",
-      "reliability": 0.75,
-      "tier": "press"
+      "reliability": 0.85,
+      "tier": "press",
+      "priority": "high",
+      "note": "Owner: check most often for real-time maritime insight"
     },
     {
       "id": "hellenic",

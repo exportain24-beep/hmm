@@ -12,9 +12,14 @@ type Schedule = {graceHours: number; slots: Slot[]};
 
 /** Which slot is due right now and has not run today? Reruns of the same hour return null. */
 export const dueSlot = (now = new Date()): Slot | null => {
-  const sch = config<Schedule>('schedule');
+  const sch = config<Schedule & {oneOff?: {id: string; at: string; pillars: string[]}[]}>('schedule');
   const done = state.slots();
   const day = now.toISOString().slice(0, 10);
+  // one-off launch slots (exact UTC times)
+  for (const o of sch.oneOff ?? []) {
+    const at = Date.parse(o.at);
+    if (now.getTime() >= at - 5 * 60_000 && now.getTime() < at + sch.graceHours * 3.6e6 && !done[o.id]) return {id: o.id, utcHour: new Date(at).getUTCHours(), mode: 'evergreen', pillars: o.pillars};
+  }
   const hour = now.getUTCHours() + now.getUTCMinutes() / 60;
   for (const s of sch.slots) {
     if (hour >= s.utcHour && hour < s.utcHour + sch.graceHours && done[s.id] !== day) return s;

@@ -16,7 +16,7 @@ import {PUBLISHERS, publishAll} from './publish/index.ts';
 import {cleanupMedia} from './publish/hosting.ts';
 import {runQc} from './qc.ts';
 import {runResearch} from './research.ts';
-import {cardSlotsFor, chooseCard, dueCardSlot, runCard, validateCard} from './cards.ts';
+import {cardSlotsFor, chooseCard, dueCardSlot, runCard, scheduledDue, validateCard} from './cards.ts';
 import {validateSpec} from './spec.ts';
 import {seoFilename} from './seo.ts';
 import {resolveVoice} from './voice.ts';
@@ -156,9 +156,11 @@ const main = async () => {
     log('schedule', enabled ? (slot ? `slot due: ${slot.id}` : 'no slot due') : 'scheduled production is off (PIPELINE_ENABLED / config/runtime.json)');
     setOutput('slot', slot?.id ?? '');
   } else if (cmd === 'cards-due') {
-    const slot = isCardsEnabled() ? dueCardSlot() : null;
-    const breaking = isCardsEnabled() && !slot ? chooseCard(undefined, true) : null;
-    log('schedule', slot ? `card slot due: ${slot.id}` : breaking ? `breaking card waiting: ${breaking.card.id}` : isCardsEnabled() ? `no card slot due (${cardSlotsFor().perDay}/day: ${cardSlotsFor().slots.join(', ')} UTC)` : 'photo cards are off');
+    const timed = isCardsEnabled() ? scheduledDue() : null;
+    const slot = isCardsEnabled() && !timed ? dueCardSlot() : null;
+    const breaking = isCardsEnabled() && !slot && !timed ? chooseCard(undefined, true) : null;
+    if (timed) setOutput('card_id', timed.card.id);
+    log('schedule', timed ? `scheduled card due: ${timed.card.id} (${timed.card.publishAtUtc})` : slot ? `card slot due: ${slot.id}` : breaking ? `breaking card waiting: ${breaking.card.id}` : isCardsEnabled() ? `no card slot due (${cardSlotsFor().perDay}/day: ${cardSlotsFor().slots.join(', ')} UTC)` : 'photo cards are off');
     setOutput('slot', slot?.id ?? '');
     setOutput('breaking', breaking ? 'true' : '');
   } else if (cmd === 'card') {

@@ -40,5 +40,35 @@
       ],
       "label": "Video 3: safety / regulation / equipment / professional knowledge"
     }
+  ],
+  "oneOff": [
+    {
+      "id": "once-2026-11-12-a",
+      "at": "2026-11-12T21:17:00Z",
+      "pillars": [
+        "colreg",
+        "deck",
+        "terminology"
+      ],
+      "label": "launch video 1 (deck)"
+    },
+    {
+      "id": "once-2026-11-12-b",
+      "at": "2026-11-12T22:17:00Z",
+      "pillars": [
+        "engine"
+      ],
+      "label": "launch video 2 (engine)"
+    },
+    {
+      "id": "once-2026-11-12-c",
+      "at": "2026-11-12T23:17:00Z",
+      "pillars": [
+        "safety",
+        "regulation",
+        "equipment"
+      ],
+      "label": "launch video 3 (safety)"
+    }
   ]
 }

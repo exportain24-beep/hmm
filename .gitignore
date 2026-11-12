@@ -10,3 +10,4 @@ apps/studio/public/fonts/
 apps/studio/public/brand/
 __pycache__/
 .DS_Store
+public/brand/social/*.svg

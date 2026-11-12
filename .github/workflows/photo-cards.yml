@@ -56,15 +56,16 @@ jobs:
         if: github.event_name == 'schedule'
         run: npx --yes tsx@4.19.4 src/pipeline/cli.ts cards-due
       - name: Install
-        if: github.event_name == 'workflow_dispatch' || steps.due.outputs.slot != '' || steps.due.outputs.breaking != ''
+        if: github.event_name == 'workflow_dispatch' || steps.due.outputs.slot != '' || steps.due.outputs.breaking != '' || steps.due.outputs.card_id != ''
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq libnss3 libgbm-dev libasound2t64 libxkbcommon-dev || true
           if [ -f package-lock.json ]; then npm ci --no-audit --no-fund; else npm install --no-audit --no-fund; fi
           npx remotion browser ensure
+          npm install --no-save --no-audit --no-fund simple-icons && node tools/social-icons.mjs || echo "::warning::platform icons not generated, text labels used"
       - name: Render and post
-        if: github.event_name == 'workflow_dispatch' || steps.due.outputs.slot != '' || steps.due.outputs.breaking != ''
+        if: github.event_name == 'workflow_dispatch' || steps.due.outputs.slot != '' || steps.due.outputs.breaking != '' || steps.due.outputs.card_id != ''
         env:
-          CARD_ID: ${{ inputs.card_id }}
+          CARD_ID: ${{ inputs.card_id || steps.due.outputs.card_id }}
           PLATFORMS: ${{ inputs.platforms }}
           SLOT: ${{ steps.due.outputs.slot }}
           BREAKING: ${{ steps.due.outputs.breaking }}

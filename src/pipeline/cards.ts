@@ -13,6 +13,7 @@ export const validateCard = (c: CardSpec): string[] => {
   if (!/^[a-z0-9][a-z0-9-]{2,80}$/.test(c.id ?? '')) e.push('id must be a slug');
   if (!['breaking', 'incident', 'casualty', 'safety', 'lesson', 'investigation', 'regulation', 'imo', 'psc', 'navigation', 'cargo', 'machinery', 'environment', 'security', 'technology', 'seafarer', 'knowledge', 'equipment', 'analysis'].includes(c.type)) e.push('unknown type');
   if (!c.image?.url || !c.image.credit || !c.image.license) e.push('a real photo is required: image.url, credit and license');
+  if (c.publishAtUtc && isNaN(Date.parse(c.publishAtUtc))) e.push('publishAtUtc must be an ISO date-time');
   if (c.breaking && (c.priorityScore ?? 0) < config<{breakingMinScore: number}>('cards').breakingMinScore) e.push('breaking needs priorityScore >= breakingMinScore');
   if (['breaking', 'incident', 'casualty', 'investigation', 'psc'].includes(c.type) && !c.eventId) e.push('real-time cards need an eventId');
   if (!c.headline || c.headline.length > LIM.headline) e.push(`headline missing or over ${LIM.headline}`);
@@ -32,13 +33,22 @@ const loadDir = (dir: string) => (existsSync(dir) ? readdirSync(dir).filter((f) 
 
 const posted = () => readJson<Record<string, {platforms: Record<string, {id: string; at: string}>; at: string}>>(p('data/state/cards.json'), {});
 
+/** Queued, verified, unposted card whose publishAtUtc has passed (oldest first, within 12 hours). */
+export const scheduledDue = (now = new Date()) => {
+  const done = posted();
+  return loadDir(p('content/cards/queue'))
+    .filter((x) => x.card.publishAtUtc && Date.parse(x.card.publishAtUtc) <= now.getTime() + 5 * 60_000 && now.getTime() - Date.parse(x.card.publishAtUtc) < 12 * 3.6e6)
+    .filter((x) => !done[x.card.id] && x.card.factCheck.status === 'verified' && validateCard(x.card).length === 0)
+    .sort((a, b) => Date.parse(a.card.publishAtUtc!) - Date.parse(b.card.publishAtUtc!))[0] ?? null;
+};
+
 export const chooseCard = (id?: string, breakingOnly = false) => {
   const queue = loadDir(p('content/cards/queue')).sort((a, b) => Number(Boolean(b.card.breaking)) - Number(Boolean(a.card.breaking)) || (b.card.priorityScore ?? 0) - (a.card.priorityScore ?? 0));
   const bank = config<{fallbackToBank: boolean}>('cards').fallbackToBank ? loadDir(p('content/cards/bank')) : [];
   const all = [...queue, ...bank];
   if (id) return all.find((x) => x.card.id === id) ?? null;
   const done = posted();
-  const ok = (x: {card: CardSpec}) => !done[x.card.id] && validateCard(x.card).length === 0 && x.card.factCheck.status === 'verified';
+  const ok = (x: {card: CardSpec}) => !done[x.card.id] && validateCard(x.card).length === 0 && x.card.factCheck.status === 'verified' && !(x.card.publishAtUtc && Date.parse(x.card.publishAtUtc) > Date.now() + 5 * 60_000);
   if (breakingOnly) return queue.find((x) => ok(x) && x.card.breaking) ?? null;
   return all.find(ok) ?? null;
 };
