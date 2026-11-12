@@ -96,15 +96,15 @@ export const PhotoCard: React.FC<CardProps> = ({card, logo, socialIcons = [], ph
         <path d="M0 52 C 260 18, 520 18, 760 40 S 1000 54, 1080 20" fill="none" stroke={TEAL} strokeWidth="5" />
         <path d="M0 52 C 260 18, 520 18, 760 40 S 1000 54, 1080 20 L 1080 80 L 0 80 Z" fill="#041A33" opacity="0.9" />
       </svg>
-      <div style={{position: 'absolute', left: 0, right: 0, bottom: 0, height: 120 * u, background: '#041A33', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 14 * u, padding: `0 ${24 * u}px`}}>
+      <div style={{position: 'absolute', left: 0, right: 0, bottom: 0, height: 120 * u, background: '#041A33', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 9 * u, padding: `0 ${18 * u}px`}}>
         {PLATFORMS.map(([id, label], i) => {
           const icon = socialIcons.find((f) => f.split('/').pop()!.startsWith(id + '.'));
           return (
             <React.Fragment key={id}>
-              {i ? <div style={{width: 2 * u, height: 36 * u, background: 'rgba(255,255,255,0.35)'}} /> : null}
-              <div style={{display: 'flex', alignItems: 'center', gap: 8 * u}}>
-                {icon ? <Img src={staticFile(icon)} style={{height: 34 * u, width: 34 * u, objectFit: 'contain'}} /> : <div style={{fontFamily: FONT_HEAD, fontWeight: 700, fontSize: 17 * u, color: TEAL, letterSpacing: 0.5}}>{label}</div>}
-                <div style={{fontFamily: FONT_BODY, fontWeight: 600, fontSize: (icon ? 19 : 16) * u, color: '#FFFFFF'}}>{handle}</div>
+              {i ? <div style={{width: 2 * u, height: 30 * u, background: 'rgba(255,255,255,0.35)'}} /> : null}
+              <div style={{display: 'flex', alignItems: 'center', gap: 6 * u, whiteSpace: 'nowrap'}}>
+                {icon ? <Img src={staticFile(icon)} style={{height: 34 * u, width: 34 * u, objectFit: 'contain'}} /> : <div style={{fontFamily: FONT_HEAD, fontWeight: 700, fontSize: 14 * u, color: TEAL}}>{label}</div>}
+                <div style={{fontFamily: FONT_BODY, fontWeight: 600, fontSize: (icon ? 18 : 14) * u, color: '#FFFFFF'}}>{handle}</div>
               </div>
             </React.Fragment>
           );
