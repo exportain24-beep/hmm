@@ -48,5 +48,11 @@
     "checkedAt": "2026-11-13"
   },
   "headlineAccent": "1 March 2027",
-  "location": "Arctic · Norwegian Sea"
+  "location": "Arctic · Norwegian Sea",
+  "image": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Santa_Rita_%E2%80%93_Vancouver,_BC_%E2%80%93_(2018-10-06).jpg?width=1600",
+    "credit": "Ryan Sharpe / Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "representative": true
+  }
 }

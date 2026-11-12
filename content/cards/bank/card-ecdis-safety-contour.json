@@ -44,5 +44,11 @@
     "by": "HeyMariner editorial bank: checked against the cited conventions",
     "checkedAt": "2026-11-13"
   },
-  "headlineAccent": "That Matters"
+  "headlineAccent": "That Matters",
+  "image": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Navigation_system_on_a_merchant_ship.jpg",
+    "credit": "Hervé Cozanet / Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "representative": true
+  }
 }

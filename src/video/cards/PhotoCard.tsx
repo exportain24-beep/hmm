@@ -51,7 +51,7 @@ export const PhotoCard: React.FC<CardProps> = ({card, logo, socialIcons = [], ph
         {src ? <Img src={src} style={{width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 40%'}} /> : <MotifArt motif={card.motif ?? MOTIF[card.type] ?? 'voyage'} t={8.2} seconds={10} accent={TEAL} id={`card${card.id}`} width={width} height={height * 0.78} />}
       </div>
       <AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(4,20,44,0.35) 0%, rgba(4,20,44,0) 18%, rgba(4,20,44,0) 40%, rgba(6,32,63,0.88) 58%, #06203F 72%, #051A33 100%)'}} />
-      {src && card.image ? <div style={{position: 'absolute', right: 24 * u, top: height * 0.5, fontFamily: FONT_BODY, fontWeight: 600, fontSize: 16 * u, color: 'rgba(255,255,255,0.75)', textShadow: '0 1px 4px rgba(0,0,0,0.8)'}}>{card.image.representative ? 'Representative image' : `Photo: ${card.image.credit}`}</div> : null}
+      {src && card.image ? <div style={{position: 'absolute', right: 24 * u, top: height * 0.5, fontFamily: FONT_BODY, fontWeight: 600, fontSize: 16 * u, color: 'rgba(255,255,255,0.75)', textShadow: '0 1px 4px rgba(0,0,0,0.8)'}}>{card.image.representative ? 'Representative image · ' : ''}Photo: {card.image.credit} ({card.image.license})</div> : null}
 
       {/* category badge, slanted, top left */}
       <div style={{position: 'absolute', left: 36 * u, top: 74 * u, display: 'flex', alignItems: 'center', gap: 10 * u}}>

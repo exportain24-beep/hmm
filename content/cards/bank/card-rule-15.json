@@ -44,5 +44,11 @@
     "by": "HeyMariner editorial bank: checked against the cited conventions",
     "checkedAt": "2026-11-13"
   },
-  "headlineAccent": "Crossing Situation"
+  "headlineAccent": "Crossing Situation",
+  "image": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Santa_Rita_%E2%80%93_Vancouver,_BC_%E2%80%93_(2018-10-06).jpg?width=1600",
+    "credit": "Ryan Sharpe / Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "representative": true
+  }
 }
