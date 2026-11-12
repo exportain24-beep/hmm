@@ -53,5 +53,19 @@
     "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"error_subcode\":5258005,\"fbtrace_id\":\"AM-1d6gr-jekhHtltGV0ezx\"}}",
     "at": "2026-11-12T21:25:59.381Z",
     "run": "43310096553"
+  },
+  {
+    "id": "maersk-cincinnati-yantian-crane-strike",
+    "stage": "card:facebook",
+    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"error_subcode\":5258005,\"fbtrace_id\":\"AnRWCS_-KjIwKEm_432D0Sc\"}}",
+    "at": "2026-11-12T22:25:38.261Z",
+    "run": "43319706371"
+  },
+  {
+    "id": "maersk-cincinnati-yantian-crane-strike",
+    "stage": "card:instagram",
+    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"error_subcode\":5258005,\"fbtrace_id\":\"ADiVa6oj3a0uusLR-H9LxwV\"}}",
+    "at": "2026-11-12T22:25:38.330Z",
+    "run": "43319706371"
   }
 ]
