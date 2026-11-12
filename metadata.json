@@ -1,0 +1,147 @@
+{
+  "id": "catzoc-explained",
+  "title": "What is CATZOC and why does it matter to navigators?",
+  "description": "CATZOC (Category of Zone of Confidence) tells the navigator how accurate the survey data behind an ENC really is. Here is what the categories A1 to D mean and how to use them in passage planning and UKC calculations.",
+  "category": "terminology",
+  "template": "maritime-term",
+  "targetAudience": [
+    "OOW",
+    "Second Officer",
+    "Deck Cadet"
+  ],
+  "source": [
+    {
+      "title": "IHO standards: S-57 (CATZOC attribute) and S-67 Mariners' Guide to Accuracy of Depth Information in ENC",
+      "publisher": "IHO",
+      "url": "https://iho.int/en/standards-and-specifications"
+    }
+  ],
+  "sourceDate": null,
+  "script": "A sounding on your chart could be metres out, and its position wrong by five hundred. CATZOC tells you how far to trust it. CATZOC is the Category of Zone of Confidence: the quality rating of the survey behind each part of an electronic chart. In a zone rated A1, the whole seabed was surveyed and significant features were found and measured. In zone C, coverage was only partial, so depth anomalies may be expected. At a charted depth of twenty metres, A1 data is accurate to about seventy centimetres. In zone C, the same sounding may be three metres out. So check the CATZOC of every shallow leg, and add that error to your under keel clearance. Follow HeyMariner for practical maritime knowledge.",
+  "voiceId": null,
+  "duration": 52.833333333333336,
+  "publishSchedule": "2026-11-12T19:11:23.986Z",
+  "platforms": {
+    "youtube": {
+      "title": "What is CATZOC and why does it matter to navigators? #Shorts",
+      "caption": "CATZOC (Category of Zone of Confidence) tells the navigator how accurate the survey data behind an ENC really is. Here is what the categories A1 to D mean and how to use them in passage planning and UKC calculations.\n\nMaritime Term of the Day | For: OOW, Second Officer, Deck Cadet\n\nLearn more with HeyMariner.\nhttps://www.heymariner.com\n\nSources:\nIHO: https://iho.int/en/standards-and-specifications\n\n#CATZOC #ECDIS #navigation #passageplanning #deckofficer #HeyMariner #maritime #seafarers",
+      "hashtags": [
+        "#CATZOC",
+        "#ECDIS",
+        "#navigation",
+        "#passageplanning",
+        "#deckofficer",
+        "#HeyMariner",
+        "#maritime",
+        "#seafarers"
+      ],
+      "keywords": [
+        "CATZOC",
+        "zone of confidence",
+        "ECDIS",
+        "ENC",
+        "passage planning",
+        "under keel clearance",
+        "navigation",
+        "chart accuracy"
+      ]
+    },
+    "tiktok": {
+      "title": "What is CATZOC and why does it matter to navigators?",
+      "caption": "Your chart could be wrong by 500 metres. #CATZOC #ECDIS #navigation #passageplanning #deckofficer",
+      "hashtags": [
+        "#CATZOC",
+        "#ECDIS",
+        "#navigation",
+        "#passageplanning",
+        "#deckofficer"
+      ],
+      "keywords": [
+        "CATZOC",
+        "zone of confidence",
+        "ECDIS",
+        "ENC",
+        "passage planning"
+      ]
+    },
+    "instagram": {
+      "title": "What is CATZOC and why does it matter to navigators?",
+      "caption": "Your chart could be wrong by 500 metres.\n\nCATZOC (Category of Zone of Confidence) tells the navigator how accurate the survey data behind an ENC really is. Here is what the categories A1 to D mean and how to use them in passage planning and UKC calculations.\n\nLearn more with HeyMariner.\n.\n#CATZOC #ECDIS #navigation #passageplanning #deckofficer #HeyMariner #maritime #seafarers #shipping",
+      "hashtags": [
+        "#CATZOC",
+        "#ECDIS",
+        "#navigation",
+        "#passageplanning",
+        "#deckofficer",
+        "#HeyMariner",
+        "#maritime",
+        "#seafarers",
+        "#shipping"
+      ],
+      "keywords": [
+        "CATZOC",
+        "zone of confidence",
+        "ECDIS",
+        "ENC",
+        "passage planning",
+        "under keel clearance",
+        "navigation",
+        "chart accuracy"
+      ]
+    },
+    "facebook": {
+      "title": "What is CATZOC and why does it matter to navigators?",
+      "caption": "What is CATZOC and why does it matter to navigators?\n\nCATZOC (Category of Zone of Confidence) tells the navigator how accurate the survey data behind an ENC really is. Here is what the categories A1 to D mean and how to use them in passage planning and UKC calculations.\n\nLearn more with HeyMariner.\n\n#CATZOC #ECDIS #navigation #passageplanning",
+      "hashtags": [
+        "#CATZOC",
+        "#ECDIS",
+        "#navigation",
+        "#passageplanning"
+      ],
+      "keywords": [
+        "CATZOC",
+        "zone of confidence",
+        "ECDIS",
+        "ENC",
+        "passage planning",
+        "under keel clearance",
+        "navigation",
+        "chart accuracy"
+      ]
+    },
+    "linkedin": {
+      "title": "What is CATZOC and why does it matter to navigators?",
+      "caption": "What is CATZOC and why does it matter to navigators?\n\nCATZOC (Category of Zone of Confidence) tells the navigator how accurate the survey data behind an ENC really is. Here is what the categories A1 to D mean and how to use them in passage planning and UKC calculations.\n\nRelevant for: OOW, Second Officer, Deck Cadet.\n\nSource: IHO\nMore maritime knowledge: https://www.heymariner.com\n\n#CATZOC #ECDIS #navigation #passageplanning",
+      "hashtags": [
+        "#CATZOC",
+        "#ECDIS",
+        "#navigation",
+        "#passageplanning"
+      ],
+      "keywords": [
+        "CATZOC",
+        "zone of confidence",
+        "ECDIS",
+        "ENC",
+        "passage planning",
+        "under keel clearance",
+        "navigation",
+        "chart accuracy"
+      ]
+    },
+    "x": {
+      "title": "What is CATZOC and why does it matter to navigators?",
+      "caption": "What is CATZOC and why does it matter to navigators? #CATZOC #ECDIS",
+      "hashtags": [
+        "#CATZOC",
+        "#ECDIS"
+      ],
+      "keywords": [
+        "CATZOC",
+        "zone of confidence",
+        "ECDIS",
+        "ENC"
+      ]
+    }
+  }
+}

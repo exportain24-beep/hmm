@@ -1,0 +1,127 @@
+{
+  "id": "catzoc-explained",
+  "template": "maritime-term",
+  "pillar": "terminology",
+  "audience": [
+    "OOW",
+    "Second Officer",
+    "Deck Cadet"
+  ],
+  "title": "What is CATZOC and why does it matter to navigators?",
+  "thumbnailText": "CATZOC EXPLAINED",
+  "aspect": "9:16",
+  "mood": "curious",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "label": "MARITIME TERM OF THE DAY",
+      "heading": "Your chart could be wrong by 500 metres.",
+      "narration": "A sounding on your chart could be metres out, and its position wrong by five hundred. CATZOC tells you how far to trust it."
+    },
+    {
+      "id": "term",
+      "kind": "term",
+      "heading": "CATZOC",
+      "body": "Category of Zone of Confidence",
+      "narration": "CATZOC is the Category of Zone of Confidence: the quality rating of the survey behind each part of an electronic chart."
+    },
+    {
+      "id": "survey",
+      "kind": "zoc3d",
+      "label": "SURVEY QUALITY",
+      "heading": "How well was the seabed surveyed?",
+      "visual": {
+        "type": "zoc",
+        "highlight": "C"
+      },
+      "cues": [
+        "A1",
+        "zone C"
+      ],
+      "narration": "In a zone rated A1, the whole seabed was surveyed and significant features were found and measured. In zone C, coverage was only partial, so depth anomalies may be expected."
+    },
+    {
+      "id": "table",
+      "kind": "compare",
+      "label": "DEPTH ACCURACY AT 20 m",
+      "heading": "Same sounding, different trust",
+      "items": [
+        {
+          "title": "A1",
+          "value": "± 0.7 m",
+          "text": "Position ± 5 m"
+        },
+        {
+          "title": "A2",
+          "value": "± 1.4 m",
+          "text": "Position ± 20 m"
+        },
+        {
+          "title": "B",
+          "value": "± 1.4 m",
+          "text": "Position ± 50 m"
+        },
+        {
+          "title": "C",
+          "value": "± 3.0 m",
+          "text": "Position ± 500 m"
+        },
+        {
+          "title": "D",
+          "value": "Worse",
+          "text": "Large anomalies expected"
+        }
+      ],
+      "narration": "At a charted depth of twenty metres, A1 data is accurate to about seventy centimetres. In zone C, the same sounding may be three metres out."
+    },
+    {
+      "id": "take",
+      "kind": "takeaway",
+      "label": "KEY TAKEAWAY",
+      "heading": "Add the CATZOC error to your UKC.",
+      "narration": "So check the CATZOC of every shallow leg, and add that error to your under keel clearance."
+    },
+    {
+      "id": "end",
+      "kind": "endcard",
+      "narration": "Follow HeyMariner for practical maritime knowledge."
+    }
+  ],
+  "sources": [
+    {
+      "title": "IHO standards: S-57 (CATZOC attribute) and S-67 Mariners' Guide to Accuracy of Depth Information in ENC",
+      "publisher": "IHO",
+      "url": "https://iho.int/en/standards-and-specifications"
+    }
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner editorial bank: written and checked against the cited conventions",
+    "checkedAt": "2026-11-12"
+  },
+  "meta": {
+    "description": "CATZOC (Category of Zone of Confidence) tells the navigator how accurate the survey data behind an ENC really is. Here is what the categories A1 to D mean and how to use them in passage planning and UKC calculations.",
+    "keywords": [
+      "CATZOC",
+      "zone of confidence",
+      "ECDIS",
+      "ENC",
+      "passage planning",
+      "under keel clearance",
+      "navigation",
+      "chart accuracy"
+    ],
+    "hashtags": [
+      "#CATZOC",
+      "#ECDIS",
+      "#navigation",
+      "#passageplanning",
+      "#deckofficer"
+    ]
+  },
+  "origin": {
+    "type": "bank"
+  },
+  "series": "Maritime Term of the Day"
+}
