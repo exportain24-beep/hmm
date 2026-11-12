@@ -15,8 +15,8 @@ const ss = (t: number, a: number, b: number) => {
 
 /** Deterministic kinematics. ta = moment the avoiding action starts. Without action the vessels meet at tc. */
 export const simulate = (scn: Scenario, t: number, ta: number): {a: State; b: State; tc: number; meet: [number, number]; aStart: State; bStart: State} => {
-  const tc = ta + 6.2;
-  const D = 11;
+  const tc = ta + 8;
+  const D = 12;
   const dt = 1 / 30;
   let aStart: State;
   let bStart: State;
@@ -29,7 +29,7 @@ export const simulate = (scn: Scenario, t: number, ta: number): {a: State; b: St
     va = vb = D / tc;
     aStart = {x: 0, z: D, hdg: 0};
     bStart = {x: D, z: 0, hdg: 270};
-    hdgA = (s) => 68 * (ss(s, ta, ta + 1.6) - ss(s, ta + 5.6, ta + 7.8)); // bold alteration to starboard, then back on course astern of her
+    hdgA = (s) => 75 * (ss(s, ta, ta + 1.6) - ss(s, ta + 7.6, ta + 9.8)); // bold alteration to starboard, then back on course astern of her
     hdgB = () => 270;
   } else if (scn === 'head-on') {
     va = vb = D / tc;
@@ -39,12 +39,13 @@ export const simulate = (scn: Scenario, t: number, ta: number): {a: State; b: St
     hdgA = (s) => d(s);
     hdgB = (s) => 180 + d(s); // each alters to starboard: port-to-port passing
   } else {
+    const closing = 0.75;
     vb = 0.42;
-    va = vb + 6.4 / (tc - 1.2);
-    aStart = {x: 0, z: D, hdg: 0};
-    bStart = {x: 0, z: D - 6.4, hdg: 0};
-    meet = [0, D - 6.4 - vb * tc];
-    hdgA = (s) => 34 * (ss(s, ta, ta + 1.3) - ss(s, ta + 3.1, ta + 4.4));
+    va = vb + closing;
+    bStart = {x: 0, z: 2, hdg: 0};
+    aStart = {x: 0, z: 2 + 4.6 + closing * ta, hdg: 0}; // 4.6 units astern when the alteration starts
+    meet = [0, 2 - vb * tc];
+    hdgA = (s) => 40 * (ss(s, ta, ta + 1.3) - ss(s, ta + 3.2, ta + 4.6));
     hdgB = () => 0;
   }
   const a = {...aStart};
@@ -74,7 +75,9 @@ export const Colreg3DScene: React.FC<SceneProps> = ({scene, timing, accent}) => 
   const c0 = timing.cueTimes[0] ?? seconds * 0.3;
   const c1 = timing.cueTimes[1] ?? seconds * 0.6;
   const ta = Math.max(c0 + 1.2, c1 - 1.8);
-  const {a, b, meet, aStart, bStart} = simulate(scn, t, ta);
+  // after the action starts the clock runs 1.6x, so the whole manoeuvre is seen before the scene ends
+  const simT = t < ta ? t : ta + (t - ta) * 1.6;
+  const {a, b, meet, aStart, bStart} = simulate(scn, simT, ta);
   const risk = enter(frame, fps, c0, 0.4) * (1 - enter(frame, fps, ta + 0.6, 0.6));
   const acted = enter(frame, fps, ta, 0.5);
   const cz = scn === 'overtaking' ? (a.z + b.z) / 2 - 0.5 : 0;

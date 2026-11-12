@@ -121,7 +121,7 @@ export const Zoc3DScene: React.FC<SceneProps> = ({scene, timing, accent}) => {
     g.computeVertexNormals();
     return g;
   }, []);
-  const cam: Cam = {pos: [1.5 * Math.sin(t * 0.18), 7.4, 15.4 - 0.7 * clamp01(t / seconds)], target: [0, -1.7, 0], fov: 40};
+  const cam: Cam = {pos: [1.5 * Math.sin(t * 0.18), 5.6, 13.6 - 0.7 * clamp01(t / seconds)], target: [0, -1.5, 0], fov: 40};
   const proj = makeProjector(cam, L.panel.w, L.panel.h);
   const surveyX = -HALF + HALF * full;
   const rocks: {x: number; z: number; h: number; side: 'a' | 'c'}[] = [{x: -6.2, z: 1.2, h: 1.3, side: 'a'}, {x: -2.6, z: -1.6, h: 1.0, side: 'a'}, {x: 5.2, z: 1.3, h: 1.7, side: 'c'}];
@@ -136,8 +136,8 @@ export const Zoc3DScene: React.FC<SceneProps> = ({scene, timing, accent}) => {
         sky="#0F2E50"
         overlay={
           <>
-            <div style={{position: 'absolute', left: 22 * L.u, top: 20 * L.u, opacity: enter(frame, fps, c0, 0.4), background: C.tealBright, color: C.deep, fontFamily: FONT_HEAD, fontWeight: 700, fontSize: 28 * L.u, padding: `${8 * L.u}px ${18 * L.u}px`, borderRadius: 12 * L.u}}>ZOC A1 ★★★★★★ full coverage</div>
-            <div style={{position: 'absolute', right: 22 * L.u, top: 20 * L.u, opacity: enter(frame, fps, c1, 0.4), background: C.amber, color: C.deep, fontFamily: FONT_HEAD, fontWeight: 700, fontSize: 28 * L.u, padding: `${8 * L.u}px ${18 * L.u}px`, borderRadius: 12 * L.u}}>ZOC C ★★★ partial coverage</div>
+            <div style={{position: 'absolute', left: 22 * L.u, top: 20 * L.u, opacity: enter(frame, fps, c0, 0.4), background: C.tealBright, color: C.deep, fontFamily: FONT_HEAD, fontWeight: 700, fontSize: 28 * L.u, padding: `${8 * L.u}px ${18 * L.u}px`, borderRadius: 12 * L.u}}>ZOC A1 ★★★★★★</div>
+            <div style={{position: 'absolute', right: 22 * L.u, top: 20 * L.u, opacity: enter(frame, fps, c1, 0.4), background: C.amber, color: C.deep, fontFamily: FONT_HEAD, fontWeight: 700, fontSize: 28 * L.u, padding: `${8 * L.u}px ${18 * L.u}px`, borderRadius: 12 * L.u}}>ZOC C ★★★</div>
             {rocks.filter((r) => r.side === 'a').map((r, i) => (
               <Tag key={i} at={proj(r.x, bedY(r.x, r.z) + r.h, r.z)} text="FOUND" color={C.tealBright} L={L} dy={-34} size={22} opacity={surveyX > r.x ? 1 : 0} />
             ))}
@@ -172,7 +172,8 @@ export const Zoc3DScene: React.FC<SceneProps> = ({scene, timing, accent}) => {
           </mesh>
         ))}
         <mesh position={[0, -1.6, 0]}><boxGeometry args={[0.04, 3.4, 8]} /><meshBasicMaterial color="#FFFFFF" transparent opacity={0.22} depthWrite={false} /></mesh>
-        <mesh position={[0, 0, 0]}><boxGeometry args={[2 * HALF, 0.02, 8]} /><meshBasicMaterial color="#38BDF8" transparent opacity={0.22} depthWrite={false} /></mesh>
+        <mesh position={[0, -1.6, 0]}><boxGeometry args={[2 * HALF, 3.2, 8]} /><meshBasicMaterial color="#1D8FC4" transparent opacity={0.26} depthWrite={false} /></mesh>
+        <mesh position={[0, 0, 0]}><boxGeometry args={[2 * HALF, 0.03, 8]} /><meshBasicMaterial color="#7DD3FC" transparent opacity={0.35} depthWrite={false} /></mesh>
         {full < 0.995 ? <Vessel x={surveyX} z={0} heading={90} time={t} scale={0.5} kind="cargo" hull="#12506B" speed={0.5} /> : null}
         {sparse > 0.01 && sparse < 0.995 ? <Vessel x={HALF * sparse} z={0} heading={90} time={t} scale={0.5} kind="cargo" hull="#8A3324" speed={0.5} /> : null}
       </Stage>

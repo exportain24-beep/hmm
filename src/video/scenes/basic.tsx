@@ -153,7 +153,7 @@ export const CompareScene: React.FC<SceneProps> = ({scene, timing, accent}) => {
           return (
             <div key={i} style={{opacity: a, transform: `translateY(${(1 - a) * 30}px)`, display: 'flex', alignItems: 'center', gap: 24 * L.u, background: 'rgba(255,255,255,0.07)', border: `2px solid ${C.white}20`, borderRadius: 22 * L.u, padding: `${26 * L.u}px ${28 * L.u}px`}}>
               <div style={{flex: 'none', minWidth: 120 * L.u, textAlign: 'center', fontFamily: FONT_HEAD, fontWeight: 800, fontSize: fit(it.title, 56, 4, 0.5) * L.u, color: C.deep, background: warn ? C.amber : accent, borderRadius: 16 * L.u, padding: `${8 * L.u}px ${18 * L.u}px`}}>{it.title}</div>
-              <div style={{flex: 1, ...bodyStyle(L, 34), color: C.mist}}>{it.text}</div>
+              <div style={{flex: 1, ...bodyStyle(L, 38), color: C.mist}}>{it.text}</div>
               <div style={{flex: 'none', fontFamily: FONT_HEAD, fontWeight: 700, fontSize: 52 * L.u, color: warn ? C.amber : C.white}}>{it.value}</div>
             </div>
           );
