@@ -32,5 +32,12 @@
     "error": "voice-over is real (not placeholder)",
     "at": "2026-11-12T17:37:47.340Z",
     "run": "43268722440"
+  },
+  {
+    "id": "eca-canadian-arctic-norwegian-sea-2027",
+    "stage": "qc",
+    "error": "voice-over is real (not placeholder)",
+    "at": "2026-11-12T18:36:47.831Z",
+    "run": "43277951297"
   }
 ]
