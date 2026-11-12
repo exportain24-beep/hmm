@@ -3,7 +3,7 @@
   "type": "equipment",
   "headline": "Oily Water Separator: The 15 ppm Rule",
   "subheadline": "Never bypass the separator",
-  "insight": "MARPOL Annex I allows machinery-space bilge discharge only en route, through approved equipment, at 15 ppm or less without dilution. Record every operation in the Oil Record Book.",
+  "insight": "MARPOL Annex I allows bilge discharge only en route, through approved equipment, at 15 ppm or less. Record every operation in the Oil Record Book.",
   "points": [
     "En route only",
     "15 ppm or less",
@@ -44,5 +44,6 @@
     "status": "verified",
     "by": "HeyMariner editorial bank: checked against the cited conventions",
     "checkedAt": "2026-11-13"
-  }
+  },
+  "headlineAccent": "The 15 ppm Rule"
 }

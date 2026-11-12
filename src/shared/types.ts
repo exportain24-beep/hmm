@@ -143,8 +143,12 @@ export type CardSpec = {
   badge?: string;
   /** Max 60 characters. */
   headline: string;
-  /** Max 48 characters, shown on a highlight bar, e.g. "What should mariners know?" */
+  /** Max 56 characters, e.g. "What should mariners know?" (used in captions; on the card when there is no location). */
   subheadline?: string;
+  /** The end of the headline shown on the second line in yellow, e.g. "FIRE REPORTED". Must be the headline's last words. */
+  headlineAccent?: string;
+  /** Location line under the headline, e.g. "OFF SINGAPORE". */
+  location?: string;
   /** The practical insight, 1-2 lines, max 170 characters. */
   insight: string;
   /** Up to 3 short points (max 34 characters each). */

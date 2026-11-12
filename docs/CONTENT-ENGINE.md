@@ -50,7 +50,15 @@ Set `factCheck.status` to `verified` only when every number, date, name, rule nu
 
 Follow `prompts/script.md` and `src/shared/types.ts` (ContentSpec). Aim for 40-50 s (580-720 characters of narration); longer only when a rule cannot be explained in less. Animation-led: short heading, item titles of 2-5 words, the explanation in the narration. Use 3D scenes where they explain (colreg3d, contour3d, zoc3d), radar/ukc diagrams, and set a fitting `motif` for other scenes. Thumbnail text 3-7 words, complementing (not repeating) the title.
 
-## Photo card rules
+## Photo card rules (reference design, 13 Nov 2026)
+
+Layout: full-bleed authentic incident photo, slanted yellow category badge top left, HeyMariner logo (transparent, white wordmark) on a curved navy panel top right, two-line uppercase headline (second line yellow = `headlineAccent`), location line with pin (`location`), two-line factual summary (`insight`), teal wave, platform handle row.
+
+- `headline` max 48 characters; `headlineAccent` = its last words; `location` max 28 (e.g. "OFF SINGAPORE"); `insight` max 170: what happened + the key fact. Put the full verified incident data in `meta.description`.
+- Photo: `image.url` = direct https link to an authentic photo of the real event that is public domain or licensed for reuse (government agencies such as the U.S. Coast Guard, NOAA, national coastguards and navies releasing to public domain; Wikimedia Commons with a free licence; official press-release images marked for media use). Never a photo carrying another outlet's logo or watermark, never remove a watermark, never a copyrighted news-agency photo. Give `credit` and `license`. GitHub Actions downloads it to `public/cards-media/` (temporary) and deletes it after posting. No suitable photo: leave `image` out and the HeyMariner illustration is used.
+- Captions: Facebook and Instagram carry the headline, place/date, the full summary, why it matters, a question and exactly 5 hashtags, never a link. LinkedIn and X go through Buffer.
+
+## Photo card rules (fields)
 
 `CardSpec` in `src/shared/types.ts`. Headline max 60 characters with searchable topic words; subheadline max 48 (often a question: "What should mariners know?"); insight 1-2 lines, max 190; up to 3 points of max 34 characters; `meta.altText` describes the graphic for accessibility. No link in any card text.
 

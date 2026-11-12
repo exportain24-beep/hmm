@@ -33,7 +33,7 @@ export const Root: React.FC = () => {
           height: props.timeline.height,
         })}
       />
-      <Composition id="PhotoCard" component={PhotoCard} defaultProps={{card: sampleCard, logo: 'brand/logo-light.png'} as unknown as CardProps} fps={FPS} width={1080} height={1350} durationInFrames={1} />
+      <Composition id="PhotoCard" component={PhotoCard} defaultProps={{card: sampleCard, logo: 'brand/logo-light.png', photo: null, socialIcons: []} as unknown as CardProps} fps={FPS} width={1080} height={1350} durationInFrames={1} />
       <Composition id="ThumbnailVertical" component={Thumbnail} defaultProps={defaultProps} fps={FPS} width={1080} height={1920} durationInFrames={1} />
       <Composition id="ThumbnailWide" component={Thumbnail} defaultProps={defaultProps} fps={FPS} width={1280} height={720} durationInFrames={1} />
     </>

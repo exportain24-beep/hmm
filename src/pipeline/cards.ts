@@ -1,12 +1,12 @@
 // Daily photo cards: validate -> render (Remotion still) -> platform copy -> publish (Facebook, Instagram, LinkedIn, X).
-import {copyFileSync, existsSync, mkdirSync, readdirSync, renameSync} from 'node:fs';
+import {copyFileSync, existsSync, mkdirSync, readdirSync, renameSync, rmSync, writeFileSync} from 'node:fs';
 import type {CardSpec, PlatformId} from '../shared/types.ts';
 import {config, env, fetchRetry, isAutoPublish, isDryRun, log, okJson, p, PipelineError, readJson, run, state, summary, writeJson} from './lib.ts';
 import {ensurePublicUrl} from './publish/hosting.ts';
 import {hasLink, sanitizeSocialCaption, slugify} from './seo.ts';
 
 const CARD_TOPIC: Record<string, string> = {incident: 'maritime-incident', casualty: 'marine-casualty', safety: 'safety-alert', lesson: 'lesson-learned', imo: 'imo-update', psc: 'port-state-control', regulation: 'regulation'};
-const LIM = {headline: 70, subheadline: 56, insight: 200, point: 34, badge: 34};
+const LIM = {headline: 48, subheadline: 56, insight: 170, point: 34, badge: 34};
 
 export const validateCard = (c: CardSpec): string[] => {
   const e: string[] = [];
@@ -17,6 +17,8 @@ export const validateCard = (c: CardSpec): string[] => {
   if (['breaking', 'incident', 'casualty', 'investigation', 'psc'].includes(c.type) && !c.eventId) e.push('real-time cards need an eventId');
   if (!c.headline || c.headline.length > LIM.headline) e.push(`headline missing or over ${LIM.headline}`);
   if ((c.subheadline ?? '').length > LIM.subheadline) e.push('subheadline too long');
+  if (c.headlineAccent && !c.headline.toUpperCase().endsWith(c.headlineAccent.toUpperCase())) e.push('headlineAccent must be the last words of the headline');
+  if ((c.location ?? '').length > 28) e.push('location max 28 characters');
   if (!c.insight || c.insight.length > LIM.insight) e.push(`insight missing or over ${LIM.insight}`);
   if ((c.badge ?? '').length > LIM.badge) e.push('badge too long');
   if ((c.points ?? []).length > 3 || (c.points ?? []).some((x) => x.length > LIM.point)) e.push('max 3 points of 34 chars');
@@ -51,12 +53,16 @@ const tags = (c: CardSpec, n: number, extra: string[] = []) => {
 export const cardCopy = (c: CardSpec): Record<'facebook' | 'instagram' | 'linkedin' | 'x', string> => {
   const social = config<{website: string; handles: Record<string, string>}>('social');
   const q = c.meta.question ?? 'What would you add from your own sea time?';
-  const lead = c.subheadline ? `${c.headline}. ${c.subheadline}` : c.headline;
+  const where = [c.location ? c.location.replace(/\b\w/g, (m) => m.toUpperCase()).replace(/\B\w+/g, (m) => m.toLowerCase()) : '', c.dateLabel ?? ''].filter(Boolean).join(' · ');
+  const five = tags(c, 5);
+  const src = c.sources[0]?.publisher ? `Source: ${c.sources.map((s) => s.publisher ?? s.title).join(', ')}.` : '';
+  const facebook = [c.headline, ...(where ? [`📍 ${where}`] : []), '', c.meta.description, '', `Why it matters: ${c.insight}`, '', src, '', q, '', five.join(' ')].filter((x, i, arr) => !(x === '' && arr[i - 1] === '')).join('\n');
+  const instagram = [c.headline, ...(where ? [`📍 ${where}`] : []), '', c.meta.description, '', c.insight, '', `Follow ${social.handles.instagram} for practical maritime knowledge.`, '', q, '.', five.join(' ')].join('\n');
   return {
-    facebook: sanitizeSocialCaption('facebook', [lead, '', c.insight, '', c.meta.description, '', q, '', tags(c, 4).join(' ')].join('\n')),
-    instagram: sanitizeSocialCaption('instagram', [lead, '', c.insight, '', `Save this for your next watch. Follow ${social.handles.instagram} for practical maritime knowledge.`, '', q, '.', tags(c, 10).join(' ')].join('\n')),
-    linkedin: [c.headline, '', c.insight, '', c.meta.description, '', `Relevant for: ${c.audience.join(', ')}.`, `Source: ${c.sources.map((s) => s.publisher ?? s.title).join('; ')}`, `More: ${social.website}`, '', tags(c, 4).join(' ')].join('\n'),
-    x: (() => { const first = c.insight.split(/(?<=[.!?])\s/)[0]; const body = `${lead} ${first}`; return `${body.length > 240 ? body.slice(0, 237).replace(/\s+\S*$/, '') + '…' : body} ${tags(c, 2).join(' ')}`; })(),
+    facebook: sanitizeSocialCaption('facebook', facebook),
+    instagram: sanitizeSocialCaption('instagram', instagram),
+    linkedin: [c.headline, ...(where ? [where] : []), '', c.meta.description, '', `Why it matters: ${c.insight}`, '', `Relevant for: ${c.audience.join(', ')}.`, src, `More: ${social.website}`, '', five.slice(0, 4).join(' ')].join('\n'),
+    x: (() => { const body = `${c.headline}${where ? ` (${where})` : ''}. ${c.insight.split(/(?<=[.!?])\s/)[0]}`; return `${body.length > 240 ? body.slice(0, 237).replace(/\s+\S*$/, '') + '…' : body} ${five.slice(0, 2).join(' ')}`; })(),
   };
 };
 
@@ -110,6 +116,27 @@ const bufferImage = async (platform: 'linkedin' | 'x', url: string, text: string
   return d.createPost.post.id;
 };
 
+/** Downloads the card's authentic photo into public/cards-media (temporary; removed after posting). */
+const fetchPhoto = async (c: CardSpec): Promise<string | null> => {
+  if (!c.image?.url) return null;
+  if (!/^https?:\/\//.test(c.image.url)) return c.image.url;
+  try {
+    const res = await fetchRetry(c.image.url, {headers: {'user-agent': 'HeyMarinerCards/1.0 (+https://www.heymariner.com)'}}, {stage: 'cards', retries: 1, timeoutMs: 30_000});
+    const type = res.headers.get('content-type') ?? '';
+    if (!res.ok || !/image\/(jpeg|png|webp)/.test(type)) throw new Error(`HTTP ${res.status} ${type}`);
+    const buf = Buffer.from(await res.arrayBuffer());
+    if (buf.length < 20_000) throw new Error('image too small');
+    const ext = type.includes('png') ? 'png' : type.includes('webp') ? 'webp' : 'jpg';
+    mkdirSync(p('public/cards-media'), {recursive: true});
+    writeFileSync(p('public/cards-media', `${c.id}.${ext}`), buf);
+    log('cards', 'photo downloaded', {bytes: buf.length, credit: c.image.credit, license: c.image.license});
+    return `cards-media/${c.id}.${ext}`;
+  } catch (e) {
+    log('cards', 'photo could not be downloaded, using the illustration', {error: (e as Error).message});
+    return null;
+  }
+};
+
 export const runCard = async (id?: string, only?: string[], breakingOnly = false) => {
   const pick = chooseCard(id, breakingOnly);
   if (!pick) { log('cards', 'no card to post'); summary('### Photo card\n\nNothing to post: card bank and queue are used up.\n'); return; }
@@ -119,7 +146,9 @@ export const runCard = async (id?: string, only?: string[], breakingOnly = false
   const dir = p('work', 'cards', c.id);
   mkdirSync(dir, {recursive: true});
   const logo = config<{logoFile: string}>('brand').logoFile;
-  writeJson(`${dir}/props.json`, {card: c, logo});
+  const photo = await fetchPhoto(c);
+  const socialIcons = existsSync(p('public/brand/social')) ? readdirSync(p('public/brand/social')).filter((f) => /\.(png|svg|webp)$/i.test(f)).map((f) => `brand/social/${f}`) : [];
+  writeJson(`${dir}/props.json`, {card: c, logo, photo, socialIcons});
   const img = `${dir}/card.png`;
   run('npx', ['remotion', 'still', 'src/video/index.ts', 'PhotoCard', img, `--props=${dir}/props.json`, '--gl=swangle', '--log=error'], {stage: 'cards', timeoutMs: 10 * 60 * 1000});
   const copy = cardCopy(c);
@@ -163,6 +192,8 @@ export const runCard = async (id?: string, only?: string[], breakingOnly = false
     done[c.id] = {...entry, at: new Date().toISOString()};
     writeJson(p('data/state/cards.json'), done);
   }
+  // temporary photo is never kept in the repository
+  if (photo && photo.startsWith('cards-media/')) rmSync(p('public', photo), {force: true});
   summary(`### Photo card: ${c.headline}\n\n| Platform | Result |\n|---|---|\n${Object.entries(results).map(([k, v]) => `| ${k} | ${v} |`).join('\n')}\n`);
   log('cards', 'done', results);
 };
