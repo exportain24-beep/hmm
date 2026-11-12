@@ -274,7 +274,7 @@ const MAP: Record<Motif, React.FC<P>> = {voyage: Voyage, radar: Radar, chart: Ch
 export const pickMotif = (spec: ContentSpec, scene: SceneSpec): Motif => {
   if (scene.motif) return scene.motif;
   const s = `${scene.label ?? ''} ${scene.heading ?? ''} ${scene.narration}`.toLowerCase();
-  if (/radar|arpa|\bcpa\b|target|plot/.test(s)) return 'radar';
+  if (/radar|arpa|\bcpa\b|tcpa|target/.test(s)) return 'radar';
   if (/enclosed|oxygen|atmosphere|gas test|permit|\btank|void space|rescue/.test(s)) return 'tank';
   if (/engine|fuel|separator|bilge|purifier|boiler|sulphur|ppm|oil record|machinery|changeover/.test(s)) return 'engine';
   if (/chart|ecdis|contour|catzoc|passage|survey|sounding|depth|draught|keel/.test(s)) return 'chart';
