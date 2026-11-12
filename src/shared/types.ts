@@ -23,6 +23,8 @@ export type Visual =
   | {type: 'radar'; cpaNm: number; tcpaMin: number; limitNm: number}
   | {type: 'ukc'; depth: number; draft: number; squat: number};
 
+export type Motif = 'voyage' | 'radar' | 'chart' | 'engine' | 'tank' | 'globe' | 'lighthouse';
+
 export type SceneItem = {title: string; text?: string; value?: string};
 
 export type SceneSpec = {
@@ -38,6 +40,8 @@ export type SceneSpec = {
   /** Substrings of the narration, in spoken order. Item i / phase i appears when cue i is spoken. */
   cues?: string[];
   visual?: Visual;
+  /** Animated backdrop behind the scene. Chosen automatically from the words when left out. */
+  motif?: Motif;
 };
 
 export type Source = {title: string; url: string; publisher?: string; date?: string};

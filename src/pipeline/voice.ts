@@ -9,7 +9,7 @@ import {config, env, fetchRetry, log, mediaDuration, okJson, p, PipelineError, r
 type Profile = {voiceIdEnv: string; fallbackProfile?: string; stability: number; similarityBoost: number; style: number; speed: number};
 type VoiceCfg = {
   defaultProfile: string; profiles: Record<string, Profile>; modelIdEnv: string; defaultModelId: string; outputFormat: string;
-  leadSeconds: number; gapSeconds: number; tailSeconds: number; placeholderCharsPerSecond: number;
+  defaultVoiceId?: string; leadSeconds: number; gapSeconds: number; tailSeconds: number; placeholderCharsPerSecond: number;
 };
 
 export const resolveVoice = (spec: ContentSpec) => {
@@ -22,6 +22,7 @@ export const resolveVoice = (spec: ContentSpec) => {
     prof = {...cfg.profiles[name], speed: prof.speed};
     voiceId = env(cfg.profiles[name].voiceIdEnv);
   }
+  if (!voiceId) voiceId = (cfg.defaultVoiceId ?? '').trim();
   return {cfg, profile: prof, profileName: name, voiceId, modelId: env(cfg.modelIdEnv) || cfg.defaultModelId, ready: Boolean(env('ELEVENLABS_API_KEY') && voiceId)};
 };
 

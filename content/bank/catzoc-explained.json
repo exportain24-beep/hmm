@@ -17,14 +17,14 @@
       "kind": "hook",
       "label": "MARITIME TERM OF THE DAY",
       "heading": "Your chart could be wrong by 500 metres.",
-      "narration": "A sounding on your chart could be several metres out, and its position wrong by five hundred. CATZOC tells you how far to trust it."
+      "narration": "A sounding on your chart could be metres out, and its position wrong by five hundred. CATZOC tells you how far to trust it."
     },
     {
       "id": "term",
       "kind": "term",
       "heading": "CATZOC",
       "body": "Category of Zone of Confidence",
-      "narration": "CATZOC stands for Category of Zone of Confidence. It is the quality rating of the survey data behind every part of an electronic chart."
+      "narration": "CATZOC is the Category of Zone of Confidence: the quality rating of the survey behind each part of an electronic chart."
     },
     {
       "id": "survey",
@@ -73,22 +73,14 @@
           "text": "Large anomalies expected"
         }
       ],
-      "narration": "The difference is large. At a charted depth of twenty metres, A1 data is accurate to about seventy centimetres. In zone C, the same sounding may be three metres out."
-    },
-    {
-      "id": "bridge",
-      "kind": "statement",
-      "label": "ON THE BRIDGE",
-      "heading": "Build it into your UKC",
-      "body": "Check the CATZOC of every shallow leg of the passage and add its depth error to your under-keel clearance margin.",
-      "narration": "So when you plan a passage, check the CATZOC of every shallow leg, and add that possible error to your under keel clearance calculation."
+      "narration": "At a charted depth of twenty metres, A1 data is accurate to about seventy centimetres. In zone C, the same sounding may be three metres out."
     },
     {
       "id": "take",
       "kind": "takeaway",
       "label": "KEY TAKEAWAY",
-      "heading": "A chart is only as good as its survey.",
-      "narration": "Remember: a chart is only as good as the survey behind it."
+      "heading": "Add the CATZOC error to your UKC.",
+      "narration": "So check the CATZOC of every shallow leg, and add that error to your under keel clearance."
     },
     {
       "id": "end",

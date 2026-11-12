@@ -27,7 +27,7 @@
       "label": "THE RISK",
       "heading": "You cannot see or smell low oxygen",
       "body": "Rusting steel, some cargoes and fresh coatings use up oxygen. Toxic and flammable gases collect in tanks, holds and void spaces.",
-      "narration": "Rusting steel, some cargoes and fresh coatings use up oxygen. Toxic and flammable gases collect in tanks, holds and void spaces. Your senses will not warn you."
+      "narration": "Rust, some cargoes and fresh coatings use up oxygen, and toxic gases collect in tanks and void spaces. Your senses will not warn you."
     },
     {
       "id": "test",
@@ -40,7 +40,7 @@
           "value": "21%"
         }
       ],
-      "narration": "Before anyone enters, the atmosphere is tested from outside the space. Oxygen should read 21% by volume, with flammable and toxic gases within the limits in your procedures."
+      "narration": "Before anyone enters, test the atmosphere from outside. Oxygen should read 21% by volume, with flammable and toxic gases within your procedure's limits."
     },
     {
       "id": "steps",
@@ -79,7 +79,7 @@
       "label": "IF SOMEONE COLLAPSES",
       "heading": "Do not rush in",
       "body": "Raise the alarm. Enter only as a trained rescue team wearing breathing apparatus.",
-      "narration": "And if someone collapses inside, do not rush in after them. Raise the alarm, and enter only as a trained rescue team with breathing apparatus."
+      "narration": "If someone collapses inside, do not rush in. Raise the alarm, and enter only as a trained rescue team with breathing apparatus."
     },
     {
       "id": "take",

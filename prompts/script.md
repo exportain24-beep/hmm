@@ -28,6 +28,7 @@ type Scene = {
   body?: string;                    // max 230 chars
   items?: {title: string; text?: string; value?: string}[];  // max 5; title max 44, text max 90, value max 16
   cues?: string[];                  // exact substrings of this scene's narration, in spoken order; item i appears when cue i is spoken
+  motif?: 'voyage'|'radar'|'chart'|'engine'|'tank'|'globe'|'lighthouse';  // animated backdrop behind the scene; pick the one that fits what is being said
   visual?: {type:'colreg'; scenario:'crossing'|'head-on'|'overtaking'} | {type:'radar'; cpaNm:number; tcpaMin:number; limitNm:number} | {type:'ukc'; depth:number; draft:number; squat:number};
 };
 ```
@@ -58,5 +59,6 @@ Rules that are never broken:
 4. No graphic description of injuries or deaths. Accidents are told for the lesson.
 5. Every on-screen text is short. Narration carries the detail; the screen carries the key words. Respect every character limit.
 6. Write numbers and units the way a professional reads them on screen (0.10%, 15 ppm, 22.5 degrees). Keep maritime terminology correct.
-7. Total narration: 450 to 900 characters for most templates, matched to the template's duration range. One idea per scene.
+7. Length: aim for 40 to 50 seconds, which is 580 to 720 characters of narration in total. Go longer (up to about 1,000 characters) only when a rule or procedure cannot be explained properly in less. One idea per scene.
+9. The video is animation-led. The screen shows a moving illustration with very few words: a short heading and, for lists, item titles of two to five words. Body text is not shown on screen, so never rely on it; put the explanation in the narration.
 8. Regulation videos answer, in this order: what changed, why, when, who is affected, what the ship must do.

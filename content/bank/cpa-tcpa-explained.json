@@ -67,7 +67,7 @@
         "Wrong speed",
         "compass bearing"
       ],
-      "narration": "But do not trust it blindly. ARPA needs time to settle after either vessel alters. Wrong speed or heading input gives a wrong CPA. And always confirm with the compass bearing: if it is steady and the range is closing, risk of collision exists."
+      "narration": "But do not trust it blindly. ARPA needs time to settle after an alteration. Wrong speed or heading input gives a wrong CPA. And confirm with the compass bearing: steady bearing, closing range, means risk of collision."
     },
     {
       "id": "take",

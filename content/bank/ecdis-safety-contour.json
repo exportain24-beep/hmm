@@ -26,7 +26,7 @@
       "label": "WHAT IS IT?",
       "heading": "The safety contour",
       "body": "A depth contour you select. ECDIS draws it as a bold line between safe and unsafe water, and alarms before you cross it.",
-      "narration": "The safety contour is a depth contour that you select. ECDIS draws it as a bold line. Deeper water is shown as safe, shallower water as unsafe, and an alarm sounds before you cross it."
+      "narration": "The safety contour is a depth contour you select. ECDIS shows deeper water as safe, shallower water as unsafe, and alarms before you cross the line."
     },
     {
       "id": "how",
@@ -83,19 +83,11 @@
       "narration": "To set it, start with your deepest draught. Add squat at your planned speed, and the under keel clearance your company requires. Allow for height of tide only where your procedures permit it."
     },
     {
-      "id": "mistake",
-      "kind": "statement",
-      "label": "COMMON MISTAKE",
-      "heading": "Keeping the last voyage's value",
-      "body": "A different draught needs a different safety contour. Check it in every passage plan and at every watch handover.",
-      "narration": "The common mistake is keeping the value from the last voyage. A new draught needs a new safety contour, so check it in every passage plan."
-    },
-    {
       "id": "take",
       "kind": "takeaway",
       "label": "KEY TAKEAWAY",
       "heading": "The alarm only protects you if the contour is right.",
-      "narration": "Key takeaway: the alarm only protects you if the contour is right."
+      "narration": "Check it in every passage plan. The alarm only protects you if the contour is right."
     },
     {
       "id": "end",

@@ -1,10 +1,11 @@
 import React from 'react';
 import {useCurrentFrame, useVideoConfig} from 'remotion';
 import {layoutFor, type Layout} from '../../shared/layout';
-import type {SceneSpec, SceneTiming} from '../../shared/types';
+import type {ContentSpec, SceneSpec, SceneTiming} from '../../shared/types';
+import {MotifArt, pickMotif} from './Motifs';
 import {C, enter, fit, FONT_BODY, FONT_HEAD} from '../theme';
 
-export type SceneProps = {scene: SceneSpec; timing: SceneTiming; accent: string; logo: string | null};
+export type SceneProps = {spec: ContentSpec; scene: SceneSpec; timing: SceneTiming; accent: string; logo: string | null};
 
 export const useScene = (timing: SceneTiming) => {
   const frame = useCurrentFrame();
@@ -47,4 +48,20 @@ export const Card: React.FC<{children: React.ReactNode; accent?: string; style?:
 export const bodyStyle = (L: Layout, size = 48): React.CSSProperties => ({fontFamily: FONT_BODY, fontWeight: 500, fontSize: size * L.u, lineHeight: 1.36, color: C.white});
 export const Content: React.FC<{L: Layout; children: React.ReactNode; justify?: 'flex-start' | 'center'}> = ({L, children, justify = 'flex-start'}) => (
   <div style={{position: 'absolute', left: L.content.x, top: L.content.y, width: L.content.w, height: L.content.h, display: 'flex', flexDirection: 'column', justifyContent: justify, gap: 22 * L.u}}>{children}</div>
+);
+
+/** Framed animation stage (same frame as the 3D scenes). Text for the scene is laid over it, never on a still background. */
+export const Stage2D: React.FC<{spec: ContentSpec; scene: SceneSpec; L: Layout; t: number; seconds: number; accent: string; dim?: number; children?: React.ReactNode}> = ({spec, scene, L, t, seconds, accent, dim = 0, children}) => (
+  <div style={{position: 'absolute', left: L.panel.x, top: L.panel.y, width: L.panel.w, height: L.panel.h, borderRadius: 34 * L.u, overflow: 'hidden', background: '#020812', border: `3px solid ${C.white}2E`, boxShadow: '0 30px 80px rgba(0,0,0,0.5)'}}>
+    <MotifArt motif={pickMotif(spec, scene)} t={t} seconds={seconds} accent={accent} id={scene.id} width={L.panel.w} height={L.panel.h} dim={dim} />
+    <div style={{position: 'absolute', inset: 0}}>{children}</div>
+  </div>
+);
+
+/** Full-frame animation behind hook, term, takeaway and end card. */
+export const FullBleed: React.FC<{spec: ContentSpec; scene: SceneSpec; t: number; seconds: number; accent: string; width: number; height: number; dim?: number}> = ({spec, scene, t, seconds, accent, width, height, dim = 0.45}) => (
+  <div style={{position: 'absolute', inset: 0, overflow: 'hidden'}}>
+    <MotifArt motif={pickMotif(spec, scene)} t={t} seconds={seconds} accent={accent} id={`${scene.id}full`} width={width} height={height} dim={dim} />
+    <div style={{position: 'absolute', inset: 0, background: 'linear-gradient(180deg, rgba(4,14,30,0.82) 0%, rgba(4,14,30,0.12) 26%, rgba(4,14,30,0.10) 58%, rgba(4,14,30,0.92) 86%)'}} />
+  </div>
 );

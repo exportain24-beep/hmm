@@ -47,6 +47,7 @@ export const validateSpec = (s: ContentSpec): string[] => {
       if ((it.text ?? '').length > BUDGET.itemText) e.push(`${at}: item text too long: "${it.title}"`);
       if ((it.value ?? '').length > BUDGET.itemValue) e.push(`${at}: item value too long: "${it.title}"`);
     }
+    if (x.motif && !['voyage', 'radar', 'chart', 'engine', 'tank', 'globe', 'lighthouse'].includes(x.motif)) e.push(`${at}: unknown motif`);
     const want = VISUAL_FOR[x.kind];
     if (want && x.visual?.type !== want) e.push(`${at}: needs visual.type "${want}"`);
     let pos = 0;

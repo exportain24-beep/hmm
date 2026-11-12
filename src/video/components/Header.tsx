@@ -16,7 +16,7 @@ export const Header: React.FC<{badge: string; accent: string; logo: string | nul
       <div style={{background: accent, color: dark ? C.deep : C.white, fontFamily: FONT_HEAD, fontWeight: 700, fontSize: 30 * L.u, letterSpacing: 2.2, padding: `${13 * L.u}px ${24 * L.u}px`, borderRadius: 12 * L.u, maxWidth: L.header.w * 0.6, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis'}}>
         {badge}
       </div>
-      <Logo height={56 * L.u} logo={logo} accent={accent} />
+      <Logo height={(logo ? 84 : 56) * L.u} logo={logo} accent={accent} />
     </div>
   );
 };

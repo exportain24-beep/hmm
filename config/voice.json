@@ -2,8 +2,21 @@
   "provider": "elevenlabs",
   "defaultProfile": "narrator",
   "profiles": {
-    "narrator": { "voiceIdEnv": "ELEVENLABS_VOICE_ID", "stability": 0.5, "similarityBoost": 0.75, "style": 0.15, "speed": 1.0 },
-    "news":     { "voiceIdEnv": "ELEVENLABS_VOICE_ID_NEWS", "fallbackProfile": "narrator", "stability": 0.6, "similarityBoost": 0.75, "style": 0.1, "speed": 1.03 }
+    "narrator": {
+      "voiceIdEnv": "ELEVENLABS_VOICE_ID",
+      "stability": 0.5,
+      "similarityBoost": 0.75,
+      "style": 0.15,
+      "speed": 1.0
+    },
+    "news": {
+      "voiceIdEnv": "ELEVENLABS_VOICE_ID_NEWS",
+      "fallbackProfile": "narrator",
+      "stability": 0.6,
+      "similarityBoost": 0.75,
+      "style": 0.1,
+      "speed": 1.03
+    }
   },
   "modelIdEnv": "ELEVENLABS_MODEL_ID",
   "defaultModelId": "eleven_v4_turbo",
@@ -12,5 +25,7 @@
   "gapSeconds": 0.32,
   "tailSeconds": 0.35,
   "placeholderCharsPerSecond": 14.5,
-  "maxCharsPerVideo": 1800
+  "maxCharsPerVideo": 1800,
+  "defaultVoiceId": "",
+  "_comment": "defaultVoiceId is used when the ELEVENLABS_VOICE_ID variable is not set. A voice id is not a secret; the API key is."
 }

@@ -50,7 +50,7 @@ export const HeyMarinerVideo: React.FC<VideoProps> = ({spec, timeline, logo}) =>
         const Scene = SCENES[scene.kind] ?? StatementScene;
         return (
           <Sequence key={scene.id} from={from} durationInFrames={Math.max(1, to - from)} name={`${i + 1} ${scene.kind}`}>
-            <Scene scene={scene} timing={timing} accent={accent} logo={logo} />
+            <Scene spec={spec} scene={scene} timing={timing} accent={accent} logo={logo} />
           </Sequence>
         );
       })}

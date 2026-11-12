@@ -61,14 +61,6 @@
       "narration": "The give-way vessel takes early and substantial action to keep well clear, and avoids crossing ahead of the other. The stand-on vessel keeps her course and speed, but she must keep watching."
     },
     {
-      "id": "mistake",
-      "kind": "statement",
-      "label": "COMMON MISTAKE",
-      "heading": "Small alterations nobody can see",
-      "body": "A succession of small alterations of course or speed should be avoided (Rule 8). Make the action readily apparent.",
-      "narration": "The common mistake is a series of small alterations. Rule 8 requires an action large enough to be readily apparent to the other vessel, visually or by radar."
-    },
-    {
       "id": "take",
       "kind": "takeaway",
       "label": "KEY TAKEAWAY",
