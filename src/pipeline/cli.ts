@@ -6,7 +6,7 @@
 //   validate                      validate every spec in content/bank and content/queue
 //   health                        check credentials, providers and the render environment
 //   cleanup                       delete old temporary media
-import {copyFileSync, existsSync, mkdirSync, rmSync, writeFileSync} from 'node:fs';
+import {copyFileSync, existsSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync} from 'node:fs';
 import {config, env, isAutoPublish, isCardsEnabled, isDryRun, isPipelineEnabled, log, p, PipelineError, run, setOutput, state, summary, writeJson} from './lib.ts';
 import {llmProvider} from './llm.ts';
 import {buildMetadata, uploadKit} from './metadata.ts';
@@ -166,8 +166,8 @@ const main = async () => {
   } else if (cmd === 'validate-cards') {
     let bad = 0;
     for (const f of ['content/cards/bank', 'content/cards/queue']) {
-      for (const n of existsSync(p(f)) ? (await import('node:fs')).readdirSync(p(f)).filter((x) => x.endsWith('.json')) : []) {
-        const e = validateCard(JSON.parse((await import('node:fs')).readFileSync(p(f, n), 'utf8')));
+      for (const n of existsSync(p(f)) ? readdirSync(p(f)).filter((x) => x.endsWith('.json')) : []) {
+        const e = validateCard(JSON.parse(readFileSync(p(f, n), 'utf8')));
         console.log(`${e.length ? 'FAIL' : 'ok  '} ${n}${e.length ? ' - ' + e.join('; ') : ''}`);
         if (e.length) bad++;
       }
@@ -177,7 +177,7 @@ const main = async () => {
     await cmdRun();
   } else if (cmd === 'validate') {
     let bad = 0;
-    const queue = existsSync(p('content/queue')) ? (await import('node:fs')).readdirSync(p('content/queue')).filter((f) => f.endsWith('.json')).map((f) => ({spec: JSON.parse((await import('node:fs')).readFileSync(p('content/queue', f), 'utf8'))})) : [];
+    const queue = existsSync(p('content/queue')) ? readdirSync(p('content/queue')).filter((f) => f.endsWith('.json')).map((f) => ({spec: JSON.parse(readFileSync(p('content/queue', f), 'utf8'))})) : [];
     for (const b of [...loadBank(), ...queue]) {
       const e = validateSpec(b.spec);
       console.log(`${e.length ? 'FAIL' : 'ok  '} ${b.spec.id}${e.length ? '\n   - ' + e.join('\n   - ') : ''}`);
