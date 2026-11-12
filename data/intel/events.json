@@ -256,6 +256,67 @@
       "publishAtUtc": "2026-11-13T02:22:00Z",
       "published": false,
       "updatedAt": "2026-11-12T20:55:00Z"
+    },
+    "HM-2026-111207": {
+      "eventId": "HM-2026-111207",
+      "slug": "hormuz-tanker-projectile-strikes-nov-10-11",
+      "type": "incident",
+      "title": "Projectiles Hit Tankers Around Hormuz",
+      "location": "STRAIT OF HORMUZ",
+      "eventDate": "10-11 NOV 2026",
+      "sources": [
+        {
+          "title": "Tanker Ablaze Off UAE as More Attacks Rattle Gulf Shipping",
+          "publisher": "gCaptain",
+          "url": "https://gcaptain.com/tanker-ablaze-off-uae-as-more-attacks-rattle-gulf-shipping/",
+          "date": "2026-11-12"
+        },
+        {
+          "title": "Three Tankers Attacked in Two Days in Strait of Hormuz Crisis",
+          "publisher": "The Maritime Executive",
+          "url": "https://maritime-executive.com/article/three-tankers-attacked-in-two-days-in-strait-of-hormuz-crisis",
+          "date": "2026-11-12"
+        },
+        {
+          "title": "All Crew Safe After Tanker Struck off UAE Coast",
+          "publisher": "MarineLink",
+          "url": "https://www.marinelink.com/news/crew-safe-tanker-struck-off-uae-coast-544332",
+          "date": "2026-11-12"
+        }
+      ],
+      "verifiedFacts": [
+        "Dominica Prosperity, Liberia-flag crude tanker, struck in engine room by unidentified projectile ~1800 UTC 11 Nov 2026, ~14 nm NW of Ras Al Khaimah (UKMTO)",
+        "All 22 crew (19 Indian) evacuated by UAE Coast Guard, no injuries (UAE CG / India shipping minister)",
+        "Fire; firefighting ongoing when UKMTO warning issued 12 Nov",
+        "NCC Fajr struck ~0200 UTC 11 Nov north of Khasab, Oman; crew safe (JMIC 12 Nov advisory, Omani authorities)",
+        "Fujairah Energy struck 10 Nov eastbound in Arabian Gulf; crew injured and taken ashore (JMIC)",
+        "Unidentified tanker struck 10 Nov ~19 nm NE of Lima, Oman; crew safe, no pollution reported (JMIC)",
+        "JMIC counts 181 maritime security incidents since 1 March"
+      ],
+      "unverifiedClaims": [
+        "Attribution of the individual strikes (JMIC has not identified perpetrators)",
+        "Operator of Dominica Prosperity (Sinokor per MARISKS via Reuters)",
+        "Pollution / extent of damage on Dominica Prosperity"
+      ],
+      "conflicts": [
+        "Fujairah Energy injured count: '4 injured' (MarEx citing India) vs 'multiple' (JMIC)"
+      ],
+      "verificationStatus": "CORROBORATED",
+      "priorityScore": 79,
+      "scoreBreakdown": {
+        "recency": 18,
+        "safety": 18,
+        "operational": 14,
+        "regulatory": 4,
+        "human": 7,
+        "industry": 9,
+        "source": 9
+      },
+      "status": "monitoring",
+      "cardFile": null,
+      "published": false,
+      "notes": "Not breaking (<90, no fatalities). Candidate for the 13 Nov 08:22 slot if a free-licence photo is found and an update (damage/pollution) emerges; related to published HM-2026-111201.",
+      "updatedAt": "2026-11-12T21:58:00Z"
     }
   }
 }
