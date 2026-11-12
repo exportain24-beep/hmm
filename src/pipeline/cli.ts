@@ -31,8 +31,10 @@ const cmdRun = async () => {
   log('pipeline', 'started', {dryRun: isDryRun(), autoPublish: isAutoPublish(), llm: llmProvider()});
   const id = arg('id');
   const slotId = arg('slot');
-  const slots = config<{slots: {id: string; utcHour: number; mode: 'news-first' | 'evergreen'; pillars: string[]}[]}>('schedule').slots;
+  const sch = config<{slots: {id: string; utcHour: number; mode: 'news-first' | 'evergreen'; pillars: string[]}[]; oneOff?: {id: string; at: string; pillars: string[]}[]}>('schedule');
+  const slots = [...sch.slots, ...(sch.oneOff ?? []).map((o) => ({id: o.id, utcHour: new Date(o.at).getUTCHours(), mode: 'evergreen' as const, pillars: o.pillars}))];
   const slot = slotId ? slots.find((s) => s.id === slotId) ?? null : null;
+  if (slotId && !slot) log('plan', `unknown slot "${slotId}": no pillar preference`);
 
   let plan;
   if (id) {
