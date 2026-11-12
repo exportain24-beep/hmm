@@ -1,0 +1,88 @@
+name: Photo cards
+
+# Daily branded insight cards -> Facebook, Instagram (Meta Graph API), LinkedIn, X (Buffer).
+# Card times live in config/schedule.json -> "cards". On/off: CARDS_ENABLED variable, else config/runtime.json.
+on:
+  schedule:
+    - cron: '41 * * * *'
+  workflow_dispatch:
+    inputs:
+      card_id:
+        description: 'Card id (empty = next unused card from content/cards/queue, then the bank)'
+        required: false
+        default: ''
+      dry_run:
+        description: 'DRY_RUN: render the card, post nothing'
+        type: boolean
+        default: true
+      platforms:
+        description: 'Limit to these platforms (facebook,instagram,linkedin,x; empty = all)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: heymariner-photo-cards
+  cancel-in-progress: false
+
+jobs:
+  card:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && format('{0}', inputs.dry_run) || vars.DRY_RUN }}
+      AUTO_PUBLISH: ${{ github.event_name == 'workflow_dispatch' && 'true' || vars.AUTO_PUBLISH }}
+      CARDS_ENABLED: ${{ vars.CARDS_ENABLED }}
+      META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+      META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+      META_IG_USER_ID: ${{ vars.META_IG_USER_ID }}
+      META_GRAPH_VERSION: ${{ vars.META_GRAPH_VERSION }}
+      BUFFER_ACCESS_TOKEN: ${{ secrets.BUFFER_ACCESS_TOKEN }}
+      BUFFER_CHANNEL_LINKEDIN: ${{ vars.BUFFER_CHANNEL_LINKEDIN }}
+      BUFFER_CHANNEL_X: ${{ vars.BUFFER_CHANNEL_X }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - id: due
+        if: github.event_name == 'schedule'
+        run: npx --yes tsx@4.19.4 src/pipeline/cli.ts cards-due
+      - name: Install
+        if: github.event_name == 'workflow_dispatch' || steps.due.outputs.slot != ''
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq libnss3 libgbm-dev libasound2t64 libxkbcommon-dev || true
+          if [ -f package-lock.json ]; then npm ci --no-audit --no-fund; else npm install --no-audit --no-fund; fi
+          npx remotion browser ensure
+      - name: Render and post
+        if: github.event_name == 'workflow_dispatch' || steps.due.outputs.slot != ''
+        env:
+          CARD_ID: ${{ inputs.card_id }}
+          PLATFORMS: ${{ inputs.platforms }}
+          SLOT: ${{ steps.due.outputs.slot }}
+        run: |
+          ARGS=""
+          [ -n "$CARD_ID" ] && ARGS="$ARGS --id $CARD_ID"
+          [ -n "$PLATFORMS" ] && ARGS="$ARGS --platforms $PLATFORMS"
+          [ -n "$SLOT" ] && ARGS="$ARGS --slot $SLOT"
+          npm run pipeline -- card $ARGS
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: heymariner-card-${{ github.run_id }}
+          path: out/cards/
+          retention-days: 7
+          if-no-files-found: ignore
+      - name: Save state
+        if: always()
+        run: |
+          git config user.name "heymariner-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/state content/cards || true
+          if ! git diff --cached --quiet; then
+            git commit -m "state: photo card run ${GITHUB_RUN_ID} [skip ci]"
+            for i in 1 2 3; do git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && break || sleep 5; done
+          fi

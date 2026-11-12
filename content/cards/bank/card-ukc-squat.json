@@ -1,0 +1,48 @@
+{
+  "id": "card-ukc-squat",
+  "type": "knowledge",
+  "headline": "Squat: The Water You Lose at Speed",
+  "subheadline": "Depth − draught is not your UKC",
+  "insight": "A ship sinks deeper as speed increases, especially in shallow water. Heel, swell and chart accuracy reduce the margin further. Small margin? Slow down.",
+  "points": [
+    "Squat",
+    "Heel in turns",
+    "Chart accuracy"
+  ],
+  "motif": "chart",
+  "pillar": "deck",
+  "audience": [
+    "OOW",
+    "Second Officer",
+    "Chief Officer"
+  ],
+  "sources": [
+    {
+      "title": "Resolution A.893(21): Guidelines for voyage planning",
+      "publisher": "IMO",
+      "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.893(21).pdf"
+    }
+  ],
+  "meta": {
+    "description": "Under-keel clearance is more than charted depth minus draught. Squat, heel, swell, chart accuracy and water density all reduce the real margin.",
+    "keywords": [
+      "under keel clearance",
+      "squat",
+      "UKC",
+      "shallow water",
+      "passage planning"
+    ],
+    "hashtags": [
+      "#UKC",
+      "#Navigation",
+      "#DeckOfficer"
+    ],
+    "question": "What minimum UKC does your company require?",
+    "altText": "Navigation graphic explaining ship squat and under-keel clearance."
+  },
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner editorial bank: checked against the cited conventions",
+    "checkedAt": "2026-11-13"
+  }
+}

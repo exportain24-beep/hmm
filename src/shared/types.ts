@@ -118,3 +118,27 @@ export const SIZES: Record<'9:16' | '16:9', {width: number; height: number}> = {
   '9:16': {width: 1080, height: 1920},
   '16:9': {width: 1920, height: 1080},
 };
+
+// ---------- photo cards ----------
+export type CardType = 'breaking' | 'incident' | 'regulation' | 'safety' | 'knowledge' | 'equipment' | 'analysis';
+
+export type CardSpec = {
+  id: string;
+  type: CardType;
+  /** Optional series label, e.g. "ONE RULE MARINERS SHOULD KNOW". Defaults to the type's badge. */
+  badge?: string;
+  /** Max 60 characters. */
+  headline: string;
+  /** Max 48 characters, shown on a highlight bar, e.g. "What should mariners know?" */
+  subheadline?: string;
+  /** The practical insight, 1-2 lines, max 170 characters. */
+  insight: string;
+  /** Up to 3 short points (max 34 characters each). */
+  points?: string[];
+  motif?: Motif;
+  pillar: Pillar;
+  audience: string[];
+  sources: Source[];
+  factCheck: {status: 'verified' | 'unverified'; by: string; notes?: string; checkedAt?: string};
+  meta: {description: string; keywords: string[]; hashtags: string[]; question?: string; altText: string};
+};

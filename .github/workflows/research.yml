@@ -15,7 +15,6 @@ concurrency:
 
 jobs:
   research:
-    if: github.event_name == 'workflow_dispatch' || vars.PIPELINE_ENABLED == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:

@@ -43,7 +43,8 @@ export const Stage: React.FC<{L: Layout; cam: Cam; sky?: string; fog?: [number, 
         <CameraRig cam={cam} />
         <color attach="background" args={[sky]} />
         {fog ? <fog attach="fog" args={[sky, fog[0], fog[1]]} /> : null}
-        <ambientLight intensity={1.5} />
+        <hemisphereLight args={['#DFF4FF', '#0B3A5A', 1.25]} />
+        <ambientLight intensity={0.7} />
         <directionalLight position={[8, 18, 10]} intensity={2.6} />
         <directionalLight position={[-10, 8, -6]} intensity={0.7} color="#9AD8FF" />
         {children}

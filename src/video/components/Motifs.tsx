@@ -255,11 +255,13 @@ const Lighthouse: React.FC<P> = ({t, accent}) => {
     <>
       <rect width={W} height={H} fill="#07162A" />
       {Array.from({length: 46}, (_, i) => <circle key={i} cx={rnd(i, 1) * W} cy={rnd(i, 2) * 480} r={1.5 + rnd(i, 3) * 2.4} fill="#FFFFFF" opacity={0.3 + 0.5 * Math.abs(Math.sin(t * (0.7 + rnd(i, 4)) + i))} />)}
+      <g transform="translate(250 0)">
       {beam(1, 0.5 * Math.max(0, a) ** 2)}{beam(-1, 0.5 * Math.max(0, -a) ** 2)}
       <circle cx={250} cy={250} r={46 + 60 * Math.abs(a)} fill="#FFF3B0" opacity={0.22} />
       <path d="M 205 290 L 295 290 L 318 640 L 182 640 Z" fill="#F1F5F9" /><path d="M 199 380 L 301 380 L 307 470 L 193 470 Z" fill={C.red} /><path d="M 187 560 L 313 560 L 318 640 L 182 640 Z" fill={C.red} />
       <rect x={196} y={270} width={108} height={22} fill="#0B1F3A" /><rect x={214} y={214} width={72} height={58} fill="#FFF3B0" opacity={0.75 + 0.25 * Math.abs(a)} /><path d="M 204 214 L 296 214 L 250 168 Z" fill="#0B1F3A" />
       <path d="M 60 700 Q 120 610 200 630 L 330 630 Q 420 640 470 710 Z" fill="#111E30" />
+      </g>
       <path d={wavePath(690, 12, 130, t * 0.6)} fill="#0F3B5C" /><path d={wavePath(745, 16, 100, -t * 0.9 + 2)} fill="#0C2F4B" />
       <g transform={`translate(${((t * 22) % (W + 300)) - 120} ${722 + 6 * Math.sin(t * 1.5)})`}><path d="M -70 -10 L 70 -10 L 54 16 L -58 16 Z" fill="#0B1522" /><rect x={-50} y={-38} width={30} height={28} fill="#1E293B" /><circle cx={-35} cy={-46} r={5} fill="#FFFFFF" /><circle cx={60} cy={-14} r={5} fill="#22FF66" /></g>
       <path d={wavePath(805, 20, 82, t * 1.3)} fill="#082338" />

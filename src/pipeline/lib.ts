@@ -12,11 +12,18 @@ export const env = (k: string): string => (process.env[k] ?? '').trim();
 export const flag = (k: string, def: boolean): boolean => {
   const v = env(k).toLowerCase();
   if (!v) return def;
+  if (k === 'DRY_RUN') return v !== 'false' && v !== '0'; // only an explicit false turns dry run off
   return v === 'true' || v === '1' || v === 'yes';
 };
-/** Safe by default: DRY_RUN is true unless explicitly set to false. */
-export const isDryRun = () => flag('DRY_RUN', true);
-export const isAutoPublish = () => flag('AUTO_PUBLISH', false);
+type Runtime = {pipelineEnabled?: boolean; cardsEnabled?: boolean; dryRun?: boolean; autoPublish?: boolean};
+const runtime = (): Runtime => {
+  try { return JSON.parse(readFileSync(p('config/runtime.json'), 'utf8')) as Runtime; } catch { return {}; }
+};
+/** Safe by default: DRY_RUN is true unless set to false (GitHub variable/input first, then config/runtime.json). */
+export const isDryRun = () => flag('DRY_RUN', runtime().dryRun ?? true);
+export const isAutoPublish = () => flag('AUTO_PUBLISH', runtime().autoPublish ?? false);
+export const isPipelineEnabled = () => flag('PIPELINE_ENABLED', runtime().pipelineEnabled ?? false);
+export const isCardsEnabled = () => flag('CARDS_ENABLED', runtime().cardsEnabled ?? false);
 
 // ---------- logging (never prints secret values) ----------
 const SECRET_KEYS = /(KEY|TOKEN|SECRET|PASSWORD)/i;

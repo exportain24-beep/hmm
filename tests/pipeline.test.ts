@@ -64,8 +64,8 @@ test('publish gate: all five conditions are required', () => {
   assert.equal(publishGate(qcOk, yt, false).allowed, false, 'missing credentials block');
   set({YOUTUBE_REFRESH_TOKEN: 'c'});
   assert.equal(publishGate(qcOk, yt, false).allowed, true);
-  delete process.env.DRY_RUN;
-  assert.equal(publishGate(qcOk, yt, false).allowed, false, 'DRY_RUN defaults to true');
+  set({DRY_RUN: 'yes please'});
+  assert.equal(publishGate(qcOk, yt, false).allowed, false, 'anything but an explicit false keeps dry run on');
   process.env = keep;
 });
 
@@ -83,7 +83,7 @@ test('research: feed parsing, story key and scoring', () => {
 });
 
 test('schedule: a slot is due only inside its window', () => {
-  assert.equal(dueSlot(new Date('2026-01-05T05:20:00Z'))?.id, 'morning');
+  assert.equal(dueSlot(new Date('2026-01-05T06:20:00Z'))?.id, 'morning');
   assert.equal(dueSlot(new Date('2026-01-05T03:00:00Z')), null);
 });
 

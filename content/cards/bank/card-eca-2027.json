@@ -1,0 +1,50 @@
+{
+  "id": "card-eca-2027",
+  "type": "regulation",
+  "headline": "New ECAs: 0.10% Sulphur From 1 March 2027",
+  "subheadline": "Canadian Arctic and Norwegian Sea",
+  "insight": "The two areas became Emission Control Areas under MARPOL Annex VI on 1 March 2026. The 0.10% sulphur limit applies there from 1 March 2027 unless an approved equivalent is used.",
+  "points": [
+    "Plan the changeover",
+    "Secure compliant fuel",
+    "Log it properly"
+  ],
+  "motif": "globe",
+  "pillar": "regulation",
+  "audience": [
+    "Chief Engineer",
+    "Master",
+    "Second Engineer",
+    "Ship Manager"
+  ],
+  "sources": [
+    {
+      "title": "New Emission Control Areas: Canadian Arctic and Norwegian Sea (MEPC.392(82))",
+      "publisher": "Bureau Veritas",
+      "url": "https://marine-offshore.bureauveritas.com/newsroom/new-emission-control-areas-ecas-control-nitrogen-oxides-nox-sulphur-oxides-sox-and"
+    }
+  ],
+  "meta": {
+    "description": "The Canadian Arctic and the Norwegian Sea are Emission Control Areas under MARPOL Annex VI. The 0.10% sulphur limit applies from 1 March 2027.",
+    "keywords": [
+      "emission control area",
+      "MARPOL Annex VI",
+      "sulphur limit",
+      "Norwegian Sea ECA",
+      "Canadian Arctic ECA"
+    ],
+    "hashtags": [
+      "#MARPOL",
+      "#ECA",
+      "#IMO",
+      "#MarineEngineering"
+    ],
+    "question": "Has your company already planned fuel for these areas?",
+    "altText": "Regulation update graphic: Canadian Arctic and Norwegian Sea emission control areas, 0.10% sulphur limit from 1 March 2027."
+  },
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner editorial bank: checked against the cited conventions",
+    "checkedAt": "2026-11-13"
+  }
+}

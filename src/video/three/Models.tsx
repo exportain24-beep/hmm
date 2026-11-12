@@ -115,6 +115,15 @@ export const Vessel: React.FC<{x: number; z: number; heading: number; time: numb
   }, []);
   return (
     <group position={[x, bob, z]} rotation={[0, rotY, 0]} scale={scale}>
+      {/* soft contact shadow and bow foam make the hull sit in the water instead of floating on it */}
+      <mesh position={[0, 0.16, 0]} rotation={[-Math.PI / 2, 0, 0]} scale={[2.6, 0.62, 1]}>
+        <circleGeometry args={[1, 32]} />
+        <meshBasicMaterial color="#021a2c" transparent opacity={0.32} depthWrite={false} />
+      </mesh>
+      <mesh position={[2.15, 0.19, 0]} rotation={[-Math.PI / 2, 0, 0]} scale={[0.5 + 0.06 * Math.sin(time * 6), 0.55, 1]}>
+        <ringGeometry args={[0.55, 0.85, 24, 1, -1.2, 2.4]} />
+        <meshBasicMaterial color="#F0FBFF" transparent opacity={0.55 * Math.min(1, speed)} depthWrite={false} />
+      </mesh>
       <group rotation={[0.025 * Math.sin(time * 1.3 + z), 0, 0.03 * Math.sin(time * 1.1)]}>
         <ShipModel kind={kind} hull={hull} />
       </group>

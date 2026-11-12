@@ -1,0 +1,48 @@
+{
+  "id": "card-ows-15ppm",
+  "type": "equipment",
+  "headline": "Oily Water Separator: The 15 ppm Rule",
+  "subheadline": "Never bypass the separator",
+  "insight": "MARPOL Annex I allows machinery-space bilge discharge only en route, through approved equipment, at 15 ppm or less without dilution. Record every operation in the Oil Record Book.",
+  "points": [
+    "En route only",
+    "15 ppm or less",
+    "Record it"
+  ],
+  "motif": "engine",
+  "pillar": "engine",
+  "audience": [
+    "Engine Cadet",
+    "Junior Engineer",
+    "Second Engineer",
+    "Chief Engineer"
+  ],
+  "sources": [
+    {
+      "title": "MARPOL Annex I",
+      "publisher": "IMO",
+      "url": "https://www.imo.org/en/about/Conventions/Pages/International-Convention-for-the-Prevention-of-Pollution-from-Ships-(MARPOL).aspx"
+    }
+  ],
+  "meta": {
+    "description": "The oily water separator and the 15 ppm limit of MARPOL Annex I: when bilge water may be discharged and why the Oil Record Book matters.",
+    "keywords": [
+      "oily water separator",
+      "15 ppm",
+      "MARPOL Annex I",
+      "oil record book"
+    ],
+    "hashtags": [
+      "#MarineEngineering",
+      "#MARPOL",
+      "#EngineRoom"
+    ],
+    "question": "Engineers: how do you test your 15 ppm alarm?",
+    "altText": "Engine-room graphic explaining the oily water separator and the MARPOL 15 ppm discharge limit."
+  },
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner editorial bank: checked against the cited conventions",
+    "checkedAt": "2026-11-13"
+  }
+}

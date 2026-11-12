@@ -1,0 +1,47 @@
+{
+  "id": "card-ecdis-safety-contour",
+  "type": "equipment",
+  "headline": "ECDIS Safety Contour: The Setting That Matters",
+  "subheadline": "Enter 12 m, get 15 m",
+  "insight": "If the chart has no contour at your value, ECDIS uses the next deeper one available. Recalculate it from draught, squat and required UKC for every passage.",
+  "points": [
+    "Deepest draught",
+    "Squat at speed",
+    "Company UKC"
+  ],
+  "motif": "chart",
+  "pillar": "equipment",
+  "audience": [
+    "OOW",
+    "Second Officer",
+    "Chief Officer"
+  ],
+  "sources": [
+    {
+      "title": "Resolution MSC.232(82): Revised performance standards for ECDIS",
+      "publisher": "IMO",
+      "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.232(82).pdf"
+    }
+  ],
+  "meta": {
+    "description": "How ECDIS chooses the safety contour, what goes into the value, and why keeping the last voyage's setting is a common mistake.",
+    "keywords": [
+      "ECDIS safety contour",
+      "ECDIS",
+      "safety depth",
+      "anti-grounding alarm"
+    ],
+    "hashtags": [
+      "#ECDIS",
+      "#Navigation",
+      "#DeckOfficer"
+    ],
+    "question": "Who checks the safety contour on your bridge at handover?",
+    "altText": "Equipment graphic explaining how the ECDIS safety contour is selected and set."
+  },
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner editorial bank: checked against the cited conventions",
+    "checkedAt": "2026-11-13"
+  }
+}

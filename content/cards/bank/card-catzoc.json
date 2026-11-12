@@ -1,0 +1,49 @@
+{
+  "id": "card-catzoc",
+  "type": "knowledge",
+  "badge": "MARITIME TERM OF THE DAY",
+  "headline": "CATZOC: How Far Can You Trust Your Chart?",
+  "subheadline": "Category of Zone of Confidence",
+  "insight": "At a charted depth of 20 m, A1 survey data is accurate to about 0.7 m. In zone C the same sounding may be 3 m out. Add that error to your UKC.",
+  "points": [
+    "A1 to D ratings",
+    "Check shallow legs",
+    "Add it to UKC"
+  ],
+  "motif": "chart",
+  "pillar": "terminology",
+  "audience": [
+    "OOW",
+    "Second Officer",
+    "Deck Cadet"
+  ],
+  "sources": [
+    {
+      "title": "IHO S-67 Mariners' Guide to Accuracy of Depth Information in ENC",
+      "publisher": "IHO",
+      "url": "https://iho.int/en/standards-and-specifications"
+    }
+  ],
+  "meta": {
+    "description": "CATZOC rates the survey quality behind every part of an electronic chart. What the categories mean for passage planning and under-keel clearance.",
+    "keywords": [
+      "CATZOC",
+      "zone of confidence",
+      "ECDIS",
+      "ENC",
+      "passage planning"
+    ],
+    "hashtags": [
+      "#CATZOC",
+      "#ECDIS",
+      "#PassagePlanning"
+    ],
+    "question": "Do you check CATZOC on every shallow leg?",
+    "altText": "Maritime term graphic explaining CATZOC, the category of zone of confidence on electronic navigational charts."
+  },
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner editorial bank: checked against the cited conventions",
+    "checkedAt": "2026-11-13"
+  }
+}

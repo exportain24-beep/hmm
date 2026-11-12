@@ -1,0 +1,8 @@
+{
+  "_comment": "Production switches, used when the matching GitHub variable (PIPELINE_ENABLED, DRY_RUN, AUTO_PUBLISH, CARDS_ENABLED) is not set. A variable always wins. Manual runs use their own inputs.",
+  "pipelineEnabled": true,
+  "cardsEnabled": true,
+  "dryRun": false,
+  "autoPublish": true,
+  "enabledAt": "2026-11-13"
+}

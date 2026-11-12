@@ -1,0 +1,48 @@
+{
+  "id": "card-enclosed-space-entry",
+  "type": "safety",
+  "headline": "Enclosed Space Entry: One Mistake Can Be Fatal",
+  "subheadline": "No permit. No test. No entry.",
+  "insight": "Low oxygen and toxic gas give no warning. Test the atmosphere from outside, keep an attendant at the entrance and have rescue gear ready before anyone goes in.",
+  "points": [
+    "Permit to work",
+    "Test, then monitor",
+    "Rescue ready"
+  ],
+  "motif": "tank",
+  "pillar": "safety",
+  "audience": [
+    "Rating",
+    "Deck Cadet",
+    "Engine Cadet",
+    "Junior Engineer"
+  ],
+  "sources": [
+    {
+      "title": "Revised recommendations for entering enclosed spaces aboard ships, resolution A.1050(27)",
+      "publisher": "IMO",
+      "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.1050(27).pdf"
+    }
+  ],
+  "meta": {
+    "description": "Enclosed spaces can hold an atmosphere that cannot support life, with no warning to the senses. The precautions every seafarer must follow before entry.",
+    "keywords": [
+      "enclosed space entry",
+      "permit to work",
+      "gas testing",
+      "ship safety"
+    ],
+    "hashtags": [
+      "#EnclosedSpace",
+      "#SafetyAtSea",
+      "#PermitToWork"
+    ],
+    "question": "What is the one step you never let anyone skip before entry?",
+    "altText": "Maritime safety graphic: enclosed space entry requires a permit, atmosphere testing and rescue readiness."
+  },
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner editorial bank: checked against the cited conventions",
+    "checkedAt": "2026-11-13"
+  }
+}

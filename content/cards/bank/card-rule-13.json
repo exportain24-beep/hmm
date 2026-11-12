@@ -1,0 +1,47 @@
+{
+  "id": "card-rule-13",
+  "type": "knowledge",
+  "badge": "ONE RULE MARINERS SHOULD KNOW",
+  "headline": "COLREG Rule 13: Overtaking",
+  "subheadline": "Coming up from astern? Keep clear.",
+  "insight": "A vessel coming up from more than 22.5 degrees abaft the other's beam is overtaking. She keeps out of the way until she is finally past and clear.",
+  "points": [
+    "Every vessel",
+    "In doubt, assume it",
+    "Until past and clear"
+  ],
+  "motif": "voyage",
+  "pillar": "colreg",
+  "audience": [
+    "OOW",
+    "Deck Cadet"
+  ],
+  "sources": [
+    {
+      "title": "COLREG 1972",
+      "publisher": "IMO",
+      "url": "https://www.imo.org/en/About/Conventions/Pages/COLREG.aspx"
+    }
+  ],
+  "meta": {
+    "description": "COLREG Rule 13: any vessel overtaking keeps out of the way of the vessel being overtaken, until finally past and clear.",
+    "keywords": [
+      "COLREG Rule 13",
+      "overtaking",
+      "rules of the road",
+      "OOW"
+    ],
+    "hashtags": [
+      "#COLREG",
+      "#Navigation",
+      "#Seamanship"
+    ],
+    "question": "How do you confirm you are past and clear?",
+    "altText": "Navigation graphic explaining COLREG Rule 13: the overtaking vessel keeps out of the way."
+  },
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner editorial bank: checked against the cited conventions",
+    "checkedAt": "2026-11-13"
+  }
+}

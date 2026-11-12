@@ -81,7 +81,7 @@ export const Colreg3DScene: React.FC<SceneProps> = ({scene, timing, accent}) => 
   const risk = enter(frame, fps, c0, 0.4) * (1 - enter(frame, fps, ta + 0.6, 0.6));
   const acted = enter(frame, fps, ta, 0.5);
   const cz = scn === 'overtaking' ? (a.z + b.z) / 2 - 0.5 : 0;
-  const cam: Cam = {pos: [1.6 * Math.sin(t * 0.16), 25 - 1.5 * clamp01(t / seconds), cz + 17], target: [0, 0, cz + 0.6], fov: 40};
+  const cam: Cam = {pos: [1.6 * Math.sin(t * 0.16), 23 - 1.5 * clamp01(t / seconds), cz + 16], target: [0, 0, cz + 0.5], fov: 41};
   const proj = makeProjector(cam, L.panel.w, L.panel.h);
   const pa = proj(a.x, 1.2, a.z);
   const pb = proj(b.x, 1.2, b.z);
@@ -119,8 +119,8 @@ export const Colreg3DScene: React.FC<SceneProps> = ({scene, timing, accent}) => 
           <SeaSector x={b.x} z={b.z} radius={5.2} fromBearing={112.5} toBearing={247.5} color="#FFFFFF" opacity={0.3 * enter(frame, fps, c0, 0.6)} />
         )}
         <SeaRing x={a.x} z={a.z} radius={2.1} color={C.tealBright} opacity={0.55} thickness={0.1} />
-        <Vessel x={a.x} z={a.z} heading={a.hdg} time={t} kind="container" hull="#12506B" scale={0.62} />
-        <Vessel x={b.x} z={b.z} heading={b.hdg} time={t + 3} kind={scn === 'overtaking' ? 'cargo' : 'tanker'} hull="#8A3324" speed={scn === 'overtaking' ? 0.5 : 1} scale={0.62} />
+        <Vessel x={a.x} z={a.z} heading={a.hdg} time={t} kind="container" hull="#12506B" scale={0.82} />
+        <Vessel x={b.x} z={b.z} heading={b.hdg} time={t + 3} kind={scn === 'overtaking' ? 'cargo' : 'tanker'} hull="#8A3324" speed={scn === 'overtaking' ? 0.5 : 1} scale={0.82} />
       </Stage>
     </AbsoluteFill>
   );

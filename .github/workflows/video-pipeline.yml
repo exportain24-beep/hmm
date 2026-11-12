@@ -72,8 +72,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 110
     env:
-      DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || (github.event_name == 'schedule' && (vars.DRY_RUN || 'true')) }}
-      AUTO_PUBLISH: ${{ github.event_name == 'workflow_dispatch' && inputs.auto_publish || (github.event_name == 'schedule' && (vars.AUTO_PUBLISH || 'false')) }}
+      DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && format('{0}', inputs.dry_run) || vars.DRY_RUN }}
+      AUTO_PUBLISH: ${{ github.event_name == 'workflow_dispatch' && format('{0}', inputs.auto_publish) || vars.AUTO_PUBLISH }}
       ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
       ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
       ELEVENLABS_VOICE_ID_NEWS: ${{ vars.ELEVENLABS_VOICE_ID_NEWS }}

@@ -1,5 +1,12 @@
 # Operations
 
+## Daily schedule (on since 13 Nov 2026)
+
+- 3 videos a day: production at 06, 12 and 17 UTC (12:00, 18:00, 23:00 Dhaka), published after render + QC.
+- 2 photo cards a day: 04 and 14 UTC (10:00 and 20:00 Dhaka) to Facebook, Instagram, LinkedIn, X.
+- Content: a Claude scheduled task writes the day's specs into `content/queue/` and `content/cards/queue/` at 09:23 Dhaka (rules: `docs/CONTENT-ENGINE.md`); empty slots fall back to the bank.
+- Switches: `config/runtime.json` (`pipelineEnabled`, `cardsEnabled`, `dryRun`, `autoPublish`). A GitHub variable of the same name always overrides it. To stop everything set `pipelineEnabled` and `cardsEnabled` to false (or add the variable `PIPELINE_ENABLED=false`).
+
 ## Dry run (safe test)
 
 Actions -> **Video pipeline** -> Run workflow, `dry_run` ticked. Research, script, voice, render, QC and metadata

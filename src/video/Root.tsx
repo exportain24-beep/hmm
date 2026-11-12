@@ -7,6 +7,8 @@ import {FPS} from '../shared/types';
 import {ensureFonts} from './fonts';
 import {HeyMarinerVideo} from './HeyMarinerVideo';
 import {Thumbnail} from './Thumbnail';
+import {PhotoCard, type CardProps} from './cards/PhotoCard';
+import sampleCard from '../../content/cards/bank/card-enclosed-space-entry.json';
 
 ensureFonts();
 
@@ -31,6 +33,7 @@ export const Root: React.FC = () => {
           height: props.timeline.height,
         })}
       />
+      <Composition id="PhotoCard" component={PhotoCard} defaultProps={{card: sampleCard, logo: 'brand/logo-light.png'} as unknown as CardProps} fps={FPS} width={1080} height={1350} durationInFrames={1} />
       <Composition id="ThumbnailVertical" component={Thumbnail} defaultProps={defaultProps} fps={FPS} width={1080} height={1920} durationInFrames={1} />
       <Composition id="ThumbnailWide" component={Thumbnail} defaultProps={defaultProps} fps={FPS} width={1280} height={720} durationInFrames={1} />
     </>

@@ -7,7 +7,7 @@
       "stability": 0.5,
       "similarityBoost": 0.75,
       "style": 0.15,
-      "speed": 1.0
+      "speed": 1.04
     },
     "news": {
       "voiceIdEnv": "ELEVENLABS_VOICE_ID_NEWS",
@@ -15,7 +15,7 @@
       "stability": 0.6,
       "similarityBoost": 0.75,
       "style": 0.1,
-      "speed": 1.03
+      "speed": 1.07
     }
   },
   "outputFormat": "mp3_44100_128",
@@ -25,6 +25,6 @@
   "placeholderCharsPerSecond": 14.5,
   "maxCharsPerVideo": 1800,
   "defaultVoiceId": "uFIXVu9mmnDZ7dTKCBTX",
-  "_comment": "Model is LOCKED to lockedModelId (no variable can change it). defaultVoiceId is the HeyMariner voice; the ELEVENLABS_VOICE_ID variable is optional. Billing: ElevenLabs pay-as-you-go through the API key.",
+  "_comment": "Model is LOCKED to lockedModelId (no variable can change it). defaultVoiceId is the HeyMariner voice; the ELEVENLABS_VOICE_ID variable is optional. Billing: ElevenLabs pay-as-you-go through the API key. Speed raised 4% on request (13 Nov 2026).",
   "lockedModelId": "eleven_v4_turbo"
 }

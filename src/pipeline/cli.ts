@@ -7,7 +7,7 @@
 //   health                        check credentials, providers and the render environment
 //   cleanup                       delete old temporary media
 import {copyFileSync, existsSync, mkdirSync, rmSync, writeFileSync} from 'node:fs';
-import {config, env, isAutoPublish, isDryRun, log, p, PipelineError, run, setOutput, state, summary, writeJson} from './lib.ts';
+import {config, env, isAutoPublish, isCardsEnabled, isDryRun, isPipelineEnabled, log, p, PipelineError, run, setOutput, state, summary, writeJson} from './lib.ts';
 import {llmProvider} from './llm.ts';
 import {buildMetadata, uploadKit} from './metadata.ts';
 import {archiveQueueFile, choose, dueSlot, findSpec, loadBank, markSlot} from './plan.ts';
@@ -16,6 +16,7 @@ import {PUBLISHERS, publishAll} from './publish/index.ts';
 import {cleanupMedia} from './publish/hosting.ts';
 import {runQc} from './qc.ts';
 import {runResearch} from './research.ts';
+import {dueCardSlot, runCard, validateCard} from './cards.ts';
 import {validateSpec} from './spec.ts';
 import {seoFilename} from './seo.ts';
 import {resolveVoice} from './voice.ts';
@@ -150,15 +151,34 @@ const main = async () => {
     const items = await runResearch();
     summary(`### Research\n\n${items.slice(0, 12).map((i) => `- **${i.score}** ${i.title} (${i.sourceName})`).join('\n') || 'no items'}\n`);
   } else if (cmd === 'due') {
-    const enabled = env('PIPELINE_ENABLED').toLowerCase() === 'true';
+    const enabled = isPipelineEnabled();
     const slot = enabled ? dueSlot() : null;
-    log('schedule', enabled ? (slot ? `slot due: ${slot.id}` : 'no slot due') : 'PIPELINE_ENABLED is not true: scheduled production is off');
+    log('schedule', enabled ? (slot ? `slot due: ${slot.id}` : 'no slot due') : 'scheduled production is off (PIPELINE_ENABLED / config/runtime.json)');
     setOutput('slot', slot?.id ?? '');
+  } else if (cmd === 'cards-due') {
+    const slot = isCardsEnabled() ? dueCardSlot() : null;
+    log('schedule', slot ? `card slot due: ${slot.id}` : isCardsEnabled() ? 'no card slot due' : 'photo cards are off');
+    setOutput('slot', slot?.id ?? '');
+  } else if (cmd === 'card') {
+    await runCard(arg('id'), arg('platforms')?.split(',').filter(Boolean));
+    const slot = arg('slot');
+    if (slot && !isDryRun()) markSlot(slot);
+  } else if (cmd === 'validate-cards') {
+    let bad = 0;
+    for (const f of ['content/cards/bank', 'content/cards/queue']) {
+      for (const n of existsSync(p(f)) ? (await import('node:fs')).readdirSync(p(f)).filter((x) => x.endsWith('.json')) : []) {
+        const e = validateCard(JSON.parse((await import('node:fs')).readFileSync(p(f, n), 'utf8')));
+        console.log(`${e.length ? 'FAIL' : 'ok  '} ${n}${e.length ? ' - ' + e.join('; ') : ''}`);
+        if (e.length) bad++;
+      }
+    }
+    if (bad) process.exitCode = 1;
   } else if (cmd === 'run') {
     await cmdRun();
   } else if (cmd === 'validate') {
     let bad = 0;
-    for (const b of loadBank()) {
+    const queue = existsSync(p('content/queue')) ? (await import('node:fs')).readdirSync(p('content/queue')).filter((f) => f.endsWith('.json')).map((f) => ({spec: JSON.parse((await import('node:fs')).readFileSync(p('content/queue', f), 'utf8'))})) : [];
+    for (const b of [...loadBank(), ...queue]) {
       const e = validateSpec(b.spec);
       console.log(`${e.length ? 'FAIL' : 'ok  '} ${b.spec.id}${e.length ? '\n   - ' + e.join('\n   - ') : ''}`);
       if (e.length) bad++;

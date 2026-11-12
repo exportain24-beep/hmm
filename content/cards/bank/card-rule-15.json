@@ -1,0 +1,47 @@
+{
+  "id": "card-rule-15",
+  "type": "knowledge",
+  "badge": "ONE RULE MARINERS SHOULD KNOW",
+  "headline": "COLREG Rule 15: Crossing Situation",
+  "subheadline": "She is on your starboard side?",
+  "insight": "Then you are the give-way vessel. Take early and substantial action, and avoid crossing ahead of her if the circumstances of the case admit.",
+  "points": [
+    "Steady bearing = risk",
+    "Act early, act big",
+    "Pass astern"
+  ],
+  "motif": "lighthouse",
+  "pillar": "colreg",
+  "audience": [
+    "OOW",
+    "Deck Cadet"
+  ],
+  "sources": [
+    {
+      "title": "COLREG 1972",
+      "publisher": "IMO",
+      "url": "https://www.imo.org/en/About/Conventions/Pages/COLREG.aspx"
+    }
+  ],
+  "meta": {
+    "description": "COLREG Rule 15: when two power-driven vessels are crossing with risk of collision, the vessel which has the other on her own starboard side keeps out of the way.",
+    "keywords": [
+      "COLREG Rule 15",
+      "crossing situation",
+      "give-way vessel",
+      "rules of the road"
+    ],
+    "hashtags": [
+      "#COLREG",
+      "#Navigation",
+      "#OOW"
+    ],
+    "question": "At what range would you alter course here?",
+    "altText": "Navigation graphic explaining COLREG Rule 15 crossing situation: the vessel with the other on her starboard side gives way."
+  },
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner editorial bank: checked against the cited conventions",
+    "checkedAt": "2026-11-13"
+  }
+}
