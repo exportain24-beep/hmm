@@ -1,0 +1,111 @@
+{
+  "id": "colreg-rule-13-overtaking",
+  "template": "colreg-scenario",
+  "pillar": "colreg",
+  "audience": [
+    "OOW",
+    "Deck Cadet",
+    "Second Officer"
+  ],
+  "title": "Overtaking: who keeps clear? COLREG Rule 13 explained",
+  "thumbnailText": "OVERTAKING: KEEP CLEAR",
+  "aspect": "9:16",
+  "mood": "curious",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "label": "WHO GIVES WAY?",
+      "heading": "Overtaking? You keep clear.",
+      "narration": "You are faster, and coming up astern of another ship. Who keeps out of the way?"
+    },
+    {
+      "id": "sim",
+      "kind": "colreg3d",
+      "label": "RULE 13",
+      "heading": "The overtaking vessel keeps out of the way",
+      "visual": {
+        "type": "colreg",
+        "scenario": "overtaking"
+      },
+      "cues": [
+        "22.5 degrees",
+        "keep out of the way"
+      ],
+      "narration": "A vessel is overtaking when she comes up from more than 22.5 degrees abaft the other vessel's beam. By night, she would see only the sternlight. Rule 13 says any vessel overtaking must keep out of the way of the vessel being overtaken."
+    },
+    {
+      "id": "duties",
+      "kind": "bullets",
+      "label": "WHAT THE RULES REQUIRE",
+      "heading": "Three points officers forget",
+      "items": [
+        {
+          "title": "It applies to every vessel",
+          "text": "Even a sailing vessel overtaking a power-driven ship"
+        },
+        {
+          "title": "In doubt? You are overtaking",
+          "text": "Rule 13(c): assume it and act accordingly"
+        },
+        {
+          "title": "Once overtaking, always overtaking",
+          "text": "Until you are finally past and clear"
+        }
+      ],
+      "cues": [
+        "every vessel",
+        "in doubt",
+        "finally past and clear"
+      ],
+      "narration": "Three points. This rule applies to every vessel, even a sailing vessel overtaking a power-driven ship. If you are in doubt, assume you are overtaking. And a later change of bearing does not make you a crossing vessel: you keep clear until you are finally past and clear."
+    },
+    {
+      "id": "take",
+      "kind": "takeaway",
+      "label": "KEY TAKEAWAY",
+      "heading": "Overtaking? Keep clear until past and clear.",
+      "narration": "Coming up from astern? Keep clear, until you are past and clear."
+    },
+    {
+      "id": "end",
+      "kind": "endcard",
+      "narration": "Follow HeyMariner for practical maritime knowledge."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Convention on the International Regulations for Preventing Collisions at Sea, 1972 (COLREG)",
+      "publisher": "IMO",
+      "url": "https://www.imo.org/en/About/Conventions/Pages/COLREG.aspx"
+    }
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner editorial bank: written and checked against the cited conventions",
+    "checkedAt": "2026-11-12"
+  },
+  "meta": {
+    "description": "COLREG Rule 13 in 3D: when is a vessel overtaking, what does she see by night, and why she must keep clear until finally past and clear.",
+    "keywords": [
+      "COLREG",
+      "collision regulations",
+      "rules of the road",
+      "give-way vessel",
+      "stand-on vessel",
+      "OOW",
+      "navigation"
+    ],
+    "hashtags": [
+      "#COLREG",
+      "#navigation",
+      "#rulesoftheroad",
+      "#deckcadet",
+      "#OOW"
+    ]
+  },
+  "origin": {
+    "type": "bank"
+  },
+  "series": "Who Gives Way?"
+}

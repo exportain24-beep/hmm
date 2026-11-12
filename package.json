@@ -1,0 +1,34 @@
+{
+  "name": "heymariner-media-engine",
+  "version": "0.1.0",
+  "private": true,
+  "description": "HeyMariner autonomous maritime video engine: research -> script -> ElevenLabs voice -> Remotion/Three.js render -> QC -> publish",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "pipeline": "tsx src/pipeline/cli.ts",
+    "studio": "remotion studio src/video/index.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts"
+  },
+  "dependencies": {
+    "@react-three/fiber": "9.5.0",
+    "@remotion/bundler": "4.0.455",
+    "@remotion/cli": "4.0.455",
+    "@remotion/fonts": "4.0.455",
+    "@remotion/renderer": "4.0.455",
+    "@remotion/three": "4.0.455",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.455",
+    "three": "0.178.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.15.3",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "@types/three": "0.178.0",
+    "tsx": "4.19.4",
+    "typescript": "5.8.3"
+  }
+}

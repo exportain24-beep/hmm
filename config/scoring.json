@@ -1,0 +1,17 @@
+{
+  "minScore": 62,
+  "weights": {
+    "recency": 18, "reliability": 18, "maritimeRelevance": 16, "educationalValue": 10,
+    "seafarerValue": 12, "shareability": 6, "visualPotential": 8, "regulatoryImportance": 12
+  },
+  "recencyHalfLifeHours": 30,
+  "keywords": {
+    "maritime": ["ship", "vessel", "seafarer", "crew", "port", "tanker", "bulk carrier", "container", "cargo", "master", "mariner", "shipping", "maritime", "imo", "strait", "canal"],
+    "regulatory": ["imo", "solas", "marpol", "stcw", "colreg", "mlc", "ism code", "isps", "mepc", "msc", "amendment", "enters into force", "circular", "port state control", "psc", "flag state", "eca", "cii", "eexi", "ballast water"],
+    "seafarer": ["seafarer", "crew", "officer", "cadet", "engineer", "wages", "abandon", "fatigue", "shore leave", "training", "certificate", "safety", "enclosed space", "mooring", "lifeboat", "piracy"],
+    "educational": ["investigation", "report", "lessons", "guidance", "procedure", "how", "why", "explained", "alert", "bulletin"],
+    "visual": ["collision", "grounding", "fire", "ecdis", "radar", "navigation", "mooring", "lifeboat", "engine", "anchor", "pilot", "channel", "strait", "storm"],
+    "shareable": ["first", "largest", "record", "ban", "new rule", "deadline", "detained", "rescue", "warning"],
+    "reject": ["sponsored", "webinar", "advertorial", "press release:", "stock price", "quarterly results", "appoints", "cruise deal"]
+  }
+}

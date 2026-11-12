@@ -1,0 +1,12 @@
+node_modules/
+work/
+out/
+.env
+.env.*
+!.env.example
+*.log
+.next/
+apps/studio/public/fonts/
+apps/studio/public/brand/
+__pycache__/
+.DS_Store

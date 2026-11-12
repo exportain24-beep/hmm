@@ -1,0 +1,16 @@
+{
+  "_comment": "RSS/Atom feeds. reliability 0..1. A feed that fails is logged and skipped, never fatal. 'authority' sources can stand alone; 'press' items need the article text to pass validation.",
+  "feeds": [
+    { "id": "imo",         "name": "IMO Media Centre",        "url": "https://www.imo.org/en/MediaCentre/Pages/rss.aspx",       "reliability": 1.0,  "tier": "authority" },
+    { "id": "safety4sea",  "name": "SAFETY4SEA",              "url": "https://safety4sea.com/feed/",                            "reliability": 0.85, "tier": "press" },
+    { "id": "gcaptain",    "name": "gCaptain",                "url": "https://gcaptain.com/feed/",                              "reliability": 0.85, "tier": "press" },
+    { "id": "splash247",   "name": "Splash247",               "url": "https://splash247.com/feed/",                             "reliability": 0.85, "tier": "press" },
+    { "id": "marex",       "name": "The Maritime Executive",  "url": "https://maritime-executive.com/articles.rss",             "reliability": 0.85, "tier": "press" },
+    { "id": "marineinsight","name": "Marine Insight",         "url": "https://www.marineinsight.com/feed/",                     "reliability": 0.75, "tier": "press" },
+    { "id": "hellenic",    "name": "Hellenic Shipping News",  "url": "https://www.hellenicshippingnews.com/feed/",              "reliability": 0.75, "tier": "press" },
+    { "id": "maib",        "name": "UK MAIB reports",         "url": "https://www.gov.uk/maib-reports.atom",                    "reliability": 1.0,  "tier": "authority" }
+  ],
+  "maxItemsPerFeed": 25,
+  "maxAgeHours": 72,
+  "keepItems": 300
+}

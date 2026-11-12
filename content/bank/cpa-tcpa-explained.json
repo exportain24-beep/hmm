@@ -1,0 +1,120 @@
+{
+  "id": "cpa-tcpa-explained",
+  "template": "maritime-term",
+  "pillar": "terminology",
+  "audience": [
+    "OOW",
+    "Deck Cadet",
+    "Second Officer"
+  ],
+  "title": "CPA and TCPA explained: the two radar numbers every OOW must watch",
+  "thumbnailText": "CPA & TCPA",
+  "aspect": "9:16",
+  "mood": "curious",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "label": "MARITIME TERM OF THE DAY",
+      "heading": "Two radar numbers tell you if a target will pass clear.",
+      "narration": "Two numbers on your radar tell you whether a target will pass clear, or come dangerously close."
+    },
+    {
+      "id": "term",
+      "kind": "term",
+      "heading": "CPA & TCPA",
+      "body": "Closest Point of Approach and Time to Closest Point of Approach",
+      "narration": "CPA is the Closest Point of Approach: how near a target will pass if neither vessel changes course or speed. TCPA is the time left until that moment."
+    },
+    {
+      "id": "radar",
+      "kind": "radar",
+      "label": "ON THE RADAR",
+      "heading": "CPA 0.3 nm in 12 minutes",
+      "visual": {
+        "type": "radar",
+        "cpaNm": 0.3,
+        "tcpaMin": 12,
+        "limitNm": 1.0
+      },
+      "cues": [
+        "three cables",
+        "too close"
+      ],
+      "narration": "This target will pass three cables from you in twelve minutes. If your Master's standing orders require one mile, that is too close, and you must act now."
+    },
+    {
+      "id": "use",
+      "kind": "bullets",
+      "label": "USE IT PROPERLY",
+      "heading": "Do not trust it blindly",
+      "items": [
+        {
+          "title": "Give ARPA time to settle",
+          "text": "After either vessel alters course or speed"
+        },
+        {
+          "title": "Check speed and heading input",
+          "text": "Wrong input gives a wrong CPA"
+        },
+        {
+          "title": "Watch the compass bearing",
+          "text": "Steady bearing, closing range: risk of collision"
+        }
+      ],
+      "cues": [
+        "needs time",
+        "Wrong speed",
+        "compass bearing"
+      ],
+      "narration": "But do not trust it blindly. ARPA needs time to settle after either vessel alters. Wrong speed or heading input gives a wrong CPA. And always confirm with the compass bearing: if it is steady and the range is closing, risk of collision exists."
+    },
+    {
+      "id": "take",
+      "kind": "takeaway",
+      "label": "KEY TAKEAWAY",
+      "heading": "Small CPA, short TCPA: act early.",
+      "narration": "Small CPA and short TCPA mean one thing: act early."
+    },
+    {
+      "id": "end",
+      "kind": "endcard",
+      "narration": "Follow HeyMariner for practical maritime knowledge."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Convention on the International Regulations for Preventing Collisions at Sea, 1972 (COLREG)",
+      "publisher": "IMO",
+      "url": "https://www.imo.org/en/About/Conventions/Pages/COLREG.aspx"
+    }
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner editorial bank: written and checked against the cited conventions",
+    "checkedAt": "2026-11-12"
+  },
+  "meta": {
+    "description": "CPA (Closest Point of Approach) and TCPA (Time to CPA) are the two radar and ARPA values that tell the officer of the watch how close a target will pass and when. What they mean, how to use them, and why the compass bearing still matters.",
+    "keywords": [
+      "CPA",
+      "TCPA",
+      "ARPA",
+      "radar plotting",
+      "collision avoidance",
+      "OOW",
+      "COLREG Rule 7"
+    ],
+    "hashtags": [
+      "#radar",
+      "#ARPA",
+      "#collisionavoidance",
+      "#navigation",
+      "#OOW"
+    ]
+  },
+  "origin": {
+    "type": "bank"
+  },
+  "series": "Maritime Term of the Day"
+}

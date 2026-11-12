@@ -1,0 +1,146 @@
+{
+  "id": "ecdis-safety-contour",
+  "template": "equipment-explained",
+  "pillar": "equipment",
+  "audience": [
+    "OOW",
+    "Second Officer",
+    "Chief Officer",
+    "Deck Cadet"
+  ],
+  "title": "How does an ECDIS safety contour work?",
+  "thumbnailText": "ECDIS SAFETY CONTOUR",
+  "aspect": "9:16",
+  "mood": "curious",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "label": "KNOW YOUR EQUIPMENT",
+      "heading": "One ECDIS setting separates safe water from danger.",
+      "narration": "One setting on your ECDIS decides where safe water ends. Set it wrong, and the grounding alarm may warn you too late."
+    },
+    {
+      "id": "what",
+      "kind": "statement",
+      "label": "WHAT IS IT?",
+      "heading": "The safety contour",
+      "body": "A depth contour you select. ECDIS draws it as a bold line between safe and unsafe water, and alarms before you cross it.",
+      "narration": "The safety contour is a depth contour that you select. ECDIS draws it as a bold line. Deeper water is shown as safe, shallower water as unsafe, and an alarm sounds before you cross it."
+    },
+    {
+      "id": "how",
+      "kind": "contour3d",
+      "label": "HOW IT WORKS",
+      "heading": "ECDIS picks the next deeper contour",
+      "visual": {
+        "type": "safety-contour",
+        "draft": 10,
+        "enteredValue": 12,
+        "contours": [
+          5,
+          10,
+          15,
+          20,
+          30
+        ]
+      },
+      "cues": [
+        "enter twelve metres",
+        "next deeper one"
+      ],
+      "narration": "Here is the catch. If you enter twelve metres and the chart has no twelve metre contour, ECDIS uses the next deeper one available. Here, that is fifteen metres."
+    },
+    {
+      "id": "set",
+      "kind": "bullets",
+      "label": "SETTING IT",
+      "heading": "What goes into the value",
+      "items": [
+        {
+          "title": "Deepest draught",
+          "text": "Static, including trim"
+        },
+        {
+          "title": "Squat",
+          "text": "At your planned speed"
+        },
+        {
+          "title": "Required UKC",
+          "text": "From company policy"
+        },
+        {
+          "title": "Height of tide",
+          "text": "Only where procedures permit"
+        }
+      ],
+      "cues": [
+        "deepest draught",
+        "squat",
+        "under keel clearance",
+        "height of tide"
+      ],
+      "narration": "To set it, start with your deepest draught. Add squat at your planned speed, and the under keel clearance your company requires. Allow for height of tide only where your procedures permit it."
+    },
+    {
+      "id": "mistake",
+      "kind": "statement",
+      "label": "COMMON MISTAKE",
+      "heading": "Keeping the last voyage's value",
+      "body": "A different draught needs a different safety contour. Check it in every passage plan and at every watch handover.",
+      "narration": "The common mistake is keeping the value from the last voyage. A new draught needs a new safety contour, so check it in every passage plan."
+    },
+    {
+      "id": "take",
+      "kind": "takeaway",
+      "label": "KEY TAKEAWAY",
+      "heading": "The alarm only protects you if the contour is right.",
+      "narration": "Key takeaway: the alarm only protects you if the contour is right."
+    },
+    {
+      "id": "end",
+      "kind": "endcard",
+      "narration": "Learn more with HeyMariner."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Resolution MSC.232(82): Revised performance standards for ECDIS",
+      "publisher": "IMO",
+      "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.232(82).pdf"
+    },
+    {
+      "title": "IHO S-52: Specifications for chart content and display aspects of ECDIS",
+      "publisher": "IHO",
+      "url": "https://iho.int/en/standards-and-specifications"
+    }
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner editorial bank: written and checked against the cited conventions",
+    "checkedAt": "2026-11-12"
+  },
+  "meta": {
+    "description": "The ECDIS safety contour marks the boundary between safe and unsafe water and drives the anti-grounding alarm. See how ECDIS chooses the contour, what goes into the value and the most common mistake officers make.",
+    "keywords": [
+      "ECDIS",
+      "safety contour",
+      "safety depth",
+      "anti-grounding alarm",
+      "passage planning",
+      "navigation",
+      "ENC"
+    ],
+    "hashtags": [
+      "#ECDIS",
+      "#navigation",
+      "#deckofficer",
+      "#bridgeteam",
+      "#passageplanning"
+    ]
+  },
+  "origin": {
+    "type": "bank"
+  },
+  "series": "Know Your Equipment"
+}

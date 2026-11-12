@@ -1,0 +1,16 @@
+{
+  "provider": "elevenlabs",
+  "defaultProfile": "narrator",
+  "profiles": {
+    "narrator": { "voiceIdEnv": "ELEVENLABS_VOICE_ID", "stability": 0.5, "similarityBoost": 0.75, "style": 0.15, "speed": 1.0 },
+    "news":     { "voiceIdEnv": "ELEVENLABS_VOICE_ID_NEWS", "fallbackProfile": "narrator", "stability": 0.6, "similarityBoost": 0.75, "style": 0.1, "speed": 1.03 }
+  },
+  "modelIdEnv": "ELEVENLABS_MODEL_ID",
+  "defaultModelId": "eleven_v4_turbo",
+  "outputFormat": "mp3_44100_128",
+  "leadSeconds": 0.25,
+  "gapSeconds": 0.32,
+  "tailSeconds": 0.35,
+  "placeholderCharsPerSecond": 14.5,
+  "maxCharsPerVideo": 1800
+}

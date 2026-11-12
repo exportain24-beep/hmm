@@ -1,0 +1,23 @@
+name: Cleanup
+
+# Deletes temporary public media (release assets used for Buffer) older than 3 days.
+on:
+  schedule:
+    - cron: '29 2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npx --yes tsx@4.19.4 src/pipeline/cli.ts cleanup --days 3

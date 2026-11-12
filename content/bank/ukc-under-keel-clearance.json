@@ -1,0 +1,127 @@
+{
+  "id": "ukc-under-keel-clearance",
+  "template": "educational-explainer",
+  "pillar": "deck",
+  "audience": [
+    "OOW",
+    "Second Officer",
+    "Chief Officer",
+    "Deck Cadet"
+  ],
+  "title": "Under-keel clearance: how much water is really under your ship?",
+  "thumbnailText": "HOW MUCH WATER BELOW?",
+  "aspect": "9:16",
+  "mood": "hopeful",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "label": "MARITIME INSIGHT",
+      "heading": "How much water is really under your keel?",
+      "narration": "Charted depth minus draught is not your real clearance. Here is what is missing."
+    },
+    {
+      "id": "term",
+      "kind": "term",
+      "heading": "UKC",
+      "body": "Under-keel clearance: the vertical distance between the lowest point of the hull and the seabed",
+      "narration": "UKC means under keel clearance: the vertical distance between the lowest point of your hull and the seabed."
+    },
+    {
+      "id": "calc",
+      "kind": "ukc",
+      "label": "THE CALCULATION",
+      "heading": "Depth of water, less draught, less squat",
+      "visual": {
+        "type": "ukc",
+        "depth": 14.0,
+        "draft": 11.5,
+        "squat": 0.8
+      },
+      "cues": [
+        "charted depth",
+        "static draught",
+        "squat"
+      ],
+      "narration": "Take the charted depth and add the height of tide. Subtract your deepest static draught. Then subtract squat, because a ship sinks deeper as her speed increases, especially in shallow water."
+    },
+    {
+      "id": "more",
+      "kind": "bullets",
+      "label": "WHAT ELSE REDUCES IT",
+      "heading": "The margin is smaller than you think",
+      "items": [
+        {
+          "title": "Heel in a turn",
+          "text": "A wide ship gains draught quickly when she heels"
+        },
+        {
+          "title": "Swell and waves",
+          "text": "Heave and pitch use up clearance"
+        },
+        {
+          "title": "Chart accuracy",
+          "text": "Check the CATZOC of the area"
+        },
+        {
+          "title": "Water density",
+          "text": "Draught increases in fresher water"
+        }
+      ],
+      "cues": [
+        "heel",
+        "swell",
+        "accuracy of the chart",
+        "water density"
+      ],
+      "narration": "Other things reduce it further: heel when turning, swell, the accuracy of the chart, and a change in water density. Your company policy sets the minimum you must keep."
+    },
+    {
+      "id": "take",
+      "kind": "takeaway",
+      "label": "KEY TAKEAWAY",
+      "heading": "Small margin? Slow down. Less speed, less squat.",
+      "narration": "Calculate it for every critical part of the passage, and if the margin is small, slow down."
+    },
+    {
+      "id": "end",
+      "kind": "endcard",
+      "narration": "Learn more with HeyMariner."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Resolution A.893(21): Guidelines for voyage planning",
+      "publisher": "IMO",
+      "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.893(21).pdf"
+    }
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner editorial bank: written and checked against the cited conventions",
+    "checkedAt": "2026-11-12"
+  },
+  "meta": {
+    "description": "Under-keel clearance is more than charted depth minus draught. Tide, squat, heel, swell, chart accuracy and water density all change the real margin. A practical explanation for deck officers.",
+    "keywords": [
+      "under keel clearance",
+      "UKC",
+      "squat",
+      "passage planning",
+      "draught",
+      "shallow water",
+      "navigation"
+    ],
+    "hashtags": [
+      "#UKC",
+      "#passageplanning",
+      "#navigation",
+      "#deckofficer",
+      "#seamanship"
+    ]
+  },
+  "origin": {
+    "type": "bank"
+  },
+  "series": "One Minute Mariner"
+}

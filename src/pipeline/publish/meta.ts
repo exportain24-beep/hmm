@@ -1,0 +1,93 @@
+// Facebook Reels + Instagram Reels through the official Graph API (binary upload, no public URL needed).
+import {statSync} from 'node:fs';
+import {config, env, fetchRetry, okJson, PipelineError} from '../lib.ts';
+import {fileBody} from '../lib.ts';
+import type {Publisher} from './index.ts';
+
+const ver = () => env('META_GRAPH_VERSION') || config<{metaGraphVersion: string}>('social').metaGraphVersion;
+const graph = (path: string) => `https://graph.facebook.com/${ver()}/${path}`;
+const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
+
+const explain = (status: number, body: string) =>
+  /"code":\s*190/.test(body) ? 'Meta access token is expired or invalid (code 190). Generate a new long-lived token.' : `HTTP ${status}: ${body.slice(0, 400)}`;
+
+const call = async <T>(url: string, params: Record<string, string>, method: 'GET' | 'POST', stage: string, retries = 2): Promise<T> => {
+  const qs = new URLSearchParams(params);
+  const res = method === 'GET'
+    ? await fetchRetry(`${url}?${qs}`, {}, {stage, retries})
+    : await fetchRetry(url, {method: 'POST', body: qs}, {stage, retries});
+  const text = await res.text();
+  if (!res.ok) throw new PipelineError(stage, explain(res.status, text));
+  return JSON.parse(text) as T;
+};
+
+/** A user/system-user token is exchanged for the Page token; a Page token is used as-is. */
+const pageToken = async (): Promise<string> => {
+  const token = env('META_ACCESS_TOKEN');
+  try {
+    const j = await call<{access_token?: string}>(graph(env('META_PAGE_ID')), {fields: 'access_token', access_token: token}, 'GET', 'facebook', 1);
+    return j.access_token || token;
+  } catch {
+    return token;
+  }
+};
+
+const rupload = async (url: string, token: string, file: string, stage: string) => {
+  const size = statSync(file).size;
+  // not retried: an unknown outcome must not turn into two uploads
+  const res = await fetchRetry(url, {method: 'POST', headers: {authorization: `OAuth ${token}`, offset: '0', file_size: String(size), 'content-type': 'application/octet-stream'}, body: fileBody(file)}, {stage, retries: 0, timeoutMs: 15 * 60 * 1000});
+  const text = await res.text();
+  if (!res.ok) throw new PipelineError(stage, explain(res.status, text));
+};
+
+export const FacebookPublisher: Publisher = {
+  id: 'facebook',
+  requiredEnv: ['META_ACCESS_TOKEN', 'META_PAGE_ID'],
+  async health() {
+    const j = await call<{name: string}>(graph(env('META_PAGE_ID')), {fields: 'name', access_token: await pageToken()}, 'GET', 'facebook', 1);
+    return `page: ${j.name}`;
+  },
+  async publish({file, meta}) {
+    const token = await pageToken();
+    const page = env('META_PAGE_ID');
+    const start = await call<{video_id: string; upload_url: string}>(graph(`${page}/video_reels`), {upload_phase: 'start', access_token: token}, 'POST', 'facebook');
+    await rupload(start.upload_url, token, file, 'facebook');
+    const m = meta.platforms.facebook;
+    await call<{success: boolean}>(graph(`${page}/video_reels`), {upload_phase: 'finish', video_id: start.video_id, video_state: 'PUBLISHED', description: m.caption, title: m.title, access_token: token}, 'POST', 'facebook', 0);
+    return {id: start.video_id, url: `https://www.facebook.com/reel/${start.video_id}`};
+  },
+};
+
+const igUser = async (token: string): Promise<string> => {
+  if (env('META_IG_USER_ID')) return env('META_IG_USER_ID');
+  const j = await call<{instagram_business_account?: {id: string}}>(graph(env('META_PAGE_ID')), {fields: 'instagram_business_account', access_token: token}, 'GET', 'instagram', 1);
+  if (!j.instagram_business_account?.id) throw new PipelineError('instagram', 'no Instagram professional account is linked to the Page (or set META_IG_USER_ID)');
+  return j.instagram_business_account.id;
+};
+
+export const InstagramPublisher: Publisher = {
+  id: 'instagram',
+  requiredEnv: ['META_ACCESS_TOKEN', 'META_PAGE_ID'],
+  async health() {
+    const token = await pageToken();
+    const id = await igUser(token);
+    const j = await call<{username: string}>(graph(id), {fields: 'username', access_token: token}, 'GET', 'instagram', 1);
+    return `account: @${j.username}`;
+  },
+  async publish({file, meta}) {
+    const token = await pageToken();
+    const ig = await igUser(token);
+    const c = await call<{id: string; uri: string}>(graph(`${ig}/media`), {media_type: 'REELS', upload_type: 'resumable', caption: meta.platforms.instagram.caption, share_to_feed: 'true', access_token: token}, 'POST', 'instagram');
+    await rupload(c.uri, token, file, 'instagram');
+    let status = '';
+    for (let i = 0; i < 40; i++) {
+      await sleep(8000);
+      status = (await call<{status_code: string}>(graph(c.id), {fields: 'status_code', access_token: token}, 'GET', 'instagram', 1)).status_code;
+      if (status === 'FINISHED') break;
+      if (status === 'ERROR' || status === 'EXPIRED') throw new PipelineError('instagram', `container processing ${status}`);
+    }
+    if (status !== 'FINISHED') throw new PipelineError('instagram', 'container processing timed out');
+    const pub = await call<{id: string}>(graph(`${ig}/media_publish`), {creation_id: c.id, access_token: token}, 'POST', 'instagram', 0);
+    return {id: pub.id};
+  },
+};

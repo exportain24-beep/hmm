@@ -1,0 +1,9 @@
+{
+  "_comment": "Single place for publishing slots. The workflow wakes hourly and asks 'pipeline due'. utcHour = hour the slot starts producing (publish follows as soon as render + QC pass).",
+  "graceHours": 3,
+  "slots": [
+    { "id": "morning", "utcHour": 5,  "mode": "news-first", "pillars": ["news", "regulation", "safety"] },
+    { "id": "midday",  "utcHour": 11, "mode": "evergreen",  "pillars": ["deck", "terminology", "equipment", "colreg"] },
+    { "id": "evening", "utcHour": 17, "mode": "evergreen",  "pillars": ["engine", "safety", "regulation", "ship-type"] }
+  ]
+}

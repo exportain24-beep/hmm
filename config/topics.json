@@ -1,0 +1,25 @@
+{
+  "_comment": "Evergreen syllabus the script writer draws from once the hand-written bank is used up (needs an LLM key). Each entry becomes one video.",
+  "topics": [
+    { "pillar": "terminology", "template": "maritime-term", "topic": "DWT vs GT vs NT: what each tonnage really measures", "audience": ["Deck Cadet", "Maritime Student"] },
+    { "pillar": "terminology", "template": "maritime-term", "topic": "What PSC means and how a Port State Control inspection works", "audience": ["OOW", "Chief Officer"] },
+    { "pillar": "terminology", "template": "maritime-term", "topic": "CII rating explained for ship's officers", "audience": ["Chief Engineer", "Master"] },
+    { "pillar": "equipment", "template": "equipment-explained", "topic": "How an EPIRB works and the monthly checks", "audience": ["OOW", "Deck Cadet"] },
+    { "pillar": "equipment", "template": "equipment-explained", "topic": "AIS: what it transmits and why you must not rely on it for collision avoidance", "audience": ["OOW"] },
+    { "pillar": "equipment", "template": "equipment-explained", "topic": "Oily water separator and the 15 ppm rule", "audience": ["Engine Cadet", "Junior Engineer"] },
+    { "pillar": "equipment", "template": "equipment-explained", "topic": "How a fuel oil purifier separates water and sludge", "audience": ["Engine Cadet", "Junior Engineer"] },
+    { "pillar": "colreg", "template": "colreg-scenario", "topic": "Rule 19: conduct of vessels in restricted visibility", "audience": ["OOW", "Deck Cadet"] },
+    { "pillar": "colreg", "template": "colreg-scenario", "topic": "Rule 10: crossing and joining a traffic separation scheme", "audience": ["OOW"] },
+    { "pillar": "colreg", "template": "colreg-scenario", "topic": "Rule 9: narrow channels", "audience": ["OOW"] },
+    { "pillar": "deck", "template": "educational-explainer", "topic": "The four stages of passage planning: appraisal, planning, execution, monitoring", "audience": ["Deck Cadet", "Second Officer"] },
+    { "pillar": "deck", "template": "educational-explainer", "topic": "How to work out anchor cable scope", "audience": ["Deck Cadet", "OOW"] },
+    { "pillar": "engine", "template": "educational-explainer", "topic": "Two-stroke marine diesel engine cycle", "audience": ["Engine Cadet"] },
+    { "pillar": "engine", "template": "educational-explainer", "topic": "Why jacket cooling water temperature matters", "audience": ["Engine Cadet", "Junior Engineer"] },
+    { "pillar": "safety", "template": "safety-alert", "topic": "Mooring line snap-back zones", "audience": ["Rating", "Deck Cadet"] },
+    { "pillar": "safety", "template": "safety-alert", "topic": "Permit to work: what it is and when it is required", "audience": ["Rating", "Junior Engineer", "Deck Cadet"] },
+    { "pillar": "safety", "template": "safety-alert", "topic": "Lockout and tagout before machinery maintenance", "audience": ["Junior Engineer", "Engine Cadet"] },
+    { "pillar": "ship-type", "template": "ship-type", "topic": "Know your ship: LNG carrier", "audience": ["Maritime Student", "General Maritime Audience"] },
+    { "pillar": "ship-type", "template": "ship-type", "topic": "Know your ship: bulk carrier", "audience": ["Maritime Student", "General Maritime Audience"] },
+    { "pillar": "career", "template": "career-advice", "topic": "Cadet to Captain: what an OOW is actually responsible for on watch", "audience": ["Deck Cadet"] }
+  ]
+}

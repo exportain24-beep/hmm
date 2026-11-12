@@ -1,0 +1,5 @@
+{
+  "_comment": "Script writer / validator. Provider is chosen by whichever key exists (Anthropic first). Models are overridable with LLM_MODEL (or OPENAI_MODEL for OpenAI).",
+  "anthropic": { "model": "claude-sonnet-5-5", "maxTokens": 4000 },
+  "openai": { "model": "", "maxTokens": 4000 }
+}

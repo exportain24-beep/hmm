@@ -1,0 +1,24 @@
+{
+  "name": "HeyMariner",
+  "website": "www.heymariner.com",
+  "tagline": "Practical maritime knowledge",
+  "logoFile": "brand/logo.png",
+  "colors": {
+    "navy": "#0B1F3A",
+    "deep": "#061223",
+    "panel": "#102A4C",
+    "teal": "#14B8A6",
+    "tealBright": "#2DD4BF",
+    "white": "#FFFFFF",
+    "mist": "#B8C7DB",
+    "amber": "#F59E0B",
+    "red": "#EF4444",
+    "green": "#22C55E"
+  },
+  "fonts": { "heading": "Poppins", "body": "Inter" },
+  "ctas": [
+    "Follow HeyMariner for practical maritime knowledge.",
+    "Learn more with HeyMariner.",
+    "Stay updated with the maritime industry."
+  ]
+}

@@ -1,0 +1,166 @@
+#!/usr/bin/env tsx
+// HeyMariner pipeline entry point.
+//   research                      pull + score feeds
+//   due                           is a schedule slot due? (writes GitHub outputs)
+//   run [--id X] [--slot S]       plan -> script -> voice -> render -> QC -> metadata -> publish (if allowed)
+//   validate                      validate every spec in content/bank and content/queue
+//   health                        check credentials, providers and the render environment
+//   cleanup                       delete old temporary media
+import {copyFileSync, existsSync, mkdirSync, rmSync} from 'node:fs';
+import {config, env, isAutoPublish, isDryRun, log, p, PipelineError, run, setOutput, state, summary, writeJson} from './lib.ts';
+import {llmProvider} from './llm.ts';
+import {buildMetadata} from './metadata.ts';
+import {archiveQueueFile, choose, dueSlot, findSpec, loadBank, markSlot} from './plan.ts';
+import {produce} from './produce.ts';
+import {PUBLISHERS, publishAll} from './publish/index.ts';
+import {cleanupMedia} from './publish/hosting.ts';
+import {runQc} from './qc.ts';
+import {runResearch} from './research.ts';
+import {validateSpec} from './spec.ts';
+import {resolveVoice} from './voice.ts';
+
+const arg = (name: string): string | undefined => {
+  const i = process.argv.indexOf(`--${name}`);
+  return i > 0 ? process.argv[i + 1] : undefined;
+};
+const has = (name: string) => process.argv.includes(`--${name}`);
+
+const cmdRun = async () => {
+  log('pipeline', 'started', {dryRun: isDryRun(), autoPublish: isAutoPublish(), llm: llmProvider()});
+  const id = arg('id');
+  const slotId = arg('slot');
+  const slots = config<{slots: {id: string; utcHour: number; mode: 'news-first' | 'evergreen'; pillars: string[]}[]}>('schedule').slots;
+  const slot = slotId ? slots.find((s) => s.id === slotId) ?? null : null;
+
+  let plan;
+  if (id) {
+    const spec = findSpec(id);
+    if (!spec) throw new PipelineError('plan', `no spec with id "${id}" in content/queue or content/bank`);
+    plan = {spec, reason: 'requested by id'};
+  } else {
+    plan = await choose(slot, {research: true});
+  }
+  if (!plan.spec) {
+    log('plan', plan.reason);
+    summary(`### HeyMariner pipeline\n\nNothing produced: ${plan.reason}\n`);
+    if (slot && !isDryRun()) markSlot(slot.id);
+    setOutput('produced', 'false');
+    return;
+  }
+  const spec = plan.spec;
+  const errors = validateSpec(spec);
+  if (errors.length) throw new PipelineError('script', `spec ${spec.id} invalid: ${errors.join('; ')}`);
+  log('plan', 'topic selected', {id: spec.id, template: spec.template, reason: plan.reason});
+  log('script', 'script generated', {scenes: spec.scenes.length, factCheck: spec.factCheck.status});
+
+  const out = await produce(spec, {skipRender: has('skip-render')});
+  const meta = buildMetadata(spec, out.timeline, out.voiceId, new Date().toISOString());
+  writeJson(`${out.workDir}/metadata.json`, meta);
+  const qc = has('skip-render') ? null : runQc(spec, out.timeline, out.final, `${out.workDir}/qc.json`);
+
+  // review bundle (uploaded as a workflow artifact)
+  const outDir = p('out', spec.id);
+  mkdirSync(outDir, {recursive: true});
+  for (const f of ['final.mp4', 'thumb.png', 'metadata.json', 'qc.json', 'spec.json', 'timeline.json']) {
+    if (existsSync(`${out.workDir}/${f}`)) copyFileSync(`${out.workDir}/${f}`, `${outDir}/${f}`);
+  }
+  summary([
+    `### HeyMariner pipeline: ${spec.title}`, '',
+    `- id: \`${spec.id}\` | template: ${spec.template} | ${out.timeline.totalSeconds.toFixed(1)} s | voice: ${out.timeline.voice} | 3D: ${out.uses3d}`,
+    `- DRY_RUN=${isDryRun()} AUTO_PUBLISH=${isAutoPublish()}`,
+    qc ? `- validation: ${qc.pass ? 'PASSED' : 'FAILED'}` : '- validation: skipped (no render)', '',
+    ...(qc ? ['| Check | Result | Detail |', '|---|---|---|', ...qc.checks.map((c) => `| ${c.name} | ${c.pass ? 'ok' : c.blocking ? 'FAIL' : 'warn'} | ${c.detail.replace(/\|/g, '/')} |`)] : []), '',
+  ].join('\n'));
+
+  if (!isDryRun() && qc) {
+    // record production so the same topic is never produced twice; publishing fills in platform ids
+    const published = state.published();
+    published[spec.id] = published[spec.id] ?? {title: spec.title, fingerprint: spec.origin.fingerprint, producedAt: new Date().toISOString(), platforms: {}};
+    state.savePublished(published);
+    if (slot) markSlot(slot.id);
+    if ('queueFile' in plan && plan.queueFile && qc.pass) archiveQueueFile(plan.queueFile);
+  }
+  if (qc) await publishAll(spec.id, out.final, existsSync(out.thumb) ? out.thumb : null, meta, qc, arg('platforms')?.split(',').filter(Boolean));
+  setOutput('produced', 'true');
+  setOutput('content_id', spec.id);
+  if (qc && !qc.pass) {
+    state.addFailure({id: spec.id, stage: 'qc', error: qc.checks.filter((c) => !c.pass && c.blocking).map((c) => c.name).join('; ')});
+    // A placeholder-voice dry run is an expected "not publishable" result, not a broken build.
+    const hard = qc.checks.filter((c) => !c.pass && c.blocking && !/voice-over is real/.test(c.name));
+    if (hard.length) throw new PipelineError('qc', `validation failed: ${hard.map((c) => c.name).join('; ')}`);
+  }
+};
+
+const cmdHealth = async () => {
+  const rows: [string, string, string][] = [];
+  const add = (name: string, ok: boolean | null, detail: string) => rows.push([name, ok === null ? 'not configured' : ok ? 'ok' : 'FAIL', detail]);
+  for (const [bin, a] of [['ffmpeg', ['-version']], ['ffprobe', ['-version']], ['python3', ['-c', 'import numpy, scipy; print("numpy+scipy")']], ['npx', ['remotion', 'versions']]] as [string, string[]][]) {
+    const r = run(bin, a, {stage: 'health', allowFail: true, timeoutMs: 120_000});
+    add(`render environment: ${bin}`, r.code === 0, (r.stdout || r.stderr).split('\n')[0].slice(0, 90));
+  }
+  const df = run('df', ['-BG', '--output=avail', '.'], {stage: 'health', allowFail: true}).stdout.split('\n')[1]?.trim() ?? '?';
+  add('storage', parseInt(df) > 4, `${df} free`);
+  const bank = loadBank();
+  const bad = bank.filter((b) => validateSpec(b.spec).length);
+  add('content bank', bad.length === 0, `${bank.length} specs, ${bad.length} invalid, ${bank.filter((b) => !state.published()[b.spec.id]).length} unused`);
+
+  const v = resolveVoice(bank[0]?.spec ?? ({template: 'educational-explainer'} as never));
+  if (!env('ELEVENLABS_API_KEY')) add('ElevenLabs', null, 'ELEVENLABS_API_KEY missing');
+  else {
+    try {
+      const res = await fetch('https://api.elevenlabs.io/v1/user/subscription', {headers: {'xi-api-key': env('ELEVENLABS_API_KEY')}, signal: AbortSignal.timeout(20_000)});
+      const j = (await res.json()) as {tier?: string; character_count?: number; character_limit?: number};
+      add('ElevenLabs', res.ok && Boolean(v.voiceId), res.ok ? `tier ${j.tier}, voice id ${v.voiceId ? 'set' : 'MISSING (set ELEVENLABS_VOICE_ID)'}, model ${v.modelId}` : `HTTP ${res.status}`);
+    } catch (e) { add('ElevenLabs', false, (e as Error).message); }
+  }
+  add('Script writer (LLM)', llmProvider() ? true : null, llmProvider() ?? 'no ANTHROPIC_API_KEY / OPENAI_API_KEY: only bank + queue content will be produced');
+  for (const pub of PUBLISHERS) {
+    const missing = pub.requiredEnv.filter((k) => !env(k));
+    if (missing.length) { add(`publisher: ${pub.id}`, null, `missing ${missing.join(', ')}`); continue; }
+    try { add(`publisher: ${pub.id}`, true, await pub.health()); } catch (e) { add(`publisher: ${pub.id}`, false, (e as Error).message.slice(0, 200)); }
+  }
+  const md = `### HeyMariner health check\n\n| Component | Status | Detail |\n|---|---|---|\n${rows.map((r) => `| ${r[0]} | ${r[1]} | ${r[2].replace(/\|/g, '/')} |`).join('\n')}\n`;
+  summary(md);
+  console.log(md);
+  if (rows.some((r) => r[1] === 'FAIL')) process.exitCode = 1;
+};
+
+const main = async () => {
+  const cmd = process.argv[2];
+  if (cmd === 'research') {
+    const items = await runResearch();
+    summary(`### Research\n\n${items.slice(0, 12).map((i) => `- **${i.score}** ${i.title} (${i.sourceName})`).join('\n') || 'no items'}\n`);
+  } else if (cmd === 'due') {
+    const enabled = env('PIPELINE_ENABLED').toLowerCase() === 'true';
+    const slot = enabled ? dueSlot() : null;
+    log('schedule', enabled ? (slot ? `slot due: ${slot.id}` : 'no slot due') : 'PIPELINE_ENABLED is not true: scheduled production is off');
+    setOutput('slot', slot?.id ?? '');
+  } else if (cmd === 'run') {
+    await cmdRun();
+  } else if (cmd === 'validate') {
+    let bad = 0;
+    for (const b of loadBank()) {
+      const e = validateSpec(b.spec);
+      console.log(`${e.length ? 'FAIL' : 'ok  '} ${b.spec.id}${e.length ? '\n   - ' + e.join('\n   - ') : ''}`);
+      if (e.length) bad++;
+    }
+    if (bad) process.exitCode = 1;
+  } else if (cmd === 'health') {
+    await cmdHealth();
+  } else if (cmd === 'cleanup') {
+    const n = await cleanupMedia(Number(arg('days') ?? 3));
+    for (const d of ['work', 'out']) if (existsSync(p(d))) rmSync(p(d), {recursive: true, force: true});
+    log('cleanup', `removed ${n} old media asset(s) and local work files`);
+  } else {
+    console.log('usage: pipeline <research|due|run|validate|health|cleanup> [--id X] [--slot S] [--platforms a,b] [--skip-render]');
+    process.exitCode = 2;
+  }
+};
+
+main().catch((e) => {
+  const stage = e instanceof PipelineError ? e.stage : 'pipeline';
+  log(stage, 'failure', {error: (e as Error).message});
+  summary(`### Pipeline failure\n\nStage **${stage}**: ${(e as Error).message}\n`);
+  try { state.addFailure({stage, error: (e as Error).message}); } catch { /* state write is best effort */ }
+  process.exit(1);
+});

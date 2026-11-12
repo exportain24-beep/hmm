@@ -1,0 +1,52 @@
+{
+  "handles": {
+    "youtube": "@HeyMariner",
+    "facebook": "@heymariner",
+    "instagram": "@heymariner",
+    "tiktok": "@heymariner",
+    "linkedin": "HeyMariner",
+    "x": "HeyMariner"
+  },
+  "website": "https://www.heymariner.com",
+  "platforms": {
+    "youtube": {
+      "enabled": true,
+      "via": "youtube-api",
+      "categoryId": "27",
+      "privacyStatus": "public"
+    },
+    "facebook": {
+      "enabled": true,
+      "via": "meta-graph"
+    },
+    "instagram": {
+      "enabled": true,
+      "via": "meta-graph"
+    },
+    "tiktok": {
+      "enabled": true,
+      "via": "buffer",
+      "channelVar": "BUFFER_CHANNEL_TIKTOK",
+      "bufferMode": "shareNow"
+    },
+    "linkedin": {
+      "enabled": true,
+      "via": "buffer",
+      "channelVar": "BUFFER_CHANNEL_LINKEDIN",
+      "bufferMode": "shareNow"
+    },
+    "x": {
+      "enabled": true,
+      "via": "buffer",
+      "channelVar": "BUFFER_CHANNEL_X",
+      "bufferMode": "shareNow"
+    }
+  },
+  "metaGraphVersion": "v23.0",
+  "baseHashtags": [
+    "#HeyMariner",
+    "#maritime",
+    "#seafarers",
+    "#shipping"
+  ]
+}

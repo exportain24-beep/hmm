@@ -1,0 +1,30 @@
+{
+  "name": "heymariner-studio",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Next.js preview tool: browse content specs and play them with the Remotion Player before any render",
+  "scripts": {
+    "sync": "node scripts/sync-public.mjs",
+    "dev": "npm run sync && next dev",
+    "build": "npm run sync && next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@react-three/fiber": "9.5.0",
+    "@remotion/fonts": "4.0.455",
+    "@remotion/player": "4.0.455",
+    "@remotion/three": "4.0.455",
+    "next": "15.5.4",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.455",
+    "three": "0.178.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.15.3",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "@types/three": "0.178.0",
+    "typescript": "5.8.3"
+  }
+}
