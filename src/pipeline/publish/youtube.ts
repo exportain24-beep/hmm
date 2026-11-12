@@ -77,8 +77,14 @@ export const YouTubePublisher: Publisher = {
     for (const name of (meta as FullMetadata).seo?.playlists ?? []) {
       try {
         const pl = await ensurePlaylist(token, name);
-        const add = await fetchRetry('https://www.googleapis.com/youtube/v3/playlistItems?part=snippet', {method: 'POST', headers: {authorization: `Bearer ${token}`, 'content-type': 'application/json'}, body: JSON.stringify({snippet: {playlistId: pl, resourceId: {kind: 'youtube#video', videoId: j.id}}})}, {stage: 'youtube', retries: 1});
-        log('youtube', add.ok ? `added to playlist "${name}"` : `playlist "${name}" add failed (HTTP ${add.status})`);
+        // A fresh upload / fresh playlist often answers 409 (conflict) for a short while: wait and retry.
+        let add: Response | null = null;
+        for (let attempt = 0; attempt < 5; attempt++) {
+          if (attempt) await new Promise((r) => setTimeout(r, 8000 * attempt));
+          add = await fetchRetry('https://www.googleapis.com/youtube/v3/playlistItems?part=snippet', {method: 'POST', headers: {authorization: `Bearer ${token}`, 'content-type': 'application/json'}, body: JSON.stringify({snippet: {playlistId: pl, resourceId: {kind: 'youtube#video', videoId: j.id}}})}, {stage: 'youtube', retries: 1});
+          if (add.ok || (add.status !== 409 && add.status < 500)) break;
+        }
+        log('youtube', add?.ok ? `added to playlist "${name}"` : `playlist "${name}" add failed (HTTP ${add?.status})`);
       } catch (e) {
         log('youtube', `playlist "${name}" skipped: ${(e as Error).message.slice(0, 160)}`);
       }
