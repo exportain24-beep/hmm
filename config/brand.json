@@ -2,7 +2,7 @@
   "name": "HeyMariner",
   "website": "www.heymariner.com",
   "tagline": "Practical maritime knowledge",
-  "logoFile": "brand/logo.png",
+  "logoFile": "brand/logo-light.png",
   "colors": {
     "navy": "#0B1F3A",
     "deep": "#061223",
@@ -25,5 +25,6 @@
     "Follow HeyMariner for practical maritime knowledge.",
     "Learn more with HeyMariner.",
     "Stay updated with the maritime industry."
-  ]
+  ],
+  "logoFileOnLight": "brand/logo.png"
 }

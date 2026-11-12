@@ -14,11 +14,8 @@ export const Mark: React.FC<{size: number; color?: string; accent?: string}> = (
 
 export const Logo: React.FC<{height: number; logo: string | null; accent?: string}> = ({height, logo, accent}) => {
   if (logo) {
-    return (
-      <div style={{background: C.white, borderRadius: height * 0.22, padding: `${height * 0.12}px ${height * 0.22}px`, display: 'flex', alignItems: 'center'}}>
-        <Img src={staticFile(logo)} style={{height: height * 0.76, width: 'auto'}} />
-      </div>
-    );
+    // transparent logo straight on the animation (white wordmark + teal mermaid); a soft shadow keeps it legible on bright frames
+    return <Img src={staticFile(logo)} style={{height, width: 'auto', display: 'block', filter: 'drop-shadow(0 2px 6px rgba(2,8,20,0.75)) drop-shadow(0 0 18px rgba(2,8,20,0.45))'}} />;
   }
   return (
     <div style={{display: 'flex', alignItems: 'center', gap: height * 0.22}}>

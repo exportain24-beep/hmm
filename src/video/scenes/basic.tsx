@@ -231,8 +231,8 @@ export const EndCardScene: React.FC<SceneProps> = ({spec, scene, timing, accent,
     <AbsoluteFill style={{opacity: inA}}>
       <FullBleed spec={spec} scene={{...scene, motif: 'voyage'}} t={t + 20} seconds={seconds} accent={accent} width={width} height={height} dim={0.18} />
       <div style={{position: 'absolute', left: 0, right: 0, top: cy - 150 * L.u, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 30 * L.u}}>
-        <div style={{transform: `scale(${0.6 + 0.4 * a}) translateY(${(1 - a) * 40}px)`, opacity: a, boxShadow: '0 30px 80px rgba(0,0,0,0.5)', borderRadius: 60 * L.u}}>
-          {logo ? <Logo height={300 * L.u} logo={logo} accent={accent} /> : <Mark size={210 * L.u} accent={accent} />}
+        <div style={{transform: `scale(${0.6 + 0.4 * a}) translateY(${(1 - a) * 40}px)`, opacity: a}}>
+          {logo ? <Logo height={260 * L.u} logo={logo} accent={accent} /> : <Mark size={210 * L.u} accent={accent} />}
         </div>
         {logo ? null : <div style={{fontFamily: FONT_HEAD, fontWeight: 800, fontSize: 112 * L.u, letterSpacing: -3, color: C.white, opacity: b, lineHeight: 1, textShadow: shadow}}>Hey<span style={{color: accent}}>Mariner</span></div>}
         <div style={{fontFamily: FONT_BODY, fontWeight: 600, fontSize: 40 * L.u, color: C.white, opacity: b, textShadow: shadow}}>{BRAND.tagline}</div>

@@ -90,13 +90,15 @@ def compose(panel, W, H, text, badge, logo, fonts, accent, vertical):
         y += lh
     if logo and os.path.exists(logo):
         lg = Image.open(logo).convert('RGBA')
-        lh2 = int((140 if vertical else 80) * u)
+        lh2 = int((200 if vertical else 104) * u)
         lg = lg.resize((int(lg.width * lh2 / lg.height), lh2), Image.LANCZOS)
-        cw, ch = lg.width + int(56 * u), lg.height + int(30 * u)
-        cx = (W - cw) // 2 if vertical else int(56 * u)
-        cyy = H - ch - int((60 if vertical else 40) * u)
-        card = Image.new('RGBA', (cw, ch), (0, 0, 0, 0)); ImageDraw.Draw(card).rounded_rectangle([0, 0, cw - 1, ch - 1], radius=int(28 * u), fill='#FFFFFF')
-        img.alpha_composite(card, (cx, cyy)); img.alpha_composite(lg, (cx + int(28 * u), cyy + int(15 * u)))
+        cx = (W - lg.width) // 2 if vertical else int(56 * u)
+        cyy = H - lg.height - int((70 if vertical else 40) * u)
+        # transparent logo, no card: a blurred dark halo behind it keeps the white wordmark readable
+        halo = Image.new('RGBA', (lg.width + 120, lg.height + 120), (0, 0, 0, 0))
+        halo.paste((4, 14, 30, 200), (60, 60), lg.split()[3])
+        img.alpha_composite(halo.filter(ImageFilter.GaussianBlur(22)), (cx - 60, cyy - 60))
+        img.alpha_composite(lg, (cx, cyy))
     return img.convert('RGB')
 
 
