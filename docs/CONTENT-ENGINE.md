@@ -27,7 +27,7 @@ Weekly rotation example: Mon ECDIS / main engine / SOLAS; Tue COLREG / purifier 
 
 **Difficulty level** on every video (`level` in the spec): L1 beginner (cadet, student), L2 basic professional (junior officer), L3 intermediate (experienced officer), L4 advanced (senior officer), L5 expert (Master / Chief Engineer). A topic may return at another level, never as the same video (ECDIS L1 "what is ECDIS?", L2 "safety contour", L3 "CATZOC and route planning", L4 "route-checking errors", L5 "ECDIS risk management").
 
-**Photo cards** (2 a day) carry the current layer: card 1 = verified incident / regulation / news insight, card 2 = mariner knowledge.
+**Photo cards** are real-time maritime insight only, in the style of marineinsight.com: what happened today and yesterday, incidents, casualties, new regulations, safety alerts, investigation findings, PSC. No educational knowledge cards (that is the videos' job). Size 1080 x 1350 (4:5) for Facebook, Instagram, LinkedIn and X.
 Series names: ONE MINUTE MARINER, MARITIME TERM OF THE DAY, KNOW YOUR EQUIPMENT, ONE RULE MARINERS SHOULD KNOW, REGULATION WATCH, SAFETY INSIGHT, INCIDENT LESSON, COLREG CHALLENGE, CADET CORNER, ENGINE ROOM INSIGHT.
 
 ## Frameworks

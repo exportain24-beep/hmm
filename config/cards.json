@@ -1,5 +1,5 @@
 {
-  "_comment": "Real-time photo-card ramp. Times are UTC (HH:22 baseline). The intelligence desk decides what is worth publishing; empty slots are skipped, never filled with weak content.",
+  "_comment": "Real-time photo-card ramp. Times are UTC (HH:22 baseline). The intelligence desk decides what is worth publishing; empty slots are skipped, never filled with weak content. Cards are real-time maritime insight only (incidents, regulations, safety alerts, investigations, PSC), like marineinsight.com; educational topics belong to the videos, so the evergreen card bank is not used for posting.",
   "startDate": "2026-11-13",
   "ramp": [
     {
@@ -48,5 +48,11 @@
     "technical": 1,
     "industry": 1
   },
-  "fallbackToBank": true
+  "fallbackToBank": false,
+  "imageSize": {
+    "width": 1080,
+    "height": 1350,
+    "ratio": "4:5",
+    "why": "Recommended portrait feed size for Facebook and Instagram, inside the published limits for LinkedIn and X (checked 13 Nov 2026)."
+  }
 }
