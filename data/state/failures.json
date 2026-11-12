@@ -39,5 +39,19 @@
     "error": "voice-over is real (not placeholder)",
     "at": "2026-11-12T18:36:47.831Z",
     "run": "43277951297"
+  },
+  {
+    "id": "imo-hormuz-enforcement-call",
+    "stage": "card:facebook",
+    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"error_subcode\":5258005,\"fbtrace_id\":\"ARLVK4rgcz2luHx_6abxWgF\"}}",
+    "at": "2026-11-12T21:25:59.206Z",
+    "run": "43310096553"
+  },
+  {
+    "id": "imo-hormuz-enforcement-call",
+    "stage": "card:instagram",
+    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"error_subcode\":5258005,\"fbtrace_id\":\"AM-1d6gr-jekhHtltGV0ezx\"}}",
+    "at": "2026-11-12T21:25:59.381Z",
+    "run": "43310096553"
   }
 ]
