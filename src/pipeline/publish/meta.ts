@@ -3,6 +3,8 @@ import {statSync} from 'node:fs';
 import {config, env, fetchRetry, okJson, PipelineError} from '../lib.ts';
 import {fileBody} from '../lib.ts';
 import type {Publisher} from './index.ts';
+import {ensurePublicUrl} from './hosting.ts';
+import {sanitizeSocialCaption} from '../seo.ts';
 
 const ver = () => env('META_GRAPH_VERSION') || config<{metaGraphVersion: string}>('social').metaGraphVersion;
 const graph = (path: string) => `https://graph.facebook.com/${ver()}/${path}`;
@@ -53,7 +55,7 @@ export const FacebookPublisher: Publisher = {
     const start = await call<{video_id: string; upload_url: string}>(graph(`${page}/video_reels`), {upload_phase: 'start', access_token: token}, 'POST', 'facebook');
     await rupload(start.upload_url, token, file, 'facebook');
     const m = meta.platforms.facebook;
-    await call<{success: boolean}>(graph(`${page}/video_reels`), {upload_phase: 'finish', video_id: start.video_id, video_state: 'PUBLISHED', description: m.caption, title: m.title, access_token: token}, 'POST', 'facebook', 0);
+    await call<{success: boolean}>(graph(`${page}/video_reels`), {upload_phase: 'finish', video_id: start.video_id, video_state: 'PUBLISHED', description: sanitizeSocialCaption('facebook', m.caption), title: m.title, access_token: token}, 'POST', 'facebook', 0);
     return {id: start.video_id, url: `https://www.facebook.com/reel/${start.video_id}`};
   },
 };
@@ -74,10 +76,12 @@ export const InstagramPublisher: Publisher = {
     const j = await call<{username: string}>(graph(id), {fields: 'username', access_token: token}, 'GET', 'instagram', 1);
     return `account: @${j.username}`;
   },
-  async publish({file, meta}) {
+  async publish({file, thumb, meta, id}) {
     const token = await pageToken();
     const ig = await igUser(token);
-    const c = await call<{id: string; uri: string}>(graph(`${ig}/media`), {media_type: 'REELS', upload_type: 'resumable', caption: meta.platforms.instagram.caption, share_to_feed: 'true', access_token: token}, 'POST', 'instagram');
+    let cover = '';
+    if (thumb) { try { cover = await ensurePublicUrl(thumb, `${id}-cover.png`); } catch { cover = ''; } }
+    const c = await call<{id: string; uri: string}>(graph(`${ig}/media`), {media_type: 'REELS', upload_type: 'resumable', caption: sanitizeSocialCaption('instagram', meta.platforms.instagram.caption), share_to_feed: 'true', ...(cover ? {cover_url: cover} : {}), access_token: token}, 'POST', 'instagram');
     await rupload(c.uri, token, file, 'instagram');
     let status = '';
     for (let i = 0; i < 40; i++) {

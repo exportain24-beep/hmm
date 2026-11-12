@@ -95,3 +95,15 @@ test('metadata differs per platform and respects limits', () => {
   assert.notEqual(m.platforms.linkedin.caption, m.platforms.tiktok.caption);
   assert.ok(m.platforms.youtube.caption.includes('Sources:'));
 });
+
+import {sanitizeSocialCaption, hasLink} from '../src/pipeline/seo.ts';
+test('Facebook and Instagram captions never carry a link', () => {
+  const dirty = 'Read more at https://www.heymariner.com or www.heymariner.com and heymariner.com/rules today';
+  for (const p of ['facebook', 'instagram']) assert.equal(hasLink(sanitizeSocialCaption(p, dirty)), false);
+  assert.equal(hasLink(sanitizeSocialCaption('youtube', dirty)), true);
+  const spec = loadBank()[0].spec;
+  const m = buildMetadata(spec, estimateTimeline(spec), null, null);
+  assert.equal(hasLink(m.platforms.facebook.caption), false);
+  assert.equal(hasLink(m.platforms.instagram.caption), false);
+  assert.ok(m.platforms.tiktok.hashtags.length >= 10);
+});

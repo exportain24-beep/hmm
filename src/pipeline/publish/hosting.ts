@@ -20,7 +20,7 @@ export const ensurePublicUrl = async (file: string, name: string): Promise<strin
   const r = await okJson<{id: number; assets: {id: number; name: string; browser_download_url: string}[]}>(rel, 'hosting');
   const existing = (r.assets ?? []).find((a) => a.name === name);
   if (existing) { cache.set(name, existing.browser_download_url); return existing.browser_download_url; }
-  const up = await fetchRetry(`https://uploads.github.com/repos/${repo}/releases/${r.id}/assets?name=${encodeURIComponent(name)}`, {method: 'POST', headers: {...h, 'content-type': 'video/mp4'}, body: fileBody(file)}, {stage: 'hosting', retries: 1, timeoutMs: 10 * 60 * 1000});
+  const up = await fetchRetry(`https://uploads.github.com/repos/${repo}/releases/${r.id}/assets?name=${encodeURIComponent(name)}`, {method: 'POST', headers: {...h, 'content-type': name.endsWith('.png') ? 'image/png' : name.endsWith('.jpg') ? 'image/jpeg' : 'video/mp4'}, body: fileBody(file)}, {stage: 'hosting', retries: 1, timeoutMs: 10 * 60 * 1000});
   const a = await okJson<{browser_download_url: string}>(up, 'hosting');
   cache.set(name, a.browser_download_url);
   return a.browser_download_url;

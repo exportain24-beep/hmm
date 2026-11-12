@@ -18,7 +18,7 @@ const gql = async <T>(query: string, variables: Record<string, unknown>, retries
 };
 
 type Channel = {id: string; name: string; service: string};
-const SERVICE: Record<string, string[]> = {tiktok: ['tiktok'], linkedin: ['linkedin'], x: ['twitter', 'x']};
+const SERVICE: Record<string, string[]> = {tiktok: ['tiktok'], linkedin: ['linkedin'], x: ['twitter', 'x'], facebook: ['facebook'], instagram: ['instagram']};
 
 export const listChannels = async (): Promise<Channel[]> => {
   const acc = await gql<{account: {organizations: {id: string}[]}}>('query { account { organizations { id } } }', {}, 1);
@@ -54,12 +54,16 @@ const make = (platform: 'tiktok' | 'linkedin' | 'x'): Publisher => ({
   },
   async publish({file, meta, cfg, id}) {
     const url = await ensurePublicUrl(file, `${id}.mp4`);
+    const m = meta.platforms[platform as PlatformId];
+    const metadata: Record<string, unknown> = platform === 'tiktok' ? {tiktok: {title: m.title}} : {};
     const input = {
-      text: meta.platforms[platform as PlatformId].caption,
+      text: m.caption,
       channelId: await channelId(platform, String(cfg.channelVar ?? '')),
       schedulingType: 'automatic',
       mode: String(cfg.bufferMode ?? 'shareNow'),
-      assets: {videos: [{url}]},
+      needsApproval: false,
+      assets: [{video: {url}}],
+      ...(Object.keys(metadata).length ? {metadata} : {}),
     };
     // not retried: createPost is not idempotent
     const d = await gql<{createPost: {post?: {id: string}; message?: string}}>(CREATE, {input}, 0);

@@ -17,6 +17,7 @@ import {cleanupMedia} from './publish/hosting.ts';
 import {runQc} from './qc.ts';
 import {runResearch} from './research.ts';
 import {validateSpec} from './spec.ts';
+import {seoFilename} from './seo.ts';
 import {resolveVoice} from './voice.ts';
 
 const arg = (name: string): string | undefined => {
@@ -65,6 +66,10 @@ const cmdRun = async () => {
   for (const f of ['final.mp4', 'sheet.jpg', 'thumb.png', 'thumb_16x9.jpg', 'upload.md', 'metadata.json', 'qc.json', 'spec.json', 'timeline.json']) {
     if (existsSync(`${out.workDir}/${f}`)) copyFileSync(`${out.workDir}/${f}`, `${outDir}/${f}`);
   }
+  // SEO-aware file names for manual uploads
+  const base = seoFilename(spec, 'video');
+  if (existsSync(`${out.workDir}/final.mp4`)) copyFileSync(`${out.workDir}/final.mp4`, `${outDir}/${base}.mp4`);
+  if (existsSync(`${out.workDir}/thumb_16x9.jpg`)) copyFileSync(`${out.workDir}/thumb_16x9.jpg`, `${outDir}/${seoFilename(spec, 'thumbnail')}.jpg`);
   summary([
     `### HeyMariner pipeline: ${spec.title}`, '',
     `- id: \`${spec.id}\` | template: ${spec.template} | ${out.timeline.totalSeconds.toFixed(1)} s | voice: ${out.timeline.voice} | 3D: ${out.uses3d}`,

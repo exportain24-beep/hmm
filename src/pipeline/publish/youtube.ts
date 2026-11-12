@@ -2,6 +2,7 @@ import {statSync} from 'node:fs';
 import {env, fetchRetry, log, okJson, PipelineError} from '../lib.ts';
 import {fileBody} from '../lib.ts';
 import type {Publisher} from './index.ts';
+import type {FullMetadata} from '../metadata.ts';
 
 const accessToken = async (): Promise<string> => {
   const res = await fetchRetry('https://oauth2.googleapis.com/token', {
@@ -11,6 +12,34 @@ const accessToken = async (): Promise<string> => {
   }, {stage: 'youtube', retries: 2});
   if (res.status === 400 || res.status === 401) throw new PipelineError('youtube', 'YouTube refresh token is expired or revoked. Create a new YOUTUBE_REFRESH_TOKEN.');
   return (await okJson<{access_token: string}>(res, 'youtube')).access_token;
+};
+
+const PL_DESC: Record<string, string> = {
+  'COLREG Explained': 'The International Regulations for Preventing Collisions at Sea, explained rule by rule with 3D scenarios.',
+  'Maritime Regulations': 'IMO, SOLAS, MARPOL, STCW and MLC updates explained for seafarers: what changed and what the ship must do.',
+  'Maritime Safety': 'Practical safety knowledge for life at sea: enclosed spaces, mooring, fire, lifeboats and more.',
+  'Marine Engineering': 'Engine-room knowledge for cadets, engineers and chief engineers.',
+  'Maritime Terminology': 'Maritime terms explained simply, with practical examples.',
+};
+let playlistCache: Record<string, string> | null = null;
+const ensurePlaylist = async (token: string, title: string): Promise<string> => {
+  const h = {authorization: `Bearer ${token}`, 'content-type': 'application/json'};
+  if (!playlistCache) {
+    playlistCache = {};
+    let page = '';
+    for (let i = 0; i < 5; i++) {
+      const r = await okJson<{items: {id: string; snippet: {title: string}}[]; nextPageToken?: string}>(await fetchRetry(`https://www.googleapis.com/youtube/v3/playlists?part=snippet&mine=true&maxResults=50${page ? `&pageToken=${page}` : ''}`, {headers: h}, {stage: 'youtube', retries: 1}), 'youtube');
+      for (const it of r.items) playlistCache[it.snippet.title.toLowerCase()] = it.id;
+      if (!r.nextPageToken) break;
+      page = r.nextPageToken;
+    }
+  }
+  const hit = playlistCache[title.toLowerCase()];
+  if (hit) return hit;
+  const c = await okJson<{id: string}>(await fetchRetry('https://www.googleapis.com/youtube/v3/playlists?part=snippet,status', {method: 'POST', headers: h, body: JSON.stringify({snippet: {title, description: `${PL_DESC[title] ?? `HeyMariner: ${title}.`} Practical maritime knowledge from HeyMariner.`, defaultLanguage: 'en'}, status: {privacyStatus: 'public'}})}, {stage: 'youtube', retries: 0}), 'youtube');
+  playlistCache[title.toLowerCase()] = c.id;
+  log('youtube', `playlist created: "${title}"`);
+  return c.id;
 };
 
 export const YouTubePublisher: Publisher = {
@@ -30,7 +59,7 @@ export const YouTubePublisher: Publisher = {
       method: 'POST',
       headers: {authorization: `Bearer ${token}`, 'content-type': 'application/json; charset=UTF-8', 'x-upload-content-length': String(size), 'x-upload-content-type': 'video/mp4'},
       body: JSON.stringify({
-        snippet: {title: m.title, description: m.caption, tags: m.keywords, categoryId: String(cfg.categoryId ?? '27'), defaultLanguage: 'en', defaultAudioLanguage: 'en'},
+        snippet: {title: m.title, description: m.caption, tags: m.keywords, categoryId: String((meta as FullMetadata).seo?.categoryId ?? cfg.categoryId ?? '27'), defaultLanguage: 'en', defaultAudioLanguage: 'en'},
         status: {privacyStatus: cfg.privacyStatus ?? 'public', selfDeclaredMadeForKids: false, embeddable: true},
       }),
     }, {stage: 'youtube', retries: 2});
@@ -42,7 +71,17 @@ export const YouTubePublisher: Publisher = {
     const j = await okJson<{id: string}>(up, 'youtube');
     if (thumb) {
       const t = await fetchRetry(`https://www.googleapis.com/upload/youtube/v3/thumbnails/set?videoId=${j.id}`, {method: 'POST', headers: {authorization: `Bearer ${token}`, 'content-type': 'image/png'}, body: fileBody(thumb)}, {stage: 'youtube', retries: 1});
-      if (!t.ok) log('youtube', `custom thumbnail not set (HTTP ${t.status}); the channel may need verification`);
+      if (!t.ok) log('youtube', `custom thumbnail not set (HTTP ${t.status}); the channel may need phone verification`);
+      else log('youtube', 'custom thumbnail uploaded');
+    }
+    for (const name of (meta as FullMetadata).seo?.playlists ?? []) {
+      try {
+        const pl = await ensurePlaylist(token, name);
+        const add = await fetchRetry('https://www.googleapis.com/youtube/v3/playlistItems?part=snippet', {method: 'POST', headers: {authorization: `Bearer ${token}`, 'content-type': 'application/json'}, body: JSON.stringify({snippet: {playlistId: pl, resourceId: {kind: 'youtube#video', videoId: j.id}}})}, {stage: 'youtube', retries: 1});
+        log('youtube', add.ok ? `added to playlist "${name}"` : `playlist "${name}" add failed (HTTP ${add.status})`);
+      } catch (e) {
+        log('youtube', `playlist "${name}" skipped: ${(e as Error).message.slice(0, 160)}`);
+      }
     }
     return {id: j.id, url: `https://www.youtube.com/watch?v=${j.id}`};
   },
