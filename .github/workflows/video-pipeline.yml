@@ -9,6 +9,10 @@ on:
     - cron: '17 * * * *'
   workflow_dispatch:
     inputs:
+      tick:
+        description: 'Scheduler tick: behave exactly like the hourly cron (schedule gate, runtime switches)'
+        type: boolean
+        default: false
       content_id:
         description: 'Spec id from content/bank or content/queue (empty = let the planner choose)'
         required: false
@@ -58,8 +62,9 @@ jobs:
           PIPELINE_ENABLED: ${{ vars.PIPELINE_ENABLED }}
           EVENT: ${{ github.event_name }}
           INPUT_SLOT: ${{ inputs.slot }}
+          TICK: ${{ inputs.tick }}
         run: |
-          if [ "$EVENT" = "workflow_dispatch" ]; then
+          if [ "$EVENT" = "workflow_dispatch" ] && [ "$TICK" != "true" ]; then
             echo "go=true" >> "$GITHUB_OUTPUT"; echo "slot=$INPUT_SLOT" >> "$GITHUB_OUTPUT"; exit 0
           fi
           npx --yes tsx@4.19.4 src/pipeline/cli.ts due
@@ -72,8 +77,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 110
     env:
-      DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && format('{0}', inputs.dry_run) || vars.DRY_RUN }}
-      AUTO_PUBLISH: ${{ github.event_name == 'workflow_dispatch' && format('{0}', inputs.auto_publish) || vars.AUTO_PUBLISH }}
+      DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && !inputs.tick && format('{0}', inputs.dry_run) || vars.DRY_RUN }}
+      AUTO_PUBLISH: ${{ github.event_name == 'workflow_dispatch' && !inputs.tick && format('{0}', inputs.auto_publish) || vars.AUTO_PUBLISH }}
       ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
       ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
       ELEVENLABS_VOICE_ID_NEWS: ${{ vars.ELEVENLABS_VOICE_ID_NEWS }}

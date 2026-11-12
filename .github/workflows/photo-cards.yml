@@ -7,6 +7,10 @@ on:
     - cron: '22 * * * *'
   workflow_dispatch:
     inputs:
+      tick:
+        description: 'Scheduler tick: behave exactly like the hourly cron (schedule gate, runtime switches)'
+        type: boolean
+        default: false
       card_id:
         description: 'Card id (empty = next unused card from content/cards/queue, then the bank)'
         required: false
@@ -36,8 +40,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     env:
-      DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && format('{0}', inputs.dry_run) || vars.DRY_RUN }}
-      AUTO_PUBLISH: ${{ github.event_name == 'workflow_dispatch' && 'true' || vars.AUTO_PUBLISH }}
+      DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && !inputs.tick && format('{0}', inputs.dry_run) || vars.DRY_RUN }}
+      AUTO_PUBLISH: ${{ github.event_name == 'workflow_dispatch' && !inputs.tick && 'true' || vars.AUTO_PUBLISH }}
       CARDS_ENABLED: ${{ vars.CARDS_ENABLED }}
       META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
       META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
@@ -53,17 +57,17 @@ jobs:
         with:
           node-version: 22
       - id: due
-        if: github.event_name == 'schedule'
+        if: github.event_name == 'schedule' || inputs.tick
         run: npx --yes tsx@4.19.4 src/pipeline/cli.ts cards-due
       - name: Install
-        if: github.event_name == 'workflow_dispatch' || steps.due.outputs.slot != '' || steps.due.outputs.breaking != '' || steps.due.outputs.card_id != ''
+        if: (github.event_name == 'workflow_dispatch' && !inputs.tick) || steps.due.outputs.slot != '' || steps.due.outputs.breaking != '' || steps.due.outputs.card_id != ''
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq libnss3 libgbm-dev libasound2t64 libxkbcommon-dev || true
           if [ -f package-lock.json ]; then npm ci --no-audit --no-fund; else npm install --no-audit --no-fund; fi
           npx remotion browser ensure
           npm install --no-save --no-audit --no-fund simple-icons && node tools/social-icons.mjs || echo "::warning::platform icons not generated, text labels used"
       - name: Render and post
-        if: github.event_name == 'workflow_dispatch' || steps.due.outputs.slot != '' || steps.due.outputs.breaking != '' || steps.due.outputs.card_id != ''
+        if: (github.event_name == 'workflow_dispatch' && !inputs.tick) || steps.due.outputs.slot != '' || steps.due.outputs.breaking != '' || steps.due.outputs.card_id != ''
         env:
           CARD_ID: ${{ inputs.card_id || steps.due.outputs.card_id }}
           PLATFORMS: ${{ inputs.platforms }}
