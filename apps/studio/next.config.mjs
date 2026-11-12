@@ -2,8 +2,8 @@ import {dirname, resolve} from 'node:path';
 import {fileURLToPath} from 'node:url';
 
 const here = dirname(fileURLToPath(import.meta.url));
-// The video engine lives in ../../src. Force a single copy of React / Remotion / Three for both trees.
-const single = ['react', 'react-dom', 'remotion', 'three', '@react-three/fiber', '@remotion/three', '@remotion/fonts'];
+// The video engine lives in ../../src. Force a single copy of Remotion / Three for both trees (Next supplies React itself).
+const single = ['remotion', 'three', '@react-three/fiber', '@remotion/three', '@remotion/fonts'];
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
