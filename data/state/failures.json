@@ -18,5 +18,12 @@
     "error": "voice-over is real (not placeholder)",
     "at": "2026-11-12T17:07:05.737Z",
     "run": "43262671495"
+  },
+  {
+    "id": "catzoc-explained",
+    "stage": "qc",
+    "error": "voice-over is real (not placeholder)",
+    "at": "2026-11-12T17:20:43.681Z",
+    "run": "43266363841"
   }
 ]
