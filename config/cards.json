@@ -1,0 +1,52 @@
+{
+  "_comment": "Real-time photo-card ramp. Times are UTC (HH:22 baseline). The intelligence desk decides what is worth publishing; empty slots are skipped, never filled with weak content.",
+  "startDate": "2026-11-13",
+  "ramp": [
+    {
+      "fromDay": 0,
+      "perDay": 3,
+      "slotsUtc": [
+        "08:22",
+        "14:22",
+        "20:22"
+      ]
+    },
+    {
+      "fromDay": 7,
+      "perDay": 6,
+      "slotsUtc": [
+        "06:22",
+        "10:22",
+        "14:22",
+        "18:22",
+        "21:22",
+        "23:22"
+      ]
+    },
+    {
+      "fromDay": 14,
+      "perDay": 8,
+      "slotsUtc": [
+        "00:22",
+        "06:22",
+        "09:22",
+        "12:22",
+        "15:22",
+        "18:22",
+        "20:22",
+        "22:22"
+      ]
+    }
+  ],
+  "graceMinutes": 50,
+  "breakingMinScore": 90,
+  "mix": {
+    "incident": 2,
+    "safety": 2,
+    "regulation": 1,
+    "psc": 1,
+    "technical": 1,
+    "industry": 1
+  },
+  "fallbackToBank": true
+}

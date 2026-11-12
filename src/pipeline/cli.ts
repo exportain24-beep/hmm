@@ -16,7 +16,7 @@ import {PUBLISHERS, publishAll} from './publish/index.ts';
 import {cleanupMedia} from './publish/hosting.ts';
 import {runQc} from './qc.ts';
 import {runResearch} from './research.ts';
-import {dueCardSlot, runCard, validateCard} from './cards.ts';
+import {cardSlotsFor, chooseCard, dueCardSlot, runCard, validateCard} from './cards.ts';
 import {validateSpec} from './spec.ts';
 import {seoFilename} from './seo.ts';
 import {resolveVoice} from './voice.ts';
@@ -157,10 +157,12 @@ const main = async () => {
     setOutput('slot', slot?.id ?? '');
   } else if (cmd === 'cards-due') {
     const slot = isCardsEnabled() ? dueCardSlot() : null;
-    log('schedule', slot ? `card slot due: ${slot.id}` : isCardsEnabled() ? 'no card slot due' : 'photo cards are off');
+    const breaking = isCardsEnabled() && !slot ? chooseCard(undefined, true) : null;
+    log('schedule', slot ? `card slot due: ${slot.id}` : breaking ? `breaking card waiting: ${breaking.card.id}` : isCardsEnabled() ? `no card slot due (${cardSlotsFor().perDay}/day: ${cardSlotsFor().slots.join(', ')} UTC)` : 'photo cards are off');
     setOutput('slot', slot?.id ?? '');
+    setOutput('breaking', breaking ? 'true' : '');
   } else if (cmd === 'card') {
-    await runCard(arg('id'), arg('platforms')?.split(',').filter(Boolean));
+    await runCard(arg('id'), arg('platforms')?.split(',').filter(Boolean), has('breaking'));
     const slot = arg('slot');
     if (slot && !isDryRun()) markSlot(slot);
   } else if (cmd === 'validate-cards') {

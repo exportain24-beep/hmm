@@ -1,9 +1,9 @@
 name: Research
 
-# Pulls and scores maritime sources. Free: no LLM, no rendering.
+# Hourly HH:22 discovery scan (scan != publish). Pulls, de-duplicates and scores maritime sources. Free: no LLM, no rendering.
 on:
   schedule:
-    - cron: '43 */4 * * *'
+    - cron: '22 * * * *'
   workflow_dispatch:
 
 permissions:

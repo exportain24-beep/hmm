@@ -1,0 +1,4 @@
+{
+  "_comment": "Master events maintained by the intelligence desk (see docs/INTELLIGENCE-ENGINE.md). One entry per real-world event; reports from several sources are clustered into it.",
+  "events": {}
+}

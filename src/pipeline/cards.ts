@@ -5,12 +5,16 @@ import {config, env, fetchRetry, isAutoPublish, isDryRun, log, okJson, p, Pipeli
 import {ensurePublicUrl} from './publish/hosting.ts';
 import {hasLink, sanitizeSocialCaption, slugify} from './seo.ts';
 
-const LIM = {headline: 60, subheadline: 48, insight: 190, point: 34, badge: 34};
+const CARD_TOPIC: Record<string, string> = {incident: 'maritime-incident', casualty: 'marine-casualty', safety: 'safety-alert', lesson: 'lesson-learned', imo: 'imo-update', psc: 'port-state-control', regulation: 'regulation'};
+const LIM = {headline: 70, subheadline: 56, insight: 200, point: 34, badge: 34};
 
 export const validateCard = (c: CardSpec): string[] => {
   const e: string[] = [];
   if (!/^[a-z0-9][a-z0-9-]{2,80}$/.test(c.id ?? '')) e.push('id must be a slug');
-  if (!['breaking', 'incident', 'regulation', 'safety', 'knowledge', 'equipment', 'analysis'].includes(c.type)) e.push('unknown type');
+  if (!['breaking', 'incident', 'casualty', 'safety', 'lesson', 'investigation', 'regulation', 'imo', 'psc', 'navigation', 'cargo', 'machinery', 'environment', 'security', 'technology', 'seafarer', 'knowledge', 'equipment', 'analysis'].includes(c.type)) e.push('unknown type');
+  if (c.image && (!c.image.url || !c.image.credit || !c.image.license)) e.push('image needs url, credit and license');
+  if (c.breaking && (c.priorityScore ?? 0) < config<{breakingMinScore: number}>('cards').breakingMinScore) e.push('breaking needs priorityScore >= breakingMinScore');
+  if (['breaking', 'incident', 'casualty', 'investigation', 'psc'].includes(c.type) && !c.eventId) e.push('real-time cards need an eventId');
   if (!c.headline || c.headline.length > LIM.headline) e.push(`headline missing or over ${LIM.headline}`);
   if ((c.subheadline ?? '').length > LIM.subheadline) e.push('subheadline too long');
   if (!c.insight || c.insight.length > LIM.insight) e.push(`insight missing or over ${LIM.insight}`);
@@ -26,11 +30,15 @@ const loadDir = (dir: string) => (existsSync(dir) ? readdirSync(dir).filter((f) 
 
 const posted = () => readJson<Record<string, {platforms: Record<string, {id: string; at: string}>; at: string}>>(p('data/state/cards.json'), {});
 
-export const chooseCard = (id?: string) => {
-  const all = [...loadDir(p('content/cards/queue')), ...loadDir(p('content/cards/bank'))];
+export const chooseCard = (id?: string, breakingOnly = false) => {
+  const queue = loadDir(p('content/cards/queue')).sort((a, b) => Number(Boolean(b.card.breaking)) - Number(Boolean(a.card.breaking)) || (b.card.priorityScore ?? 0) - (a.card.priorityScore ?? 0));
+  const bank = config<{fallbackToBank: boolean}>('cards').fallbackToBank ? loadDir(p('content/cards/bank')) : [];
+  const all = [...queue, ...bank];
   if (id) return all.find((x) => x.card.id === id) ?? null;
   const done = posted();
-  return all.find((x) => !done[x.card.id] && validateCard(x.card).length === 0) ?? null;
+  const ok = (x: {card: CardSpec}) => !done[x.card.id] && validateCard(x.card).length === 0 && x.card.factCheck.status === 'verified';
+  if (breakingOnly) return queue.find((x) => ok(x) && x.card.breaking) ?? null;
+  return all.find(ok) ?? null;
 };
 
 const tags = (c: CardSpec, n: number, extra: string[] = []) => {
@@ -102,8 +110,8 @@ const bufferImage = async (platform: 'linkedin' | 'x', url: string, text: string
   return d.createPost.post.id;
 };
 
-export const runCard = async (id?: string, only?: string[]) => {
-  const pick = chooseCard(id);
+export const runCard = async (id?: string, only?: string[], breakingOnly = false) => {
+  const pick = chooseCard(id, breakingOnly);
   if (!pick) { log('cards', 'no card to post'); summary('### Photo card\n\nNothing to post: card bank and queue are used up.\n'); return; }
   const c = pick.card;
   const errs = validateCard(c);
@@ -118,7 +126,7 @@ export const runCard = async (id?: string, only?: string[]) => {
   writeJson(`${dir}/copy.json`, copy);
   const out = p('out', 'cards');
   mkdirSync(out, {recursive: true});
-  const name = `heymariner-${slugify(c.headline)}`;
+  const name = `heymariner-${slugify(CARD_TOPIC[c.type] ?? c.type)}-${slugify(c.headline).slice(0, 48)}-${(c.dateLabel ? new Date(c.dateLabel) : new Date()).toISOString().slice(0, 10)}`.replace(/-+/g, '-');
   copyFileSync(img, `${out}/${name}.png`);
   writeJson(`${out}/${name}.json`, {card: c, copy});
   log('cards', 'card rendered', {id: c.id, file: `${name}.png`});
@@ -159,11 +167,25 @@ export const runCard = async (id?: string, only?: string[]) => {
   log('cards', 'done', results);
 };
 
+type CardsCfg = {startDate: string; ramp: {fromDay: number; perDay: number; slotsUtc: string[]}[]; graceMinutes: number};
+/** Today's slot list from the ramp (week 1: 3/day, week 2: 6/day, week 3+: 8/day). */
+export const cardSlotsFor = (now = new Date()) => {
+  const cfg = config<CardsCfg>('cards');
+  const day = Math.floor((Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()) - Date.parse(`${cfg.startDate}T00:00:00Z`)) / 864e5);
+  const step = [...cfg.ramp].sort((a, b) => b.fromDay - a.fromDay).find((r) => day >= r.fromDay) ?? cfg.ramp[0];
+  return {day, perDay: step.perDay, slots: step.slotsUtc};
+};
 export const dueCardSlot = (now = new Date()) => {
-  const sch = config<{graceHours: number; cards?: {id: string; utcHour: number}[]}>('schedule');
+  const cfg = config<CardsCfg>('cards');
+  const {slots} = cardSlotsFor(now);
   const done = state.slots();
-  const day = now.toISOString().slice(0, 10);
-  const h = now.getUTCHours() + now.getUTCMinutes() / 60;
-  return (sch.cards ?? []).find((s) => h >= s.utcHour && h < s.utcHour + sch.graceHours && done[s.id] !== day) ?? null;
+  const today = now.toISOString().slice(0, 10);
+  const mins = now.getUTCHours() * 60 + now.getUTCMinutes();
+  for (const s of slots) {
+    const [h, m] = s.split(':').map(Number);
+    const id = `card-${s.replace(':', '')}`;
+    if (mins >= h * 60 + m - 5 && mins <= h * 60 + m + cfg.graceMinutes && done[id] !== today) return {id, utc: s};
+  }
+  return null;
 };
 export type {PlatformId};

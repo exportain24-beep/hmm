@@ -122,7 +122,19 @@ export const SIZES: Record<'9:16' | '16:9', {width: number; height: number}> = {
 };
 
 // ---------- photo cards ----------
-export type CardType = 'breaking' | 'incident' | 'regulation' | 'safety' | 'knowledge' | 'equipment' | 'analysis';
+export type CardType =
+  | 'breaking' | 'incident' | 'casualty' | 'safety' | 'lesson' | 'investigation' | 'regulation' | 'imo' | 'psc'
+  | 'navigation' | 'cargo' | 'machinery' | 'environment' | 'security' | 'technology' | 'seafarer'
+  | 'knowledge' | 'equipment' | 'analysis';
+
+export type CardImage = {
+  /** https URL of an authentic public-domain or licensed photo, or a repository path under public/. */
+  url: string;
+  credit: string;
+  license: string;
+  /** true = representative image (AI or illustrative), shown with a "Representative image" label. */
+  representative: boolean;
+};
 
 export type CardSpec = {
   id: string;
@@ -138,9 +150,19 @@ export type CardSpec = {
   /** Up to 3 short points (max 34 characters each). */
   points?: string[];
   motif?: Motif;
+  image?: CardImage;
   pillar: Pillar;
   audience: string[];
   sources: Source[];
   factCheck: {status: 'verified' | 'unverified'; by: string; notes?: string; checkedAt?: string};
   meta: {description: string; keywords: string[]; hashtags: string[]; question?: string; altText: string};
+  /** Real-time layer (intelligence desk). */
+  eventId?: string;
+  /** "UPDATE" card for an event published before. */
+  update?: boolean;
+  /** Event date shown on the card, e.g. "12 NOV 2026". */
+  dateLabel?: string;
+  priorityScore?: number;
+  /** Publish immediately outside the slots (only with priorityScore >= breakingMinScore). */
+  breaking?: boolean;
 };
