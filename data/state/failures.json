@@ -25,5 +25,12 @@
     "error": "voice-over is real (not placeholder)",
     "at": "2026-11-12T17:20:43.681Z",
     "run": "43266363841"
+  },
+  {
+    "id": "ecdis-safety-contour",
+    "stage": "qc",
+    "error": "voice-over is real (not placeholder)",
+    "at": "2026-11-12T17:37:47.340Z",
+    "run": "43268722440"
   }
 ]
