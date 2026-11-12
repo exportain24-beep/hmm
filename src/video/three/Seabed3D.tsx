@@ -46,7 +46,7 @@ export const Contour3DScene: React.FC<SceneProps> = ({scene, timing, accent}) =>
   const xe = xAtDepth(v.enteredValue);
   const xu = xAtDepth(used);
   const xm = lerp(xe, xu, snap);
-  const shipX = lerp(-7.6, xu - 3.4, clamp01(t / Math.max(1, seconds)));
+  const shipX = lerp(-6.4, xu - 3.2, clamp01(t / Math.max(1, seconds)));
   const marker = proj(xm, 0.2, DEPTH_Z / 2);
   return (
     <AbsoluteFill style={{opacity: vis}}>
