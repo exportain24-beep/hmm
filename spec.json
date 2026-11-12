@@ -1,0 +1,111 @@
+{
+  "id": "colreg-rule-14-head-on",
+  "template": "colreg-scenario",
+  "pillar": "colreg",
+  "audience": [
+    "OOW",
+    "Deck Cadet",
+    "Second Officer"
+  ],
+  "title": "Head-on situation: which way do you turn? COLREG Rule 14 explained",
+  "thumbnailText": "HEAD-ON: WHICH WAY?",
+  "aspect": "9:16",
+  "mood": "curious",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "label": "WHO GIVES WAY?",
+      "heading": "Head-on at sea. Which way do you turn?",
+      "narration": "Two power-driven vessels are meeting head-on. Which way do you turn?"
+    },
+    {
+      "id": "sim",
+      "kind": "colreg3d",
+      "label": "RULE 14",
+      "heading": "Both vessels alter course to starboard",
+      "visual": {
+        "type": "colreg",
+        "scenario": "head-on"
+      },
+      "cues": [
+        "both her sidelights",
+        "alters course to starboard"
+      ],
+      "narration": "You see a vessel ahead, on a reciprocal course. By night you see both her sidelights, and her masthead lights in a line. Rule 14 is clear: each vessel alters course to starboard, so that they pass port to port."
+    },
+    {
+      "id": "duties",
+      "kind": "bullets",
+      "label": "WHAT THE RULES REQUIRE",
+      "heading": "Three things to remember",
+      "items": [
+        {
+          "title": "No stand-on vessel",
+          "text": "Both vessels must act"
+        },
+        {
+          "title": "In doubt? Assume it exists",
+          "text": "Rule 14(c): treat it as head-on and act"
+        },
+        {
+          "title": "Make it obvious",
+          "text": "A large, early alteration with one short blast"
+        }
+      ],
+      "cues": [
+        "no stand-on vessel",
+        "any doubt",
+        "large and early"
+      ],
+      "narration": "In a head-on situation there is no stand-on vessel. Both must act. If you are in any doubt whether the situation exists, assume that it does. And make your alteration large and early, with one short blast."
+    },
+    {
+      "id": "take",
+      "kind": "takeaway",
+      "label": "KEY TAKEAWAY",
+      "heading": "Head-on: alter to starboard, pass port to port.",
+      "narration": "Head-on means alter to starboard, and pass port to port."
+    },
+    {
+      "id": "end",
+      "kind": "endcard",
+      "narration": "Follow HeyMariner for practical maritime knowledge."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Convention on the International Regulations for Preventing Collisions at Sea, 1972 (COLREG)",
+      "publisher": "IMO",
+      "url": "https://www.imo.org/en/About/Conventions/Pages/COLREG.aspx"
+    }
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner editorial bank: written and checked against the cited conventions",
+    "checkedAt": "2026-11-12"
+  },
+  "meta": {
+    "description": "COLREG Rule 14 in 3D: two power-driven vessels meeting on reciprocal courses. Both alter course to starboard and pass port to port. What you see by night and what to do when in doubt.",
+    "keywords": [
+      "COLREG",
+      "collision regulations",
+      "rules of the road",
+      "give-way vessel",
+      "stand-on vessel",
+      "OOW",
+      "navigation"
+    ],
+    "hashtags": [
+      "#COLREG",
+      "#navigation",
+      "#rulesoftheroad",
+      "#deckcadet",
+      "#OOW"
+    ]
+  },
+  "origin": {
+    "type": "bank"
+  },
+  "series": "Who Gives Way?"
+}

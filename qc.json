@@ -1,0 +1,108 @@
+{
+  "pass": true,
+  "publishable": true,
+  "checks": [
+    {
+      "name": "script structure and text budgets (no clipped text)",
+      "pass": true,
+      "blocking": true,
+      "detail": "ok"
+    },
+    {
+      "name": "factual content validated",
+      "pass": true,
+      "blocking": true,
+      "detail": "verified by HeyMariner editorial bank: written and checked against the cited conventions; 1 source(s)"
+    },
+    {
+      "name": "voice-over is real (not placeholder)",
+      "pass": true,
+      "blocking": true,
+      "detail": "elevenlabs"
+    },
+    {
+      "name": "branding present (header on every scene, end card last)",
+      "pass": true,
+      "blocking": true,
+      "detail": "end card present"
+    },
+    {
+      "name": "resolution and aspect ratio",
+      "pass": true,
+      "blocking": true,
+      "detail": "1080x1920, expected 1080x1920"
+    },
+    {
+      "name": "frame rate",
+      "pass": true,
+      "blocking": true,
+      "detail": "30.00 fps"
+    },
+    {
+      "name": "codec is h264 / yuv420p",
+      "pass": true,
+      "blocking": true,
+      "detail": "h264 yuv420p"
+    },
+    {
+      "name": "duration matches timeline",
+      "pass": true,
+      "blocking": true,
+      "detail": "44.30 s vs 44.30 s"
+    },
+    {
+      "name": "duration within platform limits",
+      "pass": true,
+      "blocking": true,
+      "detail": "44.3 s (allowed 10-180)"
+    },
+    {
+      "name": "audio stream exists",
+      "pass": true,
+      "blocking": true,
+      "detail": "aac"
+    },
+    {
+      "name": "file size sane",
+      "pass": true,
+      "blocking": true,
+      "detail": "13.9 MB"
+    },
+    {
+      "name": "no silent section",
+      "pass": true,
+      "blocking": true,
+      "detail": "0 silent stretch(es) over 2.5 s"
+    },
+    {
+      "name": "loudness near -14 LUFS",
+      "pass": true,
+      "blocking": true,
+      "detail": "-13.1 LUFS"
+    },
+    {
+      "name": "no black frames",
+      "pass": true,
+      "blocking": true,
+      "detail": "ok"
+    },
+    {
+      "name": "no frozen picture (rendering artifact)",
+      "pass": true,
+      "blocking": true,
+      "detail": "ok"
+    },
+    {
+      "name": "voice-over synchronised with scenes",
+      "pass": true,
+      "blocking": true,
+      "detail": "0 word(s) outside their scene, longest pause 0.48 s"
+    },
+    {
+      "name": "3D scene \"sim\" rendered (not blank)",
+      "pass": true,
+      "blocking": true,
+      "detail": "panel mean luma 98"
+    }
+  ]
+}
