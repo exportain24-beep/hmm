@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "catzoc-explained",
+    "stage": "qc",
+    "error": "voice-over is real (not placeholder); codec is h264 / yuv420p",
+    "at": "2026-11-12T16:47:26.206Z",
+    "run": "43259847301"
+  },
+  {
+    "stage": "qc",
+    "error": "validation failed: codec is h264 / yuv420p",
+    "at": "2026-11-12T16:47:26.208Z",
+    "run": "43259847301"
+  }
+]
