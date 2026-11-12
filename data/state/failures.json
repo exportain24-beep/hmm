@@ -81,5 +81,19 @@
     "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"error_subcode\":5258005,\"fbtrace_id\":\"AOWBFcC-clCdUT4wBmbzyuR\"}}",
     "at": "2026-11-12T22:49:02.795Z",
     "run": "43319702014"
+  },
+  {
+    "id": "colreg-rule-13-overtaking",
+    "stage": "publish:facebook",
+    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"error_subcode\":5258005,\"fbtrace_id\":\"AxRFYsILeeWJppTp7vpHqP8\"}}",
+    "at": "2026-11-12T23:19:40.103Z",
+    "run": "43322825540"
+  },
+  {
+    "id": "colreg-rule-13-overtaking",
+    "stage": "publish:instagram",
+    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"error_subcode\":5258005,\"fbtrace_id\":\"AmGg4uJ3mL1s_4NGWSuLC_Z\"}}",
+    "at": "2026-11-12T23:19:40.285Z",
+    "run": "43322825540"
   }
 ]
