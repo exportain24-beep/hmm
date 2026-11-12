@@ -22,6 +22,16 @@ const sfxEvents = (spec: ContentSpec, tl: Timeline) => {
   return {total: tl.totalSeconds, events: ev};
 };
 
+/** Review sheet: two frames per scene (early and late), so a whole video can be checked at a glance. */
+export const contactSheet = (video: string, tl: Timeline, out: string) => {
+  const dir = `${out}.frames`;
+  mkdirSync(dir, {recursive: true});
+  const times = tl.scenes.flatMap((s) => [s.start + (s.end - s.start) * 0.45, s.end - Math.min(0.5, (s.end - s.start) * 0.12)]);
+  times.forEach((t, i) => run('ffmpeg', ['-y', '-loglevel', 'error', '-ss', t.toFixed(2), '-i', video, '-frames:v', '1', '-vf', `scale=${tl.width > tl.height ? 480 : 270}:-2`, `${dir}/f${String(i).padStart(3, '0')}.jpg`], {stage: 'review', allowFail: true}));
+  const cols = Math.min(times.length, tl.width > tl.height ? 4 : 8);
+  run('ffmpeg', ['-y', '-loglevel', 'error', '-framerate', '1', '-i', `${dir}/f%03d.jpg`, '-vf', `tile=${cols}x${Math.ceil(times.length / cols)}:padding=6:color=white`, '-frames:v', '1', '-q:v', '3', out], {stage: 'review', allowFail: true});
+};
+
 export type Produced = {workDir: string; final: string; thumb: string; timeline: Timeline; voiceId: string | null; uses3d: boolean};
 
 export const produce = async (spec: ContentSpec, opts: {skipRender?: boolean} = {}): Promise<Produced> => {
@@ -51,9 +61,14 @@ export const produce = async (spec: ContentSpec, opts: {skipRender?: boolean} = 
 
   log('render', 'render started', {composition: 'HeyMariner', frames: Math.round(timeline.totalSeconds * timeline.fps), uses3d});
   const common = [`--props=${workDir}/props.json`, '--gl=swangle', '--log=error'];
-  run('npx', ['remotion', 'render', ENTRY, 'HeyMariner', `${workDir}/silent.mp4`, ...common, '--muted', '--codec=h264', '--crf=18', '--pixel-format=yuv420p', '--timeout=120000'], {stage: 'render', timeoutMs: 100 * 60 * 1000});
+  run('npx', ['remotion', 'render', ENTRY, 'HeyMariner', `${workDir}/silent.mp4`, ...common, '--muted', '--codec=h264', '--crf=14', '--timeout=120000'], {stage: 'render', timeoutMs: 100 * 60 * 1000});
   run('npx', ['remotion', 'still', ENTRY, timeline.height > timeline.width ? 'ThumbnailVertical' : 'ThumbnailWide', thumb, ...common], {stage: 'render', timeoutMs: 10 * 60 * 1000});
-  run('ffmpeg', ['-y', '-loglevel', 'error', '-i', `${workDir}/silent.mp4`, '-i', `${workDir}/mix.m4a`, '-map', '0:v:0', '-map', '1:a:0', '-c:v', 'copy', '-c:a', 'copy', '-movflags', '+faststart', '-shortest', final], {stage: 'render'});
+  // Final encode: broadcast-safe limited-range yuv420p with BT.709 tags (Remotion's JPEG frames arrive full-range).
+  run('ffmpeg', ['-y', '-loglevel', 'error', '-i', `${workDir}/silent.mp4`, '-i', `${workDir}/mix.m4a`, '-map', '0:v:0', '-map', '1:a:0',
+    '-vf', 'scale=in_range=full:out_range=tv,format=yuv420p', '-c:v', 'libx264', '-preset', 'medium', '-crf', '18', '-profile:v', 'high',
+    '-color_range', 'tv', '-colorspace', 'bt709', '-color_primaries', 'bt709', '-color_trc', 'bt709',
+    '-c:a', 'copy', '-movflags', '+faststart', '-shortest', final], {stage: 'render', timeoutMs: 20 * 60 * 1000});
   log('render', 'render completed', {file: final, mb: +(statSync(final).size / 1e6).toFixed(1)});
+  contactSheet(final, timeline, `${workDir}/sheet.jpg`);
   return {workDir, final, thumb, timeline, voiceId, uses3d};
 };

@@ -25,6 +25,10 @@ on:
         description: 'AUTO_PUBLISH (only used when dry_run is off)'
         type: boolean
         default: false
+      preview_branch:
+        description: 'Also push the video + review sheet to a throw-away branch preview/<id> (delete it after viewing)'
+        type: boolean
+        default: false
       platforms:
         description: 'Limit publishing to these platforms (comma separated, empty = all enabled)'
         required: false
@@ -141,6 +145,16 @@ jobs:
           path: out/
           retention-days: 7
           if-no-files-found: ignore
+      - name: Push preview branch
+        if: always() && inputs.preview_branch && hashFiles('out/**/final.mp4') != ''
+        run: |
+          ID=$(ls out | head -1)
+          rm -rf /tmp/preview && mkdir -p /tmp/preview && cp out/$ID/* /tmp/preview/
+          cd /tmp/preview
+          ffmpeg -y -loglevel error -i final.mp4 -c:v libx264 -crf 26 -preset fast -c:a aac -b:a 128k -movflags +faststart share.mp4 && rm final.mp4
+          git init -q -b "preview/$ID" && git config user.name "heymariner-bot" && git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A && git commit -q -m "preview: $ID (run ${GITHUB_RUN_ID})"
+          git push -f "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "preview/$ID"
       - name: Save state (published ids, fingerprints, slots, failures)
         if: always()
         run: |

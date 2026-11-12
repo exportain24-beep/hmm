@@ -61,7 +61,7 @@ const cmdRun = async () => {
   // review bundle (uploaded as a workflow artifact)
   const outDir = p('out', spec.id);
   mkdirSync(outDir, {recursive: true});
-  for (const f of ['final.mp4', 'thumb.png', 'metadata.json', 'qc.json', 'spec.json', 'timeline.json']) {
+  for (const f of ['final.mp4', 'sheet.jpg', 'thumb.png', 'metadata.json', 'qc.json', 'spec.json', 'timeline.json']) {
     if (existsSync(`${out.workDir}/${f}`)) copyFileSync(`${out.workDir}/${f}`, `${outDir}/${f}`);
   }
   summary([
