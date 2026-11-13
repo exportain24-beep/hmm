@@ -137,5 +137,19 @@
     "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"error_subcode\":5258005,\"fbtrace_id\":\"AfDkfxQv9ULsS4m6ynBxS-t\"}}",
     "at": "2026-11-13T00:43:41.657Z",
     "run": "43336821828"
+  },
+  {
+    "id": "eca-canadian-arctic-norwegian-sea-2027",
+    "stage": "publish:facebook",
+    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"error_subcode\":5258005,\"fbtrace_id\":\"A_A6BVC9ZywL0NXgiBjDpKf\"}}",
+    "at": "2026-11-13T01:54:50.123Z",
+    "run": "43344733745"
+  },
+  {
+    "id": "eca-canadian-arctic-norwegian-sea-2027",
+    "stage": "publish:instagram",
+    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"error_subcode\":5258005,\"fbtrace_id\":\"A8XlisV6YDuS4f0SILLHVKs\"}}",
+    "at": "2026-11-13T01:54:50.182Z",
+    "run": "43344733745"
   }
 ]
