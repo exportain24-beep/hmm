@@ -180,5 +180,37 @@
         "at": "2026-11-13T06:51:15.030Z"
       }
     }
+  },
+  "2026-11-13-emergency-generator-starting": {
+    "title": "Emergency generator starting: 45 seconds, three starts and a cold start",
+    "producedAt": "2026-11-13T12:30:19.236Z",
+    "platforms": {
+      "youtube": {
+        "id": "GI2NzUGgIEI",
+        "url": "https://www.youtube.com/watch?v=GI2NzUGgIEI",
+        "at": "2026-11-13T12:30:28.885Z"
+      },
+      "facebook": {
+        "id": "1652030166380098",
+        "url": "https://www.facebook.com/reel/1652030166380098",
+        "at": "2026-11-13T12:30:39.406Z"
+      },
+      "instagram": {
+        "id": "18189892375418282",
+        "at": "2026-11-13T12:32:02.935Z"
+      },
+      "tiktok": {
+        "id": "6af7034366ff9797d8815ccf",
+        "at": "2026-11-13T12:32:14.090Z"
+      },
+      "linkedin": {
+        "id": "6af7034ed414da1f7da5685e",
+        "at": "2026-11-13T12:32:25.067Z"
+      },
+      "x": {
+        "id": "6af703599a21933ffad5780e",
+        "at": "2026-11-13T12:32:35.946Z"
+      }
+    }
   }
 }
