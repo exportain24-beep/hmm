@@ -1,0 +1,59 @@
+name: Repost rendered videos
+# Publishes videos that were already rendered (media-temp release) to platforms they missed, one item every N minutes.
+on:
+  workflow_dispatch:
+    inputs:
+      items:
+        description: 'Space separated id=platform,platform (e.g. catzoc-explained=facebook,instagram)'
+        required: true
+      gap_minutes:
+        description: 'Minutes between items'
+        required: false
+        default: '15'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: heymariner-repost
+  cancel-in-progress: false
+
+jobs:
+  repost:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    env:
+      DRY_RUN: 'false'
+      AUTO_PUBLISH: 'true'
+      META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+      META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+      META_IG_USER_ID: ${{ vars.META_IG_USER_ID }}
+      META_GRAPH_VERSION: ${{ vars.META_GRAPH_VERSION }}
+      BUFFER_ACCESS_TOKEN: ${{ secrets.BUFFER_ACCESS_TOKEN }}
+      BUFFER_CHANNEL_TIKTOK: ${{ vars.BUFFER_CHANNEL_TIKTOK }}
+      BUFFER_CHANNEL_LINKEDIN: ${{ vars.BUFFER_CHANNEL_LINKEDIN }}
+      BUFFER_CHANNEL_X: ${{ vars.BUFFER_CHANNEL_X }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Repost
+        env:
+          ITEMS: ${{ inputs.items }}
+          GAP: ${{ inputs.gap_minutes }}
+        run: |
+          git config user.name "heymariner-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          first=1; fail=0
+          for item in $ITEMS; do
+            [ $first -eq 1 ] || sleep $(( ${GAP:-15} * 60 ))
+            first=0
+            id="${item%%=*}"; pf="${item#*=}"
+            git fetch -q origin "${GITHUB_REF_NAME}" && git checkout "origin/${GITHUB_REF_NAME}" -- data/state
+            npx --yes tsx@4.19.4 src/pipeline/cli.ts repost --id "$id" --platforms "$pf" || fail=1
+            node tools/save-state.mjs "state: repost $id [skip ci]" data/state || fail=1
+          done
+          exit $fail

@@ -192,6 +192,24 @@ const main = async () => {
     if (bad) process.exitCode = 1;
   } else if (cmd === 'health') {
     await cmdHealth();
+  } else if (cmd === 'repost') {
+    // Publish an already rendered video (kept in the media-temp release) to platforms it missed. Never re-renders.
+    const id = arg('id');
+    const only = arg('platforms')?.split(',').filter(Boolean) ?? [];
+    if (!id || only.length === 0) throw new PipelineError('repost', 'usage: repost --id <spec id> --platforms facebook,instagram');
+    const spec = findSpec(id);
+    if (!spec) throw new PipelineError('repost', `no spec with id "${id}"`);
+    const url = `https://github.com/${env('GITHUB_REPOSITORY') || 'exportain24-beep/hmm'}/releases/download/media-temp/${id}.mp4`;
+    const res = await fetch(url);
+    if (!res.ok) throw new PipelineError('repost', `rendered video not found in media-temp (HTTP ${res.status})`);
+    mkdirSync(p('work/repost'), {recursive: true});
+    const file = p(`work/repost/${id}.mp4`);
+    writeFileSync(file, Buffer.from(await res.arrayBuffer()));
+    const dur = Number(run('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', file], {stage: 'repost'}).stdout.trim());
+    const meta = buildMetadata(spec, {totalSeconds: dur} as Parameters<typeof buildMetadata>[1], null, null);
+    log('repost', `re-using rendered video ${id} (${dur.toFixed(1)} s) for ${only.join(', ')}`);
+    const results = await publishAll(id, file, null, meta, {pass: true, publishable: true, checks: []}, only);
+    if (Object.values(results).some((r) => r.startsWith('FAILED'))) process.exitCode = 1;
   } else if (cmd === 'cleanup') {
     const n = await cleanupMedia(Number(arg('days') ?? 3));
     for (const d of ['work', 'out']) if (existsSync(p(d))) rmSync(p(d), {recursive: true, force: true});
