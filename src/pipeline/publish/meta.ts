@@ -1,6 +1,6 @@
 // Facebook Reels + Instagram Reels through the official Graph API (binary upload, no public URL needed).
-import {statSync} from 'node:fs';
-import {config, env, fetchRetry, okJson, PipelineError} from '../lib.ts';
+import {readFileSync, statSync} from 'node:fs';
+import {config, env, fetchRetry, log, okJson, PipelineError} from '../lib.ts';
 import {fileBody} from '../lib.ts';
 import type {Publisher} from './index.ts';
 import {ensurePublicUrl} from './hosting.ts';
@@ -81,17 +81,37 @@ export const InstagramPublisher: Publisher = {
     const ig = await igUser(token);
     let cover = '';
     if (thumb) { try { cover = await ensurePublicUrl(thumb, `${id}-cover.png`); } catch { cover = ''; } }
-    const c = await call<{id: string; uri: string}>(graph(`${ig}/media`), {media_type: 'REELS', upload_type: 'resumable', caption: sanitizeSocialCaption('instagram', meta.platforms.instagram.caption), share_to_feed: 'true', ...(cover ? {cover_url: cover} : {}), access_token: token}, 'POST', 'instagram');
-    await rupload(c.uri, token, file, 'instagram');
-    let status = '';
-    for (let i = 0; i < 40; i++) {
-      await sleep(8000);
-      status = (await call<{status_code: string}>(graph(c.id), {fields: 'status_code', access_token: token}, 'GET', 'instagram', 1)).status_code;
-      if (status === 'FINISHED') break;
-      if (status === 'ERROR' || status === 'EXPIRED') throw new PipelineError('instagram', `container processing ${status}`);
+    const caption = sanitizeSocialCaption('instagram', meta.platforms.instagram.caption);
+    const base = {media_type: 'REELS', caption, share_to_feed: 'true', ...(cover ? {cover_url: cover} : {}), access_token: token};
+    const waitFinished = async (cid: string) => {
+      let status = '';
+      for (let i = 0; i < 45; i++) {
+        await sleep(8000);
+        status = (await call<{status_code: string}>(graph(cid), {fields: 'status_code', access_token: token}, 'GET', 'instagram', 1)).status_code;
+        if (status === 'FINISHED') return;
+        if (status === 'ERROR' || status === 'EXPIRED') throw new PipelineError('instagram', `container processing ${status}`);
+      }
+      throw new PipelineError('instagram', 'container processing timed out');
+    };
+    let creation = '';
+    try {
+      // 1. resumable binary upload, whole file in one request with an exact content length
+      const c = await call<{id: string; uri: string}>(graph(`${ig}/media`), {...base, upload_type: 'resumable'}, 'POST', 'instagram');
+      const buf = readFileSync(file);
+      const res = await fetchRetry(c.uri, {method: 'POST', headers: {authorization: `OAuth ${token}`, offset: '0', file_size: String(buf.length)}, body: buf}, {stage: 'instagram', retries: 0, timeoutMs: 15 * 60 * 1000});
+      const text = await res.text();
+      if (!res.ok) throw new PipelineError('instagram', explain(res.status, text));
+      await waitFinished(c.id);
+      creation = c.id;
+    } catch (e) {
+      // 2. fallback: Instagram fetches the file from its temporary public URL
+      log('instagram', `binary upload failed, trying video_url: ${(e as Error).message.slice(0, 160)}`);
+      const url = await ensurePublicUrl(file, `${id}.mp4`);
+      const c = await call<{id: string}>(graph(`${ig}/media`), {...base, video_url: url}, 'POST', 'instagram');
+      await waitFinished(c.id);
+      creation = c.id;
     }
-    if (status !== 'FINISHED') throw new PipelineError('instagram', 'container processing timed out');
-    const pub = await call<{id: string}>(graph(`${ig}/media_publish`), {creation_id: c.id, access_token: token}, 'POST', 'instagram', 0);
+    const pub = await call<{id: string}>(graph(`${ig}/media_publish`), {creation_id: creation, access_token: token}, 'POST', 'instagram', 0);
     return {id: pub.id};
   },
 };
