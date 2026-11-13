@@ -179,5 +179,12 @@
     "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"error_subcode\":5258005,\"fbtrace_id\":\"A7svWzaKllJnr4ekLHqDyPE\"}}",
     "at": "2026-11-13T03:26:05.346Z",
     "run": "43358854523"
+  },
+  {
+    "id": "catzoc-explained",
+    "stage": "publish:instagram",
+    "error": "HTTP 400: {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}",
+    "at": "2026-11-13T04:44:02.799Z",
+    "run": "43367239117"
   }
 ]
