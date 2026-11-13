@@ -123,5 +123,19 @@
     "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"error_subcode\":5258005,\"fbtrace_id\":\"AOdPlHwLsYOX9xWntVyZXWT\"}}",
     "at": "2026-11-13T00:25:09.473Z",
     "run": "43336825182"
+  },
+  {
+    "id": "oily-water-separator-15ppm",
+    "stage": "publish:facebook",
+    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"error_subcode\":5258005,\"fbtrace_id\":\"AHCZP5_Cwuo10hvG78O9esf\"}}",
+    "at": "2026-11-13T00:43:41.549Z",
+    "run": "43336821828"
+  },
+  {
+    "id": "oily-water-separator-15ppm",
+    "stage": "publish:instagram",
+    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"error_subcode\":5258005,\"fbtrace_id\":\"AfDkfxQv9ULsS4m6ynBxS-t\"}}",
+    "at": "2026-11-13T00:43:41.657Z",
+    "run": "43336821828"
   }
 ]
