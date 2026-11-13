@@ -85,6 +85,7 @@ export const validateSpec = (s: ContentSpec): string[] => {
       else pos = j + cue.length;
     }
   });
+  if (sc.filter((x) => x.kind === 'toon').length > 2) e.push('more than 2 toon scenes (render time): use other visuals for the rest');
   if (chars > voice.maxCharsPerVideo) e.push(`narration is ${chars} chars, limit ${voice.maxCharsPerVideo}`);
   const est = chars / voice.placeholderCharsPerSecond;
   if (tpl && (est < tpl.seconds[0] * 0.7 || est > tpl.seconds[1] * 1.35)) e.push(`estimated ${est.toFixed(0)} s is outside the ${tpl.id} range ${tpl.seconds[0]}-${tpl.seconds[1]} s`);

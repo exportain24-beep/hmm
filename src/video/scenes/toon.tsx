@@ -23,6 +23,9 @@ export const ToonScene: React.FC<SceneProps> = ({spec, scene, timing, accent}) =
   const [handle] = useState(() => delayRender(`toon ${scene.id}`, {timeoutInMilliseconds: 600000}));
   const w = L.panel.w;
   const h = L.panel.h;
+  // render at 70 % and scale up: about 2x faster on software GL, the ink lines stay clean
+  const rw = Math.round(w * 0.7);
+  const rh = Math.round(h * 0.7);
 
   const story = useMemo(() => {
     const toon = scene.toon ?? {set: 'deck'};
@@ -42,7 +45,7 @@ export const ToonScene: React.FC<SceneProps> = ({spec, scene, timing, accent}) =
     let dead = false;
     (async () => {
       try {
-        const a = await start(story, {root: rootRef.current!, canvas: canvasRef.current!, W: w, H: h, duration: seconds, style: {captions: false, ink_px: 7}});
+        const a = await start(story, {root: rootRef.current!, canvas: canvasRef.current!, W: rw, H: rh, duration: seconds, style: {captions: false, ink_px: 7}});
         if (dead) return;
         api.current = a;
         setReady(true);
@@ -65,7 +68,7 @@ export const ToonScene: React.FC<SceneProps> = ({spec, scene, timing, accent}) =
   return (
     <div style={{position: 'absolute', inset: 0, opacity: vis}}>
       <div ref={rootRef} style={{position: 'absolute', left: L.panel.x, top: L.panel.y, width: w, height: h, borderRadius: 34 * L.u, overflow: 'hidden', background: '#0b1a2c', border: `3px solid ${C.white}2E`, boxShadow: '0 30px 80px rgba(0,0,0,0.5)'}}>
-        <canvas ref={canvasRef} width={w} height={h} style={{position: 'absolute', inset: 0, width: '100%', height: '100%', display: 'block'}} />
+        <canvas ref={canvasRef} width={rw} height={rh} style={{position: 'absolute', inset: 0, width: '100%', height: '100%', display: 'block'}} />
       </div>
       <Title scene={scene} accent={accent} L={L} frame={frame} fps={30} />
     </div>

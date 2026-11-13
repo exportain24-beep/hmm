@@ -98,7 +98,7 @@ async function setup(story, ctx) {
   planRule(DURATION < 40 || planInfo.aerials >= 1, `${planInfo.aerials} aerial or top-down shots (rule: at least 1 in a long short, at most 5)`);
   planRule(planInfo.aerials <= 5, `${planInfo.aerials} aerial or top-down shots (rule at most 5)`);
   const lights = { ...LIGHTS, ...(story.lights || {}) };
-  const post = buildPost({ renderer, scene, camera, W, H, inkPx });
+  const post = buildPost({ renderer, scene, camera, W, H, inkPx, msaa: story.msaa ?? 4, bloomLevels: story.bloomLevels ?? 6 });
   const overlay = document.createElement("canvas"); overlay.width = W; overlay.height = H;
   Object.assign(overlay.style, { position: "absolute", inset: "0", width: "100%", height: "100%", pointerEvents: "none", zIndex: "5", display: "none" });
   canvas.after(overlay);

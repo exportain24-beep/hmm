@@ -23,46 +23,12 @@
     },
     {
       "id": "risk",
-      "kind": "toon",
+      "kind": "statement",
       "label": "THE RISK",
       "heading": "You cannot see or smell low oxygen",
       "body": "Rusting steel, some cargoes and fresh coatings use up oxygen. Toxic and flammable gases collect in tanks, holds and void spaces.",
       "narration": "Rust, some cargoes and fresh coatings use up oxygen, and toxic gases collect in tanks and void spaces. Your senses will not warn you.",
-      "toon": {
-        "set": "deck",
-        "time": "day",
-        "shot": "wide",
-        "cast": [
-          {
-            "role": "cadet",
-            "face": "neutral"
-          },
-          {
-            "role": "officer",
-            "face": "worried"
-          }
-        ],
-        "beats": [
-          {
-            "on": "Rust",
-            "who": 1,
-            "arms": "point",
-            "face": "worried"
-          },
-          {
-            "on": "toxic",
-            "who": 0,
-            "face": "surprised",
-            "fx": "question"
-          },
-          {
-            "on": "senses",
-            "who": 1,
-            "arms": "cross",
-            "face": "determined"
-          }
-        ]
-      }
+      "motif": "tank"
     },
     {
       "id": "test",
@@ -182,30 +148,11 @@
     },
     {
       "id": "take",
-      "kind": "toon",
+      "kind": "takeaway",
       "label": "KEY TAKEAWAY",
       "heading": "No permit, no test, no entry.",
       "narration": "No permit, no test, no entry. Every time.",
-      "toon": {
-        "set": "bridge",
-        "shot": "medium",
-        "cast": [
-          {
-            "role": "officer",
-            "face": "smug",
-            "arms": "cross"
-          }
-        ],
-        "beats": [
-          {
-            "on": "Every",
-            "who": 0,
-            "arms": "clap",
-            "face": "grin",
-            "fx": "stars"
-          }
-        ]
-      }
+      "motif": "inspection"
     },
     {
       "id": "end",

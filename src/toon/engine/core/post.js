@@ -246,10 +246,10 @@ export function makeLens(camera, S) {
 // inkPx = world outline width in pixels at 1080x1920 (settings.ink_px). Measured on this shader: a sampling
 // radius r draws a line of about 2.3 * r pixels (r 1.3 -> ~3 px, r 2.6 -> ~6 px).
 export function inkRadius(inkPx, S) { return Math.max(0.6, inkPx / 2.3) * S; }
-export function buildPost({ renderer, scene, camera, W, H, inkPx = 8 }) {
+export function buildPost({ renderer, scene, camera, W, H, inkPx = 8, msaa = 4, bloomLevels = 6 }) {
   const S = H / 1920;
   const prepass = new InkPrepass(renderer, scene, camera, W, H);
-  const composer = new EffectComposer(renderer, { frameBufferType: THREE.HalfFloatType, multisampling: 4 });
+  const composer = new EffectComposer(renderer, { frameBufferType: THREE.HalfFloatType, multisampling: msaa });
   composer.addPass(new RenderPass(scene, camera));
   const inkA = new InkEffect(prepass.rt.texture, { radius: inkRadius(inkPx, S), mode: 0, color: 0x0b0a0d });
   const inkPassA = new EffectPass(camera, inkA);
@@ -264,7 +264,7 @@ export function buildPost({ renderer, scene, camera, W, H, inkPx = 8 }) {
   const smearPass = new EffectPass(camera, smear);
   smearPass.enabled = false;
   composer.addPass(smearPass);
-  const bloom = new BloomEffect({ luminanceThreshold: 1.0, luminanceSmoothing: 0.12, intensity: 0.7, mipmapBlur: true, radius: 0.6, levels: 6 });
+  const bloom = new BloomEffect({ luminanceThreshold: 1.0, luminanceSmoothing: 0.12, intensity: 0.7, mipmapBlur: true, radius: 0.6, levels: bloomLevels });
   const grade = new GradeEffect(W / H);
   composer.addPass(new EffectPass(camera, bloom, new ToneMappingEffect({ mode: ToneMappingMode.NEUTRAL }), grade));
   composer.setSize(W, H, false);

@@ -34,6 +34,10 @@ export function buildToonStory(p) {
     seed: p.seed || 1,
     words: [],
     captions: false,
+    // speed on software GL (GitHub runners): small shadow map, no MSAA (the ink pass draws the edges), 4 bloom levels
+    shadowMap: 1024,
+    msaa: 0,
+    bloomLevels: 4,
     light: set === "bridge" || set === "engineroom" || set === "office" ? "interior" : time,
     build(api) {
       const { W, kit, mat, glow, cast, fx, makeLook, rand, aim, aerial, THREE, prop, lights, makePalette } = api;
@@ -132,7 +136,7 @@ export function buildToonStory(p) {
         prop.crateStack(W, { pal, x: -7, z: 5 }); prop.streetLamp(W, { pal, x: 6, z: 4 });
         prop.cone(W, { pal, x: 1, z: 1.5 }); prop.cone(W, { pal, x: 1.8, z: 1.5 });
         containers(-14, 9, 4, 2, Math.PI / 2);
-        sign("BERTH 7", { x: -2, y: 2.6, z: 8, w: 2.2, h: 0.55, bg: "#1d2b4f", fg: "#ffffff" });
+        sign("BERTH 7", { x: -6, y: 3.2, z: -1.4, w: 2.2, h: 0.55, bg: "#1d2b4f", fg: "#ffffff" });
         marks = [[-1.5, 1.6], [0.8, 2.2], [2.4, 1.4]]; hero = [0, 1.4, 1.2]; wideDist = 11;
       } else if (set === "bridge") {
         kit.ground(W, { kind: "slabs", color: "#6e7a86", size: 40 });
@@ -165,6 +169,10 @@ export function buildToonStory(p) {
         eng.add(B(9, 2.6, 2.6, M("flat", "#3d6f8f"), { y: 1.3 }));
         eng.add(B(9.2, 0.3, 2.8, M("flat", "#2c5068"), { y: 2.75 }));
         for (let i = 0; i < 6; i++) { eng.add(C(0.45, 0.5, 0.6, M("flat", "#9aa4ad"), { x: -3.75 + i * 1.5, y: 3.2 })); eng.add(C(0.06, 0.06, 1.2, M("flat", "#c94a3a"), { x: -3.75 + i * 1.5, y: 3.9, z: 0.3 })); }
+        for (let i = 0; i < 6; i++) eng.add(B(0.06, 2.4, 0.04, M("flat", "#2c5068"), { x: -3.75 + i * 1.5 + 0.75, y: 1.3, z: 1.32 }));
+        eng.add(B(1.6, 0.5, 0.04, M("flat", "#e8e2c8"), { x: -2.2, y: 1.9, z: 1.33 }));
+        eng.add(B(9.4, 0.08, 0.08, M("flat", "#e8b93a"), { y: 1.0, z: 2.0 })); eng.add(B(9.4, 0.08, 0.08, M("flat", "#e8b93a"), { y: 0.55, z: 2.0 }));
+        for (let i = 0; i < 7; i++) eng.add(B(0.07, 1.0, 0.07, M("flat", "#e8b93a"), { x: -4.5 + i * 1.5, y: 0.5, z: 2.0 }));
         eng.position.set(0, 0, -2.6); add(eng, { name: "main engine" });
         for (const [y, z, len, c] of [[4.2, -4.4, 13, "#c94a3a"], [3.8, -4.6, 13, "#2f8fd8"], [4.5, 4.4, 13, "#e8b93a"]]) add(C(0.12, 0.12, len, M("flat", c), { y, z, rz: Math.PI / 2, seg: 10 }), { collide: false, name: "pipe" });
         // gauges board (back wall, right of the engine), control console (right), workbench (left)
@@ -178,7 +186,7 @@ export function buildToonStory(p) {
         prop.extinguisher(W, { pal, x: -6.4, z: -3.6 }); prop.ladder(W, { pal, x: 6.6, z: -2.5, ry: -Math.PI / 2 });
         lights.practical({ kind: "panel", x: 0, y: 4.9, z: 1.5, light: true, intensity: 1.6 });
         sign("ENGINE CONTROL", { x: 4.6, y: 2.4, z: -4.8, w: 2.4, h: 0.45, bg: "#1d2b4f", fg: "#ffffff" });
-        marks = [[-1.6, 1.2], [1.4, 1.6], [3.4, 2.4]]; hero = [0, 1.4, 0.5]; wideDist = 8;
+        marks = [[-1.6, 1.4], [1.4, 1.8], [3.0, 2.6]]; hero = [0, 1.5, 0.8]; wideDist = 8.5;
       } else {
         // office: shore office / PSC / training room
         kit.ground(W, { kind: "planks", color: "#9a7a5a", size: 40 });
@@ -227,7 +235,7 @@ export function buildToonStory(p) {
       const keys = [];
       if (shot === "aerial") keys.push({ t: 0, ...aerial(hero, { height: 13, tilt: 0.35, yaw }), light: undefined });
       else if (shot === "close") keys.push({ t: 0, ...aim(focus.eyes(0).toArray(), { dist: 2.6, yaw: yaw * 0.6, fov: 34 }), move, lens: { focus: "c0", px: 10 } });
-      else if (shot === "medium") keys.push({ t: 0, ...aim([hero[0], hero[1], hero[2]], { dist: wideDist * 0.6, yaw, height: hero[1] + 0.4, fov: 36 }), move, lens: { focus: "c0", px: 6 } });
+      else if (shot === "medium") keys.push({ t: 0, ...aim([hero[0], hero[1], hero[2]], { dist: wideDist * 0.62, yaw, height: hero[1] + 1.1, fov: 38 }), move, lens: { focus: "c0", px: 6 } });
       else keys.push({ t: 0, ...aim([hero[0], hero[1], hero[2]], { dist: wideDist, yaw, height: hero[1] + 1.6, fov: 38 }), move });
       // a scene longer than ~4.5 s glides to a closer view on the first beat's character
       if (seconds > 4.5 && shot !== "close") {

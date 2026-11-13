@@ -71,3 +71,25 @@ Every video must look different from the others. Set `motif` on every scene your
 - Against the last 6 videos: at most 40% of the visuals may be shared with any one of them, and the hook must not open on the same visual as any of the last 3.
 - Motifs: voyage (ship at sea), radar (PPI sweep), chart (nautical chart), engine (main engine pistons), tank (enclosed space), globe (world/regulation areas), lighthouse (danger/night), mooring (lines, bollards, snap-back zone), generator (switchboard, alternator), pump (pipes, valves, flow), fire (machinery-space fire, CO2), lifeboat (davit launch), anchor (windlass, chain, seabed), cargo (container crane), weather (storm, heavy seas), clock (24-hour work/rest ring), bridge (wheelhouse, consoles), inspection (checklist, certificate, stamp).
 - Pick the motif that shows the scene's own point (a scene about records → inspection, about fatigue → clock), not one motif for the whole topic.
+
+
+## Toon scenes (kind "toon"): seafarers acting in a toon 3D world
+Flat inked characters (round cream heads, stick limbs, big eyes, one even outline) act in a toon 3D maritime set. Use one or two per video where people and actions explain the point better than a diagram: a cadet reacting to a hazard, an officer pointing out the right action, an engineer checking a gauge, a master giving an order. Never more than 2 per video.
+```json
+{"id": "risk", "kind": "toon", "label": "THE RISK", "heading": "You cannot smell low oxygen",
+ "narration": "Rust, some cargoes and fresh coatings use up oxygen ...",
+ "toon": {
+   "set": "deck",              // deck | bridge | engineroom | quay | lifeboat | office
+   "time": "day",              // day | golden | night (outdoor sets)
+   "shot": "wide",             // wide | medium | close | aerial (first shot; longer scenes glide in on the first beat)
+   "cast": [{"role": "cadet"}, {"role": "officer", "face": "worried"}],   // 1-3: master officer cadet engineer rating pilot inspector
+   "beats": [                  // each lands on the first spoken word of "on", in narration order
+     {"on": "Rust", "who": 1, "arms": "point", "face": "worried"},
+     {"on": "toxic", "who": 0, "face": "surprised", "fx": "question"}
+   ]
+ }}
+```
+- faces: neutral happy grin laugh surprised shocked worried sad angry smug confused thinking sleepy determined
+- arms: idle wave point armsUp shrug hips hold think cross reach clap facepalm
+- fx: smoke steam splash sparkle ring dust exclaim question stars sweat burst
+- A beat every 2-3 seconds; pick the set that is the real place of the action (engine room for machinery, bridge for navigation, quay for mooring, lifeboat for LSA, office for PSC/ISM/regulation). Variety counts each set as its own visual.
