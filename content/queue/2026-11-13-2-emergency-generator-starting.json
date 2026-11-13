@@ -1,0 +1,151 @@
+{
+  "id": "2026-11-13-emergency-generator-starting",
+  "template": "equipment-explained",
+  "pillar": "engine",
+  "series": "Know Your Equipment",
+  "level": "L2",
+  "audience": [
+    "Junior Engineer",
+    "Third Engineer",
+    "Engine Cadet",
+    "ETO"
+  ],
+  "title": "Emergency generator starting: 45 seconds, three starts and a cold start",
+  "thumbnailText": "BLACKOUT? 45 SECONDS",
+  "aspect": "9:16",
+  "mood": "curious",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "label": "KNOW YOUR EQUIPMENT",
+      "heading": "Blackout. The emergency generator has one job.",
+      "motif": "engine",
+      "narration": "Total blackout at sea. The emergency generator has one job: start fast. What does SOLAS demand?"
+    },
+    {
+      "id": "auto",
+      "kind": "stat",
+      "label": "SOLAS II-1/43",
+      "heading": "Emergency services supplied within",
+      "motif": "engine",
+      "items": [
+        {
+          "title": "Automatic connection",
+          "value": "45 s"
+        }
+      ],
+      "narration": "Under SOLAS Chapter II-1, the emergency source must connect automatically to the emergency switchboard and supply the required services within 45 seconds."
+    },
+    {
+      "id": "start",
+      "kind": "bullets",
+      "label": "SOLAS II-1/44",
+      "heading": "Starting arrangements",
+      "motif": "engine",
+      "items": [
+        {
+          "title": "Cold start",
+          "value": "0 °C"
+        },
+        {
+          "title": "Stored energy",
+          "value": "3 starts"
+        },
+        {
+          "title": "Second source",
+          "value": "3 in 30 min"
+        }
+      ],
+      "cues": [
+        "cold condition",
+        "three consecutive starts",
+        "second source"
+      ],
+      "narration": "It must start from cold condition at 0 degrees Celsius. Its starting device needs stored energy for at least three consecutive starts, and a second source must give three more starts within 30 minutes."
+    },
+    {
+      "id": "check",
+      "kind": "checklist",
+      "label": "WHAT THE ENGINEER CHECKS",
+      "heading": "Ready before the blackout",
+      "motif": "engine",
+      "items": [
+        {
+          "title": "Starting energy charged"
+        },
+        {
+          "title": "Fuel tank level"
+        },
+        {
+          "title": "Selector on AUTO"
+        },
+        {
+          "title": "Test the automatic start"
+        }
+      ],
+      "cues": [
+        "Batteries or air",
+        "fuel tank",
+        "auto",
+        "Test"
+      ],
+      "narration": "Batteries or air receiver charged. Emergency fuel tank level checked. Control left in auto. Test the automatic start as your planned maintenance requires."
+    },
+    {
+      "id": "take",
+      "kind": "takeaway",
+      "label": "KEY TAKEAWAY",
+      "heading": "Left in manual, it fails when needed",
+      "motif": "engine",
+      "narration": "An emergency generator left in manual is no emergency generator at all."
+    },
+    {
+      "id": "end",
+      "kind": "endcard",
+      "narration": "Follow HeyMariner for practical maritime knowledge."
+    }
+  ],
+  "sources": [
+    {
+      "title": "SOLAS Chapter II-1 regulations 43 and 44 (with MSC/Circ.736 interpretations)",
+      "publisher": "Deutsche Flagge / BSH",
+      "url": "https://www.deutsche-flagge.de/de/redaktion/dokumente/interpretationen/solas/ii-1/msc-circ-736-interpretations-of-vague-expressions-in-solas-chapter-ii1_treeview_12666.pdf"
+    },
+    {
+      "title": "Emergency power: SOLAS Ch.II-1/43 and 44 requirements",
+      "publisher": "Satakunta University of Applied Sciences (MERSol)",
+      "url": "https://samkmoodle.samk.fi/mod/page/view.php?id=22189"
+    }
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner daily desk",
+    "checkedAt": "2026-11-13",
+    "notes": "45 s automatic supply, 0 C cold start, 3 consecutive starts, second source 3 starts within 30 min checked against the cited SOLAS II-1/43-44 texts. Checklist is general good practice, no numbers."
+  },
+  "meta": {
+    "description": "How the emergency generator must start under SOLAS Chapter II-1: automatic connection within 45 seconds, cold start at 0 °C, three consecutive starts and three more from a second source within 30 minutes. Plus what the engineer checks so it works on the day of a blackout.",
+    "keywords": [
+      "emergency generator",
+      "SOLAS emergency generator",
+      "emergency generator starting",
+      "blackout",
+      "SOLAS II-1",
+      "marine engineering",
+      "emergency switchboard",
+      "engine room"
+    ],
+    "hashtags": [
+      "#EmergencyGenerator",
+      "#MarineEngineering",
+      "#SOLAS",
+      "#EngineRoom",
+      "#KnowYourEquipment"
+    ],
+    "question": "How is the emergency generator started on your ship: battery, hydraulic or air?"
+  },
+  "origin": {
+    "type": "queue"
+  }
+}

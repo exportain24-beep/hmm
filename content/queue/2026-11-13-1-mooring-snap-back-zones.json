@@ -1,0 +1,128 @@
+{
+  "id": "2026-11-13-mooring-snap-back-zones",
+  "template": "educational-explainer",
+  "pillar": "deck",
+  "series": "One Minute Mariner",
+  "level": "L2",
+  "audience": [
+    "OOW",
+    "Deck Cadet",
+    "Bosun",
+    "AB"
+  ],
+  "title": "Mooring snap-back zones: why the whole mooring deck is a danger area",
+  "thumbnailText": "THE WHOLE DECK IS THE ZONE",
+  "aspect": "9:16",
+  "mood": "tense",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "label": "MOORING SAFETY",
+      "heading": "You are outside the painted zone. Are you safe?",
+      "motif": "voyage",
+      "narration": "You are standing outside the painted snap-back zone on the mooring deck. A line parts. Are you really safe?"
+    },
+    {
+      "id": "what",
+      "kind": "term",
+      "label": "TERM",
+      "heading": "Snap-back zone",
+      "body": "Where a parted line under load can recoil",
+      "motif": "voyage",
+      "narration": "A snap-back zone is where a mooring line can whip back if it parts under load. The stored energy releases far too fast for anyone to step away."
+    },
+    {
+      "id": "why",
+      "kind": "statement",
+      "label": "WHY PAINT FAILS",
+      "heading": "Paint can give a false sense of security",
+      "motif": "voyage",
+      "narration": "The UK Code of Safe Working Practices advises against painting these zones. Leads around rollers and fairleads change the recoil path, so treat the whole mooring deck as a potential snap-back zone."
+    },
+    {
+      "id": "do",
+      "kind": "checklist",
+      "label": "ON EVERY MOORING JOB",
+      "heading": "Control the danger",
+      "motif": "voyage",
+      "items": [
+        {
+          "title": "Risk-assess the line leads"
+        },
+        {
+          "title": "Mark danger areas on the plan"
+        },
+        {
+          "title": "Toolbox talk before mooring"
+        },
+        {
+          "title": "Stay out of lines under load"
+        }
+      ],
+      "cues": [
+        "Assess the risk",
+        "mooring plan",
+        "toolbox talk",
+        "under load"
+      ],
+      "narration": "Assess the risk for the leads in use. Show hazard areas on the mooring plan. Hold a toolbox talk before every operation. And keep clear of any line under load."
+    },
+    {
+      "id": "take",
+      "kind": "takeaway",
+      "label": "KEY TAKEAWAY",
+      "heading": "The whole deck is the danger zone",
+      "motif": "voyage",
+      "narration": "Remember: on a mooring deck, there is no truly safe painted line."
+    },
+    {
+      "id": "end",
+      "kind": "endcard",
+      "narration": "Follow HeyMariner for practical maritime knowledge."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Best practice: mooring snap-back zones",
+      "publisher": "UK P&I Club",
+      "url": "https://www.ukpandi.com/news-and-resources/articles/2016/best-practice-mooring-snap-back-zones",
+      "date": "2016-07-26"
+    },
+    {
+      "title": "The continued dangers of snap-back zones",
+      "publisher": "Skuld",
+      "url": "https://skuld.com/topics/ship/safety/the-continued-dangers-of-snap-back-zones"
+    }
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner daily desk",
+    "checkedAt": "2026-11-13",
+    "notes": "Checked against UK P&I and Skuld summaries of MCA COSWP chapter 26: painting of snap-back zones should be avoided (false sense of security); entire mooring deck a potential snap-back zone; risk assessment, plans, toolbox talk."
+  },
+  "meta": {
+    "description": "What a mooring snap-back zone is, why the UK Code of Safe Working Practices advises against painted zones, and why the whole mooring deck should be treated as a potential snap-back zone. Practical controls for every mooring operation.",
+    "keywords": [
+      "snap-back zone",
+      "mooring safety",
+      "mooring operations",
+      "parted mooring line",
+      "COSWP",
+      "mooring deck",
+      "seamanship",
+      "deck officer"
+    ],
+    "hashtags": [
+      "#MooringSafety",
+      "#SnapBack",
+      "#Seamanship",
+      "#DeckOfficer",
+      "#MaritimeSafety"
+    ],
+    "question": "Does your ship still have painted snap-back zones on the mooring deck?"
+  },
+  "origin": {
+    "type": "queue"
+  }
+}
