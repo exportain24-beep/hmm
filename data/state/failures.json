@@ -165,5 +165,19 @@
     "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"error_subcode\":5258005,\"fbtrace_id\":\"ASANB2FwQyjIoEzpfE-wv8g\"}}",
     "at": "2026-11-13T02:25:45.378Z",
     "run": "43352031317"
+  },
+  {
+    "id": "amsa-bans-wooyang-venus-rest-hours",
+    "stage": "card:facebook",
+    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"error_subcode\":5258005,\"fbtrace_id\":\"AqeIfISDvVAIegaMDScP7UT\"}}",
+    "at": "2026-11-13T03:26:05.261Z",
+    "run": "43358854523"
+  },
+  {
+    "id": "amsa-bans-wooyang-venus-rest-hours",
+    "stage": "card:instagram",
+    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"error_subcode\":5258005,\"fbtrace_id\":\"A7svWzaKllJnr4ekLHqDyPE\"}}",
+    "at": "2026-11-13T03:26:05.346Z",
+    "run": "43358854523"
   }
 ]
