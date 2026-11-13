@@ -1,0 +1,3132 @@
+{
+ "about": "HeyMariner video topic backlog. Daily desk takes the highest-priority open topic per stream; the weekly scout adds and re-scores topics. Verify every fact on the primary source before scripting.",
+ "weights": {
+  "psc": 22,
+  "exam": 18,
+  "new": 22,
+  "critical": 20,
+  "faq": 14,
+  "accident": 16,
+  "visual": 8
+ },
+ "topics": [
+  {
+   "id": "ecdis-safety-contour-vs-safety-depth",
+   "title": "ECDIS safety contour vs safety depth",
+   "stream": "deck",
+   "pillar": "equipment",
+   "level": "L2",
+   "priority": 88,
+   "tags": [
+    "exam",
+    "critical",
+    "psc",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/guide-enc-symbology-used-ecdis",
+    "https://www.admiralty.co.uk/publications/publications-and-reference-guides/ECDIS-and-ENC-reference-publications"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "used",
+   "usedBy": "ecdis-safety-contour",
+   "usedAt": "2026-11-13"
+  },
+  {
+   "id": "pilot-boarding-ladder-rigging-rules",
+   "title": "Pilot boarding: ladder rigging rules",
+   "stream": "deck",
+   "pillar": "deck",
+   "level": "L2",
+   "priority": 86,
+   "tags": [
+    "psc",
+    "critical",
+    "accident",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "lifeboat-on-load-release-hooks",
+   "title": "Lifeboat on-load release hooks",
+   "stream": "safety",
+   "pillar": "equipment",
+   "level": "L2",
+   "priority": 86,
+   "tags": [
+    "psc",
+    "accident",
+    "critical",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "fuel-changeover-for-eca-safe-procedure",
+   "title": "Fuel changeover for ECA: safe procedure",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L3",
+   "priority": 84,
+   "tags": [
+    "psc",
+    "new",
+    "critical"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Environment/Pages/Default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "crankcase-explosion-causes-and-relief-doors",
+   "title": "Crankcase explosion: causes and relief doors",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L3",
+   "priority": 82,
+   "tags": [
+    "exam",
+    "critical",
+    "accident",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "scavenge-fire-symptoms-and-actions",
+   "title": "Scavenge fire: symptoms and actions",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L3",
+   "priority": 82,
+   "tags": [
+    "exam",
+    "critical",
+    "accident",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "ecdis-route-check-how-to-run-it-properly",
+   "title": "ECDIS route check: how to run it properly",
+   "stream": "deck",
+   "pillar": "equipment",
+   "level": "L3",
+   "priority": 80,
+   "tags": [
+    "psc",
+    "critical",
+    "exam"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/publications/publications-and-reference-guides/ECDIS-and-ENC-reference-publications"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "passage-planning-appraisal-planning-execution-monitoring",
+   "title": "Passage planning: appraisal, planning, execution, monitoring",
+   "stream": "deck",
+   "pillar": "deck",
+   "level": "L2",
+   "priority": 80,
+   "tags": [
+    "exam",
+    "psc",
+    "critical"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/publications/publications-and-reference-guides/admiralty-mariners-handbook",
+    "https://www.admiralty.co.uk/publications/publications-and-reference-guides/admiralty-sailing-directions"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "preferential-tripping-and-blackout-recovery",
+   "title": "Preferential tripping and blackout recovery",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L3",
+   "priority": 80,
+   "tags": [
+    "exam",
+    "critical",
+    "psc"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "steering-gear-testing-and-emergency-steering-drill",
+   "title": "Steering gear: testing and emergency steering drill",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L2",
+   "priority": 80,
+   "tags": [
+    "psc",
+    "exam",
+    "critical"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "solid-bulk-cargo-liquefaction-imsbc",
+   "title": "Solid bulk cargo liquefaction (IMSBC)",
+   "stream": "deck",
+   "pillar": "deck",
+   "level": "L3",
+   "priority": 78,
+   "tags": [
+    "accident",
+    "critical",
+    "new"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "enclosed-space-rescue-drills",
+   "title": "Enclosed space rescue drills",
+   "stream": "safety",
+   "pillar": "safety",
+   "level": "L3",
+   "priority": 78,
+   "tags": [
+    "accident",
+    "critical",
+    "psc"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "no-go-areas-and-safety-margins-in-a-passage-plan",
+   "title": "No-go areas and safety margins in a passage plan",
+   "stream": "deck",
+   "pillar": "deck",
+   "level": "L3",
+   "priority": 70,
+   "tags": [
+    "psc",
+    "critical",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/publications/publications-and-reference-guides/ECDIS-and-ENC-reference-publications"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "fixed-co2-system-in-the-engine-room",
+   "title": "Fixed CO2 system in the engine room",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L2",
+   "priority": 70,
+   "tags": [
+    "psc",
+    "critical",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "fire-triangle-and-classes-of-fire-on-ships",
+   "title": "Fire triangle and classes of fire on ships",
+   "stream": "safety",
+   "pillar": "safety",
+   "level": "L1",
+   "priority": 68,
+   "tags": [
+    "psc",
+    "exam",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "liferaft-hydrostatic-release-unit",
+   "title": "Liferaft: hydrostatic release unit",
+   "stream": "safety",
+   "pillar": "equipment",
+   "level": "L2",
+   "priority": 68,
+   "tags": [
+    "psc",
+    "exam",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "colreg-annex-iv-distress-signals",
+   "title": "COLREG Annex IV: Distress signals",
+   "stream": "deck",
+   "pillar": "colreg",
+   "level": "L2",
+   "priority": 66,
+   "tags": [
+    "exam",
+    "critical",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "colreg-rule-10-traffic-separation-schemes",
+   "title": "COLREG Rule 10: Traffic separation schemes",
+   "stream": "deck",
+   "pillar": "colreg",
+   "level": "L2",
+   "priority": 66,
+   "tags": [
+    "exam",
+    "critical",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "colreg-rule-16-action-by-give-way-vessel",
+   "title": "COLREG Rule 16: Action by give-way vessel",
+   "stream": "deck",
+   "pillar": "colreg",
+   "level": "L2",
+   "priority": 66,
+   "tags": [
+    "exam",
+    "critical",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "colreg-rule-17-action-by-stand-on-vessel",
+   "title": "COLREG Rule 17: Action by stand-on vessel",
+   "stream": "deck",
+   "pillar": "colreg",
+   "level": "L2",
+   "priority": 66,
+   "tags": [
+    "exam",
+    "critical",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "colreg-rule-18-responsibilities-between-vessels",
+   "title": "COLREG Rule 18: Responsibilities between vessels",
+   "stream": "deck",
+   "pillar": "colreg",
+   "level": "L2",
+   "priority": 66,
+   "tags": [
+    "exam",
+    "critical",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "colreg-rule-19-conduct-in-restricted-visibility",
+   "title": "COLREG Rule 19: Conduct in restricted visibility",
+   "stream": "deck",
+   "pillar": "colreg",
+   "level": "L2",
+   "priority": 66,
+   "tags": [
+    "exam",
+    "critical",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "colreg-rule-23-power-driven-vessel-lights",
+   "title": "COLREG Rule 23: Power-driven vessel lights",
+   "stream": "deck",
+   "pillar": "colreg",
+   "level": "L2",
+   "priority": 66,
+   "tags": [
+    "exam",
+    "critical",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "colreg-rule-24-towing-and-pushing-lights",
+   "title": "COLREG Rule 24: Towing and pushing lights",
+   "stream": "deck",
+   "pillar": "colreg",
+   "level": "L2",
+   "priority": 66,
+   "tags": [
+    "exam",
+    "critical",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "colreg-rule-26-fishing-vessel-lights",
+   "title": "COLREG Rule 26: Fishing vessel lights",
+   "stream": "deck",
+   "pillar": "colreg",
+   "level": "L2",
+   "priority": 66,
+   "tags": [
+    "exam",
+    "critical",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "colreg-rule-27-nuc-and-ram-lights",
+   "title": "COLREG Rule 27: NUC and RAM lights",
+   "stream": "deck",
+   "pillar": "colreg",
+   "level": "L2",
+   "priority": 66,
+   "tags": [
+    "exam",
+    "critical",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "colreg-rule-28-constrained-by-draught",
+   "title": "COLREG Rule 28: Constrained by draught",
+   "stream": "deck",
+   "pillar": "colreg",
+   "level": "L2",
+   "priority": 66,
+   "tags": [
+    "exam",
+    "critical",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "colreg-rule-30-anchored-and-aground-lights",
+   "title": "COLREG Rule 30: Anchored and aground lights",
+   "stream": "deck",
+   "pillar": "colreg",
+   "level": "L2",
+   "priority": 66,
+   "tags": [
+    "exam",
+    "critical",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "colreg-rule-35-sound-signals-in-restricted-visibility",
+   "title": "COLREG Rule 35: Sound signals in restricted visibility",
+   "stream": "deck",
+   "pillar": "colreg",
+   "level": "L2",
+   "priority": 66,
+   "tags": [
+    "exam",
+    "critical",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "colreg-rule-5-look-out",
+   "title": "COLREG Rule 5: Look-out",
+   "stream": "deck",
+   "pillar": "colreg",
+   "level": "L1",
+   "priority": 66,
+   "tags": [
+    "exam",
+    "critical",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "colreg-rule-6-safe-speed",
+   "title": "COLREG Rule 6: Safe speed",
+   "stream": "deck",
+   "pillar": "colreg",
+   "level": "L1",
+   "priority": 66,
+   "tags": [
+    "exam",
+    "critical",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "colreg-rule-7-risk-of-collision",
+   "title": "COLREG Rule 7: Risk of collision",
+   "stream": "deck",
+   "pillar": "colreg",
+   "level": "L1",
+   "priority": 66,
+   "tags": [
+    "exam",
+    "critical",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "colreg-rule-8-action-to-avoid-collision",
+   "title": "COLREG Rule 8: Action to avoid collision",
+   "stream": "deck",
+   "pillar": "colreg",
+   "level": "L1",
+   "priority": 66,
+   "tags": [
+    "exam",
+    "critical",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "colreg-rule-9-narrow-channels",
+   "title": "COLREG Rule 9: Narrow channels",
+   "stream": "deck",
+   "pillar": "colreg",
+   "level": "L1",
+   "priority": 66,
+   "tags": [
+    "exam",
+    "critical",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "colreg-rules-32-34-sound-and-manoeuvring-signals",
+   "title": "COLREG Rules 32-34: Sound and manoeuvring signals",
+   "stream": "deck",
+   "pillar": "colreg",
+   "level": "L2",
+   "priority": 66,
+   "tags": [
+    "exam",
+    "critical",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "over-scale-and-under-scale-enc-warnings",
+   "title": "Over-scale and under-scale ENC warnings",
+   "stream": "deck",
+   "pillar": "equipment",
+   "level": "L3",
+   "priority": 66,
+   "tags": [
+    "critical",
+    "exam",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/guide-enc-symbology-used-ecdis"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "restricted-visibility-bridge-actions",
+   "title": "Restricted visibility: bridge actions",
+   "stream": "deck",
+   "pillar": "deck",
+   "level": "L2",
+   "priority": 66,
+   "tags": [
+    "exam",
+    "critical",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "tropical-revolving-storms-avoiding-the-dangerous-semicircle",
+   "title": "Tropical revolving storms: avoiding the dangerous semicircle",
+   "stream": "deck",
+   "pillar": "deck",
+   "level": "L3",
+   "priority": 66,
+   "tags": [
+    "exam",
+    "critical",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/publications/publications-and-reference-guides/admiralty-mariners-handbook",
+    "https://www.admiralty.co.uk/charts/planning-charts/routeing-charts"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "man-overboard-williamson-turn",
+   "title": "Man overboard: Williamson turn",
+   "stream": "safety",
+   "pillar": "safety",
+   "level": "L2",
+   "priority": 66,
+   "tags": [
+    "exam",
+    "critical",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "ballast-water-exchange-vs-treatment-d-1-vs-d-2",
+   "title": "Ballast water exchange vs treatment (D-1 vs D-2)",
+   "stream": "deck",
+   "pillar": "deck",
+   "level": "L3",
+   "priority": 64,
+   "tags": [
+    "psc",
+    "new"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Environment/Pages/Default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "dragging-anchor-early-signs-and-actions",
+   "title": "Dragging anchor: early signs and actions",
+   "stream": "deck",
+   "pillar": "deck",
+   "level": "L3",
+   "priority": 64,
+   "tags": [
+    "accident",
+    "critical",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/publications/publications-and-reference-guides/admiralty-mariners-handbook"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "mooring-line-snap-back-reading-the-danger-zone",
+   "title": "Mooring line snap-back: reading the danger zone",
+   "stream": "deck",
+   "pillar": "deck",
+   "level": "L2",
+   "priority": 64,
+   "tags": [
+    "accident",
+    "critical",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "used",
+   "usedBy": "2026-11-13-mooring-snap-back-zones",
+   "usedAt": "2026-11-13"
+  },
+  {
+   "id": "squat-why-ships-sink-deeper-at-speed",
+   "title": "Squat: why ships sink deeper at speed",
+   "stream": "deck",
+   "pillar": "deck",
+   "level": "L3",
+   "priority": 64,
+   "tags": [
+    "critical",
+    "accident",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/publications/publications-and-reference-guides/admiralty-mariners-handbook"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "ballast-water-management-convention",
+   "title": "Ballast Water Management Convention",
+   "stream": "safety",
+   "pillar": "regulation",
+   "level": "L3",
+   "priority": 64,
+   "tags": [
+    "psc",
+    "new"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Environment/Pages/Default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "concentrated-inspection-campaigns-cic",
+   "title": "Concentrated inspection campaigns (CIC)",
+   "stream": "safety",
+   "pillar": "regulation",
+   "level": "L3",
+   "priority": 64,
+   "tags": [
+    "psc",
+    "new"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "marpol-annex-vi-sulphur-limits-and-ecas",
+   "title": "MARPOL Annex VI sulphur limits and ECAs",
+   "stream": "safety",
+   "pillar": "regulation",
+   "level": "L3",
+   "priority": 64,
+   "tags": [
+    "psc",
+    "new"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Environment/Pages/Default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "used",
+   "usedBy": "eca-canadian-arctic-norwegian-sea-2027",
+   "usedAt": "2026-11-13"
+  },
+  {
+   "id": "gnss-jamming-and-spoofing-what-to-watch-for",
+   "title": "GNSS jamming and spoofing: what to watch for",
+   "stream": "deck",
+   "pillar": "deck",
+   "level": "L3",
+   "priority": 62,
+   "tags": [
+    "new",
+    "critical"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx",
+    "https://www.admiralty.co.uk/maritime-safety-information/security-related-information-to-mariners"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "maritime-security-charts-and-high-risk-areas",
+   "title": "Maritime security charts and high-risk areas",
+   "stream": "deck",
+   "pillar": "equipment",
+   "level": "L3",
+   "priority": 62,
+   "tags": [
+    "critical",
+    "new"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/charts/planning-charts/maritime-security-charts",
+    "https://www.admiralty.co.uk/maritime-safety-information/security-related-information-to-mariners"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "bunkering-safety-overflow-and-sampling",
+   "title": "Bunkering safety: overflow and sampling",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L3",
+   "priority": 62,
+   "tags": [
+    "psc",
+    "critical"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Environment/Pages/Default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "emergency-fire-pump-test",
+   "title": "Emergency fire pump test",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L2",
+   "priority": 62,
+   "tags": [
+    "psc",
+    "critical"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "emergency-generator-starting-and-load-test",
+   "title": "Emergency generator: starting and load test",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L2",
+   "priority": 62,
+   "tags": [
+    "psc",
+    "critical"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "used",
+   "usedBy": "2026-11-13-emergency-generator-starting",
+   "usedAt": "2026-11-13"
+  },
+  {
+   "id": "methanol-and-ammonia-fuel-crew-safety",
+   "title": "Methanol and ammonia fuel: crew safety",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L4",
+   "priority": 62,
+   "tags": [
+    "new",
+    "critical"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Environment/Pages/Default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "oil-record-book-part-i-entries",
+   "title": "Oil record book Part I entries",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L2",
+   "priority": 62,
+   "tags": [
+    "psc",
+    "critical"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Environment/Pages/Default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "quick-closing-valves-and-fuel-shut-offs",
+   "title": "Quick-closing valves and fuel shut-offs",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L2",
+   "priority": 62,
+   "tags": [
+    "psc",
+    "critical"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "breathing-apparatus-and-eebd-checks",
+   "title": "Breathing apparatus and EEBD checks",
+   "stream": "safety",
+   "pillar": "safety",
+   "level": "L2",
+   "priority": 62,
+   "tags": [
+    "psc",
+    "critical"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "fire-doors-and-fire-dampers-why-psc-detains",
+   "title": "Fire doors and fire dampers: why PSC detains",
+   "stream": "safety",
+   "pillar": "safety",
+   "level": "L2",
+   "priority": 62,
+   "tags": [
+    "psc",
+    "critical"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "ism-non-conformities-that-lead-to-detention",
+   "title": "ISM non-conformities that lead to detention",
+   "stream": "safety",
+   "pillar": "regulation",
+   "level": "L3",
+   "priority": 62,
+   "tags": [
+    "psc",
+    "critical"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/About/Conventions/Pages/ListOfConventions.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "piracy-and-armed-robbery-bmp-essentials",
+   "title": "Piracy and armed robbery: BMP essentials",
+   "stream": "safety",
+   "pillar": "regulation",
+   "level": "L3",
+   "priority": 62,
+   "tags": [
+    "critical",
+    "new"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/charts/planning-charts/maritime-security-charts",
+    "https://www.admiralty.co.uk/maritime-safety-information/security-related-information-to-mariners"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "ecdis-alarms-vs-indications",
+   "title": "ECDIS alarms vs indications",
+   "stream": "deck",
+   "pillar": "equipment",
+   "level": "L3",
+   "priority": 60,
+   "tags": [
+    "exam",
+    "psc"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/publications/publications-and-reference-guides/ECDIS-and-ENC-reference-publications",
+    "https://www.admiralty.co.uk/guide-enc-symbology-used-ecdis"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "enc-vs-raster-charts-what-ecdis-really-shows",
+   "title": "ENC vs raster charts: what ECDIS really shows",
+   "stream": "deck",
+   "pillar": "equipment",
+   "level": "L2",
+   "priority": 60,
+   "tags": [
+    "exam",
+    "faq",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/charts/digital-charts/admiralty-vector-chart-service",
+    "https://www.admiralty.co.uk/publications/publications-and-reference-guides/ECDIS-and-ENC-reference-publications"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "navtex-and-safetynet-getting-msi-on-board",
+   "title": "NAVTEX and SafetyNET: getting MSI on board",
+   "stream": "deck",
+   "pillar": "equipment",
+   "level": "L3",
+   "priority": 60,
+   "tags": [
+    "exam",
+    "psc"
+   ],
+   "startFrom": [
+    "https://msi.admiralty.co.uk/",
+    "https://www.admiralty.co.uk/publications/publications-and-reference-guides/admiralty-list-of-radio-signals"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "temporary-and-preliminary-notices-t-p",
+   "title": "Temporary and Preliminary notices (T&P)",
+   "stream": "deck",
+   "pillar": "equipment",
+   "level": "L2",
+   "priority": 60,
+   "tags": [
+    "psc",
+    "exam"
+   ],
+   "startFrom": [
+    "https://msi.admiralty.co.uk/NoticesToMariners/Weekly"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "weekly-notices-to-mariners-how-corrections-work",
+   "title": "Weekly Notices to Mariners: how corrections work",
+   "stream": "deck",
+   "pillar": "equipment",
+   "level": "L2",
+   "priority": 60,
+   "tags": [
+    "psc",
+    "exam"
+   ],
+   "startFrom": [
+    "https://msi.admiralty.co.uk/NoticesToMariners/Weekly"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "scr-and-egr-for-tier-iii-nox",
+   "title": "SCR and EGR for Tier III NOx",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L4",
+   "priority": 60,
+   "tags": [
+    "new",
+    "exam"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Environment/Pages/Default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "abandon-ship-drill-under-solas",
+   "title": "Abandon ship drill under SOLAS",
+   "stream": "safety",
+   "pillar": "equipment",
+   "level": "L3",
+   "priority": 60,
+   "tags": [
+    "psc",
+    "exam"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "epirb-and-sart-how-rescuers-find-you",
+   "title": "EPIRB and SART: how rescuers find you",
+   "stream": "safety",
+   "pillar": "equipment",
+   "level": "L2",
+   "priority": 60,
+   "tags": [
+    "exam",
+    "psc"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "fire-drills-that-actually-work",
+   "title": "Fire drills that actually work",
+   "stream": "safety",
+   "pillar": "safety",
+   "level": "L2",
+   "priority": 60,
+   "tags": [
+    "psc",
+    "exam"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "ism-code-the-dpa-and-the-sms",
+   "title": "ISM Code: the DPA and the SMS",
+   "stream": "safety",
+   "pillar": "regulation",
+   "level": "L3",
+   "priority": 60,
+   "tags": [
+    "psc",
+    "exam"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/About/Conventions/Pages/ListOfConventions.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "isps-code-security-levels-1-2-3",
+   "title": "ISPS Code: security levels 1-2-3",
+   "stream": "safety",
+   "pillar": "regulation",
+   "level": "L3",
+   "priority": 60,
+   "tags": [
+    "exam",
+    "psc"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/charts/planning-charts/maritime-security-charts"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "lifejackets-and-immersion-suits",
+   "title": "Lifejackets and immersion suits",
+   "stream": "safety",
+   "pillar": "equipment",
+   "level": "L1",
+   "priority": 60,
+   "tags": [
+    "psc",
+    "exam"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "risk-assessment-on-board",
+   "title": "Risk assessment on board",
+   "stream": "safety",
+   "pillar": "safety",
+   "level": "L2",
+   "priority": 60,
+   "tags": [
+    "exam",
+    "psc"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "mooring-winch-brakes-and-brake-rendering",
+   "title": "Mooring winch brakes and brake rendering",
+   "stream": "deck",
+   "pillar": "deck",
+   "level": "L3",
+   "priority": 58,
+   "tags": [
+    "accident",
+    "psc"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "radio-navigational-warnings-navarea-coastal-local",
+   "title": "Radio navigational warnings: NAVAREA, coastal, local",
+   "stream": "deck",
+   "pillar": "equipment",
+   "level": "L2",
+   "priority": 58,
+   "tags": [
+    "exam",
+    "critical"
+   ],
+   "startFrom": [
+    "https://msi.admiralty.co.uk/RadioNavigationalWarnings",
+    "https://msi.admiralty.co.uk/"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "tanker-cargo-inert-gas-system-basics",
+   "title": "Tanker cargo: inert gas system basics",
+   "stream": "deck",
+   "pillar": "deck",
+   "level": "L3",
+   "priority": 58,
+   "tags": [
+    "exam",
+    "critical"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "bilge-alarms-and-15-ppm-monitoring-tampering",
+   "title": "Bilge alarms and 15 ppm monitoring tampering",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L3",
+   "priority": 58,
+   "tags": [
+    "psc",
+    "accident"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Environment/Pages/Default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "used",
+   "usedBy": "oily-water-separator-15ppm",
+   "usedAt": "2026-11-13"
+  },
+  {
+   "id": "fuel-compatibility-and-stability-problems",
+   "title": "Fuel compatibility and stability problems",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L3",
+   "priority": 58,
+   "tags": [
+    "new",
+    "accident"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Environment/Pages/Default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "oil-mist-detector-how-it-saves-the-engine",
+   "title": "Oil mist detector: how it saves the engine",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L3",
+   "priority": 58,
+   "tags": [
+    "exam",
+    "critical"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "enc-updating-base-update-and-re-issue",
+   "title": "ENC updating: base, update and re-issue",
+   "stream": "deck",
+   "pillar": "equipment",
+   "level": "L2",
+   "priority": 56,
+   "tags": [
+    "psc",
+    "faq"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/charts/digital-charts/admiralty-vector-chart-service"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "s-100-what-changes-after-s-57-encs",
+   "title": "S-100: what changes after S-57 ENCs",
+   "stream": "deck",
+   "pillar": "equipment",
+   "level": "L4",
+   "priority": 56,
+   "tags": [
+    "new",
+    "faq"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/s-100-shaping-future-navigation",
+    "https://www.admiralty.co.uk/news/s-100-your-questions-answered"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "eexi-and-cii-what-engineers-must-know",
+   "title": "EEXI and CII: what engineers must know",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L4",
+   "priority": 56,
+   "tags": [
+    "new",
+    "faq"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Environment/Pages/Default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "exhaust-gas-boiler-soot-fires",
+   "title": "Exhaust gas boiler soot fires",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L3",
+   "priority": 56,
+   "tags": [
+    "accident",
+    "critical"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "high-pressure-fuel-pipe-leaks-and-jacketed-pipes",
+   "title": "High-pressure fuel pipe leaks and jacketed pipes",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L3",
+   "priority": 56,
+   "tags": [
+    "accident",
+    "critical"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "hot-work-in-the-engine-room",
+   "title": "Hot work in the engine room",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L3",
+   "priority": 56,
+   "tags": [
+    "accident",
+    "critical"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "lock-out-tag-out-on-machinery",
+   "title": "Lock-out tag-out on machinery",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L3",
+   "priority": 56,
+   "tags": [
+    "accident",
+    "critical"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "scrubbers-open-loop-vs-closed-loop",
+   "title": "Scrubbers: open loop vs closed loop",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L4",
+   "priority": 56,
+   "tags": [
+    "new",
+    "faq"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Environment/Pages/Default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "amendments-and-tacit-acceptance-how-imo-rules-enter-force",
+   "title": "Amendments and tacit acceptance: how IMO rules enter force",
+   "stream": "safety",
+   "pillar": "regulation",
+   "level": "L3",
+   "priority": 56,
+   "tags": [
+    "faq",
+    "new"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/About/Conventions/Pages/ListOfConventions.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "harassment-and-bullying-reporting-on-board",
+   "title": "Harassment and bullying: reporting on board",
+   "stream": "safety",
+   "pillar": "professional",
+   "level": "L2",
+   "priority": 56,
+   "tags": [
+    "new",
+    "faq"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/HumanElement/Pages/Default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "imo-net-zero-framework-what-it-means-on-board",
+   "title": "IMO Net-Zero Framework: what it means on board",
+   "stream": "safety",
+   "pillar": "regulation",
+   "level": "L4",
+   "priority": 56,
+   "tags": [
+    "new",
+    "faq"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Environment/Pages/Default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "mass-autonomous-ships-and-the-imo-code",
+   "title": "MASS: autonomous ships and the IMO code",
+   "stream": "safety",
+   "pillar": "regulation",
+   "level": "L4",
+   "priority": 56,
+   "tags": [
+    "new",
+    "faq"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/MediaCentre/Pages/Default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "mlc-2006-seafarer-employment-agreement",
+   "title": "MLC 2006: seafarer employment agreement",
+   "stream": "safety",
+   "pillar": "regulation",
+   "level": "L2",
+   "priority": 56,
+   "tags": [
+    "psc",
+    "faq"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/About/Conventions/Pages/ListOfConventions.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "mlc-wages-repatriation-and-shore-leave",
+   "title": "MLC: wages, repatriation and shore leave",
+   "stream": "safety",
+   "pillar": "regulation",
+   "level": "L2",
+   "priority": 56,
+   "tags": [
+    "psc",
+    "faq"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/About/Conventions/Pages/ListOfConventions.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "paris-and-tokyo-mou-ship-risk-profile",
+   "title": "Paris and Tokyo MoU: ship risk profile",
+   "stream": "safety",
+   "pillar": "regulation",
+   "level": "L3",
+   "priority": 56,
+   "tags": [
+    "psc",
+    "faq"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "port-state-control-how-an-inspection-runs",
+   "title": "Port State Control: how an inspection runs",
+   "stream": "safety",
+   "pillar": "regulation",
+   "level": "L3",
+   "priority": 56,
+   "tags": [
+    "psc",
+    "faq"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "rescue-boat-launching-and-recovery",
+   "title": "Rescue boat launching and recovery",
+   "stream": "safety",
+   "pillar": "equipment",
+   "level": "L2",
+   "priority": 56,
+   "tags": [
+    "accident",
+    "critical"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "seafarers-abandonment-rights-and-help",
+   "title": "Seafarers abandonment: rights and help",
+   "stream": "safety",
+   "pillar": "professional",
+   "level": "L2",
+   "priority": 56,
+   "tags": [
+    "new",
+    "faq"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/HumanElement/Pages/Default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "stcw-review-what-may-change",
+   "title": "STCW review: what may change",
+   "stream": "safety",
+   "pillar": "regulation",
+   "level": "L3",
+   "priority": 56,
+   "tags": [
+    "new",
+    "faq"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/HumanElement/Pages/Default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "ais-what-it-shows-and-what-it-does-not",
+   "title": "AIS: what it shows and what it does not",
+   "stream": "deck",
+   "pillar": "deck",
+   "level": "L2",
+   "priority": 54,
+   "tags": [
+    "faq",
+    "critical"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "bridge-resource-management-closed-loop-communication",
+   "title": "Bridge resource management: closed-loop communication",
+   "stream": "deck",
+   "pillar": "deck",
+   "level": "L2",
+   "priority": 54,
+   "tags": [
+    "accident",
+    "exam"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/HumanElement/Pages/Default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "lookout-why-rule-5-is-broken-most-often",
+   "title": "Lookout: why Rule 5 is broken most often",
+   "stream": "deck",
+   "pillar": "deck",
+   "level": "L2",
+   "priority": 54,
+   "tags": [
+    "accident",
+    "exam"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "master-pilot-exchange-what-must-be-discussed",
+   "title": "Master-pilot exchange: what must be discussed",
+   "stream": "deck",
+   "pillar": "deck",
+   "level": "L3",
+   "priority": 54,
+   "tags": [
+    "exam",
+    "accident"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "handover-between-watches-and-officers",
+   "title": "Handover between watches and officers",
+   "stream": "safety",
+   "pillar": "professional",
+   "level": "L3",
+   "priority": 54,
+   "tags": [
+    "accident",
+    "exam"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/HumanElement/Pages/Default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "permit-to-work-system",
+   "title": "Permit to work system",
+   "stream": "safety",
+   "pillar": "safety",
+   "level": "L2",
+   "priority": 54,
+   "tags": [
+    "accident",
+    "exam"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "seafarer-mental-health-and-fatigue",
+   "title": "Seafarer mental health and fatigue",
+   "stream": "safety",
+   "pillar": "professional",
+   "level": "L2",
+   "priority": 54,
+   "tags": [
+    "critical",
+    "faq"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/HumanElement/Pages/Default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "admiralty-list-of-radio-signals-which-volume-for-what",
+   "title": "Admiralty List of Radio Signals: which volume for what",
+   "stream": "deck",
+   "pillar": "equipment",
+   "level": "L2",
+   "priority": 52,
+   "tags": [
+    "exam",
+    "faq"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/publications/publications-and-reference-guides/admiralty-list-of-radio-signals"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "dangerous-goods-imdg-classes-in-one-minute",
+   "title": "Dangerous goods: IMDG classes in one minute",
+   "stream": "deck",
+   "pillar": "deck",
+   "level": "L3",
+   "priority": 52,
+   "tags": [
+    "exam",
+    "faq"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "deadweight-vs-gross-tonnage",
+   "title": "Deadweight vs gross tonnage",
+   "stream": "safety",
+   "pillar": "terminology",
+   "level": "L1",
+   "priority": 52,
+   "tags": [
+    "exam",
+    "faq"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/About/Conventions/Pages/ListOfConventions.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "marpol-annexes-i-to-vi-explained",
+   "title": "MARPOL annexes I to VI explained",
+   "stream": "safety",
+   "pillar": "regulation",
+   "level": "L2",
+   "priority": 52,
+   "tags": [
+    "exam",
+    "faq"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/About/Conventions/Pages/ListOfConventions.aspx",
+    "https://www.imo.org/en/OurWork/Environment/Pages/Default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "solas-chapters-in-one-minute",
+   "title": "SOLAS chapters in one minute",
+   "stream": "safety",
+   "pillar": "regulation",
+   "level": "L2",
+   "priority": 52,
+   "tags": [
+    "exam",
+    "faq"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/About/Conventions/Pages/ListOfConventions.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "stcw-certificates-of-competency-explained",
+   "title": "STCW: certificates of competency explained",
+   "stream": "safety",
+   "pillar": "regulation",
+   "level": "L2",
+   "priority": 52,
+   "tags": [
+    "faq",
+    "exam"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/About/Conventions/Pages/ListOfConventions.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "hatch-cover-weathertightness-checks",
+   "title": "Hatch cover weathertightness checks",
+   "stream": "deck",
+   "pillar": "deck",
+   "level": "L2",
+   "priority": 50,
+   "tags": [
+    "psc",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "ice-navigation-and-the-polar-code-basics",
+   "title": "Ice navigation and the Polar Code basics",
+   "stream": "deck",
+   "pillar": "deck",
+   "level": "L3",
+   "priority": 50,
+   "tags": [
+    "new",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx",
+    "https://www.admiralty.co.uk/publications/publications-and-reference-guides/admiralty-mariners-handbook"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "s-102-high-resolution-bathymetry-explained",
+   "title": "S-102 high-resolution bathymetry explained",
+   "stream": "deck",
+   "pillar": "equipment",
+   "level": "L3",
+   "priority": 50,
+   "tags": [
+    "new",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/s-100-shaping-future-navigation"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "s-104-water-level-and-s-111-surface-currents",
+   "title": "S-104 water level and S-111 surface currents",
+   "stream": "deck",
+   "pillar": "equipment",
+   "level": "L3",
+   "priority": 50,
+   "tags": [
+    "new",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/s-100-shaping-future-navigation"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "enc-isolated-danger-symbol-and-why-it-matters",
+   "title": "ENC isolated danger symbol and why it matters",
+   "stream": "deck",
+   "pillar": "equipment",
+   "level": "L2",
+   "priority": 48,
+   "tags": [
+    "critical",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/guide-enc-symbology-used-ecdis"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "heavy-weather-preparations-on-deck",
+   "title": "Heavy weather preparations on deck",
+   "stream": "deck",
+   "pillar": "deck",
+   "level": "L2",
+   "priority": 48,
+   "tags": [
+    "critical",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/publications/publications-and-reference-guides/admiralty-mariners-handbook"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "admiralty-list-of-lights-reading-a-light-entry",
+   "title": "Admiralty List of Lights: reading a light entry",
+   "stream": "deck",
+   "pillar": "equipment",
+   "level": "L2",
+   "priority": 46,
+   "tags": [
+    "exam",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/publications/admiralty-list-lights-and-fog-signals"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "anchoring-scope-of-chain-and-holding-ground",
+   "title": "Anchoring: scope of chain and holding ground",
+   "stream": "deck",
+   "pillar": "deck",
+   "level": "L3",
+   "priority": 46,
+   "tags": [
+    "exam",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/publications/publications-and-reference-guides/admiralty-mariners-handbook"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "chart-datum-vs-height-datum",
+   "title": "Chart datum vs height datum",
+   "stream": "deck",
+   "pillar": "terminology",
+   "level": "L1",
+   "priority": 46,
+   "tags": [
+    "exam",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/publications/miscellaneous-tidal-publications/admiralty-manual-of-tides",
+    "https://www.admiralty.co.uk/publications/publications-and-reference-guides/admiralty-tide-tables"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "compass-error-by-sun-azimuth",
+   "title": "Compass error by sun azimuth",
+   "stream": "deck",
+   "pillar": "deck",
+   "level": "L2",
+   "priority": 46,
+   "tags": [
+    "exam",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/publications/astronomical-publications/the-nautical-almanac"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "ecdis-display-base-standard-and-all-other-display",
+   "title": "ECDIS display base, standard and all-other display",
+   "stream": "deck",
+   "pillar": "equipment",
+   "level": "L3",
+   "priority": 46,
+   "tags": [
+    "exam",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/guide-enc-symbology-used-ecdis"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "grain-cargo-shifting-and-stability",
+   "title": "Grain cargo: shifting and stability",
+   "stream": "deck",
+   "pillar": "deck",
+   "level": "L3",
+   "priority": 46,
+   "tags": [
+    "exam",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "gyro-and-magnetic-compass-errors",
+   "title": "Gyro and magnetic compass errors",
+   "stream": "deck",
+   "pillar": "deck",
+   "level": "L3",
+   "priority": 46,
+   "tags": [
+    "exam",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "lat-mlws-and-why-charts-use-the-lowest-tide",
+   "title": "LAT, MLWS and why charts use the lowest tide",
+   "stream": "deck",
+   "pillar": "terminology",
+   "level": "L1",
+   "priority": 46,
+   "tags": [
+    "exam",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/publications/miscellaneous-tidal-publications/admiralty-manual-of-tides"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "light-characteristics-fl-oc-iso-q",
+   "title": "Light characteristics: Fl, Oc, Iso, Q",
+   "stream": "deck",
+   "pillar": "terminology",
+   "level": "L1",
+   "priority": 46,
+   "tags": [
+    "exam",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/publications/admiralty-list-lights-and-fog-signals"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "load-lines-the-plimsoll-mark-explained",
+   "title": "Load lines: the Plimsoll mark explained",
+   "stream": "deck",
+   "pillar": "deck",
+   "level": "L3",
+   "priority": 46,
+   "tags": [
+    "exam",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/About/Conventions/Pages/ListOfConventions.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "nominal-luminous-and-geographical-range-of-a-light",
+   "title": "Nominal, luminous and geographical range of a light",
+   "stream": "deck",
+   "pillar": "terminology",
+   "level": "L2",
+   "priority": 46,
+   "tags": [
+    "exam",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/publications/admiralty-list-lights-and-fog-signals"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "ocean-passages-for-the-world-planning-an-ocean-route",
+   "title": "Ocean Passages for the World: planning an ocean route",
+   "stream": "deck",
+   "pillar": "equipment",
+   "level": "L3",
+   "priority": 46,
+   "tags": [
+    "exam",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/publications/publications-and-reference-guides/ocean-passages-for-the-world"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "parallel-indexing-on-radar",
+   "title": "Parallel indexing on radar",
+   "stream": "deck",
+   "pillar": "deck",
+   "level": "L3",
+   "priority": 46,
+   "tags": [
+    "exam",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/publications/publications-and-reference-guides/admiralty-mariners-handbook"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "radar-cpa-tcpa-and-trial-manoeuvre",
+   "title": "Radar: CPA/TCPA and trial manoeuvre",
+   "stream": "deck",
+   "pillar": "deck",
+   "level": "L3",
+   "priority": 46,
+   "tags": [
+    "exam",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "used",
+   "usedBy": "cpa-tcpa-explained",
+   "usedAt": "2026-11-13"
+  },
+  {
+   "id": "routeing-charts-winds-currents-and-load-line-zones",
+   "title": "Routeing charts: winds, currents and load line zones",
+   "stream": "deck",
+   "pillar": "equipment",
+   "level": "L3",
+   "priority": 46,
+   "tags": [
+    "exam",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/charts/planning-charts/routeing-charts"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "spring-and-neap-tides-the-moon-and-the-sun",
+   "title": "Spring and neap tides: the moon and the sun",
+   "stream": "deck",
+   "pillar": "terminology",
+   "level": "L2",
+   "priority": 46,
+   "tags": [
+    "exam",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/publications/miscellaneous-tidal-publications/admiralty-manual-of-tides"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "stability-basics-gm-gz-and-free-surface",
+   "title": "Stability basics: GM, GZ and free surface",
+   "stream": "deck",
+   "pillar": "deck",
+   "level": "L2",
+   "priority": 46,
+   "tags": [
+    "exam",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "tidal-stream-atlases-and-tidal-diamonds",
+   "title": "Tidal stream atlases and tidal diamonds",
+   "stream": "deck",
+   "pillar": "equipment",
+   "level": "L2",
+   "priority": 46,
+   "tags": [
+    "exam",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/publications/miscellaneous-tidal-publications/admiralty-tidal-stream-atlases"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "traffic-separation-schemes-and-rule-10",
+   "title": "Traffic separation schemes and Rule 10",
+   "stream": "deck",
+   "pillar": "deck",
+   "level": "L2",
+   "priority": 46,
+   "tags": [
+    "exam",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "wheel-over-point-and-turning-circles",
+   "title": "Wheel-over point and turning circles",
+   "stream": "deck",
+   "pillar": "deck",
+   "level": "L2",
+   "priority": 46,
+   "tags": [
+    "exam",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/publications/publications-and-reference-guides/admiralty-mariners-handbook"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "fresh-water-generator-how-vacuum-makes-water",
+   "title": "Fresh water generator: how vacuum makes water",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L3",
+   "priority": 46,
+   "tags": [
+    "exam",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "fuel-oil-purifier-gravity-disc-and-interface",
+   "title": "Fuel oil purifier: gravity disc and interface",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L2",
+   "priority": 46,
+   "tags": [
+    "exam",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "generator-paralleling-and-synchroscope",
+   "title": "Generator paralleling and synchroscope",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L3",
+   "priority": 46,
+   "tags": [
+    "exam",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "jacket-cooling-water-system",
+   "title": "Jacket cooling water system",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L2",
+   "priority": 46,
+   "tags": [
+    "exam",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "main-engine-starting-air-system",
+   "title": "Main engine starting air system",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L2",
+   "priority": 46,
+   "tags": [
+    "exam",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "refrigeration-cycle-on-board",
+   "title": "Refrigeration cycle on board",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L3",
+   "priority": 46,
+   "tags": [
+    "exam",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "turbocharger-surging",
+   "title": "Turbocharger surging",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L2",
+   "priority": 46,
+   "tags": [
+    "exam",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "draft-marks-and-reading-the-draught",
+   "title": "Draft marks and reading the draught",
+   "stream": "safety",
+   "pillar": "terminology",
+   "level": "L1",
+   "priority": 46,
+   "tags": [
+    "exam",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "bank-effect-and-ship-interaction-in-channels",
+   "title": "Bank effect and ship interaction in channels",
+   "stream": "deck",
+   "pillar": "deck",
+   "level": "L3",
+   "priority": 44,
+   "tags": [
+    "accident",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/publications/publications-and-reference-guides/admiralty-mariners-handbook"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "container-lashing-and-parametric-rolling",
+   "title": "Container lashing and parametric rolling",
+   "stream": "deck",
+   "pillar": "deck",
+   "level": "L3",
+   "priority": 44,
+   "tags": [
+    "accident",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "bnwas-bridge-watch-alarm-stages",
+   "title": "BNWAS: bridge watch alarm stages",
+   "stream": "deck",
+   "pillar": "deck",
+   "level": "L3",
+   "priority": 42,
+   "tags": [
+    "psc"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "dual-fuel-ecdis-running-s-57-and-s-101-together",
+   "title": "Dual-fuel ECDIS: running S-57 and S-101 together",
+   "stream": "deck",
+   "pillar": "equipment",
+   "level": "L4",
+   "priority": 42,
+   "tags": [
+    "new"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/news/s-100-your-questions-answered"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "enc-scamin-why-features-disappear-when-you-zoom-out",
+   "title": "ENC SCAMIN: why features disappear when you zoom out",
+   "stream": "deck",
+   "pillar": "equipment",
+   "level": "L2",
+   "priority": 42,
+   "tags": [
+    "faq",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/guide-enc-symbology-used-ecdis"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "incinerator-and-marpol-annex-v-garbage",
+   "title": "Incinerator and MARPOL Annex V garbage",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L3",
+   "priority": 42,
+   "tags": [
+    "psc"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Environment/Pages/Default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "lng-as-fuel-igf-code-essentials",
+   "title": "LNG as fuel: IGF Code essentials",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L4",
+   "priority": 42,
+   "tags": [
+    "new"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Environment/Pages/Default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "sewage-treatment-plant-and-marpol-annex-iv",
+   "title": "Sewage treatment plant and MARPOL Annex IV",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L3",
+   "priority": 42,
+   "tags": [
+    "psc"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Environment/Pages/Default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "shaft-power-limitation-shapoli",
+   "title": "Shaft power limitation (ShaPoLi)",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L3",
+   "priority": 42,
+   "tags": [
+    "new"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Environment/Pages/Default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "biofouling-guidelines",
+   "title": "Biofouling guidelines",
+   "stream": "safety",
+   "pillar": "regulation",
+   "level": "L3",
+   "priority": 42,
+   "tags": [
+    "new"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Environment/Pages/Default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "fire-detection-systems-and-testing",
+   "title": "Fire detection systems and testing",
+   "stream": "safety",
+   "pillar": "safety",
+   "level": "L2",
+   "priority": 42,
+   "tags": [
+    "psc"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "garbage-management-plan-and-record-book",
+   "title": "Garbage management plan and record book",
+   "stream": "safety",
+   "pillar": "regulation",
+   "level": "L3",
+   "priority": 42,
+   "tags": [
+    "psc"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Environment/Pages/Default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "ghg-strategy-and-fuel-lifecycle-lca",
+   "title": "GHG strategy and fuel lifecycle (LCA)",
+   "stream": "safety",
+   "pillar": "regulation",
+   "level": "L4",
+   "priority": 42,
+   "tags": [
+    "new"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Environment/Pages/Default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "mlc-food-catering-and-accommodation",
+   "title": "MLC: food, catering and accommodation",
+   "stream": "safety",
+   "pillar": "regulation",
+   "level": "L3",
+   "priority": 42,
+   "tags": [
+    "psc"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/About/Conventions/Pages/ListOfConventions.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "polar-code-certificates-and-manuals",
+   "title": "Polar Code: certificates and manuals",
+   "stream": "safety",
+   "pillar": "regulation",
+   "level": "L3",
+   "priority": 42,
+   "tags": [
+    "new"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "port-starboard-fore-and-aft",
+   "title": "Port, starboard, fore and aft",
+   "stream": "safety",
+   "pillar": "terminology",
+   "level": "L1",
+   "priority": 42,
+   "tags": [
+    "faq",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "ship-security-drills-and-the-ssp",
+   "title": "Ship security drills and the SSP",
+   "stream": "safety",
+   "pillar": "regulation",
+   "level": "L3",
+   "priority": 42,
+   "tags": [
+    "psc"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/charts/planning-charts/maritime-security-charts"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "nautical-almanac-what-officers-still-use-it-for",
+   "title": "Nautical Almanac: what officers still use it for",
+   "stream": "deck",
+   "pillar": "equipment",
+   "level": "L2",
+   "priority": 38,
+   "tags": [
+    "exam"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/publications/astronomical-publications/the-nautical-almanac"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "radar-range-scales-and-pulse-length",
+   "title": "Radar range scales and pulse length",
+   "stream": "deck",
+   "pillar": "deck",
+   "level": "L2",
+   "priority": 38,
+   "tags": [
+    "exam"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "ship-reporting-systems-and-vts",
+   "title": "Ship reporting systems and VTS",
+   "stream": "deck",
+   "pillar": "deck",
+   "level": "L2",
+   "priority": 38,
+   "tags": [
+    "exam"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/publications/publications-and-reference-guides/admiralty-list-of-radio-signals"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "using-admiralty-tide-tables-standard-and-secondary-ports",
+   "title": "Using Admiralty Tide Tables: standard and secondary ports",
+   "stream": "deck",
+   "pillar": "equipment",
+   "level": "L2",
+   "priority": 38,
+   "tags": [
+    "exam"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/publications/publications-and-reference-guides/admiralty-tide-tables"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "air-compressor-safety-and-relief-valves",
+   "title": "Air compressor safety and relief valves",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L3",
+   "priority": 38,
+   "tags": [
+    "exam"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "boiler-water-tests-and-treatment",
+   "title": "Boiler water tests and treatment",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L3",
+   "priority": 38,
+   "tags": [
+    "exam"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "cylinder-lubrication-and-liner-wear",
+   "title": "Cylinder lubrication and liner wear",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L3",
+   "priority": 38,
+   "tags": [
+    "exam"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "earth-faults-on-an-insulated-system",
+   "title": "Earth faults on an insulated system",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L3",
+   "priority": 38,
+   "tags": [
+    "exam"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "electrical-insulation-resistance-testing",
+   "title": "Electrical: insulation resistance testing",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L2",
+   "priority": 38,
+   "tags": [
+    "exam"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "fuel-injection-and-injector-problems",
+   "title": "Fuel injection and injector problems",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L3",
+   "priority": 38,
+   "tags": [
+    "exam"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "unattended-machinery-space-ums-checks",
+   "title": "Unattended machinery space (UMS) checks",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L3",
+   "priority": 38,
+   "tags": [
+    "exam"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "gmdss-sea-areas-a1-to-a4",
+   "title": "GMDSS sea areas A1 to A4",
+   "stream": "safety",
+   "pillar": "equipment",
+   "level": "L2",
+   "priority": 38,
+   "tags": [
+    "exam"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/publications/publications-and-reference-guides/admiralty-list-of-radio-signals",
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "working-aloft-and-over-the-side",
+   "title": "Working aloft and over the side",
+   "stream": "safety",
+   "pillar": "safety",
+   "level": "L2",
+   "priority": 36,
+   "tags": [
+    "accident"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "avcs-permits-and-keeping-encs-up-to-date",
+   "title": "AVCS permits and keeping ENCs up to date",
+   "stream": "deck",
+   "pillar": "equipment",
+   "level": "L3",
+   "priority": 34,
+   "tags": [
+    "faq"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/charts/digital-charts/admiralty-vector-chart-service"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "hydrographic-notes-reporting-chart-errors",
+   "title": "Hydrographic Notes: reporting chart errors",
+   "stream": "deck",
+   "pillar": "equipment",
+   "level": "L3",
+   "priority": 34,
+   "tags": [
+    "faq"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/maritime-safety-information/hydrographic-notes"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "mariner-s-handbook-np100-the-officer-s-reference",
+   "title": "Mariner's Handbook NP100: the officer's reference",
+   "stream": "deck",
+   "pillar": "equipment",
+   "level": "L2",
+   "priority": 34,
+   "tags": [
+    "faq"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/publications/publications-and-reference-guides/admiralty-mariners-handbook"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "sailing-directions-what-pilots-books-tell-you",
+   "title": "Sailing Directions: what pilots books tell you",
+   "stream": "deck",
+   "pillar": "equipment",
+   "level": "L2",
+   "priority": 34,
+   "tags": [
+    "faq"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/publications/publications-and-reference-guides/admiralty-sailing-directions"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "imo-instruments-convention-code-resolution-circular",
+   "title": "IMO instruments: convention, code, resolution, circular",
+   "stream": "safety",
+   "pillar": "regulation",
+   "level": "L3",
+   "priority": 34,
+   "tags": [
+    "faq"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/About/Conventions/Pages/ListOfConventions.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "life-as-a-cadet-first-week-on-board",
+   "title": "Life as a cadet: first week on board",
+   "stream": "safety",
+   "pillar": "professional",
+   "level": "L1",
+   "priority": 34,
+   "tags": [
+    "faq"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/HumanElement/Pages/Default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "near-miss-reporting-and-just-culture",
+   "title": "Near-miss reporting and just culture",
+   "stream": "safety",
+   "pillar": "safety",
+   "level": "L2",
+   "priority": 34,
+   "tags": [
+    "faq"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/HumanElement/Pages/Default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  },
+  {
+   "id": "ranks-on-a-merchant-ship",
+   "title": "Ranks on a merchant ship",
+   "stream": "safety",
+   "pillar": "professional",
+   "level": "L1",
+   "priority": 34,
+   "tags": [
+    "faq"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/HumanElement/Pages/Default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open"
+  }
+ ]
+}

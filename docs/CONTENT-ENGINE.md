@@ -72,3 +72,9 @@ Layout: full-bleed authentic incident photo, slanted yellow category badge top l
 - LinkedIn: professional industry language, source, website allowed.
 - X: one concise line with the key insight, 1-2 hashtags.
 - Never keyword-stuff, never invent urgency, statistics, news or regulation changes.
+
+## Topic backlog (IMO + ADMIRALTY + mariners' questions)
+`data/topics/backlog.json` holds the video topics, each with a stream (deck / engine / safety), level, priority 0-100, tags and the IMO or ADMIRALTY page to start research from. Priority comes from tag weights: `psc` (top PSC deficiency areas: fire safety, life-saving appliances, safety of navigation, MLC, ISM), `exam` (recurring CoC oral questions), `new` (new or upcoming rules and technology), `critical` (life safety), `accident` (repeated accident lessons), `faq` (what mariners keep asking), `visual`.
+- Daily video desk: `npx tsx src/pipeline/cli.ts topics-next` and take the highest-priority open topic of each stream (skip one only if it cannot be verified or would break visual variety, and say why). Mark it `"status": "used"`, `"usedBy": <spec id>`, `"usedAt": <date>`. A topic may come back only as a new topic entry at another level.
+- Weekly topic scout: explores imo.org (Our Work, conventions, Media Centre, recent MSC/MEPC outcomes, entry-into-force dates) and admiralty.co.uk (charts, ENC/ECDIS, publications, MSI, S-100) plus mariners' recurring questions (PSC annual reports and CICs, MAIB/NTSB/TSIB lessons, CoC oral syllabi), adds new topics and re-scores open ones. `startFrom` is only where to begin: every fact is verified on the primary source before scripting.
+- Rebuild/merge the seed list: `python3 tools/build-topic-backlog.py` (keeps status and topics the scout added).

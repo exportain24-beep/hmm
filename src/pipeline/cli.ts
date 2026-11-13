@@ -230,6 +230,14 @@ const main = async () => {
       const results = await publishAll(id, file, hasThumb ? thumb : null, meta, {pass: true, publishable: true, checks: []}, only);
       if (Object.values(results).some((r) => r.startsWith('FAILED'))) process.exitCode = 1;
     }
+  } else if (cmd === 'topics-next') {
+    // highest-priority open topics per stream from data/topics/backlog.json (IMO + ADMIRALTY + mariners' questions)
+    const b = JSON.parse(readFileSync(p('data/topics/backlog.json'), 'utf8')) as {topics: {id: string; title: string; stream: string; level: string; priority: number; status: string; tags: string[]; startFrom: string[]}[]};
+    const n = Number(arg('n') ?? 5);
+    for (const stream of (arg('stream') ?? 'deck,engine,safety').split(',')) {
+      console.log(`\n${stream.toUpperCase()}`);
+      for (const t of b.topics.filter((x) => x.stream === stream && x.status === 'open').slice(0, n)) console.log(`  ${t.priority}  ${t.level}  ${t.id}  | ${t.title}  [${t.tags.join(',')}]  ${t.startFrom.join(' ')}`);
+    }
   } else if (cmd === 'cleanup') {
     const n = await cleanupMedia(Number(arg('days') ?? 3));
     for (const d of ['work', 'out']) if (existsSync(p(d))) rmSync(p(d), {recursive: true, force: true});
