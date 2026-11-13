@@ -15,6 +15,7 @@
     "@remotion/player": "4.0.455",
     "@remotion/three": "4.0.455",
     "next": "15.5.4",
+    "postprocessing": "6.39.5",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "remotion": "4.0.455",
