@@ -57,6 +57,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Load the latest state (a run that just finished may have pushed it after this checkout)
+        run: git fetch -q origin "${GITHUB_REF_NAME}" && git checkout "origin/${GITHUB_REF_NAME}" -- data/state && echo "state from $(git rev-parse --short origin/${GITHUB_REF_NAME})"
       - id: decide
         env:
           PIPELINE_ENABLED: ${{ vars.PIPELINE_ENABLED }}
@@ -129,6 +131,8 @@ jobs:
           path: .cache/voice
           key: voice-${{ github.run_id }}
           restore-keys: voice-
+      - name: Load the latest state (a run that just finished may have pushed it after this checkout)
+        run: git fetch -q origin "${GITHUB_REF_NAME}" && git checkout "origin/${GITHUB_REF_NAME}" -- data/state && echo "state from $(git rev-parse --short origin/${GITHUB_REF_NAME})"
       - name: Run pipeline
         env:
           CONTENT_ID: ${{ inputs.content_id }}
