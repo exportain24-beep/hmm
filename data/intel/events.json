@@ -282,6 +282,18 @@
           "publisher": "MarineLink",
           "url": "https://www.marinelink.com/news/crew-safe-tanker-struck-off-uae-coast-544332",
           "date": "2026-11-12"
+        },
+        {
+          "title": "Sinokor-linked VLCCs attacked: four injured in first attack, second sees tanker evacuated off UAE",
+          "publisher": "Riviera Maritime Media",
+          "url": "https://www.rivieramm.com/news-content-hub/sinokor-linked-vlccs-attacked-four-injured-in-first-attack-second-sees-tanker-evacuated-off-uae-90563",
+          "date": "2026-11-12"
+        },
+        {
+          "title": "All 19 Indian Seafarers Safe After Oil Tanker Hit By Projectile Off UAE Port",
+          "publisher": "Marine Insight",
+          "url": "https://www.marineinsight.com/all-19-indian-seafarers-safe-after-oil-tanker-hit-by-projectile-off-uae-port/",
+          "date": "2026-11-13"
         }
       ],
       "verifiedFacts": [
@@ -291,7 +303,8 @@
         "NCC Fajr struck ~0200 UTC 11 Nov north of Khasab, Oman; crew safe (JMIC 12 Nov advisory, Omani authorities)",
         "Fujairah Energy struck 10 Nov eastbound in Arabian Gulf; crew injured and taken ashore (JMIC)",
         "Unidentified tanker struck 10 Nov ~19 nm NE of Lima, Oman; crew safe, no pollution reported (JMIC)",
-        "JMIC counts 181 maritime security incidents since 1 March"
+        "JMIC counts 181 maritime security incidents since 1 March",
+        "Dominica Prosperity: 297,274 dwt, operator Sinokor, manager Anglo-Eastern (Equasis via Riviera); Ambrey: hit on stern, no injuries or pollution reported"
       ],
       "unverifiedClaims": [
         "Attribution of the individual strikes (JMIC has not identified perpetrators)",
@@ -303,9 +316,9 @@
         "Fujairah Energy injured count: '4 injured' (MarEx citing India) vs 'multiple' (JMIC)"
       ],
       "verificationStatus": "CORROBORATED",
-      "priorityScore": 79,
+      "priorityScore": 75,
       "scoreBreakdown": {
-        "recency": 18,
+        "recency": 14,
         "safety": 18,
         "operational": 14,
         "regulatory": 4,
@@ -313,11 +326,20 @@
         "industry": 9,
         "source": 9
       },
-      "status": "monitoring",
-      "cardFile": null,
+      "status": "queued",
+      "cardFile": "content/cards/queue/2026-11-13T2022-hormuz-four-tankers-struck-projectiles.json",
       "published": false,
-      "notes": "Not breaking (<90, no fatalities). Candidate for the 13 Nov 08:22 slot if a free-licence photo is found and an update (damage/pollution) emerges; related to published HM-2026-111201. 13 Nov 07:20: no materially new verified information found this run; not carded (bridge-strike incident chosen for 08:22 as fresher). 13 Nov 13:10: IRGC claim of an LNG tanker mine explosion in Hormuz (Reuters via Hellenic Shipping News) is unverified, single-party claim; not carded.",
-      "updatedAt": "2026-11-13T13:10:00Z"
+      "notes": "Not breaking (<90, no fatalities). Candidate for the 13 Nov 08:22 slot if a free-licence photo is found and an update (damage/pollution) emerges; related to published HM-2026-111201. 13 Nov 07:20: no materially new verified information found this run; not carded (bridge-strike incident chosen for 08:22 as fresher). 13 Nov 13:10: IRGC claim of an LNG tanker mine explosion in Hormuz (Reuters via Hellenic Shipping News) is unverified, single-party claim; not carded. 13 Nov 19:05: carded for 20:22 slot (score 75, recency reduced to 14 as events are 2-3 days old); IRGC LNG mine claim still unconfirmed by UKMTO/JMIC (gCaptain/Reuters 13 Nov: no vessel details) and excluded.",
+      "updatedAt": "2026-11-13T19:05:00Z",
+      "versions": [
+        {
+          "version": 1,
+          "type": "security",
+          "cardFile": "content/cards/queue/2026-11-13T2022-hormuz-four-tankers-struck-projectiles.json",
+          "publishAtUtc": "2026-11-13T20:22:00Z",
+          "createdAt": "2026-11-13T19:05:00Z"
+        }
+      ]
     },
     "HM-2026-111301": {
       "eventId": "HM-2026-111301",

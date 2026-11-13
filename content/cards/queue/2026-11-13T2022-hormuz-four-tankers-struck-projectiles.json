@@ -1,0 +1,79 @@
+{
+  "id": "hormuz-four-tankers-struck-projectiles",
+  "type": "security",
+  "headline": "Projectiles Hit Four Tankers Near Hormuz",
+  "headlineAccent": "Four Tankers Near Hormuz",
+  "subheadline": "Gulf attacks: engine room fire, injured crew",
+  "location": "ARABIAN GULF & HORMUZ",
+  "dateLabel": "10-11 NOV 2026",
+  "insight": "Four tankers were hit on 10-11 Nov. Dominica Prosperity's engine room caught fire off Ras Al Khaimah; all 22 crew evacuated. Fujairah Energy crew were injured.",
+  "publishAtUtc": "2026-11-13T20:22:00Z",
+  "eventId": "HM-2026-111207",
+  "priorityScore": 75,
+  "pillar": "safety",
+  "audience": [
+    "Master",
+    "Chief Officer",
+    "OOW",
+    "Ship Security Officer",
+    "Ship Manager"
+  ],
+  "sources": [
+    {
+      "title": "Sinokor-linked VLCCs attacked: four injured in first attack, second sees tanker evacuated off UAE",
+      "publisher": "Riviera Maritime Media",
+      "url": "https://www.rivieramm.com/news-content-hub/sinokor-linked-vlccs-attacked-four-injured-in-first-attack-second-sees-tanker-evacuated-off-uae-90563",
+      "date": "2026-11-12"
+    },
+    {
+      "title": "Three Tankers Attacked in Two Days in Strait of Hormuz Crisis",
+      "publisher": "The Maritime Executive",
+      "url": "https://maritime-executive.com/article/three-tankers-attacked-in-two-days-in-strait-of-hormuz-crisis",
+      "date": "2026-11-12"
+    },
+    {
+      "title": "Tanker Ablaze Off UAE as More Attacks Rattle Gulf Shipping",
+      "publisher": "gCaptain",
+      "url": "https://gcaptain.com/tanker-ablaze-off-uae-as-more-attacks-rattle-gulf-shipping/",
+      "date": "2026-11-12"
+    },
+    {
+      "title": "All 19 Indian Seafarers Safe After Oil Tanker Hit By Projectile Off UAE Port",
+      "publisher": "Marine Insight",
+      "url": "https://www.marineinsight.com/all-19-indian-seafarers-safe-after-oil-tanker-hit-by-projectile-off-uae-port/",
+      "date": "2026-11-13"
+    }
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner intelligence desk",
+    "checkedAt": "2026-11-13T19:05:00Z",
+    "notes": "Dominica Prosperity strike (~1800 UTC 11 Nov, 14 nm NW of Ras Al Khaimah, engine room fire, 22 crew evacuated, no casualties) per UKMTO via Riviera, gCaptain and MarEx; Ambrey: no injuries or pollution. Fujairah Energy hit 10 Nov, 4 of 22 crew injured per India's shipping ministry (Riviera); JMIC says 'multiple' injured. NCC Fajr (11 Nov, north of Khasab) and an unnamed tanker (10 Nov, NE of Lima, Oman) per JMIC advisory reported in event sources. Perpetrators not identified by JMIC. IRGC claim of an LNG tanker mine explosion on 13 Nov remains unverified (no UKMTO/JMIC confirmation) and is not used. Injury count kept unnumbered on the card because of the source conflict."
+  },
+  "image": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/USS_Hawes_(FFG-53),_USS_William_H._Standley_(CG-32)_and_USS_Guadalcanal_(LPH-7)_escort_tanker_Gas_King_in_the_Persian_Gullf_on_21_October_1987_(6432283).jpg?width=1600",
+    "credit": "PH2 Elliot, U.S. Navy / Wikimedia Commons",
+    "license": "Public domain",
+    "representative": true
+  },
+  "meta": {
+    "description": "Four tankers were struck by projectiles in and around the Strait of Hormuz on 10-11 November 2026. The Dominica Prosperity, a 297,274 dwt crude tanker, was hit at about 1800 UTC on 11 November some 14 nm northwest of Ras Al Khaimah, starting an engine room fire; all 22 crew were evacuated by the UAE Coast Guard with no casualties reported (UKMTO). The VLCC Fujairah Energy was hit on 10 November in the Gulf with crew injured, the NCC Fajr was struck north of Khasab, Oman, on 11 November, and an unnamed tanker was hit north-east of Lima, Oman, on 10 November; the JMIC has not identified who carried out the attacks.",
+    "keywords": [
+      "Strait of Hormuz",
+      "tanker attack",
+      "maritime security",
+      "UKMTO",
+      "JMIC",
+      "Dominica Prosperity"
+    ],
+    "hashtags": [
+      "#MaritimeSecurity",
+      "#StraitOfHormuz",
+      "#Tankers",
+      "#Seafarers",
+      "#ShippingNews"
+    ],
+    "question": "What extra watchkeeping and security measures is your ship taking in the Gulf right now?",
+    "altText": "Representative U.S. Navy photo of a tanker under naval escort in the Persian Gulf, with HeyMariner news card text on projectiles hitting four tankers near the Strait of Hormuz on 10-11 November 2026."
+  }
+}
