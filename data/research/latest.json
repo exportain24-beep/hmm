@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-13T22:25:21.741Z",
+  "updatedAt": "2026-11-13T22:40:54.026Z",
   "feedStatus": {
     "safety4sea": "ok (0)",
     "gcaptain": "ok (12)",
     "splash247": "ok (10)",
     "marex": "ok (25)",
     "marineinsight": "ok (15)",
-    "hellenic": "failed: HTTP 403",
+    "hellenic": "ok (20)",
     "maib": "ok (25)"
   },
   "minScore": 62,
@@ -48,7 +48,7 @@
       "publishedAt": "2026-11-13T07:30:11.000Z",
       "score": 61,
       "scores": {
-        "recency": 0.71,
+        "recency": 0.7,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -79,6 +79,54 @@
         "seafarerValue": 0,
         "shareability": 0,
         "visualPotential": 0.5,
+        "regulatoryImportance": 0.5,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "609b3a4eee64e4e4a7948f4790e9ce082f2408e5",
+      "storyKey": "3394275831cfc65fa7d1985ffcbd0d5edc02b9fb",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "Resistance for shipping's record rally",
+      "url": "https://www.hellenicshippingnews.com/resistance-for-shippings-record-rally/",
+      "summary": "Shipping markets are enjoying the strongest and longest earnings boom seen in more than two decades, yet asset buyers remain remarkably cautious about the industry's longer-term prospects. According to Danish Ship Finance’s November Shipping Market Review, the disconnect between soaring earnings and more restrained vessel valuations reflects a widespread belief that current market conditions are ...",
+      "publishedAt": "2026-11-13T22:00:58.000Z",
+      "score": 59,
+      "scores": {
+        "recency": 0.98,
+        "reliability": 0.75,
+        "maritimeRelevance": 1,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 1,
+        "visualPotential": 0,
+        "regulatoryImportance": 0.5,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "14a7659485320a2b3cf6a4eb273ed6321d3c1b08",
+      "storyKey": "f03628db6f48f22d0ba5e7aab7fe7a505188d384",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "Shipping sector backs an International Maritime Organization (IMO) climate deal, but not all of the details",
+      "url": "https://www.hellenicshippingnews.com/shipping-sector-backs-an-international-maritime-organization-imo-climate-deal-but-not-all-of-the-details/",
+      "summary": "New analysis from the global think tank InfluenceMap confirms, with detailed evidence, broad public support across the shipping and fuels sectors for a climate deal at the International Maritime Organization (IMO). However, differing advocacy positions on key components of the framework, including the carbon price, fuel standard, and rules for counting fuel emissions, threaten to ...",
+      "publishedAt": "2026-11-13T22:00:59.000Z",
+      "score": 58,
+      "scores": {
+        "recency": 0.98,
+        "reliability": 0.75,
+        "maritimeRelevance": 1,
+        "educationalValue": 0.5,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
         "regulatoryImportance": 0.5,
         "corroboratingOutlets": 1
       }
@@ -120,7 +168,7 @@
       "publishedAt": "2026-11-13T14:37:27.000Z",
       "score": 55,
       "scores": {
-        "recency": 0.84,
+        "recency": 0.83,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -192,7 +240,7 @@
       "publishedAt": "2026-11-13T13:08:13.000Z",
       "score": 55,
       "scores": {
-        "recency": 0.81,
+        "recency": 0.8,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -216,7 +264,7 @@
       "publishedAt": "2026-11-13T01:30:10.000Z",
       "score": 54,
       "scores": {
-        "recency": 0.62,
+        "recency": 0.61,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -224,6 +272,78 @@
         "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0.5,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "a75982aafa1a80da0db33b0010c754e5a0b6c580",
+      "storyKey": "df0b77b09aec9db0f58ed22c333b7f2ed4fc9bb7",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "Pacific Island States advance implementation of IMO instruments",
+      "url": "https://www.hellenicshippingnews.com/pacific-island-states-advance-implementation-of-imo-instruments/",
+      "summary": "Maritime officials from 10 Pacific Small Island Developing States (SIDS) took part in a series of workshops in Nadi, Fiji (2-10 November), focused on strengthening national frameworks and capacities to implement IMO instruments. Organized by IMO in cooperation with the Maritime Safety Authority of Fiji (MSAF), the workshops were held under the IMO-Republic of Korea ...",
+      "publishedAt": "2026-11-13T22:00:43.000Z",
+      "score": 54,
+      "scores": {
+        "recency": 0.98,
+        "reliability": 0.75,
+        "maritimeRelevance": 0.67,
+        "educationalValue": 0,
+        "seafarerValue": 0.5,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0.5,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "1b3618b652fb3ae2cf259e4d6b6ad4ed89fb4dc4",
+      "storyKey": "71f885ea40f30673183cae6cb36a6adbf9326aa3",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "Tanker Market Surged in October",
+      "url": "https://www.hellenicshippingnews.com/tanker-market-surged-in-october/",
+      "summary": "Dirty tanker spot freight rates surged in October, with record VLCC rates driving Suezmax and Aframax rates higher, OPEC said in its latest monthly report issued this week. The return of disrupted volumes, ongoing trade dislocations, export inefficiencies and longer voyages kept tanker availability constrained. VLCC rates stood at more than ten-times year-ago levels. On ...",
+      "publishedAt": "2026-11-13T22:00:59.000Z",
+      "score": 53,
+      "scores": {
+        "recency": 0.98,
+        "reliability": 0.75,
+        "maritimeRelevance": 0.67,
+        "educationalValue": 0.5,
+        "seafarerValue": 0,
+        "shareability": 1,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "934994913bcdc3719239863d2314602a2d10ff03",
+      "storyKey": "273c464661bc873c7a7cf8c3961ed2e4c416ee8f",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "CMA CGM Group Reports Solid Results Despite A Volatile Economic And Geopolitical Environment",
+      "url": "https://www.hellenicshippingnews.com/cma-cgm-group-reports-solid-results-despite-a-volatile-economic-and-geopolitical-environment/",
+      "summary": "On the publication of the Group’s third quarter 2026 financial results, Rodolphe Saadé, Chairman and Chief Executive Officer of the CMA CGM Group, stated: “In an uncertain geopolitical environment, the Group has delivered a strong performance in the third quarter, driven by the momentum and the increasing volumes of our maritime activities. The positive results ...",
+      "publishedAt": "2026-11-13T22:00:49.000Z",
+      "score": 53,
+      "scores": {
+        "recency": 0.98,
+        "reliability": 0.75,
+        "maritimeRelevance": 0.67,
+        "educationalValue": 0.5,
+        "seafarerValue": 0.5,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
     },
@@ -240,8 +360,56 @@
       "publishedAt": "2026-11-13T17:09:56.000Z",
       "score": 52,
       "scores": {
-        "recency": 0.89,
+        "recency": 0.88,
         "reliability": 0.85,
+        "maritimeRelevance": 1,
+        "educationalValue": 0.5,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "2754f21979aa21f9b0df49c25a69d2cb7f181327",
+      "storyKey": "456bb3c9cc01560d5a6de7b4cfd9ea23af4a7043",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "Advanced Shipping Trading – WEEKLY SHIPPING MARKET REPORT WEEK 46 2026",
+      "url": "https://www.hellenicshippingnews.com/advanced-shipping-trading-weekly-shipping-market-report-week-46-2026/",
+      "summary": "Alcyon Shipping have committed the Capesize “Nightsky” 183/2019 Namura Sasebo, Japan (SS 11/2029, DD 10/2027) Source: Advanced Shipping Trading S.A.",
+      "publishedAt": "2026-11-13T22:00:50.000Z",
+      "score": 52,
+      "scores": {
+        "recency": 0.98,
+        "reliability": 0.75,
+        "maritimeRelevance": 1,
+        "educationalValue": 0.5,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "3468cfdbdc136f85c187f777b2a73eb8352938c2",
+      "storyKey": "ab9ef3e4b318370765586c5a4ba8883717cf5830",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "Gibson tanker report – Crude Correction",
+      "url": "https://www.hellenicshippingnews.com/gibson-tanker-report-crude-correction/",
+      "summary": "Crude tanker freight rates have taken a beating this month albeit from unprecedented highs, with key benchmarks Source: GIBSON SHIPBROKERS LTD",
+      "publishedAt": "2026-11-13T22:00:46.000Z",
+      "score": 52,
+      "scores": {
+        "recency": 0.98,
+        "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
         "seafarerValue": 0,
@@ -264,7 +432,7 @@
       "publishedAt": "2026-11-13T17:51:12.000Z",
       "score": 51,
       "scores": {
-        "recency": 0.9,
+        "recency": 0.89,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -384,7 +552,7 @@
       "publishedAt": "2026-11-12T13:25:35.000Z",
       "score": 50,
       "scores": {
-        "recency": 0.47,
+        "recency": 0.46,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -432,7 +600,7 @@
       "publishedAt": "2026-11-13T09:52:44.000Z",
       "score": 49,
       "scores": {
-        "recency": 0.75,
+        "recency": 0.74,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -468,6 +636,54 @@
       }
     },
     {
+      "fingerprint": "78c2843c5e0c107a5ee4ebcfb484a6c0146c6508",
+      "storyKey": "a10a8aa324dda631aeaa4ea6f7b95ab1c1a969bc",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "IMO may codify alternative net-zero bunker rules in 2027: US FMC",
+      "url": "https://www.hellenicshippingnews.com/imo-may-codify-alternative-net-zero-bunker-rules-in-2027-us-fmc-2/",
+      "summary": "The International Maritime Organization (IMO) may start forming consensus around an alternative Net-Zero Framework (NZF) in the coming weeks before hammering out its final text in 2027, US Federal Maritime Commission Chairman Laura DiBella said Nov. 11. The UN agency is due to hold meetings Nov. 23-Dec. 4 to discuss the framework, after member states ...",
+      "publishedAt": "2026-11-13T22:00:57.000Z",
+      "score": 48,
+      "scores": {
+        "recency": 0.98,
+        "reliability": 0.75,
+        "maritimeRelevance": 0.67,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0.5,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "17a3bdbde2eea95b72ae50fe1a91630a3ffb6698",
+      "storyKey": "4220aa9153fd066c35e600b29167e5bba106c940",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "VHBS New ConTex Container Ship Time Charter Assessment Index Week 46",
+      "url": "https://www.hellenicshippingnews.com/vhbs-new-contex-container-ship-time-charter-assessment-index-week-46-3/",
+      "summary": "The container ship time charter market maintained a tight, supply-constrained upward trajectory for the week ending Source: Verband Hamburger und Bremer Schiffsmakler e.V",
+      "publishedAt": "2026-11-13T22:00:54.000Z",
+      "score": 48,
+      "scores": {
+        "recency": 0.98,
+        "reliability": 0.75,
+        "maritimeRelevance": 0.67,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 1,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
       "fingerprint": "b59ff6adb1d55162e25598706f56956695cc29af",
       "storyKey": "a89d5bb4d5c997ff109153dedc75989150fca5f3",
       "sourceId": "gcaptain",
@@ -480,7 +696,7 @@
       "publishedAt": "2026-11-13T17:37:39.000Z",
       "score": 47,
       "scores": {
-        "recency": 0.9,
+        "recency": 0.89,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -516,30 +732,6 @@
       }
     },
     {
-      "fingerprint": "b3b1c9f87922221f0a0567dd976ef76f3c7f453d",
-      "storyKey": "cd773a6d2194e5cdc7756aa3efd28aa6c3affcf6",
-      "sourceId": "gcaptain",
-      "sourceName": "gCaptain",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Wind-Powered Cargo Ship Neoliner Origin Cuts Fuel Consumption 70% in First Year",
-      "url": "https://gcaptain.com/wind-powered-cargo-ship-neoliner-origin-cuts-fuel-consumption-70-in-first-year/",
-      "summary": "French shipping company Neoline says its wind-powered cargo vessel Neoliner Origin has delivered fuel savings of up to 70% during its first year of commercial service, offering an early test...",
-      "publishedAt": "2026-11-12T17:23:36.000Z",
-      "score": 47,
-      "scores": {
-        "recency": 0.51,
-        "reliability": 0.85,
-        "maritimeRelevance": 1,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 1,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
       "fingerprint": "8cfb38eab787ef692d5dbd2fb05b8dbbb056ab5a",
       "storyKey": "ad7ce67514d7ae661440e0941d493017b0288e9b",
       "sourceId": "marex",
@@ -552,7 +744,7 @@
       "publishedAt": "2026-11-13T17:18:00.000Z",
       "score": 47,
       "scores": {
-        "recency": 0.89,
+        "recency": 0.88,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -583,6 +775,78 @@
         "seafarerValue": 0.5,
         "shareability": 0,
         "visualPotential": 0.5,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "fa1110366d6cb8b24bfb4037dbaa374fcbf2aee1",
+      "storyKey": "dd855c598a4e0e81784e97fe9f020de0c6c1dce6",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "Baltic Dry Index Snaps 7-Day Winning Run",
+      "url": "https://www.hellenicshippingnews.com/baltic-dry-index-snaps-7-day-winning-run/",
+      "summary": "The Baltic Exchange’s dry bulk freight index, which tracks rates for ships carrying dry bulk commodities, fell by 1.3% to 2,980 points on Friday, bringing a seven-day winning streak to an end. The capesize index, which typically transports 150,000-ton cargoes, including iron ore and coal, dropped by 2.4% to 4,719 points. Meanwhile, the panamax index, ...",
+      "publishedAt": "2026-11-13T22:00:53.000Z",
+      "score": 47,
+      "scores": {
+        "recency": 0.98,
+        "reliability": 0.75,
+        "maritimeRelevance": 1,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "a557a80a6ded91f90e61602efb983e83200fac1c",
+      "storyKey": "d04725c3f5cec111a7174b73b37d04fe5f2bf4fc",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "Best Oasis Weekly Recycling Market Report, 13 November 2026",
+      "url": "https://www.hellenicshippingnews.com/best-oasis-weekly-recycling-market-report-13-november-2026/",
+      "summary": "The Indian ship recycling market has started to regain momentum following the five-day Diwali holiday break, Source: Best Oasis Limited",
+      "publishedAt": "2026-11-13T22:00:47.000Z",
+      "score": 47,
+      "scores": {
+        "recency": 0.98,
+        "reliability": 0.75,
+        "maritimeRelevance": 0.67,
+        "educationalValue": 0.5,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "cce4e3da9db0844b890d97730662445f3617b426",
+      "storyKey": "988b6c7e20fd3f0ccfbb22723ebb0dd0797f2c2b",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "Neptune Group Welcomes “NIKOS TRAVLOS” to Piraeus, Honouring Its Founder and Opening a New Chapter of Growth",
+      "url": "https://www.hellenicshippingnews.com/neptune-group-welcomes-nikos-travlos-to-piraeus-honouring-its-founder-and-opening-a-new-chapter-of-growth/",
+      "summary": "On a day of special significance for both its history and its future, Neptune welcomed the newly built vessel “NIKOS TRAVLOS” to Piraeus. The ship bears the name of the Group’s founder, Nikos Travlos. Its return to the port where the company’s journey began more than fifty years ago was a tribute to his maritime ...",
+      "publishedAt": "2026-11-13T22:00:47.000Z",
+      "score": 47,
+      "scores": {
+        "recency": 0.98,
+        "reliability": 0.75,
+        "maritimeRelevance": 1,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
@@ -768,7 +1032,7 @@
       "publishedAt": "2026-11-13T08:00:31.000Z",
       "score": 44,
       "scores": {
-        "recency": 0.72,
+        "recency": 0.71,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -840,7 +1104,7 @@
       "publishedAt": "2026-11-13T02:50:51.000Z",
       "score": 43,
       "scores": {
-        "recency": 0.64,
+        "recency": 0.63,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -876,6 +1140,30 @@
       }
     },
     {
+      "fingerprint": "0215a2260f8aed0a134fd4bc6c2bf85f33a20e6d",
+      "storyKey": "a04c2e914bcffee98cef229e9395479fc654c556",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "Xeneta Schedule Reliability Scorecard - October 2026: Less than a quarter of global vessels arrive on-time and Gemini’s lead disappears on Asian trades",
+      "url": "https://www.hellenicshippingnews.com/xeneta-schedule-reliability-scorecard-october-2026-less-than-a-quarter-of-global-vessels-arrive-on-time-and-geminis-lead-disappears-on-asian-trades/",
+      "summary": "A note on methodology. Figures in this month’s edition use data pulled on 9 November and differ from our Outlook pulled on 26 October. Later October arrivals change some on-time figures by 1-2 percentage points. Global on-time arrivals are now at 24%, a lower reading than the 25% in late October. Far East to Europe ...",
+      "publishedAt": "2026-11-13T22:00:57.000Z",
+      "score": 43,
+      "scores": {
+        "recency": 0.98,
+        "reliability": 0.75,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0.5,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
       "fingerprint": "753a27791a025d2ce4efa10754981f50a95aaf29",
       "storyKey": "9b7c2136457f1c78989199c4b2b0a29613a14437",
       "sourceId": "gcaptain",
@@ -894,6 +1182,54 @@
         "educationalValue": 0,
         "seafarerValue": 0,
         "shareability": 1,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "5f5194cbe70c97fe9d7848fe094ca096901000f1",
+      "storyKey": "6cd8abc0db57cb893a97a0e304346e9c0efcd06c",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "EU Emission Trading System applying to offshore vessels from 1 January 2027",
+      "url": "https://www.hellenicshippingnews.com/eu-emission-trading-system-applying-to-offshore-vessels-from-1-january-2027/",
+      "summary": "Introduction From 1 January 2027, the application of the EU ETS Directive (EU ETS)[2] will extend to include offshore vessels of 5,000 GT or above. Already, since 1 January 2026, the maritime scope of EU ETS has not only included CO₂ emissions alone, but also methane (CH₄) and nitrous oxide (N₂O) emission. So, from 2027 ...",
+      "publishedAt": "2026-11-13T22:00:41.000Z",
+      "score": 42,
+      "scores": {
+        "recency": 0.98,
+        "reliability": 0.75,
+        "maritimeRelevance": 0.67,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "85a7127ce2405fa764e160b94d237f657902ca6e",
+      "storyKey": "b7c972d7f0a69ba810b6cf7cdaef7442eb2e04a2",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "New Intl Smart Shipping Alliance launched in Shanghai",
+      "url": "https://www.hellenicshippingnews.com/new-intl-smart-shipping-alliance-launched-in-shanghai/",
+      "summary": "The International Smart Shipping Alliance (ISSA) has been officially established in Shanghai, with an initial membership of nine. The Shanghai Marine Equipment Research Institute of China State Shipbuilding Corp Ltd (CSSC) is the only ship research institute among the founding members, highlighting the growing influence of China's ship research capabilities. The alliance was jointly initiated ...",
+      "publishedAt": "2026-11-13T22:00:39.000Z",
+      "score": 42,
+      "scores": {
+        "recency": 0.98,
+        "reliability": 0.75,
+        "maritimeRelevance": 0.67,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
@@ -944,6 +1280,30 @@
         "shareability": 1,
         "visualPotential": 0,
         "regulatoryImportance": 0.5,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "b0a92f6919f58bcfa241ea589c79912d5e0fb189",
+      "storyKey": "efe6f5d460fc888e999a5870353c60bf43fdfc69",
+      "sourceId": "gcaptain",
+      "sourceName": "gCaptain",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Tanker Strikes Docked Paddlewheeler on Mississippi River, Causing It to Capsize",
+      "url": "https://gcaptain.com/tanker-strikes-docked-paddlewheeler-on-mississippi-river-causing-it-to-capsize/",
+      "summary": "Update: Local officials say there are no passengers unaccounted for. More than 30 hospitalized, but none in critical condition. A Marshall Islands-flagged asphalt tanker struck the docked American Cruise Lines...",
+      "publishedAt": "2026-11-13T20:45:59.000Z",
+      "score": 38,
+      "scores": {
+        "recency": 0.96,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
     },
@@ -1008,7 +1368,7 @@
       "publishedAt": "2026-11-13T00:48:00.000Z",
       "score": 37,
       "scores": {
-        "recency": 0.61,
+        "recency": 0.6,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1032,11 +1392,107 @@
       "publishedAt": "2026-11-12T22:30:00.000Z",
       "score": 37,
       "scores": {
-        "recency": 0.58,
+        "recency": 0.57,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
         "seafarerValue": 0.5,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "0bbc781e91555d4c7e9c1466164ce5f7ecbe57a3",
+      "storyKey": "dfad8aa678a56658f92c679c0e651e9dcb411a8e",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "GMS Week 46 – FREIGHT TAKES THE HELM",
+      "url": "https://www.hellenicshippingnews.com/gms-week-46-freight-takes-the-helm/",
+      "summary": "Another week has passed without a meaningful change in global ship recycling conditions, although the trading market has strengthened its position once again. Dry freight has continued its recovery, crude oil has softened further and regional steel prices have offered some encouragement. Recycling indications remain unchanged across all four destinations, with healthy buying interest still ...",
+      "publishedAt": "2026-11-13T22:00:54.000Z",
+      "score": 37,
+      "scores": {
+        "recency": 0.98,
+        "reliability": 0.75,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "b21aba99a7c99876d92aba9e80aa530f2b9bd831",
+      "storyKey": "24c2a38f738311dd7a18f66b2b839fc7c75e98a5",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "Drewry: World Container Index Down 2% Last Week",
+      "url": "https://www.hellenicshippingnews.com/drewry-world-container-index-down-2-last-week-8/",
+      "summary": "For many years, World Container Index (WCI) has been the go-to, independent, global reference for index-linked contracts. If your organisation requires regional visibility/coverage beyond the eight trade lanes provided below, contact the team. Our detailed assessment for Thursday, 12 Nov 2026 • The Drewry World Container Index (WCI), the benchmark widely referenced by procurement teams, ...",
+      "publishedAt": "2026-11-13T22:00:51.000Z",
+      "score": 37,
+      "scores": {
+        "recency": 0.98,
+        "reliability": 0.75,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "01e425592c75bf5134f25682dee3df50aa0bf0f5",
+      "storyKey": "e57c8601fd90fdec15b8f6df2e38b3c5698d9e32",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "Affinity Tanker Weekly, 13 November 2026",
+      "url": "https://www.hellenicshippingnews.com/affinity-tanker-weekly-13-november-2026/",
+      "summary": "It was another bruising week for VLCCs. A late pickup in activity could not turn the tide, with ample tonnage and weaker Suezmax Source: Affinity Research LLP",
+      "publishedAt": "2026-11-13T22:00:50.000Z",
+      "score": 37,
+      "scores": {
+        "recency": 0.98,
+        "reliability": 0.75,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "83ae63b1aac8a474449e36309db008f1b9e3311a",
+      "storyKey": "460d51d455d1fbe1d88d86045c88f6a298971c84",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "One State-Owned Manager, Three Vessels, Three Subsea Cable Corridors in One Week",
+      "url": "https://www.hellenicshippingnews.com/one-state-owned-manager-three-vessels-three-subsea-cable-corridors-in-one-week/",
+      "summary": "Between October 15 and November 4, 2026, three vessels under the same state-owned Xiamen manager stopped on three international submarine cable corridors in three different seas. A Chinese-flagged research vessel operated by a Chinese university spent nearly three weeks on survey stations in and around the SJC2 and EAC-C2C corridors east of Taiwan, then 3.5 ...",
+      "publishedAt": "2026-11-13T22:00:45.000Z",
+      "score": 37,
+      "scores": {
+        "recency": 0.98,
+        "reliability": 0.75,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0,
+        "seafarerValue": 0,
         "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0,
@@ -1080,7 +1536,7 @@
       "publishedAt": "2026-11-13T14:39:48.000Z",
       "score": 36,
       "scores": {
-        "recency": 0.84,
+        "recency": 0.83,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1128,7 +1584,7 @@
       "publishedAt": "2026-11-12T13:23:18.000Z",
       "score": 36,
       "scores": {
-        "recency": 0.47,
+        "recency": 0.46,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1152,7 +1608,7 @@
       "publishedAt": "2026-11-13T12:38:32.000Z",
       "score": 35,
       "scores": {
-        "recency": 0.8,
+        "recency": 0.79,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1176,7 +1632,7 @@
       "publishedAt": "2026-11-13T09:50:00.000Z",
       "score": 34,
       "scores": {
-        "recency": 0.75,
+        "recency": 0.74,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1200,7 +1656,7 @@
       "publishedAt": "2026-11-13T09:42:00.000Z",
       "score": 34,
       "scores": {
-        "recency": 0.75,
+        "recency": 0.74,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1248,7 +1704,7 @@
       "publishedAt": "2026-11-13T04:51:44.000Z",
       "score": 33,
       "scores": {
-        "recency": 0.67,
+        "recency": 0.66,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1296,7 +1752,7 @@
       "publishedAt": "2026-11-13T18:18:00.000Z",
       "score": 32,
       "scores": {
-        "recency": 0.91,
+        "recency": 0.9,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1392,7 +1848,7 @@
       "publishedAt": "2026-11-12T13:22:36.000Z",
       "score": 30,
       "scores": {
-        "recency": 0.47,
+        "recency": 0.46,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1486,7 +1942,7 @@
       "url": "https://maritime-executive.com/article/ss-united-states-has-been-sunk-as-a-reef-what-happens-next",
       "summary": "As a marine ecologist and keen scuba diver, I’ve long been fascinated by what happens when a large structure is introduced to the sea. Within hours, m...",
       "publishedAt": "2026-11-12T17:34:00.000Z",
-      "score": 25,
+      "score": 24,
       "scores": {
         "recency": 0.51,
         "reliability": 0.85,
@@ -1496,6 +1952,30 @@
         "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "7fa784ba3de5b4d4562c6a7c06df1bdeeaa4bafd",
+      "storyKey": "13afd820f4246eeed2915dd7a267e42fc26c2a7c",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "Making underwater radiated noise measurement practical for the world fleet",
+      "url": "https://www.hellenicshippingnews.com/making-underwater-radiated-noise-measurement-practical-for-the-world-fleet/",
+      "summary": "Along with ICS, IPTA and RINA, we have co-sponsored a proposal to MEPC 85 aimed at making underwater radiated noise (URN) measurement practical and affordable for the world fleet. The IMO’s Revised Guidelines (MEPC.1/Circ.906/Rev.1) prefer direct measurement to establish a ship’s URN baseline, and class society quiet ship notations normally require it. The problem Dedicated ...",
+      "publishedAt": "2026-11-13T22:00:55.000Z",
+      "score": 20,
+      "scores": {
+        "recency": 0.98,
+        "reliability": 0.75,
+        "maritimeRelevance": 0.67,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 1,
         "corroboratingOutlets": 1
       }
     }
