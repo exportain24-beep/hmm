@@ -315,8 +315,64 @@
       "status": "monitoring",
       "cardFile": null,
       "published": false,
-      "notes": "Not breaking (<90, no fatalities). Candidate for the 13 Nov 08:22 slot if a free-licence photo is found and an update (damage/pollution) emerges; related to published HM-2026-111201.",
-      "updatedAt": "2026-11-12T21:58:00Z"
+      "notes": "Not breaking (<90, no fatalities). Candidate for the 13 Nov 08:22 slot if a free-licence photo is found and an update (damage/pollution) emerges; related to published HM-2026-111201. 13 Nov 07:20: no materially new verified information found this run; not carded (bridge-strike incident chosen for 08:22 as fresher).",
+      "updatedAt": "2026-11-13T07:20:00Z"
+    },
+    "HM-2026-111301": {
+      "eventId": "HM-2026-111301",
+      "slug": "strategic-alliance-tacony-palmyra-bridge-strike",
+      "type": "incident",
+      "title": "Bulk Carrier Strikes Delaware River Bridge",
+      "location": "PHILADELPHIA, USA",
+      "eventDate": "12 NOV 2026",
+      "sources": [
+        {
+          "title": "Cargo ship strikes bridge between New Jersey and Philadelphia, causing traffic backup",
+          "publisher": "Associated Press (via WKYT)",
+          "url": "https://www.wkyt.com/2026/11/13/cargo-ship-strikes-bridge-between-new-jersey-philadelphia-causing-traffic-backup/",
+          "date": "2026-11-13"
+        },
+        {
+          "title": "Singapore-flagged cargo ship strikes US bridge",
+          "publisher": "Splash247",
+          "url": "https://splash247.com/singapore-flagged-cargo-ship-strikes-us-bridge/",
+          "date": "2026-11-13"
+        }
+      ],
+      "verifiedFacts": [
+        "Strategic Alliance (Singapore flag, 180 m / 591 ft, built 2013, handysize bulk carrier) struck the Tacony-Palmyra Bridge ~13:15 local 12 Nov 2026 (USCG via AP; Splash247)",
+        "Drawbridge was open for ship passage at the time (AP)",
+        "No injuries reported (AP)",
+        "Ship moored at Kinder Morgan facility, Bristol PA; USCG inspection team on site (USCG via AP)",
+        "Bridge reopened Thursday evening with a lane closure (Burlington County Bridge Commission Police via AP)"
+      ],
+      "unverifiedClaims": [
+        "Extent of bridge damage (state Rep. Neilson said span was 'unable to close')",
+        "Cause of the allision"
+      ],
+      "conflicts": [],
+      "verificationStatus": "CORROBORATED",
+      "priorityScore": 69,
+      "scoreBreakdown": {
+        "recency": 20,
+        "safety": 13,
+        "operational": 12,
+        "regulatory": 5,
+        "human": 3,
+        "industry": 7,
+        "source": 9
+      },
+      "status": "queued",
+      "cardFile": "content/cards/queue/2026-11-13T0822-strategic-alliance-tacony-palmyra-bridge-strike.json",
+      "published": false,
+      "notes": "Queued for 13 Nov 08:22 slot. Representative PD photo (US Navy 1944, cargo ship under bridge); the Commons photo of a bulk carrier at this bridge (File:Bufflehead-Tacony-MT.jpg) was not used because its licence could not be checked this run. UPDATE card only if NTSB/USCG findings or significant damage details emerge.",
+      "versions": [
+        {
+          "at": "2026-11-13T07:20:00Z",
+          "change": "created; card queued"
+        }
+      ],
+      "updatedAt": "2026-11-13T07:20:00Z"
     }
   }
 }

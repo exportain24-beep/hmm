@@ -1,0 +1,65 @@
+{
+  "id": "strategic-alliance-tacony-palmyra-bridge-strike",
+  "type": "incident",
+  "headline": "Bulk Carrier Strikes Delaware River Bridge",
+  "headlineAccent": "Delaware River Bridge",
+  "subheadline": "Bridge allisions keep pilotage in focus",
+  "location": "PHILADELPHIA, USA",
+  "dateLabel": "12 NOV 2026",
+  "insight": "The Singapore-flagged bulk carrier Strategic Alliance struck the open Tacony-Palmyra drawbridge on the Delaware River. No injuries; Coast Guard inspecting the ship.",
+  "publishAtUtc": "2026-11-13T08:22:00Z",
+  "eventId": "HM-2026-111301",
+  "priorityScore": 69,
+  "pillar": "safety",
+  "audience": [
+    "Master",
+    "Pilot",
+    "OOW",
+    "Ship Manager"
+  ],
+  "sources": [
+    {
+      "title": "Cargo ship strikes bridge between New Jersey and Philadelphia, causing traffic backup",
+      "publisher": "Associated Press (via WKYT)",
+      "url": "https://www.wkyt.com/2026/11/13/cargo-ship-strikes-bridge-between-new-jersey-philadelphia-causing-traffic-backup/",
+      "date": "2026-11-13"
+    },
+    {
+      "title": "Singapore-flagged cargo ship strikes US bridge",
+      "publisher": "Splash247",
+      "url": "https://splash247.com/singapore-flagged-cargo-ship-strikes-us-bridge/",
+      "date": "2026-11-13"
+    }
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner intelligence desk",
+    "checkedAt": "2026-11-13T07:20:00Z",
+    "notes": "Vessel identity, flag, size, time and mooring location from the U.S. Coast Guard as reported by AP; corroborated by Splash247. Cause not yet established; no investigation findings used."
+  },
+  "image": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/USS_Tate_(AKA-70)_passing_under_the_Cooper_River_Bridge_at_Charleston,_South_Carolina_(USA),_1_December_1944_(BS_75322).jpg?width=1600",
+    "credit": "U.S. Navy (Bureau of Ships) / Wikimedia Commons",
+    "license": "Public domain",
+    "representative": true
+  },
+  "meta": {
+    "description": "The Singapore-flagged bulk carrier Strategic Alliance (180 m, built 2013) struck the Tacony-Palmyra Bridge over the Delaware River between Philadelphia and Palmyra, New Jersey, at about 1:15 p.m. local time on 12 November 2026, while the drawbridge was open for ship passage. No injuries were reported. The U.S. Coast Guard said the ship is moored at a Kinder Morgan facility in Bristol, Pennsylvania, where a Coast Guard inspection team is on site. The bridge, which carries Route 73 and about 76,200 vehicles a day, reopened that evening with one lane closed; the cause has not been reported.",
+    "keywords": [
+      "bridge allision",
+      "Strategic Alliance",
+      "Tacony-Palmyra Bridge",
+      "Delaware River",
+      "US Coast Guard"
+    ],
+    "hashtags": [
+      "#BridgeStrike",
+      "#MaritimeSafety",
+      "#DelawareRiver",
+      "#Pilotage",
+      "#BulkCarrier"
+    ],
+    "question": "What is your bridge team's plan when transiting a drawbridge span?",
+    "altText": "Archival representative photo of a cargo ship passing under a bridge, with HeyMariner news card text on the bulk carrier Strategic Alliance striking the Tacony-Palmyra Bridge."
+  }
+}
