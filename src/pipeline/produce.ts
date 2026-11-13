@@ -38,6 +38,19 @@ export const contactSheet = (video: string, tl: Timeline, out: string) => {
   run('ffmpeg', ['-y', '-loglevel', 'error', '-framerate', '1', '-i', `${dir}/f%03d.jpg`, '-vf', `tile=${cols}x${Math.ceil(times.length / cols)}:padding=6:color=white`, '-frames:v', '1', '-q:v', '3', out], {stage: 'review', allowFail: true});
 };
 
+/** Thumbnail from the strongest visual moment of the video itself (topic graphic + big highlighted headline).
+ * Vertical videos get the Reels cover (Facebook + Instagram, 4:5 safe zone) plus a 16:9 version. */
+export const makeThumbnail = (spec: ContentSpec, timeline: Timeline, video: string, out: string, wide: string) => {
+  const vis = spec.scenes.findIndex((s) => THREE_D_KINDS.includes(s.kind) || ['radar', 'ukc', 'stat', 'compare'].includes(s.kind));
+  const k = Math.min(vis >= 0 ? vis : 1, timeline.scenes.length - 1);
+  const tt = timeline.scenes[k];
+  const at = tt.start + Math.min(tt.end - tt.start - 0.4, (tt.cueTimes[0] ?? 0.8) + 1.4);
+  const tpl = TEMPLATES[spec.template];
+  const lay = layoutFor(timeline.width, timeline.height);
+  return run('python3', [p('tools/thumbnail.py'), '--video', video, '--at', Math.max(0.5, at).toFixed(2), '--text', spec.thumbnailText, '--badge', spec.series ? spec.series.toUpperCase() : tpl.badge,
+    '--logo', p('public', config<{logoFile: string}>('brand').logoFile), '--fonts', p('public/fonts'), '--accent', accentHex(spec), '--out', out, '--wide', wide, '--crop', [lay.panel.x, lay.panel.y, lay.panel.w, lay.panel.h].join(',')], {stage: 'thumbnail', allowFail: true});
+};
+
 export type Produced = {workDir: string; final: string; thumb: string; timeline: Timeline; voiceId: string | null; uses3d: boolean};
 
 export const produce = async (spec: ContentSpec, opts: {skipRender?: boolean} = {}): Promise<Produced> => {
@@ -75,15 +88,7 @@ export const produce = async (spec: ContentSpec, opts: {skipRender?: boolean} = 
     '-c:a', 'copy', '-movflags', '+faststart', '-shortest', final], {stage: 'render', timeoutMs: 20 * 60 * 1000});
   log('render', 'render completed', {file: final, mb: +(statSync(final).size / 1e6).toFixed(1)});
   contactSheet(final, timeline, `${workDir}/sheet.jpg`);
-  // Thumbnail from the strongest visual moment of the video itself (topic graphic + big highlighted headline).
-  const vis = spec.scenes.findIndex((s) => THREE_D_KINDS.includes(s.kind) || ['radar', 'ukc', 'stat', 'compare'].includes(s.kind));
-  const k = vis >= 0 ? vis : 1;
-  const tt = timeline.scenes[k];
-  const at = tt.start + Math.min(tt.end - tt.start - 0.4, (tt.cueTimes[0] ?? 0.8) + 1.4);
-  const tpl = TEMPLATES[spec.template];
-  const lay = layoutFor(timeline.width, timeline.height);
-  const r = run('python3', [p('tools/thumbnail.py'), '--video', final, '--at', at.toFixed(2), '--text', spec.thumbnailText, '--badge', spec.series ? spec.series.toUpperCase() : tpl.badge,
-    '--logo', p('public', config<{logoFile: string}>('brand').logoFile), '--fonts', p('public/fonts'), '--accent', accentHex(spec), '--out', thumb, '--wide', `${workDir}/thumb_16x9.jpg`, '--crop', [lay.panel.x, lay.panel.y, lay.panel.w, lay.panel.h].join(',')], {stage: 'thumbnail', allowFail: true});
+  const r = makeThumbnail(spec, timeline, final, thumb, `${workDir}/thumb_16x9.jpg`);
   if (r.code !== 0) {
     log('thumbnail', 'custom thumbnail failed, falling back to the Remotion still', {error: r.stderr.slice(-300)});
     run('npx', ['remotion', 'still', ENTRY, timeline.height > timeline.width ? 'ThumbnailVertical' : 'ThumbnailWide', thumb, ...common], {stage: 'render', timeoutMs: 10 * 60 * 1000});

@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       items:
-        description: 'Space separated id=platform,platform (e.g. catzoc-explained=facebook,instagram)'
+        description: 'Space separated id=platform,platform (e.g. catzoc-explained=facebook,instagram; id=fb-thumb only refreshes the Facebook cover)'
         required: true
       gap_minutes:
         description: 'Minutes between items'
@@ -39,7 +39,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg && pip install -q pillow
       - name: Repost
         env:
           ITEMS: ${{ inputs.items }}

@@ -11,7 +11,9 @@ import {config, env, isAutoPublish, isCardsEnabled, isDryRun, isPipelineEnabled,
 import {llmProvider} from './llm.ts';
 import {buildMetadata, uploadKit} from './metadata.ts';
 import {archiveQueueFile, choose, dueSlot, findSpec, loadBank, markSlot} from './plan.ts';
-import {produce} from './produce.ts';
+import {makeThumbnail, produce} from './produce.ts';
+import {estimateTimeline} from '../shared/estimate.ts';
+import {setFacebookThumb} from './publish/meta.ts';
 import {PUBLISHERS, publishAll} from './publish/index.ts';
 import {cleanupMedia} from './publish/hosting.ts';
 import {runQc} from './qc.ts';
@@ -206,10 +208,22 @@ const main = async () => {
     const file = p(`work/repost/${id}.mp4`);
     writeFileSync(file, Buffer.from(await res.arrayBuffer()));
     const dur = Number(run('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', file], {stage: 'repost'}).stdout.trim());
-    const meta = buildMetadata(spec, {totalSeconds: dur} as Parameters<typeof buildMetadata>[1], null, null);
-    log('repost', `re-using rendered video ${id} (${dur.toFixed(1)} s) for ${only.join(', ')}`);
-    const results = await publishAll(id, file, null, meta, {pass: true, publishable: true, checks: []}, only);
-    if (Object.values(results).some((r) => r.startsWith('FAILED'))) process.exitCode = 1;
+    const tl = estimateTimeline(spec); const k = dur / tl.totalSeconds;
+    tl.scenes = tl.scenes.map((s) => ({...s, start: s.start * k, end: s.end * k, cueTimes: s.cueTimes.map((c) => c * k)})); tl.totalSeconds = dur;
+    const thumb = p(`work/repost/${id}-cover.png`);
+    const tr = makeThumbnail(spec, tl, file, thumb, p(`work/repost/${id}-wide.jpg`));
+    const hasThumb = tr.code === 0 && existsSync(thumb);
+    const meta = buildMetadata(spec, tl, null, null);
+    if (only.includes('fb-thumb')) {
+      // only refresh the cover of a Facebook reel that is already published
+      const fb = state.published()[id]?.platforms.facebook?.id;
+      if (!fb || !hasThumb) throw new PipelineError('repost', `no Facebook post or no cover for ${id}`);
+      if (!(await setFacebookThumb(fb, thumb))) process.exitCode = 1;
+    } else {
+      log('repost', `re-using rendered video ${id} (${dur.toFixed(1)} s) for ${only.join(', ')}`);
+      const results = await publishAll(id, file, hasThumb ? thumb : null, meta, {pass: true, publishable: true, checks: []}, only);
+      if (Object.values(results).some((r) => r.startsWith('FAILED'))) process.exitCode = 1;
+    }
   } else if (cmd === 'cleanup') {
     const n = await cleanupMedia(Number(arg('days') ?? 3));
     for (const d of ['work', 'out']) if (existsSync(p(d))) rmSync(p(d), {recursive: true, force: true});

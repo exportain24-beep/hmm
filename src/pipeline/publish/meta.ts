@@ -42,6 +42,23 @@ const rupload = async (url: string, token: string, file: string, stage: string) 
   if (!res.ok) throw new PipelineError(stage, explain(res.status, text));
 };
 
+/** Custom cover for a Facebook video/reel. Facebook only accepts it once the upload is processed, so retry. */
+export const setFacebookThumb = async (videoId: string, thumb: string): Promise<boolean> => {
+  const token = await pageToken();
+  for (let i = 0; i < 8; i++) {
+    const form = new FormData();
+    form.append('is_preferred', 'true');
+    form.append('access_token', token);
+    form.append('source', new Blob([readFileSync(thumb)], {type: 'image/png'}), 'cover.png');
+    const res = await fetchRetry(graph(`${videoId}/thumbnails`), {method: 'POST', body: form}, {stage: 'facebook', retries: 0, timeoutMs: 120000});
+    const text = await res.text();
+    if (res.ok) { log('facebook', `custom cover set on ${videoId}`); return true; }
+    log('facebook', `cover not accepted yet (HTTP ${res.status}): ${text.slice(0, 160)}`);
+    await sleep(20000);
+  }
+  return false;
+};
+
 export const FacebookPublisher: Publisher = {
   id: 'facebook',
   requiredEnv: ['META_ACCESS_TOKEN', 'META_PAGE_ID'],
@@ -49,13 +66,14 @@ export const FacebookPublisher: Publisher = {
     const j = await call<{name: string}>(graph(env('META_PAGE_ID')), {fields: 'name', access_token: await pageToken()}, 'GET', 'facebook', 1);
     return `page: ${j.name}`;
   },
-  async publish({file, meta}) {
+  async publish({file, thumb, meta}) {
     const token = await pageToken();
     const page = env('META_PAGE_ID');
     const start = await call<{video_id: string; upload_url: string}>(graph(`${page}/video_reels`), {upload_phase: 'start', access_token: token}, 'POST', 'facebook');
     await rupload(start.upload_url, token, file, 'facebook');
     const m = meta.platforms.facebook;
     await call<{success: boolean}>(graph(`${page}/video_reels`), {upload_phase: 'finish', video_id: start.video_id, video_state: 'PUBLISHED', description: sanitizeSocialCaption('facebook', m.caption), title: m.title, access_token: token}, 'POST', 'facebook', 0);
+    if (thumb) { try { await setFacebookThumb(start.video_id, thumb); } catch (e) { log('facebook', `cover failed: ${(e as Error).message.slice(0, 160)}`); } }
     return {id: start.video_id, url: `https://www.facebook.com/reel/${start.video_id}`};
   },
 };
