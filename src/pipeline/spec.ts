@@ -49,6 +49,33 @@ export const validateSpec = (s: ContentSpec): string[] => {
       if ((it.value ?? '').length > BUDGET.itemValue) e.push(`${at}: item value too long: "${it.title}"`);
     }
     if (x.motif && !MOTIFS.includes(x.motif)) e.push(`${at}: unknown motif "${x.motif}" (use one of: ${MOTIFS.join(', ')})`);
+    if (x.kind === 'toon') {
+      const tn = x.toon;
+      const SETS = ['deck', 'bridge', 'engineroom', 'quay', 'lifeboat', 'office'];
+      const ROLES = ['master', 'officer', 'cadet', 'engineer', 'rating', 'pilot', 'inspector'];
+      const FACES = ['neutral', 'happy', 'grin', 'laugh', 'surprised', 'shocked', 'worried', 'sad', 'angry', 'smug', 'confused', 'thinking', 'sleepy', 'determined'];
+      const ARMS = ['idle', 'wave', 'point', 'armsUp', 'shrug', 'hips', 'hold', 'think', 'cross', 'reach', 'clap', 'facepalm'];
+      const FX = ['smoke', 'steam', 'splash', 'sparkle', 'ring', 'dust', 'exclaim', 'question', 'stars', 'sweat', 'burst'];
+      if (!tn || !SETS.includes(tn.set)) e.push(`${at}: toon.set must be one of ${SETS.join(', ')}`);
+      if ((tn?.cast?.length ?? 0) > 3) e.push(`${at}: toon.cast has more than 3 characters`);
+      for (const c of tn?.cast ?? []) {
+        if (!ROLES.includes(c.role)) e.push(`${at}: toon role "${c.role}" (use ${ROLES.join(', ')})`);
+        if (c.face && !FACES.includes(c.face)) e.push(`${at}: toon face "${c.face}"`);
+        if (c.arms && !ARMS.includes(c.arms)) e.push(`${at}: toon arms "${c.arms}"`);
+      }
+      const words = n.toLowerCase().replace(/[^a-z0-9' ]/g, ' ').split(/\s+/);
+      let wpos = 0;
+      for (const b of tn?.beats ?? []) {
+        const w0 = (b.on ?? '').toLowerCase().replace(/[^a-z0-9']/g, ' ').trim().split(/\s+/)[0] ?? '';
+        const j = words.indexOf(w0, wpos);
+        if (!w0 || j < 0) e.push(`${at}: toon beat "${b.on}" is not a word of the narration (in order)`);
+        else wpos = j + 1;
+        if (b.face && !FACES.includes(b.face)) e.push(`${at}: toon beat face "${b.face}"`);
+        if (b.arms && !ARMS.includes(b.arms)) e.push(`${at}: toon beat arms "${b.arms}"`);
+        if (b.fx && !FX.includes(b.fx)) e.push(`${at}: toon beat fx "${b.fx}"`);
+        if ((b.who ?? 0) >= Math.max(1, tn?.cast?.length ?? 1)) e.push(`${at}: toon beat who=${b.who} has no cast member`);
+      }
+    }
     const want = VISUAL_FOR[x.kind];
     if (want && x.visual?.type !== want) e.push(`${at}: needs visual.type "${want}"`);
     let pos = 0;

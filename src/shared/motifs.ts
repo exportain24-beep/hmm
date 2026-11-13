@@ -31,11 +31,11 @@ export const pickMotif = (spec: ContentSpec, scene: SceneSpec): Motif => {
 };
 
 /** Scene kinds that draw their own topic graphic instead of a backdrop. */
-export const VISUAL_KINDS = ['colreg3d', 'contour3d', 'zoc3d', 'radar', 'ukc'];
+export const VISUAL_KINDS = ['colreg3d', 'contour3d', 'zoc3d', 'radar', 'ukc', 'toon'];
 
 /** Visual element per scene (endcard excluded): the scene's own graphic kind, or its backdrop motif. */
 export const visualsOf = (spec: ContentSpec): string[] =>
-  spec.scenes.filter((s) => s.kind !== 'endcard').map((s) => (VISUAL_KINDS.includes(s.kind) ? `kind:${s.kind}` : `motif:${pickMotif(spec, s)}`));
+  spec.scenes.filter((s) => s.kind !== 'endcard').map((s) => (s.kind === 'toon' ? `toon:${s.toon?.set ?? 'deck'}` : VISUAL_KINDS.includes(s.kind) ? `kind:${s.kind}` : `motif:${pickMotif(spec, s)}`));
 
 /** Problems with how a video's visuals repeat inside itself and against recent videos. */
 export const varietyProblems = (spec: ContentSpec, recent: ContentSpec[]): string[] => {

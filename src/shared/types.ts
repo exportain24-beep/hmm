@@ -14,7 +14,7 @@ export type Pillar =
 
 export type SceneKind =
   | 'hook' | 'term' | 'statement' | 'bullets' | 'qa' | 'checklist' | 'compare' | 'stat'
-  | 'timeline' | 'colreg3d' | 'contour3d' | 'zoc3d' | 'radar' | 'ukc' | 'takeaway' | 'endcard';
+  | 'timeline' | 'colreg3d' | 'contour3d' | 'zoc3d' | 'radar' | 'ukc' | 'toon' | 'takeaway' | 'endcard';
 
 export type Visual =
   | {type: 'colreg'; scenario: 'crossing' | 'head-on' | 'overtaking'}
@@ -43,6 +43,24 @@ export type SceneSpec = {
   visual?: Visual;
   /** Animated backdrop behind the scene. Chosen automatically from the words when left out. */
   motif?: Motif;
+  /** kind "toon": flat inked seafarers acting in a toon 3D maritime set. */
+  toon?: ToonSpec;
+};
+
+export type ToonSet = 'deck' | 'bridge' | 'engineroom' | 'quay' | 'lifeboat' | 'office';
+export type ToonRole = 'master' | 'officer' | 'cadet' | 'engineer' | 'rating' | 'pilot' | 'inspector';
+export type ToonFace = 'neutral' | 'happy' | 'grin' | 'laugh' | 'surprised' | 'shocked' | 'worried' | 'sad' | 'angry' | 'smug' | 'confused' | 'thinking' | 'sleepy' | 'determined';
+export type ToonArms = 'idle' | 'wave' | 'point' | 'armsUp' | 'shrug' | 'hips' | 'hold' | 'think' | 'cross' | 'reach' | 'clap' | 'facepalm';
+export type ToonFx = 'smoke' | 'steam' | 'splash' | 'sparkle' | 'ring' | 'dust' | 'exclaim' | 'question' | 'stars' | 'sweat' | 'burst';
+export type ToonSpec = {
+  set: ToonSet;
+  time?: 'day' | 'golden' | 'night';
+  /** 1-3 characters, first one is the main subject. */
+  cast?: {role: ToonRole; face?: ToonFace; arms?: ToonArms}[];
+  /** Acting beats: each lands on the first spoken word of "on" (searched after the previous beat). */
+  beats?: {on: string; who?: number; face?: ToonFace; arms?: ToonArms; fx?: ToonFx; hop?: boolean; walk?: [number, number]}[];
+  shot?: 'wide' | 'medium' | 'close' | 'aerial';
+  move?: 'push' | 'pull' | 'locked';
 };
 
 export type Source = {title: string; url: string; publisher?: string; date?: string};
