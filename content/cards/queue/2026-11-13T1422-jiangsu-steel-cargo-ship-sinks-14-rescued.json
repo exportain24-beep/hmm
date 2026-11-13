@@ -1,0 +1,48 @@
+{
+  "id": "jiangsu-steel-cargo-ship-sinks-14-rescued",
+  "type": "incident",
+  "headline": "14 Crew Rescued as Cargo Ship Sinks",
+  "headlineAccent": "Cargo Ship Sinks",
+  "subheadline": "Heavy-weather flooding sank a steel-laden ship",
+  "location": "OFF JIANGSU, CHINA",
+  "dateLabel": "9 NOV 2026",
+  "insight": "Two starboard compartments flooded in gales and 4 m waves off Binhai, Jiangsu. The steel-laden ship listed and sank; the Donghai Rescue Bureau saved all 14 crew.",
+  "publishAtUtc": "2026-11-13T14:22:00Z",
+  "eventId": "HM-2026-111302",
+  "priorityScore": 58,
+  "pillar": "safety",
+  "audience": ["Master", "Chief Officer", "OOW", "Ship Manager"],
+  "sources": [
+    {
+      "title": "14 rescued after cargo ship sinks off east China coast",
+      "publisher": "Bastille Post",
+      "url": "https://www.bastillepost.com/global/article/6345138-14-rescued-after-cargo-ship-sinks-off-east-china-coast",
+      "date": "2026-11-10"
+    },
+    {
+      "title": "14 Seafarers Rescued After Chinese Bulk Carrier Sinks In Yellow Sea",
+      "publisher": "Marine Insight",
+      "url": "https://www.marineinsight.com/14-seafarers-rescued-after-chinese-bulk-carrier-sinks-in-yellow-sea/",
+      "date": "2026-11-13"
+    }
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner intelligence desk",
+    "checkedAt": "2026-11-13T13:10:00Z",
+    "notes": "Location, cargo, flooding, weather, rescue assets and crew count from Bastille Post report citing the Donghai Rescue Bureau; sinking date 9 Nov and 14 crew rescued corroborated by Marine Insight. Vessel name not used (not confirmed in sources read). Cause beyond reported flooding not established."
+  },
+  "image": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Coast_Guard_rescues_3_mariners_from_life_raft_near_Kodiak,_Alaska_150421-G-MF861-098.jpg?width=1600",
+    "credit": "U.S. Coast Guard / Wikimedia Commons",
+    "license": "Public domain",
+    "representative": true
+  },
+  "meta": {
+    "description": "A Chinese cargo ship loaded with steel sank about 20 nautical miles northeast of Binhai Port, Yancheng, Jiangsu Province, on the morning of 9 November 2026 after high winds and heavy waves flooded two starboard compartments and the ship took a severe list. Eight crew went into the water during a severe cold wave. The Donghai Rescue Bureau of China's Ministry of Transport sent a rescue vessel and two helicopters, working in gale-force winds and 4-metre waves, and all 14 crew were rescued.",
+    "keywords": ["ship sinking", "Jiangsu", "Donghai Rescue Bureau", "heavy weather", "crew rescue", "steel cargo"],
+    "hashtags": ["#MaritimeSafety", "#SearchAndRescue", "#ShipSinking", "#HeavyWeather", "#Seafarers"],
+    "question": "How often does your crew drill abandon ship in heavy weather?",
+    "altText": "Representative U.S. Coast Guard photo of a helicopter rescuing mariners from a life raft at sea, with HeyMariner news card text on 14 crew rescued after a steel-laden cargo ship sank off Jiangsu, China."
+  }
+}
