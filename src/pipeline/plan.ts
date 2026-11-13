@@ -37,7 +37,7 @@ const loadDir = (dir: string): {file: string; spec: ContentSpec}[] =>
 
 export const loadBank = () => loadDir(p('content/bank'));
 export const findSpec = (id: string): ContentSpec | null =>
-  [...loadDir(p('content/queue')), ...loadBank()].find((x) => x.spec.id === id)?.spec ?? null;
+  [...loadDir(p('content/queue')), ...(existsSync(p('content/queue/done')) ? loadDir(p('content/queue/done')) : []), ...loadBank()].find((x) => x.spec.id === id)?.spec ?? null;
 
 const alreadyProduced = (id: string) => Boolean(state.published()[id]);
 

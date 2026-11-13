@@ -23,7 +23,8 @@ export type Visual =
   | {type: 'radar'; cpaNm: number; tcpaMin: number; limitNm: number}
   | {type: 'ukc'; depth: number; draft: number; squat: number};
 
-export type Motif = 'voyage' | 'radar' | 'chart' | 'engine' | 'tank' | 'globe' | 'lighthouse';
+export type Motif = 'voyage' | 'radar' | 'chart' | 'engine' | 'tank' | 'globe' | 'lighthouse' | 'mooring' | 'generator' | 'pump' | 'fire' | 'lifeboat' | 'anchor' | 'cargo' | 'weather' | 'clock' | 'bridge' | 'inspection';
+export const MOTIFS: Motif[] = ['voyage', 'radar', 'chart', 'engine', 'tank', 'globe', 'lighthouse', 'mooring', 'generator', 'pump', 'fire', 'lifeboat', 'anchor', 'cargo', 'weather', 'clock', 'bridge', 'inspection'];
 
 export type SceneItem = {title: string; text?: string; value?: string};
 

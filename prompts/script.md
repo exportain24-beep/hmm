@@ -29,7 +29,7 @@ type Scene = {
   body?: string;                    // max 230 chars
   items?: {title: string; text?: string; value?: string}[];  // max 5; title max 44, text max 90, value max 16
   cues?: string[];                  // exact substrings of this scene's narration, in spoken order; item i appears when cue i is spoken
-  motif?: 'voyage'|'radar'|'chart'|'engine'|'tank'|'globe'|'lighthouse';  // animated backdrop behind the scene; pick the one that fits what is being said
+  motif?: 'voyage'|'radar'|'chart'|'engine'|'tank'|'globe'|'lighthouse'|'mooring'|'generator'|'pump'|'fire'|'lifeboat'|'anchor'|'cargo'|'weather'|'clock'|'bridge'|'inspection';  // animated backdrop behind the scene; pick the one that shows what is being said
   visual?: {type:'colreg'; scenario:'crossing'|'head-on'|'overtaking'} | {type:'radar'; cpaNm:number; tcpaMin:number; limitNm:number} | {type:'ukc'; depth:number; draft:number; squat:number};
 };
 ```
@@ -63,3 +63,11 @@ Rules that are never broken:
 7. Length: aim for 40 to 50 seconds, which is 580 to 720 characters of narration in total. Go longer (up to about 1,000 characters) only when a rule or procedure cannot be explained properly in less. One idea per scene.
 9. The video is animation-led. The screen shows a moving illustration with very few words: a short heading and, for lists, item titles of two to five words. Body text is not shown on screen, so never rely on it; put the explanation in the narration.
 8. Regulation videos answer, in this order: what changed, why, when, who is affected, what the ship must do.
+
+
+## Visual variety (hard rule, enforced by `validate`)
+Every video must look different from the others. Set `motif` on every scene yourself.
+- Inside one video: at least 4 different visuals across the scenes (a 3D/diagram scene counts as its own visual), and no motif on more than 2 scenes.
+- Against the last 6 videos: at most 40% of the visuals may be shared with any one of them, and the hook must not open on the same visual as any of the last 3.
+- Motifs: voyage (ship at sea), radar (PPI sweep), chart (nautical chart), engine (main engine pistons), tank (enclosed space), globe (world/regulation areas), lighthouse (danger/night), mooring (lines, bollards, snap-back zone), generator (switchboard, alternator), pump (pipes, valves, flow), fire (machinery-space fire, CO2), lifeboat (davit launch), anchor (windlass, chain, seabed), cargo (container crane), weather (storm, heavy seas), clock (24-hour work/rest ring), bridge (wheelhouse, consoles), inspection (checklist, certificate, stamp).
+- Pick the motif that shows the scene's own point (a scene about records → inspection, about fatigue → clock), not one motif for the whole topic.

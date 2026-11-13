@@ -20,7 +20,7 @@
       "kind": "hook",
       "label": "STCW AND MLC",
       "heading": "Four numbers every seafarer must know",
-      "motif": "globe",
+      "motif": "weather",
       "narration": "Fatigue is a safety hazard, so international rules set your minimum rest. Four numbers: ten, seventy-seven, six and fourteen."
     },
     {
@@ -28,7 +28,7 @@
       "kind": "compare",
       "label": "MINIMUM REST",
       "heading": "The two limits",
-      "motif": "globe",
+      "motif": "clock",
       "items": [
         {
           "title": "Any 24 hours",
@@ -50,7 +50,7 @@
       "kind": "bullets",
       "label": "SPLITTING REST",
       "heading": "How rest may be divided",
-      "motif": "globe",
+      "motif": "bridge",
       "items": [
         {
           "title": "Two periods maximum"
@@ -76,7 +76,7 @@
       "kind": "statement",
       "label": "RECORDS",
       "heading": "Record it honestly, every day",
-      "motif": "globe",
+      "motif": "inspection",
       "narration": "Drills should disturb rest as little as possible. Your daily rest hours are recorded on board, and you get a copy. Record the truth: false records hide fatigue."
     },
     {
@@ -84,7 +84,7 @@
       "kind": "takeaway",
       "label": "KEY TAKEAWAY",
       "heading": "10 in 24. 77 in 7.",
-      "motif": "globe",
+      "motif": "clock",
       "narration": "Remember: ten in twenty-four, seventy-seven in seven."
     },
     {

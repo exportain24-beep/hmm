@@ -48,7 +48,7 @@ Set `factCheck.status` to `verified` only when every number, date, name, rule nu
 
 ## Video spec rules
 
-Follow `prompts/script.md` and `src/shared/types.ts` (ContentSpec). Aim for 40-50 s (580-720 characters of narration); longer only when a rule cannot be explained in less. Animation-led: short heading, item titles of 2-5 words, the explanation in the narration. Use 3D scenes where they explain (colreg3d, contour3d, zoc3d), radar/ukc diagrams, and set a fitting `motif` for other scenes. Thumbnail text 3-7 words, complementing (not repeating) the title.
+Follow `prompts/script.md` and `src/shared/types.ts` (ContentSpec). Aim for 40-50 s (580-720 characters of narration); longer only when a rule cannot be explained in less. Animation-led: short heading, item titles of 2-5 words, the explanation in the narration. Use 3D scenes where they explain (colreg3d, contour3d, zoc3d), radar/ukc diagrams, and set a fitting `motif` on every other scene. Every video must look different: see "Visual variety" in `prompts/script.md` (at least 4 different visuals per video, no motif on more than 2 scenes, max 40% overlap with any of the last 6 videos; `validate` rejects anything else). The renderer also gives every video its own camera move, framing and colour grade. Thumbnail text 3-7 words, complementing (not repeating) the title.
 
 ## Photo card rules (reference design, 13 Nov 2026)
 

@@ -3,6 +3,7 @@
 import React from 'react';
 import type {ContentSpec, Motif, SceneSpec} from '../../shared/types';
 import {C} from '../theme';
+import {EXTRA_MOTIFS} from './MotifsExtra';
 
 type P = {t: number; accent: string; id: string};
 const W = 1000;
@@ -270,31 +271,68 @@ const Lighthouse: React.FC<P> = ({t, accent}) => {
   );
 };
 
-const MAP: Record<Motif, React.FC<P>> = {voyage: Voyage, radar: Radar, chart: Chart, engine: Engine, tank: Tank, globe: Globe, lighthouse: Lighthouse};
+const MAP: Record<Motif, React.FC<P>> = {voyage: Voyage, radar: Radar, chart: Chart, engine: Engine, tank: Tank, globe: Globe, lighthouse: Lighthouse, ...EXTRA_MOTIFS};
 
-/** Chooses a backdrop from the words of the scene when the script did not name one. */
-export const pickMotif = (spec: ContentSpec, scene: SceneSpec): Motif => {
-  if (scene.motif) return scene.motif;
-  const s = `${scene.label ?? ''} ${scene.heading ?? ''} ${scene.narration}`.toLowerCase();
-  if (/radar|arpa|\bcpa\b|tcpa|target/.test(s)) return 'radar';
-  if (/enclosed|oxygen|atmosphere|gas test|permit|\btank|void space|rescue/.test(s)) return 'tank';
-  if (/engine|fuel|separator|bilge|purifier|boiler|sulphur|ppm|oil record|machinery|changeover/.test(s)) return 'engine';
-  if (/chart|ecdis|contour|catzoc|passage|survey|sounding|depth|draught|keel/.test(s)) return 'chart';
-  if (/\bimo\b|marpol|solas|stcw|emission|\beca|regulation|convention|in force|areas|port state/.test(s)) return 'globe';
-  if (/danger|risk|warning|alarm|collision|night|lights?\b|who gives way|give way|keep clear/.test(s)) return 'lighthouse';
-  const byPillar: Partial<Record<string, Motif>> = {engine: 'engine', regulation: 'globe', environment: 'globe', safety: 'lighthouse', terminology: 'chart', equipment: 'chart', colreg: 'lighthouse', market: 'globe', news: 'voyage'};
-  return byPillar[spec.pillar] ?? 'voyage';
+export {pickMotif} from '../../shared/motifs';
+
+/** Stable 32-bit hash of a string. */
+const hash = (str: string) => {
+  let h = 2166136261;
+  for (let i = 0; i < str.length; i++) h = Math.imul(h ^ str.charCodeAt(i), 16777619);
+  return h >>> 0;
 };
 
-/** The animated picture itself, slowly pushing in so even a held scene keeps moving. */
-export const MotifArt: React.FC<{motif: Motif; t: number; seconds: number; accent: string; id: string; width: number; height: number; dim?: number}> = ({motif, t, seconds, accent, id, width, height, dim = 0}) => {
+/** The animated picture itself. `seed` (the video id) gives every video its own camera move, framing,
+ * colour grade and animation phase, and each scene of a video moves differently from the one before. */
+export const MotifArt: React.FC<{motif: Motif; t: number; seconds: number; accent: string; id: string; width: number; height: number; dim?: number; seed?: string; index?: number}> = ({motif, t, seconds, accent, id, width, height, dim = 0, seed = '', index = 0}) => {
   const M = MAP[motif] ?? Voyage;
   const k = Math.min(1, t / Math.max(1, seconds));
+  const e = k * k * (3 - 2 * k);
   const safeId = id.replace(/[^a-zA-Z0-9]/g, '');
+  const h = hash(`${seed}|${motif}`);
+  const move = (h + index * 3) % 6;
+  const zoom = 1.14 + ((h >>> 3) % 5) * 0.04;
+  const fx = (((h >>> 6) % 7) - 3) * 22;
+  const fy = (((h >>> 9) % 5) - 2) * 18;
+  const hue = (((h >>> 12) % 9) - 4) * 4.5;
+  const sat = 0.95 + ((h >>> 16) % 5) * 0.07;
+  const phase = ((h >>> 20) % 9) * 1.37;
+  let s = zoom;
+  let dx = fx;
+  let dy = fy;
+  if (move === 0) s = zoom + 0.08 * e;
+  else if (move === 1) s = zoom + 0.1 - 0.08 * e;
+  else if (move === 2) dx = fx - 50 + 100 * e;
+  else if (move === 3) dx = fx + 50 - 100 * e;
+  else if (move === 4) dy = fy + 40 - 80 * e;
+  else { dx = fx - 40 + 80 * e; dy = fy + 30 - 60 * e; s = zoom + 0.04 * e; }
+  // never show the edge of the art: keep the pan inside the zoom margin
+  const mx = ((s - 1) * W) / (2 * s) - 4;
+  const my = ((s - 1) * H) / (2 * s) - 4;
+  dx = Math.max(-mx, Math.min(mx, dx));
+  dy = Math.max(-my, Math.min(my, dy));
+  const hr = (hue * Math.PI) / 180;
+  const cos = Math.cos(hr);
+  const sin = Math.sin(hr);
+  // hue rotation and saturation as one colour matrix (keeps the art on-brand, only shifts its grade)
+  const m = [
+    0.213 + cos * 0.787 - sin * 0.213, 0.715 - cos * 0.715 - sin * 0.715, 0.072 - cos * 0.072 + sin * 0.928,
+    0.213 - cos * 0.213 + sin * 0.143, 0.715 + cos * 0.285 + sin * 0.14, 0.072 - cos * 0.072 - sin * 0.283,
+    0.213 - cos * 0.213 - sin * 0.787, 0.715 - cos * 0.715 + sin * 0.715, 0.072 + cos * 0.928 + sin * 0.072,
+  ];
+  const sm = (r: number, c: number) => {
+    const lum = [0.213, 0.715, 0.072][c];
+    return (r === c ? sat : 0) + lum * (1 - sat);
+  };
+  const mat = [0, 1, 2].map((r) => [0, 1, 2].map((c) => [0, 1, 2].reduce((acc, j) => acc + sm(r, j) * m[j * 3 + c], 0)));
+  const values = `${mat[0].join(' ')} 0 0 ${mat[1].join(' ')} 0 0 ${mat[2].join(' ')} 0 0 0 0 0 1 0`;
   return (
     <svg width={width} height={height} viewBox={`0 0 ${W} ${H}`} preserveAspectRatio="xMidYMid slice" style={{position: 'absolute', left: 0, top: 0, display: 'block'}}>
-      <g transform={`translate(${W / 2} ${H / 2}) scale(${1.02 + 0.07 * k}) translate(${-W / 2 + 10 * Math.sin(t * 0.25)} ${-H / 2})`}>
-        <M t={t} accent={accent} id={safeId} />
+      <defs><filter id={`grade${safeId}`} colorInterpolationFilters="sRGB"><feColorMatrix type="matrix" values={values} /></filter></defs>
+      <g filter={`url(#grade${safeId})`}>
+        <g transform={`translate(${W / 2} ${H / 2}) scale(${s.toFixed(4)}) translate(${(-W / 2 + dx).toFixed(2)} ${(-H / 2 + dy).toFixed(2)})`}>
+          <M t={t + phase} accent={accent} id={safeId} />
+        </g>
       </g>
       {dim > 0 ? <rect width={W} height={H} fill="#041020" opacity={dim} /> : null}
     </svg>

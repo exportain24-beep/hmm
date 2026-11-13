@@ -53,7 +53,7 @@ export const Content: React.FC<{L: Layout; children: React.ReactNode; justify?: 
 /** Framed animation stage (same frame as the 3D scenes). Text for the scene is laid over it, never on a still background. */
 export const Stage2D: React.FC<{spec: ContentSpec; scene: SceneSpec; L: Layout; t: number; seconds: number; accent: string; dim?: number; children?: React.ReactNode}> = ({spec, scene, L, t, seconds, accent, dim = 0, children}) => (
   <div style={{position: 'absolute', left: L.panel.x, top: L.panel.y, width: L.panel.w, height: L.panel.h, borderRadius: 34 * L.u, overflow: 'hidden', background: '#020812', border: `3px solid ${C.white}2E`, boxShadow: '0 30px 80px rgba(0,0,0,0.5)'}}>
-    <MotifArt motif={pickMotif(spec, scene)} t={t} seconds={seconds} accent={accent} id={scene.id} width={L.panel.w} height={L.panel.h} dim={dim} />
+    <MotifArt motif={pickMotif(spec, scene)} t={t} seconds={seconds} accent={accent} id={scene.id} width={L.panel.w} height={L.panel.h} dim={dim} seed={spec.id} index={Math.max(0, spec.scenes.indexOf(scene))} />
     <div style={{position: 'absolute', inset: 0}}>{children}</div>
   </div>
 );
@@ -61,7 +61,7 @@ export const Stage2D: React.FC<{spec: ContentSpec; scene: SceneSpec; L: Layout; 
 /** Full-frame animation behind hook, term, takeaway and end card. */
 export const FullBleed: React.FC<{spec: ContentSpec; scene: SceneSpec; t: number; seconds: number; accent: string; width: number; height: number; dim?: number}> = ({spec, scene, t, seconds, accent, width, height, dim = 0.45}) => (
   <div style={{position: 'absolute', inset: 0, overflow: 'hidden'}}>
-    <MotifArt motif={pickMotif(spec, scene)} t={t} seconds={seconds} accent={accent} id={`${scene.id}full`} width={width} height={height} dim={dim} />
+    <MotifArt motif={pickMotif(spec, scene)} t={t} seconds={seconds} accent={accent} id={`${scene.id}full`} width={width} height={height} dim={dim} seed={spec.id} index={Math.max(0, spec.scenes.indexOf(scene))} />
     <div style={{position: 'absolute', inset: 0, background: 'linear-gradient(180deg, rgba(4,14,30,0.82) 0%, rgba(4,14,30,0.12) 26%, rgba(4,14,30,0.10) 58%, rgba(4,14,30,0.92) 86%)'}} />
   </div>
 );

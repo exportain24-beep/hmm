@@ -13,6 +13,7 @@ import {buildMetadata, uploadKit} from './metadata.ts';
 import {archiveQueueFile, choose, dueSlot, findSpec, loadBank, markSlot} from './plan.ts';
 import {makeThumbnail, produce} from './produce.ts';
 import {estimateTimeline} from '../shared/estimate.ts';
+import {varietyProblems} from '../shared/motifs.ts';
 import {setFacebookThumb} from './publish/meta.ts';
 import {PUBLISHERS, publishAll} from './publish/index.ts';
 import {cleanupMedia} from './publish/hosting.ts';
@@ -186,8 +187,13 @@ const main = async () => {
   } else if (cmd === 'validate') {
     let bad = 0;
     const queue = existsSync(p('content/queue')) ? readdirSync(p('content/queue')).filter((f) => f.endsWith('.json')).map((f) => ({spec: JSON.parse(readFileSync(p('content/queue', f), 'utf8'))})) : [];
+    // visual variety: each queued video against the last 6 published videos and the queued ones before it
+    const recent = Object.entries(state.published()).sort((a, b) => String(a[1].producedAt ?? '').localeCompare(String(b[1].producedAt ?? ''))).slice(-6).map(([id]) => findSpec(id)).filter((x): x is NonNullable<typeof x> => Boolean(x));
+    const pending = queue.filter((q) => !state.published()[q.spec.id]).sort((a, b) => String(a.spec.id).localeCompare(String(b.spec.id)));
+    const variety = new Map<string, string[]>();
+    pending.forEach((q, i) => variety.set(q.spec.id, varietyProblems(q.spec, [...recent, ...pending.slice(0, i).map((x) => x.spec)].slice(-6))));
     for (const b of [...loadBank(), ...queue]) {
-      const e = validateSpec(b.spec);
+      const e = [...validateSpec(b.spec), ...(variety.get(b.spec.id) ?? []).map((x) => `variety: ${x}`)];
       console.log(`${e.length ? 'FAIL' : 'ok  '} ${b.spec.id}${e.length ? '\n   - ' + e.join('\n   - ') : ''}`);
       if (e.length) bad++;
     }
