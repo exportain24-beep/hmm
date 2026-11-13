@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T16:29:34.509Z",
+  "updatedAt": "2026-11-13T16:40:10.229Z",
   "feedStatus": {
     "safety4sea": "ok (0)",
     "gcaptain": "ok (12)",
@@ -24,7 +24,7 @@
       "publishedAt": "2026-11-13T11:41:30.000Z",
       "score": 65,
       "scores": {
-        "recency": 0.9,
+        "recency": 0.89,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -96,7 +96,7 @@
       "publishedAt": "2026-11-13T08:10:39.000Z",
       "score": 61,
       "scores": {
-        "recency": 0.83,
+        "recency": 0.82,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -118,9 +118,9 @@
       "url": "https://gcaptain.com/iran-says-tanker-carrying-lng-hit-mine-suffered-explosion-in-hormuz/",
       "summary": "Iran's Revolutionary Guards navy said a tanker carrying liquefied natural gas struck a naval mine and suffered an explosion in the Strait of Hormuz on Friday while using what they described was an \"unauthorized and dangerous route,\" state media reported.",
       "publishedAt": "2026-11-13T14:37:27.000Z",
-      "score": 58,
+      "score": 57,
       "scores": {
-        "recency": 0.96,
+        "recency": 0.95,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -144,7 +144,7 @@
       "publishedAt": "2026-11-13T07:45:00.000Z",
       "score": 57,
       "scores": {
-        "recency": 0.82,
+        "recency": 0.81,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -192,7 +192,7 @@
       "publishedAt": "2026-11-13T13:08:13.000Z",
       "score": 57,
       "scores": {
-        "recency": 0.93,
+        "recency": 0.92,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -216,7 +216,7 @@
       "publishedAt": "2026-11-13T01:30:10.000Z",
       "score": 56,
       "scores": {
-        "recency": 0.71,
+        "recency": 0.7,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -312,7 +312,7 @@
       "publishedAt": "2026-11-13T11:46:27.000Z",
       "score": 53,
       "scores": {
-        "recency": 0.9,
+        "recency": 0.89,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -384,7 +384,7 @@
       "publishedAt": "2026-11-13T09:52:44.000Z",
       "score": 51,
       "scores": {
-        "recency": 0.86,
+        "recency": 0.85,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -408,7 +408,7 @@
       "publishedAt": "2026-11-12T13:25:35.000Z",
       "score": 51,
       "scores": {
-        "recency": 0.54,
+        "recency": 0.53,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -540,30 +540,6 @@
       }
     },
     {
-      "fingerprint": "6470611f8e68cc470d31c71c8a8941ef3a63aa2f",
-      "storyKey": "9ab264038caab387351cfdbd51a6e74329a62825",
-      "sourceId": "marineinsight",
-      "sourceName": "Marine Insight",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "US Shipbuilder Selects “World’s Largest Shiplift” For Texas Shipyard",
-      "url": "https://www.marineinsight.com/worlds-largest-shiplift-texas-shipyard/?utm_source=rss utm_medium=rss utm_campaign=worlds-largest-shiplift-texas-shipyard",
-      "summary": "The world's largest shiplift, as described by Saronic and Syncrolift, will be supplied for the Port Alpha shipyard in Brownsville, Texas, under a contract awarded to Syncrolift AS.",
-      "publishedAt": "2026-11-13T12:52:44.000Z",
-      "score": 49,
-      "scores": {
-        "recency": 0.92,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.67,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 1,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
       "fingerprint": "b3b1c9f87922221f0a0567dd976ef76f3c7f453d",
       "storyKey": "cd773a6d2194e5cdc7756aa3efd28aa6c3affcf6",
       "sourceId": "gcaptain",
@@ -576,9 +552,33 @@
       "publishedAt": "2026-11-12T17:23:36.000Z",
       "score": 48,
       "scores": {
-        "recency": 0.59,
+        "recency": 0.58,
         "reliability": 0.85,
         "maritimeRelevance": 1,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 1,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "6470611f8e68cc470d31c71c8a8941ef3a63aa2f",
+      "storyKey": "9ab264038caab387351cfdbd51a6e74329a62825",
+      "sourceId": "marineinsight",
+      "sourceName": "Marine Insight",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "US Shipbuilder Selects “World’s Largest Shiplift” For Texas Shipyard",
+      "url": "https://www.marineinsight.com/worlds-largest-shiplift-texas-shipyard/?utm_source=rss utm_medium=rss utm_campaign=worlds-largest-shiplift-texas-shipyard",
+      "summary": "The world's largest shiplift, as described by Saronic and Syncrolift, will be supplied for the Port Alpha shipyard in Brownsville, Texas, under a contract awarded to Syncrolift AS.",
+      "publishedAt": "2026-11-13T12:52:44.000Z",
+      "score": 48,
+      "scores": {
+        "recency": 0.92,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.67,
         "educationalValue": 0,
         "seafarerValue": 0,
         "shareability": 1,
@@ -600,7 +600,7 @@
       "publishedAt": "2026-11-13T11:48:52.000Z",
       "score": 48,
       "scores": {
-        "recency": 0.9,
+        "recency": 0.89,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1080,7 +1080,7 @@
       "publishedAt": "2026-11-12T02:26:54.000Z",
       "score": 40,
       "scores": {
-        "recency": 0.42,
+        "recency": 0.41,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1236,30 +1236,6 @@
       }
     },
     {
-      "fingerprint": "3565d4a008abb3d8d5aeecc108496a317816d52f",
-      "storyKey": "0136d0cd7b54aa8867fc5f3feb8b6496d461f779",
-      "sourceId": "marex",
-      "sourceName": "The Maritime Executive",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Fishing Tender Goes Down off Thailand, Leaving Six Missing",
-      "url": "https://maritime-executive.com/article/fishing-tender-goes-down-off-thailand-leaving-six-missing",
-      "summary": "A fishing tender has gone down off the coast of Sattahip, Thailand, leaving six crewmembers missing, according to local authorities. The tender Venus...",
-      "publishedAt": "2026-11-12T22:30:00.000Z",
-      "score": 39,
-      "scores": {
-        "recency": 0.66,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.33,
-        "educationalValue": 0,
-        "seafarerValue": 0.5,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
       "fingerprint": "4efb637eee9666de06aef299f607fd4f53313480",
       "storyKey": "79ab28af7027e6e3f6f62b86ad3622579ef32804",
       "sourceId": "gcaptain",
@@ -1272,7 +1248,7 @@
       "publishedAt": "2026-11-13T14:39:48.000Z",
       "score": 38,
       "scores": {
-        "recency": 0.96,
+        "recency": 0.95,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1320,11 +1296,35 @@
       "publishedAt": "2026-11-13T00:48:00.000Z",
       "score": 38,
       "scores": {
-        "recency": 0.7,
+        "recency": 0.69,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
         "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "3565d4a008abb3d8d5aeecc108496a317816d52f",
+      "storyKey": "0136d0cd7b54aa8867fc5f3feb8b6496d461f779",
+      "sourceId": "marex",
+      "sourceName": "The Maritime Executive",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Fishing Tender Goes Down off Thailand, Leaving Six Missing",
+      "url": "https://maritime-executive.com/article/fishing-tender-goes-down-off-thailand-leaving-six-missing",
+      "summary": "A fishing tender has gone down off the coast of Sattahip, Thailand, leaving six crewmembers missing, according to local authorities. The tender Venus...",
+      "publishedAt": "2026-11-12T22:30:00.000Z",
+      "score": 38,
+      "scores": {
+        "recency": 0.66,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0,
+        "seafarerValue": 0.5,
         "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0,
@@ -1416,7 +1416,7 @@
       "publishedAt": "2026-11-13T09:50:00.000Z",
       "score": 36,
       "scores": {
-        "recency": 0.86,
+        "recency": 0.85,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1584,7 +1584,7 @@
       "publishedAt": "2026-11-12T01:25:00.000Z",
       "score": 33,
       "scores": {
-        "recency": 0.41,
+        "recency": 0.4,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1608,7 +1608,7 @@
       "publishedAt": "2026-11-12T19:37:00.000Z",
       "score": 32,
       "scores": {
-        "recency": 0.62,
+        "recency": 0.61,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1776,7 +1776,7 @@
       "publishedAt": "2026-11-12T01:24:00.000Z",
       "score": 29,
       "scores": {
-        "recency": 0.41,
+        "recency": 0.4,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1944,7 +1944,7 @@
       "publishedAt": "2026-11-12T01:24:00.000Z",
       "score": 28,
       "scores": {
-        "recency": 0.41,
+        "recency": 0.4,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
