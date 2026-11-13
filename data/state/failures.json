@@ -151,5 +151,19 @@
     "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"error_subcode\":5258005,\"fbtrace_id\":\"A8XlisV6YDuS4f0SILLHVKs\"}}",
     "at": "2026-11-13T01:54:50.182Z",
     "run": "43344733745"
+  },
+  {
+    "id": "maersk-it-security-incident-legacy-system",
+    "stage": "card:facebook",
+    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"error_subcode\":5258005,\"fbtrace_id\":\"ADrRtNoeMIDpdNPuRg2-Zq9\"}}",
+    "at": "2026-11-13T02:25:45.316Z",
+    "run": "43352031317"
+  },
+  {
+    "id": "maersk-it-security-incident-legacy-system",
+    "stage": "card:instagram",
+    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"error_subcode\":5258005,\"fbtrace_id\":\"ASANB2FwQyjIoEzpfE-wv8g\"}}",
+    "at": "2026-11-13T02:25:45.378Z",
+    "run": "43352031317"
   }
 ]
