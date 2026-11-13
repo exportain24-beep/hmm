@@ -109,5 +109,19 @@
     "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"error_subcode\":5258005,\"fbtrace_id\":\"ATYAVd97mTuWBjhYld_PNMT\"}}",
     "at": "2026-11-12T23:25:20.007Z",
     "run": "43328627856"
+  },
+  {
+    "id": "panama-canal-50-foot-draft-34-slots",
+    "stage": "card:facebook",
+    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"error_subcode\":5258005,\"fbtrace_id\":\"AQ_sw8i3EEus_byuYYhw0KR\"}}",
+    "at": "2026-11-13T00:25:09.309Z",
+    "run": "43336825182"
+  },
+  {
+    "id": "panama-canal-50-foot-draft-34-slots",
+    "stage": "card:instagram",
+    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"error_subcode\":5258005,\"fbtrace_id\":\"AOdPlHwLsYOX9xWntVyZXWT\"}}",
+    "at": "2026-11-13T00:25:09.473Z",
+    "run": "43336825182"
   }
 ]
