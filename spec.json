@@ -1,0 +1,196 @@
+{
+  "id": "preview-toon-enclosed-space",
+  "template": "safety-alert",
+  "pillar": "safety",
+  "audience": [
+    "Rating",
+    "Deck Cadet",
+    "Engine Cadet",
+    "Junior Engineer",
+    "OOW"
+  ],
+  "title": "Enclosed space entry (toon engine preview)",
+  "thumbnailText": "NO PERMIT, NO ENTRY",
+  "aspect": "9:16",
+  "mood": "tense",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "label": "SAFETY",
+      "heading": "The space looks safe. The air inside may not be.",
+      "narration": "An enclosed space can look perfectly safe, and still hold no air that you can breathe."
+    },
+    {
+      "id": "risk",
+      "kind": "statement",
+      "label": "THE RISK",
+      "heading": "You cannot see or smell low oxygen",
+      "body": "Rusting steel, some cargoes and fresh coatings use up oxygen. Toxic and flammable gases collect in tanks, holds and void spaces.",
+      "narration": "Rust, some cargoes and fresh coatings use up oxygen, and toxic gases collect in tanks and void spaces. Your senses will not warn you.",
+      "motif": "tank"
+    },
+    {
+      "id": "test",
+      "kind": "toon",
+      "label": "ATMOSPHERE TEST",
+      "heading": "Oxygen by volume before entry",
+      "narration": "Before anyone enters, test the atmosphere from outside. Oxygen should read 21% by volume, with flammable and toxic gases within your procedure's limits.",
+      "toon": {
+        "set": "engineroom",
+        "shot": "medium",
+        "cast": [
+          {
+            "role": "engineer",
+            "arms": "hold"
+          },
+          {
+            "role": "rating"
+          }
+        ],
+        "beats": [
+          {
+            "on": "test",
+            "who": 0,
+            "arms": "reach",
+            "face": "thinking"
+          },
+          {
+            "on": "Oxygen",
+            "who": 0,
+            "face": "happy",
+            "fx": "sparkle"
+          },
+          {
+            "on": "limits",
+            "who": 1,
+            "arms": "point",
+            "face": "determined"
+          }
+        ]
+      }
+    },
+    {
+      "id": "steps",
+      "kind": "checklist",
+      "label": "BEFORE ENTRY",
+      "heading": "No permit, no entry",
+      "items": [
+        {
+          "title": "Enclosed space entry permit issued"
+        },
+        {
+          "title": "Space isolated and ventilated"
+        },
+        {
+          "title": "Atmosphere tested, then monitored"
+        },
+        {
+          "title": "Attendant at the entrance"
+        },
+        {
+          "title": "Rescue equipment ready"
+        }
+      ],
+      "cues": [
+        "entry permit",
+        "Isolate",
+        "Test the atmosphere",
+        "attendant",
+        "rescue equipment"
+      ],
+      "narration": "Get the entry permit. Isolate and ventilate the space. Test the atmosphere, and keep monitoring it. Post an attendant at the entrance with agreed communications. And have rescue equipment ready."
+    },
+    {
+      "id": "rescue",
+      "kind": "toon",
+      "label": "IF SOMEONE COLLAPSES",
+      "heading": "Do not rush in",
+      "body": "Raise the alarm. Enter only as a trained rescue team wearing breathing apparatus.",
+      "narration": "If someone collapses inside, do not rush in. Raise the alarm, and enter only as a trained rescue team with breathing apparatus.",
+      "toon": {
+        "set": "quay",
+        "time": "golden",
+        "shot": "wide",
+        "cast": [
+          {
+            "role": "rating",
+            "face": "shocked"
+          },
+          {
+            "role": "master",
+            "arms": "hips"
+          }
+        ],
+        "beats": [
+          {
+            "on": "collapses",
+            "who": 0,
+            "face": "shocked",
+            "fx": "exclaim",
+            "hop": true
+          },
+          {
+            "on": "alarm",
+            "who": 1,
+            "arms": "armsUp",
+            "face": "angry",
+            "fx": "ring"
+          },
+          {
+            "on": "trained",
+            "who": 1,
+            "arms": "point",
+            "face": "determined"
+          }
+        ]
+      }
+    },
+    {
+      "id": "take",
+      "kind": "takeaway",
+      "label": "KEY TAKEAWAY",
+      "heading": "No permit, no test, no entry.",
+      "narration": "No permit, no test, no entry. Every time.",
+      "motif": "inspection"
+    },
+    {
+      "id": "end",
+      "kind": "endcard",
+      "narration": "Follow HeyMariner for practical maritime knowledge."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Revised recommendations for entering enclosed spaces aboard ships (resolution A.1050(27))",
+      "publisher": "IMO",
+      "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.1050(27).pdf"
+    }
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner editorial bank: written and checked against the cited conventions",
+    "checkedAt": "2026-11-12"
+  },
+  "meta": {
+    "description": "Enclosed spaces on board can hold an atmosphere that cannot support life, with no warning to the senses. The precautions every seafarer must follow before entry: permit, isolation, ventilation, testing, attendant and rescue readiness.",
+    "keywords": [
+      "enclosed space entry",
+      "permit to work",
+      "oxygen deficiency",
+      "gas testing",
+      "shipboard safety",
+      "seafarer safety"
+    ],
+    "hashtags": [
+      "#safetyatsea",
+      "#enclosedspace",
+      "#seafarers",
+      "#permittowork",
+      "#marinesafety"
+    ]
+  },
+  "origin": {
+    "type": "bank"
+  }
+}

@@ -1,0 +1,716 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "totalSeconds": 57.733333333333334,
+  "voice": "elevenlabs",
+  "scenes": [
+    {
+      "id": "hook",
+      "start": 0,
+      "end": 5.930000000000001,
+      "cueTimes": [],
+      "words": [
+        {
+          "text": "An",
+          "start": 0.25,
+          "end": 0.37
+        },
+        {
+          "text": "enclosed",
+          "start": 0.41000000000000003,
+          "end": 0.842
+        },
+        {
+          "text": "space",
+          "start": 0.89,
+          "end": 1.29
+        },
+        {
+          "text": "can",
+          "start": 1.37,
+          "end": 1.45
+        },
+        {
+          "text": "look",
+          "start": 1.53,
+          "end": 1.77
+        },
+        {
+          "text": "perfectly",
+          "start": 2.01,
+          "end": 2.33
+        },
+        {
+          "text": "safe,",
+          "start": 2.49,
+          "end": 3.05
+        },
+        {
+          "text": "and",
+          "start": 3.17,
+          "end": 3.29
+        },
+        {
+          "text": "still",
+          "start": 3.45,
+          "end": 3.61
+        },
+        {
+          "text": "hold",
+          "start": 3.69,
+          "end": 3.93
+        },
+        {
+          "text": "no",
+          "start": 4.09,
+          "end": 4.25
+        },
+        {
+          "text": "air",
+          "start": 4.33,
+          "end": 4.57
+        },
+        {
+          "text": "that",
+          "start": 4.65,
+          "end": 4.73
+        },
+        {
+          "text": "you",
+          "start": 4.77,
+          "end": 4.819999999999999
+        },
+        {
+          "text": "can",
+          "start": 4.89,
+          "end": 4.97
+        },
+        {
+          "text": "breathe.",
+          "start": 5.05,
+          "end": 5.69
+        }
+      ]
+    },
+    {
+      "id": "risk",
+      "start": 5.930000000000001,
+      "end": 15.73,
+      "cueTimes": [],
+      "words": [
+        {
+          "text": "Rust,",
+          "start": 6.050000000000001,
+          "end": 6.530000000000001
+        },
+        {
+          "text": "some",
+          "start": 6.8500000000000005,
+          "end": 7.0600000000000005
+        },
+        {
+          "text": "cargoes",
+          "start": 7.090000000000001,
+          "end": 7.65
+        },
+        {
+          "text": "and",
+          "start": 7.73,
+          "end": 7.8100000000000005
+        },
+        {
+          "text": "fresh",
+          "start": 7.890000000000001,
+          "end": 8.13
+        },
+        {
+          "text": "coatings",
+          "start": 8.21,
+          "end": 8.610000000000001
+        },
+        {
+          "text": "use",
+          "start": 8.690000000000001,
+          "end": 8.850000000000001
+        },
+        {
+          "text": "up",
+          "start": 8.93,
+          "end": 9.010000000000002
+        },
+        {
+          "text": "oxygen,",
+          "start": 9.09,
+          "end": 9.89
+        },
+        {
+          "text": "and",
+          "start": 9.97,
+          "end": 10.05
+        },
+        {
+          "text": "toxic",
+          "start": 10.13,
+          "end": 10.530000000000001
+        },
+        {
+          "text": "gases",
+          "start": 10.57,
+          "end": 11.010000000000002
+        },
+        {
+          "text": "collect",
+          "start": 11.170000000000002,
+          "end": 11.330000000000002
+        },
+        {
+          "text": "in",
+          "start": 11.41,
+          "end": 11.490000000000002
+        },
+        {
+          "text": "tanks",
+          "start": 11.530000000000001,
+          "end": 11.89
+        },
+        {
+          "text": "and",
+          "start": 11.97,
+          "end": 12.05
+        },
+        {
+          "text": "void",
+          "start": 12.13,
+          "end": 12.370000000000001
+        },
+        {
+          "text": "spaces.",
+          "start": 12.65,
+          "end": 13.41
+        },
+        {
+          "text": "Your",
+          "start": 13.530000000000001,
+          "end": 13.65
+        },
+        {
+          "text": "senses",
+          "start": 13.81,
+          "end": 14.13
+        },
+        {
+          "text": "will",
+          "start": 14.290000000000001,
+          "end": 14.450000000000001
+        },
+        {
+          "text": "not",
+          "start": 14.57,
+          "end": 14.690000000000001
+        },
+        {
+          "text": "warn",
+          "start": 14.770000000000001,
+          "end": 15.010000000000002
+        },
+        {
+          "text": "you.",
+          "start": 15.09,
+          "end": 15.49
+        }
+      ]
+    },
+    {
+      "id": "test",
+      "start": 15.73,
+      "end": 26.65,
+      "cueTimes": [],
+      "words": [
+        {
+          "text": "Before",
+          "start": 15.85,
+          "end": 16.217
+        },
+        {
+          "text": "anyone",
+          "start": 16.25,
+          "end": 16.623
+        },
+        {
+          "text": "enters,",
+          "start": 16.65,
+          "end": 17.53
+        },
+        {
+          "text": "test",
+          "start": 17.61,
+          "end": 17.85
+        },
+        {
+          "text": "the",
+          "start": 17.89,
+          "end": 17.939999999999998
+        },
+        {
+          "text": "atmosphere",
+          "start": 18.009999999999998,
+          "end": 18.57
+        },
+        {
+          "text": "from",
+          "start": 18.65,
+          "end": 18.73
+        },
+        {
+          "text": "outside.",
+          "start": 18.81,
+          "end": 19.65
+        },
+        {
+          "text": "Oxygen",
+          "start": 19.93,
+          "end": 20.41
+        },
+        {
+          "text": "should",
+          "start": 20.53,
+          "end": 20.65
+        },
+        {
+          "text": "read",
+          "start": 20.77,
+          "end": 20.89
+        },
+        {
+          "text": "21%",
+          "start": 20.97,
+          "end": 21.77
+        },
+        {
+          "text": "by",
+          "start": 21.85,
+          "end": 21.93
+        },
+        {
+          "text": "volume,",
+          "start": 22.009999999999998,
+          "end": 22.73
+        },
+        {
+          "text": "with",
+          "start": 22.81,
+          "end": 22.89
+        },
+        {
+          "text": "flammable",
+          "start": 22.97,
+          "end": 23.53
+        },
+        {
+          "text": "and",
+          "start": 23.65,
+          "end": 23.77
+        },
+        {
+          "text": "toxic",
+          "start": 23.85,
+          "end": 24.17
+        },
+        {
+          "text": "gases",
+          "start": 24.25,
+          "end": 24.65
+        },
+        {
+          "text": "within",
+          "start": 24.73,
+          "end": 24.97
+        },
+        {
+          "text": "your",
+          "start": 25.049999999999997,
+          "end": 25.13
+        },
+        {
+          "text": "procedure's",
+          "start": 25.33,
+          "end": 25.689999999999998
+        },
+        {
+          "text": "limits.",
+          "start": 25.93,
+          "end": 26.41
+        }
+      ]
+    },
+    {
+      "id": "steps",
+      "start": 26.65,
+      "end": 39.65,
+      "cueTimes": [
+        0.4400000000000013,
+        1.4000000000000021,
+        4.120000000000001,
+        7.399999999999999,
+        11.240000000000002
+      ],
+      "words": [
+        {
+          "text": "Get",
+          "start": 26.77,
+          "end": 26.97
+        },
+        {
+          "text": "the",
+          "start": 27.009999999999998,
+          "end": 27.076999999999998
+        },
+        {
+          "text": "entry",
+          "start": 27.09,
+          "end": 27.442
+        },
+        {
+          "text": "permit.",
+          "start": 27.49,
+          "end": 27.97
+        },
+        {
+          "text": "Isolate",
+          "start": 28.05,
+          "end": 29.009999999999998
+        },
+        {
+          "text": "and",
+          "start": 29.09,
+          "end": 29.169999999999998
+        },
+        {
+          "text": "ventilate",
+          "start": 29.33,
+          "end": 29.73
+        },
+        {
+          "text": "the",
+          "start": 29.77,
+          "end": 29.82
+        },
+        {
+          "text": "space.",
+          "start": 29.89,
+          "end": 30.57
+        },
+        {
+          "text": "Test",
+          "start": 30.77,
+          "end": 31.009999999999998
+        },
+        {
+          "text": "the",
+          "start": 31.09,
+          "end": 31.17
+        },
+        {
+          "text": "atmosphere,",
+          "start": 31.25,
+          "end": 31.97
+        },
+        {
+          "text": "and",
+          "start": 32.05,
+          "end": 32.13
+        },
+        {
+          "text": "keep",
+          "start": 32.29,
+          "end": 32.45
+        },
+        {
+          "text": "monitoring",
+          "start": 32.53,
+          "end": 33.01
+        },
+        {
+          "text": "it.",
+          "start": 33.09,
+          "end": 33.33
+        },
+        {
+          "text": "Post",
+          "start": 33.65,
+          "end": 33.89
+        },
+        {
+          "text": "an",
+          "start": 33.97,
+          "end": 34.019999999999996
+        },
+        {
+          "text": "attendant",
+          "start": 34.05,
+          "end": 34.53
+        },
+        {
+          "text": "at",
+          "start": 34.57,
+          "end": 34.62
+        },
+        {
+          "text": "the",
+          "start": 34.69,
+          "end": 34.769999999999996
+        },
+        {
+          "text": "entrance",
+          "start": 34.85,
+          "end": 35.25
+        },
+        {
+          "text": "with",
+          "start": 35.33,
+          "end": 35.41
+        },
+        {
+          "text": "agreed",
+          "start": 35.53,
+          "end": 35.81
+        },
+        {
+          "text": "communications.",
+          "start": 35.89,
+          "end": 37.09
+        },
+        {
+          "text": "And",
+          "start": 37.21,
+          "end": 37.33
+        },
+        {
+          "text": "have",
+          "start": 37.65,
+          "end": 37.81
+        },
+        {
+          "text": "rescue",
+          "start": 37.89,
+          "end": 38.21
+        },
+        {
+          "text": "equipment",
+          "start": 38.29,
+          "end": 38.69
+        },
+        {
+          "text": "ready.",
+          "start": 38.85,
+          "end": 39.41
+        }
+      ]
+    },
+    {
+      "id": "rescue",
+      "start": 39.65,
+      "end": 48.33,
+      "cueTimes": [],
+      "words": [
+        {
+          "text": "If",
+          "start": 39.769999999999996,
+          "end": 39.88999999999999
+        },
+        {
+          "text": "someone",
+          "start": 39.92999999999999,
+          "end": 40.227
+        },
+        {
+          "text": "collapses",
+          "start": 40.24999999999999,
+          "end": 40.809999999999995
+        },
+        {
+          "text": "inside,",
+          "start": 41.089999999999996,
+          "end": 41.61
+        },
+        {
+          "text": "do",
+          "start": 41.69,
+          "end": 41.769999999999996
+        },
+        {
+          "text": "not",
+          "start": 41.92999999999999,
+          "end": 42.169999999999995
+        },
+        {
+          "text": "rush",
+          "start": 42.24999999999999,
+          "end": 42.489999999999995
+        },
+        {
+          "text": "in.",
+          "start": 42.56999999999999,
+          "end": 43.209999999999994
+        },
+        {
+          "text": "Raise",
+          "start": 43.29,
+          "end": 43.529999999999994
+        },
+        {
+          "text": "the",
+          "start": 43.56999999999999,
+          "end": 43.62
+        },
+        {
+          "text": "alarm,",
+          "start": 43.809999999999995,
+          "end": 44.169999999999995
+        },
+        {
+          "text": "and",
+          "start": 44.25,
+          "end": 44.33
+        },
+        {
+          "text": "enter",
+          "start": 44.41,
+          "end": 44.73
+        },
+        {
+          "text": "only",
+          "start": 44.809999999999995,
+          "end": 45.209999999999994
+        },
+        {
+          "text": "as",
+          "start": 45.25,
+          "end": 45.3
+        },
+        {
+          "text": "a",
+          "start": 45.37,
+          "end": 45.449999999999996
+        },
+        {
+          "text": "trained",
+          "start": 45.529999999999994,
+          "end": 45.849999999999994
+        },
+        {
+          "text": "rescue",
+          "start": 45.92999999999999,
+          "end": 46.25
+        },
+        {
+          "text": "team",
+          "start": 46.33,
+          "end": 46.56999999999999
+        },
+        {
+          "text": "with",
+          "start": 46.65,
+          "end": 46.809999999999995
+        },
+        {
+          "text": "breathing",
+          "start": 46.88999999999999,
+          "end": 47.129999999999995
+        },
+        {
+          "text": "apparatus.",
+          "start": 47.209999999999994,
+          "end": 48.089999999999996
+        }
+      ]
+    },
+    {
+      "id": "take",
+      "start": 48.33,
+      "end": 52.93,
+      "cueTimes": [],
+      "words": [
+        {
+          "text": "No",
+          "start": 48.449999999999996,
+          "end": 48.56999999999999
+        },
+        {
+          "text": "permit,",
+          "start": 48.60999999999999,
+          "end": 49.41
+        },
+        {
+          "text": "no",
+          "start": 49.489999999999995,
+          "end": 49.56999999999999
+        },
+        {
+          "text": "test,",
+          "start": 49.73,
+          "end": 50.449999999999996
+        },
+        {
+          "text": "no",
+          "start": 50.529999999999994,
+          "end": 50.69
+        },
+        {
+          "text": "entry.",
+          "start": 50.769999999999996,
+          "end": 51.41
+        },
+        {
+          "text": "Every",
+          "start": 51.65,
+          "end": 51.97
+        },
+        {
+          "text": "time.",
+          "start": 52.05,
+          "end": 52.69
+        }
+      ]
+    },
+    {
+      "id": "end",
+      "start": 52.93,
+      "end": 57.733333333333334,
+      "cueTimes": [],
+      "words": [
+        {
+          "text": "Follow",
+          "start": 53.05,
+          "end": 53.37
+        },
+        {
+          "text": "HeyMariner",
+          "start": 53.449999999999996,
+          "end": 54.169999999999995
+        },
+        {
+          "text": "for",
+          "start": 54.25,
+          "end": 54.41
+        },
+        {
+          "text": "practical",
+          "start": 54.489999999999995,
+          "end": 54.89
+        },
+        {
+          "text": "maritime",
+          "start": 55.05,
+          "end": 55.449999999999996
+        },
+        {
+          "text": "knowledge.",
+          "start": 55.529999999999994,
+          "end": 56.25
+        }
+      ]
+    }
+  ]
+}
