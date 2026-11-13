@@ -1,0 +1,664 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "totalSeconds": 54.166666666666664,
+  "voice": "elevenlabs",
+  "scenes": [
+    {
+      "id": "hook",
+      "start": 0,
+      "end": 10.33,
+      "cueTimes": [],
+      "words": [
+        {
+          "text": "Fatigue",
+          "start": 0.25,
+          "end": 0.6699999999999999
+        },
+        {
+          "text": "is",
+          "start": 0.73,
+          "end": 0.85
+        },
+        {
+          "text": "a",
+          "start": 0.89,
+          "end": 0.97
+        },
+        {
+          "text": "safety",
+          "start": 1.05,
+          "end": 1.402
+        },
+        {
+          "text": "hazard,",
+          "start": 1.45,
+          "end": 2.25
+        },
+        {
+          "text": "so",
+          "start": 2.33,
+          "end": 2.49
+        },
+        {
+          "text": "international",
+          "start": 2.81,
+          "end": 3.13
+        },
+        {
+          "text": "rules",
+          "start": 3.21,
+          "end": 3.53
+        },
+        {
+          "text": "set",
+          "start": 3.77,
+          "end": 3.93
+        },
+        {
+          "text": "your",
+          "start": 4.01,
+          "end": 4.17
+        },
+        {
+          "text": "minimum",
+          "start": 4.25,
+          "end": 4.57
+        },
+        {
+          "text": "rest.",
+          "start": 4.65,
+          "end": 5.13
+        },
+        {
+          "text": "Four",
+          "start": 5.53,
+          "end": 5.69
+        },
+        {
+          "text": "numbers:",
+          "start": 5.77,
+          "end": 6.65
+        },
+        {
+          "text": "ten,",
+          "start": 6.81,
+          "end": 7.37
+        },
+        {
+          "text": "seventy-seven,",
+          "start": 7.45,
+          "end": 8.49
+        },
+        {
+          "text": "six",
+          "start": 8.69,
+          "end": 8.89
+        },
+        {
+          "text": "and",
+          "start": 9.13,
+          "end": 9.29
+        },
+        {
+          "text": "fourteen.",
+          "start": 9.41,
+          "end": 10.09
+        }
+      ]
+    },
+    {
+      "id": "min",
+      "start": 10.33,
+      "end": 21.97,
+      "cueTimes": [
+        4.839999999999998,
+        8.6
+      ],
+      "words": [
+        {
+          "text": "Under",
+          "start": 10.45,
+          "end": 10.738
+        },
+        {
+          "text": "STCW",
+          "start": 10.77,
+          "end": 11.489999999999998
+        },
+        {
+          "text": "and",
+          "start": 11.969999999999999,
+          "end": 12.049999999999999
+        },
+        {
+          "text": "the",
+          "start": 12.09,
+          "end": 12.139999999999999
+        },
+        {
+          "text": "Maritime",
+          "start": 12.209999999999999,
+          "end": 12.69
+        },
+        {
+          "text": "Labour",
+          "start": 12.77,
+          "end": 12.93
+        },
+        {
+          "text": "Convention,",
+          "start": 13.01,
+          "end": 13.969999999999999
+        },
+        {
+          "text": "you",
+          "start": 14.049999999999999,
+          "end": 14.209999999999999
+        },
+        {
+          "text": "must",
+          "start": 14.329999999999998,
+          "end": 14.45
+        },
+        {
+          "text": "get",
+          "start": 14.53,
+          "end": 14.61
+        },
+        {
+          "text": "at",
+          "start": 14.69,
+          "end": 14.77
+        },
+        {
+          "text": "least",
+          "start": 14.85,
+          "end": 15.09
+        },
+        {
+          "text": "10",
+          "start": 15.169999999999998,
+          "end": 15.329999999999998
+        },
+        {
+          "text": "hours",
+          "start": 15.41,
+          "end": 15.73
+        },
+        {
+          "text": "of",
+          "start": 15.77,
+          "end": 15.82
+        },
+        {
+          "text": "rest",
+          "start": 15.89,
+          "end": 16.21
+        },
+        {
+          "text": "in",
+          "start": 16.33,
+          "end": 16.45
+        },
+        {
+          "text": "any",
+          "start": 16.53,
+          "end": 16.77
+        },
+        {
+          "text": "24-hour",
+          "start": 16.85,
+          "end": 17.49
+        },
+        {
+          "text": "period,",
+          "start": 17.57,
+          "end": 18.369999999999997
+        },
+        {
+          "text": "and",
+          "start": 18.41,
+          "end": 18.46
+        },
+        {
+          "text": "at",
+          "start": 18.53,
+          "end": 18.61
+        },
+        {
+          "text": "least",
+          "start": 18.729999999999997,
+          "end": 18.85
+        },
+        {
+          "text": "77",
+          "start": 18.93,
+          "end": 19.49
+        },
+        {
+          "text": "hours",
+          "start": 19.57,
+          "end": 19.89
+        },
+        {
+          "text": "in",
+          "start": 19.97,
+          "end": 20.21
+        },
+        {
+          "text": "any",
+          "start": 20.29,
+          "end": 20.53
+        },
+        {
+          "text": "seven-day",
+          "start": 20.61,
+          "end": 21.009999999999998
+        },
+        {
+          "text": "period.",
+          "start": 21.09,
+          "end": 21.729999999999997
+        }
+      ]
+    },
+    {
+      "id": "split",
+      "start": 21.97,
+      "end": 33.13,
+      "cueTimes": [
+        2.200000000000003,
+        4.800000000000001,
+        9.64
+      ],
+      "words": [
+        {
+          "text": "Rest",
+          "start": 22.09,
+          "end": 22.44
+        },
+        {
+          "text": "may",
+          "start": 22.49,
+          "end": 22.623
+        },
+        {
+          "text": "be",
+          "start": 22.65,
+          "end": 22.71
+        },
+        {
+          "text": "split",
+          "start": 22.73,
+          "end": 23.002
+        },
+        {
+          "text": "into",
+          "start": 23.05,
+          "end": 23.31
+        },
+        {
+          "text": "no",
+          "start": 23.37,
+          "end": 23.61
+        },
+        {
+          "text": "more",
+          "start": 23.69,
+          "end": 23.85
+        },
+        {
+          "text": "than",
+          "start": 23.93,
+          "end": 24.09
+        },
+        {
+          "text": "two",
+          "start": 24.17,
+          "end": 24.33
+        },
+        {
+          "text": "periods,",
+          "start": 24.41,
+          "end": 25.21
+        },
+        {
+          "text": "and",
+          "start": 25.33,
+          "end": 25.45
+        },
+        {
+          "text": "one",
+          "start": 25.53,
+          "end": 25.61
+        },
+        {
+          "text": "of",
+          "start": 25.65,
+          "end": 25.7
+        },
+        {
+          "text": "them",
+          "start": 25.77,
+          "end": 26.009999999999998
+        },
+        {
+          "text": "must",
+          "start": 26.25,
+          "end": 26.490000000000002
+        },
+        {
+          "text": "be",
+          "start": 26.57,
+          "end": 26.65
+        },
+        {
+          "text": "at",
+          "start": 26.77,
+          "end": 26.89
+        },
+        {
+          "text": "least",
+          "start": 27.09,
+          "end": 27.29
+        },
+        {
+          "text": "6",
+          "start": 27.37,
+          "end": 27.61
+        },
+        {
+          "text": "hours",
+          "start": 27.77,
+          "end": 27.93
+        },
+        {
+          "text": "long.",
+          "start": 28.009999999999998,
+          "end": 28.89
+        },
+        {
+          "text": "The",
+          "start": 28.97,
+          "end": 29.05
+        },
+        {
+          "text": "gap",
+          "start": 29.17,
+          "end": 29.29
+        },
+        {
+          "text": "between",
+          "start": 29.45,
+          "end": 29.61
+        },
+        {
+          "text": "rest",
+          "start": 29.689999999999998,
+          "end": 29.85
+        },
+        {
+          "text": "periods",
+          "start": 29.93,
+          "end": 30.490000000000002
+        },
+        {
+          "text": "must",
+          "start": 30.65,
+          "end": 30.810000000000002
+        },
+        {
+          "text": "not",
+          "start": 30.93,
+          "end": 31.05
+        },
+        {
+          "text": "exceed",
+          "start": 31.13,
+          "end": 31.53
+        },
+        {
+          "text": "14",
+          "start": 31.61,
+          "end": 32.01
+        },
+        {
+          "text": "hours.",
+          "start": 32.09,
+          "end": 32.89
+        }
+      ]
+    },
+    {
+      "id": "rec",
+      "start": 33.13,
+      "end": 44.61,
+      "cueTimes": [],
+      "words": [
+        {
+          "text": "Drills",
+          "start": 33.25,
+          "end": 33.59
+        },
+        {
+          "text": "should",
+          "start": 33.65,
+          "end": 33.863
+        },
+        {
+          "text": "disturb",
+          "start": 33.89,
+          "end": 34.29
+        },
+        {
+          "text": "rest",
+          "start": 34.37,
+          "end": 34.69
+        },
+        {
+          "text": "as",
+          "start": 34.77,
+          "end": 34.93
+        },
+        {
+          "text": "little",
+          "start": 35.09,
+          "end": 35.33
+        },
+        {
+          "text": "as",
+          "start": 35.41,
+          "end": 35.49
+        },
+        {
+          "text": "possible.",
+          "start": 35.65,
+          "end": 36.37
+        },
+        {
+          "text": "Your",
+          "start": 36.61,
+          "end": 36.77
+        },
+        {
+          "text": "daily",
+          "start": 36.93,
+          "end": 37.09
+        },
+        {
+          "text": "rest",
+          "start": 37.17,
+          "end": 37.33
+        },
+        {
+          "text": "hours",
+          "start": 37.41,
+          "end": 37.730000000000004
+        },
+        {
+          "text": "are",
+          "start": 37.81,
+          "end": 37.86
+        },
+        {
+          "text": "recorded",
+          "start": 37.89,
+          "end": 38.37
+        },
+        {
+          "text": "on",
+          "start": 38.45,
+          "end": 38.53
+        },
+        {
+          "text": "board,",
+          "start": 38.61,
+          "end": 39.09
+        },
+        {
+          "text": "and",
+          "start": 39.21,
+          "end": 39.33
+        },
+        {
+          "text": "you",
+          "start": 39.37,
+          "end": 39.42
+        },
+        {
+          "text": "get",
+          "start": 39.49,
+          "end": 39.57
+        },
+        {
+          "text": "a",
+          "start": 39.623,
+          "end": 39.677
+        },
+        {
+          "text": "copy.",
+          "start": 39.730000000000004,
+          "end": 40.37
+        },
+        {
+          "text": "Record",
+          "start": 40.69,
+          "end": 41.09
+        },
+        {
+          "text": "the",
+          "start": 41.13,
+          "end": 41.18
+        },
+        {
+          "text": "truth:",
+          "start": 41.33,
+          "end": 42.21
+        },
+        {
+          "text": "false",
+          "start": 42.29,
+          "end": 42.53
+        },
+        {
+          "text": "records",
+          "start": 42.61,
+          "end": 43.01
+        },
+        {
+          "text": "hide",
+          "start": 43.25,
+          "end": 43.49
+        },
+        {
+          "text": "fatigue.",
+          "start": 43.57,
+          "end": 44.37
+        }
+      ]
+    },
+    {
+      "id": "take",
+      "start": 44.61,
+      "end": 49.37,
+      "cueTimes": [],
+      "words": [
+        {
+          "text": "Remember:",
+          "start": 44.73,
+          "end": 45.61
+        },
+        {
+          "text": "ten",
+          "start": 45.69,
+          "end": 46.01
+        },
+        {
+          "text": "in",
+          "start": 46.089999999999996,
+          "end": 46.25
+        },
+        {
+          "text": "twenty-four,",
+          "start": 46.37,
+          "end": 47.37
+        },
+        {
+          "text": "seventy-seven",
+          "start": 47.449999999999996,
+          "end": 48.169999999999995
+        },
+        {
+          "text": "in",
+          "start": 48.25,
+          "end": 48.41
+        },
+        {
+          "text": "seven.",
+          "start": 48.489999999999995,
+          "end": 49.05
+        }
+      ]
+    },
+    {
+      "id": "end",
+      "start": 49.37,
+      "end": 54.166666666666664,
+      "cueTimes": [],
+      "words": [
+        {
+          "text": "Follow",
+          "start": 49.489999999999995,
+          "end": 49.809999999999995
+        },
+        {
+          "text": "HeyMariner",
+          "start": 49.88999999999999,
+          "end": 50.60999999999999
+        },
+        {
+          "text": "for",
+          "start": 50.69,
+          "end": 50.849999999999994
+        },
+        {
+          "text": "practical",
+          "start": 50.92999999999999,
+          "end": 51.33
+        },
+        {
+          "text": "maritime",
+          "start": 51.489999999999995,
+          "end": 51.88999999999999
+        },
+        {
+          "text": "knowledge.",
+          "start": 51.96999999999999,
+          "end": 52.69
+        }
+      ]
+    }
+  ]
+}
