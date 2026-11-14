@@ -276,5 +276,37 @@
         "at": "2026-11-14T06:02:30.605Z"
       }
     }
+  },
+  "2026-11-14-eca-fuel-changeover": {
+    "title": "ECA fuel changeover: the safe procedure from HFO to 0.10% sulphur fuel",
+    "producedAt": "2026-11-14T10:45:03.477Z",
+    "platforms": {
+      "youtube": {
+        "id": "zp_81cfEprM",
+        "url": "https://www.youtube.com/watch?v=zp_81cfEprM",
+        "at": "2026-11-14T12:00:05.582Z"
+      },
+      "facebook": {
+        "id": "936115019439763",
+        "url": "https://www.facebook.com/reel/936115019439763",
+        "at": "2026-11-14T12:00:19.568Z"
+      },
+      "instagram": {
+        "id": "18118101133837678",
+        "at": "2026-11-14T12:01:57.104Z"
+      },
+      "tiktok": {
+        "id": "6af84db578196a0a975fa8b4",
+        "at": "2026-11-14T12:02:08.216Z"
+      },
+      "linkedin": {
+        "id": "6af84dc081e12284210408ce",
+        "at": "2026-11-14T12:02:19.250Z"
+      },
+      "x": {
+        "id": "6af84dcb4b28296eb155e0be",
+        "at": "2026-11-14T12:02:30.208Z"
+      }
+    }
   }
 }
