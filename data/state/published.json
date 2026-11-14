@@ -308,5 +308,37 @@
         "at": "2026-11-14T12:02:30.208Z"
       }
     }
+  },
+  "2026-11-14-lifeboat-on-load-release-hooks": {
+    "title": "Lifeboat on-load release hooks: what changed, how they work, what to check",
+    "producedAt": "2026-11-14T15:58:52.644Z",
+    "platforms": {
+      "youtube": {
+        "id": "g3Okn0R0rpM",
+        "url": "https://www.youtube.com/watch?v=g3Okn0R0rpM",
+        "at": "2026-11-14T17:00:17.662Z"
+      },
+      "facebook": {
+        "id": "1825456312060811",
+        "url": "https://www.facebook.com/reel/1825456312060811",
+        "at": "2026-11-14T17:00:29.587Z"
+      },
+      "instagram": {
+        "id": "17962626678257521",
+        "at": "2026-11-14T17:02:22.189Z"
+      },
+      "tiktok": {
+        "id": "6af8941eb9a106584c5a5abe",
+        "at": "2026-11-14T17:02:33.026Z"
+      },
+      "linkedin": {
+        "id": "6af89429b9a106584c5a5f3c",
+        "at": "2026-11-14T17:02:43.759Z"
+      },
+      "x": {
+        "id": "6af89434e86a5789a6bd9494",
+        "at": "2026-11-14T17:02:53.417Z"
+      }
+    }
   }
 }
