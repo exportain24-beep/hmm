@@ -609,6 +609,128 @@
         }
       ],
       "updatedAt": "2026-11-14T13:20:00Z"
+    },
+    "HM-2026-111403": {
+      "eventId": "HM-2026-111403",
+      "slug": "iran-claims-tankers-hit-mines-hormuz-nov-13-14",
+      "type": "security",
+      "title": "Iran Claims Tankers Hit Mines in Hormuz",
+      "location": "STRAIT OF HORMUZ",
+      "eventDate": "13-14 NOV 2026",
+      "sources": [
+        {
+          "title": "Oil Tanker On Fire After Hitting Mine In Hormuz",
+          "publisher": "gCaptain (Reuters)",
+          "url": "https://gcaptain.com/oil-tanker-on-fire-after-hitting-mine-in-hormuz/",
+          "date": "2026-11-14"
+        },
+        {
+          "title": "Iran says three tankers hit by mines in Hormuz on fire",
+          "publisher": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-three-tankers-hit-mines-hormuz-fire",
+          "date": "2026-11-14"
+        },
+        {
+          "title": "Iran's navy says oil tanker on fire after hitting mine in Hormuz",
+          "publisher": "Al Arabiya",
+          "url": "https://english.alarabiya.net/News/middle-east/2026/11/14/iran-s-navy-says-oil-tanker-on-fire-after-hitting-mine-in-hormuz",
+          "date": "2026-11-14"
+        },
+        {
+          "title": "Iran Says Tanker Carrying LNG Hit Mine, Suffered Explosion in Hormuz",
+          "publisher": "gCaptain",
+          "url": "https://gcaptain.com/iran-says-tanker-carrying-lng-hit-mine-",
+          "date": "2026-11-13"
+        }
+      ],
+      "verifiedFacts": [
+        "Iranian state media carried statements by Iran's navy and IRGC navy on 14 Nov 2026 saying tankers struck naval mines in/near the Strait of Hormuz (Reuters via gCaptain; MEE; Al Arabiya)",
+        "UKMTO weekly summary (to 11 Nov): at least 7 tankers attacked around Hormuz in a week, threat level severe, traffic ~65% below pre-war (MEE 14 Nov)"
+      ],
+      "unverifiedClaims": [
+        "IRGC: two oil tankers (one a supertanker) exploded and caught fire after hitting a mine in the south of the strait while on an unauthorised route with AIS off",
+        "Iran navy: one tanker east of the strait caught fire after a mine strike",
+        "IRGC footage 13 Nov: LNG/gas carrier hit a mine",
+        "Vessel names, flags, crew status, casualties - none published"
+      ],
+      "conflicts": [
+        "Iranian navy and IRGC statements differ on number and location of vessels; Reuters could not verify; no UKMTO/JMIC/owner confirmation found"
+      ],
+      "verificationStatus": "UNCONFIRMED",
+      "priorityScore": 52,
+      "scoreBreakdown": {
+        "recency": 20,
+        "safety": 12,
+        "operational": 8,
+        "regulatory": 0,
+        "human": 2,
+        "industry": 6,
+        "source": 4
+      },
+      "status": "monitoring",
+      "published": false,
+      "notes": "Rejected for publication: incidents rest only on Iranian state statements, no vessel identified, no independent confirmation. Re-score if UKMTO/JMIC/owner confirms; then treat as new incident or UPDATE to HM-2026-111207 cluster.",
+      "versions": [
+        {
+          "at": "2026-11-14T19:10:00Z",
+          "change": "created; not published (UNCONFIRMED, score 52)"
+        }
+      ],
+      "updatedAt": "2026-11-14T19:10:00Z"
+    },
+    "HM-2026-111404": {
+      "eventId": "HM-2026-111404",
+      "slug": "uscg-safety-alert-air-draft-antenna",
+      "type": "safety",
+      "title": "USCG Warns: Verify Air Draft Before Bridges",
+      "location": "UNITED STATES",
+      "eventDate": "10 NOV 2026",
+      "sources": [
+        {
+          "title": "USCG Warns Shipowners to Verify Air Draft, Avoid Bridge Strike",
+          "publisher": "MarineLink",
+          "url": "https://www.marinelink.com/news/uscg-warns-shipowners-verify-air-draft-544274",
+          "date": "2026-11-10"
+        },
+        {
+          "title": "USCG issues safety alert on vessel air draft calculations following bridge contact",
+          "publisher": "Shipping Matters",
+          "url": "https://shippingmatters.ca/uscg-issues-safety-alert-on-vessel-air-draft-calculations-following-bridge-contact/",
+          "date": "2026-11-12"
+        }
+      ],
+      "verifiedFacts": [
+        "USCG Marine Safety Alert 17-26 issued 10 Nov 2026; developed by Sector Los Angeles-Long Beach, distributed by Office of Investigations and Casualty Analysis (MarineLink)",
+        "Deep-draft vessel struck a bridge although voyage planning showed sufficient clearance (MarineLink; Shipping Matters)",
+        "Outdated plans omitted an installed MF/HF tiltable antenna; pilot given understated air draft; antenna not lowered (MarineLink; Shipping Matters)",
+        "Recommendations: air-draft verification in SMS, current drawings, retire superseded plans, procedures for movable equipment, positive confirmation before overhead-clearance transits"
+      ],
+      "unverifiedClaims": [
+        "Vessel name, bridge and date of the underlying allision not published"
+      ],
+      "conflicts": [],
+      "verificationStatus": "CORROBORATED",
+      "priorityScore": 72,
+      "scoreBreakdown": {
+        "recency": 12,
+        "safety": 18,
+        "operational": 13,
+        "regulatory": 8,
+        "human": 5,
+        "industry": 6,
+        "source": 10
+      },
+      "status": "queued",
+      "cardFile": "content/cards/queue/2026-11-14T2022-uscg-safety-alert-air-draft-antenna.json",
+      "published": false,
+      "notes": "Related context: Delaware River bridge strike HM-2026-111301 (not the incident behind the alert). Wikimedia Commons file pages unreachable this run; reused previously verified public-domain US Navy bridge-transit photo, representative.",
+      "versions": [
+        {
+          "at": "2026-11-14T19:10:00Z",
+          "change": "created; safety card queued for 2026-11-14T20:22Z"
+        }
+      ],
+      "updatedAt": "2026-11-14T19:10:00Z"
     }
   }
 }

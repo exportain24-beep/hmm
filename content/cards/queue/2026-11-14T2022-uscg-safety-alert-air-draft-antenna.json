@@ -1,0 +1,38 @@
+{
+  "id": "uscg-safety-alert-air-draft-antenna",
+  "type": "safety",
+  "headline": "USCG Warns: Verify Air Draft Before Bridges",
+  "headlineAccent": "Before Bridges",
+  "subheadline": "Marine Safety Alert 17-26 after a bridge strike",
+  "location": "UNITED STATES",
+  "dateLabel": "10 NOV 2026",
+  "insight": "A ship hit a bridge after old plans left out a tiltable MF/HF antenna, so the pilot got an understated air draft. USCG: verify configuration before every transit.",
+  "publishAtUtc": "2026-11-14T20:22:00Z",
+  "eventId": "HM-2026-111404",
+  "priorityScore": 72,
+  "pillar": "safety",
+  "audience": ["Master", "Pilot", "OOW", "Chief Officer", "DPA", "Ship Manager"],
+  "sources": [
+    {"title": "USCG Warns Shipowners to Verify Air Draft, Avoid Bridge Strike", "publisher": "MarineLink", "url": "https://www.marinelink.com/news/uscg-warns-shipowners-verify-air-draft-544274", "date": "2026-11-10"},
+    {"title": "USCG issues safety alert on vessel air draft calculations following bridge contact", "publisher": "Shipping Matters", "url": "https://shippingmatters.ca/uscg-issues-safety-alert-on-vessel-air-draft-calculations-following-bridge-contact/", "date": "2026-11-12"}
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner intelligence desk",
+    "checkedAt": "2026-11-14T19:10:00Z",
+    "notes": "Corroborated by two independent trade reports of the USCG alert: Marine Safety Alert 17-26 issued 10 Nov 2026, developed by Sector Los Angeles-Long Beach and distributed by the Office of Investigations and Casualty Analysis (MarineLink). Both report the same finding: a deep-draft vessel struck a bridge although voyage planning showed sufficient clearance; outdated plans omitted an installed MF/HF tiltable antenna, so the pilot was given an understated air draft. Vessel name, bridge and incident date not published, so none are stated. The USCG safety-alert index page was not yet updated when checked. Alert is 4 days old and is presented as a 10 Nov alert, not as new today."
+  },
+  "image": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/USS_Tate_(AKA-70)_passing_under_the_Cooper_River_Bridge_at_Charleston,_South_Carolina_(USA),_1_December_1944_(BS_75322).jpg?width=1600",
+    "credit": "U.S. Navy (Bureau of Ships) / Wikimedia Commons",
+    "license": "Public domain",
+    "representative": true
+  },
+  "meta": {
+    "description": "The U.S. Coast Guard issued Marine Safety Alert 17-26 on 10 November 2026 after a deep-draft vessel struck a bridge even though its voyage-planning calculations showed enough vertical clearance. Investigators found the reported air draft came from outdated plans that did not show an installed MF/HF tiltable antenna, so the pilot was given an understated air draft and the antenna was not lowered. The USCG recommends building air-draft verification into the safety management system, keeping current vessel-specific drawings, removing superseded plans, and positively confirming that antennas and other movable equipment are lowered before overhead-clearance transits.",
+    "keywords": ["air draft", "USCG safety alert", "bridge allision", "voyage planning", "pilotage", "safety management system"],
+    "hashtags": ["#MaritimeSafety", "#USCG", "#AirDraft", "#BridgeTeam", "#VoyagePlanning"],
+    "question": "When did your ship last re-measure its air draft against the current drawings, including every antenna and mast?",
+    "altText": "Representative U.S. Navy archive photo of a cargo ship passing under a bridge, with HeyMariner safety card text on USCG Marine Safety Alert 17-26 about verifying air draft before bridge transits."
+  }
+}
