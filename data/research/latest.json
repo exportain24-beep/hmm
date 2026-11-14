@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T10:25:18.226Z",
+  "updatedAt": "2026-11-14T10:40:52.597Z",
   "feedStatus": {
     "safety4sea": "ok (0)",
     "gcaptain": "ok (12)",
@@ -48,7 +48,7 @@
       "publishedAt": "2026-11-14T01:44:29.000Z",
       "score": 57,
       "scores": {
-        "recency": 0.82,
+        "recency": 0.81,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 1,
@@ -72,7 +72,7 @@
       "publishedAt": "2026-11-13T08:10:39.000Z",
       "score": 56,
       "scores": {
-        "recency": 0.55,
+        "recency": 0.54,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -216,35 +216,11 @@
       "publishedAt": "2026-11-13T01:30:10.000Z",
       "score": 52,
       "scores": {
-        "recency": 0.47,
+        "recency": 0.46,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
         "seafarerValue": 0.5,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0.5,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "7cbf4aafa02e1f2cc2dab916cca7251f6086c295",
-      "storyKey": "b74283dc27f8cef39611dc486a6531c593a4fce7",
-      "sourceId": "marex",
-      "sourceName": "The Maritime Executive",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "US Says IMO Must Move Beyond NZF While Seeking Common Sense Approach",
-      "url": "https://maritime-executive.com/article/us-says-imo-must-move-beyond-nzf-while-seeking-common-sense-approach",
-      "summary": "The United States continues to “firmly oppose” the International Maritime Organization’s Net Zero Framework (NZF), calling it a “tax on shipping.” Spe...",
-      "publishedAt": "2026-11-13T21:11:53.000Z",
-      "score": 51,
-      "scores": {
-        "recency": 0.74,
-        "reliability": 0.85,
-        "maritimeRelevance": 1,
-        "educationalValue": 0,
-        "seafarerValue": 0,
         "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0.5,
@@ -272,6 +248,30 @@
         "shareability": 0,
         "visualPotential": 0.5,
         "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "7cbf4aafa02e1f2cc2dab916cca7251f6086c295",
+      "storyKey": "b74283dc27f8cef39611dc486a6531c593a4fce7",
+      "sourceId": "marex",
+      "sourceName": "The Maritime Executive",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "US Says IMO Must Move Beyond NZF While Seeking Common Sense Approach",
+      "url": "https://maritime-executive.com/article/us-says-imo-must-move-beyond-nzf-while-seeking-common-sense-approach",
+      "summary": "The United States continues to “firmly oppose” the International Maritime Organization’s Net Zero Framework (NZF), calling it a “tax on shipping.” Spe...",
+      "publishedAt": "2026-11-13T21:11:53.000Z",
+      "score": 50,
+      "scores": {
+        "recency": 0.73,
+        "reliability": 0.85,
+        "maritimeRelevance": 1,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0.5,
         "corroboratingOutlets": 1
       }
     },
@@ -552,7 +552,7 @@
       "publishedAt": "2026-11-13T09:52:44.000Z",
       "score": 46,
       "scores": {
-        "recency": 0.57,
+        "recency": 0.56,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -576,35 +576,11 @@
       "publishedAt": "2026-11-13T21:13:00.000Z",
       "score": 45,
       "scores": {
-        "recency": 0.74,
+        "recency": 0.73,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
         "seafarerValue": 0.5,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "b59ff6adb1d55162e25598706f56956695cc29af",
-      "storyKey": "a89d5bb4d5c997ff109153dedc75989150fca5f3",
-      "sourceId": "gcaptain",
-      "sourceName": "gCaptain",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "World Oil Market is Returning to Surplus as Gulf Exports Recover",
-      "url": "https://gcaptain.com/world-oil-market-is-returning-to-surplus-as-gulf-exports-recover/",
-      "summary": "The world oil market will return to a surplus in the fourth quarter of this year, the International Energy Agency said on Friday, as Middle East exports recover faster than global oil demand despite continued attacks on shipping.",
-      "publishedAt": "2026-11-13T17:37:39.000Z",
-      "score": 44,
-      "scores": {
-        "recency": 0.68,
-        "reliability": 0.85,
-        "maritimeRelevance": 1,
-        "educationalValue": 0,
-        "seafarerValue": 0,
         "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0,
@@ -708,6 +684,30 @@
       }
     },
     {
+      "fingerprint": "b59ff6adb1d55162e25598706f56956695cc29af",
+      "storyKey": "a89d5bb4d5c997ff109153dedc75989150fca5f3",
+      "sourceId": "gcaptain",
+      "sourceName": "gCaptain",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "World Oil Market is Returning to Surplus as Gulf Exports Recover",
+      "url": "https://gcaptain.com/world-oil-market-is-returning-to-surplus-as-gulf-exports-recover/",
+      "summary": "The world oil market will return to a surplus in the fourth quarter of this year, the International Energy Agency said on Friday, as Middle East exports recover faster than global oil demand despite continued attacks on shipping.",
+      "publishedAt": "2026-11-13T17:37:39.000Z",
+      "score": 43,
+      "scores": {
+        "recency": 0.67,
+        "reliability": 0.85,
+        "maritimeRelevance": 1,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
       "fingerprint": "add3fc990e32609e99d4aba411e1483bcfaca6bb",
       "storyKey": "da62a5b9696347a5b2cf5d4e165a8f3f70d932de",
       "sourceId": "gcaptain",
@@ -768,7 +768,7 @@
       "publishedAt": "2026-11-13T12:52:44.000Z",
       "score": 43,
       "scores": {
-        "recency": 0.61,
+        "recency": 0.6,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1104,7 +1104,7 @@
       "publishedAt": "2026-11-13T02:26:00.000Z",
       "score": 40,
       "scores": {
-        "recency": 0.48,
+        "recency": 0.47,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -1414,7 +1414,7 @@
       "url": "https://gcaptain.com/singapore-flagged-bulk-carrier-strikes-delaware-river-bridge-coast-guard-investigating/",
       "summary": "A Singapore-flagged bulk carrier struck the Tacony-Palmyra Bridge on the Delaware River Thursday afternoon, leaving the movable span temporarily unable to close and prompting a U.S. Coast Guard inspection of...",
       "publishedAt": "2026-11-13T16:29:16.000Z",
-      "score": 33,
+      "score": 32,
       "scores": {
         "recency": 0.66,
         "reliability": 0.85,
@@ -1464,33 +1464,9 @@
       "publishedAt": "2026-11-14T07:40:00.000Z",
       "score": 32,
       "scores": {
-        "recency": 0.94,
+        "recency": 0.93,
         "reliability": 0.85,
         "maritimeRelevance": 0,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "090274b28fa0b9ed9f0c927500aaeeac07a8cc80",
-      "storyKey": "cbdfaf2ad13dba2e166bd5ef3478e48492b694a7",
-      "sourceId": "marineinsight",
-      "sourceName": "Marine Insight",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "U.S. Transfers Two Unmanned Surface Vessels to Philippine Marines At New Subic Bay Facility",
-      "url": "https://www.marineinsight.com/u-s-transfers-two-unmanned-surface-vessels-to-philippine-marines-at-new-subic-bay-facility/?utm_source=rss utm_medium=rss utm_campaign=u-s-transfers-two-unmanned-surface-vessels-to-philippine-marines-at-new-subic-bay-facility",
-      "summary": "The U.S. handed two unmanned surface vessels to the Philippine Marine Corps on November 4, 2026, at Subic Bay in Zambales.",
-      "publishedAt": "2026-11-13T12:38:32.000Z",
-      "score": 32,
-      "scores": {
-        "recency": 0.6,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.33,
         "educationalValue": 0,
         "seafarerValue": 0,
         "shareability": 0,
@@ -1632,7 +1608,7 @@
       "publishedAt": "2026-11-13T09:50:00.000Z",
       "score": 31,
       "scores": {
-        "recency": 0.57,
+        "recency": 0.56,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1692,6 +1668,30 @@
       }
     },
     {
+      "fingerprint": "090274b28fa0b9ed9f0c927500aaeeac07a8cc80",
+      "storyKey": "cbdfaf2ad13dba2e166bd5ef3478e48492b694a7",
+      "sourceId": "marineinsight",
+      "sourceName": "Marine Insight",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "U.S. Transfers Two Unmanned Surface Vessels to Philippine Marines At New Subic Bay Facility",
+      "url": "https://www.marineinsight.com/u-s-transfers-two-unmanned-surface-vessels-to-philippine-marines-at-new-subic-bay-facility/?utm_source=rss utm_medium=rss utm_campaign=u-s-transfers-two-unmanned-surface-vessels-to-philippine-marines-at-new-subic-bay-facility",
+      "summary": "The U.S. handed two unmanned surface vessels to the Philippine Marine Corps on November 4, 2026, at Subic Bay in Zambales.",
+      "publishedAt": "2026-11-13T12:38:32.000Z",
+      "score": 31,
+      "scores": {
+        "recency": 0.6,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
       "fingerprint": "10607b23b39fe2ef28d9d56f0a5990e2c00c00d4",
       "storyKey": "a7202beb3361b26a0bb9d714d1a2c6c8510c2cbd",
       "sourceId": "marex",
@@ -1704,7 +1704,7 @@
       "publishedAt": "2026-11-14T02:39:30.000Z",
       "score": 30,
       "scores": {
-        "recency": 0.84,
+        "recency": 0.83,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1752,7 +1752,7 @@
       "publishedAt": "2026-11-13T04:51:44.000Z",
       "score": 30,
       "scores": {
-        "recency": 0.51,
+        "recency": 0.5,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1776,7 +1776,7 @@
       "publishedAt": "2026-11-12T21:29:10.000Z",
       "score": 29,
       "scores": {
-        "recency": 0.43,
+        "recency": 0.42,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1824,7 +1824,7 @@
       "publishedAt": "2026-11-13T19:56:00.000Z",
       "score": 28,
       "scores": {
-        "recency": 0.72,
+        "recency": 0.71,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1848,7 +1848,7 @@
       "publishedAt": "2026-11-13T18:18:00.000Z",
       "score": 28,
       "scores": {
-        "recency": 0.69,
+        "recency": 0.68,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
