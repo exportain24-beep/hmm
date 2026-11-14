@@ -1,0 +1,40 @@
+{
+  "id": "msc-poesia-uscg-detention-miami",
+  "type": "psc",
+  "headline": "MSC Poesia Cleared After 11-Day USCG Hold",
+  "headlineAccent": "11-Day USCG Hold",
+  "subheadline": "Port state control detention at PortMiami",
+  "location": "MIAMI, USA",
+  "dateLabel": "12 NOV 2026",
+  "insight": "USCG detained MSC Poesia at PortMiami on 1 Nov over deficiencies in onboard systems; a cruise was cancelled. Cleared 12 Nov. A reported oil probe is unconfirmed.",
+  "publishAtUtc": "2026-11-14T14:22:00Z",
+  "eventId": "HM-2026-111402",
+  "priorityScore": 65,
+  "pillar": "regulation",
+  "audience": ["Master", "Chief Engineer", "DPA", "Ship Manager", "Environmental Officer"],
+  "sources": [
+    {"title": "U.S. Coast Guard Detains MSC Cruise Ship in Miami", "publisher": "gCaptain", "url": "https://gcaptain.com/u-s-coast-guard-detains-msc-cruise-ship-in-miami/", "date": "2026-11-03"},
+    {"title": "Coast Guard launches criminal investigation into MSC Poesia cruise ship over potential \"magic pipe\"", "publisher": "CBS News", "url": "https://www.cbsnews.com/news/coast-guard-msc-poesia-criminal-investigation-potential-magic-pipe/", "date": "2026-11-13"},
+    {"title": "Coast Guard Opens Criminal Probe Into MSC Poesia Over Alleged \"Magic Pipe\"", "publisher": "Cruise Hive", "url": "https://www.cruisehive.com/coast-guard-opens-criminal-probe-into-msc-poesia-over-alleged-magic-pipe/223581", "date": "2026-11-13"},
+    {"title": "Report: Coast Guard Investigates Possible \"Magic Pipe\" Case on MSC Poesia", "publisher": "The Maritime Executive", "url": "https://maritime-executive.com/article/report-coast-guard-investigates-possible-magic-pipe-case-on-msc-poesia", "date": "2026-11-14"}
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner intelligence desk",
+    "checkedAt": "2026-11-14T13:20:00Z",
+    "notes": "Detention corroborated: USCG statement (via gCaptain) says Sector Miami detained the Panama-flag MSC Poesia at PortMiami on 1 Nov 2026 during an expanded port state control examination; MSC called it a 'regulatory matter' and cancelled the 11-night Caribbean voyage (gCaptain, MSC via NBC). CBS says USCG identified deficiencies with systems on board; CBS and Cruise Hive say the ship was cleared to depart / departed Thursday 12 Nov. The criminal 'magic pipe' probe rests on one anonymous US official (CBS); USCG says it cannot comment on an ongoing PSC examination; MSC has not commented. It is labelled unconfirmed and never stated as fact. No charges reported."
+  },
+  "image": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Coast_Guard_Cutter_Sea_Otter_conducts_boarding_130727-G-ZZ999-001.jpg?width=1600",
+    "credit": "U.S. Coast Guard / Wikimedia Commons",
+    "license": "Public domain",
+    "representative": true
+  },
+  "meta": {
+    "description": "The U.S. Coast Guard detained the Panama-flagged cruise ship MSC Poesia at PortMiami on 1 November 2026 during an expanded port state control examination, after identifying deficiencies with systems on board; MSC Cruises called it a regulatory matter and cancelled an 11-night Caribbean voyage. The ship was cleared to depart on 12 November after about 11 days. CBS News reports, citing an unnamed US official, that the Coast Guard has opened a criminal probe into a possible illegal oil discharge; the Coast Guard has not commented and no charges have been reported.",
+    "keywords": ["port state control", "MSC Poesia", "US Coast Guard", "detention", "MARPOL Annex I", "oily water"],
+    "hashtags": ["#PortStateControl", "#USCG", "#MARPOL", "#CruiseShips", "#MaritimeCompliance"],
+    "question": "How does your engine department prove every oily water discharge is accounted for in the Oil Record Book?",
+    "altText": "Representative U.S. Coast Guard photo of a Coast Guard boarding operation, with HeyMariner news card text on the 11-day USCG port state control detention of the cruise ship MSC Poesia at PortMiami."
+  }
+}

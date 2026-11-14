@@ -541,6 +541,74 @@
         }
       ],
       "updatedAt": "2026-11-14T07:05:00Z"
+    },
+    "HM-2026-111402": {
+      "eventId": "HM-2026-111402",
+      "slug": "msc-poesia-uscg-detention-miami",
+      "type": "psc",
+      "title": "MSC Poesia Cleared After 11-Day USCG Hold",
+      "location": "MIAMI, USA",
+      "eventDate": "1-12 NOV 2026",
+      "sources": [
+        {
+          "title": "U.S. Coast Guard Detains MSC Cruise Ship in Miami",
+          "publisher": "gCaptain",
+          "url": "https://gcaptain.com/u-s-coast-guard-detains-msc-cruise-ship-in-miami/",
+          "date": "2026-11-03"
+        },
+        {
+          "title": "Coast Guard launches criminal investigation into MSC Poesia cruise ship over potential \"magic pipe\"",
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/news/coast-guard-msc-poesia-criminal-investigation-potential-magic-pipe/",
+          "date": "2026-11-13"
+        },
+        {
+          "title": "Coast Guard Opens Criminal Probe Into MSC Poesia Over Alleged \"Magic Pipe\"",
+          "publisher": "Cruise Hive",
+          "url": "https://www.cruisehive.com/coast-guard-opens-criminal-probe-into-msc-poesia-over-alleged-magic-pipe/223581",
+          "date": "2026-11-13"
+        },
+        {
+          "title": "Report: Coast Guard Investigates Possible \"Magic Pipe\" Case on MSC Poesia",
+          "publisher": "The Maritime Executive",
+          "url": "https://maritime-executive.com/article/report-coast-guard-investigates-possible-magic-pipe-case-on-msc-poesia",
+          "date": "2026-11-14"
+        }
+      ],
+      "verifiedFacts": [
+        "USCG Sector Miami detained Panama-flag cruise ship MSC Poesia at PortMiami on Sun 1 Nov 2026 during an expanded port state control examination (USCG statement via gCaptain)",
+        "USCG identified deficiencies with systems on board; specifics not published (CBS; Cruise Hive)",
+        "MSC called it a 'regulatory matter' and cancelled the 11-night Caribbean voyage; guests offered full refunds (MSC via NBC/gCaptain)",
+        "Ship cleared to depart / departed PortMiami Thu 12 Nov 2026 on a 10-night Eastern Caribbean cruise (CBS; Cruise Hive)",
+        "Ship: built 2008, 92,627 GT, Musica class, 294 m (gCaptain)"
+      ],
+      "unverifiedClaims": [
+        "USCG criminal investigation into possible 'magic pipe' illegal oil discharge via grey water system (one anonymous US official via CBS 13 Nov; echoed by Cruise Hive, Maritime Executive, Seatrade)",
+        "More than 2,000 people aboard during detention (unnamed source via CBS)"
+      ],
+      "conflicts": [],
+      "verificationStatus": "CORROBORATED",
+      "priorityScore": 65,
+      "scoreBreakdown": {
+        "recency": 13,
+        "safety": 8,
+        "operational": 10,
+        "regulatory": 14,
+        "human": 4,
+        "industry": 8,
+        "source": 8
+      },
+      "status": "queued",
+      "cardFile": "content/cards/queue/2026-11-14T1422-msc-poesia-uscg-detention-miami.json",
+      "published": false,
+      "notes": "Detention itself dates from 1 Nov; news hook is release on 12 Nov plus reported criminal probe (13-14 Nov). Probe kept as unconfirmed. Representative USCG public-domain image used: Wikimedia Commons file pages were unreachable this run so a free licence for a photo of MSC Poesia could not be checked.",
+      "versions": [
+        {
+          "at": "2026-11-14T13:20:00Z",
+          "change": "created; card queued for 14:22 UTC"
+        }
+      ],
+      "updatedAt": "2026-11-14T13:20:00Z"
     }
   }
 }
