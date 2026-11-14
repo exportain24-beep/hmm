@@ -1,0 +1,223 @@
+{
+  "id": "2026-11-14-pilot-ladder-rigging",
+  "template": "educational-explainer",
+  "pillar": "deck",
+  "series": "One Rule Mariners Should Know",
+  "level": "L2",
+  "audience": [
+    "OOW",
+    "Deck Cadet",
+    "Bosun",
+    "Chief Officer"
+  ],
+  "title": "Pilot ladder rigging rules: climb height, securing, checks and replacement",
+  "thumbnailText": "RIG IT LIKE YOU CLIMB IT",
+  "aspect": "9:16",
+  "mood": "tense",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "label": "PILOT TRANSFER",
+      "heading": "Rig it wrong, and the pilot can fall.",
+      "motif": "lighthouse",
+      "narration": "A pilot ladder is life-saving equipment. Rig it wrong, and the person climbing it can fall."
+    },
+    {
+      "id": "height",
+      "kind": "compare",
+      "label": "HEIGHT OF CLIMB",
+      "heading": "Pilot ladder alone: 1.5 to 9 m",
+      "motif": "voyage",
+      "items": [
+        {
+          "title": "Minimum climb",
+          "value": "1.5 m"
+        },
+        {
+          "title": "Maximum climb",
+          "value": "9 m"
+        },
+        {
+          "title": "Above 9 m",
+          "value": "Combination"
+        }
+      ],
+      "narration": "Alone, a pilot ladder covers a climb of 1.5 to 9 metres. Above 9 metres, add an accommodation ladder."
+    },
+    {
+      "id": "rig",
+      "kind": "toon",
+      "label": "WHERE IT HANGS",
+      "heading": "Clear, inside the parallel body, flat on the hull",
+      "narration": "Hang it clear of discharges, inside the parallel body, every step flat against the hull. The pilot sets the height of the lowest step.",
+      "toon": {
+        "set": "deck",
+        "time": "golden",
+        "shot": "medium",
+        "cast": [
+          {
+            "role": "officer"
+          },
+          {
+            "role": "pilot",
+            "arms": "hold"
+          }
+        ],
+        "beats": [
+          {
+            "on": "discharges",
+            "who": 0,
+            "arms": "point",
+            "face": "worried",
+            "fx": "splash"
+          },
+          {
+            "on": "parallel",
+            "who": 0,
+            "arms": "reach",
+            "face": "thinking"
+          },
+          {
+            "on": "flat",
+            "who": 0,
+            "face": "determined",
+            "arms": "hold"
+          },
+          {
+            "on": "pilot",
+            "who": 1,
+            "arms": "point",
+            "face": "happy",
+            "fx": "sparkle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "secure",
+      "kind": "bullets",
+      "label": "SECURING",
+      "heading": "Strong points, not shortcuts",
+      "motif": "mooring",
+      "items": [
+        {
+          "title": "Dedicated strong points",
+          "value": "48 kN"
+        },
+        {
+          "title": "Never the accommodation platform"
+        }
+      ],
+      "cues": [
+        "strong points",
+        "never"
+      ],
+      "narration": "Secure it to strong points rated at least 48 kilonewtons, never to the accommodation ladder platform."
+    },
+    {
+      "id": "access",
+      "kind": "checklist",
+      "label": "AT THE ACCESS POINT",
+      "heading": "Ready before the pilot boat arrives",
+      "motif": "bridge",
+      "items": [
+        {
+          "title": "Lifebuoy with self-igniting light"
+        },
+        {
+          "title": "Heaving line"
+        },
+        {
+          "title": "Two manropes available"
+        },
+        {
+          "title": "Officer in contact with bridge"
+        }
+      ],
+      "cues": [
+        "lifebuoy",
+        "heaving line",
+        "manropes",
+        "responsible officer"
+      ],
+      "narration": "At the access point: a lifebuoy with self-igniting light, a heaving line, two manropes, and a responsible officer talking to the bridge."
+    },
+    {
+      "id": "life",
+      "kind": "stat",
+      "label": "FROM 1 JANUARY 2028",
+      "heading": "Ladder withdrawn from service after",
+      "motif": "clock",
+      "items": [
+        {
+          "title": "In service",
+          "value": "30 months"
+        }
+      ],
+      "narration": "From 2028, a ladder leaves service after 30 months in use, or 36 months from manufacture, whichever comes first."
+    },
+    {
+      "id": "take",
+      "kind": "takeaway",
+      "label": "KEY TAKEAWAY",
+      "heading": "Inspect before and after every use",
+      "motif": "inspection",
+      "narration": "Inspect it before and after every use. Rig it as if you were climbing."
+    },
+    {
+      "id": "end",
+      "kind": "endcard",
+      "narration": "Follow HeyMariner for practical maritime knowledge."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Performance standards for pilot transfer arrangements, resolution MSC.576(110)",
+      "publisher": "IMO",
+      "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.576(110).pdf"
+    },
+    {
+      "title": "New IMO requirements for pilot transfer arrangements",
+      "publisher": "DNV",
+      "url": "https://www.dnv.com/news/2026/New-IMO-requirements-for-pilot-transfer-arrangements/",
+      "date": "2026"
+    },
+    {
+      "title": "Safety bulletin 02/25: proper maintenance and rigging of pilot transfer arrangements",
+      "publisher": "Tokyo MOU",
+      "url": "https://www.tokyo-mou.org/safety-bulletin/2025/08/25/safety-bulletin-02-25-proper-maintenance-and-rigging-of-pilot-transfer-arrangements"
+    }
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner daily desk",
+    "checkedAt": "2026-11-14",
+    "notes": "Checked against MSC.576(110): climb 1.5-9 m and combination above 9 m (3.2); clear of discharges, parallel body, steps firmly against ship's side, lowest step as pilot requests (12); strong points/shackles breaking strength not less than 48 kN (6.1); never secured to accommodation ladder lower platform (13.1.6); lifebuoy with self-igniting light, heaving line, two manropes (15.1); responsible officer with communication to bridge (3.7); inspection before and after each use (25.1); withdrawal at 30 months in service or 36 months from manufacture (30). 1 January 2028 application of stowage/maintenance/inspection/operation parts confirmed by DNV (amended SOLAS V/23, MSC.572(110))."
+  },
+  "meta": {
+    "description": "How to rig a pilot ladder the way the new IMO pilot transfer standards require: 1.5 to 9 metres climb, position clear of discharges and flat on the hull, 48 kN strong points and the gear at the access point. From 1 January 2028 ladders also leave service after 30 months in use or 36 months from manufacture.",
+    "keywords": [
+      "pilot ladder rigging",
+      "pilot ladder",
+      "pilot transfer arrangements",
+      "SOLAS V/23",
+      "MSC.576(110)",
+      "pilot boarding",
+      "combination ladder",
+      "seamanship",
+      "deck officer"
+    ],
+    "hashtags": [
+      "#PilotLadder",
+      "#PilotSafety",
+      "#Seamanship",
+      "#SOLAS",
+      "#DeckOfficer"
+    ],
+    "question": "Who on your ship checks the pilot ladder before the pilot boat comes alongside?"
+  },
+  "origin": {
+    "type": "queue"
+  }
+}

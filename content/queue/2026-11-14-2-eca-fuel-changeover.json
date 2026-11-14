@@ -1,0 +1,206 @@
+{
+  "id": "2026-11-14-eca-fuel-changeover",
+  "template": "educational-explainer",
+  "pillar": "engine",
+  "series": "Engine Room Insight",
+  "level": "L3",
+  "audience": [
+    "Second Engineer",
+    "Chief Engineer",
+    "Third Engineer",
+    "Engine Cadet"
+  ],
+  "title": "ECA fuel changeover: the safe procedure from HFO to 0.10% sulphur fuel",
+  "thumbnailText": "SLOW CHANGE, NO BLACKOUT",
+  "aspect": "9:16",
+  "mood": "curious",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "label": "ENGINE ROOM INSIGHT",
+      "heading": "Too late is a violation. Too fast can stop the engine.",
+      "motif": "globe",
+      "narration": "Enter an ECA on heavy fuel, and you break the law. Change over too fast, and you can lose the engine."
+    },
+    {
+      "id": "rule",
+      "kind": "qa",
+      "label": "MARPOL ANNEX VI REG. 14",
+      "heading": "Written procedure, full flush before entry",
+      "motif": "pump",
+      "narration": "Inside an ECA, fuel sulphur is capped at 0.10% by mass. Your written changeover procedure must leave enough time to flush the whole service system before entry."
+    },
+    {
+      "id": "temp",
+      "kind": "toon",
+      "label": "TEMPERATURE AND VISCOSITY",
+      "heading": "Cool it down gradually",
+      "narration": "Cool the system gradually, as your engine maker specifies. One maker cites about 2 degrees per minute. Keep inlet viscosity above the minimum, typically 1.8 to 2.8 centistokes.",
+      "toon": {
+        "set": "engineroom",
+        "shot": "medium",
+        "cast": [
+          {
+            "role": "engineer",
+            "arms": "hold"
+          },
+          {
+            "role": "cadet"
+          }
+        ],
+        "beats": [
+          {
+            "on": "Cool",
+            "who": 0,
+            "arms": "reach",
+            "face": "thinking",
+            "fx": "steam"
+          },
+          {
+            "on": "maker",
+            "who": 1,
+            "face": "confused",
+            "fx": "question"
+          },
+          {
+            "on": "2",
+            "who": 0,
+            "arms": "point",
+            "face": "determined"
+          },
+          {
+            "on": "viscosity",
+            "who": 0,
+            "face": "worried",
+            "arms": "hold"
+          },
+          {
+            "on": "typically",
+            "who": 1,
+            "face": "happy",
+            "arms": "clap",
+            "fx": "sparkle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "risk",
+      "kind": "bullets",
+      "label": "IF YOU RUSH IT",
+      "heading": "What goes wrong",
+      "motif": "engine",
+      "items": [
+        {
+          "title": "Pumps stick or seize"
+        },
+        {
+          "title": "Thin fuel leaks past pumps"
+        },
+        {
+          "title": "Poor start and astern"
+        }
+      ],
+      "cues": [
+        "stick",
+        "leaks",
+        "starting"
+      ],
+      "narration": "Rush it, and fuel pumps can stick or seize. Hot, thin gas oil leaks inside the pumps, hurting starting and astern."
+    },
+    {
+      "id": "record",
+      "kind": "checklist",
+      "label": "RECORD IT",
+      "heading": "Completed before entry, logged",
+      "motif": "inspection",
+      "items": [
+        {
+          "title": "Low sulphur fuel in each tank"
+        },
+        {
+          "title": "Date and time"
+        },
+        {
+          "title": "Ship's position"
+        },
+        {
+          "title": "Logbook set by the flag"
+        }
+      ],
+      "cues": [
+        "each tank",
+        "date",
+        "position",
+        "logbook"
+      ],
+      "narration": "Once complete, log the low sulphur fuel in each tank, the date, time and position, in the logbook your flag requires. Log again when changing back after exit."
+    },
+    {
+      "id": "take",
+      "kind": "takeaway",
+      "label": "KEY TAKEAWAY",
+      "heading": "Start early. Change slowly. Finish before the line.",
+      "motif": "clock",
+      "narration": "Start early, change slowly, finish before the line."
+    },
+    {
+      "id": "end",
+      "kind": "endcard",
+      "narration": "Follow HeyMariner for practical maritime knowledge."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Sulphur oxides (SOx) and particulate matter (PM): Regulation 14",
+      "publisher": "IMO",
+      "url": "https://www.imo.org/en/OurWork/Environment/Pages/Sulphur-oxides-(SOx)-%E2%80%93-Regulation-14.aspx"
+    },
+    {
+      "title": "MARPOL Annex VI regulation 14 (text)",
+      "publisher": "EGCSA",
+      "url": "https://www.egcsa.com/regulatory/marpol-annex-vi-regulation-14/"
+    },
+    {
+      "title": "Fuel change-over procedure",
+      "publisher": "Skuld",
+      "url": "https://www.skuld.com/topics/ship/bunkers/fuel-change-over-procedure/"
+    },
+    {
+      "title": "Changing between HFO and MGO brings operational challenges",
+      "publisher": "The Swedish Club / Seatrade",
+      "url": "https://www.swedishclub.com/uploads/2023/12/Seatrade-Asia-Week_Feb2012_Changing-between-HFO-and-MGO-brings-operational-challenges.pdf"
+    }
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner daily desk",
+    "checkedAt": "2026-11-14",
+    "notes": "0.10% m/m ECA limit (reg. 14.4.3) and reg. 14.6 written procedure, sufficient time to fully flush before entry, and record of low sulphur fuel volume per tank, date, time and position in the logbook prescribed by the Administration on completion before entry or commencement after exit: checked on the regulation text (EGCSA) and Skuld. 2 C per minute (MAN recommendation as cited by DNV) and 1.8-2.8 cSt minimum inlet viscosity range, pump sticking/seizure from thermal expansion and internal leakage affecting start, astern and low load: Swedish Club/Seatrade article. imo.org regulation page could not be fetched by the desk (robots), listed as the official reference."
+  },
+  "meta": {
+    "description": "How to change over from heavy fuel oil to 0.10% sulphur fuel before entering an emission control area under MARPOL Annex VI regulation 14. The written procedure, the temperature and viscosity limits that protect the fuel pumps, and exactly what must be recorded.",
+    "keywords": [
+      "fuel changeover",
+      "ECA fuel changeover",
+      "MARPOL Annex VI regulation 14",
+      "low sulphur fuel",
+      "emission control area",
+      "fuel pump seizure",
+      "marine engineering",
+      "engine room"
+    ],
+    "hashtags": [
+      "#FuelChangeover",
+      "#MARPOL",
+      "#MarineEngineering",
+      "#EngineRoom",
+      "#ECA"
+    ],
+    "question": "How many hours before the ECA boundary does your ship start the changeover?"
+  },
+  "origin": {
+    "type": "queue"
+  }
+}

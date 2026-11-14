@@ -1,0 +1,230 @@
+{
+  "id": "2026-11-14-lifeboat-on-load-release-hooks",
+  "template": "equipment-explained",
+  "pillar": "equipment",
+  "series": "Know Your Equipment",
+  "level": "L2",
+  "audience": [
+    "OOW",
+    "Rating",
+    "Deck Cadet",
+    "Second Officer",
+    "Bosun"
+  ],
+  "title": "Lifeboat on-load release hooks: what changed, how they work, what to check",
+  "thumbnailText": "SEE THE HOOK RESET",
+  "aspect": "9:16",
+  "mood": "tense",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "label": "KNOW YOUR EQUIPMENT",
+      "heading": "A hook that opens too early drops the boat.",
+      "motif": "lifeboat",
+      "narration": "A lifeboat hook that opens too early drops the boat and its crew. So the rules for these hooks were rewritten."
+    },
+    {
+      "id": "term",
+      "kind": "term",
+      "label": "TERM",
+      "heading": "On-load release",
+      "body": "Hooks that can open with the boat's weight still on them.",
+      "motif": "tank",
+      "narration": "On-load release opens the hooks with the boat's weight still on them. It is the emergency option, so it must be hard to use by mistake."
+    },
+    {
+      "id": "design",
+      "kind": "bullets",
+      "label": "LSA CODE 4.4.7.6",
+      "heading": "What a compliant hook must do",
+      "motif": "lighthouse",
+      "items": [
+        {
+          "title": "Stable when fully reset"
+        },
+        {
+          "title": "Hydrostatic interlock"
+        },
+        {
+          "title": "Deliberate on-load release"
+        }
+      ],
+      "cues": [
+        "stable",
+        "hydrostatic interlock",
+        "multiple"
+      ],
+      "narration": "A fully reset hook must stay stable under load. A hydrostatic interlock, or other means, confirms the boat is waterborne. Release on load needs multiple, deliberate actions."
+    },
+    {
+      "id": "when",
+      "kind": "timeline",
+      "label": "SOLAS III/1.5",
+      "heading": "Non-compliant hooks replaced",
+      "motif": "globe",
+      "items": [
+        {
+          "title": "First drydock after",
+          "value": "1 Jul 2014"
+        },
+        {
+          "title": "Final deadline",
+          "value": "1 Jul 2019"
+        }
+      ],
+      "cues": [
+        "1 July 2014",
+        "1 July 2019"
+      ],
+      "narration": "Non-compliant hooks were replaced at the first dry-docking after 1 July 2014, and no later than 1 July 2019."
+    },
+    {
+      "id": "check",
+      "kind": "toon",
+      "label": "BEFORE YOU HOIST",
+      "heading": "See every hook fully reset",
+      "narration": "Before hoisting, see every hook fully reset and its indicator agree. Where a fall preventer is still required, fit it, and remove it before release.",
+      "toon": {
+        "set": "lifeboat",
+        "time": "day",
+        "shot": "medium",
+        "cast": [
+          {
+            "role": "master",
+            "arms": "hips"
+          },
+          {
+            "role": "rating"
+          }
+        ],
+        "beats": [
+          {
+            "on": "hoisting",
+            "who": 0,
+            "arms": "point",
+            "face": "determined"
+          },
+          {
+            "on": "reset",
+            "who": 1,
+            "arms": "reach",
+            "face": "thinking"
+          },
+          {
+            "on": "indicator",
+            "who": 1,
+            "face": "happy",
+            "fx": "sparkle"
+          },
+          {
+            "on": "fall",
+            "who": 0,
+            "arms": "armsUp",
+            "face": "worried",
+            "fx": "exclaim"
+          },
+          {
+            "on": "remove",
+            "who": 1,
+            "arms": "hold",
+            "face": "determined"
+          }
+        ]
+      }
+    },
+    {
+      "id": "service",
+      "kind": "compare",
+      "label": "SINCE 1 JANUARY 2020",
+      "heading": "Who examines the release gear",
+      "motif": "inspection",
+      "items": [
+        {
+          "title": "Weekly and monthly",
+          "value": "Ship's crew"
+        },
+        {
+          "title": "Annual examination",
+          "value": "Service provider"
+        },
+        {
+          "title": "Five-yearly overhaul",
+          "value": "Service provider"
+        }
+      ],
+      "narration": "Since 2020, the crew does weekly and monthly checks. The annual examination and five-yearly overhaul need an authorised service provider."
+    },
+    {
+      "id": "take",
+      "kind": "takeaway",
+      "label": "KEY TAKEAWAY",
+      "heading": "Not seen reset? Do not trust it.",
+      "motif": "voyage",
+      "narration": "Not seen the hook reset? Do not trust it."
+    },
+    {
+      "id": "end",
+      "kind": "endcard",
+      "narration": "Follow HeyMariner for practical maritime knowledge."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Life-saving appliances (SOLAS Chapter III and LSA Code)",
+      "publisher": "IMO",
+      "url": "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+    },
+    {
+      "title": "Amendments to the LSA Code (resolution MSC.320(89)), paragraph 4.4.7.6",
+      "publisher": "Hong Kong Marine Department",
+      "url": "https://www.mardep.gov.hk/en/msnote/pdf/msin1146anx2.pdf"
+    },
+    {
+      "title": "SOLAS: Evaluation of lifeboat release and retrieval systems",
+      "publisher": "West P&I",
+      "url": "https://www.westpandi.com/News-and-Resources/News/SOLAS-Evaluation-of-Lifeboat-Release-and-Retrieval/"
+    },
+    {
+      "title": "MGN 541: lifeboat on-load release mechanisms",
+      "publisher": "UK MCA",
+      "url": "https://assets.publishing.service.gov.uk/media/5eaaa3afd3bf7f652ad79d1e/MGN_541_-_Tagged.pdf"
+    },
+    {
+      "title": "New IMO procedures for maintenance and inspection of life-saving appliances (MSC.402(96))",
+      "publisher": "Gard",
+      "url": "https://gard.no/en/insights/new-imo-procedures-for-maintenance-and-inspection-of-life-saving-appliances/"
+    }
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner daily desk",
+    "checkedAt": "2026-11-14",
+    "notes": "LSA Code 4.4.7.6 as amended by MSC.320(89): stability when fully reset with no force to operating mechanism (.4), hydrostatic interlock unless other means ensure waterborne, multiple deliberate and sustained action for on-load release (.7.2) - Hong Kong MD text of the amendment. SOLAS III/1.5 replacement at first scheduled dry-docking after 1 July 2014, not later than 1 July 2019 - West P&I, MCA MGN 541, LR. FPD use until compliant and locking pins removed before release (MSC.1/Circ.1327) - West P&I. MSC.402(96) from 1 January 2020: weekly/monthly by crew under a senior officer or ASP, annual thorough examination and five-yearly overhaul/overload test by certified maker or ASP personnel - Gard. Indicator check is general good practice."
+  },
+  "meta": {
+    "description": "How lifeboat on-load release hooks must work under the amended LSA Code: stable when reset, a hydrostatic interlock and a deliberate release on load. Why SOLAS III/1.5 forced replacement by 1 July 2019, what to check before hoisting, and who examines the gear since 1 January 2020.",
+    "keywords": [
+      "lifeboat on-load release hooks",
+      "on-load release",
+      "lifeboat hooks",
+      "SOLAS III/1.5",
+      "LSA Code",
+      "hydrostatic interlock",
+      "fall preventer device",
+      "MSC.402(96)",
+      "life-saving appliances"
+    ],
+    "hashtags": [
+      "#LifeboatSafety",
+      "#LSA",
+      "#SOLAS",
+      "#KnowYourEquipment",
+      "#SafetyAtSea"
+    ],
+    "question": "Have you ever found a lifeboat hook that was not fully reset after a drill?"
+  },
+  "origin": {
+    "type": "queue"
+  }
+}
