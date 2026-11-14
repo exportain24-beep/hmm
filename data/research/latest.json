@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T03:21:09.077Z",
+  "updatedAt": "2026-11-14T03:25:03.145Z",
   "feedStatus": {
     "safety4sea": "ok (0)",
     "gcaptain": "ok (12)",
@@ -168,7 +168,7 @@
       "publishedAt": "2026-11-13T14:37:27.000Z",
       "score": 54,
       "scores": {
-        "recency": 0.75,
+        "recency": 0.74,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -192,7 +192,7 @@
       "publishedAt": "2026-11-13T07:45:00.000Z",
       "score": 54,
       "scores": {
-        "recency": 0.64,
+        "recency": 0.63,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -768,7 +768,7 @@
       "publishedAt": "2026-11-13T12:52:44.000Z",
       "score": 45,
       "scores": {
-        "recency": 0.72,
+        "recency": 0.71,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1032,7 +1032,7 @@
       "publishedAt": "2026-11-13T21:38:00.000Z",
       "score": 42,
       "scores": {
-        "recency": 0.88,
+        "recency": 0.87,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1296,7 +1296,7 @@
       "publishedAt": "2026-11-13T01:05:06.000Z",
       "score": 36,
       "scores": {
-        "recency": 0.55,
+        "recency": 0.54,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1536,7 +1536,7 @@
       "publishedAt": "2026-11-13T14:39:48.000Z",
       "score": 34,
       "scores": {
-        "recency": 0.75,
+        "recency": 0.74,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1584,7 +1584,7 @@
       "publishedAt": "2026-11-13T09:42:00.000Z",
       "score": 33,
       "scores": {
-        "recency": 0.67,
+        "recency": 0.66,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1680,7 +1680,7 @@
       "publishedAt": "2026-11-12T12:14:32.000Z",
       "score": 33,
       "scores": {
-        "recency": 0.41,
+        "recency": 0.4,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1800,7 +1800,7 @@
       "publishedAt": "2026-11-13T01:07:00.000Z",
       "score": 30,
       "scores": {
-        "recency": 0.55,
+        "recency": 0.54,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
