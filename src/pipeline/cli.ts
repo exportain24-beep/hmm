@@ -10,7 +10,7 @@ import {copyFileSync, existsSync, mkdirSync, readdirSync, readFileSync, rmSync, 
 import {config, env, isAutoPublish, isCardsEnabled, isDryRun, isPipelineEnabled, log, p, PipelineError, run, setOutput, state, summary, writeJson} from './lib.ts';
 import {llmProvider} from './llm.ts';
 import {buildMetadata, uploadKit} from './metadata.ts';
-import {archiveQueueFile, choose, dueSlot, findSpec, loadBank, markSlot} from './plan.ts';
+import {archiveQueueFile, choose, dueSlot, findSpec, loadBank, markSlot, slotPublishAt} from './plan.ts';
 import {makeThumbnail, produce} from './produce.ts';
 import {estimateTimeline} from '../shared/estimate.ts';
 import {varietyProblems} from '../shared/motifs.ts';
@@ -91,6 +91,15 @@ const cmdRun = async () => {
     state.savePublished(published);
     if (slot) markSlot(slot.id);
     if ('queueFile' in plan && plan.queueFile && qc.pass) archiveQueueFile(plan.queueFile);
+  }
+  // rendered ahead of time: hold the finished video until the slot time, then publish
+  if (qc?.pass && slot && !isDryRun() && !id) {
+    const at = slotPublishAt(slot.id);
+    const wait = at ? at.getTime() - Date.now() : 0;
+    if (wait > 0 && wait < 3 * 3.6e6) {
+      log('publish', `video ready ${Math.round(wait / 60000)} min early, holding until ${at!.toISOString()}`);
+      await new Promise((r) => setTimeout(r, wait));
+    }
   }
   if (qc) await publishAll(spec.id, out.final, existsSync(out.thumb) ? out.thumb : null, meta, qc, arg('platforms')?.split(',').filter(Boolean));
   setOutput('produced', 'true');

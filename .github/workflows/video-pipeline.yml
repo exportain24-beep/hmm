@@ -77,7 +77,7 @@ jobs:
     needs: gate
     if: needs.gate.outputs.go == 'true'
     runs-on: ubuntu-latest
-    timeout-minutes: 110
+    timeout-minutes: 200
     env:
       DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && !inputs.tick && format('{0}', inputs.dry_run) || vars.DRY_RUN }}
       AUTO_PUBLISH: ${{ github.event_name == 'workflow_dispatch' && !inputs.tick && format('{0}', inputs.auto_publish) || vars.AUTO_PUBLISH }}

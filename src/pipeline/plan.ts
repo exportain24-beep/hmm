@@ -8,7 +8,7 @@ import {specFromNews, specFromTopic} from './script.ts';
 import {validateSpec} from './spec.ts';
 
 type Slot = {id: string; utcHour: number; mode: 'news-first' | 'evergreen'; pillars: string[]};
-type Schedule = {graceHours: number; slots: Slot[]};
+type Schedule = {graceHours: number; leadMinutes?: number; slots: Slot[]};
 
 /** Which slot is due right now and has not run today? Reruns of the same hour return null. */
 export const dueSlot = (now = new Date()): Slot | null => {
@@ -20,11 +20,24 @@ export const dueSlot = (now = new Date()): Slot | null => {
     const at = Date.parse(o.at);
     if (now.getTime() >= at - 5 * 60_000 && now.getTime() < at + sch.graceHours * 3.6e6 && !done[o.id]) return {id: o.id, utcHour: new Date(at).getUTCHours(), mode: 'evergreen', pillars: o.pillars};
   }
+  // rendering starts leadMinutes before the slot; the run holds the finished video until the slot time
   const hour = now.getUTCHours() + now.getUTCMinutes() / 60;
+  const lead = (sch.leadMinutes ?? 0) / 60;
   for (const s of sch.slots) {
-    if (hour >= s.utcHour && hour < s.utcHour + sch.graceHours && done[s.id] !== day) return s;
+    if (hour >= s.utcHour - lead && hour < s.utcHour + sch.graceHours && done[s.id] !== day) return s;
   }
   return null;
+};
+/** When a slot's video should go live (UTC today, or the one-off time). */
+export const slotPublishAt = (slotId: string, now = new Date()): Date | null => {
+  const sch = config<Schedule & {oneOff?: {id: string; at: string}[]}>('schedule');
+  const o = (sch.oneOff ?? []).find((x) => x.id === slotId);
+  if (o) return new Date(o.at);
+  const s = sch.slots.find((x) => x.id === slotId);
+  if (!s) return null;
+  const d = new Date(now);
+  d.setUTCHours(s.utcHour, 0, 0, 0);
+  return d;
 };
 export const markSlot = (slotId: string, now = new Date()) => {
   const d = state.slots();

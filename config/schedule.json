@@ -1,5 +1,6 @@
 {
-  "_comment": "Times in UTC. Video slots: production starts at the hour, publishing follows after render + QC (about 30-40 min). 06 UTC = 12:00 Dhaka / 14:00 Manila / 07:00 London; 12 UTC = 18:00 Dhaka / 20:00 Manila / 13:00 CET; 17 UTC = 23:00 Dhaka / 18:00 CET / 12:00 New York. Photo-card times: config/cards.json.",
+  "_comment": "Times in UTC. Video slots: rendering starts leadMinutes before the slot; the finished video is held and published at the slot time. 06 UTC = 12:00 Dhaka / 14:00 Manila / 07:00 London; 12 UTC = 18:00 Dhaka / 20:00 Manila / 13:00 CET; 17 UTC = 23:00 Dhaka / 18:00 CET / 12:00 New York. Photo-card times: config/cards.json.",
+  "leadMinutes": 100,
   "graceHours": 3,
   "slots": [
     {
