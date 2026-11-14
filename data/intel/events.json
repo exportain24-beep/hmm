@@ -452,6 +452,84 @@
         }
       ],
       "updatedAt": "2026-11-13T13:10:00Z"
+    },
+    "HM-2026-111401": {
+      "eventId": "HM-2026-111401",
+      "slug": "atlantic-asphalt-capsizes-american-heritage-new-orleans",
+      "type": "incident",
+      "title": "Tanker Capsizes Riverboat at New Orleans",
+      "location": "NEW ORLEANS, USA",
+      "eventDate": "13 NOV 2026",
+      "sources": [
+        {
+          "title": "Miracle on the Mississippi: All Accounted For After Tanker Capsizes Cruise Ship in New Orleans",
+          "publisher": "gCaptain",
+          "url": "https://gcaptain.com/miracle-on-the-mississippi-all-accounted-for-after-tanker-capsizes-cruise-ship-in-new-orleans/",
+          "date": "2026-11-14"
+        },
+        {
+          "title": "New Orleans tanker collision capsizes cruise ship with 129 passengers",
+          "publisher": "Interesting Engineering",
+          "url": "https://interestingengineering.com/transportation/new-orleans-tanker-cruise-ship-collision",
+          "date": "2026-11-13"
+        },
+        {
+          "title": "'Miracle': All rescued from capsized New Orleans riverboat in tanker collision",
+          "publisher": "ABC News",
+          "url": "https://abcnews.com/US/vessel-collision-port-new-orleans-emergency-crews-responding/story?id=138119847",
+          "date": "2026-11-13"
+        },
+        {
+          "title": "Tanker 'lost control' before colliding with river cruise ship near Port of New Orleans, mayor says",
+          "publisher": "CNN",
+          "url": "https://www.cnn.com/2026/11/13/us/live-news/new-orleans-cruise-ship-crash",
+          "date": "2026-11-13"
+        },
+        {
+          "title": "BREAKING: Tanker strikes cruise vessel in New Orleans, causing it to capsize",
+          "publisher": "Marine Log",
+          "url": "https://www.marinelog.com/news/breaking-tanker-strikes-cruise-vessel-in-new-orleans-causing-it-to-capsize/",
+          "date": "2026-11-13"
+        }
+      ],
+      "verifiedFacts": [
+        "Asphalt/bitumen tanker Atlantic Asphalt struck American Cruise Lines' moored riverboat American Heritage on the Mississippi at New Orleans, near the Crescent City Connection, ~12:30 local on Fri 13 Nov 2026 (USCG via Interesting Engineering; gCaptain; ABC)",
+        "The riverboat overturned and was partly submerged (Interesting Engineering; gCaptain; Marine Log)",
+        "About 129 passengers aboard; all passengers and crew accounted for, SAR ended (Interesting Engineering; gCaptain; ABC)",
+        "32 people treated by LCMC Health (30 passengers, two officers who went into the water), non-critical (Interesting Engineering; Marine Insight-type summary in research feed)",
+        "USCG and New Orleans Fire Department (three-alarm, 23 units) responded (Interesting Engineering)"
+      ],
+      "unverifiedClaims": [
+        "Tanker lost power/control before impact (mayor per CNN; emergency source) - cause under investigation",
+        "Total persons aboard incl. crew (~200 in some reports)",
+        "Tanker flag Marshall Islands and 17,764 dwt, built 2017 (single trade-media summary)",
+        "Any pollution or river closure"
+      ],
+      "conflicts": [
+        "Some outlets say 'sunk', others 'capsized/partly submerged'; use capsized"
+      ],
+      "verificationStatus": "CORROBORATED",
+      "priorityScore": 82,
+      "scoreBreakdown": {
+        "recency": 20,
+        "safety": 19,
+        "operational": 12,
+        "regulatory": 5,
+        "human": 9,
+        "industry": 8,
+        "source": 9
+      },
+      "status": "candidate",
+      "cardFile": null,
+      "published": false,
+      "notes": "Below breaking threshold (82<90: no deaths, injuries non-critical). Quota 0 at 03:48 run (next slot 08:22). Next desk run: write incident card for 08:22 slot; check USCG District 8 / NTSB for official statement, cause and photo (USCG photo would be PD). Marine Insight pages not reachable this run.",
+      "versions": [
+        {
+          "at": "2026-11-14T03:55:00Z",
+          "change": "created as candidate; no card (quota 0)"
+        }
+      ],
+      "updatedAt": "2026-11-14T03:55:00Z"
     }
   }
 }
