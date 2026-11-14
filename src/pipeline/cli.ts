@@ -10,7 +10,7 @@ import {copyFileSync, existsSync, mkdirSync, readdirSync, readFileSync, rmSync, 
 import {config, env, isAutoPublish, isCardsEnabled, isDryRun, isPipelineEnabled, log, p, PipelineError, run, setOutput, state, summary, writeJson} from './lib.ts';
 import {llmProvider} from './llm.ts';
 import {buildMetadata, uploadKit} from './metadata.ts';
-import {archiveQueueFile, choose, dueSlot, findSpec, loadBank, markSlot, slotPublishAt} from './plan.ts';
+import {archiveQueueFile, choose, dueSlot, findSpec, loadBank, loadQueue, markSlot, slotPublishAt} from './plan.ts';
 import {makeThumbnail, produce} from './produce.ts';
 import {estimateTimeline} from '../shared/estimate.ts';
 import {varietyProblems} from '../shared/motifs.ts';
@@ -45,6 +45,15 @@ const cmdRun = async () => {
     if (!spec) throw new PipelineError('plan', `no spec with id "${id}" in content/queue or content/bank`);
     plan = {spec, reason: 'requested by id'};
   } else {
+    // early (lead) window: only today's queued scripts; if none is ready yet, try again next hour (no bank fallback)
+    const at = slot ? slotPublishAt(slot.id) : null;
+    const pending = loadQueue().filter((q) => !state.published()[q.spec.id] && validateSpec(q.spec).length === 0);
+    if (at && Date.now() < at.getTime() && pending.length === 0) {
+      log('plan', `no queued script ready yet for ${slot!.id}; will retry at the next tick (slot ${at.toISOString()})`);
+      summary(`### HeyMariner pipeline\n\nWaiting for today's scripts (slot ${slot!.id} at ${at.toISOString()}).\n`);
+      setOutput('produced', 'false');
+      return;
+    }
     plan = await choose(slot, {research: true});
   }
   if (!plan.spec) {

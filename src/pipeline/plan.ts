@@ -49,6 +49,7 @@ const loadDir = (dir: string): {file: string; spec: ContentSpec}[] =>
   existsSync(dir) ? readdirSync(dir).filter((f) => f.endsWith('.json')).sort().map((f) => ({file: `${dir}/${f}`, spec: readJson<ContentSpec>(`${dir}/${f}`)})) : [];
 
 export const loadBank = () => loadDir(p('content/bank'));
+export const loadQueue = () => loadDir(p('content/queue'));
 export const findSpec = (id: string): ContentSpec | null =>
   [...loadDir(p('content/queue')), ...(existsSync(p('content/queue/done')) ? loadDir(p('content/queue/done')) : []), ...loadBank(), ...(existsSync(p('content/preview')) ? loadDir(p('content/preview')) : [])].find((x) => x.spec.id === id)?.spec ?? null;
 
