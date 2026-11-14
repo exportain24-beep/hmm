@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T17:11:19.958Z",
+  "updatedAt": "2026-11-14T17:24:49.237Z",
   "feedStatus": {
     "safety4sea": "ok (0)",
     "gcaptain": "ok (12)",
@@ -48,7 +48,7 @@
       "publishedAt": "2026-11-13T11:41:30.000Z",
       "score": 58,
       "scores": {
-        "recency": 0.51,
+        "recency": 0.5,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -72,7 +72,7 @@
       "publishedAt": "2026-11-13T08:10:39.000Z",
       "score": 55,
       "scores": {
-        "recency": 0.47,
+        "recency": 0.46,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -94,7 +94,7 @@
       "url": "https://maritime-executive.com/article/report-coast-guard-investigates-possible-magic-pipe-case-on-msc-poesia",
       "summary": "The U.S. Coast Guard has launched a criminal investigation into a possible case of \"magic pipe\" waste discharge aboard the cruise ship MSC Poesia, whi...",
       "publishedAt": "2026-11-14T01:44:29.000Z",
-      "score": 55,
+      "score": 54,
       "scores": {
         "recency": 0.7,
         "reliability": 0.85,
@@ -480,7 +480,7 @@
       "publishedAt": "2026-11-13T11:46:27.000Z",
       "score": 46,
       "scores": {
-        "recency": 0.51,
+        "recency": 0.5,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -552,7 +552,7 @@
       "publishedAt": "2026-11-13T09:52:44.000Z",
       "score": 45,
       "scores": {
-        "recency": 0.49,
+        "recency": 0.48,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -576,7 +576,7 @@
       "publishedAt": "2026-11-14T04:34:00.000Z",
       "score": 44,
       "scores": {
-        "recency": 0.75,
+        "recency": 0.74,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -696,7 +696,7 @@
       "publishedAt": "2026-11-13T17:24:08.000Z",
       "score": 42,
       "scores": {
-        "recency": 0.58,
+        "recency": 0.57,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -720,7 +720,7 @@
       "publishedAt": "2026-11-14T00:58:11.000Z",
       "score": 42,
       "scores": {
-        "recency": 0.69,
+        "recency": 0.68,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -744,7 +744,7 @@
       "publishedAt": "2026-11-13T17:18:00.000Z",
       "score": 42,
       "scores": {
-        "recency": 0.58,
+        "recency": 0.57,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -840,7 +840,7 @@
       "publishedAt": "2026-11-13T11:48:52.000Z",
       "score": 41,
       "scores": {
-        "recency": 0.51,
+        "recency": 0.5,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1008,7 +1008,7 @@
       "publishedAt": "2026-11-14T04:33:00.000Z",
       "score": 40,
       "scores": {
-        "recency": 0.75,
+        "recency": 0.74,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1200,7 +1200,7 @@
       "publishedAt": "2026-11-13T21:38:00.000Z",
       "score": 37,
       "scores": {
-        "recency": 0.64,
+        "recency": 0.63,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1296,7 +1296,7 @@
       "publishedAt": "2026-11-13T10:00:23.000Z",
       "score": 35,
       "scores": {
-        "recency": 0.49,
+        "recency": 0.48,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1320,7 +1320,7 @@
       "publishedAt": "2026-11-13T01:05:06.000Z",
       "score": 34,
       "scores": {
-        "recency": 0.4,
+        "recency": 0.39,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1416,7 +1416,7 @@
       "publishedAt": "2026-11-13T16:29:16.000Z",
       "score": 31,
       "scores": {
-        "recency": 0.57,
+        "recency": 0.56,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1512,7 +1512,7 @@
       "publishedAt": "2026-11-13T12:38:32.000Z",
       "score": 30,
       "scores": {
-        "recency": 0.52,
+        "recency": 0.51,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1680,7 +1680,7 @@
       "publishedAt": "2026-11-14T04:02:13.000Z",
       "score": 29,
       "scores": {
-        "recency": 0.74,
+        "recency": 0.73,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1800,7 +1800,7 @@
       "publishedAt": "2026-11-13T01:07:00.000Z",
       "score": 28,
       "scores": {
-        "recency": 0.4,
+        "recency": 0.39,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1920,7 +1920,7 @@
       "publishedAt": "2026-11-14T04:37:00.000Z",
       "score": 20,
       "scores": {
-        "recency": 0.75,
+        "recency": 0.74,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1944,7 +1944,7 @@
       "publishedAt": "2026-11-14T04:32:00.000Z",
       "score": 20,
       "scores": {
-        "recency": 0.75,
+        "recency": 0.74,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
