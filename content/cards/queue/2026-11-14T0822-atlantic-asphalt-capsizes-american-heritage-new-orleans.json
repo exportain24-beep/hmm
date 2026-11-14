@@ -1,0 +1,41 @@
+{
+  "id": "atlantic-asphalt-capsizes-american-heritage-new-orleans",
+  "type": "incident",
+  "headline": "Tanker Capsizes Docked Riverboat in New Orleans",
+  "headlineAccent": "Riverboat in New Orleans",
+  "subheadline": "Allision on the Mississippi: all accounted for",
+  "location": "NEW ORLEANS, USA",
+  "dateLabel": "13 NOV 2026",
+  "insight": "Tanker Atlantic Asphalt struck the moored riverboat American Heritage on 13 Nov, overturning it. About 129 passengers and crew all accounted for; 32 treated.",
+  "publishAtUtc": "2026-11-14T08:22:00Z",
+  "eventId": "HM-2026-111401",
+  "priorityScore": 82,
+  "pillar": "safety",
+  "audience": ["Master", "Pilot", "OOW", "Chief Engineer", "Ship Manager"],
+  "sources": [
+    {"title": "Miracle on the Mississippi: All Accounted For After Tanker Capsizes Cruise Ship in New Orleans", "publisher": "gCaptain", "url": "https://gcaptain.com/miracle-on-the-mississippi-all-accounted-for-after-tanker-capsizes-cruise-ship-in-new-orleans/", "date": "2026-11-14"},
+    {"title": "New Orleans tanker collision capsizes cruise ship with 129 passengers", "publisher": "Interesting Engineering", "url": "https://interestingengineering.com/transportation/new-orleans-tanker-cruise-ship-collision", "date": "2026-11-13"},
+    {"title": "What we know about the American Heritage cruise ship struck by tanker in New Orleans", "publisher": "WDSU", "url": "https://www.wdsu.com/article/new-orleans-mississippi-river-cruise-ship-collision-what-we-know/74426415", "date": "2026-11-13"},
+    {"title": "'Miracle': All rescued from capsized New Orleans riverboat in tanker collision", "publisher": "ABC News", "url": "https://abcnews.com/US/vessel-collision-port-new-orleans-emergency-crews-responding/story?id=138119847", "date": "2026-11-13"},
+    {"title": "BREAKING: Tanker strikes cruise vessel in New Orleans, causing it to capsize", "publisher": "Marine Log", "url": "https://www.marinelog.com/news/breaking-tanker-strikes-cruise-vessel-in-new-orleans-causing-it-to-capsize/", "date": "2026-11-13"}
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner intelligence desk",
+    "checkedAt": "2026-11-14T07:05:00Z",
+    "notes": "Corroborated across gCaptain, Interesting Engineering (citing USCG), WDSU (Port NOLA), ABC and Marine Log: Atlantic Asphalt struck the docked American Heritage at ~12:30 local on 13 Nov near the Crescent City Connection; vessel overturned/partly submerged; ~129 passengers aboard plus crew, all accounted for; 32 treated (non-critical). Port NOLA called it an allision. Cause not confirmed: mayor's 'lost control' remark (CNN) kept off the card. Total persons aboard (~197-200) and tanker particulars not used (single or unclear sources)."
+  },
+  "image": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Steamboat_Natchez._New_Orleans._(48759732042).jpg?width=1600",
+    "credit": "Bernard Spragg / Wikimedia Commons",
+    "license": "CC0 1.0",
+    "representative": true
+  },
+  "meta": {
+    "description": "On Friday 13 November 2026 at about 12:30 local time, the tanker Atlantic Asphalt struck American Cruise Lines' riverboat American Heritage while it was moored on the Mississippi River at New Orleans, near the Crescent City Connection bridge. The riverboat overturned and was left partly submerged; about 129 passengers were aboard with crew, and all were accounted for before search and rescue was stood down. LCMC Health treated 32 people, including two officers who went into the water, none in critical condition. The U.S. Coast Guard and New Orleans Fire Department responded; the cause has not been confirmed.",
+    "keywords": ["New Orleans", "Mississippi River", "allision", "Atlantic Asphalt", "American Heritage", "passenger vessel safety"],
+    "hashtags": ["#MaritimeSafety", "#MississippiRiver", "#NewOrleans", "#ShippingNews", "#Seafarers"],
+    "question": "What does your bridge team brief before passing moored passenger vessels in a strong river current?",
+    "altText": "Representative photo of a sternwheel riverboat on the Mississippi at New Orleans, with HeyMariner news card text on the tanker Atlantic Asphalt capsizing the docked riverboat American Heritage on 13 November 2026."
+  }
+}

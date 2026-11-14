@@ -490,6 +490,12 @@
           "publisher": "Marine Log",
           "url": "https://www.marinelog.com/news/breaking-tanker-strikes-cruise-vessel-in-new-orleans-causing-it-to-capsize/",
           "date": "2026-11-13"
+        },
+        {
+          "title": "What we know about the American Heritage cruise ship struck by tanker in New Orleans",
+          "publisher": "WDSU",
+          "url": "https://www.wdsu.com/article/new-orleans-mississippi-river-cruise-ship-collision-what-we-know/74426415",
+          "date": "2026-11-13"
         }
       ],
       "verifiedFacts": [
@@ -497,7 +503,8 @@
         "The riverboat overturned and was partly submerged (Interesting Engineering; gCaptain; Marine Log)",
         "About 129 passengers aboard; all passengers and crew accounted for, SAR ended (Interesting Engineering; gCaptain; ABC)",
         "32 people treated by LCMC Health (30 passengers, two officers who went into the water), non-critical (Interesting Engineering; Marine Insight-type summary in research feed)",
-        "USCG and New Orleans Fire Department (three-alarm, 23 units) responded (Interesting Engineering)"
+        "USCG and New Orleans Fire Department (three-alarm, 23 units) responded (Interesting Engineering)",
+        "Port NOLA described the event as an allision; American Heritage had docked ~2 hours earlier for disembarkation at 1350 Port of New Orleans Place (WDSU)"
       ],
       "unverifiedClaims": [
         "Tanker lost power/control before impact (mayor per CNN; emergency source) - cause under investigation",
@@ -519,17 +526,21 @@
         "industry": 8,
         "source": 9
       },
-      "status": "candidate",
-      "cardFile": null,
+      "status": "queued",
+      "cardFile": "content/cards/queue/2026-11-14T0822-atlantic-asphalt-capsizes-american-heritage-new-orleans.json",
       "published": false,
-      "notes": "Below breaking threshold (82<90: no deaths, injuries non-critical). Quota 0 at 03:48 run (next slot 08:22). Next desk run: write incident card for 08:22 slot; check USCG District 8 / NTSB for official statement, cause and photo (USCG photo would be PD). Marine Insight pages not reachable this run.",
+      "notes": "Card queued for 08:22 UTC slot 14 Nov. No official USCG/NTSB cause yet; Commons photo of actual vessel not verifiable this run, so CC0 representative New Orleans riverboat photo used. Watch for NTSB launch, cause, salvage/river restrictions -> UPDATE card only if material.",
       "versions": [
         {
           "at": "2026-11-14T03:55:00Z",
           "change": "created as candidate; no card (quota 0)"
+        },
+        {
+          "at": "2026-11-14T07:05:00Z",
+          "change": "incident card queued for 2026-11-14T08:22Z"
         }
       ],
-      "updatedAt": "2026-11-14T03:55:00Z"
+      "updatedAt": "2026-11-14T07:05:00Z"
     }
   }
 }
