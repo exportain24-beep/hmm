@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-14T21:24:54.338Z",
+  "updatedAt": "2026-11-14T21:32:30.852Z",
   "feedStatus": {
-    "safety4sea": "failed: HTTP 415",
+    "safety4sea": "ok (0)",
     "gcaptain": "ok (12)",
-    "splash247": "failed: HTTP 415",
+    "splash247": "ok (10)",
     "marex": "ok (25)",
     "marineinsight": "ok (15)",
     "hellenic": "ok (20)",
@@ -24,7 +24,7 @@
       "publishedAt": "2026-11-14T14:41:03.000Z",
       "score": 60,
       "scores": {
-        "recency": 0.86,
+        "recency": 0.85,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -56,6 +56,30 @@
         "shareability": 1,
         "visualPotential": 0,
         "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "6be2b3d20a947d8fc8a08888ba2139066f805630",
+      "storyKey": "669598384aa7443c24e7d405cc32ac957fd8d9e3",
+      "sourceId": "splash247",
+      "sourceName": "Splash247",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Gulf war leaves toxic legacy that could last decades",
+      "url": "https://splash247.com/gulf-war-leaves-toxic-legacy-that-could-last-decades/",
+      "summary": "Greenpeace has identified 540 possible oil spills across the Gulf, Strait of Hormuz and Arabian Sea since the US-Iran war began on February 28 (see map below), with satellite imagery showing a cumulative slick footprint of approximately 20,000 sq km. Not all detections have been conclusively linked to attacks on shipping. The environmental consequences could",
+      "publishedAt": "2026-11-13T08:10:39.000Z",
+      "score": 54,
+      "scores": {
+        "recency": 0.42,
+        "reliability": 0.85,
+        "maritimeRelevance": 1,
+        "educationalValue": 0.5,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0.5,
+        "regulatoryImportance": 0.5,
         "corroboratingOutlets": 1
       }
     },
@@ -128,6 +152,30 @@
         "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0.5,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "6435e558e7463585933a9db5fc38a1925572ae40",
+      "storyKey": "6fc5ba8638994bb872cae5aa956731f3b96f882a",
+      "sourceId": "splash247",
+      "sourceName": "Splash247",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "New report identifies Hong Kong’s place in world shipping",
+      "url": "https://splash247.com/new-report-identifies-hong-kongs-place-in-world-shipping/",
+      "summary": "Hong Kong Maritime Week is about to kick off. To celebrate the occasion, Splash today publishes a 48-page magazine on the city’s maritime hub credentials. A ship can be ordered at a mainland Chinese yard, owned through a leasing company in Hong Kong, insured in London, crewed through a management operation in Asia and chartered",
+      "publishedAt": "2026-11-13T07:45:00.000Z",
+      "score": 50,
+      "scores": {
+        "recency": 0.42,
+        "reliability": 0.85,
+        "maritimeRelevance": 1,
+        "educationalValue": 0.5,
+        "seafarerValue": 0.5,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
     },
@@ -444,6 +492,30 @@
       }
     },
     {
+      "fingerprint": "de51dd407f266f42507871dfd3ee4a81ecea6c9a",
+      "storyKey": "4e8f7ba13212d36555b5470eebfa01f00c63486c",
+      "sourceId": "splash247",
+      "sourceName": "Splash247",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "From ocean liner to artificial reef: A warning for container shipping",
+      "url": "https://splash247.com/from-ocean-liner-to-artificial-reef-a-warning-for-container-shipping/",
+      "summary": "Dr Raymon Krishnan, president of Singapore’s Logistics Supply Chain Management Society, writes for Splash today, reflecting on one of this week’s most talked about stories in the mainstream press. On Wednesday, the 990-foot ocean liner SS United States was deliberately sunk off Destin, Florida, to become what is expected to be the world’s largest",
+      "publishedAt": "2026-11-13T10:07:00.000Z",
+      "score": 45,
+      "scores": {
+        "recency": 0.44,
+        "reliability": 0.85,
+        "maritimeRelevance": 1,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 1,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
       "fingerprint": "2754f21979aa21f9b0df49c25a69d2cb7f181327",
       "storyKey": "456bb3c9cc01560d5a6de7b4cfd9ea23af4a7043",
       "sourceId": "hellenic",
@@ -588,30 +660,6 @@
       }
     },
     {
-      "fingerprint": "edbd647f8ebf1d81c3f6ac80c3f6e0761d8cf1f1",
-      "storyKey": "c856f1786b201b97cb890e2e5351620c90a8cee2",
-      "sourceId": "marineinsight",
-      "sourceName": "Marine Insight",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "River Cruise Ship With Nearly 200 People Aboard Capsizes After Tanker Strikes It In New Orleans",
-      "url": "https://www.marineinsight.com/american-heritage-riverboat-capsizes-tanker-new-orleans/?utm_source=rss utm_medium=rss utm_campaign=american-heritage-riverboat-capsizes-tanker-new-orleans",
-      "summary": "Riverboat American Heritage capsized on the Mississippi River in New Orleans on November 13, 2026, after the tanker Atlantic Asphalt struck it while it was docked, sending 32 people to hospitals.",
-      "publishedAt": "2026-11-14T15:04:25.000Z",
-      "score": 42,
-      "scores": {
-        "recency": 0.86,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.67,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
       "fingerprint": "b59ff6adb1d55162e25598706f56956695cc29af",
       "storyKey": "a89d5bb4d5c997ff109153dedc75989150fca5f3",
       "sourceId": "gcaptain",
@@ -624,7 +672,7 @@
       "publishedAt": "2026-11-13T17:37:39.000Z",
       "score": 41,
       "scores": {
-        "recency": 0.53,
+        "recency": 0.52,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -660,6 +708,30 @@
       }
     },
     {
+      "fingerprint": "d737e28e89ffbc9498450d7f827d069b4333bafb",
+      "storyKey": "606bee6a7b581d0b8291c1ab48cb5f5907e796d7",
+      "sourceId": "splash247",
+      "sourceName": "Splash247",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Tanker sinks river cruise ship in New Orleans collision",
+      "url": "https://splash247.com/tanker-sinks-river-cruise-ship-in-new-orleans-collision/",
+      "summary": "The 17,764 dwt bitumen tanker Atlantic Asphalt has struck and sunk a river cruise ship on the Mississippi River in New Orleans, leaving 32 people hospitalised and prompting a major emergency response. The collision occurred at approximately 12.30 pm local time on November 13, when the 2017-built tanker struck American Cruise Lines' American Heritage, which",
+      "publishedAt": "2026-11-14T00:58:11.000Z",
+      "score": 41,
+      "scores": {
+        "recency": 0.62,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.67,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0.5,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
       "fingerprint": "8cfb38eab787ef692d5dbd2fb05b8dbbb056ab5a",
       "storyKey": "ad7ce67514d7ae661440e0941d493017b0288e9b",
       "sourceId": "marex",
@@ -675,6 +747,30 @@
         "recency": 0.52,
         "reliability": 0.85,
         "maritimeRelevance": 1,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "edbd647f8ebf1d81c3f6ac80c3f6e0761d8cf1f1",
+      "storyKey": "c856f1786b201b97cb890e2e5351620c90a8cee2",
+      "sourceId": "marineinsight",
+      "sourceName": "Marine Insight",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "River Cruise Ship With Nearly 200 People Aboard Capsizes After Tanker Strikes It In New Orleans",
+      "url": "https://www.marineinsight.com/american-heritage-riverboat-capsizes-tanker-new-orleans/?utm_source=rss utm_medium=rss utm_campaign=american-heritage-riverboat-capsizes-tanker-new-orleans",
+      "summary": "Riverboat American Heritage capsized on the Mississippi River in New Orleans on November 13, 2026, after the tanker Atlantic Asphalt struck it while it was docked, sending 32 people to hospitals.",
+      "publishedAt": "2026-11-14T15:04:25.000Z",
+      "score": 41,
+      "scores": {
+        "recency": 0.86,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.67,
         "educationalValue": 0,
         "seafarerValue": 0,
         "shareability": 0,
@@ -852,6 +948,78 @@
       }
     },
     {
+      "fingerprint": "6c502059e6bb764240a864fa9afefbf0bd479280",
+      "storyKey": "40c633bf26ce2a3cced422d6f8d72034243e50b2",
+      "sourceId": "splash247",
+      "sourceName": "Splash247",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "UK blacklists 11 ships in fresh Russia sanctions sweep",
+      "url": "https://splash247.com/uk-blacklists-11-ships-in-fresh-russia-sanctions-sweep/",
+      "summary": "Britain has slapped fresh sanctions on 11 ships linked to Russian energy exports, targeting five LNG carriers, five oil tankers and a floating storage unit in its latest effort to disrupt Moscow's seaborne oil and gas trade. The measures also cover nine companies, including Russian oil producer Slavneft, Rosneft's Vostok Oil project and several energy",
+      "publishedAt": "2026-11-13T09:35:00.000Z",
+      "score": 39,
+      "scores": {
+        "recency": 0.44,
+        "reliability": 0.85,
+        "maritimeRelevance": 1,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "f4b19193b79453cc67cc371db4d887b59c0cae03",
+      "storyKey": "3463352bc3a3efe01eef6d6cfdef69413b659739",
+      "sourceId": "splash247",
+      "sourceName": "Splash247",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Pyxis cashes in on ageing MR tanker in $37m deal",
+      "url": "https://splash247.com/pyxis-cashes-in-on-ageing-mr-tanker-in-37m-deal/",
+      "summary": "Greek shipowner Pyxis Tankers has agreed to sell its oldest product tanker for $37m, cashing in on firm asset values and cutting its MR fleet from three vessels to two. The Nasdaq-listed company, led by Eddie Valentis, has struck a deal with an undisclosed third-party buyer for the 2013-built, 46,652 dwt Pyxis Karteria, constructed at",
+      "publishedAt": "2026-11-13T09:23:00.000Z",
+      "score": 39,
+      "scores": {
+        "recency": 0.43,
+        "reliability": 0.85,
+        "maritimeRelevance": 1,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "5ccfdcb0650e0647194d9e192bfa4c8e5f394de5",
+      "storyKey": "4553d01120e7acf2c38ed99fb575339202781537",
+      "sourceId": "splash247",
+      "sourceName": "Splash247",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Baltic Exchange and Mercuria await verdict in landmark tanker index trial",
+      "url": "https://splash247.com/baltic-exchange-and-mercuria-await-verdict-in-landmark-tanker-index-trial/",
+      "summary": "One of shipping's most consequential legal battles has concluded in London, with the Baltic Exchange and commodities trader Mercuria awaiting a High Court ruling on whether the industry's leading VLCC freight benchmark should have continued operating after war erupted in the Middle East. The three-week trial ended yesterday, with judgment expected to take several months.",
+      "publishedAt": "2026-11-13T08:00:31.000Z",
+      "score": 39,
+      "scores": {
+        "recency": 0.42,
+        "reliability": 0.85,
+        "maritimeRelevance": 1,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
       "fingerprint": "f9c7a70d36ccff6ef1a0103ef29503bf70d42362",
       "storyKey": "fdf4b32198d3073a75af0f99d882f29f02233e6e",
       "sourceId": "marex",
@@ -1008,7 +1176,7 @@
       "publishedAt": "2026-11-13T20:45:59.000Z",
       "score": 36,
       "scores": {
-        "recency": 0.57,
+        "recency": 0.56,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1140,30 +1308,6 @@
       }
     },
     {
-      "fingerprint": "ac2ee5f5768c68c082372ff1778e745c24b33e49",
-      "storyKey": "6ab524648ab008c149bf7bae9a532eb43dfbcec9",
-      "sourceId": "marex",
-      "sourceName": "The Maritime Executive",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Euroports Rauma Container Terminal has Joined the Portchain Connect Network",
-      "url": "https://maritime-executive.com/article/euroports-rauma-container-terminal-has-joined-the-portchain-connect-network",
-      "summary": "Portchain today announced Euroports’ container terminal in the Port of Rauma, will join the Portchain Connect network. Rauma terminal will use Portcha...",
-      "publishedAt": "2026-11-13T01:40:34.000Z",
-      "score": 33,
-      "scores": {
-        "recency": 0.36,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.67,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
       "fingerprint": "d5e72ed84095fcbeb47c51dc26e8836398eda837",
       "storyKey": "1e0904e161c2211605fcb9b0aaf904c687b37900",
       "sourceId": "marex",
@@ -1181,6 +1325,30 @@
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
         "seafarerValue": 0.5,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "ac2ee5f5768c68c082372ff1778e745c24b33e49",
+      "storyKey": "6ab524648ab008c149bf7bae9a532eb43dfbcec9",
+      "sourceId": "marex",
+      "sourceName": "The Maritime Executive",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Euroports Rauma Container Terminal has Joined the Portchain Connect Network",
+      "url": "https://maritime-executive.com/article/euroports-rauma-container-terminal-has-joined-the-portchain-connect-network",
+      "summary": "Portchain today announced Euroports’ container terminal in the Port of Rauma, will join the Portchain Connect network. Rauma terminal will use Portcha...",
+      "publishedAt": "2026-11-13T01:40:34.000Z",
+      "score": 32,
+      "scores": {
+        "recency": 0.36,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.67,
+        "educationalValue": 0,
+        "seafarerValue": 0,
         "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0,
@@ -1308,6 +1476,30 @@
       }
     },
     {
+      "fingerprint": "a2bbac3b04ab07071c9df0ce02001a5aa1011662",
+      "storyKey": "f1b1d77fa1e39ae66bfd952612bfd74be3b432f3",
+      "sourceId": "splash247",
+      "sourceName": "Splash247",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "BW LPG scores another lucrative Avance VLGC flip",
+      "url": "https://splash247.com/bw-lpg-scores-another-lucrative-avance-vlgc-flip/",
+      "summary": "BW LPG has struck another lucrative vessel sale, offloading a VLGC acquired in John Fredriksen's Avance Gas fleet deal less than two years ago for well over $100m. The New York- and Oslo-listed gas carrier giant has agreed to sell the 2015-built, 83,134 cu m BW Mistral, with the transaction expected to generate a net",
+      "publishedAt": "2026-11-13T09:50:00.000Z",
+      "score": 29,
+      "scores": {
+        "recency": 0.44,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
       "fingerprint": "090274b28fa0b9ed9f0c927500aaeeac07a8cc80",
       "storyKey": "cbdfaf2ad13dba2e166bd5ef3478e48492b694a7",
       "sourceId": "marineinsight",
@@ -1418,6 +1610,30 @@
       "scores": {
         "recency": 0.58,
         "reliability": 0.75,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "66efb4a23e84c0c458391459a56c7a52dd6ab1d0",
+      "storyKey": "96fbaa62b0380121f864febd9cfd9a49b4d960f4",
+      "sourceId": "splash247",
+      "sourceName": "Splash247",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Cetus seals $200m share placement ahead of Oslo debut",
+      "url": "https://splash247.com/cetus-seals-200m-share-placement-ahead-of-oslo-debut/",
+      "summary": "Hong Kong-based dry bulk owner Cetus Maritime has successfully placed a NOK1.89bn ($200m) share offering, including an over-allotment, clearing a major hurdle ahead of its planned Oslo stock market debut next week. The Mark Young-led company said it had conditionally allocated 108.5m shares at NOK17.44 ($1.83) apiece, taking up the full $25m over-allotment on top",
+      "publishedAt": "2026-11-13T09:42:00.000Z",
+      "score": 28,
+      "scores": {
+        "recency": 0.44,
+        "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
         "seafarerValue": 0,
@@ -1632,7 +1848,7 @@
       "publishedAt": "2026-11-13T19:56:00.000Z",
       "score": 25,
       "scores": {
-        "recency": 0.56,
+        "recency": 0.55,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1657,6 +1873,30 @@
       "score": 25,
       "scores": {
         "recency": 0.53,
+        "reliability": 0.85,
+        "maritimeRelevance": 0,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "e56139c229bff13b74f969f7c24af88ad82a27e2",
+      "storyKey": "05a7e6083615d55740c4e4f27f50ff727fa0b88f",
+      "sourceId": "splash247",
+      "sourceName": "Splash247",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Deutsche Windtechnik picked for UK offshore wind maintenance job",
+      "url": "https://splash247.com/deutsche-windtechnik-picked-for-uk-offshore-wind-maintenance-job/",
+      "summary": "German offshore wind services specialist Deutsche Windtechnik has secured a five-year operations and maintenance contract covering two offshore wind farms in the UK. The agreement, awarded by asset manager XceCo, covers the Lynn and Inner Dowsing wind farms off Lincolnshire, which have a combined installed capacity of 194.4MW. The contract will begin on April 1,",
+      "publishedAt": "2026-11-13T09:30:00.000Z",
+      "score": 23,
+      "scores": {
+        "recency": 0.43,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
