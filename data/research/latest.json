@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T08:25:10.876Z",
+  "updatedAt": "2026-11-15T09:25:05.357Z",
   "feedStatus": {
     "safety4sea": "ok (0)",
     "gcaptain": "ok (12)",
@@ -24,7 +24,7 @@
       "publishedAt": "2026-11-14T14:41:03.000Z",
       "score": 56,
       "scores": {
-        "recency": 0.66,
+        "recency": 0.65,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -48,7 +48,7 @@
       "publishedAt": "2026-11-14T22:23:43.000Z",
       "score": 56,
       "scores": {
-        "recency": 0.79,
+        "recency": 0.78,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -72,7 +72,7 @@
       "publishedAt": "2026-11-13T11:41:30.000Z",
       "score": 56,
       "scores": {
-        "recency": 0.36,
+        "recency": 0.35,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -96,7 +96,7 @@
       "publishedAt": "2026-11-14T15:30:10.000Z",
       "score": 55,
       "scores": {
-        "recency": 0.68,
+        "recency": 0.66,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -120,7 +120,7 @@
       "publishedAt": "2026-11-13T08:10:39.000Z",
       "score": 52,
       "scores": {
-        "recency": 0.33,
+        "recency": 0.32,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -128,30 +128,6 @@
         "shareability": 0,
         "visualPotential": 0.5,
         "regulatoryImportance": 0.5,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "2d4f7faa89ee449610a1d44a550fb91cefc15a9a",
-      "storyKey": "320279df07b9e8d3c24da9039426cb38cafa3161",
-      "sourceId": "splash247",
-      "sourceName": "Splash247",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "US court orders arrest of tanker after New Orleans cruise ship collision",
-      "url": "https://splash247.com/us-court-orders-arrest-of-tanker-after-new-orleans-cruise-ship-collision/",
-      "summary": "A US federal court has authorised the arrest of the tanker Atlantic Asphalt after the Port of New Orleans launched legal action seeking more than $1m in damages following the collision that sank American Cruise Lines’ American Heritage. The Board of Commissioners of the Port of New Orleans filed the lawsuit in the Eastern District",
-      "publishedAt": "2026-11-15T01:06:11.000Z",
-      "score": 51,
-      "scores": {
-        "recency": 0.84,
-        "reliability": 0.85,
-        "maritimeRelevance": 1,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0.5,
-        "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
     },
@@ -168,7 +144,7 @@
       "publishedAt": "2026-11-14T01:44:29.000Z",
       "score": 51,
       "scores": {
-        "recency": 0.49,
+        "recency": 0.48,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 1,
@@ -176,6 +152,30 @@
         "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0.5,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "2d4f7faa89ee449610a1d44a550fb91cefc15a9a",
+      "storyKey": "320279df07b9e8d3c24da9039426cb38cafa3161",
+      "sourceId": "splash247",
+      "sourceName": "Splash247",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "US court orders arrest of tanker after New Orleans cruise ship collision",
+      "url": "https://splash247.com/us-court-orders-arrest-of-tanker-after-new-orleans-cruise-ship-collision/",
+      "summary": "A US federal court has authorised the arrest of the tanker Atlantic Asphalt after the Port of New Orleans launched legal action seeking more than $1m in damages following the collision that sank American Cruise Lines’ American Heritage. The Board of Commissioners of the Port of New Orleans filed the lawsuit in the Eastern District",
+      "publishedAt": "2026-11-15T01:06:11.000Z",
+      "score": 50,
+      "scores": {
+        "recency": 0.83,
+        "reliability": 0.85,
+        "maritimeRelevance": 1,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0.5,
+        "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
     },
@@ -190,38 +190,14 @@
       "url": "https://www.hellenicshippingnews.com/resistance-for-shippings-record-rally/",
       "summary": "Shipping markets are enjoying the strongest and longest earnings boom seen in more than two decades, yet asset buyers remain remarkably cautious about the industry's longer-term prospects. According to Danish Ship Finance’s November Shipping Market Review, the disconnect between soaring earnings and more restrained vessel valuations reflects a widespread belief that current market conditions are ...",
       "publishedAt": "2026-11-13T22:00:58.000Z",
-      "score": 50,
+      "score": 49,
       "scores": {
-        "recency": 0.45,
+        "recency": 0.44,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0,
         "seafarerValue": 0,
         "shareability": 1,
-        "visualPotential": 0,
-        "regulatoryImportance": 0.5,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "14a7659485320a2b3cf6a4eb273ed6321d3c1b08",
-      "storyKey": "f03628db6f48f22d0ba5e7aab7fe7a505188d384",
-      "sourceId": "hellenic",
-      "sourceName": "Hellenic Shipping News",
-      "tier": "press",
-      "reliability": 0.75,
-      "title": "Shipping sector backs an International Maritime Organization (IMO) climate deal, but not all of the details",
-      "url": "https://www.hellenicshippingnews.com/shipping-sector-backs-an-international-maritime-organization-imo-climate-deal-but-not-all-of-the-details/",
-      "summary": "New analysis from the global think tank InfluenceMap confirms, with detailed evidence, broad public support across the shipping and fuels sectors for a climate deal at the International Maritime Organization (IMO). However, differing advocacy positions on key components of the framework, including the carbon price, fuel standard, and rules for counting fuel emissions, threaten to ...",
-      "publishedAt": "2026-11-13T22:00:59.000Z",
-      "score": 49,
-      "scores": {
-        "recency": 0.45,
-        "reliability": 0.75,
-        "maritimeRelevance": 1,
-        "educationalValue": 0.5,
-        "seafarerValue": 0,
-        "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0.5,
         "corroboratingOutlets": 1
@@ -240,7 +216,7 @@
       "publishedAt": "2026-11-15T03:48:26.000Z",
       "score": 48,
       "scores": {
-        "recency": 0.9,
+        "recency": 0.88,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -248,6 +224,30 @@
         "shareability": 1,
         "visualPotential": 0,
         "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "14a7659485320a2b3cf6a4eb273ed6321d3c1b08",
+      "storyKey": "f03628db6f48f22d0ba5e7aab7fe7a505188d384",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "Shipping sector backs an International Maritime Organization (IMO) climate deal, but not all of the details",
+      "url": "https://www.hellenicshippingnews.com/shipping-sector-backs-an-international-maritime-organization-imo-climate-deal-but-not-all-of-the-details/",
+      "summary": "New analysis from the global think tank InfluenceMap confirms, with detailed evidence, broad public support across the shipping and fuels sectors for a climate deal at the International Maritime Organization (IMO). However, differing advocacy positions on key components of the framework, including the carbon price, fuel standard, and rules for counting fuel emissions, threaten to ...",
+      "publishedAt": "2026-11-13T22:00:59.000Z",
+      "score": 48,
+      "scores": {
+        "recency": 0.44,
+        "reliability": 0.75,
+        "maritimeRelevance": 1,
+        "educationalValue": 0.5,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0.5,
         "corroboratingOutlets": 1
       }
     },
@@ -264,7 +264,7 @@
       "publishedAt": "2026-11-13T13:08:13.000Z",
       "score": 47,
       "scores": {
-        "recency": 0.37,
+        "recency": 0.36,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -288,7 +288,7 @@
       "publishedAt": "2026-11-14T02:34:17.000Z",
       "score": 46,
       "scores": {
-        "recency": 0.5,
+        "recency": 0.49,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -312,7 +312,7 @@
       "publishedAt": "2026-11-14T22:08:51.000Z",
       "score": 45,
       "scores": {
-        "recency": 0.79,
+        "recency": 0.77,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -336,7 +336,7 @@
       "publishedAt": "2026-11-14T18:13:54.000Z",
       "score": 45,
       "scores": {
-        "recency": 0.72,
+        "recency": 0.7,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -360,7 +360,7 @@
       "publishedAt": "2026-11-13T21:11:53.000Z",
       "score": 45,
       "scores": {
-        "recency": 0.44,
+        "recency": 0.43,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -396,30 +396,6 @@
       }
     },
     {
-      "fingerprint": "7731ffe8a60234e6fd71f87afff0b0d07a0c90af",
-      "storyKey": "fab8548709ab127fc8b5ed28825829e5fe87caea",
-      "sourceId": "gcaptain",
-      "sourceName": "gCaptain",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Hapag-Lloyd Profit Surges as Freight Rates Rise, Red Sea Services Return",
-      "url": "https://gcaptain.com/hapag-lloyd-profit-surges-as-freight-rates-rise-red-sea-services-return/",
-      "summary": "German container shipping giant Hapag-Lloyd reported a sharp increase in third-quarter earnings as higher freight rates more than offset rising operating costs tied to the Middle East conflict and widespread...",
-      "publishedAt": "2026-11-13T17:09:56.000Z",
-      "score": 44,
-      "scores": {
-        "recency": 0.4,
-        "reliability": 0.85,
-        "maritimeRelevance": 1,
-        "educationalValue": 0.5,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
       "fingerprint": "03c6ce4133eb6b72373ab203e73c613fffe93768",
       "storyKey": "26c52965502c2e25ae71702f62beb206e2ec2e16",
       "sourceId": "marex",
@@ -432,7 +408,7 @@
       "publishedAt": "2026-11-14T16:50:51.000Z",
       "score": 44,
       "scores": {
-        "recency": 0.7,
+        "recency": 0.68,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -456,7 +432,7 @@
       "publishedAt": "2026-11-13T11:46:27.000Z",
       "score": 44,
       "scores": {
-        "recency": 0.36,
+        "recency": 0.35,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -480,7 +456,7 @@
       "publishedAt": "2026-11-13T22:00:43.000Z",
       "score": 44,
       "scores": {
-        "recency": 0.45,
+        "recency": 0.44,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -504,13 +480,37 @@
       "publishedAt": "2026-11-13T17:51:12.000Z",
       "score": 43,
       "scores": {
-        "recency": 0.41,
+        "recency": 0.4,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
         "seafarerValue": 0,
         "shareability": 0,
         "visualPotential": 0.5,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "7731ffe8a60234e6fd71f87afff0b0d07a0c90af",
+      "storyKey": "fab8548709ab127fc8b5ed28825829e5fe87caea",
+      "sourceId": "gcaptain",
+      "sourceName": "gCaptain",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Hapag-Lloyd Profit Surges as Freight Rates Rise, Red Sea Services Return",
+      "url": "https://gcaptain.com/hapag-lloyd-profit-surges-as-freight-rates-rise-red-sea-services-return/",
+      "summary": "German container shipping giant Hapag-Lloyd reported a sharp increase in third-quarter earnings as higher freight rates more than offset rising operating costs tied to the Middle East conflict and widespread...",
+      "publishedAt": "2026-11-13T17:09:56.000Z",
+      "score": 43,
+      "scores": {
+        "recency": 0.39,
+        "reliability": 0.85,
+        "maritimeRelevance": 1,
+        "educationalValue": 0.5,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
@@ -552,36 +552,12 @@
       "publishedAt": "2026-11-13T22:00:59.000Z",
       "score": 43,
       "scores": {
-        "recency": 0.45,
+        "recency": 0.44,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0.5,
         "seafarerValue": 0,
         "shareability": 1,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "2754f21979aa21f9b0df49c25a69d2cb7f181327",
-      "storyKey": "456bb3c9cc01560d5a6de7b4cfd9ea23af4a7043",
-      "sourceId": "hellenic",
-      "sourceName": "Hellenic Shipping News",
-      "tier": "press",
-      "reliability": 0.75,
-      "title": "Advanced Shipping Trading – WEEKLY SHIPPING MARKET REPORT WEEK 46 2026",
-      "url": "https://www.hellenicshippingnews.com/advanced-shipping-trading-weekly-shipping-market-report-week-46-2026/",
-      "summary": "Alcyon Shipping have committed the Capesize “Nightsky” 183/2019 Namura Sasebo, Japan (SS 11/2029, DD 10/2027) Source: Advanced Shipping Trading S.A.",
-      "publishedAt": "2026-11-13T22:00:50.000Z",
-      "score": 43,
-      "scores": {
-        "recency": 0.45,
-        "reliability": 0.75,
-        "maritimeRelevance": 1,
-        "educationalValue": 0.5,
-        "seafarerValue": 0,
-        "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
@@ -600,35 +576,11 @@
       "publishedAt": "2026-11-13T22:00:49.000Z",
       "score": 43,
       "scores": {
-        "recency": 0.45,
+        "recency": 0.44,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0.5,
         "seafarerValue": 0.5,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "3468cfdbdc136f85c187f777b2a73eb8352938c2",
-      "storyKey": "ab9ef3e4b318370765586c5a4ba8883717cf5830",
-      "sourceId": "hellenic",
-      "sourceName": "Hellenic Shipping News",
-      "tier": "press",
-      "reliability": 0.75,
-      "title": "Gibson tanker report – Crude Correction",
-      "url": "https://www.hellenicshippingnews.com/gibson-tanker-report-crude-correction/",
-      "summary": "Crude tanker freight rates have taken a beating this month albeit from unprecedented highs, with key benchmarks Source: GIBSON SHIPBROKERS LTD",
-      "publishedAt": "2026-11-13T22:00:46.000Z",
-      "score": 43,
-      "scores": {
-        "recency": 0.45,
-        "reliability": 0.75,
-        "maritimeRelevance": 1,
-        "educationalValue": 0.5,
-        "seafarerValue": 0,
         "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0,
@@ -648,13 +600,61 @@
       "publishedAt": "2026-11-13T09:52:44.000Z",
       "score": 42,
       "scores": {
-        "recency": 0.34,
+        "recency": 0.33,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
         "seafarerValue": 0.5,
         "shareability": 0,
         "visualPotential": 0.5,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "2754f21979aa21f9b0df49c25a69d2cb7f181327",
+      "storyKey": "456bb3c9cc01560d5a6de7b4cfd9ea23af4a7043",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "Advanced Shipping Trading – WEEKLY SHIPPING MARKET REPORT WEEK 46 2026",
+      "url": "https://www.hellenicshippingnews.com/advanced-shipping-trading-weekly-shipping-market-report-week-46-2026/",
+      "summary": "Alcyon Shipping have committed the Capesize “Nightsky” 183/2019 Namura Sasebo, Japan (SS 11/2029, DD 10/2027) Source: Advanced Shipping Trading S.A.",
+      "publishedAt": "2026-11-13T22:00:50.000Z",
+      "score": 42,
+      "scores": {
+        "recency": 0.44,
+        "reliability": 0.75,
+        "maritimeRelevance": 1,
+        "educationalValue": 0.5,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "3468cfdbdc136f85c187f777b2a73eb8352938c2",
+      "storyKey": "ab9ef3e4b318370765586c5a4ba8883717cf5830",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "Gibson tanker report – Crude Correction",
+      "url": "https://www.hellenicshippingnews.com/gibson-tanker-report-crude-correction/",
+      "summary": "Crude tanker freight rates have taken a beating this month albeit from unprecedented highs, with key benchmarks Source: GIBSON SHIPBROKERS LTD",
+      "publishedAt": "2026-11-13T22:00:46.000Z",
+      "score": 42,
+      "scores": {
+        "recency": 0.44,
+        "reliability": 0.75,
+        "maritimeRelevance": 1,
+        "educationalValue": 0.5,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
@@ -684,30 +684,6 @@
       }
     },
     {
-      "fingerprint": "f9c7a70d36ccff6ef1a0103ef29503bf70d42362",
-      "storyKey": "fdf4b32198d3073a75af0f99d882f29f02233e6e",
-      "sourceId": "marex",
-      "sourceName": "The Maritime Executive",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Fairbanks Acquires Truflo Marine",
-      "url": "https://maritime-executive.com/article/fairbanks-acquires-truflo-marine-expanding-australian-submarine-manufacturing-capabilities",
-      "summary": "Fairbanks Morse Defense recently announced the acquisition of Truflo Marine, marking a major expansion of its ability to support allied submarine prod...",
-      "publishedAt": "2026-11-14T18:33:00.000Z",
-      "score": 40,
-      "scores": {
-        "recency": 0.73,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.33,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 1,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
       "fingerprint": "3bec3398601691a2cc5bb2ff6a3127298a88385b",
       "storyKey": "a54ccaf9e96dbde62a587a2e15b564b600c95b38",
       "sourceId": "marex",
@@ -720,7 +696,7 @@
       "publishedAt": "2026-11-14T04:34:00.000Z",
       "score": 40,
       "scores": {
-        "recency": 0.53,
+        "recency": 0.51,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -744,12 +720,36 @@
       "publishedAt": "2026-11-13T21:13:00.000Z",
       "score": 40,
       "scores": {
-        "recency": 0.44,
+        "recency": 0.43,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
         "seafarerValue": 0.5,
         "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "f9c7a70d36ccff6ef1a0103ef29503bf70d42362",
+      "storyKey": "fdf4b32198d3073a75af0f99d882f29f02233e6e",
+      "sourceId": "marex",
+      "sourceName": "The Maritime Executive",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Fairbanks Acquires Truflo Marine",
+      "url": "https://maritime-executive.com/article/fairbanks-acquires-truflo-marine-expanding-australian-submarine-manufacturing-capabilities",
+      "summary": "Fairbanks Morse Defense recently announced the acquisition of Truflo Marine, marking a major expansion of its ability to support allied submarine prod...",
+      "publishedAt": "2026-11-14T18:33:00.000Z",
+      "score": 39,
+      "scores": {
+        "recency": 0.71,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 1,
         "visualPotential": 0,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
@@ -766,9 +766,9 @@
       "url": "https://gcaptain.com/world-oil-market-is-returning-to-surplus-as-gulf-exports-recover/",
       "summary": "The world oil market will return to a surplus in the fourth quarter of this year, the International Energy Agency said on Friday, as Middle East exports recover faster than global oil demand despite continued attacks on shipping.",
       "publishedAt": "2026-11-13T17:37:39.000Z",
-      "score": 39,
+      "score": 38,
       "scores": {
-        "recency": 0.41,
+        "recency": 0.4,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -790,9 +790,9 @@
       "url": "https://gcaptain.com/cma-cgm-net-profit-more-than-triples-to-2-32-billion-as-freight-rates-surge/",
       "summary": "French shipping giant CMA CGM more than tripled its third-quarter net profit as higher container freight rates and strong cargo volumes boosted earnings amid ongoing disruptions to global shipping routes...",
       "publishedAt": "2026-11-13T17:24:08.000Z",
-      "score": 39,
+      "score": 38,
       "scores": {
-        "recency": 0.41,
+        "recency": 0.4,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -814,9 +814,9 @@
       "url": "https://splash247.com/tanker-sinks-river-cruise-ship-in-new-orleans-collision/",
       "summary": "The 17,764 dwt bitumen tanker Atlantic Asphalt has struck and partially sunk a river cruise ship on the Mississippi River in New Orleans, leaving 32 people hospitalised and prompting a major emergency response. The collision occurred at approximately 12.30 pm local time on November 13, when the 2017-built tanker struck American Cruise Lines' American Heritage,",
       "publishedAt": "2026-11-14T00:58:11.000Z",
-      "score": 39,
+      "score": 38,
       "scores": {
-        "recency": 0.48,
+        "recency": 0.47,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -838,11 +838,35 @@
       "url": "https://maritime-executive.com/article/study-shipping-can-avoid-endangered-species-habitat-at-minimal-cost",
       "summary": "In a study aimed at demonstrating that shipping can support marine conservation efforts without significantly increasing costs, researchers in the UK...",
       "publishedAt": "2026-11-13T17:18:00.000Z",
-      "score": 39,
+      "score": 38,
       "scores": {
-        "recency": 0.41,
+        "recency": 0.4,
         "reliability": 0.85,
         "maritimeRelevance": 1,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "edbd647f8ebf1d81c3f6ac80c3f6e0761d8cf1f1",
+      "storyKey": "c856f1786b201b97cb890e2e5351620c90a8cee2",
+      "sourceId": "marineinsight",
+      "sourceName": "Marine Insight",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "River Cruise Ship With Nearly 200 People Aboard Capsizes After Tanker Strikes It In New Orleans",
+      "url": "https://www.marineinsight.com/american-heritage-riverboat-capsizes-tanker-new-orleans/?utm_source=rss utm_medium=rss utm_campaign=american-heritage-riverboat-capsizes-tanker-new-orleans",
+      "summary": "Riverboat American Heritage capsized on the Mississippi River in New Orleans on November 13, 2026, after the tanker Atlantic Asphalt struck it while it was docked, sending 32 people to hospitals.",
+      "publishedAt": "2026-11-14T15:04:25.000Z",
+      "score": 38,
+      "scores": {
+        "recency": 0.65,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.67,
         "educationalValue": 0,
         "seafarerValue": 0,
         "shareability": 0,
@@ -862,38 +886,14 @@
       "url": "https://www.marineinsight.com/worlds-largest-shiplift-texas-shipyard/?utm_source=rss utm_medium=rss utm_campaign=worlds-largest-shiplift-texas-shipyard",
       "summary": "The world's largest shiplift, as described by Saronic and Syncrolift, will be supplied for the Port Alpha shipyard in Brownsville, Texas, under a contract awarded to Syncrolift AS.",
       "publishedAt": "2026-11-13T12:52:44.000Z",
-      "score": 39,
+      "score": 38,
       "scores": {
-        "recency": 0.37,
+        "recency": 0.36,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
         "seafarerValue": 0,
         "shareability": 1,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "edbd647f8ebf1d81c3f6ac80c3f6e0761d8cf1f1",
-      "storyKey": "c856f1786b201b97cb890e2e5351620c90a8cee2",
-      "sourceId": "marineinsight",
-      "sourceName": "Marine Insight",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "River Cruise Ship With Nearly 200 People Aboard Capsizes After Tanker Strikes It In New Orleans",
-      "url": "https://www.marineinsight.com/american-heritage-riverboat-capsizes-tanker-new-orleans/?utm_source=rss utm_medium=rss utm_campaign=american-heritage-riverboat-capsizes-tanker-new-orleans",
-      "summary": "Riverboat American Heritage capsized on the Mississippi River in New Orleans on November 13, 2026, after the tanker Atlantic Asphalt struck it while it was docked, sending 32 people to hospitals.",
-      "publishedAt": "2026-11-14T15:04:25.000Z",
-      "score": 38,
-      "scores": {
-        "recency": 0.67,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.67,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
@@ -912,7 +912,7 @@
       "publishedAt": "2026-11-13T11:48:52.000Z",
       "score": 38,
       "scores": {
-        "recency": 0.36,
+        "recency": 0.35,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -936,7 +936,7 @@
       "publishedAt": "2026-11-13T22:00:57.000Z",
       "score": 38,
       "scores": {
-        "recency": 0.45,
+        "recency": 0.44,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -960,60 +960,12 @@
       "publishedAt": "2026-11-13T22:00:54.000Z",
       "score": 38,
       "scores": {
-        "recency": 0.45,
+        "recency": 0.44,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
         "seafarerValue": 0,
         "shareability": 1,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "fa1110366d6cb8b24bfb4037dbaa374fcbf2aee1",
-      "storyKey": "dd855c598a4e0e81784e97fe9f020de0c6c1dce6",
-      "sourceId": "hellenic",
-      "sourceName": "Hellenic Shipping News",
-      "tier": "press",
-      "reliability": 0.75,
-      "title": "Baltic Dry Index Snaps 7-Day Winning Run",
-      "url": "https://www.hellenicshippingnews.com/baltic-dry-index-snaps-7-day-winning-run/",
-      "summary": "The Baltic Exchange’s dry bulk freight index, which tracks rates for ships carrying dry bulk commodities, fell by 1.3% to 2,980 points on Friday, bringing a seven-day winning streak to an end. The capesize index, which typically transports 150,000-ton cargoes, including iron ore and coal, dropped by 2.4% to 4,719 points. Meanwhile, the panamax index, ...",
-      "publishedAt": "2026-11-13T22:00:53.000Z",
-      "score": 38,
-      "scores": {
-        "recency": 0.45,
-        "reliability": 0.75,
-        "maritimeRelevance": 1,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "cce4e3da9db0844b890d97730662445f3617b426",
-      "storyKey": "988b6c7e20fd3f0ccfbb22723ebb0dd0797f2c2b",
-      "sourceId": "hellenic",
-      "sourceName": "Hellenic Shipping News",
-      "tier": "press",
-      "reliability": 0.75,
-      "title": "Neptune Group Welcomes “NIKOS TRAVLOS” to Piraeus, Honouring Its Founder and Opening a New Chapter of Growth",
-      "url": "https://www.hellenicshippingnews.com/neptune-group-welcomes-nikos-travlos-to-piraeus-honouring-its-founder-and-opening-a-new-chapter-of-growth/",
-      "summary": "On a day of special significance for both its history and its future, Neptune welcomed the newly built vessel “NIKOS TRAVLOS” to Piraeus. The ship bears the name of the Group’s founder, Nikos Travlos. Its return to the port where the company’s journey began more than fifty years ago was a tribute to his maritime ...",
-      "publishedAt": "2026-11-13T22:00:47.000Z",
-      "score": 38,
-      "scores": {
-        "recency": 0.45,
-        "reliability": 0.75,
-        "maritimeRelevance": 1,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
@@ -1032,7 +984,7 @@
       "publishedAt": "2026-11-13T09:35:00.000Z",
       "score": 37,
       "scores": {
-        "recency": 0.34,
+        "recency": 0.33,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -1056,7 +1008,7 @@
       "publishedAt": "2026-11-13T09:23:00.000Z",
       "score": 37,
       "scores": {
-        "recency": 0.34,
+        "recency": 0.33,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -1080,7 +1032,7 @@
       "publishedAt": "2026-11-13T08:00:31.000Z",
       "score": 37,
       "scores": {
-        "recency": 0.33,
+        "recency": 0.32,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -1128,7 +1080,7 @@
       "publishedAt": "2026-11-13T11:53:55.000Z",
       "score": 37,
       "scores": {
-        "recency": 0.36,
+        "recency": 0.35,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0.5,
@@ -1164,6 +1116,30 @@
       }
     },
     {
+      "fingerprint": "fa1110366d6cb8b24bfb4037dbaa374fcbf2aee1",
+      "storyKey": "dd855c598a4e0e81784e97fe9f020de0c6c1dce6",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "Baltic Dry Index Snaps 7-Day Winning Run",
+      "url": "https://www.hellenicshippingnews.com/baltic-dry-index-snaps-7-day-winning-run/",
+      "summary": "The Baltic Exchange’s dry bulk freight index, which tracks rates for ships carrying dry bulk commodities, fell by 1.3% to 2,980 points on Friday, bringing a seven-day winning streak to an end. The capesize index, which typically transports 150,000-ton cargoes, including iron ore and coal, dropped by 2.4% to 4,719 points. Meanwhile, the panamax index, ...",
+      "publishedAt": "2026-11-13T22:00:53.000Z",
+      "score": 37,
+      "scores": {
+        "recency": 0.44,
+        "reliability": 0.75,
+        "maritimeRelevance": 1,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
       "fingerprint": "a557a80a6ded91f90e61602efb983e83200fac1c",
       "storyKey": "d04725c3f5cec111a7174b73b37d04fe5f2bf4fc",
       "sourceId": "hellenic",
@@ -1176,10 +1152,34 @@
       "publishedAt": "2026-11-13T22:00:47.000Z",
       "score": 37,
       "scores": {
-        "recency": 0.45,
+        "recency": 0.44,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0.5,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "cce4e3da9db0844b890d97730662445f3617b426",
+      "storyKey": "988b6c7e20fd3f0ccfbb22723ebb0dd0797f2c2b",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "Neptune Group Welcomes “NIKOS TRAVLOS” to Piraeus, Honouring Its Founder and Opening a New Chapter of Growth",
+      "url": "https://www.hellenicshippingnews.com/neptune-group-welcomes-nikos-travlos-to-piraeus-honouring-its-founder-and-opening-a-new-chapter-of-growth/",
+      "summary": "On a day of special significance for both its history and its future, Neptune welcomed the newly built vessel “NIKOS TRAVLOS” to Piraeus. The ship bears the name of the Group’s founder, Nikos Travlos. Its return to the port where the company’s journey began more than fifty years ago was a tribute to his maritime ...",
+      "publishedAt": "2026-11-13T22:00:47.000Z",
+      "score": 37,
+      "scores": {
+        "recency": 0.44,
+        "reliability": 0.75,
+        "maritimeRelevance": 1,
+        "educationalValue": 0,
         "seafarerValue": 0,
         "shareability": 0,
         "visualPotential": 0,
@@ -1200,7 +1200,7 @@
       "publishedAt": "2026-11-13T02:26:00.000Z",
       "score": 36,
       "scores": {
-        "recency": 0.29,
+        "recency": 0.28,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -1224,7 +1224,7 @@
       "publishedAt": "2026-11-13T20:45:59.000Z",
       "score": 34,
       "scores": {
-        "recency": 0.44,
+        "recency": 0.43,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1248,7 +1248,7 @@
       "publishedAt": "2026-11-13T21:38:00.000Z",
       "score": 34,
       "scores": {
-        "recency": 0.45,
+        "recency": 0.44,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1272,7 +1272,7 @@
       "publishedAt": "2026-11-13T10:00:23.000Z",
       "score": 33,
       "scores": {
-        "recency": 0.34,
+        "recency": 0.33,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1296,7 +1296,7 @@
       "publishedAt": "2026-11-13T22:00:57.000Z",
       "score": 33,
       "scores": {
-        "recency": 0.45,
+        "recency": 0.44,
         "reliability": 0.75,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1320,7 +1320,7 @@
       "publishedAt": "2026-11-13T01:05:06.000Z",
       "score": 32,
       "scores": {
-        "recency": 0.28,
+        "recency": 0.27,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1344,7 +1344,7 @@
       "publishedAt": "2026-11-13T22:00:41.000Z",
       "score": 32,
       "scores": {
-        "recency": 0.45,
+        "recency": 0.44,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1368,7 +1368,7 @@
       "publishedAt": "2026-11-13T22:00:39.000Z",
       "score": 32,
       "scores": {
-        "recency": 0.45,
+        "recency": 0.44,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1440,7 +1440,7 @@
       "publishedAt": "2026-11-12T12:14:32.000Z",
       "score": 30,
       "scores": {
-        "recency": 0.21,
+        "recency": 0.2,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1464,7 +1464,7 @@
       "publishedAt": "2026-11-13T16:29:16.000Z",
       "score": 28,
       "scores": {
-        "recency": 0.4,
+        "recency": 0.39,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1488,7 +1488,7 @@
       "publishedAt": "2026-11-13T14:39:48.000Z",
       "score": 27,
       "scores": {
-        "recency": 0.38,
+        "recency": 0.37,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1512,7 +1512,7 @@
       "publishedAt": "2026-11-13T09:50:00.000Z",
       "score": 27,
       "scores": {
-        "recency": 0.34,
+        "recency": 0.33,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1536,7 +1536,7 @@
       "publishedAt": "2026-11-13T09:42:00.000Z",
       "score": 27,
       "scores": {
-        "recency": 0.34,
+        "recency": 0.33,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1584,7 +1584,7 @@
       "publishedAt": "2026-11-13T22:00:54.000Z",
       "score": 27,
       "scores": {
-        "recency": 0.45,
+        "recency": 0.44,
         "reliability": 0.75,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1608,7 +1608,7 @@
       "publishedAt": "2026-11-13T22:00:51.000Z",
       "score": 27,
       "scores": {
-        "recency": 0.45,
+        "recency": 0.44,
         "reliability": 0.75,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1632,7 +1632,7 @@
       "publishedAt": "2026-11-13T22:00:50.000Z",
       "score": 27,
       "scores": {
-        "recency": 0.45,
+        "recency": 0.44,
         "reliability": 0.75,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1656,7 +1656,7 @@
       "publishedAt": "2026-11-13T22:00:45.000Z",
       "score": 27,
       "scores": {
-        "recency": 0.45,
+        "recency": 0.44,
         "reliability": 0.75,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1704,7 +1704,7 @@
       "publishedAt": "2026-11-13T01:07:00.000Z",
       "score": 26,
       "scores": {
-        "recency": 0.28,
+        "recency": 0.27,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1728,31 +1728,7 @@
       "publishedAt": "2026-11-14T07:40:00.000Z",
       "score": 25,
       "scores": {
-        "recency": 0.56,
-        "reliability": 0.85,
-        "maritimeRelevance": 0,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "eb2645a6b8bdb15adb53b09da4a8194c052ecc22",
-      "storyKey": "ea7345e3df6e73a2bc81327a9ade15e969fd4a55",
-      "sourceId": "marex",
-      "sourceName": "The Maritime Executive",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Guardia Civil Catches 2.6 Tonnes of Cocaine in Coconut Crates",
-      "url": "https://maritime-executive.com/article/guardia-civil-catches-2-6-tonnes-of-cocaine-in-coconut-crates",
-      "summary": "The West African nation of Ghana is gaining more notoriety as a cocaine transit hub after Spanish authorities seized 2.6 tonnes of the drug hidden in...",
-      "publishedAt": "2026-11-14T04:02:13.000Z",
-      "score": 25,
-      "scores": {
-        "recency": 0.52,
+        "recency": 0.55,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1788,6 +1764,30 @@
       }
     },
     {
+      "fingerprint": "eb2645a6b8bdb15adb53b09da4a8194c052ecc22",
+      "storyKey": "ea7345e3df6e73a2bc81327a9ade15e969fd4a55",
+      "sourceId": "marex",
+      "sourceName": "The Maritime Executive",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Guardia Civil Catches 2.6 Tonnes of Cocaine in Coconut Crates",
+      "url": "https://maritime-executive.com/article/guardia-civil-catches-2-6-tonnes-of-cocaine-in-coconut-crates",
+      "summary": "The West African nation of Ghana is gaining more notoriety as a cocaine transit hub after Spanish authorities seized 2.6 tonnes of the drug hidden in...",
+      "publishedAt": "2026-11-14T04:02:13.000Z",
+      "score": 24,
+      "scores": {
+        "recency": 0.51,
+        "reliability": 0.85,
+        "maritimeRelevance": 0,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
       "fingerprint": "10607b23b39fe2ef28d9d56f0a5990e2c00c00d4",
       "storyKey": "a7202beb3361b26a0bb9d714d1a2c6c8510c2cbd",
       "sourceId": "marex",
@@ -1800,7 +1800,7 @@
       "publishedAt": "2026-11-14T02:39:30.000Z",
       "score": 24,
       "scores": {
-        "recency": 0.5,
+        "recency": 0.49,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1824,7 +1824,7 @@
       "publishedAt": "2026-11-14T02:35:00.000Z",
       "score": 24,
       "scores": {
-        "recency": 0.5,
+        "recency": 0.49,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1848,7 +1848,7 @@
       "publishedAt": "2026-11-13T19:56:00.000Z",
       "score": 23,
       "scores": {
-        "recency": 0.43,
+        "recency": 0.42,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1896,7 +1896,7 @@
       "publishedAt": "2026-11-13T09:30:00.000Z",
       "score": 21,
       "scores": {
-        "recency": 0.34,
+        "recency": 0.33,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1920,7 +1920,7 @@
       "publishedAt": "2026-11-14T04:37:00.000Z",
       "score": 20,
       "scores": {
-        "recency": 0.53,
+        "recency": 0.51,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1944,7 +1944,7 @@
       "publishedAt": "2026-11-14T04:32:00.000Z",
       "score": 20,
       "scores": {
-        "recency": 0.53,
+        "recency": 0.51,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1968,7 +1968,7 @@
       "publishedAt": "2026-11-13T22:00:55.000Z",
       "score": 20,
       "scores": {
-        "recency": 0.45,
+        "recency": 0.44,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
