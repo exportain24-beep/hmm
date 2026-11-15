@@ -67,5 +67,23 @@ export const styleProblems = (spec: ContentSpec): string[] => {
   });
   const diagrams = spec.scenes.filter((s) => s.kind === 'diagram').length;
   if (diagrams < 3) out.push(`only ${diagrams} diagram scenes: at least 3 detailed 2D diagrams per video`);
+  // docs/CONTENT-ARCHITECT-SPEC.md: one concept, a mini lesson of 50-60 s
+  const chars = spec.scenes.reduce((a, s) => a + s.narration.trim().length, 0);
+  if (chars < 700 || chars > 940) out.push(`narration is ${chars} characters: a Short is 50-60 s (about 700-940 characters, aim for 800)`);
+  const ORDER = ['hook', 'context', 'explain', 'example', 'mistake', 'takeaway', 'endcard'];
+  const beats = spec.scenes.map((s) => s.beat);
+  if (beats.some((b) => !b)) out.push('every scene needs "beat": hook, context, explain, example, mistake, takeaway or endcard');
+  else {
+    for (const need of ORDER) if (!beats.includes(need as never)) out.push(`lesson step "${need}" is missing (HOOK > CONTEXT > EXPLANATION > PRACTICAL EXAMPLE > COMMON MISTAKE > TAKEAWAY)`);
+    for (let i = 1; i < beats.length; i++) if (ORDER.indexOf(beats[i]!) < ORDER.indexOf(beats[i - 1]!)) out.push(`scene ${i}: beat "${beats[i]}" comes after "${beats[i - 1]}" (keep the lesson order)`);
+  }
+  const c = spec.concept;
+  const TYPES = ['Concept Explainer', 'Real Ship Scenario', 'Calculation', 'Regulation Explained', 'Common Mistake', 'Officer Tip', 'PSC Question', 'Oral Exam Question', 'Cadet Question', 'Equipment Explained', 'Difference Between Two Things', 'Troubleshooting', 'Emergency Scenario', 'Night Navigation Challenge', 'Identify the Vessel', 'What Would You Do?', 'Myth vs Reality', 'Before Departure', 'Before Arrival', 'Pre-Cargo Checklist Concept', 'Engine Room Concept', 'Cargo Hazard', 'Safety Lesson', 'Case Study', 'Accident Lesson', 'Practical Calculation', 'Maritime Quiz', 'Officer Interview Question', 'Watchkeeping Scenario', 'Ship-Type Specific Lesson'];
+  if (!c) out.push('"concept" metadata is missing (domain, category, concept, contentType, audience, department, knowledgeLevel, safetyCriticality, keyTakeaway, commonMistake, relatedTopics)');
+  else {
+    for (const k of ['domain', 'category', 'concept', 'contentType', 'audience', 'department', 'knowledgeLevel', 'safetyCriticality', 'keyTakeaway', 'commonMistake'] as const) if (!c[k]) out.push(`concept.${k} is missing`);
+    if (c.contentType && !TYPES.includes(c.contentType)) out.push(`concept.contentType "${c.contentType}" is not one of the 30 content types`);
+    if (!Array.isArray(c.relatedTopics) || c.relatedTopics.length < 3 || c.relatedTopics.length > 5) out.push('concept.relatedTopics needs 3-5 next topics');
+  }
   return out;
 };

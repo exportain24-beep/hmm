@@ -93,7 +93,23 @@ Canvas: 1000 x 800 (x right, y down). The sea backdrop has its waterline at y = 
 ```
 - bg: sea | night | deck | engine | chart | blueprint
 - objects: ship {view side|top, variant container|tanker|bulk|general|tug|pilotboat, len}, hull {w,h} (close-up ship side), quay {w,h}, seabed {h}, ladder {len, r for an accommodation ladder}, person (safety-sign pictogram, use sparingly), lifeboat, davit, liferaft, lifebuoy, anchor {chain}, bollard, winch, engine, pump, valve, pipe {points, flow}, tank {w,h,level 0-1, color}, gauge {value 0-1, danger 0-1, text}, detector {text e.g. "20.9%", color}, extinguisher, fire {size}, smoke, buoy {variant port|starboard|north|south|east|west|special}, light {color}, sector {from,to deg, r2, color} (light arcs), compass, radar, clock {value 0-1 of 24 h}, doc {text}, container {color}, hatch, ecdis
+- COLREG / calculations: nightvessel {bearing = observer's relative bearing from her head (0 ahead, 90 her starboard beam, 180 astern, 270 her port beam), status power|sailing|nuc|ram|cbd|anchored|aground|trawling|fishing|pilot|towing|towing-long, makingWay, len} on bg "night": the visible lights are computed from the COLREG arcs, so set the status and bearing, not the lights; dayshape {shapes top to bottom: ball|cone-up|cone-down|cylinder|diamond}; eq {text up to 44 chars, variant "result" for the answer} one line of a step-by-step calculation (formula, then figures, then result)
 - annotations: arrow {to}, dim {to, text} (measurement), label {text, to = leader point}, text {text, size}, zone {points or r2, color} (danger/safe area), ring {r2} (highlight), tick, cross, badge {text}, value {from, to2, unit, decimals} (counting number), path {points, mover ship|dot} (track/rope)
 - common: x, y, s (scale), r (rotation), flip, on (spoken word it appears on; elements follow the narration order), off (word it fades on), anim pop|slide|fade, pulse, color, move {to:[x,y], on}
 - 4-30 elements per diagram, at least 3 timed with "on"; labels max 28 characters, upper case. Draw the real thing correctly (the right ship type, the real equipment, real numbers from the verified narration), lay it out cleanly (no overlaps, labels in free space), and make every spoken point visible.
 - Example: content/preview/preview-diagram-pilot-ladder.json
+
+
+## The lesson (docs/CONTENT-ARCHITECT-SPEC.md governs content)
+Every Short teaches ONE complete concept as a mini maritime lesson of 50-60 s (about 700-940 characters, aim for 800):
+HOOK (0-5 s, a real operational problem, never "Did you know?") > CONTEXT (5-12 s, "You are the OOW...") > EXPLANATION (12-38 s) > PRACTICAL EXAMPLE (38-50 s, a realistic shipboard situation) > COMMON MISTAKE (50-56 s) > TAKEAWAY (56-60 s, one memorable line).
+Mark each scene with "beat": hook | context | explain | example | mistake | takeaway | endcard, in that order (explain may span 2-3 scenes). Calculations show every step with "eq" lines (formula, figures, result) and say where the data comes from on board; use clearly illustrative vessel data.
+Add the concept metadata:
+```json
+"concept": {"domain": "Navigation", "category": "Pilotage", "subcategory": "Pilot transfer", "concept": "Height of climb on a pilot ladder",
+  "contentType": "Regulation Explained", "audience": "Cadet / OOW", "department": "deck", "knowledgeLevel": "Beginner",
+  "shipType": "All", "regulation": "SOLAS V/23", "equipment": "Pilot ladder", "operationalStage": "Port arrival",
+  "safetyCriticality": "high", "series": "Pilot Transfer Safety", "episode": 1,
+  "keyTakeaway": "...", "commonMistake": "...", "relatedTopics": ["Combination arrangement", "Manropes", "Pilot ladder winch reels"]}
+```
+contentType is one of the 30 formats in the spec (Concept Explainer, Real Ship Scenario, Calculation, Regulation Explained, Common Mistake, Officer Tip, PSC Question, Oral Exam Question, Cadet Question, Equipment Explained, Difference Between Two Things, Troubleshooting, Emergency Scenario, Night Navigation Challenge, Identify the Vessel, What Would You Do?, Myth vs Reality, Before Departure, Before Arrival, Pre-Cargo Checklist Concept, Engine Room Concept, Cargo Hazard, Safety Lesson, Case Study, Accident Lesson, Practical Calculation, Maritime Quiz, Officer Interview Question, Watchkeeping Scenario, Ship-Type Specific Lesson).

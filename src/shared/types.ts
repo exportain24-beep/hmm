@@ -47,6 +47,32 @@ export type SceneSpec = {
   toon?: ToonSpec;
   /** kind "diagram": a detailed ship-related 2D explainer that builds up word by word. */
   diagram?: DiagramSpec;
+  /** lesson step this scene carries (docs/CONTENT-ARCHITECT-SPEC.md): hook > context > explain > example > mistake > takeaway */
+  beat?: 'hook' | 'context' | 'explain' | 'example' | 'mistake' | 'takeaway' | 'endcard';
+};
+
+/** Concept metadata (docs/CONTENT-ARCHITECT-SPEC.md sections 16-18). */
+export type ConceptMeta = {
+  domain: string;
+  category: string;
+  subcategory?: string;
+  concept: string;
+  microConcept?: string;
+  contentType: string;
+  audience: string;
+  department: 'deck' | 'engine' | 'both';
+  knowledgeLevel: 'Beginner' | 'Intermediate' | 'Advanced';
+  shipType?: string;
+  regulation?: string;
+  equipment?: string;
+  calculation?: string;
+  operationalStage?: string;
+  safetyCriticality: 'high' | 'medium' | 'low';
+  series?: string;
+  episode?: number;
+  keyTakeaway: string;
+  commonMistake: string;
+  relatedTopics: string[];
 };
 
 export type DiagramEl = {
@@ -85,6 +111,21 @@ export type DiagramEl = {
   decimals?: number;
   mover?: 'ship' | 'dot';
   move?: {to: [number, number]; on: string; dur?: number};
+  /** nightvessel: observer's relative bearing from the vessel's head (0 ahead, 90 her starboard beam, 180 astern) */
+  bearing?: number;
+  masthead?: 0 | 1 | 2;
+  sidelights?: boolean;
+  stern?: boolean;
+  towing?: boolean;
+  /** all-round lights top to bottom: white | red | green | yellow | blue */
+  allround?: string[];
+  anchor?: 0 | 1 | 2;
+  /** nightvessel COLREG status preset (vessel >= 50 m): power | sailing | nuc | ram | cbd | anchored | aground | trawling | fishing | pilot | towing | towing-long */
+  status?: string;
+  makingWay?: boolean;
+  mastheadVertical?: number;
+  /** dayshape: ball | cone-up | cone-down | cylinder | diamond, top to bottom */
+  shapes?: string[];
 };
 export type DiagramSpec = {bg?: 'sea' | 'night' | 'deck' | 'engine' | 'chart' | 'blueprint'; elements: DiagramEl[]};
 
@@ -113,6 +154,8 @@ export type ContentSpec = {
   series?: string;
   /** L1 beginner (cadet) .. L5 expert (Master / Chief Engineer). */
   level?: 'L1' | 'L2' | 'L3' | 'L4' | 'L5';
+  /** concept metadata, required for new videos */
+  concept?: ConceptMeta;
   audience: string[];
   title: string;
   /** Short line for thumbnails (max ~28 chars). */

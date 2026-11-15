@@ -50,7 +50,7 @@ export const validateSpec = (s: ContentSpec): string[] => {
     }
     if (x.motif && !MOTIFS.includes(x.motif)) e.push(`${at}: unknown motif "${x.motif}" (use one of: ${MOTIFS.join(', ')})`);
     if (x.kind === 'diagram') {
-      const TYPES = ['ship', 'hull', 'quay', 'seabed', 'ladder', 'person', 'lifeboat', 'davit', 'liferaft', 'lifebuoy', 'anchor', 'bollard', 'winch', 'engine', 'pump', 'valve', 'pipe', 'tank', 'gauge', 'detector', 'extinguisher', 'fire', 'smoke', 'buoy', 'light', 'sector', 'compass', 'radar', 'clock', 'doc', 'container', 'hatch', 'ecdis', 'arrow', 'dim', 'label', 'text', 'zone', 'ring', 'tick', 'cross', 'badge', 'value', 'path'];
+      const TYPES = ['ship', 'hull', 'quay', 'seabed', 'ladder', 'person', 'lifeboat', 'davit', 'liferaft', 'lifebuoy', 'anchor', 'bollard', 'winch', 'engine', 'pump', 'valve', 'pipe', 'tank', 'gauge', 'detector', 'extinguisher', 'fire', 'smoke', 'buoy', 'light', 'sector', 'compass', 'radar', 'clock', 'doc', 'container', 'hatch', 'ecdis', 'nightvessel', 'dayshape', 'eq', 'arrow', 'dim', 'label', 'text', 'zone', 'ring', 'tick', 'cross', 'badge', 'value', 'path'];
       const els = x.diagram?.elements ?? [];
       if (els.length < 4) e.push(`${at}: diagram needs at least 4 elements (a real picture, not a title)`);
       if (els.length > 30) e.push(`${at}: diagram has more than 30 elements`);
@@ -68,7 +68,11 @@ export const validateSpec = (s: ContentSpec): string[] => {
         }
         if (el.move && !words.includes(el.move.on.toLowerCase().replace(/[^a-z0-9']/g, ''))) e.push(`${at}: diagram element ${j} move.on "${el.move.on}" is not in the narration`);
         if (['label', 'text', 'dim', 'value', 'badge'].includes(el.type) && el.type !== 'value' && el.type !== 'dim' && !el.text) e.push(`${at}: diagram element ${j} (${el.type}) needs "text"`);
-        if (el.text && el.text.length > 28) e.push(`${at}: diagram element ${j} text longer than 28 characters (labels stay short)`);
+        if (el.text && el.text.length > (el.type === 'eq' ? 44 : 28)) e.push(`${at}: diagram element ${j} text longer than ${el.type === 'eq' ? 44 : 28} characters`);
+        if (el.type === 'eq' && !el.text) e.push(`${at}: diagram element ${j} (eq) needs "text"`);
+        if (el.type === 'nightvessel' && el.status && !['power', 'sailing', 'nuc', 'ram', 'cbd', 'anchored', 'aground', 'trawling', 'fishing', 'pilot', 'towing', 'towing-long'].includes(el.status)) e.push(`${at}: nightvessel status "${el.status}"`);
+        if (el.type === 'nightvessel' && (el.bearing == null || el.bearing < 0 || el.bearing > 360)) e.push(`${at}: nightvessel needs "bearing" 0-360 (observer's relative bearing from her head)`);
+        if (el.type === 'dayshape' && !(el.shapes ?? []).every((x) => ['ball', 'cone-up', 'cone-down', 'cylinder', 'diamond'].includes(x))) e.push(`${at}: dayshape shapes must be ball, cone-up, cone-down, cylinder, diamond`);
       });
       if (els.filter((el) => el.on).length < 3) e.push(`${at}: diagram needs at least 3 elements timed to spoken words ("on")`);
     }

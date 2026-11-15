@@ -21,7 +21,8 @@
       "label": "PILOT TRANSFER",
       "heading": "Rig it wrong, and the pilot can fall.",
       "motif": "lighthouse",
-      "narration": "A pilot ladder is life-saving equipment. Rig it wrong, and the person climbing it can fall."
+      "narration": "A pilot ladder is life-saving equipment. Rig it wrong, and the person climbing it can fall.",
+      "beat": "hook"
     },
     {
       "id": "height",
@@ -106,7 +107,8 @@
             "on": "ladder"
           }
         ]
-      }
+      },
+      "beat": "context"
     },
     {
       "id": "rig",
@@ -212,7 +214,8 @@
             "on": "lowest"
           }
         ]
-      }
+      },
+      "beat": "explain"
     },
     {
       "id": "secure",
@@ -296,7 +299,8 @@
             "on": "platform"
           }
         ]
-      }
+      },
+      "beat": "explain"
     },
     {
       "id": "access",
@@ -392,7 +396,8 @@
             "on": "bridge"
           }
         ]
-      }
+      },
+      "beat": "example"
     },
     {
       "id": "life",
@@ -464,7 +469,8 @@
             "on": "first"
           }
         ]
-      }
+      },
+      "beat": "mistake"
     },
     {
       "id": "take",
@@ -472,12 +478,14 @@
       "label": "KEY TAKEAWAY",
       "heading": "Inspect before and after every use",
       "motif": "inspection",
-      "narration": "Inspect it before and after every use. Rig it as if you were climbing."
+      "narration": "Inspect it before and after every use. Rig it as if you were climbing.",
+      "beat": "takeaway"
     },
     {
       "id": "end",
       "kind": "endcard",
-      "narration": "Follow HeyMariner for practical maritime knowledge."
+      "narration": "Follow HeyMariner for practical maritime knowledge.",
+      "beat": "endcard"
     }
   ],
   "sources": [
@@ -528,5 +536,30 @@
   },
   "origin": {
     "type": "queue"
+  },
+  "concept": {
+    "domain": "Navigation",
+    "category": "Pilotage",
+    "subcategory": "Pilot transfer",
+    "concept": "Rigging a pilot ladder correctly",
+    "contentType": "Regulation Explained",
+    "audience": "Cadet / OOW",
+    "department": "deck",
+    "knowledgeLevel": "Beginner",
+    "shipType": "All",
+    "regulation": "SOLAS V/23, IMO Res. A.1045(27)",
+    "equipment": "Pilot ladder",
+    "operationalStage": "Port arrival",
+    "safetyCriticality": "high",
+    "series": "Pilot Transfer Safety",
+    "episode": 1,
+    "keyTakeaway": "Rig it as if you were climbing it yourself.",
+    "commonMistake": "Securing the ladder to the accommodation ladder platform instead of strong points.",
+    "relatedTopics": [
+      "Combination arrangement above 9 m",
+      "Manropes and stanchions",
+      "Pilot ladder winch reels",
+      "Master-pilot exchange"
+    ]
   }
 }

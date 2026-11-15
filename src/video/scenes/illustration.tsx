@@ -133,6 +133,27 @@ const shipTop = (len: number, color: string) => {
   );
 };
 
+
+/** COLREG Part C light sets for a vessel 50 m or more in length (Rules 23-30); explicit fields override. */
+const lightPreset = (status: string | undefined, makingWay: boolean): Partial<DiagramEl> => {
+  const way = {sidelights: makingWay, stern: makingWay};
+  switch (status) {
+    case 'power': return {masthead: 2, sidelights: true, stern: true};
+    case 'sailing': return {masthead: 0, sidelights: true, stern: true};
+    case 'nuc': return {masthead: 0, allround: ['red', 'red'], ...way};
+    case 'ram': return {masthead: makingWay ? 2 : 0, allround: ['red', 'white', 'red'], ...way};
+    case 'cbd': return {masthead: 2, sidelights: true, stern: true, allround: ['red', 'red', 'red']};
+    case 'anchored': return {masthead: 0, sidelights: false, stern: false, anchor: 2};
+    case 'aground': return {masthead: 0, sidelights: false, stern: false, anchor: 2, allround: ['red', 'red']};
+    case 'trawling': return {masthead: 2, allround: ['green', 'white'], ...way};
+    case 'fishing': return {masthead: 0, allround: ['red', 'white'], ...way};
+    case 'pilot': return {masthead: 0, allround: ['white', 'red'], sidelights: true, stern: true};
+    case 'towing': return {masthead: 0, mastheadVertical: 2, sidelights: true, stern: true, towing: true};
+    case 'towing-long': return {masthead: 0, mastheadVertical: 3, sidelights: true, stern: true, towing: true};
+    default: return {};
+  }
+};
+
 const SHAPES: Record<string, Draw> = {
   ship: (e, _k, t) => (e.view === 'top' ? shipTop(e.len ?? 300, e.color ?? '#20324F') : shipSide(e.variant ?? 'general', e.len ?? 520, e.color ?? '#20324F', t)),
   hull: (e) => {
@@ -274,6 +295,95 @@ const SHAPES: Record<string, Draw> = {
   container: (e) => <g><rect x={-80} y={-40} width={160} height={80} fill={e.color ?? '#C8463A'} stroke={ink} strokeWidth={3} />{Array.from({length: 7}, (_, i) => <line key={i} x1={-70 + i * 23} y1={-34} x2={-70 + i * 23} y2={34} stroke={ink} strokeOpacity={0.3} strokeWidth={3} />)}</g>,
   hatch: () => <g><rect x={-140} y={-30} width={280} height={30} fill="#2F5F8A" stroke={ink} strokeWidth={3} /><rect x={-150} y={0} width={300} height={14} fill="#334155" /></g>,
   ecdis: (e, _k, t) => <g><rect x={-170} y={-120} width={340} height={240} rx={14} fill="#020617" stroke="#334155" strokeWidth={6} /><rect x={-155} y={-105} width={310} height={210} fill="#0C4A6E" /><path d="M -155 60 C -60 20 0 90 155 30 L 155 105 L -155 105 Z" fill="#E9D8A6" /><path d="M -130 -70 L 120 0" stroke="#FF4FA3" strokeWidth={4} strokeDasharray="12 8" /><path d="M -155 40 C -60 0 0 70 155 10" stroke={e.color ?? '#38BDF8'} strokeWidth={4} fill="none" /><circle cx={-130 + ((t * 25) % 250)} cy={-70 + ((t * 25) % 250) * 0.28} r={8} fill="#F97316" /></g>,
+
+  // COLREG: a vessel at night seen from a relative bearing (0 = from right ahead, 90 = her starboard beam,
+  // 180 = right astern, 270 = her port beam). Which lights show is computed from the COLREG arcs:
+  // masthead and sidelights 112.5 deg from ahead, sternlight 135 deg astern, all-round lights always.
+  nightvessel: (e0, k, t) => {
+    const e = {...lightPreset(e0.status, e0.makingWay !== false), ...Object.fromEntries(Object.entries(e0).filter(([, v]) => v !== undefined))} as DiagramEl;
+    const b = (((e.bearing ?? 0) % 360) + 360) % 360;
+    const L = e.len ?? 420;
+    const fore = b <= 112.5 || b >= 247.5;
+    const showGreen = b <= 112.5;
+    const showRed = b >= 247.5 || b === 0;
+    const showStern = b >= 112.5 && b <= 247.5;
+    // foreshortening: side-on at the beam, a narrow silhouette head-on or from astern
+    const side = Math.abs(Math.sin((b * Math.PI) / 180));
+    const half = (L / 2) * Math.max(0.16, side);
+    const bowRight = b < 180; // her starboard side faces us: bow on the right
+    const bowX = (bowRight ? 1 : -1) * half;
+    const sternX = -bowX;
+    const H = L * 0.13;
+    const glow = (x: number, y: number, c: string, key: string, r = 13) => (
+      <g key={key}>
+        <circle cx={x} cy={y} r={r * 3.2} fill={c} opacity={0.18 + 0.05 * Math.sin(t * 3)} />
+        <circle cx={x} cy={y} r={r} fill={c} />
+        <circle cx={x} cy={y} r={r * 0.45} fill="#FFFFFF" opacity={0.8} />
+      </g>
+    );
+    const col: Record<string, string> = {white: '#F8FAFC', red: '#FF3B3B', green: '#22E06B', yellow: '#FFD23F', blue: '#4FA3FF'};
+    const lights: React.ReactNode[] = [];
+    const mastX = bowX * 0.45;
+    const mast2X = sternX * 0.25;
+    if (e.mastheadVertical) { if (fore) for (let i = 0; i < e.mastheadVertical; i++) lights.push(glow(mastX, -H - 70 - i * 44, col.white, `mv${i}`)); }
+    else {
+      if (fore && (e.masthead ?? 1) >= 1) lights.push(glow(mastX, -H - 70, col.white, 'm1'));
+      if (fore && (e.masthead ?? 1) >= 2) lights.push(glow(mast2X, -H - 120, col.white, 'm2'));
+    }
+    const sideY = -H - 18;
+    if (e.sidelights !== false) {
+      if (b === 0 || b === 360) { lights.push(glow(-half * 0.9 - 14, sideY, col.green, 'g')); lights.push(glow(half * 0.9 + 14, sideY, col.red, 'r')); }
+      else {
+        if (showGreen) lights.push(glow(bowX * 0.55, sideY, col.green, 'g'));
+        if (showRed) lights.push(glow(bowX * 0.55, sideY, col.red, 'r'));
+      }
+    }
+    if (showStern && e.stern !== false) lights.push(glow(sternX * 0.9, -H * 0.6, col.white, 's'));
+    if (showStern && e.towing) lights.push(glow(sternX * 0.9, -H * 0.6 - 40, col.yellow, 'tw'));
+    // all-round signal lights in a vertical line on their own mast, clear above the masthead lights
+    const ar = e.allround ?? [];
+    const arX = (mastX + mast2X) / 2;
+    ar.forEach((c, i) => lights.push(glow(arX, -H - 175 - (ar.length - 1 - i) * 46, col[c] ?? c, `a${i}`)));
+    if ((e.anchor ?? 0) >= 1) lights.push(glow(bowX * 0.85, -H - 40, col.white, 'an1'));
+    if ((e.anchor ?? 0) >= 2) lights.push(glow(sternX * 0.85, -H - 10, col.white, 'an2', 11));
+    return (
+      <g opacity={0.35 + 0.65 * ease(clamp01(k * 1.5))}>
+        <path d={`M ${-half} ${-H} L ${half} ${-H} L ${half * 0.92} 0 L ${-half * 0.92} 0 Z`} fill="#0B1220" stroke="#1E293B" strokeWidth={3} />
+        <rect x={mast2X - 4} y={-H - 130} width={8} height={130} fill="#111827" />
+        <rect x={mastX - 3} y={-H - 80} width={6} height={80} fill="#111827" />
+        {(e.allround ?? []).length ? <rect x={(mastX + mast2X) / 2 - 4} y={-H - 190 - ((e.allround ?? []).length - 1) * 46} width={8} height={190 + ((e.allround ?? []).length - 1) * 46} fill="#111827" /> : null}
+        {lights}
+        <path d={`M ${-half * 1.4} 6 Q 0 18 ${half * 1.4} 6`} stroke="#FFFFFF" strokeOpacity={0.12} strokeWidth={3} fill="none" />
+      </g>
+    );
+  },
+  // COLREG day shapes, top to bottom: ball, cone-up, cone-down, cylinder, diamond
+  dayshape: (e) => (
+    <g>
+      <line x1={0} y1={-10} x2={0} y2={(e.shapes?.length ?? 1) * 70 + 10} stroke="#334155" strokeWidth={4} />
+      {(e.shapes ?? ['ball']).map((sh, i) => {
+        const y = 30 + i * 70;
+        const f = '#0B0F14';
+        if (sh === 'ball') return <circle key={i} cx={0} cy={y} r={28} fill={f} />;
+        if (sh === 'cone-up') return <path key={i} d={`M -30 ${y + 26} L 30 ${y + 26} L 0 ${y - 28} Z`} fill={f} />;
+        if (sh === 'cone-down') return <path key={i} d={`M -30 ${y - 26} L 30 ${y - 26} L 0 ${y + 28} Z`} fill={f} />;
+        if (sh === 'cylinder') return <rect key={i} x={-22} y={y - 30} width={44} height={60} rx={6} fill={f} />;
+        return <path key={i} d={`M 0 ${y - 32} L 28 ${y} L 0 ${y + 32} L -28 ${y} Z`} fill={f} />;
+      })}
+    </g>
+  ),
+  // one line of a calculation (formula, substitution or result)
+  eq: (e, k, _t, accent) => {
+    const text = e.text ?? '';
+    const w = Math.max(120, text.length * 19 + 48);
+    const result = e.variant === 'result';
+    return (
+      <g transform={`translate(${(1 - ease(clamp01(k * 2))) * -30} 0)`}>
+        <rect x={-w / 2} y={-34} width={w} height={64} rx={14} fill={result ? (e.color ?? accent) : '#0B1A2C'} stroke={e.color ?? accent} strokeWidth={3} />
+        <text y={10} textAnchor="middle" fontFamily={FONT_HEAD} fontWeight={800} fontSize={32} fill={result ? ink : '#F8FAFC'}>{text}</text>
+      </g>
+    );
+  },
 
   // ---------- annotations ----------
   arrow: (e, k, _t, accent) => {
