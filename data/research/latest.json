@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-15T17:25:23.172Z",
+  "updatedAt": "2026-11-15T18:24:47.352Z",
   "feedStatus": {
-    "safety4sea": "failed: HTTP 415",
+    "safety4sea": "ok (0)",
     "gcaptain": "ok (12)",
-    "splash247": "failed: HTTP 415",
+    "splash247": "ok (10)",
     "marex": "ok (25)",
     "marineinsight": "ok (15)",
     "hellenic": "ok (20)",
@@ -11,30 +11,6 @@
   },
   "minScore": 62,
   "items": [
-    {
-      "fingerprint": "100d45b60d5557fc8d5f446538998f28232e8647",
-      "storyKey": "c36cd14c706bc39db5d0709cc432c1b54ec7a673",
-      "sourceId": "marineinsight",
-      "sourceName": "Marine Insight",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "14 Seafarers Rescued After Chinese Bulk Carrier Sinks In Yellow Sea",
-      "url": "https://www.marineinsight.com/14-seafarers-rescued-after-chinese-bulk-carrier-sinks-in-yellow-sea/?utm_source=rss utm_medium=rss utm_campaign=14-seafarers-rescued-after-chinese-bulk-carrier-sinks-in-yellow-sea",
-      "summary": "All 14 crew members of a Chinese-flagged bulk carrier were rescued after the vessel sank on November 9, 2026.",
-      "publishedAt": "2026-11-13T11:41:30.000Z",
-      "score": 55,
-      "scores": {
-        "recency": 0.29,
-        "reliability": 0.85,
-        "maritimeRelevance": 1,
-        "educationalValue": 0,
-        "seafarerValue": 1,
-        "shareability": 1,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
     {
       "fingerprint": "d3522a5a883abe4397a72095a940d9c64d0ab77b",
       "storyKey": "38a0697fcb9a85118b299475b3b9da1a1026447b",
@@ -48,7 +24,7 @@
       "publishedAt": "2026-11-15T16:02:22.000Z",
       "score": 54,
       "scores": {
-        "recency": 0.97,
+        "recency": 0.95,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -72,13 +48,37 @@
       "publishedAt": "2026-11-14T14:41:03.000Z",
       "score": 54,
       "scores": {
-        "recency": 0.54,
+        "recency": 0.53,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
         "seafarerValue": 0,
         "shareability": 0,
         "visualPotential": 1,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "100d45b60d5557fc8d5f446538998f28232e8647",
+      "storyKey": "c36cd14c706bc39db5d0709cc432c1b54ec7a673",
+      "sourceId": "marineinsight",
+      "sourceName": "Marine Insight",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "14 Seafarers Rescued After Chinese Bulk Carrier Sinks In Yellow Sea",
+      "url": "https://www.marineinsight.com/14-seafarers-rescued-after-chinese-bulk-carrier-sinks-in-yellow-sea/?utm_source=rss utm_medium=rss utm_campaign=14-seafarers-rescued-after-chinese-bulk-carrier-sinks-in-yellow-sea",
+      "summary": "All 14 crew members of a Chinese-flagged bulk carrier were rescued after the vessel sank on November 9, 2026.",
+      "publishedAt": "2026-11-13T11:41:30.000Z",
+      "score": 54,
+      "scores": {
+        "recency": 0.28,
+        "reliability": 0.85,
+        "maritimeRelevance": 1,
+        "educationalValue": 0,
+        "seafarerValue": 1,
+        "shareability": 1,
+        "visualPotential": 0,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
@@ -94,9 +94,9 @@
       "url": "https://maritime-executive.com/article/everllence-two-stroke-dual-fuel-technology-selected-for-tanker-project",
       "summary": "Everllence has received an order from Swan Defence and Heavy Industries Limited (SDHI), India’s largest shipbuilding and heavy engineering company, fo...",
       "publishedAt": "2026-11-14T22:23:43.000Z",
-      "score": 54,
+      "score": 53,
       "scores": {
-        "recency": 0.64,
+        "recency": 0.63,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -120,13 +120,37 @@
       "publishedAt": "2026-11-14T15:30:10.000Z",
       "score": 53,
       "scores": {
-        "recency": 0.55,
+        "recency": 0.54,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
         "seafarerValue": 0.5,
         "shareability": 0,
         "visualPotential": 0,
+        "regulatoryImportance": 0.5,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "6be2b3d20a947d8fc8a08888ba2139066f805630",
+      "storyKey": "669598384aa7443c24e7d405cc32ac957fd8d9e3",
+      "sourceId": "splash247",
+      "sourceName": "Splash247",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Gulf war leaves toxic legacy that could last decades",
+      "url": "https://splash247.com/gulf-war-leaves-toxic-legacy-that-could-last-decades/",
+      "summary": "Greenpeace has identified 540 possible oil spills across the Gulf, Strait of Hormuz and Arabian Sea since the US-Iran war began on February 28 (see map below), with satellite imagery showing a cumulative slick footprint of approximately 20,000 sq km. Not all detections have been conclusively linked to attacks on shipping. The environmental consequences could",
+      "publishedAt": "2026-11-13T08:10:39.000Z",
+      "score": 51,
+      "scores": {
+        "recency": 0.26,
+        "reliability": 0.85,
+        "maritimeRelevance": 1,
+        "educationalValue": 0.5,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0.5,
         "regulatoryImportance": 0.5,
         "corroboratingOutlets": 1
       }
@@ -144,7 +168,7 @@
       "publishedAt": "2026-11-15T14:48:43.000Z",
       "score": 51,
       "scores": {
-        "recency": 0.94,
+        "recency": 0.92,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -168,7 +192,7 @@
       "publishedAt": "2026-11-14T01:44:29.000Z",
       "score": 49,
       "scores": {
-        "recency": 0.4,
+        "recency": 0.39,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 1,
@@ -176,30 +200,6 @@
         "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0.5,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "90efabd028225c473026ab07bc7b18c84685c51f",
-      "storyKey": "3ca83e0238325611b9b021e9062f8239983edea2",
-      "sourceId": "marineinsight",
-      "sourceName": "Marine Insight",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Port Of New Orleans Seeks Seizure Of Tanker That Capsized Cruise Ship, Sues For $1 Million",
-      "url": "https://www.marineinsight.com/port-new-orleans-lawsuit-tanker-seizure/?utm_source=rss utm_medium=rss utm_campaign=port-new-orleans-lawsuit-tanker-seizure",
-      "summary": "Port of New Orleans has filed a federal lawsuit seeking more than $1 million in damages from the owner and manager of the tanker Atlantic Asphalt, which struck and capsized a docked river cruise ship on the Mississippi River on November 13, 2026.",
-      "publishedAt": "2026-11-15T13:03:46.000Z",
-      "score": 48,
-      "scores": {
-        "recency": 0.9,
-        "reliability": 0.85,
-        "maritimeRelevance": 1,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
     },
@@ -216,7 +216,7 @@
       "publishedAt": "2026-11-13T22:00:58.000Z",
       "score": 48,
       "scores": {
-        "recency": 0.37,
+        "recency": 0.36,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -224,6 +224,54 @@
         "shareability": 1,
         "visualPotential": 0,
         "regulatoryImportance": 0.5,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "2d4f7faa89ee449610a1d44a550fb91cefc15a9a",
+      "storyKey": "320279df07b9e8d3c24da9039426cb38cafa3161",
+      "sourceId": "splash247",
+      "sourceName": "Splash247",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "US court orders arrest of tanker after New Orleans cruise ship collision",
+      "url": "https://splash247.com/us-court-orders-arrest-of-tanker-after-new-orleans-cruise-ship-collision/",
+      "summary": "A US federal court has authorised the arrest of the tanker Atlantic Asphalt after the Port of New Orleans launched legal action seeking more than $1m in damages following the collision that sank American Cruise Lines’ American Heritage. The Board of Commissioners of the Port of New Orleans filed the lawsuit in the Eastern District",
+      "publishedAt": "2026-11-15T01:06:11.000Z",
+      "score": 47,
+      "scores": {
+        "recency": 0.67,
+        "reliability": 0.85,
+        "maritimeRelevance": 1,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0.5,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "90efabd028225c473026ab07bc7b18c84685c51f",
+      "storyKey": "3ca83e0238325611b9b021e9062f8239983edea2",
+      "sourceId": "marineinsight",
+      "sourceName": "Marine Insight",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Port Of New Orleans Seeks Seizure Of Tanker That Capsized Cruise Ship, Sues For $1 Million",
+      "url": "https://www.marineinsight.com/port-new-orleans-lawsuit-tanker-seizure/?utm_source=rss utm_medium=rss utm_campaign=port-new-orleans-lawsuit-tanker-seizure",
+      "summary": "Port of New Orleans has filed a federal lawsuit seeking more than $1 million in damages from the owner and manager of the tanker Atlantic Asphalt, which struck and capsized a docked river cruise ship on the Mississippi River on November 13, 2026.",
+      "publishedAt": "2026-11-15T13:03:46.000Z",
+      "score": 47,
+      "scores": {
+        "recency": 0.88,
+        "reliability": 0.85,
+        "maritimeRelevance": 1,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
     },
@@ -240,7 +288,7 @@
       "publishedAt": "2026-11-13T22:00:59.000Z",
       "score": 47,
       "scores": {
-        "recency": 0.37,
+        "recency": 0.36,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -264,7 +312,7 @@
       "publishedAt": "2026-11-13T13:08:13.000Z",
       "score": 46,
       "scores": {
-        "recency": 0.3,
+        "recency": 0.29,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -288,7 +336,7 @@
       "publishedAt": "2026-11-15T03:48:26.000Z",
       "score": 45,
       "scores": {
-        "recency": 0.73,
+        "recency": 0.71,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -310,9 +358,9 @@
       "url": "https://gcaptain.com/miracle-on-the-mississippi-all-accounted-for-after-tanker-capsizes-cruise-ship-in-new-orleans/",
       "summary": "All passengers and crew aboard an American Cruise Lines riverboat survived after a Marshall Islands-flagged asphalt tanker struck the docked paddle-wheeler on the Mississippi River in New Orleans on Friday,...",
       "publishedAt": "2026-11-14T02:34:17.000Z",
-      "score": 45,
+      "score": 44,
       "scores": {
-        "recency": 0.41,
+        "recency": 0.4,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -336,7 +384,7 @@
       "publishedAt": "2026-11-13T21:11:53.000Z",
       "score": 44,
       "scores": {
-        "recency": 0.36,
+        "recency": 0.35,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -360,7 +408,7 @@
       "publishedAt": "2026-11-14T22:08:51.000Z",
       "score": 43,
       "scores": {
-        "recency": 0.64,
+        "recency": 0.63,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -368,30 +416,6 @@
         "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "cf4d0fd9df4b78ad2d99d4d73979bed65e8095aa",
-      "storyKey": "84fb2c57d9a5a92513af5c1aa8486db870462fc5",
-      "sourceId": "gcaptain",
-      "sourceName": "gCaptain",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "MSC Nears Deal To Buy Majority Stake In German Shipyard Meyer Werft",
-      "url": "https://gcaptain.com/msc-nears-deal-to-buy-majority-stake-in-german-shipyard-meyer-werft/",
-      "summary": "FRANKFURT, Nov 14 (Reuters) - The German government and regional state of Lower Saxony are nearing a deal that gives Geneva-based shipping group MSC the right to acquire about 80% of the shares in...",
-      "publishedAt": "2026-11-14T18:13:54.000Z",
-      "score": 43,
-      "scores": {
-        "recency": 0.59,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.67,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0.5,
         "corroboratingOutlets": 1
       }
     },
@@ -408,7 +432,7 @@
       "publishedAt": "2026-11-15T14:33:56.000Z",
       "score": 43,
       "scores": {
-        "recency": 0.94,
+        "recency": 0.91,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0.5,
@@ -416,30 +440,6 @@
         "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0.5,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "c37a61fac5b3a8df2a7e27a2c6352db7456be9a0",
-      "storyKey": "a1cef47c00187f07e93c205453141b26b0fd74f0",
-      "sourceId": "marineinsight",
-      "sourceName": "Marine Insight",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "All 19 Indian Seafarers Safe After Oil Tanker Hit By Projectile Off UAE Port",
-      "url": "https://www.marineinsight.com/all-19-indian-seafarers-safe-after-oil-tanker-hit-by-projectile-off-uae-port/?utm_source=rss utm_medium=rss utm_campaign=all-19-indian-seafarers-safe-after-oil-tanker-hit-by-projectile-off-uae-port",
-      "summary": "A Liberia-flagged crude oil tanker with 22 seafarers was hit by a projectile off the UAE port of Mina Saqr on November 11, 2026.",
-      "publishedAt": "2026-11-13T11:46:27.000Z",
-      "score": 43,
-      "scores": {
-        "recency": 0.29,
-        "reliability": 0.85,
-        "maritimeRelevance": 1,
-        "educationalValue": 0,
-        "seafarerValue": 0.5,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
     },
@@ -456,11 +456,35 @@
       "publishedAt": "2026-11-13T22:00:43.000Z",
       "score": 43,
       "scores": {
-        "recency": 0.37,
+        "recency": 0.36,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
         "seafarerValue": 0.5,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0.5,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "cf4d0fd9df4b78ad2d99d4d73979bed65e8095aa",
+      "storyKey": "84fb2c57d9a5a92513af5c1aa8486db870462fc5",
+      "sourceId": "gcaptain",
+      "sourceName": "gCaptain",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "MSC Nears Deal To Buy Majority Stake In German Shipyard Meyer Werft",
+      "url": "https://gcaptain.com/msc-nears-deal-to-buy-majority-stake-in-german-shipyard-meyer-werft/",
+      "summary": "FRANKFURT, Nov 14 (Reuters) - The German government and regional state of Lower Saxony are nearing a deal that gives Geneva-based shipping group MSC the right to acquire about 80% of the shares in...",
+      "publishedAt": "2026-11-14T18:13:54.000Z",
+      "score": 42,
+      "scores": {
+        "recency": 0.57,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.67,
+        "educationalValue": 0,
+        "seafarerValue": 0,
         "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0.5,
@@ -480,7 +504,7 @@
       "publishedAt": "2026-11-13T17:09:56.000Z",
       "score": 42,
       "scores": {
-        "recency": 0.33,
+        "recency": 0.32,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -492,23 +516,47 @@
       }
     },
     {
-      "fingerprint": "03c6ce4133eb6b72373ab203e73c613fffe93768",
-      "storyKey": "26c52965502c2e25ae71702f62beb206e2ec2e16",
-      "sourceId": "marex",
-      "sourceName": "The Maritime Executive",
+      "fingerprint": "de51dd407f266f42507871dfd3ee4a81ecea6c9a",
+      "storyKey": "4e8f7ba13212d36555b5470eebfa01f00c63486c",
+      "sourceId": "splash247",
+      "sourceName": "Splash247",
       "tier": "press",
       "reliability": 0.85,
-      "title": "The Second Edition of the Sustainable Maritime Transport Outlook",
-      "url": "https://maritime-executive.com/article/the-second-edition-of-the-sustainable-maritime-transport-outlook",
-      "summary": "Eni, a global energy company, Fincantieri, a global leader in the construction of high-complexity ships, and RINA, the global inspection, certificatio...",
-      "publishedAt": "2026-11-14T16:50:51.000Z",
+      "title": "From ocean liner to artificial reef: A warning for container shipping",
+      "url": "https://splash247.com/from-ocean-liner-to-artificial-reef-a-warning-for-container-shipping/",
+      "summary": "Dr Raymon Krishnan, president of Singapore’s Logistics Supply Chain Management Society, writes for Splash today, reflecting on one of this week’s most talked about stories in the mainstream press. On Wednesday, the 990-foot ocean liner SS United States was deliberately sunk off Destin, Florida, to become what is expected to be the world’s largest",
+      "publishedAt": "2026-11-13T10:07:00.000Z",
       "score": 42,
       "scores": {
-        "recency": 0.57,
+        "recency": 0.27,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
         "seafarerValue": 0,
+        "shareability": 1,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "c37a61fac5b3a8df2a7e27a2c6352db7456be9a0",
+      "storyKey": "a1cef47c00187f07e93c205453141b26b0fd74f0",
+      "sourceId": "marineinsight",
+      "sourceName": "Marine Insight",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "All 19 Indian Seafarers Safe After Oil Tanker Hit By Projectile Off UAE Port",
+      "url": "https://www.marineinsight.com/all-19-indian-seafarers-safe-after-oil-tanker-hit-by-projectile-off-uae-port/?utm_source=rss utm_medium=rss utm_campaign=all-19-indian-seafarers-safe-after-oil-tanker-hit-by-projectile-off-uae-port",
+      "summary": "A Liberia-flagged crude oil tanker with 22 seafarers was hit by a projectile off the UAE port of Mina Saqr on November 11, 2026.",
+      "publishedAt": "2026-11-13T11:46:27.000Z",
+      "score": 42,
+      "scores": {
+        "recency": 0.28,
+        "reliability": 0.85,
+        "maritimeRelevance": 1,
+        "educationalValue": 0,
+        "seafarerValue": 0.5,
         "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0,
@@ -528,7 +576,7 @@
       "publishedAt": "2026-11-13T22:00:59.000Z",
       "score": 42,
       "scores": {
-        "recency": 0.37,
+        "recency": 0.36,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0.5,
@@ -552,7 +600,7 @@
       "publishedAt": "2026-11-13T22:00:49.000Z",
       "score": 42,
       "scores": {
-        "recency": 0.37,
+        "recency": 0.36,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0.5,
@@ -588,6 +636,30 @@
       }
     },
     {
+      "fingerprint": "03c6ce4133eb6b72373ab203e73c613fffe93768",
+      "storyKey": "26c52965502c2e25ae71702f62beb206e2ec2e16",
+      "sourceId": "marex",
+      "sourceName": "The Maritime Executive",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "The Second Edition of the Sustainable Maritime Transport Outlook",
+      "url": "https://maritime-executive.com/article/the-second-edition-of-the-sustainable-maritime-transport-outlook",
+      "summary": "Eni, a global energy company, Fincantieri, a global leader in the construction of high-complexity ships, and RINA, the global inspection, certificatio...",
+      "publishedAt": "2026-11-14T16:50:51.000Z",
+      "score": 41,
+      "scores": {
+        "recency": 0.55,
+        "reliability": 0.85,
+        "maritimeRelevance": 1,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
       "fingerprint": "d58ae9cf66b564d4d3b048346b306a4358e1264d",
       "storyKey": "dda503f2e8a25122bb4a1e2eb614e34d951c65d9",
       "sourceId": "marineinsight",
@@ -600,7 +672,7 @@
       "publishedAt": "2026-11-13T09:52:44.000Z",
       "score": 41,
       "scores": {
-        "recency": 0.28,
+        "recency": 0.27,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -624,7 +696,7 @@
       "publishedAt": "2026-11-13T22:00:50.000Z",
       "score": 41,
       "scores": {
-        "recency": 0.37,
+        "recency": 0.36,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -648,7 +720,7 @@
       "publishedAt": "2026-11-13T22:00:46.000Z",
       "score": 41,
       "scores": {
-        "recency": 0.37,
+        "recency": 0.36,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -672,7 +744,7 @@
       "publishedAt": "2026-11-13T03:22:55.000Z",
       "score": 40,
       "scores": {
-        "recency": 0.24,
+        "recency": 0.23,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0.5,
@@ -696,7 +768,7 @@
       "publishedAt": "2026-11-14T04:34:00.000Z",
       "score": 38,
       "scores": {
-        "recency": 0.43,
+        "recency": 0.42,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -720,7 +792,7 @@
       "publishedAt": "2026-11-13T21:13:00.000Z",
       "score": 38,
       "scores": {
-        "recency": 0.36,
+        "recency": 0.35,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -744,7 +816,7 @@
       "publishedAt": "2026-11-13T17:37:39.000Z",
       "score": 37,
       "scores": {
-        "recency": 0.33,
+        "recency": 0.32,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -768,13 +840,37 @@
       "publishedAt": "2026-11-13T17:24:08.000Z",
       "score": 37,
       "scores": {
-        "recency": 0.33,
+        "recency": 0.32,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
         "seafarerValue": 0,
         "shareability": 0,
         "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "d737e28e89ffbc9498450d7f827d069b4333bafb",
+      "storyKey": "606bee6a7b581d0b8291c1ab48cb5f5907e796d7",
+      "sourceId": "splash247",
+      "sourceName": "Splash247",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Tanker sinks river cruise ship in New Orleans collision",
+      "url": "https://splash247.com/tanker-sinks-river-cruise-ship-in-new-orleans-collision/",
+      "summary": "The 17,764 dwt bitumen tanker Atlantic Asphalt has struck and partially sunk a river cruise ship on the Mississippi River in New Orleans, leaving 32 people hospitalised and prompting a major emergency response. The collision occurred at approximately 12.30 pm local time on November 13, when the 2017-built tanker struck American Cruise Lines' American Heritage,",
+      "publishedAt": "2026-11-14T00:58:11.000Z",
+      "score": 37,
+      "scores": {
+        "recency": 0.38,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.67,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0.5,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
@@ -792,7 +888,7 @@
       "publishedAt": "2026-11-14T18:33:00.000Z",
       "score": 37,
       "scores": {
-        "recency": 0.59,
+        "recency": 0.58,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -816,33 +912,9 @@
       "publishedAt": "2026-11-13T17:18:00.000Z",
       "score": 37,
       "scores": {
-        "recency": 0.33,
+        "recency": 0.32,
         "reliability": 0.85,
         "maritimeRelevance": 1,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "56bd031eea163886391de04588c7ebf90314c63a",
-      "storyKey": "91fd36f493b6a057f7232215b4261257c406d0c4",
-      "sourceId": "marineinsight",
-      "sourceName": "Marine Insight",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "USS Spruance Completes US Navy’s Longest Ship Deployment Since World War II",
-      "url": "https://www.marineinsight.com/uss-spruance-357-day-combat-deployment/?utm_source=rss utm_medium=rss utm_campaign=uss-spruance-357-day-combat-deployment",
-      "summary": "USS Spruance returned to Naval Base San Diego on November 13, 2026, after a 357-day combat deployment that took the Arleigh Burke-class destroyer across the U.S. 3rd, 7th and 5th Fleet areas.",
-      "publishedAt": "2026-11-15T12:50:27.000Z",
-      "score": 37,
-      "scores": {
-        "recency": 0.9,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.33,
         "educationalValue": 0,
         "seafarerValue": 0,
         "shareability": 0,
@@ -864,7 +936,7 @@
       "publishedAt": "2026-11-13T12:52:44.000Z",
       "score": 37,
       "scores": {
-        "recency": 0.3,
+        "recency": 0.29,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -888,7 +960,7 @@
       "publishedAt": "2026-11-13T11:48:52.000Z",
       "score": 37,
       "scores": {
-        "recency": 0.29,
+        "recency": 0.28,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -912,7 +984,7 @@
       "publishedAt": "2026-11-13T22:00:57.000Z",
       "score": 37,
       "scores": {
-        "recency": 0.37,
+        "recency": 0.36,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -936,12 +1008,84 @@
       "publishedAt": "2026-11-13T22:00:54.000Z",
       "score": 37,
       "scores": {
-        "recency": 0.37,
+        "recency": 0.36,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
         "seafarerValue": 0,
         "shareability": 1,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "6c502059e6bb764240a864fa9afefbf0bd479280",
+      "storyKey": "40c633bf26ce2a3cced422d6f8d72034243e50b2",
+      "sourceId": "splash247",
+      "sourceName": "Splash247",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "UK blacklists 11 ships in fresh Russia sanctions sweep",
+      "url": "https://splash247.com/uk-blacklists-11-ships-in-fresh-russia-sanctions-sweep/",
+      "summary": "Britain has slapped fresh sanctions on 11 ships linked to Russian energy exports, targeting five LNG carriers, five oil tankers and a floating storage unit in its latest effort to disrupt Moscow's seaborne oil and gas trade. The measures also cover nine companies, including Russian oil producer Slavneft, Rosneft's Vostok Oil project and several energy",
+      "publishedAt": "2026-11-13T09:35:00.000Z",
+      "score": 36,
+      "scores": {
+        "recency": 0.27,
+        "reliability": 0.85,
+        "maritimeRelevance": 1,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "f4b19193b79453cc67cc371db4d887b59c0cae03",
+      "storyKey": "3463352bc3a3efe01eef6d6cfdef69413b659739",
+      "sourceId": "splash247",
+      "sourceName": "Splash247",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Pyxis cashes in on ageing MR tanker in $37m deal",
+      "url": "https://splash247.com/pyxis-cashes-in-on-ageing-mr-tanker-in-37m-deal/",
+      "summary": "Greek shipowner Pyxis Tankers has agreed to sell its oldest product tanker for $37m, cashing in on firm asset values and cutting its MR fleet from three vessels to two. The Nasdaq-listed company, led by Eddie Valentis, has struck a deal with an undisclosed third-party buyer for the 2013-built, 46,652 dwt Pyxis Karteria, constructed at",
+      "publishedAt": "2026-11-13T09:23:00.000Z",
+      "score": 36,
+      "scores": {
+        "recency": 0.27,
+        "reliability": 0.85,
+        "maritimeRelevance": 1,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "5ccfdcb0650e0647194d9e192bfa4c8e5f394de5",
+      "storyKey": "4553d01120e7acf2c38ed99fb575339202781537",
+      "sourceId": "splash247",
+      "sourceName": "Splash247",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Baltic Exchange and Mercuria await verdict in landmark tanker index trial",
+      "url": "https://splash247.com/baltic-exchange-and-mercuria-await-verdict-in-landmark-tanker-index-trial/",
+      "summary": "One of shipping's most consequential legal battles has concluded in London, with the Baltic Exchange and commodities trader Mercuria awaiting a High Court ruling on whether the industry's leading VLCC freight benchmark should have continued operating after war erupted in the Middle East. The three-week trial ended yesterday, with judgment expected to take several months.",
+      "publishedAt": "2026-11-13T08:00:31.000Z",
+      "score": 36,
+      "scores": {
+        "recency": 0.26,
+        "reliability": 0.85,
+        "maritimeRelevance": 1,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
@@ -960,7 +1104,7 @@
       "publishedAt": "2026-11-13T03:05:56.000Z",
       "score": 36,
       "scores": {
-        "recency": 0.24,
+        "recency": 0.23,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -968,6 +1112,30 @@
         "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0.5,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "56bd031eea163886391de04588c7ebf90314c63a",
+      "storyKey": "91fd36f493b6a057f7232215b4261257c406d0c4",
+      "sourceId": "marineinsight",
+      "sourceName": "Marine Insight",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "USS Spruance Completes US Navy’s Longest Ship Deployment Since World War II",
+      "url": "https://www.marineinsight.com/uss-spruance-357-day-combat-deployment/?utm_source=rss utm_medium=rss utm_campaign=uss-spruance-357-day-combat-deployment",
+      "summary": "USS Spruance returned to Naval Base San Diego on November 13, 2026, after a 357-day combat deployment that took the Arleigh Burke-class destroyer across the U.S. 3rd, 7th and 5th Fleet areas.",
+      "publishedAt": "2026-11-15T12:50:27.000Z",
+      "score": 36,
+      "scores": {
+        "recency": 0.88,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
     },
@@ -984,7 +1152,7 @@
       "publishedAt": "2026-11-14T15:04:25.000Z",
       "score": 36,
       "scores": {
-        "recency": 0.54,
+        "recency": 0.53,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1008,7 +1176,7 @@
       "publishedAt": "2026-11-13T11:53:55.000Z",
       "score": 36,
       "scores": {
-        "recency": 0.29,
+        "recency": 0.28,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0.5,
@@ -1032,7 +1200,7 @@
       "publishedAt": "2026-11-13T10:07:56.000Z",
       "score": 36,
       "scores": {
-        "recency": 0.28,
+        "recency": 0.27,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -1056,7 +1224,7 @@
       "publishedAt": "2026-11-13T22:00:53.000Z",
       "score": 36,
       "scores": {
-        "recency": 0.37,
+        "recency": 0.36,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -1080,7 +1248,7 @@
       "publishedAt": "2026-11-13T22:00:47.000Z",
       "score": 36,
       "scores": {
-        "recency": 0.37,
+        "recency": 0.36,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0.5,
@@ -1104,7 +1272,7 @@
       "publishedAt": "2026-11-13T22:00:47.000Z",
       "score": 36,
       "scores": {
-        "recency": 0.37,
+        "recency": 0.36,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -1140,19 +1308,19 @@
       }
     },
     {
-      "fingerprint": "f4262b41f729bc0dd64e8d84c93225af4af0511d",
-      "storyKey": "c1ae217ae42d959ef1cc02954bb223be3430c3de",
-      "sourceId": "marex",
-      "sourceName": "The Maritime Executive",
+      "fingerprint": "b0a92f6919f58bcfa241ea589c79912d5e0fb189",
+      "storyKey": "efe6f5d460fc888e999a5870353c60bf43fdfc69",
+      "sourceId": "gcaptain",
+      "sourceName": "gCaptain",
       "tier": "press",
       "reliability": 0.85,
-      "title": "Tanker Hits Riverboat on New Orleans Waterfront, Injuring 32 Passengers",
-      "url": "https://maritime-executive.com/article/tanker-hits-riverboat-on-new-orleans-waterfront-injuring-passengers",
-      "summary": "On Friday, an asphalt tanker struck a moored riverboat on the Mississippi on the downtown New Orleans waterfront, causing the passenger vessel to caps...",
-      "publishedAt": "2026-11-13T21:38:00.000Z",
-      "score": 33,
+      "title": "Tanker Strikes Docked Paddlewheeler on Mississippi River, Causing It to Capsize",
+      "url": "https://gcaptain.com/tanker-strikes-docked-paddlewheeler-on-mississippi-river-causing-it-to-capsize/",
+      "summary": "Update: ‘Miracle on the Mississippi’: All Accounted For After Tanker Capsizes Cruise Ship in New Orleans A Marshall Islands-flagged asphalt tanker struck the docked American Cruise Lines riverboat American Heritage on the...",
+      "publishedAt": "2026-11-13T20:45:59.000Z",
+      "score": 32,
       "scores": {
-        "recency": 0.36,
+        "recency": 0.35,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1164,16 +1332,16 @@
       }
     },
     {
-      "fingerprint": "b0a92f6919f58bcfa241ea589c79912d5e0fb189",
-      "storyKey": "efe6f5d460fc888e999a5870353c60bf43fdfc69",
-      "sourceId": "gcaptain",
-      "sourceName": "gCaptain",
+      "fingerprint": "f4262b41f729bc0dd64e8d84c93225af4af0511d",
+      "storyKey": "c1ae217ae42d959ef1cc02954bb223be3430c3de",
+      "sourceId": "marex",
+      "sourceName": "The Maritime Executive",
       "tier": "press",
       "reliability": 0.85,
-      "title": "Tanker Strikes Docked Paddlewheeler on Mississippi River, Causing It to Capsize",
-      "url": "https://gcaptain.com/tanker-strikes-docked-paddlewheeler-on-mississippi-river-causing-it-to-capsize/",
-      "summary": "Update: ‘Miracle on the Mississippi’: All Accounted For After Tanker Capsizes Cruise Ship in New Orleans A Marshall Islands-flagged asphalt tanker struck the docked American Cruise Lines riverboat American Heritage on the...",
-      "publishedAt": "2026-11-13T20:45:59.000Z",
+      "title": "Tanker Hits Riverboat on New Orleans Waterfront, Injuring 32 Passengers",
+      "url": "https://maritime-executive.com/article/tanker-hits-riverboat-on-new-orleans-waterfront-injuring-passengers",
+      "summary": "On Friday, an asphalt tanker struck a moored riverboat on the Mississippi on the downtown New Orleans waterfront, causing the passenger vessel to caps...",
+      "publishedAt": "2026-11-13T21:38:00.000Z",
       "score": 32,
       "scores": {
         "recency": 0.36,
@@ -1200,7 +1368,7 @@
       "publishedAt": "2026-11-13T10:00:23.000Z",
       "score": 32,
       "scores": {
-        "recency": 0.28,
+        "recency": 0.27,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1224,7 +1392,7 @@
       "publishedAt": "2026-11-13T01:05:06.000Z",
       "score": 31,
       "scores": {
-        "recency": 0.23,
+        "recency": 0.22,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1248,7 +1416,7 @@
       "publishedAt": "2026-11-13T22:00:57.000Z",
       "score": 31,
       "scores": {
-        "recency": 0.37,
+        "recency": 0.36,
         "reliability": 0.75,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1272,7 +1440,7 @@
       "publishedAt": "2026-11-13T22:00:41.000Z",
       "score": 31,
       "scores": {
-        "recency": 0.37,
+        "recency": 0.36,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1296,7 +1464,7 @@
       "publishedAt": "2026-11-13T22:00:39.000Z",
       "score": 31,
       "scores": {
-        "recency": 0.37,
+        "recency": 0.36,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1320,7 +1488,7 @@
       "publishedAt": "2026-11-13T01:40:34.000Z",
       "score": 30,
       "scores": {
-        "recency": 0.23,
+        "recency": 0.22,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1356,6 +1524,30 @@
       }
     },
     {
+      "fingerprint": "a2bbac3b04ab07071c9df0ce02001a5aa1011662",
+      "storyKey": "f1b1d77fa1e39ae66bfd952612bfd74be3b432f3",
+      "sourceId": "splash247",
+      "sourceName": "Splash247",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "BW LPG scores another lucrative Avance VLGC flip",
+      "url": "https://splash247.com/bw-lpg-scores-another-lucrative-avance-vlgc-flip/",
+      "summary": "BW LPG has struck another lucrative vessel sale, offloading a VLGC acquired in John Fredriksen's Avance Gas fleet deal less than two years ago for well over $100m. The New York- and Oslo-listed gas carrier giant has agreed to sell the 2015-built, 83,134 cu m BW Mistral, with the transaction expected to generate a net",
+      "publishedAt": "2026-11-13T09:50:00.000Z",
+      "score": 26,
+      "scores": {
+        "recency": 0.27,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
       "fingerprint": "090274b28fa0b9ed9f0c927500aaeeac07a8cc80",
       "storyKey": "cbdfaf2ad13dba2e166bd5ef3478e48492b694a7",
       "sourceId": "marineinsight",
@@ -1368,7 +1560,31 @@
       "publishedAt": "2026-11-13T12:38:32.000Z",
       "score": 26,
       "scores": {
-        "recency": 0.3,
+        "recency": 0.29,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "66efb4a23e84c0c458391459a56c7a52dd6ab1d0",
+      "storyKey": "96fbaa62b0380121f864febd9cfd9a49b4d960f4",
+      "sourceId": "splash247",
+      "sourceName": "Splash247",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Cetus seals $200m share placement ahead of Oslo debut",
+      "url": "https://splash247.com/cetus-seals-200m-share-placement-ahead-of-oslo-debut/",
+      "summary": "Hong Kong-based dry bulk owner Cetus Maritime has successfully placed a NOK1.89bn ($200m) share offering, including an over-allotment, clearing a major hurdle ahead of its planned Oslo stock market debut next week. The Mark Young-led company said it had conditionally allocated 108.5m shares at NOK17.44 ($1.83) apiece, taking up the full $25m over-allotment on top",
+      "publishedAt": "2026-11-13T09:42:00.000Z",
+      "score": 25,
+      "scores": {
+        "recency": 0.27,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1392,7 +1608,7 @@
       "publishedAt": "2026-11-13T04:51:44.000Z",
       "score": 25,
       "scores": {
-        "recency": 0.25,
+        "recency": 0.24,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1416,7 +1632,7 @@
       "publishedAt": "2026-11-13T01:07:00.000Z",
       "score": 25,
       "scores": {
-        "recency": 0.23,
+        "recency": 0.22,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1440,7 +1656,7 @@
       "publishedAt": "2026-11-13T22:00:54.000Z",
       "score": 25,
       "scores": {
-        "recency": 0.37,
+        "recency": 0.36,
         "reliability": 0.75,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1464,7 +1680,7 @@
       "publishedAt": "2026-11-13T22:00:51.000Z",
       "score": 25,
       "scores": {
-        "recency": 0.37,
+        "recency": 0.36,
         "reliability": 0.75,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1488,7 +1704,7 @@
       "publishedAt": "2026-11-13T22:00:50.000Z",
       "score": 25,
       "scores": {
-        "recency": 0.37,
+        "recency": 0.36,
         "reliability": 0.75,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1512,7 +1728,7 @@
       "publishedAt": "2026-11-13T22:00:45.000Z",
       "score": 25,
       "scores": {
-        "recency": 0.37,
+        "recency": 0.36,
         "reliability": 0.75,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1534,9 +1750,9 @@
       "url": "https://maritime-executive.com/article/bulker-hits-bridge-near-philadelphia",
       "summary": "On Thursday, a foreign-flagged bulker hit a bridge on the Delaware River, forcing a rush-hour closure for inspections. On Thursday afternoon, the bulk...",
       "publishedAt": "2026-11-14T07:40:00.000Z",
-      "score": 24,
+      "score": 23,
       "scores": {
-        "recency": 0.46,
+        "recency": 0.45,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1560,7 +1776,7 @@
       "publishedAt": "2026-11-14T04:02:13.000Z",
       "score": 23,
       "scores": {
-        "recency": 0.42,
+        "recency": 0.41,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1582,9 +1798,9 @@
       "url": "https://maritime-executive.com/article/bunker-industry-adapts-in-year-of-extraordinary-disruption",
       "summary": "The bunker industry has adapted to what many industry executives called a year of extraordinary disruption and challenges. While overcoming geopolitic...",
       "publishedAt": "2026-11-14T02:39:30.000Z",
-      "score": 23,
+      "score": 22,
       "scores": {
-        "recency": 0.41,
+        "recency": 0.4,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1606,9 +1822,9 @@
       "url": "https://maritime-executive.com/article/u-s-navy-retires-the-venerable-peacoat-from-service",
       "summary": "After well over 100 years of service afloat, the venerable peacoat is set to retire from the U.S. Navy's official uniform options. As part of a \"seaba...",
       "publishedAt": "2026-11-14T02:35:00.000Z",
-      "score": 23,
+      "score": 22,
       "scores": {
-        "recency": 0.41,
+        "recency": 0.4,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1630,9 +1846,9 @@
       "url": "https://maritime-executive.com/article/estonia-confirms-ukrainian-drone-hits-on-russian-corvette-in-the-baltic",
       "summary": "In addition to the serious damage inflicted on the Ust-Luga oil terminal in a Ukrainian strike on Wednesday night, a Russian Navy corvette suffered di...",
       "publishedAt": "2026-11-13T19:56:00.000Z",
-      "score": 22,
+      "score": 21,
       "scores": {
-        "recency": 0.35,
+        "recency": 0.34,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1656,7 +1872,31 @@
       "publishedAt": "2026-11-13T18:18:00.000Z",
       "score": 21,
       "scores": {
-        "recency": 0.34,
+        "recency": 0.33,
+        "reliability": 0.85,
+        "maritimeRelevance": 0,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "e56139c229bff13b74f969f7c24af88ad82a27e2",
+      "storyKey": "05a7e6083615d55740c4e4f27f50ff727fa0b88f",
+      "sourceId": "splash247",
+      "sourceName": "Splash247",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Deutsche Windtechnik picked for UK offshore wind maintenance job",
+      "url": "https://splash247.com/deutsche-windtechnik-picked-for-uk-offshore-wind-maintenance-job/",
+      "summary": "German offshore wind services specialist Deutsche Windtechnik has secured a five-year operations and maintenance contract covering two offshore wind farms in the UK. The agreement, awarded by asset manager XceCo, covers the Lynn and Inner Dowsing wind farms off Lincolnshire, which have a combined installed capacity of 194.4MW. The contract will begin on April 1,",
+      "publishedAt": "2026-11-13T09:30:00.000Z",
+      "score": 20,
+      "scores": {
+        "recency": 0.27,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1680,7 +1920,7 @@
       "publishedAt": "2026-11-14T04:37:00.000Z",
       "score": 20,
       "scores": {
-        "recency": 0.43,
+        "recency": 0.42,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1704,7 +1944,7 @@
       "publishedAt": "2026-11-14T04:32:00.000Z",
       "score": 20,
       "scores": {
-        "recency": 0.43,
+        "recency": 0.42,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1728,7 +1968,7 @@
       "publishedAt": "2026-11-13T22:00:55.000Z",
       "score": 20,
       "scores": {
-        "recency": 0.37,
+        "recency": 0.36,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
