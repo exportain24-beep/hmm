@@ -669,14 +669,14 @@
       },
       "status": "monitoring",
       "published": false,
-      "notes": "Rejected for publication: incidents rest only on Iranian state statements, no vessel identified, no independent confirmation. Re-score if UKMTO/JMIC/owner confirms; then treat as new incident or UPDATE to HM-2026-111207 cluster. 14 Nov 21:50: desk run, quota 0; no UKMTO/JMIC/CENTCOM confirmation of the 13-14 Nov mine claims found. gCaptain \"U.S. rejects Iran's mine claim\" (El Gaia) dates from 14 Sep 2026, not this event; excluded as old. Still monitoring, not carded.",
+      "notes": "Rejected for publication: incidents rest only on Iranian state statements, no vessel identified, no independent confirmation. Re-score if UKMTO/JMIC/owner confirms; then treat as new incident or UPDATE to HM-2026-111207 cluster. 14 Nov 21:50: desk run, quota 0; no UKMTO/JMIC/CENTCOM confirmation of the 13-14 Nov mine claims found. gCaptain \"U.S. rejects Iran's mine claim\" (El Gaia) dates from 14 Sep 2026, not this event; excluded as old. Still monitoring, not carded. 15 Nov 00:50: desk run, quota 0; searches still show no UKMTO/JMIC/owner confirmation of the 13-14 Nov mine claims. Monitoring.",
       "versions": [
         {
           "at": "2026-11-14T19:10:00Z",
           "change": "created; not published (UNCONFIRMED, score 52)"
         }
       ],
-      "updatedAt": "2026-11-14T21:50:00Z"
+      "updatedAt": "2026-11-15T00:50:00Z"
     },
     "HM-2026-111404": {
       "eventId": "HM-2026-111404",
