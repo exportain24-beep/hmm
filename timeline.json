@@ -1,0 +1,761 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "totalSeconds": 58.96666666666667,
+  "voice": "elevenlabs",
+  "scenes": [
+    {
+      "id": "hook",
+      "start": 0,
+      "end": 6.17,
+      "cueTimes": [],
+      "words": [
+        {
+          "text": "A",
+          "start": 0.25,
+          "end": 0.33
+        },
+        {
+          "text": "pilot",
+          "start": 0.41000000000000003,
+          "end": 0.6699999999999999
+        },
+        {
+          "text": "ladder",
+          "start": 0.73,
+          "end": 1.13
+        },
+        {
+          "text": "is",
+          "start": 1.25,
+          "end": 1.37
+        },
+        {
+          "text": "life-saving",
+          "start": 1.45,
+          "end": 2.01
+        },
+        {
+          "text": "equipment.",
+          "start": 2.25,
+          "end": 2.97
+        },
+        {
+          "text": "Rig",
+          "start": 3.01,
+          "end": 3.13
+        },
+        {
+          "text": "it",
+          "start": 3.21,
+          "end": 3.29
+        },
+        {
+          "text": "wrong,",
+          "start": 3.49,
+          "end": 3.85
+        },
+        {
+          "text": "and",
+          "start": 3.89,
+          "end": 3.94
+        },
+        {
+          "text": "the",
+          "start": 4.01,
+          "end": 4.09
+        },
+        {
+          "text": "person",
+          "start": 4.25,
+          "end": 4.41
+        },
+        {
+          "text": "climbing",
+          "start": 4.49,
+          "end": 4.81
+        },
+        {
+          "text": "it",
+          "start": 4.89,
+          "end": 4.97
+        },
+        {
+          "text": "can",
+          "start": 5.05,
+          "end": 5.29
+        },
+        {
+          "text": "fall.",
+          "start": 5.45,
+          "end": 5.93
+        }
+      ]
+    },
+    {
+      "id": "height",
+      "start": 6.17,
+      "end": 14.61,
+      "cueTimes": [],
+      "words": [
+        {
+          "text": "Alone,",
+          "start": 6.29,
+          "end": 6.77
+        },
+        {
+          "text": "a",
+          "start": 7.09,
+          "end": 7.17
+        },
+        {
+          "text": "pilot",
+          "start": 7.25,
+          "end": 7.57
+        },
+        {
+          "text": "ladder",
+          "start": 7.65,
+          "end": 7.890000000000001
+        },
+        {
+          "text": "covers",
+          "start": 7.97,
+          "end": 8.21
+        },
+        {
+          "text": "a",
+          "start": 8.25,
+          "end": 8.3
+        },
+        {
+          "text": "climb",
+          "start": 8.370000000000001,
+          "end": 8.69
+        },
+        {
+          "text": "of",
+          "start": 8.77,
+          "end": 8.93
+        },
+        {
+          "text": "1.5",
+          "start": 9.01,
+          "end": 9.09
+        },
+        {
+          "text": "to",
+          "start": 9.17,
+          "end": 10.05
+        },
+        {
+          "text": "9",
+          "start": 10.129999999999999,
+          "end": 10.29
+        },
+        {
+          "text": "metres.",
+          "start": 10.370000000000001,
+          "end": 11.33
+        },
+        {
+          "text": "Above",
+          "start": 11.41,
+          "end": 11.73
+        },
+        {
+          "text": "9",
+          "start": 11.809999999999999,
+          "end": 11.89
+        },
+        {
+          "text": "metres,",
+          "start": 11.969999999999999,
+          "end": 12.690000000000001
+        },
+        {
+          "text": "add",
+          "start": 12.77,
+          "end": 12.93
+        },
+        {
+          "text": "an",
+          "start": 13.01,
+          "end": 13.09
+        },
+        {
+          "text": "accommodation",
+          "start": 13.21,
+          "end": 13.73
+        },
+        {
+          "text": "ladder.",
+          "start": 13.809999999999999,
+          "end": 14.370000000000001
+        }
+      ]
+    },
+    {
+      "id": "rig",
+      "start": 14.61,
+      "end": 23.53,
+      "cueTimes": [],
+      "words": [
+        {
+          "text": "Hang",
+          "start": 14.729999999999999,
+          "end": 14.94
+        },
+        {
+          "text": "it",
+          "start": 14.969999999999999,
+          "end": 15.089999999999998
+        },
+        {
+          "text": "clear",
+          "start": 15.129999999999999,
+          "end": 15.45
+        },
+        {
+          "text": "of",
+          "start": 15.53,
+          "end": 15.61
+        },
+        {
+          "text": "discharges,",
+          "start": 15.689999999999998,
+          "end": 16.729999999999997
+        },
+        {
+          "text": "inside",
+          "start": 16.93,
+          "end": 17.13
+        },
+        {
+          "text": "the",
+          "start": 17.169999999999998,
+          "end": 17.22
+        },
+        {
+          "text": "parallel",
+          "start": 17.29,
+          "end": 17.61
+        },
+        {
+          "text": "body,",
+          "start": 17.689999999999998,
+          "end": 18.33
+        },
+        {
+          "text": "every",
+          "start": 18.41,
+          "end": 18.65
+        },
+        {
+          "text": "step",
+          "start": 18.729999999999997,
+          "end": 19.049999999999997
+        },
+        {
+          "text": "flat",
+          "start": 19.21,
+          "end": 19.529999999999998
+        },
+        {
+          "text": "against",
+          "start": 19.61,
+          "end": 19.93
+        },
+        {
+          "text": "the",
+          "start": 19.97,
+          "end": 20.02
+        },
+        {
+          "text": "hull.",
+          "start": 20.09,
+          "end": 20.57
+        },
+        {
+          "text": "The",
+          "start": 20.81,
+          "end": 20.89
+        },
+        {
+          "text": "pilot",
+          "start": 20.97,
+          "end": 21.29
+        },
+        {
+          "text": "sets",
+          "start": 21.369999999999997,
+          "end": 21.61
+        },
+        {
+          "text": "the",
+          "start": 21.689999999999998,
+          "end": 21.77
+        },
+        {
+          "text": "height",
+          "start": 21.93,
+          "end": 22.09
+        },
+        {
+          "text": "of",
+          "start": 22.13,
+          "end": 22.18
+        },
+        {
+          "text": "the",
+          "start": 22.25,
+          "end": 22.33
+        },
+        {
+          "text": "lowest",
+          "start": 22.409999999999997,
+          "end": 22.65
+        },
+        {
+          "text": "step.",
+          "start": 22.849999999999998,
+          "end": 23.29
+        }
+      ]
+    },
+    {
+      "id": "secure",
+      "start": 23.53,
+      "end": 30.69,
+      "cueTimes": [
+        0.8399999999999999,
+        4.520000000000003
+      ],
+      "words": [
+        {
+          "text": "Secure",
+          "start": 23.650000000000002,
+          "end": 24.05
+        },
+        {
+          "text": "it",
+          "start": 24.090000000000003,
+          "end": 24.14
+        },
+        {
+          "text": "to",
+          "start": 24.21,
+          "end": 24.290000000000003
+        },
+        {
+          "text": "strong",
+          "start": 24.37,
+          "end": 24.69
+        },
+        {
+          "text": "points",
+          "start": 24.770000000000003,
+          "end": 25.090000000000003
+        },
+        {
+          "text": "rated",
+          "start": 25.17,
+          "end": 25.490000000000002
+        },
+        {
+          "text": "at",
+          "start": 25.610000000000003,
+          "end": 25.730000000000004
+        },
+        {
+          "text": "least",
+          "start": 25.810000000000002,
+          "end": 26.05
+        },
+        {
+          "text": "48",
+          "start": 26.130000000000003,
+          "end": 26.610000000000003
+        },
+        {
+          "text": "kilonewtons,",
+          "start": 26.770000000000003,
+          "end": 27.89
+        },
+        {
+          "text": "never",
+          "start": 28.050000000000004,
+          "end": 28.37
+        },
+        {
+          "text": "to",
+          "start": 28.53,
+          "end": 28.610000000000003
+        },
+        {
+          "text": "the",
+          "start": 28.650000000000002,
+          "end": 28.700000000000003
+        },
+        {
+          "text": "accommodation",
+          "start": 28.810000000000002,
+          "end": 29.330000000000002
+        },
+        {
+          "text": "ladder",
+          "start": 29.410000000000004,
+          "end": 29.650000000000002
+        },
+        {
+          "text": "platform.",
+          "start": 29.930000000000003,
+          "end": 30.450000000000003
+        }
+      ]
+    },
+    {
+      "id": "access",
+      "start": 30.69,
+      "end": 39.85,
+      "cueTimes": [
+        1.8000000000000007,
+        4.040000000000003,
+        5.320000000000004,
+        6.440000000000001
+      ],
+      "words": [
+        {
+          "text": "At",
+          "start": 30.810000000000002,
+          "end": 30.930000000000003
+        },
+        {
+          "text": "the",
+          "start": 30.970000000000002,
+          "end": 31.037000000000003
+        },
+        {
+          "text": "access",
+          "start": 31.05,
+          "end": 31.450000000000003
+        },
+        {
+          "text": "point:",
+          "start": 31.53,
+          "end": 32.330000000000005
+        },
+        {
+          "text": "a",
+          "start": 32.370000000000005,
+          "end": 32.42
+        },
+        {
+          "text": "lifebuoy",
+          "start": 32.49,
+          "end": 32.97
+        },
+        {
+          "text": "with",
+          "start": 33.050000000000004,
+          "end": 33.21
+        },
+        {
+          "text": "self-igniting",
+          "start": 33.29,
+          "end": 33.93
+        },
+        {
+          "text": "light,",
+          "start": 34.010000000000005,
+          "end": 34.57
+        },
+        {
+          "text": "a",
+          "start": 34.61,
+          "end": 34.660000000000004
+        },
+        {
+          "text": "heaving",
+          "start": 34.730000000000004,
+          "end": 35.050000000000004
+        },
+        {
+          "text": "line,",
+          "start": 35.21,
+          "end": 35.690000000000005
+        },
+        {
+          "text": "two",
+          "start": 35.77,
+          "end": 35.93
+        },
+        {
+          "text": "manropes,",
+          "start": 36.010000000000005,
+          "end": 36.730000000000004
+        },
+        {
+          "text": "and",
+          "start": 36.85,
+          "end": 36.97
+        },
+        {
+          "text": "a",
+          "start": 37.050000000000004,
+          "end": 37.1
+        },
+        {
+          "text": "responsible",
+          "start": 37.13,
+          "end": 37.77
+        },
+        {
+          "text": "officer",
+          "start": 37.85,
+          "end": 38.25
+        },
+        {
+          "text": "talking",
+          "start": 38.410000000000004,
+          "end": 38.650000000000006
+        },
+        {
+          "text": "to",
+          "start": 38.730000000000004,
+          "end": 38.81
+        },
+        {
+          "text": "the",
+          "start": 38.85,
+          "end": 38.900000000000006
+        },
+        {
+          "text": "bridge.",
+          "start": 39.09,
+          "end": 39.61
+        }
+      ]
+    },
+    {
+      "id": "life",
+      "start": 39.85,
+      "end": 48.53,
+      "cueTimes": [],
+      "words": [
+        {
+          "text": "From",
+          "start": 39.97,
+          "end": 40.18
+        },
+        {
+          "text": "2028,",
+          "start": 40.21,
+          "end": 40.89
+        },
+        {
+          "text": "a",
+          "start": 40.957,
+          "end": 41.022999999999996
+        },
+        {
+          "text": "ladder",
+          "start": 41.089999999999996,
+          "end": 41.778
+        },
+        {
+          "text": "leaves",
+          "start": 41.826,
+          "end": 42.05
+        },
+        {
+          "text": "service",
+          "start": 42.089999999999996,
+          "end": 42.69
+        },
+        {
+          "text": "after",
+          "start": 42.85,
+          "end": 43.01
+        },
+        {
+          "text": "30",
+          "start": 43.089999999999996,
+          "end": 43.33
+        },
+        {
+          "text": "months",
+          "start": 43.41,
+          "end": 43.65
+        },
+        {
+          "text": "in",
+          "start": 43.73,
+          "end": 43.81
+        },
+        {
+          "text": "use,",
+          "start": 43.89,
+          "end": 44.45
+        },
+        {
+          "text": "or",
+          "start": 44.57,
+          "end": 44.69
+        },
+        {
+          "text": "36",
+          "start": 45.01,
+          "end": 45.489999999999995
+        },
+        {
+          "text": "months",
+          "start": 45.57,
+          "end": 45.73
+        },
+        {
+          "text": "from",
+          "start": 45.81,
+          "end": 45.89
+        },
+        {
+          "text": "manufacture,",
+          "start": 45.97,
+          "end": 46.93
+        },
+        {
+          "text": "whichever",
+          "start": 46.97,
+          "end": 47.25
+        },
+        {
+          "text": "comes",
+          "start": 47.33,
+          "end": 47.57
+        },
+        {
+          "text": "first.",
+          "start": 47.769999999999996,
+          "end": 48.29
+        }
+      ]
+    },
+    {
+      "id": "take",
+      "start": 48.53,
+      "end": 54.17,
+      "cueTimes": [],
+      "words": [
+        {
+          "text": "Inspect",
+          "start": 48.65,
+          "end": 49.129999999999995
+        },
+        {
+          "text": "it",
+          "start": 49.17,
+          "end": 49.22
+        },
+        {
+          "text": "before",
+          "start": 49.29,
+          "end": 49.769999999999996
+        },
+        {
+          "text": "and",
+          "start": 49.93,
+          "end": 50.17
+        },
+        {
+          "text": "after",
+          "start": 50.25,
+          "end": 50.65
+        },
+        {
+          "text": "every",
+          "start": 50.81,
+          "end": 51.129999999999995
+        },
+        {
+          "text": "use.",
+          "start": 51.21,
+          "end": 51.89
+        },
+        {
+          "text": "Rig",
+          "start": 52.17,
+          "end": 52.33
+        },
+        {
+          "text": "it",
+          "start": 52.41,
+          "end": 52.57
+        },
+        {
+          "text": "as",
+          "start": 52.65,
+          "end": 52.73
+        },
+        {
+          "text": "if",
+          "start": 52.81,
+          "end": 52.89
+        },
+        {
+          "text": "you",
+          "start": 52.97,
+          "end": 53.019999999999996
+        },
+        {
+          "text": "were",
+          "start": 53.05,
+          "end": 53.129999999999995
+        },
+        {
+          "text": "climbing.",
+          "start": 53.21,
+          "end": 53.93
+        }
+      ]
+    },
+    {
+      "id": "end",
+      "start": 54.17,
+      "end": 58.96666666666667,
+      "cueTimes": [],
+      "words": [
+        {
+          "text": "Follow",
+          "start": 54.29,
+          "end": 54.61
+        },
+        {
+          "text": "HeyMariner",
+          "start": 54.69,
+          "end": 55.41
+        },
+        {
+          "text": "for",
+          "start": 55.49,
+          "end": 55.65
+        },
+        {
+          "text": "practical",
+          "start": 55.73,
+          "end": 56.13
+        },
+        {
+          "text": "maritime",
+          "start": 56.29,
+          "end": 56.69
+        },
+        {
+          "text": "knowledge.",
+          "start": 56.769999999999996,
+          "end": 57.49
+        }
+      ]
+    }
+  ]
+}
