@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T15:24:41.421Z",
+  "updatedAt": "2026-11-15T16:25:05.665Z",
   "feedStatus": {
     "safety4sea": "ok (0)",
     "gcaptain": "ok (12)",
@@ -48,7 +48,7 @@
       "publishedAt": "2026-11-14T14:41:03.000Z",
       "score": 54,
       "scores": {
-        "recency": 0.56,
+        "recency": 0.55,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -72,7 +72,7 @@
       "publishedAt": "2026-11-14T22:23:43.000Z",
       "score": 54,
       "scores": {
-        "recency": 0.67,
+        "recency": 0.66,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -94,9 +94,9 @@
       "url": "https://maritime-executive.com/article/korean-partnership-s-carbon-capture-proposal-chosen-as-basis-for-imo-safety",
       "summary": "A leading Korean public-private partnership comprising 10 maritime organizations has reached a major milestone in the development of international saf...",
       "publishedAt": "2026-11-14T15:30:10.000Z",
-      "score": 54,
+      "score": 53,
       "scores": {
-        "recency": 0.58,
+        "recency": 0.56,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -104,30 +104,6 @@
         "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0.5,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "86716c873267097b638dc785954eef0b18b640c1",
-      "storyKey": "f580664809554ee78e276fc57ac3b958efe16b59",
-      "sourceId": "marineinsight",
-      "sourceName": "Marine Insight",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Oil Tanker Catches Fire After Hitting Naval Mine In Strait Of Hormuz, Iran Says",
-      "url": "https://www.marineinsight.com/oil-tanker-fire-naval-mine-strait-hormuz/?utm_source=rss utm_medium=rss utm_campaign=oil-tanker-fire-naval-mine-strait-hormuz",
-      "summary": "An oil tanker was set ablaze by a naval mine in the eastern Strait of Hormuz on Saturday morning, November 14, 2026, according to a claim by Iran's navy.",
-      "publishedAt": "2026-11-15T14:48:43.000Z",
-      "score": 52,
-      "scores": {
-        "recency": 0.99,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.67,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 1,
-        "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
     },
@@ -144,7 +120,7 @@
       "publishedAt": "2026-11-13T08:10:39.000Z",
       "score": 51,
       "scores": {
-        "recency": 0.28,
+        "recency": 0.27,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -152,6 +128,30 @@
         "shareability": 0,
         "visualPotential": 0.5,
         "regulatoryImportance": 0.5,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "86716c873267097b638dc785954eef0b18b640c1",
+      "storyKey": "f580664809554ee78e276fc57ac3b958efe16b59",
+      "sourceId": "marineinsight",
+      "sourceName": "Marine Insight",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Oil Tanker Catches Fire After Hitting Naval Mine In Strait Of Hormuz, Iran Says",
+      "url": "https://www.marineinsight.com/oil-tanker-fire-naval-mine-strait-hormuz/?utm_source=rss utm_medium=rss utm_campaign=oil-tanker-fire-naval-mine-strait-hormuz",
+      "summary": "An oil tanker was set ablaze by a naval mine in the eastern Strait of Hormuz on Saturday morning, November 14, 2026, according to a claim by Iran's navy.",
+      "publishedAt": "2026-11-15T14:48:43.000Z",
+      "score": 51,
+      "scores": {
+        "recency": 0.96,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.67,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 1,
+        "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
     },
@@ -166,9 +166,9 @@
       "url": "https://maritime-executive.com/article/report-coast-guard-investigates-possible-magic-pipe-case-on-msc-poesia",
       "summary": "The U.S. Coast Guard has launched a criminal investigation into a possible case of \"magic pipe\" waste discharge aboard the cruise ship MSC Poesia, whi...",
       "publishedAt": "2026-11-14T01:44:29.000Z",
-      "score": 50,
+      "score": 49,
       "scores": {
-        "recency": 0.42,
+        "recency": 0.41,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 1,
@@ -192,7 +192,7 @@
       "publishedAt": "2026-11-15T01:06:11.000Z",
       "score": 48,
       "scores": {
-        "recency": 0.72,
+        "recency": 0.7,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -216,7 +216,7 @@
       "publishedAt": "2026-11-15T13:03:46.000Z",
       "score": 48,
       "scores": {
-        "recency": 0.95,
+        "recency": 0.93,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -276,30 +276,6 @@
       }
     },
     {
-      "fingerprint": "07423261c02e629c56e12c0a53a5019765864ab3",
-      "storyKey": "9deb0bfcce884db677699a36e3b1ca23e818c752",
-      "sourceId": "gcaptain",
-      "sourceName": "gCaptain",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "South Africa’s Auto Industry Threatened By Worsening Port Delays",
-      "url": "https://gcaptain.com/south-africas-auto-industry-threatened-by-worsening-port-delays/",
-      "summary": "By Matthew Hill and Alexander Parker Nov 14, 2026 (Bloomberg) -Severe delays at South Africa’s biggest container terminal in the port city of Durban are threatening the nation’s auto industry, already under...",
-      "publishedAt": "2026-11-15T03:48:26.000Z",
-      "score": 46,
-      "scores": {
-        "recency": 0.76,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.67,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 1,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
       "fingerprint": "ed4aea9d97c4cbb93a13bea7f270b891b80b4249",
       "storyKey": "568236f3b57b0aec3a2d58bff12e87d9fd68e2fb",
       "sourceId": "marineinsight",
@@ -324,6 +300,30 @@
       }
     },
     {
+      "fingerprint": "07423261c02e629c56e12c0a53a5019765864ab3",
+      "storyKey": "9deb0bfcce884db677699a36e3b1ca23e818c752",
+      "sourceId": "gcaptain",
+      "sourceName": "gCaptain",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "South Africa’s Auto Industry Threatened By Worsening Port Delays",
+      "url": "https://gcaptain.com/south-africas-auto-industry-threatened-by-worsening-port-delays/",
+      "summary": "By Matthew Hill and Alexander Parker Nov 14, 2026 (Bloomberg) -Severe delays at South Africa’s biggest container terminal in the port city of Durban are threatening the nation’s auto industry, already under...",
+      "publishedAt": "2026-11-15T03:48:26.000Z",
+      "score": 45,
+      "scores": {
+        "recency": 0.75,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.67,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 1,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
       "fingerprint": "6d7e3c9a11f34b9eccabb2632e1186ec8025e6e8",
       "storyKey": "366e98940e51b7a36d9ae3d4266fcad813591d5d",
       "sourceId": "gcaptain",
@@ -336,7 +336,7 @@
       "publishedAt": "2026-11-14T02:34:17.000Z",
       "score": 45,
       "scores": {
-        "recency": 0.43,
+        "recency": 0.42,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -360,7 +360,7 @@
       "publishedAt": "2026-11-13T21:11:53.000Z",
       "score": 44,
       "scores": {
-        "recency": 0.38,
+        "recency": 0.37,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -384,7 +384,7 @@
       "publishedAt": "2026-11-15T14:33:56.000Z",
       "score": 44,
       "scores": {
-        "recency": 0.98,
+        "recency": 0.96,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0.5,
@@ -408,7 +408,7 @@
       "publishedAt": "2026-11-14T22:08:51.000Z",
       "score": 43,
       "scores": {
-        "recency": 0.67,
+        "recency": 0.66,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -432,7 +432,7 @@
       "publishedAt": "2026-11-14T18:13:54.000Z",
       "score": 43,
       "scores": {
-        "recency": 0.61,
+        "recency": 0.6,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -440,30 +440,6 @@
         "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0.5,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "de51dd407f266f42507871dfd3ee4a81ecea6c9a",
-      "storyKey": "4e8f7ba13212d36555b5470eebfa01f00c63486c",
-      "sourceId": "splash247",
-      "sourceName": "Splash247",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "From ocean liner to artificial reef: A warning for container shipping",
-      "url": "https://splash247.com/from-ocean-liner-to-artificial-reef-a-warning-for-container-shipping/",
-      "summary": "Dr Raymon Krishnan, president of Singapore’s Logistics Supply Chain Management Society, writes for Splash today, reflecting on one of this week’s most talked about stories in the mainstream press. On Wednesday, the 990-foot ocean liner SS United States was deliberately sunk off Destin, Florida, to become what is expected to be the world’s largest",
-      "publishedAt": "2026-11-13T10:07:00.000Z",
-      "score": 43,
-      "scores": {
-        "recency": 0.29,
-        "reliability": 0.85,
-        "maritimeRelevance": 1,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 1,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
     },
@@ -516,30 +492,6 @@
       }
     },
     {
-      "fingerprint": "9238341d95d262eb5d21bfdaec1fbef306c4541e",
-      "storyKey": "f0e230194b07b1b8bcc3d9918e4ec0403235c1ec",
-      "sourceId": "gcaptain",
-      "sourceName": "gCaptain",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Gulf Oil Exports Recover as Hormuz Shipping Struggles",
-      "url": "https://gcaptain.com/gulf-oil-exports-recover-as-hormuz-shipping-struggles/",
-      "summary": "Global oil markets are beginning to recover from the Iran war, but shipping through the Strait of Hormuz remains severely disrupted, with vessel traffic roughly 65% below pre-conflict levels and...",
-      "publishedAt": "2026-11-13T17:51:12.000Z",
-      "score": 42,
-      "scores": {
-        "recency": 0.35,
-        "reliability": 0.85,
-        "maritimeRelevance": 1,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0.5,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
       "fingerprint": "7731ffe8a60234e6fd71f87afff0b0d07a0c90af",
       "storyKey": "fab8548709ab127fc8b5ed28825829e5fe87caea",
       "sourceId": "gcaptain",
@@ -564,6 +516,30 @@
       }
     },
     {
+      "fingerprint": "de51dd407f266f42507871dfd3ee4a81ecea6c9a",
+      "storyKey": "4e8f7ba13212d36555b5470eebfa01f00c63486c",
+      "sourceId": "splash247",
+      "sourceName": "Splash247",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "From ocean liner to artificial reef: A warning for container shipping",
+      "url": "https://splash247.com/from-ocean-liner-to-artificial-reef-a-warning-for-container-shipping/",
+      "summary": "Dr Raymon Krishnan, president of Singapore’s Logistics Supply Chain Management Society, writes for Splash today, reflecting on one of this week’s most talked about stories in the mainstream press. On Wednesday, the 990-foot ocean liner SS United States was deliberately sunk off Destin, Florida, to become what is expected to be the world’s largest",
+      "publishedAt": "2026-11-13T10:07:00.000Z",
+      "score": 42,
+      "scores": {
+        "recency": 0.29,
+        "reliability": 0.85,
+        "maritimeRelevance": 1,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 1,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
       "fingerprint": "03c6ce4133eb6b72373ab203e73c613fffe93768",
       "storyKey": "26c52965502c2e25ae71702f62beb206e2ec2e16",
       "sourceId": "marex",
@@ -576,7 +552,7 @@
       "publishedAt": "2026-11-14T16:50:51.000Z",
       "score": 42,
       "scores": {
-        "recency": 0.59,
+        "recency": 0.58,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -636,6 +612,30 @@
       }
     },
     {
+      "fingerprint": "9238341d95d262eb5d21bfdaec1fbef306c4541e",
+      "storyKey": "f0e230194b07b1b8bcc3d9918e4ec0403235c1ec",
+      "sourceId": "gcaptain",
+      "sourceName": "gCaptain",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Gulf Oil Exports Recover as Hormuz Shipping Struggles",
+      "url": "https://gcaptain.com/gulf-oil-exports-recover-as-hormuz-shipping-struggles/",
+      "summary": "Global oil markets are beginning to recover from the Iran war, but shipping through the Strait of Hormuz remains severely disrupted, with vessel traffic roughly 65% below pre-conflict levels and...",
+      "publishedAt": "2026-11-13T17:51:12.000Z",
+      "score": 41,
+      "scores": {
+        "recency": 0.34,
+        "reliability": 0.85,
+        "maritimeRelevance": 1,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0.5,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
       "fingerprint": "d58ae9cf66b564d4d3b048346b306a4358e1264d",
       "storyKey": "dda503f2e8a25122bb4a1e2eb614e34d951c65d9",
       "sourceId": "marineinsight",
@@ -648,7 +648,7 @@
       "publishedAt": "2026-11-13T09:52:44.000Z",
       "score": 41,
       "scores": {
-        "recency": 0.29,
+        "recency": 0.28,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -720,34 +720,10 @@
       "publishedAt": "2026-11-13T03:22:55.000Z",
       "score": 40,
       "scores": {
-        "recency": 0.25,
+        "recency": 0.24,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0.5,
-        "seafarerValue": 0.5,
-        "shareability": 0,
-        "visualPotential": 0.5,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "3bec3398601691a2cc5bb2ff6a3127298a88385b",
-      "storyKey": "a54ccaf9e96dbde62a587a2e15b564b600c95b38",
-      "sourceId": "marex",
-      "sourceName": "The Maritime Executive",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "GHD Announces Port Engineering Contracts in Los Angeles and Savannah",
-      "url": "https://maritime-executive.com/article/ghd-announces-port-engineering-contracts-in-los-angeles-and-savannah",
-      "summary": "GHD has been selected as the design engineer for the new marine terminal at the SeaPoint Industrial Terminal Complex in Savannah, Georgia, partnering...",
-      "publishedAt": "2026-11-14T04:34:00.000Z",
-      "score": 39,
-      "scores": {
-        "recency": 0.45,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.33,
-        "educationalValue": 0,
         "seafarerValue": 0.5,
         "shareability": 0,
         "visualPotential": 0.5,
@@ -768,13 +744,37 @@
       "publishedAt": "2026-11-13T21:13:00.000Z",
       "score": 39,
       "scores": {
-        "recency": 0.38,
+        "recency": 0.37,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
         "seafarerValue": 0.5,
         "shareability": 0,
         "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "3bec3398601691a2cc5bb2ff6a3127298a88385b",
+      "storyKey": "a54ccaf9e96dbde62a587a2e15b564b600c95b38",
+      "sourceId": "marex",
+      "sourceName": "The Maritime Executive",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "GHD Announces Port Engineering Contracts in Los Angeles and Savannah",
+      "url": "https://maritime-executive.com/article/ghd-announces-port-engineering-contracts-in-los-angeles-and-savannah",
+      "summary": "GHD has been selected as the design engineer for the new marine terminal at the SeaPoint Industrial Terminal Complex in Savannah, Georgia, partnering...",
+      "publishedAt": "2026-11-14T04:34:00.000Z",
+      "score": 38,
+      "scores": {
+        "recency": 0.44,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0,
+        "seafarerValue": 0.5,
+        "shareability": 0,
+        "visualPotential": 0.5,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
@@ -790,9 +790,9 @@
       "url": "https://gcaptain.com/world-oil-market-is-returning-to-surplus-as-gulf-exports-recover/",
       "summary": "The world oil market will return to a surplus in the fourth quarter of this year, the International Energy Agency said on Friday, as Middle East exports recover faster than global oil demand despite continued attacks on shipping.",
       "publishedAt": "2026-11-13T17:37:39.000Z",
-      "score": 38,
+      "score": 37,
       "scores": {
-        "recency": 0.35,
+        "recency": 0.34,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -814,15 +814,39 @@
       "url": "https://gcaptain.com/cma-cgm-net-profit-more-than-triples-to-2-32-billion-as-freight-rates-surge/",
       "summary": "French shipping giant CMA CGM more than tripled its third-quarter net profit as higher container freight rates and strong cargo volumes boosted earnings amid ongoing disruptions to global shipping routes...",
       "publishedAt": "2026-11-13T17:24:08.000Z",
-      "score": 38,
+      "score": 37,
       "scores": {
-        "recency": 0.35,
+        "recency": 0.34,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
         "seafarerValue": 0,
         "shareability": 0,
         "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "d737e28e89ffbc9498450d7f827d069b4333bafb",
+      "storyKey": "606bee6a7b581d0b8291c1ab48cb5f5907e796d7",
+      "sourceId": "splash247",
+      "sourceName": "Splash247",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Tanker sinks river cruise ship in New Orleans collision",
+      "url": "https://splash247.com/tanker-sinks-river-cruise-ship-in-new-orleans-collision/",
+      "summary": "The 17,764 dwt bitumen tanker Atlantic Asphalt has struck and partially sunk a river cruise ship on the Mississippi River in New Orleans, leaving 32 people hospitalised and prompting a major emergency response. The collision occurred at approximately 12.30 pm local time on November 13, when the 2017-built tanker struck American Cruise Lines' American Heritage,",
+      "publishedAt": "2026-11-14T00:58:11.000Z",
+      "score": 37,
+      "scores": {
+        "recency": 0.4,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.67,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0.5,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
@@ -838,9 +862,9 @@
       "url": "https://maritime-executive.com/article/fairbanks-acquires-truflo-marine-expanding-australian-submarine-manufacturing-capabilities",
       "summary": "Fairbanks Morse Defense recently announced the acquisition of Truflo Marine, marking a major expansion of its ability to support allied submarine prod...",
       "publishedAt": "2026-11-14T18:33:00.000Z",
-      "score": 38,
+      "score": 37,
       "scores": {
-        "recency": 0.62,
+        "recency": 0.6,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -862,7 +886,7 @@
       "url": "https://maritime-executive.com/article/study-shipping-can-avoid-endangered-species-habitat-at-minimal-cost",
       "summary": "In a study aimed at demonstrating that shipping can support marine conservation efforts without significantly increasing costs, researchers in the UK...",
       "publishedAt": "2026-11-13T17:18:00.000Z",
-      "score": 38,
+      "score": 37,
       "scores": {
         "recency": 0.34,
         "reliability": 0.85,
@@ -886,9 +910,9 @@
       "url": "https://www.marineinsight.com/uss-spruance-357-day-combat-deployment/?utm_source=rss utm_medium=rss utm_campaign=uss-spruance-357-day-combat-deployment",
       "summary": "USS Spruance returned to Naval Base San Diego on November 13, 2026, after a 357-day combat deployment that took the Arleigh Burke-class destroyer across the U.S. 3rd, 7th and 5th Fleet areas.",
       "publishedAt": "2026-11-15T12:50:27.000Z",
-      "score": 38,
+      "score": 37,
       "scores": {
-        "recency": 0.94,
+        "recency": 0.92,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -910,39 +934,15 @@
       "url": "https://www.marineinsight.com/worlds-largest-shiplift-texas-shipyard/?utm_source=rss utm_medium=rss utm_campaign=worlds-largest-shiplift-texas-shipyard",
       "summary": "The world's largest shiplift, as described by Saronic and Syncrolift, will be supplied for the Port Alpha shipyard in Brownsville, Texas, under a contract awarded to Syncrolift AS.",
       "publishedAt": "2026-11-13T12:52:44.000Z",
-      "score": 38,
+      "score": 37,
       "scores": {
-        "recency": 0.31,
+        "recency": 0.3,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
         "seafarerValue": 0,
         "shareability": 1,
         "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "d737e28e89ffbc9498450d7f827d069b4333bafb",
-      "storyKey": "606bee6a7b581d0b8291c1ab48cb5f5907e796d7",
-      "sourceId": "splash247",
-      "sourceName": "Splash247",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Tanker sinks river cruise ship in New Orleans collision",
-      "url": "https://splash247.com/tanker-sinks-river-cruise-ship-in-new-orleans-collision/",
-      "summary": "The 17,764 dwt bitumen tanker Atlantic Asphalt has struck and partially sunk a river cruise ship on the Mississippi River in New Orleans, leaving 32 people hospitalised and prompting a major emergency response. The collision occurred at approximately 12.30 pm local time on November 13, when the 2017-built tanker struck American Cruise Lines' American Heritage,",
-      "publishedAt": "2026-11-14T00:58:11.000Z",
-      "score": 37,
-      "scores": {
-        "recency": 0.41,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.67,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0.5,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
@@ -966,30 +966,6 @@
         "educationalValue": 0,
         "seafarerValue": 0,
         "shareability": 1,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "442c40783a7619d87e5d4c3d209abd4eeb77e5b9",
-      "storyKey": "1b4a3bb3159fb29274f58bee6c1ba25dd42e4178",
-      "sourceId": "marineinsight",
-      "sourceName": "Marine Insight",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Andhra Pradesh Aims To Become India’s Eastern Maritime Gateway With 4 New Ports",
-      "url": "https://www.marineinsight.com/andhra-pradesh-aims-to-become-indias-eastern-maritime-gateway-with-4-new-ports/?utm_source=rss utm_medium=rss utm_campaign=andhra-pradesh-aims-to-become-indias-eastern-maritime-gateway-with-4-new-ports",
-      "summary": "The summit brings together government leaders, industry representatives and international participants to explore opportunities in trade, investment, technology and global partnerships.",
-      "publishedAt": "2026-11-13T10:07:56.000Z",
-      "score": 37,
-      "scores": {
-        "recency": 0.29,
-        "reliability": 0.85,
-        "maritimeRelevance": 1,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
@@ -1056,7 +1032,7 @@
       "publishedAt": "2026-11-13T09:35:00.000Z",
       "score": 36,
       "scores": {
-        "recency": 0.29,
+        "recency": 0.28,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -1080,7 +1056,7 @@
       "publishedAt": "2026-11-13T09:23:00.000Z",
       "score": 36,
       "scores": {
-        "recency": 0.29,
+        "recency": 0.28,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -1104,7 +1080,7 @@
       "publishedAt": "2026-11-13T08:00:31.000Z",
       "score": 36,
       "scores": {
-        "recency": 0.28,
+        "recency": 0.27,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -1128,7 +1104,7 @@
       "publishedAt": "2026-11-13T03:05:56.000Z",
       "score": 36,
       "scores": {
-        "recency": 0.25,
+        "recency": 0.24,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1176,7 +1152,7 @@
       "publishedAt": "2026-11-14T15:04:25.000Z",
       "score": 36,
       "scores": {
-        "recency": 0.57,
+        "recency": 0.56,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1204,6 +1180,30 @@
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0.5,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "442c40783a7619d87e5d4c3d209abd4eeb77e5b9",
+      "storyKey": "1b4a3bb3159fb29274f58bee6c1ba25dd42e4178",
+      "sourceId": "marineinsight",
+      "sourceName": "Marine Insight",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Andhra Pradesh Aims To Become India’s Eastern Maritime Gateway With 4 New Ports",
+      "url": "https://www.marineinsight.com/andhra-pradesh-aims-to-become-indias-eastern-maritime-gateway-with-4-new-ports/?utm_source=rss utm_medium=rss utm_campaign=andhra-pradesh-aims-to-become-indias-eastern-maritime-gateway-with-4-new-ports",
+      "summary": "The summit brings together government leaders, industry representatives and international participants to explore opportunities in trade, investment, technology and global partnerships.",
+      "publishedAt": "2026-11-13T10:07:56.000Z",
+      "score": 36,
+      "scores": {
+        "recency": 0.29,
+        "reliability": 0.85,
+        "maritimeRelevance": 1,
+        "educationalValue": 0,
         "seafarerValue": 0,
         "shareability": 0,
         "visualPotential": 0,
@@ -1296,7 +1296,7 @@
       "publishedAt": "2026-11-13T20:45:59.000Z",
       "score": 33,
       "scores": {
-        "recency": 0.37,
+        "recency": 0.36,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1320,7 +1320,7 @@
       "publishedAt": "2026-11-13T21:38:00.000Z",
       "score": 33,
       "scores": {
-        "recency": 0.38,
+        "recency": 0.37,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1344,7 +1344,7 @@
       "publishedAt": "2026-11-13T10:00:23.000Z",
       "score": 32,
       "scores": {
-        "recency": 0.29,
+        "recency": 0.28,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1392,7 +1392,7 @@
       "publishedAt": "2026-11-13T01:05:06.000Z",
       "score": 31,
       "scores": {
-        "recency": 0.24,
+        "recency": 0.23,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1464,7 +1464,7 @@
       "publishedAt": "2026-11-13T01:40:34.000Z",
       "score": 30,
       "scores": {
-        "recency": 0.24,
+        "recency": 0.23,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1488,7 +1488,7 @@
       "publishedAt": "2026-11-13T16:29:16.000Z",
       "score": 27,
       "scores": {
-        "recency": 0.34,
+        "recency": 0.33,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1536,7 +1536,7 @@
       "publishedAt": "2026-11-13T09:50:00.000Z",
       "score": 26,
       "scores": {
-        "recency": 0.29,
+        "recency": 0.28,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1560,7 +1560,7 @@
       "publishedAt": "2026-11-13T09:42:00.000Z",
       "score": 26,
       "scores": {
-        "recency": 0.29,
+        "recency": 0.28,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1584,7 +1584,7 @@
       "publishedAt": "2026-11-13T12:38:32.000Z",
       "score": 26,
       "scores": {
-        "recency": 0.31,
+        "recency": 0.3,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1704,7 +1704,7 @@
       "publishedAt": "2026-11-13T04:51:44.000Z",
       "score": 25,
       "scores": {
-        "recency": 0.26,
+        "recency": 0.25,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1728,7 +1728,7 @@
       "publishedAt": "2026-11-13T01:07:00.000Z",
       "score": 25,
       "scores": {
-        "recency": 0.24,
+        "recency": 0.23,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1752,7 +1752,7 @@
       "publishedAt": "2026-11-14T07:40:00.000Z",
       "score": 24,
       "scores": {
-        "recency": 0.48,
+        "recency": 0.47,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1776,7 +1776,7 @@
       "publishedAt": "2026-11-14T04:02:13.000Z",
       "score": 23,
       "scores": {
-        "recency": 0.44,
+        "recency": 0.43,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1800,7 +1800,7 @@
       "publishedAt": "2026-11-14T02:39:30.000Z",
       "score": 23,
       "scores": {
-        "recency": 0.43,
+        "recency": 0.42,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1824,7 +1824,7 @@
       "publishedAt": "2026-11-14T02:35:00.000Z",
       "score": 23,
       "scores": {
-        "recency": 0.43,
+        "recency": 0.42,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1848,7 +1848,7 @@
       "publishedAt": "2026-11-13T19:56:00.000Z",
       "score": 22,
       "scores": {
-        "recency": 0.37,
+        "recency": 0.36,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1872,7 +1872,7 @@
       "publishedAt": "2026-11-13T18:18:00.000Z",
       "score": 22,
       "scores": {
-        "recency": 0.35,
+        "recency": 0.34,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1896,7 +1896,7 @@
       "publishedAt": "2026-11-13T09:30:00.000Z",
       "score": 20,
       "scores": {
-        "recency": 0.29,
+        "recency": 0.28,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1920,7 +1920,7 @@
       "publishedAt": "2026-11-14T04:37:00.000Z",
       "score": 20,
       "scores": {
-        "recency": 0.45,
+        "recency": 0.44,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1944,7 +1944,7 @@
       "publishedAt": "2026-11-14T04:32:00.000Z",
       "score": 20,
       "scores": {
-        "recency": 0.45,
+        "recency": 0.44,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
