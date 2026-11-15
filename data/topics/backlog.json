@@ -1,5 +1,5 @@
 {
- "about": "HeyMariner video topic backlog. Daily desk takes the highest-priority open topic per stream; the weekly scout adds and re-scores topics. Verify every fact on the primary source before scripting.",
+ "about": "HeyMariner maritime knowledge tree (docs/CONTENT-ARCHITECT-SPEC.md). Daily desk takes the highest-priority open concepts and chains each Short's related topics back in; the weekly discovery engine breaks pillars A-M down into new single-concept topics. Verify every fact on the primary source before scripting.",
  "weights": {
   "psc": 22,
   "exam": 18,
@@ -7,7 +7,9 @@
   "critical": 20,
   "faq": 14,
   "accident": 16,
-  "visual": 8
+  "visual": 8,
+  "calc": 18,
+  "colreg": 18
  },
  "topics": [
   {
