@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T05:25:15.129Z",
+  "updatedAt": "2026-11-15T06:25:20.318Z",
   "feedStatus": {
     "safety4sea": "ok (0)",
     "gcaptain": "ok (12)",
@@ -24,7 +24,7 @@
       "publishedAt": "2026-11-14T14:41:03.000Z",
       "score": 57,
       "scores": {
-        "recency": 0.71,
+        "recency": 0.7,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -48,7 +48,7 @@
       "publishedAt": "2026-11-14T22:23:43.000Z",
       "score": 57,
       "scores": {
-        "recency": 0.85,
+        "recency": 0.83,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -72,7 +72,7 @@
       "publishedAt": "2026-11-14T15:30:10.000Z",
       "score": 56,
       "scores": {
-        "recency": 0.73,
+        "recency": 0.71,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -96,7 +96,7 @@
       "publishedAt": "2026-11-13T11:41:30.000Z",
       "score": 56,
       "scores": {
-        "recency": 0.38,
+        "recency": 0.37,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -118,9 +118,9 @@
       "url": "https://splash247.com/gulf-war-leaves-toxic-legacy-that-could-last-decades/",
       "summary": "Greenpeace has identified 540 possible oil spills across the Gulf, Strait of Hormuz and Arabian Sea since the US-Iran war began on February 28 (see map below), with satellite imagery showing a cumulative slick footprint of approximately 20,000 sq km. Not all detections have been conclusively linked to attacks on shipping. The environmental consequences could",
       "publishedAt": "2026-11-13T08:10:39.000Z",
-      "score": 53,
+      "score": 52,
       "scores": {
-        "recency": 0.35,
+        "recency": 0.34,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -142,9 +142,9 @@
       "url": "https://splash247.com/us-court-orders-arrest-of-tanker-after-new-orleans-cruise-ship-collision/",
       "summary": "A US federal court has authorised the arrest of the tanker Atlantic Asphalt after the Port of New Orleans launched legal action seeking more than $1m in damages following the collision that sank American Cruise Lines’ American Heritage. The Board of Commissioners of the Port of New Orleans filed the lawsuit in the Eastern District",
       "publishedAt": "2026-11-15T01:06:11.000Z",
-      "score": 52,
+      "score": 51,
       "scores": {
-        "recency": 0.91,
+        "recency": 0.88,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -168,7 +168,7 @@
       "publishedAt": "2026-11-14T01:44:29.000Z",
       "score": 51,
       "scores": {
-        "recency": 0.53,
+        "recency": 0.52,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 1,
@@ -192,7 +192,7 @@
       "publishedAt": "2026-11-13T22:00:58.000Z",
       "score": 50,
       "scores": {
-        "recency": 0.48,
+        "recency": 0.47,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -216,7 +216,7 @@
       "publishedAt": "2026-11-15T03:48:26.000Z",
       "score": 49,
       "scores": {
-        "recency": 0.96,
+        "recency": 0.94,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -240,7 +240,7 @@
       "publishedAt": "2026-11-13T22:00:59.000Z",
       "score": 49,
       "scores": {
-        "recency": 0.48,
+        "recency": 0.47,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -248,30 +248,6 @@
         "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0.5,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "cb0a342991246a5bfc441d1e1ad956524ea05f71",
-      "storyKey": "6be90a8d3cecc83512a501eb4c5b3e6b7008322b",
-      "sourceId": "gcaptain",
-      "sourceName": "gCaptain",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Trump To Extend Shipping Waiver For Oil, Fertilizer For 90 Days",
-      "url": "https://gcaptain.com/trump-to-extend-shipping-waiver-for-oil-fertilizer-for-90-days/",
-      "summary": "By Jennifer A. Dlouhy Nov 14, 2026 (Bloomberg) -President Donald Trump is giving energy companies and traders more time to transport oil and other commodities around the US on foreign-flagged ships,...",
-      "publishedAt": "2026-11-14T22:08:51.000Z",
-      "score": 47,
-      "scores": {
-        "recency": 0.85,
-        "reliability": 0.85,
-        "maritimeRelevance": 1,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
     },
@@ -288,7 +264,7 @@
       "publishedAt": "2026-11-14T02:34:17.000Z",
       "score": 47,
       "scores": {
-        "recency": 0.54,
+        "recency": 0.53,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -324,6 +300,30 @@
       }
     },
     {
+      "fingerprint": "cb0a342991246a5bfc441d1e1ad956524ea05f71",
+      "storyKey": "6be90a8d3cecc83512a501eb4c5b3e6b7008322b",
+      "sourceId": "gcaptain",
+      "sourceName": "gCaptain",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Trump To Extend Shipping Waiver For Oil, Fertilizer For 90 Days",
+      "url": "https://gcaptain.com/trump-to-extend-shipping-waiver-for-oil-fertilizer-for-90-days/",
+      "summary": "By Jennifer A. Dlouhy Nov 14, 2026 (Bloomberg) -President Donald Trump is giving energy companies and traders more time to transport oil and other commodities around the US on foreign-flagged ships,...",
+      "publishedAt": "2026-11-14T22:08:51.000Z",
+      "score": 46,
+      "scores": {
+        "recency": 0.83,
+        "reliability": 0.85,
+        "maritimeRelevance": 1,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
       "fingerprint": "cf4d0fd9df4b78ad2d99d4d73979bed65e8095aa",
       "storyKey": "84fb2c57d9a5a92513af5c1aa8486db870462fc5",
       "sourceId": "gcaptain",
@@ -336,7 +336,7 @@
       "publishedAt": "2026-11-14T18:13:54.000Z",
       "score": 46,
       "scores": {
-        "recency": 0.77,
+        "recency": 0.75,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -360,7 +360,7 @@
       "publishedAt": "2026-11-13T21:11:53.000Z",
       "score": 46,
       "scores": {
-        "recency": 0.47,
+        "recency": 0.46,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -368,30 +368,6 @@
         "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0.5,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "03c6ce4133eb6b72373ab203e73c613fffe93768",
-      "storyKey": "26c52965502c2e25ae71702f62beb206e2ec2e16",
-      "sourceId": "marex",
-      "sourceName": "The Maritime Executive",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "The Second Edition of the Sustainable Maritime Transport Outlook",
-      "url": "https://maritime-executive.com/article/the-second-edition-of-the-sustainable-maritime-transport-outlook",
-      "summary": "Eni, a global energy company, Fincantieri, a global leader in the construction of high-complexity ships, and RINA, the global inspection, certificatio...",
-      "publishedAt": "2026-11-14T16:50:51.000Z",
-      "score": 45,
-      "scores": {
-        "recency": 0.75,
-        "reliability": 0.85,
-        "maritimeRelevance": 1,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
     },
@@ -408,7 +384,7 @@
       "publishedAt": "2026-11-12T13:25:35.000Z",
       "score": 45,
       "scores": {
-        "recency": 0.23,
+        "recency": 0.22,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -432,7 +408,7 @@
       "publishedAt": "2026-11-13T22:00:43.000Z",
       "score": 45,
       "scores": {
-        "recency": 0.48,
+        "recency": 0.47,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -456,7 +432,7 @@
       "publishedAt": "2026-11-13T17:09:56.000Z",
       "score": 44,
       "scores": {
-        "recency": 0.43,
+        "recency": 0.42,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -480,12 +456,36 @@
       "publishedAt": "2026-11-13T10:07:00.000Z",
       "score": 44,
       "scores": {
-        "recency": 0.37,
+        "recency": 0.36,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
         "seafarerValue": 0,
         "shareability": 1,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "03c6ce4133eb6b72373ab203e73c613fffe93768",
+      "storyKey": "26c52965502c2e25ae71702f62beb206e2ec2e16",
+      "sourceId": "marex",
+      "sourceName": "The Maritime Executive",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "The Second Edition of the Sustainable Maritime Transport Outlook",
+      "url": "https://maritime-executive.com/article/the-second-edition-of-the-sustainable-maritime-transport-outlook",
+      "summary": "Eni, a global energy company, Fincantieri, a global leader in the construction of high-complexity ships, and RINA, the global inspection, certificatio...",
+      "publishedAt": "2026-11-14T16:50:51.000Z",
+      "score": 44,
+      "scores": {
+        "recency": 0.73,
+        "reliability": 0.85,
+        "maritimeRelevance": 1,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
@@ -504,7 +504,7 @@
       "publishedAt": "2026-11-13T11:46:27.000Z",
       "score": 44,
       "scores": {
-        "recency": 0.38,
+        "recency": 0.37,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -528,7 +528,7 @@
       "publishedAt": "2026-11-13T22:00:59.000Z",
       "score": 44,
       "scores": {
-        "recency": 0.48,
+        "recency": 0.47,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0.5,
@@ -552,7 +552,7 @@
       "publishedAt": "2026-11-13T22:00:49.000Z",
       "score": 44,
       "scores": {
-        "recency": 0.48,
+        "recency": 0.47,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0.5,
@@ -576,35 +576,11 @@
       "publishedAt": "2026-11-13T17:51:12.000Z",
       "score": 43,
       "scores": {
-        "recency": 0.44,
+        "recency": 0.43,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
         "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0.5,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "d58ae9cf66b564d4d3b048346b306a4358e1264d",
-      "storyKey": "dda503f2e8a25122bb4a1e2eb614e34d951c65d9",
-      "sourceId": "marineinsight",
-      "sourceName": "Marine Insight",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "IIT Madras Builds SEANAV Digital Twin To Train Autonomous Ships",
-      "url": "https://www.marineinsight.com/iit-madras-builds-seanav-digital-twin-to-train-autonomous-ships/?utm_source=rss utm_medium=rss utm_campaign=iit-madras-builds-seanav-digital-twin-to-train-autonomous-ships",
-      "summary": "IIT Madras researchers have developed ‘SEANAV’ (Sea Navigation), a real-time digital twin platform that enables testing, validation, and training of autonomous maritime navigation systems in realistic virtual environments.",
-      "publishedAt": "2026-11-13T09:52:44.000Z",
-      "score": 43,
-      "scores": {
-        "recency": 0.37,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.67,
-        "educationalValue": 0,
-        "seafarerValue": 0.5,
         "shareability": 0,
         "visualPotential": 0.5,
         "regulatoryImportance": 0,
@@ -624,7 +600,7 @@
       "publishedAt": "2026-11-13T22:00:50.000Z",
       "score": 43,
       "scores": {
-        "recency": 0.48,
+        "recency": 0.47,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -648,7 +624,7 @@
       "publishedAt": "2026-11-13T22:00:46.000Z",
       "score": 43,
       "scores": {
-        "recency": 0.48,
+        "recency": 0.47,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -660,25 +636,25 @@
       }
     },
     {
-      "fingerprint": "f9c7a70d36ccff6ef1a0103ef29503bf70d42362",
-      "storyKey": "fdf4b32198d3073a75af0f99d882f29f02233e6e",
-      "sourceId": "marex",
-      "sourceName": "The Maritime Executive",
+      "fingerprint": "d58ae9cf66b564d4d3b048346b306a4358e1264d",
+      "storyKey": "dda503f2e8a25122bb4a1e2eb614e34d951c65d9",
+      "sourceId": "marineinsight",
+      "sourceName": "Marine Insight",
       "tier": "press",
       "reliability": 0.85,
-      "title": "Fairbanks Acquires Truflo Marine",
-      "url": "https://maritime-executive.com/article/fairbanks-acquires-truflo-marine-expanding-australian-submarine-manufacturing-capabilities",
-      "summary": "Fairbanks Morse Defense recently announced the acquisition of Truflo Marine, marking a major expansion of its ability to support allied submarine prod...",
-      "publishedAt": "2026-11-14T18:33:00.000Z",
-      "score": 41,
+      "title": "IIT Madras Builds SEANAV Digital Twin To Train Autonomous Ships",
+      "url": "https://www.marineinsight.com/iit-madras-builds-seanav-digital-twin-to-train-autonomous-ships/?utm_source=rss utm_medium=rss utm_campaign=iit-madras-builds-seanav-digital-twin-to-train-autonomous-ships",
+      "summary": "IIT Madras researchers have developed ‘SEANAV’ (Sea Navigation), a real-time digital twin platform that enables testing, validation, and training of autonomous maritime navigation systems in realistic virtual environments.",
+      "publishedAt": "2026-11-13T09:52:44.000Z",
+      "score": 42,
       "scores": {
-        "recency": 0.78,
+        "recency": 0.36,
         "reliability": 0.85,
-        "maritimeRelevance": 0.33,
+        "maritimeRelevance": 0.67,
         "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 1,
-        "visualPotential": 0,
+        "seafarerValue": 0.5,
+        "shareability": 0,
+        "visualPotential": 0.5,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
@@ -696,37 +672,13 @@
       "publishedAt": "2026-11-14T04:34:00.000Z",
       "score": 41,
       "scores": {
-        "recency": 0.56,
+        "recency": 0.55,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
         "seafarerValue": 0.5,
         "shareability": 0,
         "visualPotential": 0.5,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "6c8d5be0a6f8af60e68e3ec695486e9714b47281",
-      "storyKey": "5fdf6b2144ec4b2ee703c0f4dbdbff77713cc304",
-      "sourceId": "marex",
-      "sourceName": "The Maritime Executive",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "White House Extends Jones Act Waiver Into 2027",
-      "url": "https://maritime-executive.com/article/white-house-extends-jones-act-waiver-into-2027",
-      "summary": "On Friday, President Donald Trump decided to extend the long-running waiver of the Jones Act to allow foreign-crewed tankers to keep carrying energy p...",
-      "publishedAt": "2026-11-13T21:13:00.000Z",
-      "score": 41,
-      "scores": {
-        "recency": 0.48,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.67,
-        "educationalValue": 0,
-        "seafarerValue": 0.5,
-        "shareability": 0,
-        "visualPotential": 0,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
@@ -756,6 +708,54 @@
       }
     },
     {
+      "fingerprint": "f9c7a70d36ccff6ef1a0103ef29503bf70d42362",
+      "storyKey": "fdf4b32198d3073a75af0f99d882f29f02233e6e",
+      "sourceId": "marex",
+      "sourceName": "The Maritime Executive",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Fairbanks Acquires Truflo Marine",
+      "url": "https://maritime-executive.com/article/fairbanks-acquires-truflo-marine-expanding-australian-submarine-manufacturing-capabilities",
+      "summary": "Fairbanks Morse Defense recently announced the acquisition of Truflo Marine, marking a major expansion of its ability to support allied submarine prod...",
+      "publishedAt": "2026-11-14T18:33:00.000Z",
+      "score": 40,
+      "scores": {
+        "recency": 0.76,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 1,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "6c8d5be0a6f8af60e68e3ec695486e9714b47281",
+      "storyKey": "5fdf6b2144ec4b2ee703c0f4dbdbff77713cc304",
+      "sourceId": "marex",
+      "sourceName": "The Maritime Executive",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "White House Extends Jones Act Waiver Into 2027",
+      "url": "https://maritime-executive.com/article/white-house-extends-jones-act-waiver-into-2027",
+      "summary": "On Friday, President Donald Trump decided to extend the long-running waiver of the Jones Act to allow foreign-crewed tankers to keep carrying energy p...",
+      "publishedAt": "2026-11-13T21:13:00.000Z",
+      "score": 40,
+      "scores": {
+        "recency": 0.46,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.67,
+        "educationalValue": 0,
+        "seafarerValue": 0.5,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
       "fingerprint": "b59ff6adb1d55162e25598706f56956695cc29af",
       "storyKey": "a89d5bb4d5c997ff109153dedc75989150fca5f3",
       "sourceId": "gcaptain",
@@ -768,7 +768,7 @@
       "publishedAt": "2026-11-13T17:37:39.000Z",
       "score": 39,
       "scores": {
-        "recency": 0.44,
+        "recency": 0.43,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -792,7 +792,7 @@
       "publishedAt": "2026-11-13T17:24:08.000Z",
       "score": 39,
       "scores": {
-        "recency": 0.44,
+        "recency": 0.43,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -816,7 +816,7 @@
       "publishedAt": "2026-11-14T00:58:11.000Z",
       "score": 39,
       "scores": {
-        "recency": 0.52,
+        "recency": 0.51,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -840,7 +840,7 @@
       "publishedAt": "2026-11-13T17:18:00.000Z",
       "score": 39,
       "scores": {
-        "recency": 0.43,
+        "recency": 0.42,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -864,7 +864,7 @@
       "publishedAt": "2026-11-14T15:04:25.000Z",
       "score": 39,
       "scores": {
-        "recency": 0.72,
+        "recency": 0.7,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -888,7 +888,7 @@
       "publishedAt": "2026-11-13T12:52:44.000Z",
       "score": 39,
       "scores": {
-        "recency": 0.39,
+        "recency": 0.38,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -912,7 +912,7 @@
       "publishedAt": "2026-11-13T11:48:52.000Z",
       "score": 39,
       "scores": {
-        "recency": 0.38,
+        "recency": 0.37,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -936,7 +936,7 @@
       "publishedAt": "2026-11-13T22:00:57.000Z",
       "score": 39,
       "scores": {
-        "recency": 0.48,
+        "recency": 0.47,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -960,7 +960,7 @@
       "publishedAt": "2026-11-13T22:00:54.000Z",
       "score": 39,
       "scores": {
-        "recency": 0.48,
+        "recency": 0.47,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -984,7 +984,7 @@
       "publishedAt": "2026-11-13T09:35:00.000Z",
       "score": 38,
       "scores": {
-        "recency": 0.36,
+        "recency": 0.35,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -1008,30 +1008,6 @@
       "publishedAt": "2026-11-13T09:23:00.000Z",
       "score": 38,
       "scores": {
-        "recency": 0.36,
-        "reliability": 0.85,
-        "maritimeRelevance": 1,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "5ccfdcb0650e0647194d9e192bfa4c8e5f394de5",
-      "storyKey": "4553d01120e7acf2c38ed99fb575339202781537",
-      "sourceId": "splash247",
-      "sourceName": "Splash247",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Baltic Exchange and Mercuria await verdict in landmark tanker index trial",
-      "url": "https://splash247.com/baltic-exchange-and-mercuria-await-verdict-in-landmark-tanker-index-trial/",
-      "summary": "One of shipping's most consequential legal battles has concluded in London, with the Baltic Exchange and commodities trader Mercuria awaiting a High Court ruling on whether the industry's leading VLCC freight benchmark should have continued operating after war erupted in the Middle East. The three-week trial ended yesterday, with judgment expected to take several months.",
-      "publishedAt": "2026-11-13T08:00:31.000Z",
-      "score": 38,
-      "scores": {
         "recency": 0.35,
         "reliability": 0.85,
         "maritimeRelevance": 1,
@@ -1040,30 +1016,6 @@
         "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "d8c265631c1ffff5f6c871a6d1c164f5a99857ba",
-      "storyKey": "ef3b0237ca92d7e1c95a5bbc6ab7fc449fa7252f",
-      "sourceId": "marex",
-      "sourceName": "The Maritime Executive",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "U.S. Grain Exports at Risk From Aging Barge Fleet and High Replacement Cost",
-      "url": "https://maritime-executive.com/article/u-s-grain-exports-at-risk-from-aging-barge-fleet-and-high-replacement-cost",
-      "summary": "The United States faces a squeeze on grain transportation over the next decade because its inland barge fleet is retiring vessels faster than it build...",
-      "publishedAt": "2026-11-13T03:05:56.000Z",
-      "score": 38,
-      "scores": {
-        "recency": 0.31,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.67,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0.5,
         "corroboratingOutlets": 1
       }
     },
@@ -1080,7 +1032,7 @@
       "publishedAt": "2026-11-13T11:53:55.000Z",
       "score": 38,
       "scores": {
-        "recency": 0.38,
+        "recency": 0.37,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0.5,
@@ -1104,7 +1056,7 @@
       "publishedAt": "2026-11-13T10:07:56.000Z",
       "score": 38,
       "scores": {
-        "recency": 0.37,
+        "recency": 0.36,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -1128,7 +1080,7 @@
       "publishedAt": "2026-11-13T22:00:53.000Z",
       "score": 38,
       "scores": {
-        "recency": 0.48,
+        "recency": 0.47,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -1152,7 +1104,7 @@
       "publishedAt": "2026-11-13T22:00:47.000Z",
       "score": 38,
       "scores": {
-        "recency": 0.48,
+        "recency": 0.47,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0.5,
@@ -1176,7 +1128,7 @@
       "publishedAt": "2026-11-13T22:00:47.000Z",
       "score": 38,
       "scores": {
-        "recency": 0.48,
+        "recency": 0.47,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -1184,6 +1136,54 @@
         "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "5ccfdcb0650e0647194d9e192bfa4c8e5f394de5",
+      "storyKey": "4553d01120e7acf2c38ed99fb575339202781537",
+      "sourceId": "splash247",
+      "sourceName": "Splash247",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Baltic Exchange and Mercuria await verdict in landmark tanker index trial",
+      "url": "https://splash247.com/baltic-exchange-and-mercuria-await-verdict-in-landmark-tanker-index-trial/",
+      "summary": "One of shipping's most consequential legal battles has concluded in London, with the Baltic Exchange and commodities trader Mercuria awaiting a High Court ruling on whether the industry's leading VLCC freight benchmark should have continued operating after war erupted in the Middle East. The three-week trial ended yesterday, with judgment expected to take several months.",
+      "publishedAt": "2026-11-13T08:00:31.000Z",
+      "score": 37,
+      "scores": {
+        "recency": 0.34,
+        "reliability": 0.85,
+        "maritimeRelevance": 1,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "d8c265631c1ffff5f6c871a6d1c164f5a99857ba",
+      "storyKey": "ef3b0237ca92d7e1c95a5bbc6ab7fc449fa7252f",
+      "sourceId": "marex",
+      "sourceName": "The Maritime Executive",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "U.S. Grain Exports at Risk From Aging Barge Fleet and High Replacement Cost",
+      "url": "https://maritime-executive.com/article/u-s-grain-exports-at-risk-from-aging-barge-fleet-and-high-replacement-cost",
+      "summary": "The United States faces a squeeze on grain transportation over the next decade because its inland barge fleet is retiring vessels faster than it build...",
+      "publishedAt": "2026-11-13T03:05:56.000Z",
+      "score": 37,
+      "scores": {
+        "recency": 0.31,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.67,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0.5,
         "corroboratingOutlets": 1
       }
     },
@@ -1200,33 +1200,9 @@
       "publishedAt": "2026-11-13T02:26:00.000Z",
       "score": 37,
       "scores": {
-        "recency": 0.31,
+        "recency": 0.3,
         "reliability": 0.85,
         "maritimeRelevance": 1,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "f4262b41f729bc0dd64e8d84c93225af4af0511d",
-      "storyKey": "c1ae217ae42d959ef1cc02954bb223be3430c3de",
-      "sourceId": "marex",
-      "sourceName": "The Maritime Executive",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Tanker Hits Riverboat on New Orleans Waterfront, Injuring 32 Passengers",
-      "url": "https://maritime-executive.com/article/tanker-hits-riverboat-on-new-orleans-waterfront-injuring-passengers",
-      "summary": "On Friday, an asphalt tanker struck a moored riverboat on the Mississippi on the downtown New Orleans waterfront, causing the passenger vessel to caps...",
-      "publishedAt": "2026-11-13T21:38:00.000Z",
-      "score": 35,
-      "scores": {
-        "recency": 0.48,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.67,
         "educationalValue": 0,
         "seafarerValue": 0,
         "shareability": 0,
@@ -1248,7 +1224,7 @@
       "publishedAt": "2026-11-13T20:45:59.000Z",
       "score": 34,
       "scores": {
-        "recency": 0.47,
+        "recency": 0.46,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1260,26 +1236,26 @@
       }
     },
     {
-      "fingerprint": "0215a2260f8aed0a134fd4bc6c2bf85f33a20e6d",
-      "storyKey": "a04c2e914bcffee98cef229e9395479fc654c556",
-      "sourceId": "hellenic",
-      "sourceName": "Hellenic Shipping News",
+      "fingerprint": "f4262b41f729bc0dd64e8d84c93225af4af0511d",
+      "storyKey": "c1ae217ae42d959ef1cc02954bb223be3430c3de",
+      "sourceId": "marex",
+      "sourceName": "The Maritime Executive",
       "tier": "press",
-      "reliability": 0.75,
-      "title": "Xeneta Schedule Reliability Scorecard - October 2026: Less than a quarter of global vessels arrive on-time and Gemini’s lead disappears on Asian trades",
-      "url": "https://www.hellenicshippingnews.com/xeneta-schedule-reliability-scorecard-october-2026-less-than-a-quarter-of-global-vessels-arrive-on-time-and-geminis-lead-disappears-on-asian-trades/",
-      "summary": "A note on methodology. Figures in this month’s edition use data pulled on 9 November and differ from our Outlook pulled on 26 October. Later October arrivals change some on-time figures by 1-2 percentage points. Global on-time arrivals are now at 24%, a lower reading than the 25% in late October. Far East to Europe ...",
-      "publishedAt": "2026-11-13T22:00:57.000Z",
+      "reliability": 0.85,
+      "title": "Tanker Hits Riverboat on New Orleans Waterfront, Injuring 32 Passengers",
+      "url": "https://maritime-executive.com/article/tanker-hits-riverboat-on-new-orleans-waterfront-injuring-passengers",
+      "summary": "On Friday, an asphalt tanker struck a moored riverboat on the Mississippi on the downtown New Orleans waterfront, causing the passenger vessel to caps...",
+      "publishedAt": "2026-11-13T21:38:00.000Z",
       "score": 34,
       "scores": {
-        "recency": 0.48,
-        "reliability": 0.75,
-        "maritimeRelevance": 0.33,
+        "recency": 0.47,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.67,
         "educationalValue": 0,
         "seafarerValue": 0,
         "shareability": 0,
         "visualPotential": 0,
-        "regulatoryImportance": 0.5,
+        "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
     },
@@ -1296,7 +1272,7 @@
       "publishedAt": "2026-11-13T10:00:23.000Z",
       "score": 33,
       "scores": {
-        "recency": 0.37,
+        "recency": 0.36,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1304,6 +1280,30 @@
         "shareability": 1,
         "visualPotential": 0,
         "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "0215a2260f8aed0a134fd4bc6c2bf85f33a20e6d",
+      "storyKey": "a04c2e914bcffee98cef229e9395479fc654c556",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "Xeneta Schedule Reliability Scorecard - October 2026: Less than a quarter of global vessels arrive on-time and Gemini’s lead disappears on Asian trades",
+      "url": "https://www.hellenicshippingnews.com/xeneta-schedule-reliability-scorecard-october-2026-less-than-a-quarter-of-global-vessels-arrive-on-time-and-geminis-lead-disappears-on-asian-trades/",
+      "summary": "A note on methodology. Figures in this month’s edition use data pulled on 9 November and differ from our Outlook pulled on 26 October. Later October arrivals change some on-time figures by 1-2 percentage points. Global on-time arrivals are now at 24%, a lower reading than the 25% in late October. Far East to Europe ...",
+      "publishedAt": "2026-11-13T22:00:57.000Z",
+      "score": 33,
+      "scores": {
+        "recency": 0.47,
+        "reliability": 0.75,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0.5,
         "corroboratingOutlets": 1
       }
     },
@@ -1320,7 +1320,7 @@
       "publishedAt": "2026-11-13T22:00:41.000Z",
       "score": 33,
       "scores": {
-        "recency": 0.48,
+        "recency": 0.47,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1344,7 +1344,7 @@
       "publishedAt": "2026-11-13T22:00:39.000Z",
       "score": 33,
       "scores": {
-        "recency": 0.48,
+        "recency": 0.47,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1368,7 +1368,7 @@
       "publishedAt": "2026-11-13T01:05:06.000Z",
       "score": 32,
       "scores": {
-        "recency": 0.3,
+        "recency": 0.29,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1416,7 +1416,7 @@
       "publishedAt": "2026-11-12T13:23:18.000Z",
       "score": 31,
       "scores": {
-        "recency": 0.23,
+        "recency": 0.22,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1464,7 +1464,7 @@
       "publishedAt": "2026-11-13T16:29:16.000Z",
       "score": 28,
       "scores": {
-        "recency": 0.43,
+        "recency": 0.42,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1488,128 +1488,8 @@
       "publishedAt": "2026-11-13T14:39:48.000Z",
       "score": 28,
       "scores": {
-        "recency": 0.41,
+        "recency": 0.4,
         "reliability": 0.85,
-        "maritimeRelevance": 0.33,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "090274b28fa0b9ed9f0c927500aaeeac07a8cc80",
-      "storyKey": "cbdfaf2ad13dba2e166bd5ef3478e48492b694a7",
-      "sourceId": "marineinsight",
-      "sourceName": "Marine Insight",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "U.S. Transfers Two Unmanned Surface Vessels to Philippine Marines At New Subic Bay Facility",
-      "url": "https://www.marineinsight.com/u-s-transfers-two-unmanned-surface-vessels-to-philippine-marines-at-new-subic-bay-facility/?utm_source=rss utm_medium=rss utm_campaign=u-s-transfers-two-unmanned-surface-vessels-to-philippine-marines-at-new-subic-bay-facility",
-      "summary": "The U.S. handed two unmanned surface vessels to the Philippine Marine Corps on November 4, 2026, at Subic Bay in Zambales.",
-      "publishedAt": "2026-11-13T12:38:32.000Z",
-      "score": 28,
-      "scores": {
-        "recency": 0.39,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.33,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "0bbc781e91555d4c7e9c1466164ce5f7ecbe57a3",
-      "storyKey": "dfad8aa678a56658f92c679c0e651e9dcb411a8e",
-      "sourceId": "hellenic",
-      "sourceName": "Hellenic Shipping News",
-      "tier": "press",
-      "reliability": 0.75,
-      "title": "GMS Week 46 – FREIGHT TAKES THE HELM",
-      "url": "https://www.hellenicshippingnews.com/gms-week-46-freight-takes-the-helm/",
-      "summary": "Another week has passed without a meaningful change in global ship recycling conditions, although the trading market has strengthened its position once again. Dry freight has continued its recovery, crude oil has softened further and regional steel prices have offered some encouragement. Recycling indications remain unchanged across all four destinations, with healthy buying interest still ...",
-      "publishedAt": "2026-11-13T22:00:54.000Z",
-      "score": 28,
-      "scores": {
-        "recency": 0.48,
-        "reliability": 0.75,
-        "maritimeRelevance": 0.33,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "b21aba99a7c99876d92aba9e80aa530f2b9bd831",
-      "storyKey": "24c2a38f738311dd7a18f66b2b839fc7c75e98a5",
-      "sourceId": "hellenic",
-      "sourceName": "Hellenic Shipping News",
-      "tier": "press",
-      "reliability": 0.75,
-      "title": "Drewry: World Container Index Down 2% Last Week",
-      "url": "https://www.hellenicshippingnews.com/drewry-world-container-index-down-2-last-week-8/",
-      "summary": "For many years, World Container Index (WCI) has been the go-to, independent, global reference for index-linked contracts. If your organisation requires regional visibility/coverage beyond the eight trade lanes provided below, contact the team. Our detailed assessment for Thursday, 12 Nov 2026 • The Drewry World Container Index (WCI), the benchmark widely referenced by procurement teams, ...",
-      "publishedAt": "2026-11-13T22:00:51.000Z",
-      "score": 28,
-      "scores": {
-        "recency": 0.48,
-        "reliability": 0.75,
-        "maritimeRelevance": 0.33,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "01e425592c75bf5134f25682dee3df50aa0bf0f5",
-      "storyKey": "e57c8601fd90fdec15b8f6df2e38b3c5698d9e32",
-      "sourceId": "hellenic",
-      "sourceName": "Hellenic Shipping News",
-      "tier": "press",
-      "reliability": 0.75,
-      "title": "Affinity Tanker Weekly, 13 November 2026",
-      "url": "https://www.hellenicshippingnews.com/affinity-tanker-weekly-13-november-2026/",
-      "summary": "It was another bruising week for VLCCs. A late pickup in activity could not turn the tide, with ample tonnage and weaker Suezmax Source: Affinity Research LLP",
-      "publishedAt": "2026-11-13T22:00:50.000Z",
-      "score": 28,
-      "scores": {
-        "recency": 0.48,
-        "reliability": 0.75,
-        "maritimeRelevance": 0.33,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "83ae63b1aac8a474449e36309db008f1b9e3311a",
-      "storyKey": "460d51d455d1fbe1d88d86045c88f6a298971c84",
-      "sourceId": "hellenic",
-      "sourceName": "Hellenic Shipping News",
-      "tier": "press",
-      "reliability": 0.75,
-      "title": "One State-Owned Manager, Three Vessels, Three Subsea Cable Corridors in One Week",
-      "url": "https://www.hellenicshippingnews.com/one-state-owned-manager-three-vessels-three-subsea-cable-corridors-in-one-week/",
-      "summary": "Between October 15 and November 4, 2026, three vessels under the same state-owned Xiamen manager stopped on three international submarine cable corridors in three different seas. A Chinese-flagged research vessel operated by a Chinese university spent nearly three weeks on survey stations in and around the SJC2 and EAC-C2C corridors east of Taiwan, then 3.5 ...",
-      "publishedAt": "2026-11-13T22:00:45.000Z",
-      "score": 28,
-      "scores": {
-        "recency": 0.48,
-        "reliability": 0.75,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
         "seafarerValue": 0,
@@ -1632,7 +1512,7 @@
       "publishedAt": "2026-11-13T09:50:00.000Z",
       "score": 27,
       "scores": {
-        "recency": 0.37,
+        "recency": 0.36,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1668,6 +1548,126 @@
       }
     },
     {
+      "fingerprint": "090274b28fa0b9ed9f0c927500aaeeac07a8cc80",
+      "storyKey": "cbdfaf2ad13dba2e166bd5ef3478e48492b694a7",
+      "sourceId": "marineinsight",
+      "sourceName": "Marine Insight",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "U.S. Transfers Two Unmanned Surface Vessels to Philippine Marines At New Subic Bay Facility",
+      "url": "https://www.marineinsight.com/u-s-transfers-two-unmanned-surface-vessels-to-philippine-marines-at-new-subic-bay-facility/?utm_source=rss utm_medium=rss utm_campaign=u-s-transfers-two-unmanned-surface-vessels-to-philippine-marines-at-new-subic-bay-facility",
+      "summary": "The U.S. handed two unmanned surface vessels to the Philippine Marine Corps on November 4, 2026, at Subic Bay in Zambales.",
+      "publishedAt": "2026-11-13T12:38:32.000Z",
+      "score": 27,
+      "scores": {
+        "recency": 0.38,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "0bbc781e91555d4c7e9c1466164ce5f7ecbe57a3",
+      "storyKey": "dfad8aa678a56658f92c679c0e651e9dcb411a8e",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "GMS Week 46 – FREIGHT TAKES THE HELM",
+      "url": "https://www.hellenicshippingnews.com/gms-week-46-freight-takes-the-helm/",
+      "summary": "Another week has passed without a meaningful change in global ship recycling conditions, although the trading market has strengthened its position once again. Dry freight has continued its recovery, crude oil has softened further and regional steel prices have offered some encouragement. Recycling indications remain unchanged across all four destinations, with healthy buying interest still ...",
+      "publishedAt": "2026-11-13T22:00:54.000Z",
+      "score": 27,
+      "scores": {
+        "recency": 0.47,
+        "reliability": 0.75,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "b21aba99a7c99876d92aba9e80aa530f2b9bd831",
+      "storyKey": "24c2a38f738311dd7a18f66b2b839fc7c75e98a5",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "Drewry: World Container Index Down 2% Last Week",
+      "url": "https://www.hellenicshippingnews.com/drewry-world-container-index-down-2-last-week-8/",
+      "summary": "For many years, World Container Index (WCI) has been the go-to, independent, global reference for index-linked contracts. If your organisation requires regional visibility/coverage beyond the eight trade lanes provided below, contact the team. Our detailed assessment for Thursday, 12 Nov 2026 • The Drewry World Container Index (WCI), the benchmark widely referenced by procurement teams, ...",
+      "publishedAt": "2026-11-13T22:00:51.000Z",
+      "score": 27,
+      "scores": {
+        "recency": 0.47,
+        "reliability": 0.75,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "01e425592c75bf5134f25682dee3df50aa0bf0f5",
+      "storyKey": "e57c8601fd90fdec15b8f6df2e38b3c5698d9e32",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "Affinity Tanker Weekly, 13 November 2026",
+      "url": "https://www.hellenicshippingnews.com/affinity-tanker-weekly-13-november-2026/",
+      "summary": "It was another bruising week for VLCCs. A late pickup in activity could not turn the tide, with ample tonnage and weaker Suezmax Source: Affinity Research LLP",
+      "publishedAt": "2026-11-13T22:00:50.000Z",
+      "score": 27,
+      "scores": {
+        "recency": 0.47,
+        "reliability": 0.75,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "83ae63b1aac8a474449e36309db008f1b9e3311a",
+      "storyKey": "460d51d455d1fbe1d88d86045c88f6a298971c84",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "One State-Owned Manager, Three Vessels, Three Subsea Cable Corridors in One Week",
+      "url": "https://www.hellenicshippingnews.com/one-state-owned-manager-three-vessels-three-subsea-cable-corridors-in-one-week/",
+      "summary": "Between October 15 and November 4, 2026, three vessels under the same state-owned Xiamen manager stopped on three international submarine cable corridors in three different seas. A Chinese-flagged research vessel operated by a Chinese university spent nearly three weeks on survey stations in and around the SJC2 and EAC-C2C corridors east of Taiwan, then 3.5 ...",
+      "publishedAt": "2026-11-13T22:00:45.000Z",
+      "score": 27,
+      "scores": {
+        "recency": 0.47,
+        "reliability": 0.75,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
       "fingerprint": "ad4ac39d94defc1abee9f73775d46b008bab8287",
       "storyKey": "0bbe7d59f75b3e42c740df557e00252907010ab4",
       "sourceId": "marex",
@@ -1680,7 +1680,7 @@
       "publishedAt": "2026-11-14T07:40:00.000Z",
       "score": 26,
       "scores": {
-        "recency": 0.6,
+        "recency": 0.59,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1704,7 +1704,7 @@
       "publishedAt": "2026-11-13T04:51:44.000Z",
       "score": 26,
       "scores": {
-        "recency": 0.33,
+        "recency": 0.32,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1728,7 +1728,7 @@
       "publishedAt": "2026-11-13T01:07:00.000Z",
       "score": 26,
       "scores": {
-        "recency": 0.3,
+        "recency": 0.29,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1752,7 +1752,7 @@
       "publishedAt": "2026-11-14T04:02:13.000Z",
       "score": 25,
       "scores": {
-        "recency": 0.56,
+        "recency": 0.54,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1776,7 +1776,7 @@
       "publishedAt": "2026-11-14T02:39:30.000Z",
       "score": 25,
       "scores": {
-        "recency": 0.54,
+        "recency": 0.53,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1800,7 +1800,7 @@
       "publishedAt": "2026-11-14T02:35:00.000Z",
       "score": 25,
       "scores": {
-        "recency": 0.54,
+        "recency": 0.53,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1824,7 +1824,7 @@
       "publishedAt": "2026-11-12T13:22:36.000Z",
       "score": 25,
       "scores": {
-        "recency": 0.23,
+        "recency": 0.22,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1846,9 +1846,9 @@
       "url": "https://maritime-executive.com/article/estonia-confirms-ukrainian-drone-hits-on-russian-corvette-in-the-baltic",
       "summary": "In addition to the serious damage inflicted on the Ust-Luga oil terminal in a Ukrainian strike on Wednesday night, a Russian Navy corvette suffered di...",
       "publishedAt": "2026-11-13T19:56:00.000Z",
-      "score": 24,
+      "score": 23,
       "scores": {
-        "recency": 0.46,
+        "recency": 0.45,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1872,7 +1872,7 @@
       "publishedAt": "2026-11-13T18:18:00.000Z",
       "score": 23,
       "scores": {
-        "recency": 0.44,
+        "recency": 0.43,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1896,7 +1896,7 @@
       "publishedAt": "2026-11-13T09:30:00.000Z",
       "score": 22,
       "scores": {
-        "recency": 0.36,
+        "recency": 0.35,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1920,7 +1920,7 @@
       "publishedAt": "2026-11-14T04:37:00.000Z",
       "score": 20,
       "scores": {
-        "recency": 0.56,
+        "recency": 0.55,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1944,7 +1944,7 @@
       "publishedAt": "2026-11-14T04:32:00.000Z",
       "score": 20,
       "scores": {
-        "recency": 0.56,
+        "recency": 0.55,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1968,7 +1968,7 @@
       "publishedAt": "2026-11-13T22:00:55.000Z",
       "score": 20,
       "scores": {
-        "recency": 0.48,
+        "recency": 0.47,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
