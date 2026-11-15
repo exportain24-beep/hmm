@@ -716,9 +716,13 @@
         {
           "at": "2026-11-14T19:10:00Z",
           "change": "created; not published (UNCONFIRMED, score 52)"
+        },
+        {
+          "at": "2026-11-15T19:05:00Z",
+          "change": "IRGC 15 Nov claims a supertanker sank after a mine strike; still no independent confirmation; possible link to UKMTO 205-26 tracked under HM-2026-111501"
         }
       ],
-      "updatedAt": "2026-11-15T12:50:00Z"
+      "updatedAt": "2026-11-15T19:05:00Z"
     },
     "HM-2026-111404": {
       "eventId": "HM-2026-111404",
@@ -773,6 +777,75 @@
         }
       ],
       "updatedAt": "2026-11-14T19:10:00Z"
+    },
+    "HM-2026-111501": {
+      "eventId": "HM-2026-111501",
+      "slug": "ukmto-tanker-attacked-before-hormuz",
+      "type": "security",
+      "title": "UKMTO: Tanker Attacked Before Entering Hormuz",
+      "location": "ARABIAN GULF / HORMUZ",
+      "eventDate": "15 NOV 2026",
+      "sources": [
+        {
+          "title": "Indian shipping authorities report attack on tanker in Arabian Gulf near Hormuz, crew safe: UKMTO",
+          "publisher": "IANS",
+          "url": "https://ianslive.in/indian-shipping-authorities-report-attack-on-tanker-in-arabian-gulf-near-hormuz-crew-safe-ukmto--20261115185702",
+          "date": "2026-11-15"
+        },
+        {
+          "title": "Indian shipping authorities report tanker attack east of Strait of Hormuz",
+          "publisher": "Arab Times",
+          "url": "https://www.arabtimesonline.com/news/indian-shipping-authorities-report-tanker-attack-east-of-strait-of-hormuz/",
+          "date": "2026-11-15"
+        },
+        {
+          "title": "Iran says supertanker carrying oil sinks in Hormuz Strait",
+          "publisher": "RTE (AFP)",
+          "url": "https://www.rte.ie/news/middle-east/2026/1115/1599293-iran-tanker-hormuz/",
+          "date": "2026-11-15"
+        },
+        {
+          "title": "Iran Reports Supertanker Carrying 2 Million Barrels of Oil Sinks After Mine Explosion in Gulf",
+          "publisher": "Gulf News (AFP)",
+          "url": "https://gulfnews.com/world/mena/iran-says-supertanker-with-2-million-barrels-of-oil-sank-in-gulf-1.500748289",
+          "date": "2026-11-15"
+        }
+      ],
+      "verifiedFacts": [
+        "UKMTO warning 205-26 (15 Nov 2026): tanker attacked while eastbound in the Arabian Gulf before entering the Strait of Hormuz, reported by Indian shipping authorities (IANS; Arab Times; AFP)",
+        "Crew accounted for and safe (UKMTO)",
+        "Damage and environmental impact unknown (UKMTO)"
+      ],
+      "unverifiedClaims": [
+        "IRGC (state TV): supertanker carrying >2 million bbl crude sank after hitting a mine and catching fire; one of two tankers on an 'unauthorised route' in southern strait",
+        "Vessel name, flag, exact position"
+      ],
+      "conflicts": [
+        "UKMTO: unclear whether the Indian-reported attack and the IRGC sinking claim are the same incident"
+      ],
+      "verificationStatus": "CORROBORATED",
+      "priorityScore": 70,
+      "scoreBreakdown": {
+        "recency": 20,
+        "safety": 15,
+        "operational": 12,
+        "regulatory": 2,
+        "human": 4,
+        "industry": 8,
+        "source": 9
+      },
+      "status": "queued",
+      "cardFile": "content/cards/queue/2026-11-15T2022-ukmto-tanker-attacked-before-hormuz.json",
+      "publishAtUtc": "2026-11-15T20:22:00Z",
+      "published": false,
+      "notes": "Related: HM-2026-111403 (Iranian mine claims 13-14 Nov, monitoring) and HM-2026-111207. Commons unreachable from desk; reused previously verified public-domain US Navy Persian Gulf tanker-escort photo, representative.",
+      "versions": [
+        {
+          "at": "2026-11-15T19:05:00Z",
+          "change": "created; security card queued for 2026-11-15T20:22Z"
+        }
+      ],
+      "updatedAt": "2026-11-15T19:05:00Z"
     }
   }
 }

@@ -1,0 +1,40 @@
+{
+  "id": "ukmto-tanker-attacked-before-hormuz",
+  "type": "security",
+  "headline": "UKMTO: Tanker Attacked Before Entering Hormuz",
+  "headlineAccent": "Entering Hormuz",
+  "subheadline": "Crew safe; damage and pollution unknown",
+  "location": "ARABIAN GULF / HORMUZ",
+  "dateLabel": "15 NOV 2026",
+  "insight": "UKMTO warning 205-26: a tanker sailing eastbound through the Arabian Gulf was attacked before entering Hormuz. All crew are accounted for and safe; damage is unknown.",
+  "publishAtUtc": "2026-11-15T20:22:00Z",
+  "eventId": "HM-2026-111501",
+  "priorityScore": 70,
+  "pillar": "safety",
+  "audience": ["Master", "Chief Officer", "OOW", "Ship Security Officer", "CSO", "Ship Manager"],
+  "sources": [
+    {"title": "Indian shipping authorities report attack on tanker in Arabian Gulf near Hormuz, crew safe: UKMTO", "publisher": "IANS", "url": "https://ianslive.in/indian-shipping-authorities-report-attack-on-tanker-in-arabian-gulf-near-hormuz-crew-safe-ukmto--20261115185702", "date": "2026-11-15"},
+    {"title": "Indian shipping authorities report tanker attack east of Strait of Hormuz", "publisher": "Arab Times", "url": "https://www.arabtimesonline.com/news/indian-shipping-authorities-report-tanker-attack-east-of-strait-of-hormuz/", "date": "2026-11-15"},
+    {"title": "Iran says supertanker carrying oil sinks in Hormuz Strait", "publisher": "RTE (AFP)", "url": "https://www.rte.ie/news/middle-east/2026/1115/1599293-iran-tanker-hormuz/", "date": "2026-11-15"},
+    {"title": "Iran Reports Supertanker Carrying 2 Million Barrels of Oil Sinks After Mine Explosion in Gulf", "publisher": "Gulf News (AFP)", "url": "https://gulfnews.com/world/mena/iran-says-supertanker-with-2-million-barrels-of-oil-sank-in-gulf-1.500748289", "date": "2026-11-15"}
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner intelligence desk",
+    "checkedAt": "2026-11-15T19:05:00Z",
+    "notes": "Card states only the UKMTO warning (205-26, 15 Nov), corroborated by IANS and Arab Times and quoted by AFP (RTE, Gulf News): tanker attacked eastbound in the Arabian Gulf before entering the Strait of Hormuz, reported by Indian shipping authorities; crew accounted for and safe; damage and environmental impact unknown. IRGC claim (state TV) that a supertanker with >2m bbl sank after a mine strike on an 'unauthorised route' is NOT independently confirmed; UKMTO said it was unclear whether it is the same incident. Kept as a labelled claim in the description only. Vessel name, flag and exact position not published."
+  },
+  "image": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/USS_Hawes_(FFG-53),_USS_William_H._Standley_(CG-32)_and_USS_Guadalcanal_(LPH-7)_escort_tanker_Gas_King_in_the_Persian_Gullf_on_21_October_1987_(6432283).jpg?width=1600",
+    "credit": "PH2 Elliot, U.S. Navy / Wikimedia Commons",
+    "license": "Public domain",
+    "representative": true
+  },
+  "meta": {
+    "description": "UKMTO issued warning 205-26 on 15 November 2026 after Indian shipping authorities reported that a tanker sailing eastbound through the Arabian Gulf was attacked before entering the Strait of Hormuz. UKMTO said all crew are accounted for and safe, while the damage and any environmental impact are not yet known; the vessel has not been named. Separately, Iran's IRGC claimed on state TV that a supertanker carrying more than two million barrels of crude sank after hitting a mine, which has not been independently confirmed, and UKMTO said it is unclear whether the reports concern the same incident. UKMTO advises ships in the area to transit with caution and report any suspicious activity.",
+    "keywords": ["UKMTO", "Strait of Hormuz", "tanker attack", "Arabian Gulf", "maritime security", "crew safety"],
+    "hashtags": ["#MaritimeSecurity", "#StraitOfHormuz", "#UKMTO", "#Tankers", "#ShippingNews"],
+    "question": "Is your ship's security plan and UKMTO reporting routine drilled before the Hormuz transit?",
+    "altText": "Representative public-domain photo of U.S. Navy warships escorting a tanker in the Persian Gulf, with HeyMariner security card text on UKMTO reporting a tanker attacked before entering the Strait of Hormuz, crew safe."
+  }
+}
