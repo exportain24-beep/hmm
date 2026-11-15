@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T16:25:05.665Z",
+  "updatedAt": "2026-11-15T17:13:56.797Z",
   "feedStatus": {
     "safety4sea": "ok (0)",
     "gcaptain": "ok (12)",
@@ -24,13 +24,37 @@
       "publishedAt": "2026-11-13T11:41:30.000Z",
       "score": 55,
       "scores": {
-        "recency": 0.3,
+        "recency": 0.29,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
         "seafarerValue": 1,
         "shareability": 1,
         "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "d3522a5a883abe4397a72095a940d9c64d0ab77b",
+      "storyKey": "38a0697fcb9a85118b299475b3b9da1a1026447b",
+      "sourceId": "gcaptain",
+      "sourceName": "gCaptain",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "American Heritage Captain, Crew and Tug Operators Hailed as Heroes After Mississippi River Capsizing",
+      "url": "https://gcaptain.com/american-heritage-captain-crew-and-tug-operators-hailed-as-heroes-after-mississippi-river-capsizing/",
+      "summary": "The captain and crew of the American Heritage, along with tugboat operators and first responders who rushed to the scene, are being hailed as heroes following Friday's dramatic collision on...",
+      "publishedAt": "2026-11-15T16:02:22.000Z",
+      "score": 54,
+      "scores": {
+        "recency": 0.97,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0,
+        "seafarerValue": 0.5,
+        "shareability": 1,
+        "visualPotential": 0.5,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
@@ -48,7 +72,7 @@
       "publishedAt": "2026-11-14T14:41:03.000Z",
       "score": 54,
       "scores": {
-        "recency": 0.55,
+        "recency": 0.54,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -72,7 +96,7 @@
       "publishedAt": "2026-11-14T22:23:43.000Z",
       "score": 54,
       "scores": {
-        "recency": 0.66,
+        "recency": 0.65,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -96,7 +120,7 @@
       "publishedAt": "2026-11-14T15:30:10.000Z",
       "score": 53,
       "scores": {
-        "recency": 0.56,
+        "recency": 0.55,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -144,7 +168,7 @@
       "publishedAt": "2026-11-15T14:48:43.000Z",
       "score": 51,
       "scores": {
-        "recency": 0.96,
+        "recency": 0.95,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -168,7 +192,7 @@
       "publishedAt": "2026-11-14T01:44:29.000Z",
       "score": 49,
       "scores": {
-        "recency": 0.41,
+        "recency": 0.4,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 1,
@@ -192,7 +216,7 @@
       "publishedAt": "2026-11-15T01:06:11.000Z",
       "score": 48,
       "scores": {
-        "recency": 0.7,
+        "recency": 0.69,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -216,7 +240,7 @@
       "publishedAt": "2026-11-15T13:03:46.000Z",
       "score": 48,
       "scores": {
-        "recency": 0.93,
+        "recency": 0.91,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -240,7 +264,7 @@
       "publishedAt": "2026-11-13T22:00:58.000Z",
       "score": 48,
       "scores": {
-        "recency": 0.38,
+        "recency": 0.37,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -264,7 +288,7 @@
       "publishedAt": "2026-11-13T22:00:59.000Z",
       "score": 47,
       "scores": {
-        "recency": 0.38,
+        "recency": 0.37,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -288,7 +312,7 @@
       "publishedAt": "2026-11-13T13:08:13.000Z",
       "score": 46,
       "scores": {
-        "recency": 0.31,
+        "recency": 0.3,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -312,7 +336,7 @@
       "publishedAt": "2026-11-15T03:48:26.000Z",
       "score": 45,
       "scores": {
-        "recency": 0.75,
+        "recency": 0.73,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -336,7 +360,7 @@
       "publishedAt": "2026-11-14T02:34:17.000Z",
       "score": 45,
       "scores": {
-        "recency": 0.42,
+        "recency": 0.41,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -360,34 +384,10 @@
       "publishedAt": "2026-11-13T21:11:53.000Z",
       "score": 44,
       "scores": {
-        "recency": 0.37,
+        "recency": 0.36,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0.5,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "512f15c647d9deed681a0a4e63535621ae0e8a94",
-      "storyKey": "78c1217f82be578576e566de0b39e44108ef5035",
-      "sourceId": "marineinsight",
-      "sourceName": "Marine Insight",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "MSC Poesia Faces Criminal Probe Over Alleged Magic Pipe After 11-Day Detention In Miami",
-      "url": "https://www.marineinsight.com/msc-poesia-criminal-probe-magic-pipe/?utm_source=rss utm_medium=rss utm_campaign=msc-poesia-criminal-probe-magic-pipe",
-      "summary": "MSC Poesia is under a criminal investigation by the U.S. Coast Guard over the alleged illegal discharge of oil at sea through a so-called ‘magic pipe’, a U.S. official familiar with the probe has revealed.",
-      "publishedAt": "2026-11-15T14:33:56.000Z",
-      "score": 44,
-      "scores": {
-        "recency": 0.96,
-        "reliability": 0.85,
-        "maritimeRelevance": 0,
-        "educationalValue": 0.5,
         "seafarerValue": 0,
         "shareability": 0,
         "visualPotential": 0,
@@ -408,7 +408,7 @@
       "publishedAt": "2026-11-14T22:08:51.000Z",
       "score": 43,
       "scores": {
-        "recency": 0.66,
+        "recency": 0.64,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -432,10 +432,34 @@
       "publishedAt": "2026-11-14T18:13:54.000Z",
       "score": 43,
       "scores": {
-        "recency": 0.6,
+        "recency": 0.59,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0.5,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "512f15c647d9deed681a0a4e63535621ae0e8a94",
+      "storyKey": "78c1217f82be578576e566de0b39e44108ef5035",
+      "sourceId": "marineinsight",
+      "sourceName": "Marine Insight",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "MSC Poesia Faces Criminal Probe Over Alleged Magic Pipe After 11-Day Detention In Miami",
+      "url": "https://www.marineinsight.com/msc-poesia-criminal-probe-magic-pipe/?utm_source=rss utm_medium=rss utm_campaign=msc-poesia-criminal-probe-magic-pipe",
+      "summary": "MSC Poesia is under a criminal investigation by the U.S. Coast Guard over the alleged illegal discharge of oil at sea through a so-called ‘magic pipe’, a U.S. official familiar with the probe has revealed.",
+      "publishedAt": "2026-11-15T14:33:56.000Z",
+      "score": 43,
+      "scores": {
+        "recency": 0.94,
+        "reliability": 0.85,
+        "maritimeRelevance": 0,
+        "educationalValue": 0.5,
         "seafarerValue": 0,
         "shareability": 0,
         "visualPotential": 0,
@@ -456,7 +480,7 @@
       "publishedAt": "2026-11-13T11:46:27.000Z",
       "score": 43,
       "scores": {
-        "recency": 0.3,
+        "recency": 0.29,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -480,7 +504,7 @@
       "publishedAt": "2026-11-13T22:00:43.000Z",
       "score": 43,
       "scores": {
-        "recency": 0.38,
+        "recency": 0.37,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -504,7 +528,7 @@
       "publishedAt": "2026-11-13T17:09:56.000Z",
       "score": 42,
       "scores": {
-        "recency": 0.34,
+        "recency": 0.33,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -528,7 +552,7 @@
       "publishedAt": "2026-11-13T10:07:00.000Z",
       "score": 42,
       "scores": {
-        "recency": 0.29,
+        "recency": 0.28,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -552,7 +576,7 @@
       "publishedAt": "2026-11-14T16:50:51.000Z",
       "score": 42,
       "scores": {
-        "recency": 0.58,
+        "recency": 0.57,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -576,7 +600,7 @@
       "publishedAt": "2026-11-13T22:00:59.000Z",
       "score": 42,
       "scores": {
-        "recency": 0.38,
+        "recency": 0.37,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0.5,
@@ -600,7 +624,7 @@
       "publishedAt": "2026-11-13T22:00:49.000Z",
       "score": 42,
       "scores": {
-        "recency": 0.38,
+        "recency": 0.37,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0.5,
@@ -624,7 +648,7 @@
       "publishedAt": "2026-11-13T17:51:12.000Z",
       "score": 41,
       "scores": {
-        "recency": 0.34,
+        "recency": 0.33,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -672,7 +696,7 @@
       "publishedAt": "2026-11-13T22:00:50.000Z",
       "score": 41,
       "scores": {
-        "recency": 0.38,
+        "recency": 0.37,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -696,7 +720,7 @@
       "publishedAt": "2026-11-13T22:00:46.000Z",
       "score": 41,
       "scores": {
-        "recency": 0.38,
+        "recency": 0.37,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -732,30 +756,6 @@
       }
     },
     {
-      "fingerprint": "6c8d5be0a6f8af60e68e3ec695486e9714b47281",
-      "storyKey": "5fdf6b2144ec4b2ee703c0f4dbdbff77713cc304",
-      "sourceId": "marex",
-      "sourceName": "The Maritime Executive",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "White House Extends Jones Act Waiver Into 2027",
-      "url": "https://maritime-executive.com/article/white-house-extends-jones-act-waiver-into-2027",
-      "summary": "On Friday, President Donald Trump decided to extend the long-running waiver of the Jones Act to allow foreign-crewed tankers to keep carrying energy p...",
-      "publishedAt": "2026-11-13T21:13:00.000Z",
-      "score": 39,
-      "scores": {
-        "recency": 0.37,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.67,
-        "educationalValue": 0,
-        "seafarerValue": 0.5,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
       "fingerprint": "3bec3398601691a2cc5bb2ff6a3127298a88385b",
       "storyKey": "a54ccaf9e96dbde62a587a2e15b564b600c95b38",
       "sourceId": "marex",
@@ -768,13 +768,37 @@
       "publishedAt": "2026-11-14T04:34:00.000Z",
       "score": 38,
       "scores": {
-        "recency": 0.44,
+        "recency": 0.43,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
         "seafarerValue": 0.5,
         "shareability": 0,
         "visualPotential": 0.5,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "6c8d5be0a6f8af60e68e3ec695486e9714b47281",
+      "storyKey": "5fdf6b2144ec4b2ee703c0f4dbdbff77713cc304",
+      "sourceId": "marex",
+      "sourceName": "The Maritime Executive",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "White House Extends Jones Act Waiver Into 2027",
+      "url": "https://maritime-executive.com/article/white-house-extends-jones-act-waiver-into-2027",
+      "summary": "On Friday, President Donald Trump decided to extend the long-running waiver of the Jones Act to allow foreign-crewed tankers to keep carrying energy p...",
+      "publishedAt": "2026-11-13T21:13:00.000Z",
+      "score": 38,
+      "scores": {
+        "recency": 0.36,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.67,
+        "educationalValue": 0,
+        "seafarerValue": 0.5,
+        "shareability": 0,
+        "visualPotential": 0,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
@@ -792,7 +816,7 @@
       "publishedAt": "2026-11-13T17:37:39.000Z",
       "score": 37,
       "scores": {
-        "recency": 0.34,
+        "recency": 0.33,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -816,7 +840,7 @@
       "publishedAt": "2026-11-13T17:24:08.000Z",
       "score": 37,
       "scores": {
-        "recency": 0.34,
+        "recency": 0.33,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -840,7 +864,7 @@
       "publishedAt": "2026-11-14T00:58:11.000Z",
       "score": 37,
       "scores": {
-        "recency": 0.4,
+        "recency": 0.39,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -864,7 +888,7 @@
       "publishedAt": "2026-11-14T18:33:00.000Z",
       "score": 37,
       "scores": {
-        "recency": 0.6,
+        "recency": 0.59,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -888,7 +912,7 @@
       "publishedAt": "2026-11-13T17:18:00.000Z",
       "score": 37,
       "scores": {
-        "recency": 0.34,
+        "recency": 0.33,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -912,7 +936,7 @@
       "publishedAt": "2026-11-15T12:50:27.000Z",
       "score": 37,
       "scores": {
-        "recency": 0.92,
+        "recency": 0.9,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -960,7 +984,7 @@
       "publishedAt": "2026-11-13T11:48:52.000Z",
       "score": 37,
       "scores": {
-        "recency": 0.3,
+        "recency": 0.29,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -984,7 +1008,7 @@
       "publishedAt": "2026-11-13T22:00:57.000Z",
       "score": 37,
       "scores": {
-        "recency": 0.38,
+        "recency": 0.37,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1008,7 +1032,7 @@
       "publishedAt": "2026-11-13T22:00:54.000Z",
       "score": 37,
       "scores": {
-        "recency": 0.38,
+        "recency": 0.37,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1128,7 +1152,7 @@
       "publishedAt": "2026-11-13T02:26:00.000Z",
       "score": 36,
       "scores": {
-        "recency": 0.24,
+        "recency": 0.23,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -1152,7 +1176,7 @@
       "publishedAt": "2026-11-14T15:04:25.000Z",
       "score": 36,
       "scores": {
-        "recency": 0.56,
+        "recency": 0.55,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1176,7 +1200,7 @@
       "publishedAt": "2026-11-13T11:53:55.000Z",
       "score": 36,
       "scores": {
-        "recency": 0.3,
+        "recency": 0.29,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0.5,
@@ -1200,7 +1224,7 @@
       "publishedAt": "2026-11-13T10:07:56.000Z",
       "score": 36,
       "scores": {
-        "recency": 0.29,
+        "recency": 0.28,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -1224,7 +1248,7 @@
       "publishedAt": "2026-11-13T22:00:53.000Z",
       "score": 36,
       "scores": {
-        "recency": 0.38,
+        "recency": 0.37,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -1248,7 +1272,7 @@
       "publishedAt": "2026-11-13T22:00:47.000Z",
       "score": 36,
       "scores": {
-        "recency": 0.38,
+        "recency": 0.37,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0.5,
@@ -1272,33 +1296,9 @@
       "publishedAt": "2026-11-13T22:00:47.000Z",
       "score": 36,
       "scores": {
-        "recency": 0.38,
+        "recency": 0.37,
         "reliability": 0.75,
         "maritimeRelevance": 1,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "b0a92f6919f58bcfa241ea589c79912d5e0fb189",
-      "storyKey": "efe6f5d460fc888e999a5870353c60bf43fdfc69",
-      "sourceId": "gcaptain",
-      "sourceName": "gCaptain",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Tanker Strikes Docked Paddlewheeler on Mississippi River, Causing It to Capsize",
-      "url": "https://gcaptain.com/tanker-strikes-docked-paddlewheeler-on-mississippi-river-causing-it-to-capsize/",
-      "summary": "Update: ‘Miracle on the Mississippi’: All Accounted For After Tanker Capsizes Cruise Ship in New Orleans A Marshall Islands-flagged asphalt tanker struck the docked American Cruise Lines riverboat American Heritage on the...",
-      "publishedAt": "2026-11-13T20:45:59.000Z",
-      "score": 33,
-      "scores": {
-        "recency": 0.36,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.67,
         "educationalValue": 0,
         "seafarerValue": 0,
         "shareability": 0,
@@ -1321,6 +1321,30 @@
       "score": 33,
       "scores": {
         "recency": 0.37,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.67,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "b0a92f6919f58bcfa241ea589c79912d5e0fb189",
+      "storyKey": "efe6f5d460fc888e999a5870353c60bf43fdfc69",
+      "sourceId": "gcaptain",
+      "sourceName": "gCaptain",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Tanker Strikes Docked Paddlewheeler on Mississippi River, Causing It to Capsize",
+      "url": "https://gcaptain.com/tanker-strikes-docked-paddlewheeler-on-mississippi-river-causing-it-to-capsize/",
+      "summary": "Update: ‘Miracle on the Mississippi’: All Accounted For After Tanker Capsizes Cruise Ship in New Orleans A Marshall Islands-flagged asphalt tanker struck the docked American Cruise Lines riverboat American Heritage on the...",
+      "publishedAt": "2026-11-13T20:45:59.000Z",
+      "score": 32,
+      "scores": {
+        "recency": 0.36,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1356,30 +1380,6 @@
       }
     },
     {
-      "fingerprint": "0215a2260f8aed0a134fd4bc6c2bf85f33a20e6d",
-      "storyKey": "a04c2e914bcffee98cef229e9395479fc654c556",
-      "sourceId": "hellenic",
-      "sourceName": "Hellenic Shipping News",
-      "tier": "press",
-      "reliability": 0.75,
-      "title": "Xeneta Schedule Reliability Scorecard - October 2026: Less than a quarter of global vessels arrive on-time and Gemini’s lead disappears on Asian trades",
-      "url": "https://www.hellenicshippingnews.com/xeneta-schedule-reliability-scorecard-october-2026-less-than-a-quarter-of-global-vessels-arrive-on-time-and-geminis-lead-disappears-on-asian-trades/",
-      "summary": "A note on methodology. Figures in this month’s edition use data pulled on 9 November and differ from our Outlook pulled on 26 October. Later October arrivals change some on-time figures by 1-2 percentage points. Global on-time arrivals are now at 24%, a lower reading than the 25% in late October. Far East to Europe ...",
-      "publishedAt": "2026-11-13T22:00:57.000Z",
-      "score": 32,
-      "scores": {
-        "recency": 0.38,
-        "reliability": 0.75,
-        "maritimeRelevance": 0.33,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0.5,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
       "fingerprint": "d5e72ed84095fcbeb47c51dc26e8836398eda837",
       "storyKey": "1e0904e161c2211605fcb9b0aaf904c687b37900",
       "sourceId": "marex",
@@ -1404,6 +1404,30 @@
       }
     },
     {
+      "fingerprint": "0215a2260f8aed0a134fd4bc6c2bf85f33a20e6d",
+      "storyKey": "a04c2e914bcffee98cef229e9395479fc654c556",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "Xeneta Schedule Reliability Scorecard - October 2026: Less than a quarter of global vessels arrive on-time and Gemini’s lead disappears on Asian trades",
+      "url": "https://www.hellenicshippingnews.com/xeneta-schedule-reliability-scorecard-october-2026-less-than-a-quarter-of-global-vessels-arrive-on-time-and-geminis-lead-disappears-on-asian-trades/",
+      "summary": "A note on methodology. Figures in this month’s edition use data pulled on 9 November and differ from our Outlook pulled on 26 October. Later October arrivals change some on-time figures by 1-2 percentage points. Global on-time arrivals are now at 24%, a lower reading than the 25% in late October. Far East to Europe ...",
+      "publishedAt": "2026-11-13T22:00:57.000Z",
+      "score": 31,
+      "scores": {
+        "recency": 0.37,
+        "reliability": 0.75,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0.5,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
       "fingerprint": "5f5194cbe70c97fe9d7848fe094ca096901000f1",
       "storyKey": "6cd8abc0db57cb893a97a0e304346e9c0efcd06c",
       "sourceId": "hellenic",
@@ -1416,7 +1440,7 @@
       "publishedAt": "2026-11-13T22:00:41.000Z",
       "score": 31,
       "scores": {
-        "recency": 0.38,
+        "recency": 0.37,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1440,7 +1464,7 @@
       "publishedAt": "2026-11-13T22:00:39.000Z",
       "score": 31,
       "scores": {
-        "recency": 0.38,
+        "recency": 0.37,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1486,30 +1510,6 @@
       "url": "https://gcaptain.com/singapore-flagged-bulk-carrier-strikes-delaware-river-bridge-coast-guard-investigating/",
       "summary": "A Singapore-flagged bulk carrier struck the Tacony-Palmyra Bridge on the Delaware River Thursday afternoon, leaving the movable span temporarily unable to close and prompting a U.S. Coast Guard inspection of...",
       "publishedAt": "2026-11-13T16:29:16.000Z",
-      "score": 27,
-      "scores": {
-        "recency": 0.33,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.33,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "4efb637eee9666de06aef299f607fd4f53313480",
-      "storyKey": "79ab28af7027e6e3f6f62b86ad3622579ef32804",
-      "sourceId": "gcaptain",
-      "sourceName": "gCaptain",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Russia Oil Revenues Hit Five-Month High on Crude Rally, IEA Says",
-      "url": "https://gcaptain.com/russia-oil-revenues-hit-five-month-high-on-crude-rally-iea-says/",
-      "summary": "Russia’s October revenues from crude and petroleum-product exports hit the highest since May as the ongoing Iran war bolstered oil prices, according to the International Energy Agency.",
-      "publishedAt": "2026-11-13T14:39:48.000Z",
       "score": 26,
       "scores": {
         "recency": 0.32,
@@ -1596,102 +1596,6 @@
       }
     },
     {
-      "fingerprint": "0bbc781e91555d4c7e9c1466164ce5f7ecbe57a3",
-      "storyKey": "dfad8aa678a56658f92c679c0e651e9dcb411a8e",
-      "sourceId": "hellenic",
-      "sourceName": "Hellenic Shipping News",
-      "tier": "press",
-      "reliability": 0.75,
-      "title": "GMS Week 46 – FREIGHT TAKES THE HELM",
-      "url": "https://www.hellenicshippingnews.com/gms-week-46-freight-takes-the-helm/",
-      "summary": "Another week has passed without a meaningful change in global ship recycling conditions, although the trading market has strengthened its position once again. Dry freight has continued its recovery, crude oil has softened further and regional steel prices have offered some encouragement. Recycling indications remain unchanged across all four destinations, with healthy buying interest still ...",
-      "publishedAt": "2026-11-13T22:00:54.000Z",
-      "score": 26,
-      "scores": {
-        "recency": 0.38,
-        "reliability": 0.75,
-        "maritimeRelevance": 0.33,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "b21aba99a7c99876d92aba9e80aa530f2b9bd831",
-      "storyKey": "24c2a38f738311dd7a18f66b2b839fc7c75e98a5",
-      "sourceId": "hellenic",
-      "sourceName": "Hellenic Shipping News",
-      "tier": "press",
-      "reliability": 0.75,
-      "title": "Drewry: World Container Index Down 2% Last Week",
-      "url": "https://www.hellenicshippingnews.com/drewry-world-container-index-down-2-last-week-8/",
-      "summary": "For many years, World Container Index (WCI) has been the go-to, independent, global reference for index-linked contracts. If your organisation requires regional visibility/coverage beyond the eight trade lanes provided below, contact the team. Our detailed assessment for Thursday, 12 Nov 2026 • The Drewry World Container Index (WCI), the benchmark widely referenced by procurement teams, ...",
-      "publishedAt": "2026-11-13T22:00:51.000Z",
-      "score": 26,
-      "scores": {
-        "recency": 0.38,
-        "reliability": 0.75,
-        "maritimeRelevance": 0.33,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "01e425592c75bf5134f25682dee3df50aa0bf0f5",
-      "storyKey": "e57c8601fd90fdec15b8f6df2e38b3c5698d9e32",
-      "sourceId": "hellenic",
-      "sourceName": "Hellenic Shipping News",
-      "tier": "press",
-      "reliability": 0.75,
-      "title": "Affinity Tanker Weekly, 13 November 2026",
-      "url": "https://www.hellenicshippingnews.com/affinity-tanker-weekly-13-november-2026/",
-      "summary": "It was another bruising week for VLCCs. A late pickup in activity could not turn the tide, with ample tonnage and weaker Suezmax Source: Affinity Research LLP",
-      "publishedAt": "2026-11-13T22:00:50.000Z",
-      "score": 26,
-      "scores": {
-        "recency": 0.38,
-        "reliability": 0.75,
-        "maritimeRelevance": 0.33,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "83ae63b1aac8a474449e36309db008f1b9e3311a",
-      "storyKey": "460d51d455d1fbe1d88d86045c88f6a298971c84",
-      "sourceId": "hellenic",
-      "sourceName": "Hellenic Shipping News",
-      "tier": "press",
-      "reliability": 0.75,
-      "title": "One State-Owned Manager, Three Vessels, Three Subsea Cable Corridors in One Week",
-      "url": "https://www.hellenicshippingnews.com/one-state-owned-manager-three-vessels-three-subsea-cable-corridors-in-one-week/",
-      "summary": "Between October 15 and November 4, 2026, three vessels under the same state-owned Xiamen manager stopped on three international submarine cable corridors in three different seas. A Chinese-flagged research vessel operated by a Chinese university spent nearly three weeks on survey stations in and around the SJC2 and EAC-C2C corridors east of Taiwan, then 3.5 ...",
-      "publishedAt": "2026-11-13T22:00:45.000Z",
-      "score": 26,
-      "scores": {
-        "recency": 0.38,
-        "reliability": 0.75,
-        "maritimeRelevance": 0.33,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
       "fingerprint": "2c536946ad88d8212d541cd8bd859fc8ea5332b7",
       "storyKey": "2244a1c6c9c519139b8e6e33c5240117be0035e2",
       "sourceId": "marex",
@@ -1740,6 +1644,102 @@
       }
     },
     {
+      "fingerprint": "0bbc781e91555d4c7e9c1466164ce5f7ecbe57a3",
+      "storyKey": "dfad8aa678a56658f92c679c0e651e9dcb411a8e",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "GMS Week 46 – FREIGHT TAKES THE HELM",
+      "url": "https://www.hellenicshippingnews.com/gms-week-46-freight-takes-the-helm/",
+      "summary": "Another week has passed without a meaningful change in global ship recycling conditions, although the trading market has strengthened its position once again. Dry freight has continued its recovery, crude oil has softened further and regional steel prices have offered some encouragement. Recycling indications remain unchanged across all four destinations, with healthy buying interest still ...",
+      "publishedAt": "2026-11-13T22:00:54.000Z",
+      "score": 25,
+      "scores": {
+        "recency": 0.37,
+        "reliability": 0.75,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "b21aba99a7c99876d92aba9e80aa530f2b9bd831",
+      "storyKey": "24c2a38f738311dd7a18f66b2b839fc7c75e98a5",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "Drewry: World Container Index Down 2% Last Week",
+      "url": "https://www.hellenicshippingnews.com/drewry-world-container-index-down-2-last-week-8/",
+      "summary": "For many years, World Container Index (WCI) has been the go-to, independent, global reference for index-linked contracts. If your organisation requires regional visibility/coverage beyond the eight trade lanes provided below, contact the team. Our detailed assessment for Thursday, 12 Nov 2026 • The Drewry World Container Index (WCI), the benchmark widely referenced by procurement teams, ...",
+      "publishedAt": "2026-11-13T22:00:51.000Z",
+      "score": 25,
+      "scores": {
+        "recency": 0.37,
+        "reliability": 0.75,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "01e425592c75bf5134f25682dee3df50aa0bf0f5",
+      "storyKey": "e57c8601fd90fdec15b8f6df2e38b3c5698d9e32",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "Affinity Tanker Weekly, 13 November 2026",
+      "url": "https://www.hellenicshippingnews.com/affinity-tanker-weekly-13-november-2026/",
+      "summary": "It was another bruising week for VLCCs. A late pickup in activity could not turn the tide, with ample tonnage and weaker Suezmax Source: Affinity Research LLP",
+      "publishedAt": "2026-11-13T22:00:50.000Z",
+      "score": 25,
+      "scores": {
+        "recency": 0.37,
+        "reliability": 0.75,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "83ae63b1aac8a474449e36309db008f1b9e3311a",
+      "storyKey": "460d51d455d1fbe1d88d86045c88f6a298971c84",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "One State-Owned Manager, Three Vessels, Three Subsea Cable Corridors in One Week",
+      "url": "https://www.hellenicshippingnews.com/one-state-owned-manager-three-vessels-three-subsea-cable-corridors-in-one-week/",
+      "summary": "Between October 15 and November 4, 2026, three vessels under the same state-owned Xiamen manager stopped on three international submarine cable corridors in three different seas. A Chinese-flagged research vessel operated by a Chinese university spent nearly three weeks on survey stations in and around the SJC2 and EAC-C2C corridors east of Taiwan, then 3.5 ...",
+      "publishedAt": "2026-11-13T22:00:45.000Z",
+      "score": 25,
+      "scores": {
+        "recency": 0.37,
+        "reliability": 0.75,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
       "fingerprint": "ad4ac39d94defc1abee9f73775d46b008bab8287",
       "storyKey": "0bbe7d59f75b3e42c740df557e00252907010ab4",
       "sourceId": "marex",
@@ -1752,7 +1752,7 @@
       "publishedAt": "2026-11-14T07:40:00.000Z",
       "score": 24,
       "scores": {
-        "recency": 0.47,
+        "recency": 0.46,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1776,7 +1776,7 @@
       "publishedAt": "2026-11-14T04:02:13.000Z",
       "score": 23,
       "scores": {
-        "recency": 0.43,
+        "recency": 0.42,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1800,7 +1800,7 @@
       "publishedAt": "2026-11-14T02:39:30.000Z",
       "score": 23,
       "scores": {
-        "recency": 0.42,
+        "recency": 0.41,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1824,7 +1824,7 @@
       "publishedAt": "2026-11-14T02:35:00.000Z",
       "score": 23,
       "scores": {
-        "recency": 0.42,
+        "recency": 0.41,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1848,7 +1848,7 @@
       "publishedAt": "2026-11-13T19:56:00.000Z",
       "score": 22,
       "scores": {
-        "recency": 0.36,
+        "recency": 0.35,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1870,7 +1870,7 @@
       "url": "https://maritime-executive.com/article/supply-chain-vulnerability",
       "summary": "On the sidelines of the 81st United Nations General Assembly, officials from Qatar held an economic forum.Qatar's Prime Minister and Minister of Forei...",
       "publishedAt": "2026-11-13T18:18:00.000Z",
-      "score": 22,
+      "score": 21,
       "scores": {
         "recency": 0.34,
         "reliability": 0.85,
@@ -1920,7 +1920,7 @@
       "publishedAt": "2026-11-14T04:37:00.000Z",
       "score": 20,
       "scores": {
-        "recency": 0.44,
+        "recency": 0.43,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1944,7 +1944,7 @@
       "publishedAt": "2026-11-14T04:32:00.000Z",
       "score": 20,
       "scores": {
-        "recency": 0.44,
+        "recency": 0.43,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1968,7 +1968,7 @@
       "publishedAt": "2026-11-13T22:00:55.000Z",
       "score": 20,
       "scores": {
-        "recency": 0.38,
+        "recency": 0.37,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
