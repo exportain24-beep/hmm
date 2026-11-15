@@ -152,7 +152,7 @@ const SHAPES: Record<string, Draw> = {
   ladder: (e, k) => {
     const len = e.len ?? 320;
     const rungs = Math.floor(len / 31);
-    const shown = Math.floor(rungs * clamp01(k * 1.4));
+    const shown = Math.round(rungs * clamp01(k * 1.15));
     return (
       <g>
         <line x1={0} y1={0} x2={0} y2={len} stroke="#C9A26B" strokeWidth={6} />
@@ -211,7 +211,7 @@ const SHAPES: Record<string, Draw> = {
   tank: (e, k) => {
     const w = e.w ?? 260;
     const h = e.h ?? 320;
-    const lvl = clamp01(e.level ?? 0.5) * ease(clamp01(k * 1.5));
+    const lvl = clamp01(e.level ?? 0.5) * ease(k);
     return (
       <g>
         <rect x={0} y={0} width={w} height={h} rx={18} fill="#1E293B" stroke={ink} strokeWidth={4} />
@@ -221,7 +221,7 @@ const SHAPES: Record<string, Draw> = {
     );
   },
   gauge: (e, k) => {
-    const v = clamp01(e.value ?? 0.6) * ease(clamp01(k * 1.3));
+    const v = clamp01(e.value ?? 0.6) * ease(k);
     const a = -Math.PI * 1.2 + Math.PI * 1.4 * v;
     return (
       <g>
@@ -325,14 +325,14 @@ const SHAPES: Record<string, Draw> = {
   cross: (_e, k) => <g transform={`scale(${0.5 + 0.5 * ease(clamp01(k * 2))})`}><circle r={34} fill="#DC2626" /><path d="M -13 -13 L 13 13 M 13 -13 L -13 13" stroke="#fff" strokeWidth={8} strokeLinecap="round" /></g>,
   badge: (e, k, _t, accent) => <g transform={`scale(${0.6 + 0.4 * ease(clamp01(k * 2))})`}><circle r={30} fill={e.color ?? accent} stroke={ink} strokeWidth={3} /><text y={11} textAnchor="middle" fontFamily={FONT_HEAD} fontWeight={900} fontSize={32} fill={ink}>{e.text ?? '1'}</text></g>,
   value: (e, k) => {
-    const v = (e.from ?? 0) + ((e.to2 ?? 100) - (e.from ?? 0)) * ease(clamp01(k * 0.9));
+    const v = (e.from ?? 0) + ((e.to2 ?? 100) - (e.from ?? 0)) * ease(k);
     const s = v.toFixed(e.decimals ?? 0);
     return <g><text textAnchor="middle" fontFamily={FONT_HEAD} fontWeight={900} fontSize={e.size ?? 84} fill={e.color ?? '#FDE047'} stroke={ink} strokeWidth={3} paintOrder="stroke">{s}<tspan fontSize={(e.size ?? 84) * 0.5}>{e.unit ?? ''}</tspan></text></g>;
   },
   path: (e, k, _t, accent) => {
     const pts = (e.points ?? [[0, 0], [200, 0]]).map((p) => [p[0] - e.x, p[1] - e.y]);
     const d = pts.map((p, i) => `${i ? 'L' : 'M'} ${p[0]} ${p[1]}`).join(' ');
-    const p = ease(clamp01(k * 0.7));
+    const p = ease(k);
     const seg = Math.max(0, Math.min(pts.length - 1.0001, p * (pts.length - 1)));
     const i = Math.floor(seg);
     const f = seg - i;
@@ -346,7 +346,9 @@ const SHAPES: Record<string, Draw> = {
 export const DIAGRAM_TYPES = Object.keys(SHAPES);
 
 const Element: React.FC<{e: DiagramEl; t: number; at: number; timing: SceneTiming; accent: string}> = ({e, t, at, timing, accent}) => {
-  const k = clamp01((t - at) / 1.0);
+  // progress of the element's own animation: counters and movers take longer than a simple appear
+  const dur = e.type === 'path' ? 2.6 : e.type === 'value' ? 1.4 : e.type === 'ladder' || e.type === 'tank' || e.type === 'gauge' ? 1.2 : 0.9;
+  const k = clamp01((t - at) / dur);
   if (t < at) return null;
   const off = wordTime(e.off, timing, at);
   const fadeOut = off != null ? 1 - clamp01((t - off) / 0.4) : 1;
@@ -360,7 +362,7 @@ const Element: React.FC<{e: DiagramEl; t: number; at: number; timing: SceneTimin
     x = x + (e.move.to[0] - x) * mk;
     y = y + (e.move.to[1] - y) * mk;
   }
-  const appear = e.anim === 'none' ? 1 : ease(clamp01(k * 2.2));
+  const appear = e.anim === 'none' ? 1 : ease(clamp01(((t - at) / 0.9) * 2.2));
   const pop = e.anim === 'pop' ? 0.6 + 0.4 * appear + 0.06 * Math.sin(Math.min(1, k * 2) * Math.PI) : 1;
   const slide = e.anim === 'slide' ? (1 - appear) * 60 : 0;
   const pulse = e.pulse ? 1 + 0.05 * Math.sin(t * 5) : 1;
