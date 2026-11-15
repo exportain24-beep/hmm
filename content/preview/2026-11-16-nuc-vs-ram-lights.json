@@ -1,0 +1,383 @@
+{
+  "id": "2026-11-16-nuc-vs-ram-lights",
+  "template": "educational-explainer",
+  "pillar": "colreg",
+  "series": "COLREG Night Navigation",
+  "level": "L2",
+  "audience": [
+    "Deck Cadet",
+    "OOW",
+    "Second Officer"
+  ],
+  "title": "Two Red Lights at Night: NUC or RAM? COLREG Rule 27",
+  "thumbnailText": "TWO REDS: NUC OR RAM?",
+  "aspect": "9:16",
+  "mood": "tense",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "beat": "hook",
+      "label": "NIGHT NAVIGATION",
+      "heading": "Two red lights. What is she?",
+      "motif": "lighthouse",
+      "narration": "Two red lights, one above the other. Can you identify this vessel before she becomes your problem?"
+    },
+    {
+      "id": "ctx",
+      "kind": "diagram",
+      "beat": "context",
+      "label": "THE SITUATION",
+      "heading": "You are the OOW at night",
+      "narration": "You are the OOW at night. On your starboard bow you see two all-round red lights in a vertical line, and below them a red sidelight.",
+      "diagram": {
+        "bg": "night",
+        "elements": [
+          {
+            "type": "nightvessel",
+            "x": 500,
+            "y": 560,
+            "bearing": 300,
+            "len": 460,
+            "status": "nuc"
+          },
+          {
+            "type": "ring",
+            "x": 480,
+            "y": 302,
+            "r2": 80,
+            "on": "two"
+          },
+          {
+            "type": "label",
+            "x": 760,
+            "y": 250,
+            "text": "TWO ALL-ROUND RED",
+            "to": [
+              520,
+              300
+            ],
+            "on": "vertical"
+          },
+          {
+            "type": "label",
+            "x": 210,
+            "y": 400,
+            "text": "RED SIDELIGHT",
+            "to": [
+              391,
+              482
+            ],
+            "on": "sidelight"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nuc",
+      "kind": "diagram",
+      "beat": "explain",
+      "label": "RULE 27(a)",
+      "heading": "Not under command",
+      "narration": "Two all-round reds mean not under command. Her masthead lights are off. When she is making way, she adds sidelights and a sternlight.",
+      "diagram": {
+        "bg": "night",
+        "elements": [
+          {
+            "type": "nightvessel",
+            "x": 500,
+            "y": 560,
+            "bearing": 270,
+            "len": 520,
+            "status": "nuc"
+          },
+          {
+            "type": "label",
+            "x": 500,
+            "y": 120,
+            "text": "NOT UNDER COMMAND",
+            "on": "command"
+          },
+          {
+            "type": "cross",
+            "x": 300,
+            "y": 330,
+            "on": "masthead"
+          },
+          {
+            "type": "label",
+            "x": 260,
+            "y": 250,
+            "text": "NO MASTHEAD LIGHTS",
+            "on": "off"
+          },
+          {
+            "type": "label",
+            "x": 720,
+            "y": 680,
+            "text": "+ SIDELIGHTS, STERNLIGHT",
+            "to": [
+              560,
+              505
+            ],
+            "on": "sidelights"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ram",
+      "kind": "diagram",
+      "beat": "explain",
+      "label": "RULE 27(b)",
+      "heading": "Red, white, red: restricted",
+      "narration": "Red, white, red is different. She is restricted in her ability to manoeuvre, like a dredger or a cable layer. Making way, she keeps her masthead lights.",
+      "diagram": {
+        "bg": "night",
+        "elements": [
+          {
+            "type": "nightvessel",
+            "x": 500,
+            "y": 570,
+            "bearing": 60,
+            "len": 500,
+            "status": "ram"
+          },
+          {
+            "type": "ring",
+            "x": 521,
+            "y": 284,
+            "r2": 90,
+            "on": "Red"
+          },
+          {
+            "type": "label",
+            "x": 500,
+            "y": 110,
+            "text": "RESTRICTED (RAM)",
+            "on": "restricted"
+          },
+          {
+            "type": "label",
+            "x": 700,
+            "y": 700,
+            "text": "DREDGER, CABLE LAYER",
+            "on": "dredger"
+          },
+          {
+            "type": "label",
+            "x": 250,
+            "y": 420,
+            "text": "MASTHEAD LIGHTS ON",
+            "to": [
+              420,
+              452
+            ],
+            "on": "masthead"
+          }
+        ]
+      }
+    },
+    {
+      "id": "day",
+      "kind": "diagram",
+      "beat": "example",
+      "label": "BY DAY",
+      "heading": "Shapes, and who keeps clear",
+      "narration": "By day, look for shapes: two balls for not under command, ball diamond ball for restricted. Either way, Rule 18 says you, a power-driven vessel, keep out of her way.",
+      "diagram": {
+        "bg": "sea",
+        "elements": [
+          {
+            "type": "dayshape",
+            "x": 300,
+            "y": 110,
+            "shapes": [
+              "ball",
+              "ball"
+            ],
+            "on": "two"
+          },
+          {
+            "type": "label",
+            "x": 300,
+            "y": 330,
+            "text": "NUC",
+            "on": "command"
+          },
+          {
+            "type": "dayshape",
+            "x": 700,
+            "y": 110,
+            "shapes": [
+              "ball",
+              "diamond",
+              "ball"
+            ],
+            "on": "ball"
+          },
+          {
+            "type": "label",
+            "x": 700,
+            "y": 400,
+            "text": "RAM",
+            "on": "restricted"
+          },
+          {
+            "type": "ship",
+            "x": 180,
+            "y": 660,
+            "view": "top",
+            "len": 220,
+            "on": "power"
+          },
+          {
+            "type": "arrow",
+            "x": 300,
+            "y": 660,
+            "to": [
+              460,
+              730
+            ],
+            "on": "keep"
+          },
+          {
+            "type": "label",
+            "x": 690,
+            "y": 690,
+            "text": "RULE 18: KEEP CLEAR",
+            "on": "way"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mistake",
+      "kind": "diagram",
+      "beat": "mistake",
+      "label": "COMMON MISTAKE",
+      "heading": "Two reds are not always aground",
+      "narration": "The common mistake is reading two reds as aground. A vessel aground shows the same two reds plus white anchor lights. No whites, not aground.",
+      "diagram": {
+        "bg": "night",
+        "elements": [
+          {
+            "type": "cross",
+            "x": 150,
+            "y": 140,
+            "on": "mistake"
+          },
+          {
+            "type": "nightvessel",
+            "x": 520,
+            "y": 580,
+            "bearing": 90,
+            "len": 500,
+            "status": "aground",
+            "on": "aground"
+          },
+          {
+            "type": "label",
+            "x": 520,
+            "y": 110,
+            "text": "AGROUND = REDS + WHITES",
+            "on": "same"
+          },
+          {
+            "type": "ring",
+            "x": 740,
+            "y": 500,
+            "r2": 60,
+            "on": "white"
+          },
+          {
+            "type": "label",
+            "x": 700,
+            "y": 690,
+            "text": "NO WHITES: NOT AGROUND",
+            "on": "No"
+          }
+        ]
+      }
+    },
+    {
+      "id": "take",
+      "kind": "takeaway",
+      "beat": "takeaway",
+      "label": "KEY TAKEAWAY",
+      "heading": "Two reds: you keep clear",
+      "motif": "lighthouse",
+      "narration": "Two reds: she cannot get out of your way. You must."
+    },
+    {
+      "id": "end",
+      "kind": "endcard",
+      "beat": "endcard",
+      "narration": "Follow HeyMariner for practical maritime knowledge."
+    }
+  ],
+  "sources": [
+    {
+      "title": "IMO: COLREG Convention",
+      "url": "https://www.imo.org/en/About/Conventions/Pages/COLREG.aspx"
+    },
+    {
+      "title": "COLREG 1972 Rules 3, 18, 27, 30 (consolidated text, USCG Navigation Rules)",
+      "url": "https://www.navcen.uscg.gov/navigation-rules-amalgamated"
+    }
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner desk (Claude)",
+    "checkedAt": "2026-11-16",
+    "notes": "Rule 27(a) NUC two all-round red + two balls, sidelights and sternlight when making way; 27(b) RAM red-white-red + ball-diamond-ball, masthead lights, sidelights, sternlight when making way; Rule 18(a) power-driven vessel keeps out of the way of NUC and RAM; Rule 30(d) aground: anchor lights + two all-round red."
+  },
+  "meta": {
+    "description": "Two all-round red lights at night mean a vessel not under command; red-white-red means restricted in her ability to manoeuvre. Learn the lights, the day shapes and why you keep clear under COLREG Rules 18 and 27.",
+    "keywords": [
+      "COLREG Rule 27",
+      "not under command lights",
+      "restricted in ability to manoeuvre",
+      "navigation lights",
+      "day shapes",
+      "OOW night watch"
+    ],
+    "hashtags": [
+      "#COLREG",
+      "#Seafarer",
+      "#NavigationLights",
+      "#MaritimeEducation",
+      "#OOW"
+    ],
+    "question": "Have you ever mixed up NUC and aground lights at night?"
+  },
+  "origin": {
+    "type": "queue"
+  },
+  "concept": {
+    "domain": "Navigation",
+    "category": "COLREG",
+    "subcategory": "Lights and shapes",
+    "concept": "Identify NUC and RAM vessels at night",
+    "microConcept": "Two all-round reds vs red-white-red",
+    "contentType": "Night Navigation Challenge",
+    "audience": "Cadet / OOW",
+    "department": "deck",
+    "knowledgeLevel": "Beginner",
+    "shipType": "All",
+    "regulation": "COLREG Rules 18, 27, 30",
+    "equipment": "Navigation lights",
+    "operationalStage": "Navigation watch",
+    "safetyCriticality": "high",
+    "series": "COLREG Night Navigation",
+    "episode": 2,
+    "keyTakeaway": "Two all-round reds: she cannot get out of your way, so you must.",
+    "commonMistake": "Reading two all-round reds as a vessel aground.",
+    "relatedTopics": [
+      "Vessel aground lights",
+      "Constrained by draught lights",
+      "Dredger lights: passing side",
+      "Fishing vessel lights"
+    ]
+  }
+}

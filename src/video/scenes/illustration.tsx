@@ -375,7 +375,7 @@ const SHAPES: Record<string, Draw> = {
   // one line of a calculation (formula, substitution or result)
   eq: (e, k, _t, accent) => {
     const text = e.text ?? '';
-    const w = Math.max(120, text.length * 19 + 48);
+    const w = Math.max(120, text.length * 19.5 + 52);
     const result = e.variant === 'result';
     return (
       <g transform={`translate(${(1 - ease(clamp01(k * 2))) * -30} 0)`}>
@@ -413,13 +413,13 @@ const SHAPES: Record<string, Draw> = {
         <line x1={-nx} y1={-ny} x2={nx} y2={ny} stroke={c} strokeWidth={4} />
         <line x1={dx - nx} y1={dy - ny} x2={dx + nx} y2={dy + ny} stroke={c} strokeWidth={4} opacity={p > 0.95 ? 1 : 0} />
         <line x1={0} y1={0} x2={dx * p} y2={dy * p} stroke={c} strokeWidth={4} strokeDasharray="12 7" />
-        {e.text ? <g transform={`translate(${dx / 2 + nx * 2.4} ${dy / 2 + ny * 2.4})`} opacity={clamp01(k * 2 - 0.6)}><rect x={-(e.text.length * 13 + 24) / 2} y={-24} width={e.text.length * 13 + 24} height={44} rx={10} fill={c} /><text y={9} textAnchor="middle" fontFamily={FONT_HEAD} fontWeight={800} fontSize={26} fill={ink}>{e.text}</text></g> : null}
+        {e.text ? <g transform={`translate(${dx / 2 + nx * 2.4} ${dy / 2 + ny * 2.4})`} opacity={clamp01(k * 2 - 0.6)}><rect x={-(e.text.length * 16.5 + 28) / 2} y={-24} width={e.text.length * 16.5 + 28} height={44} rx={10} fill={c} /><text y={9} textAnchor="middle" fontFamily={FONT_HEAD} fontWeight={800} fontSize={26} fill={ink}>{e.text}</text></g> : null}
       </g>
     );
   },
   label: (e, k, _t, accent) => {
     const text = e.text ?? '';
-    const w = Math.max(60, text.length * 15 + 34);
+    const w = Math.max(70, text.length * 18.5 + 40);
     const lead = e.to ? <line x1={0} y1={0} x2={(e.to[0] - e.x) * ease(clamp01(k * 1.6))} y2={(e.to[1] - e.y) * ease(clamp01(k * 1.6))} stroke={e.color ?? accent} strokeWidth={4} /> : null;
     return <g>{lead}{e.to ? <circle cx={e.to[0] - e.x} cy={e.to[1] - e.y} r={8} fill={e.color ?? accent} opacity={clamp01(k * 2 - 0.8)} /> : null}<rect x={-w / 2} y={-28} width={w} height={52} rx={12} fill={e.color ?? accent} stroke={ink} strokeWidth={2} /><text y={10} textAnchor="middle" fontFamily={FONT_HEAD} fontWeight={800} fontSize={28} fill={ink}>{text}</text></g>;
   },
