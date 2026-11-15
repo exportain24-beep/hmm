@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T01:57:31.166Z",
+  "updatedAt": "2026-11-15T02:24:57.768Z",
   "feedStatus": {
     "safety4sea": "ok (0)",
     "gcaptain": "ok (12)",
@@ -11,30 +11,6 @@
   },
   "minScore": 62,
   "items": [
-    {
-      "fingerprint": "cd0fab1f0e5327a8aaa19316b5c8004af0a277b9",
-      "storyKey": "331962d89306a2b935b5f72e5a3e45427081535f",
-      "sourceId": "marex",
-      "sourceName": "The Maritime Executive",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Everllence Two-Stroke Dual-Fuel Technology Selected for Tanker Project",
-      "url": "https://maritime-executive.com/article/everllence-two-stroke-dual-fuel-technology-selected-for-tanker-project",
-      "summary": "Everllence has received an order from Swan Defence and Heavy Industries Limited (SDHI), India’s largest shipbuilding and heavy engineering company, fo...",
-      "publishedAt": "2026-11-14T22:23:43.000Z",
-      "score": 59,
-      "scores": {
-        "recency": 0.92,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.67,
-        "educationalValue": 0,
-        "seafarerValue": 0.5,
-        "shareability": 1,
-        "visualPotential": 0.5,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
     {
       "fingerprint": "0abc9f40f14158bda65ea525d778244a7cf2d996",
       "storyKey": "271e44e0235b0d26596442d8a8132e82b3630a53",
@@ -48,13 +24,37 @@
       "publishedAt": "2026-11-14T14:41:03.000Z",
       "score": 58,
       "scores": {
-        "recency": 0.77,
+        "recency": 0.76,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
         "seafarerValue": 0,
         "shareability": 0,
         "visualPotential": 1,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "cd0fab1f0e5327a8aaa19316b5c8004af0a277b9",
+      "storyKey": "331962d89306a2b935b5f72e5a3e45427081535f",
+      "sourceId": "marex",
+      "sourceName": "The Maritime Executive",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Everllence Two-Stroke Dual-Fuel Technology Selected for Tanker Project",
+      "url": "https://maritime-executive.com/article/everllence-two-stroke-dual-fuel-technology-selected-for-tanker-project",
+      "summary": "Everllence has received an order from Swan Defence and Heavy Industries Limited (SDHI), India’s largest shipbuilding and heavy engineering company, fo...",
+      "publishedAt": "2026-11-14T22:23:43.000Z",
+      "score": 58,
+      "scores": {
+        "recency": 0.91,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.67,
+        "educationalValue": 0,
+        "seafarerValue": 0.5,
+        "shareability": 1,
+        "visualPotential": 0.5,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
@@ -72,7 +72,7 @@
       "publishedAt": "2026-11-14T15:30:10.000Z",
       "score": 57,
       "scores": {
-        "recency": 0.79,
+        "recency": 0.78,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -120,7 +120,7 @@
       "publishedAt": "2026-11-15T01:06:11.000Z",
       "score": 53,
       "scores": {
-        "recency": 0.98,
+        "recency": 0.97,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -240,7 +240,7 @@
       "publishedAt": "2026-11-14T22:08:51.000Z",
       "score": 48,
       "scores": {
-        "recency": 0.92,
+        "recency": 0.91,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -312,7 +312,7 @@
       "publishedAt": "2026-11-13T13:08:13.000Z",
       "score": 48,
       "scores": {
-        "recency": 0.43,
+        "recency": 0.42,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -336,33 +336,9 @@
       "publishedAt": "2026-11-14T18:13:54.000Z",
       "score": 47,
       "scores": {
-        "recency": 0.84,
+        "recency": 0.83,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0.5,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "7cbf4aafa02e1f2cc2dab916cca7251f6086c295",
-      "storyKey": "b74283dc27f8cef39611dc486a6531c593a4fce7",
-      "sourceId": "marex",
-      "sourceName": "The Maritime Executive",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "US Says IMO Must Move Beyond NZF While Seeking Common Sense Approach",
-      "url": "https://maritime-executive.com/article/us-says-imo-must-move-beyond-nzf-while-seeking-common-sense-approach",
-      "summary": "The United States continues to “firmly oppose” the International Maritime Organization’s Net Zero Framework (NZF), calling it a “tax on shipping.” Spe...",
-      "publishedAt": "2026-11-13T21:11:53.000Z",
-      "score": 47,
-      "scores": {
-        "recency": 0.51,
-        "reliability": 0.85,
-        "maritimeRelevance": 1,
         "educationalValue": 0,
         "seafarerValue": 0,
         "shareability": 0,
@@ -384,7 +360,7 @@
       "publishedAt": "2026-11-14T16:50:51.000Z",
       "score": 46,
       "scores": {
-        "recency": 0.81,
+        "recency": 0.8,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -392,6 +368,30 @@
         "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "7cbf4aafa02e1f2cc2dab916cca7251f6086c295",
+      "storyKey": "b74283dc27f8cef39611dc486a6531c593a4fce7",
+      "sourceId": "marex",
+      "sourceName": "The Maritime Executive",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "US Says IMO Must Move Beyond NZF While Seeking Common Sense Approach",
+      "url": "https://maritime-executive.com/article/us-says-imo-must-move-beyond-nzf-while-seeking-common-sense-approach",
+      "summary": "The United States continues to “firmly oppose” the International Maritime Organization’s Net Zero Framework (NZF), calling it a “tax on shipping.” Spe...",
+      "publishedAt": "2026-11-13T21:11:53.000Z",
+      "score": 46,
+      "scores": {
+        "recency": 0.51,
+        "reliability": 0.85,
+        "maritimeRelevance": 1,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0.5,
         "corroboratingOutlets": 1
       }
     },
@@ -408,7 +408,7 @@
       "publishedAt": "2026-11-12T13:25:35.000Z",
       "score": 46,
       "scores": {
-        "recency": 0.25,
+        "recency": 0.24,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -456,7 +456,7 @@
       "publishedAt": "2026-11-13T17:09:56.000Z",
       "score": 45,
       "scores": {
-        "recency": 0.47,
+        "recency": 0.46,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -552,7 +552,7 @@
       "publishedAt": "2026-11-13T17:51:12.000Z",
       "score": 44,
       "scores": {
-        "recency": 0.48,
+        "recency": 0.47,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -576,7 +576,7 @@
       "publishedAt": "2026-11-13T10:07:00.000Z",
       "score": 44,
       "scores": {
-        "recency": 0.4,
+        "recency": 0.39,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -648,7 +648,7 @@
       "publishedAt": "2026-11-13T09:52:44.000Z",
       "score": 43,
       "scores": {
-        "recency": 0.4,
+        "recency": 0.39,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -672,37 +672,13 @@
       "publishedAt": "2026-11-14T18:33:00.000Z",
       "score": 42,
       "scores": {
-        "recency": 0.84,
+        "recency": 0.83,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
         "seafarerValue": 0,
         "shareability": 1,
         "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "3bec3398601691a2cc5bb2ff6a3127298a88385b",
-      "storyKey": "a54ccaf9e96dbde62a587a2e15b564b600c95b38",
-      "sourceId": "marex",
-      "sourceName": "The Maritime Executive",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "GHD Announces Port Engineering Contracts in Los Angeles and Savannah",
-      "url": "https://maritime-executive.com/article/ghd-announces-port-engineering-contracts-in-los-angeles-and-savannah",
-      "summary": "GHD has been selected as the design engineer for the new marine terminal at the SeaPoint Industrial Terminal Complex in Savannah, Georgia, partnering...",
-      "publishedAt": "2026-11-14T04:34:00.000Z",
-      "score": 42,
-      "scores": {
-        "recency": 0.61,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.33,
-        "educationalValue": 0,
-        "seafarerValue": 0.5,
-        "shareability": 0,
-        "visualPotential": 0.5,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
@@ -724,6 +700,30 @@
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0.5,
+        "seafarerValue": 0.5,
+        "shareability": 0,
+        "visualPotential": 0.5,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "3bec3398601691a2cc5bb2ff6a3127298a88385b",
+      "storyKey": "a54ccaf9e96dbde62a587a2e15b564b600c95b38",
+      "sourceId": "marex",
+      "sourceName": "The Maritime Executive",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "GHD Announces Port Engineering Contracts in Los Angeles and Savannah",
+      "url": "https://maritime-executive.com/article/ghd-announces-port-engineering-contracts-in-los-angeles-and-savannah",
+      "summary": "GHD has been selected as the design engineer for the new marine terminal at the SeaPoint Industrial Terminal Complex in Savannah, Georgia, partnering...",
+      "publishedAt": "2026-11-14T04:34:00.000Z",
+      "score": 41,
+      "scores": {
+        "recency": 0.6,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0,
         "seafarerValue": 0.5,
         "shareability": 0,
         "visualPotential": 0.5,
@@ -864,7 +864,7 @@
       "publishedAt": "2026-11-14T15:04:25.000Z",
       "score": 40,
       "scores": {
-        "recency": 0.78,
+        "recency": 0.77,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1152,7 +1152,7 @@
       "publishedAt": "2026-11-13T11:53:55.000Z",
       "score": 38,
       "scores": {
-        "recency": 0.42,
+        "recency": 0.41,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0.5,
@@ -1176,7 +1176,7 @@
       "publishedAt": "2026-11-13T10:07:56.000Z",
       "score": 38,
       "scores": {
-        "recency": 0.4,
+        "recency": 0.39,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -1224,7 +1224,7 @@
       "publishedAt": "2026-11-13T20:45:59.000Z",
       "score": 35,
       "scores": {
-        "recency": 0.51,
+        "recency": 0.5,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1248,7 +1248,7 @@
       "publishedAt": "2026-11-13T21:38:00.000Z",
       "score": 35,
       "scores": {
-        "recency": 0.52,
+        "recency": 0.51,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1272,7 +1272,7 @@
       "publishedAt": "2026-11-13T10:00:23.000Z",
       "score": 34,
       "scores": {
-        "recency": 0.4,
+        "recency": 0.39,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1368,7 +1368,7 @@
       "publishedAt": "2026-11-13T01:40:34.000Z",
       "score": 32,
       "scores": {
-        "recency": 0.33,
+        "recency": 0.32,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1416,7 +1416,7 @@
       "publishedAt": "2026-11-12T13:23:18.000Z",
       "score": 32,
       "scores": {
-        "recency": 0.25,
+        "recency": 0.24,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1512,7 +1512,7 @@
       "publishedAt": "2026-11-13T09:50:00.000Z",
       "score": 28,
       "scores": {
-        "recency": 0.4,
+        "recency": 0.39,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1680,7 +1680,7 @@
       "publishedAt": "2026-11-14T07:40:00.000Z",
       "score": 27,
       "scores": {
-        "recency": 0.66,
+        "recency": 0.65,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1824,7 +1824,7 @@
       "publishedAt": "2026-11-12T13:22:36.000Z",
       "score": 26,
       "scores": {
-        "recency": 0.25,
+        "recency": 0.24,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1848,7 +1848,7 @@
       "publishedAt": "2026-11-13T19:56:00.000Z",
       "score": 24,
       "scores": {
-        "recency": 0.5,
+        "recency": 0.49,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1920,7 +1920,7 @@
       "publishedAt": "2026-11-14T04:37:00.000Z",
       "score": 20,
       "scores": {
-        "recency": 0.61,
+        "recency": 0.6,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1944,7 +1944,7 @@
       "publishedAt": "2026-11-14T04:32:00.000Z",
       "score": 20,
       "scores": {
-        "recency": 0.61,
+        "recency": 0.6,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
