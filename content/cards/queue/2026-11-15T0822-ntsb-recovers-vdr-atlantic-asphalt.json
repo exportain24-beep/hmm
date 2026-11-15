@@ -1,0 +1,42 @@
+{
+  "id": "ntsb-recovers-vdr-atlantic-asphalt",
+  "type": "investigation",
+  "badge": "UPDATE",
+  "headline": "NTSB Recovers VDR From Tanker Atlantic Asphalt",
+  "headlineAccent": "Atlantic Asphalt",
+  "subheadline": "New Orleans riverboat allision: probe under way",
+  "location": "NEW ORLEANS, USA",
+  "dateLabel": "14 NOV 2026",
+  "insight": "16 NTSB investigators are on site and hold the tanker's voyage data recorder. Port NOLA is suing the owners for over $1m; a court authorised the tanker's arrest.",
+  "publishAtUtc": "2026-11-15T08:22:00Z",
+  "eventId": "HM-2026-111401",
+  "update": true,
+  "priorityScore": 66,
+  "pillar": "safety",
+  "audience": ["Master", "Pilot", "OOW", "Chief Engineer", "DPA", "Ship Manager"],
+  "sources": [
+    {"title": "Federal investigations underway into tanker crash with cruise ship", "publisher": "Yahoo News", "url": "https://www.yahoo.com/news/us/articles/live-ntsb-hold-briefing-tankers-222449673.html", "date": "2026-11-14"},
+    {"title": "National Transportation Safety Board begins investigation into cruise ship collision", "publisher": "WDSU", "url": "https://www.wdsu.com/article/national-transportation-safety-board-investigation-cruise-ship-collision/74431635", "date": "2026-11-14"},
+    {"title": "US court orders arrest of tanker after New Orleans cruise ship collision", "publisher": "Splash247", "url": "https://splash247.com/us-court-orders-arrest-of-tanker-after-new-orleans-cruise-ship-collision/", "date": "2026-11-15"},
+    {"title": "New Orleans port sues to get control of tanker that crashed into cruise ship on Mississippi River", "publisher": "NBC News", "url": "https://www.nbcnews.com/news/us-news/new-orleans-port-sues-get-control-tanker-crashed-cruise-ship-mississip-rcna609362", "date": "2026-11-14"}
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner intelligence desk",
+    "checkedAt": "2026-11-15T07:20:00Z",
+    "notes": "UPDATE to HM-2026-111401 (first card 14 Nov 08:22). NTSB briefing Sat 14 Nov corroborated by WDSU and Yahoo News: NTSB leads with USCG under MOU, 16 investigators on site ~7 days, tanker VDR recovered, interviews to be scheduled, preliminary report within 30 days, final report 18-24 months. Port NOLA lawsuit (>$1m) against the tanker's owners reported by Yahoo-linked coverage, NBC News headline and Splash247; Splash247 reports the Eastern District of Louisiana federal court authorised the arrest of Atlantic Asphalt (NBC: port sues to get control of tanker). No cause findings released; mayor's 'lost control' remark kept off. 'Eight still hospitalised' single-source, not used."
+  },
+  "image": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Steamboat_Natchez._New_Orleans._(48759732042).jpg?width=1600",
+    "credit": "Bernard Spragg / Wikimedia Commons",
+    "license": "CC0 1.0",
+    "representative": true
+  },
+  "meta": {
+    "description": "The U.S. National Transportation Safety Board, partnering with the U.S. Coast Guard, briefed on 14 November 2026 that 16 investigators are on site in New Orleans after the tanker Atlantic Asphalt struck and capsized American Cruise Lines' moored riverboat American Heritage on 13 November. Investigators have recovered the tanker's voyage data recorder, will examine the tanker and the maintenance history of both vessels, and expect a preliminary report within 30 days and a final report in 18 to 24 months; no cause has been determined. The riverboat lies on its side in about 25 feet of water and salvage will follow once conditions are confirmed safe. The Port of New Orleans has sued the tanker's owners for more than $1 million, and a federal court authorised the tanker's arrest.",
+    "keywords": ["NTSB", "Atlantic Asphalt", "American Heritage", "voyage data recorder", "allision", "vessel arrest"],
+    "hashtags": ["#MaritimeSafety", "#NTSB", "#NewOrleans", "#MississippiRiver", "#ShippingNews"],
+    "question": "After an incident, does your crew know how to save the VDR data before it is overwritten?",
+    "altText": "Representative photo of a sternwheel riverboat on the Mississippi at New Orleans, with HeyMariner update card text on the NTSB recovering the voyage data recorder from the tanker Atlantic Asphalt."
+  }
+}

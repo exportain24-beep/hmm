@@ -496,6 +496,30 @@
           "publisher": "WDSU",
           "url": "https://www.wdsu.com/article/new-orleans-mississippi-river-cruise-ship-collision-what-we-know/74426415",
           "date": "2026-11-13"
+        },
+        {
+          "title": "Federal investigations underway into tanker crash with cruise ship",
+          "publisher": "Yahoo News",
+          "url": "https://www.yahoo.com/news/us/articles/live-ntsb-hold-briefing-tankers-222449673.html",
+          "date": "2026-11-14"
+        },
+        {
+          "title": "National Transportation Safety Board begins investigation into cruise ship collision",
+          "publisher": "WDSU",
+          "url": "https://www.wdsu.com/article/national-transportation-safety-board-investigation-cruise-ship-collision/74431635",
+          "date": "2026-11-14"
+        },
+        {
+          "title": "US court orders arrest of tanker after New Orleans cruise ship collision",
+          "publisher": "Splash247",
+          "url": "https://splash247.com/us-court-orders-arrest-of-tanker-after-new-orleans-cruise-ship-collision/",
+          "date": "2026-11-15"
+        },
+        {
+          "title": "New Orleans port sues to get control of tanker that crashed into cruise ship on Mississippi River",
+          "publisher": "NBC News",
+          "url": "https://www.nbcnews.com/news/us-news/new-orleans-port-sues-get-control-tanker-crashed-cruise-ship-mississip-rcna609362",
+          "date": "2026-11-14"
         }
       ],
       "verifiedFacts": [
@@ -504,13 +528,17 @@
         "About 129 passengers aboard; all passengers and crew accounted for, SAR ended (Interesting Engineering; gCaptain; ABC)",
         "32 people treated by LCMC Health (30 passengers, two officers who went into the water), non-critical (Interesting Engineering; Marine Insight-type summary in research feed)",
         "USCG and New Orleans Fire Department (three-alarm, 23 units) responded (Interesting Engineering)",
-        "Port NOLA described the event as an allision; American Heritage had docked ~2 hours earlier for disembarkation at 1350 Port of New Orleans Place (WDSU)"
+        "Port NOLA described the event as an allision; American Heritage had docked ~2 hours earlier for disembarkation at 1350 Port of New Orleans Place (WDSU)",
+        "NTSB leads the investigation with USCG under MOU; 16 investigators on site for ~7 days; tanker VDR recovered; preliminary report within 30 days, final 18-24 months; no cause determined (NTSB briefing 14 Nov via WDSU, Yahoo News)",
+        "American Heritage lies on its side in ~25 ft of water; salvage after conditions confirmed safe (NTSB via Yahoo News)",
+        "Port of New Orleans sued the tanker's owners for more than $1m; federal court (E.D. La.) authorised arrest of Atlantic Asphalt (Splash247; NBC News; Yahoo-linked coverage)"
       ],
       "unverifiedClaims": [
         "Tanker lost power/control before impact (mayor per CNN; emergency source) - cause under investigation",
         "Total persons aboard incl. crew (~200 in some reports)",
         "Tanker flag Marshall Islands and 17,764 dwt, built 2017 (single trade-media summary)",
-        "Any pollution or river closure"
+        "Any pollution or river closure",
+        "Eight people still hospitalised (single linked report, 14 Nov)"
       ],
       "conflicts": [
         "Some outlets say 'sunk', others 'capsized/partly submerged'; use capsized"
@@ -527,9 +555,9 @@
         "source": 9
       },
       "status": "queued",
-      "cardFile": "content/cards/queue/2026-11-14T0822-atlantic-asphalt-capsizes-american-heritage-new-orleans.json",
+      "cardFile": "content/cards/queue/2026-11-15T0822-ntsb-recovers-vdr-atlantic-asphalt.json",
       "published": false,
-      "notes": "Card queued for 08:22 UTC slot 14 Nov. No official USCG/NTSB cause yet; Commons photo of actual vessel not verifiable this run, so CC0 representative New Orleans riverboat photo used. Watch for NTSB launch, cause, salvage/river restrictions -> UPDATE card only if material.",
+      "notes": "Card queued for 08:22 UTC slot 14 Nov. No official USCG/NTSB cause yet; Commons photo of actual vessel not verifiable this run, so CC0 representative New Orleans riverboat photo used. Watch for NTSB launch, cause, salvage/river restrictions -> UPDATE card only if material. 15 Nov 07:20: UPDATE card (NTSB investigation, VDR recovered, port lawsuit and vessel arrest) queued for 08:22Z, score 66. Next update only for NTSB preliminary report/cause, salvage or river restrictions.",
       "versions": [
         {
           "at": "2026-11-14T03:55:00Z",
@@ -538,9 +566,23 @@
         {
           "at": "2026-11-14T07:05:00Z",
           "change": "incident card queued for 2026-11-14T08:22Z"
+        },
+        {
+          "at": "2026-11-15T07:20:00Z",
+          "change": "UPDATE card queued for 2026-11-15T08:22Z: NTSB probe, VDR recovered, Port NOLA lawsuit, tanker arrest"
         }
       ],
-      "updatedAt": "2026-11-14T07:05:00Z"
+      "updatedAt": "2026-11-15T07:20:00Z",
+      "updateScore": 66,
+      "updateScoreBreakdown": {
+        "recency": 18,
+        "safety": 13,
+        "operational": 9,
+        "regulatory": 6,
+        "human": 5,
+        "industry": 6,
+        "source": 9
+      }
     },
     "HM-2026-111402": {
       "eventId": "HM-2026-111402",
@@ -669,14 +711,14 @@
       },
       "status": "monitoring",
       "published": false,
-      "notes": "Rejected for publication: incidents rest only on Iranian state statements, no vessel identified, no independent confirmation. Re-score if UKMTO/JMIC/owner confirms; then treat as new incident or UPDATE to HM-2026-111207 cluster. 14 Nov 21:50: desk run, quota 0; no UKMTO/JMIC/CENTCOM confirmation of the 13-14 Nov mine claims found. gCaptain \"U.S. rejects Iran's mine claim\" (El Gaia) dates from 14 Sep 2026, not this event; excluded as old. Still monitoring, not carded. 15 Nov 00:50: desk run, quota 0; searches still show no UKMTO/JMIC/owner confirmation of the 13-14 Nov mine claims. Monitoring.",
+      "notes": "Rejected for publication: incidents rest only on Iranian state statements, no vessel identified, no independent confirmation. Re-score if UKMTO/JMIC/owner confirms; then treat as new incident or UPDATE to HM-2026-111207 cluster. 14 Nov 21:50: desk run, quota 0; no UKMTO/JMIC/CENTCOM confirmation of the 13-14 Nov mine claims found. gCaptain \"U.S. rejects Iran's mine claim\" (El Gaia) dates from 14 Sep 2026, not this event; excluded as old. Still monitoring, not carded. 15 Nov 00:50: desk run, quota 0; searches still show no UKMTO/JMIC/owner confirmation of the 13-14 Nov mine claims. Monitoring. 15 Nov 07:20: desk run; still no UKMTO/JMIC/CENTCOM/owner confirmation of the 13-14 Nov mine claims found. Monitoring, not carded.",
       "versions": [
         {
           "at": "2026-11-14T19:10:00Z",
           "change": "created; not published (UNCONFIRMED, score 52)"
         }
       ],
-      "updatedAt": "2026-11-15T00:50:00Z"
+      "updatedAt": "2026-11-15T07:20:00Z"
     },
     "HM-2026-111404": {
       "eventId": "HM-2026-111404",
