@@ -340,5 +340,37 @@
         "at": "2026-11-14T17:02:53.417Z"
       }
     }
+  },
+  "2026-11-15-ecdis-route-check": {
+    "title": "ECDIS route check: how to run it properly before the master approves the plan",
+    "producedAt": "2026-11-15T04:48:51.976Z",
+    "platforms": {
+      "youtube": {
+        "id": "CDY6suAp7U4",
+        "url": "https://www.youtube.com/watch?v=CDY6suAp7U4",
+        "at": "2026-11-15T06:00:07.535Z"
+      },
+      "facebook": {
+        "id": "1123932860344106",
+        "url": "https://www.facebook.com/reel/1123932860344106",
+        "at": "2026-11-15T06:00:22.519Z"
+      },
+      "instagram": {
+        "id": "17964792744260392",
+        "at": "2026-11-15T06:02:09.775Z"
+      },
+      "tiktok": {
+        "id": "6af94ae2e5a113497acc3482",
+        "at": "2026-11-15T06:02:20.812Z"
+      },
+      "linkedin": {
+        "id": "6af94aedb9a106584c8e3c9c",
+        "at": "2026-11-15T06:02:31.652Z"
+      },
+      "x": {
+        "id": "6af94af876c23bf1c75fc0e8",
+        "at": "2026-11-15T06:02:39.581Z"
+      }
+    }
   }
 }
