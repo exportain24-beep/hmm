@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T11:25:27.507Z",
+  "updatedAt": "2026-11-15T12:24:46.344Z",
   "feedStatus": {
     "safety4sea": "ok (0)",
     "gcaptain": "ok (12)",
@@ -24,7 +24,7 @@
       "publishedAt": "2026-11-14T14:41:03.000Z",
       "score": 55,
       "scores": {
-        "recency": 0.62,
+        "recency": 0.61,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -48,7 +48,7 @@
       "publishedAt": "2026-11-14T22:23:43.000Z",
       "score": 55,
       "scores": {
-        "recency": 0.74,
+        "recency": 0.72,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -56,30 +56,6 @@
         "shareability": 1,
         "visualPotential": 0.5,
         "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "af8fd3c12fcffe3f586b64fd4ce396943ddfc7e9",
-      "storyKey": "86b513a2fb00439b7247356dfd3851dedea5365a",
-      "sourceId": "marex",
-      "sourceName": "The Maritime Executive",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Korean Partnership's Carbon Capture Proposal Chosen as Basis for IMO Safety",
-      "url": "https://maritime-executive.com/article/korean-partnership-s-carbon-capture-proposal-chosen-as-basis-for-imo-safety",
-      "summary": "A leading Korean public-private partnership comprising 10 maritime organizations has reached a major milestone in the development of international saf...",
-      "publishedAt": "2026-11-14T15:30:10.000Z",
-      "score": 55,
-      "scores": {
-        "recency": 0.63,
-        "reliability": 0.85,
-        "maritimeRelevance": 1,
-        "educationalValue": 0,
-        "seafarerValue": 0.5,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0.5,
         "corroboratingOutlets": 1
       }
     },
@@ -96,7 +72,7 @@
       "publishedAt": "2026-11-13T11:41:30.000Z",
       "score": 55,
       "scores": {
-        "recency": 0.33,
+        "recency": 0.32,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -104,6 +80,30 @@
         "shareability": 1,
         "visualPotential": 0,
         "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "af8fd3c12fcffe3f586b64fd4ce396943ddfc7e9",
+      "storyKey": "86b513a2fb00439b7247356dfd3851dedea5365a",
+      "sourceId": "marex",
+      "sourceName": "The Maritime Executive",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Korean Partnership's Carbon Capture Proposal Chosen as Basis for IMO Safety",
+      "url": "https://maritime-executive.com/article/korean-partnership-s-carbon-capture-proposal-chosen-as-basis-for-imo-safety",
+      "summary": "A leading Korean public-private partnership comprising 10 maritime organizations has reached a major milestone in the development of international saf...",
+      "publishedAt": "2026-11-14T15:30:10.000Z",
+      "score": 54,
+      "scores": {
+        "recency": 0.62,
+        "reliability": 0.85,
+        "maritimeRelevance": 1,
+        "educationalValue": 0,
+        "seafarerValue": 0.5,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0.5,
         "corroboratingOutlets": 1
       }
     },
@@ -120,7 +120,7 @@
       "publishedAt": "2026-11-13T08:10:39.000Z",
       "score": 52,
       "scores": {
-        "recency": 0.31,
+        "recency": 0.3,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -144,7 +144,7 @@
       "publishedAt": "2026-11-14T01:44:29.000Z",
       "score": 50,
       "scores": {
-        "recency": 0.46,
+        "recency": 0.45,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 1,
@@ -168,7 +168,7 @@
       "publishedAt": "2026-11-15T01:06:11.000Z",
       "score": 49,
       "scores": {
-        "recency": 0.79,
+        "recency": 0.77,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -192,7 +192,7 @@
       "publishedAt": "2026-11-13T22:00:58.000Z",
       "score": 49,
       "scores": {
-        "recency": 0.42,
+        "recency": 0.41,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -216,7 +216,7 @@
       "publishedAt": "2026-11-13T22:00:59.000Z",
       "score": 48,
       "scores": {
-        "recency": 0.42,
+        "recency": 0.41,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -240,7 +240,7 @@
       "publishedAt": "2026-11-15T03:48:26.000Z",
       "score": 47,
       "scores": {
-        "recency": 0.84,
+        "recency": 0.82,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -264,7 +264,7 @@
       "publishedAt": "2026-11-14T02:34:17.000Z",
       "score": 46,
       "scores": {
-        "recency": 0.47,
+        "recency": 0.46,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -300,30 +300,6 @@
       }
     },
     {
-      "fingerprint": "cb0a342991246a5bfc441d1e1ad956524ea05f71",
-      "storyKey": "6be90a8d3cecc83512a501eb4c5b3e6b7008322b",
-      "sourceId": "gcaptain",
-      "sourceName": "gCaptain",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Trump To Extend Shipping Waiver For Oil, Fertilizer For 90 Days",
-      "url": "https://gcaptain.com/trump-to-extend-shipping-waiver-for-oil-fertilizer-for-90-days/",
-      "summary": "By Jennifer A. Dlouhy Nov 14, 2026 (Bloomberg) -President Donald Trump is giving energy companies and traders more time to transport oil and other commodities around the US on foreign-flagged ships,...",
-      "publishedAt": "2026-11-14T22:08:51.000Z",
-      "score": 45,
-      "scores": {
-        "recency": 0.74,
-        "reliability": 0.85,
-        "maritimeRelevance": 1,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
       "fingerprint": "7cbf4aafa02e1f2cc2dab916cca7251f6086c295",
       "storyKey": "b74283dc27f8cef39611dc486a6531c593a4fce7",
       "sourceId": "marex",
@@ -336,7 +312,7 @@
       "publishedAt": "2026-11-13T21:11:53.000Z",
       "score": 45,
       "scores": {
-        "recency": 0.41,
+        "recency": 0.4,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -360,13 +336,37 @@
       "publishedAt": "2026-11-12T13:25:35.000Z",
       "score": 45,
       "scores": {
-        "recency": 0.2,
+        "recency": 0.19,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
         "seafarerValue": 0.5,
         "shareability": 0,
         "visualPotential": 0.5,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "cb0a342991246a5bfc441d1e1ad956524ea05f71",
+      "storyKey": "6be90a8d3cecc83512a501eb4c5b3e6b7008322b",
+      "sourceId": "gcaptain",
+      "sourceName": "gCaptain",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Trump To Extend Shipping Waiver For Oil, Fertilizer For 90 Days",
+      "url": "https://gcaptain.com/trump-to-extend-shipping-waiver-for-oil-fertilizer-for-90-days/",
+      "summary": "By Jennifer A. Dlouhy Nov 14, 2026 (Bloomberg) -President Donald Trump is giving energy companies and traders more time to transport oil and other commodities around the US on foreign-flagged ships,...",
+      "publishedAt": "2026-11-14T22:08:51.000Z",
+      "score": 44,
+      "scores": {
+        "recency": 0.72,
+        "reliability": 0.85,
+        "maritimeRelevance": 1,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
@@ -384,7 +384,7 @@
       "publishedAt": "2026-11-14T18:13:54.000Z",
       "score": 44,
       "scores": {
-        "recency": 0.67,
+        "recency": 0.66,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -408,7 +408,7 @@
       "publishedAt": "2026-11-13T22:00:43.000Z",
       "score": 44,
       "scores": {
-        "recency": 0.42,
+        "recency": 0.41,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -432,7 +432,7 @@
       "publishedAt": "2026-11-13T17:09:56.000Z",
       "score": 43,
       "scores": {
-        "recency": 0.38,
+        "recency": 0.37,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -456,7 +456,7 @@
       "publishedAt": "2026-11-13T10:07:00.000Z",
       "score": 43,
       "scores": {
-        "recency": 0.32,
+        "recency": 0.31,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -480,7 +480,7 @@
       "publishedAt": "2026-11-14T16:50:51.000Z",
       "score": 43,
       "scores": {
-        "recency": 0.65,
+        "recency": 0.64,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -528,7 +528,7 @@
       "publishedAt": "2026-11-13T22:00:59.000Z",
       "score": 43,
       "scores": {
-        "recency": 0.42,
+        "recency": 0.41,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0.5,
@@ -552,7 +552,7 @@
       "publishedAt": "2026-11-13T22:00:49.000Z",
       "score": 43,
       "scores": {
-        "recency": 0.42,
+        "recency": 0.41,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0.5,
@@ -576,7 +576,7 @@
       "publishedAt": "2026-11-13T17:51:12.000Z",
       "score": 42,
       "scores": {
-        "recency": 0.38,
+        "recency": 0.37,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -600,7 +600,7 @@
       "publishedAt": "2026-11-13T09:52:44.000Z",
       "score": 42,
       "scores": {
-        "recency": 0.32,
+        "recency": 0.31,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -624,7 +624,7 @@
       "publishedAt": "2026-11-13T22:00:50.000Z",
       "score": 42,
       "scores": {
-        "recency": 0.42,
+        "recency": 0.41,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -648,7 +648,7 @@
       "publishedAt": "2026-11-13T22:00:46.000Z",
       "score": 42,
       "scores": {
-        "recency": 0.42,
+        "recency": 0.41,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -670,7 +670,7 @@
       "url": "https://maritime-executive.com/article/u-s-navy-removes-command-triad-from-attack-sub-after-a-reported-grounding",
       "summary": "Congress has just found out that the Navy removed all three of the top officers of the attack submarine USS South Dakota last month following a ground...",
       "publishedAt": "2026-11-13T03:22:55.000Z",
-      "score": 41,
+      "score": 40,
       "scores": {
         "recency": 0.27,
         "reliability": 0.85,
@@ -696,7 +696,7 @@
       "publishedAt": "2026-11-14T18:33:00.000Z",
       "score": 39,
       "scores": {
-        "recency": 0.68,
+        "recency": 0.66,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -720,7 +720,7 @@
       "publishedAt": "2026-11-14T04:34:00.000Z",
       "score": 39,
       "scores": {
-        "recency": 0.49,
+        "recency": 0.48,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -744,7 +744,7 @@
       "publishedAt": "2026-11-13T21:13:00.000Z",
       "score": 39,
       "scores": {
-        "recency": 0.41,
+        "recency": 0.4,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -768,7 +768,7 @@
       "publishedAt": "2026-11-13T17:37:39.000Z",
       "score": 38,
       "scores": {
-        "recency": 0.38,
+        "recency": 0.37,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -792,7 +792,7 @@
       "publishedAt": "2026-11-13T17:24:08.000Z",
       "score": 38,
       "scores": {
-        "recency": 0.38,
+        "recency": 0.37,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -816,7 +816,7 @@
       "publishedAt": "2026-11-14T00:58:11.000Z",
       "score": 38,
       "scores": {
-        "recency": 0.45,
+        "recency": 0.44,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -840,7 +840,7 @@
       "publishedAt": "2026-11-13T17:18:00.000Z",
       "score": 38,
       "scores": {
-        "recency": 0.38,
+        "recency": 0.37,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -864,7 +864,7 @@
       "publishedAt": "2026-11-13T12:52:44.000Z",
       "score": 38,
       "scores": {
-        "recency": 0.34,
+        "recency": 0.33,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -912,7 +912,7 @@
       "publishedAt": "2026-11-13T22:00:57.000Z",
       "score": 38,
       "scores": {
-        "recency": 0.42,
+        "recency": 0.41,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -936,7 +936,7 @@
       "publishedAt": "2026-11-13T22:00:54.000Z",
       "score": 38,
       "scores": {
-        "recency": 0.42,
+        "recency": 0.41,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -960,7 +960,7 @@
       "publishedAt": "2026-11-13T09:35:00.000Z",
       "score": 37,
       "scores": {
-        "recency": 0.32,
+        "recency": 0.31,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -1056,7 +1056,7 @@
       "publishedAt": "2026-11-14T15:04:25.000Z",
       "score": 37,
       "scores": {
-        "recency": 0.62,
+        "recency": 0.61,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1104,7 +1104,7 @@
       "publishedAt": "2026-11-13T10:07:56.000Z",
       "score": 37,
       "scores": {
-        "recency": 0.32,
+        "recency": 0.31,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -1128,7 +1128,7 @@
       "publishedAt": "2026-11-13T22:00:53.000Z",
       "score": 37,
       "scores": {
-        "recency": 0.42,
+        "recency": 0.41,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -1152,7 +1152,7 @@
       "publishedAt": "2026-11-13T22:00:47.000Z",
       "score": 37,
       "scores": {
-        "recency": 0.42,
+        "recency": 0.41,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0.5,
@@ -1176,7 +1176,7 @@
       "publishedAt": "2026-11-13T22:00:47.000Z",
       "score": 37,
       "scores": {
-        "recency": 0.42,
+        "recency": 0.41,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -1200,7 +1200,7 @@
       "publishedAt": "2026-11-13T02:26:00.000Z",
       "score": 36,
       "scores": {
-        "recency": 0.27,
+        "recency": 0.26,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -1224,7 +1224,7 @@
       "publishedAt": "2026-11-13T20:45:59.000Z",
       "score": 33,
       "scores": {
-        "recency": 0.41,
+        "recency": 0.4,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1248,7 +1248,7 @@
       "publishedAt": "2026-11-13T21:38:00.000Z",
       "score": 33,
       "scores": {
-        "recency": 0.42,
+        "recency": 0.41,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1272,7 +1272,7 @@
       "publishedAt": "2026-11-13T10:00:23.000Z",
       "score": 32,
       "scores": {
-        "recency": 0.32,
+        "recency": 0.31,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1296,7 +1296,7 @@
       "publishedAt": "2026-11-13T22:00:57.000Z",
       "score": 32,
       "scores": {
-        "recency": 0.42,
+        "recency": 0.41,
         "reliability": 0.75,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1320,7 +1320,7 @@
       "publishedAt": "2026-11-13T22:00:41.000Z",
       "score": 32,
       "scores": {
-        "recency": 0.42,
+        "recency": 0.41,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1344,7 +1344,7 @@
       "publishedAt": "2026-11-13T22:00:39.000Z",
       "score": 32,
       "scores": {
-        "recency": 0.42,
+        "recency": 0.41,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1392,7 +1392,7 @@
       "publishedAt": "2026-11-13T01:05:06.000Z",
       "score": 31,
       "scores": {
-        "recency": 0.26,
+        "recency": 0.25,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1416,36 +1416,12 @@
       "publishedAt": "2026-11-12T13:23:18.000Z",
       "score": 31,
       "scores": {
-        "recency": 0.2,
+        "recency": 0.19,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
         "seafarerValue": 0.5,
         "shareability": 1,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "b01911224e631c738ff280d81eadecc21550e726",
-      "storyKey": "31b0a02473e6a936b272fcbb9400acdd33c6f5be",
-      "sourceId": "marineinsight",
-      "sourceName": "Marine Insight",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Panama Canal Raises Daily Transits To 34 And Restores 50-Foot Neopanamax Draft As Water Levels Recover",
-      "url": "https://www.marineinsight.com/panama-canal-raises-daily-transits-to-34-and-restores-50-foot-neopanamax-draft-as-water-levels-recover/?utm_source=rss utm_medium=rss utm_campaign=panama-canal-raises-daily-transits-to-34-and-restores-50-foot-neopanamax-draft-as-water-levels-recover",
-      "summary": "The Panama Canal expanded its transit capacity from 33 to 34 slots per day and increased the maximum allowable draft for ships using the Neopanamax locks to 50 feet.",
-      "publishedAt": "2026-11-12T12:14:32.000Z",
-      "score": 29,
-      "scores": {
-        "recency": 0.19,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.67,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
@@ -1464,7 +1440,7 @@
       "publishedAt": "2026-11-13T16:29:16.000Z",
       "score": 27,
       "scores": {
-        "recency": 0.37,
+        "recency": 0.36,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1488,7 +1464,7 @@
       "publishedAt": "2026-11-13T14:39:48.000Z",
       "score": 27,
       "scores": {
-        "recency": 0.36,
+        "recency": 0.35,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1512,7 +1488,7 @@
       "publishedAt": "2026-11-13T12:38:32.000Z",
       "score": 27,
       "scores": {
-        "recency": 0.34,
+        "recency": 0.33,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1536,7 +1512,7 @@
       "publishedAt": "2026-11-13T09:50:00.000Z",
       "score": 26,
       "scores": {
-        "recency": 0.32,
+        "recency": 0.31,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1560,7 +1536,7 @@
       "publishedAt": "2026-11-13T09:42:00.000Z",
       "score": 26,
       "scores": {
-        "recency": 0.32,
+        "recency": 0.31,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1608,7 +1584,7 @@
       "publishedAt": "2026-11-13T22:00:54.000Z",
       "score": 26,
       "scores": {
-        "recency": 0.42,
+        "recency": 0.41,
         "reliability": 0.75,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1632,7 +1608,7 @@
       "publishedAt": "2026-11-13T22:00:51.000Z",
       "score": 26,
       "scores": {
-        "recency": 0.42,
+        "recency": 0.41,
         "reliability": 0.75,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1656,7 +1632,7 @@
       "publishedAt": "2026-11-13T22:00:50.000Z",
       "score": 26,
       "scores": {
-        "recency": 0.42,
+        "recency": 0.41,
         "reliability": 0.75,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1680,7 +1656,7 @@
       "publishedAt": "2026-11-13T22:00:45.000Z",
       "score": 26,
       "scores": {
-        "recency": 0.42,
+        "recency": 0.41,
         "reliability": 0.75,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1704,7 +1680,7 @@
       "publishedAt": "2026-11-14T07:40:00.000Z",
       "score": 25,
       "scores": {
-        "recency": 0.53,
+        "recency": 0.51,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1728,7 +1704,7 @@
       "publishedAt": "2026-11-13T01:07:00.000Z",
       "score": 25,
       "scores": {
-        "recency": 0.26,
+        "recency": 0.25,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1752,7 +1728,7 @@
       "publishedAt": "2026-11-12T13:22:36.000Z",
       "score": 25,
       "scores": {
-        "recency": 0.2,
+        "recency": 0.19,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1776,7 +1752,7 @@
       "publishedAt": "2026-11-14T04:02:13.000Z",
       "score": 24,
       "scores": {
-        "recency": 0.48,
+        "recency": 0.47,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1800,7 +1776,7 @@
       "publishedAt": "2026-11-14T02:39:30.000Z",
       "score": 24,
       "scores": {
-        "recency": 0.47,
+        "recency": 0.46,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1824,7 +1800,7 @@
       "publishedAt": "2026-11-14T02:35:00.000Z",
       "score": 24,
       "scores": {
-        "recency": 0.47,
+        "recency": 0.46,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1846,9 +1822,9 @@
       "url": "https://maritime-executive.com/article/estonia-confirms-ukrainian-drone-hits-on-russian-corvette-in-the-baltic",
       "summary": "In addition to the serious damage inflicted on the Ust-Luga oil terminal in a Ukrainian strike on Wednesday night, a Russian Navy corvette suffered di...",
       "publishedAt": "2026-11-13T19:56:00.000Z",
-      "score": 23,
+      "score": 22,
       "scores": {
-        "recency": 0.4,
+        "recency": 0.39,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1872,7 +1848,7 @@
       "publishedAt": "2026-11-13T18:18:00.000Z",
       "score": 22,
       "scores": {
-        "recency": 0.39,
+        "recency": 0.38,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1896,7 +1872,7 @@
       "publishedAt": "2026-11-13T09:30:00.000Z",
       "score": 21,
       "scores": {
-        "recency": 0.32,
+        "recency": 0.31,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1920,7 +1896,7 @@
       "publishedAt": "2026-11-14T04:37:00.000Z",
       "score": 20,
       "scores": {
-        "recency": 0.49,
+        "recency": 0.48,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1944,7 +1920,7 @@
       "publishedAt": "2026-11-14T04:32:00.000Z",
       "score": 20,
       "scores": {
-        "recency": 0.49,
+        "recency": 0.48,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1968,7 +1944,7 @@
       "publishedAt": "2026-11-13T22:00:55.000Z",
       "score": 20,
       "scores": {
-        "recency": 0.42,
+        "recency": 0.41,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
