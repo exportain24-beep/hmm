@@ -35,7 +35,7 @@ export const VISUAL_KINDS = ['colreg3d', 'contour3d', 'zoc3d', 'radar', 'ukc', '
 
 /** Visual element per scene (endcard excluded): the scene's own graphic kind, or its backdrop motif. */
 export const visualsOf = (spec: ContentSpec): string[] =>
-  spec.scenes.filter((s) => s.kind !== 'endcard').map((s) => (s.kind === 'toon' ? `toon:${s.toon?.set ?? 'deck'}` : VISUAL_KINDS.includes(s.kind) ? `kind:${s.kind}` : `motif:${pickMotif(spec, s)}`));
+  spec.scenes.filter((s) => s.kind !== 'endcard').map((s) => (s.kind === 'diagram' ? `diagram:${s.id}:${[...new Set((s.diagram?.elements ?? []).map((e) => e.type))].sort().join('+')}` : s.kind === 'toon' ? `toon:${s.toon?.set ?? 'deck'}` : VISUAL_KINDS.includes(s.kind) ? `kind:${s.kind}` : `motif:${pickMotif(spec, s)}`));
 
 /** Problems with how a video's visuals repeat inside itself and against recent videos. */
 export const varietyProblems = (spec: ContentSpec, recent: ContentSpec[]): string[] => {
@@ -53,5 +53,19 @@ export const varietyProblems = (spec: ContentSpec, recent: ContentSpec[]): strin
     if (jac > 0.4) out.push(`visuals too similar to "${r.id}" (${Math.round(jac * 100)}% overlap, max 40%): shared ${[...set].filter((x) => rs.has(x)).join(', ')}`);
     if (v[0] === visualsOf(r)[0] && recent.indexOf(r) >= recent.length - 3) out.push(`hook uses the same visual (${v[0]}) as recent video "${r.id}"`);
   }
+  return out;
+};
+
+/** Owner's rules for new videos (15 Nov 2026): no cartoon humans (toon), and every content scene shows a
+ * detailed 2D picture of what the voice says (diagram) or a dedicated technical visual; text-only scenes are out. */
+export const styleProblems = (spec: ContentSpec): string[] => {
+  const out: string[] = [];
+  const TEXT_ONLY = ['term', 'statement', 'bullets', 'qa', 'checklist', 'compare', 'stat', 'timeline'];
+  spec.scenes.forEach((s, i) => {
+    if (s.kind === 'toon') out.push(`scenes[${i}]: toon scenes are switched off (owner, 15 Nov 2026): use a 2D "diagram" scene`);
+    if (TEXT_ONLY.includes(s.kind)) out.push(`scenes[${i}]: "${s.kind}" is a text scene: show it as a 2D "diagram" scene instead (owner: visuals must show what the voice says)`);
+  });
+  const diagrams = spec.scenes.filter((s) => s.kind === 'diagram').length;
+  if (diagrams < 3) out.push(`only ${diagrams} diagram scenes: at least 3 detailed 2D diagrams per video`);
   return out;
 };

@@ -73,23 +73,27 @@ Every video must look different from the others. Set `motif` on every scene your
 - Pick the motif that shows the scene's own point (a scene about records → inspection, about fatigue → clock), not one motif for the whole topic.
 
 
-## Toon scenes (kind "toon"): seafarers acting in a toon 3D world
-Flat inked characters (round cream heads, stick limbs, big eyes, one even outline) act in a toon 3D maritime set. Use one or two per video where people and actions explain the point better than a diagram: a cadet reacting to a hazard, an officer pointing out the right action, an engineer checking a gauge, a master giving an order. Never more than 2 per video.
+## Toon scenes
+Switched off by the owner on 15 Nov 2026: no cartoon humans. Use 2D diagram scenes.
+
+
+## Diagram scenes (kind "diagram"): the main visual (owner's rule, 15 Nov 2026)
+The voice explains, the picture SHOWS it. Every content scene between the hook and the takeaway is a detailed, ship-related 2D diagram that builds up word by word: when the voice says "spreader", the spreader is ringed; when it says "nine metres", the 9 m dimension line draws. Never a text-only scene (term, statement, bullets, qa, checklist, compare, stat, timeline are out for new videos); at least 3 diagrams per video. 3D scenes (colreg3d, contour3d, zoc3d) and radar/ukc only where they are truly needed.
+Canvas: 1000 x 800 (x right, y down). The sea backdrop has its waterline at y = 520; ship side views stand on their keel at the given y (hull height = len x 0.16).
 ```json
-{"id": "risk", "kind": "toon", "label": "THE RISK", "heading": "You cannot smell low oxygen",
- "narration": "Rust, some cargoes and fresh coatings use up oxygen ...",
- "toon": {
-   "set": "deck",              // deck | bridge | engineroom | quay | lifeboat | office
-   "time": "day",              // day | golden | night (outdoor sets)
-   "shot": "wide",             // wide | medium | close | aerial (first shot; longer scenes glide in on the first beat)
-   "cast": [{"role": "cadet"}, {"role": "officer", "face": "worried"}],   // 1-3: master officer cadet engineer rating pilot inspector
-   "beats": [                  // each lands on the first spoken word of "on", in narration order
-     {"on": "Rust", "who": 1, "arms": "point", "face": "worried"},
-     {"on": "toxic", "who": 0, "face": "surprised", "fx": "question"}
-   ]
- }}
+{"id": "climb", "kind": "diagram", "label": "HEIGHT OF CLIMB", "heading": "Pilot ladder alone: 1.5 to 9 m",
+ "narration": "Alone, a pilot ladder covers a climb of 1.5 to 9 metres. Above 9 metres, add an accommodation ladder.",
+ "diagram": {"bg": "sea", "elements": [
+   {"type": "hull", "x": 600, "y": 80, "w": 400, "h": 620},
+   {"type": "ship", "x": 250, "y": 600, "variant": "pilotboat", "len": 300},
+   {"type": "ladder", "x": 560, "y": 330, "len": 200, "on": "pilot"},
+   {"type": "label", "x": 320, "y": 330, "text": "PILOT LADDER", "to": [560, 400], "on": "ladder"},
+   {"type": "dim", "x": 690, "y": 330, "to": [690, 525], "text": "1.5 - 9 m", "on": "covers"}
+ ]}}
 ```
-- faces: neutral happy grin laugh surprised shocked worried sad angry smug confused thinking sleepy determined
-- arms: idle wave point armsUp shrug hips hold think cross reach clap facepalm
-- fx: smoke steam splash sparkle ring dust exclaim question stars sweat burst
-- A beat every 2-3 seconds; pick the set that is the real place of the action (engine room for machinery, bridge for navigation, quay for mooring, lifeboat for LSA, office for PSC/ISM/regulation). Variety counts each set as its own visual.
+- bg: sea | night | deck | engine | chart | blueprint
+- objects: ship {view side|top, variant container|tanker|bulk|general|tug|pilotboat, len}, hull {w,h} (close-up ship side), quay {w,h}, seabed {h}, ladder {len, r for an accommodation ladder}, person (safety-sign pictogram, use sparingly), lifeboat, davit, liferaft, lifebuoy, anchor {chain}, bollard, winch, engine, pump, valve, pipe {points, flow}, tank {w,h,level 0-1, color}, gauge {value 0-1, danger 0-1, text}, detector {text e.g. "20.9%", color}, extinguisher, fire {size}, smoke, buoy {variant port|starboard|north|south|east|west|special}, light {color}, sector {from,to deg, r2, color} (light arcs), compass, radar, clock {value 0-1 of 24 h}, doc {text}, container {color}, hatch, ecdis
+- annotations: arrow {to}, dim {to, text} (measurement), label {text, to = leader point}, text {text, size}, zone {points or r2, color} (danger/safe area), ring {r2} (highlight), tick, cross, badge {text}, value {from, to2, unit, decimals} (counting number), path {points, mover ship|dot} (track/rope)
+- common: x, y, s (scale), r (rotation), flip, on (spoken word it appears on; elements follow the narration order), off (word it fades on), anim pop|slide|fade, pulse, color, move {to:[x,y], on}
+- 4-30 elements per diagram, at least 3 timed with "on"; labels max 28 characters, upper case. Draw the real thing correctly (the right ship type, the real equipment, real numbers from the verified narration), lay it out cleanly (no overlaps, labels in free space), and make every spoken point visible.
+- Example: content/preview/preview-diagram-pilot-ladder.json

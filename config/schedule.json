@@ -1,11 +1,11 @@
 {
-  "_comment": "Times in UTC. Video slots: rendering starts leadMinutes before the slot; the finished video is held and published at the slot time. 06 UTC = 12:00 Dhaka / 14:00 Manila / 07:00 London; 12 UTC = 18:00 Dhaka / 20:00 Manila / 13:00 CET; 17 UTC = 23:00 Dhaka / 18:00 CET / 12:00 New York. Photo-card times: config/cards.json.",
+  "_comment": "Times in UTC. 5 Shorts a day (owner, 15 Nov 2026). Rendering starts leadMinutes before the slot; the finished video is held and published at the slot time. 04 UTC = 10:00 Dhaka / 12:00 Manila; 07 UTC = 13:00 Dhaka / 07:00 London; 10 UTC = 16:00 Dhaka / 11:00 CET; 13 UTC = 19:00 Dhaka / 14:00 CET / 08:00 New York; 17 UTC = 23:00 Dhaka / 18:00 CET / 12:00 New York. Queue files -1- to -5- go to these slots in order. Photo-card times: config/cards.json.",
   "leadMinutes": 100,
   "graceHours": 3,
   "slots": [
     {
-      "id": "morning",
-      "utcHour": 6,
+      "id": "v1",
+      "utcHour": 4,
       "mode": "evergreen",
       "stream": "deck",
       "pillars": [
@@ -16,30 +16,43 @@
       "label": "Video 1: deck / navigation / seamanship"
     },
     {
-      "id": "midday",
-      "utcHour": 12,
+      "id": "v2",
+      "utcHour": 7,
       "mode": "evergreen",
       "stream": "engine",
       "pillars": [
         "engine"
       ],
-      "label": "Video 2: engine / machinery / electrical / technical"
+      "label": "Video 2: engine / machinery / electrical"
     },
     {
-      "id": "evening",
-      "utcHour": 17,
+      "id": "v3",
+      "utcHour": 10,
       "mode": "evergreen",
       "stream": "safety",
       "pillars": [
         "safety",
         "regulation",
         "equipment",
-        "environment",
-        "career",
-        "technology",
-        "ship-type"
+        "professional"
       ],
-      "label": "Video 3: safety / regulation / equipment / professional knowledge"
+      "label": "Video 3: safety / regulation / equipment"
+    },
+    {
+      "id": "v4",
+      "utcHour": 13,
+      "mode": "evergreen",
+      "stream": "any",
+      "pillars": [],
+      "label": "Video 4: next highest-priority topic (any stream)"
+    },
+    {
+      "id": "v5",
+      "utcHour": 17,
+      "mode": "evergreen",
+      "stream": "any",
+      "pillars": [],
+      "label": "Video 5: next highest-priority topic (any stream)"
     }
   ],
   "oneOff": [

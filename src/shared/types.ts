@@ -14,7 +14,7 @@ export type Pillar =
 
 export type SceneKind =
   | 'hook' | 'term' | 'statement' | 'bullets' | 'qa' | 'checklist' | 'compare' | 'stat'
-  | 'timeline' | 'colreg3d' | 'contour3d' | 'zoc3d' | 'radar' | 'ukc' | 'toon' | 'takeaway' | 'endcard';
+  | 'timeline' | 'colreg3d' | 'contour3d' | 'zoc3d' | 'radar' | 'ukc' | 'toon' | 'diagram' | 'takeaway' | 'endcard';
 
 export type Visual =
   | {type: 'colreg'; scenario: 'crossing' | 'head-on' | 'overtaking'}
@@ -43,9 +43,50 @@ export type SceneSpec = {
   visual?: Visual;
   /** Animated backdrop behind the scene. Chosen automatically from the words when left out. */
   motif?: Motif;
-  /** kind "toon": flat inked seafarers acting in a toon 3D maritime set. */
+  /** kind "toon": flat inked seafarers acting in a toon 3D maritime set (switched off by the owner on 15 Nov 2026). */
   toon?: ToonSpec;
+  /** kind "diagram": a detailed ship-related 2D explainer that builds up word by word. */
+  diagram?: DiagramSpec;
 };
+
+export type DiagramEl = {
+  type: string;
+  /** position on the 1000 x 800 canvas */
+  x: number;
+  y: number;
+  /** appears on this spoken word (first match after the previous element's word) */
+  on?: string;
+  /** fades out on this later word */
+  off?: string;
+  s?: number;
+  r?: number;
+  flip?: boolean;
+  anim?: 'fade' | 'pop' | 'slide' | 'none';
+  pulse?: boolean;
+  color?: string;
+  text?: string;
+  view?: 'side' | 'top';
+  variant?: string;
+  len?: number;
+  w?: number;
+  h?: number;
+  to?: [number, number];
+  points?: [number, number][];
+  level?: number;
+  value?: number;
+  danger?: number;
+  chain?: number;
+  flow?: boolean;
+  size?: number;
+  r2?: number;
+  from?: number;
+  to2?: number;
+  unit?: string;
+  decimals?: number;
+  mover?: 'ship' | 'dot';
+  move?: {to: [number, number]; on: string; dur?: number};
+};
+export type DiagramSpec = {bg?: 'sea' | 'night' | 'deck' | 'engine' | 'chart' | 'blueprint'; elements: DiagramEl[]};
 
 export type ToonSet = 'deck' | 'bridge' | 'engineroom' | 'quay' | 'lifeboat' | 'office';
 export type ToonRole = 'master' | 'officer' | 'cadet' | 'engineer' | 'rating' | 'pilot' | 'inspector';

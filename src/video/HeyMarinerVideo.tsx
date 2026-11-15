@@ -13,6 +13,7 @@ import {accentOf} from './theme';
 import {Colreg3DScene} from './three/Colreg3D';
 import {Contour3DScene, Zoc3DScene} from './three/Seabed3D';
 import {ToonScene} from './scenes/toon';
+import {DiagramScene} from './scenes/illustration';
 
 ensureFonts();
 
@@ -33,6 +34,7 @@ export const SCENES: Record<SceneKind, React.FC<SceneProps>> = {
   radar: RadarScene,
   ukc: UkcScene,
   toon: ToonScene,
+  diagram: DiagramScene,
   takeaway: TakeawayScene,
   endcard: EndCardScene,
 };

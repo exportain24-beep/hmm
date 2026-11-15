@@ -83,8 +83,8 @@ test('research: feed parsing, story key and scoring', () => {
 });
 
 test('schedule: a slot is due only inside its window', () => {
-  assert.equal(dueSlot(new Date('2026-01-05T06:20:00Z'))?.id, 'morning');
-  assert.equal(dueSlot(new Date('2026-01-05T03:00:00Z')), null);
+  assert.equal(dueSlot(new Date('2026-01-05T03:20:00Z'))?.id, 'v1');
+  assert.equal(dueSlot(new Date('2026-01-05T02:00:00Z')), null);
 });
 
 test('metadata differs per platform and respects limits', () => {

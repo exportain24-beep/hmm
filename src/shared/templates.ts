@@ -40,7 +40,7 @@ export const TEMPLATES: Record<TemplateId, TemplateDef> = {
   'heymariner-insight': T({id: 'heymariner-insight', badge: 'MARITIME INSIGHT', accent: 'teal', mood: 'hopeful', voiceProfile: 'narrator', pillars: ['deck', 'engine', 'market', 'technology'], flow: ['hook', 'statement', 'bullets', 'takeaway', 'endcard'], seconds: [35, 75]}),
 };
 
-export const SCENE_KINDS: SceneKind[] = ['hook', 'term', 'statement', 'bullets', 'qa', 'checklist', 'compare', 'stat', 'timeline', 'colreg3d', 'contour3d', 'zoc3d', 'radar', 'ukc', 'toon', 'takeaway', 'endcard'];
+export const SCENE_KINDS: SceneKind[] = ['hook', 'term', 'statement', 'bullets', 'qa', 'checklist', 'compare', 'stat', 'timeline', 'colreg3d', 'contour3d', 'zoc3d', 'radar', 'ukc', 'toon', 'diagram', 'takeaway', 'endcard'];
 export const THREE_D_KINDS: SceneKind[] = ['colreg3d', 'contour3d', 'zoc3d', 'toon'];
 
 /** Text budgets (characters). Components auto-shrink a little, the validator rejects anything beyond this. */

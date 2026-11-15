@@ -1,0 +1,532 @@
+{
+  "id": "preview-diagram-pilot-ladder",
+  "template": "educational-explainer",
+  "pillar": "deck",
+  "series": "One Rule Mariners Should Know",
+  "level": "L2",
+  "audience": [
+    "OOW",
+    "Deck Cadet",
+    "Bosun",
+    "Chief Officer"
+  ],
+  "title": "Pilot ladder rigging (2D diagram preview)",
+  "thumbnailText": "RIG IT LIKE YOU CLIMB IT",
+  "aspect": "9:16",
+  "mood": "tense",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "label": "PILOT TRANSFER",
+      "heading": "Rig it wrong, and the pilot can fall.",
+      "motif": "lighthouse",
+      "narration": "A pilot ladder is life-saving equipment. Rig it wrong, and the person climbing it can fall."
+    },
+    {
+      "id": "height",
+      "kind": "diagram",
+      "label": "HEIGHT OF CLIMB",
+      "heading": "Pilot ladder alone: 1.5 to 9 m",
+      "narration": "Alone, a pilot ladder covers a climb of 1.5 to 9 metres. Above 9 metres, add an accommodation ladder.",
+      "diagram": {
+        "bg": "sea",
+        "elements": [
+          {
+            "type": "hull",
+            "x": 600,
+            "y": 80,
+            "w": 400,
+            "h": 620
+          },
+          {
+            "type": "ship",
+            "x": 250,
+            "y": 600,
+            "variant": "pilotboat",
+            "len": 300
+          },
+          {
+            "type": "ladder",
+            "x": 560,
+            "y": 330,
+            "len": 200,
+            "on": "pilot"
+          },
+          {
+            "type": "label",
+            "x": 320,
+            "y": 330,
+            "text": "PILOT LADDER",
+            "to": [
+              560,
+              400
+            ],
+            "on": "ladder"
+          },
+          {
+            "type": "dim",
+            "x": 690,
+            "y": 330,
+            "to": [
+              690,
+              525
+            ],
+            "text": "1.5 - 9 m",
+            "on": "covers"
+          },
+          {
+            "type": "dim",
+            "x": 900,
+            "y": 80,
+            "to": [
+              900,
+              525
+            ],
+            "text": "OVER 9 m",
+            "on": "Above"
+          },
+          {
+            "type": "ladder",
+            "x": 600,
+            "y": 90,
+            "len": 260,
+            "r": 32,
+            "on": "accommodation"
+          },
+          {
+            "type": "label",
+            "x": 330,
+            "y": 150,
+            "text": "ACCOMMODATION LADDER",
+            "to": [
+              540,
+              220
+            ],
+            "on": "ladder"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rig",
+      "kind": "diagram",
+      "label": "WHERE IT HANGS",
+      "heading": "Clear, inside the parallel body, flat on the hull",
+      "narration": "Hang it clear of discharges, inside the parallel body, every step flat against the hull. The pilot sets the height of the lowest step.",
+      "diagram": {
+        "bg": "sea",
+        "elements": [
+          {
+            "type": "ship",
+            "x": 500,
+            "y": 600,
+            "variant": "general",
+            "len": 900
+          },
+          {
+            "type": "pipe",
+            "x": 0,
+            "y": 0,
+            "points": [
+              [
+                190,
+                480
+              ],
+              [
+                190,
+                560
+              ]
+            ],
+            "flow": true,
+            "color": "#94A3B8",
+            "on": "discharges"
+          },
+          {
+            "type": "cross",
+            "x": 240,
+            "y": 430,
+            "on": "discharges"
+          },
+          {
+            "type": "zone",
+            "x": 0,
+            "y": 0,
+            "points": [
+              [
+                330,
+                440
+              ],
+              [
+                720,
+                440
+              ],
+              [
+                720,
+                560
+              ],
+              [
+                330,
+                560
+              ]
+            ],
+            "color": "#22C55E",
+            "on": "parallel"
+          },
+          {
+            "type": "label",
+            "x": 525,
+            "y": 380,
+            "text": "PARALLEL BODY",
+            "on": "body"
+          },
+          {
+            "type": "ladder",
+            "x": 520,
+            "y": 456,
+            "len": 95,
+            "on": "step"
+          },
+          {
+            "type": "tick",
+            "x": 600,
+            "y": 480,
+            "on": "flat"
+          },
+          {
+            "type": "label",
+            "x": 780,
+            "y": 680,
+            "text": "PILOT DECIDES",
+            "to": [
+              545,
+              550
+            ],
+            "on": "pilot"
+          },
+          {
+            "type": "ring",
+            "x": 545,
+            "y": 548,
+            "r2": 40,
+            "on": "lowest"
+          }
+        ]
+      }
+    },
+    {
+      "id": "secure",
+      "kind": "diagram",
+      "label": "SECURING",
+      "heading": "Strong points, not shortcuts",
+      "cues": [
+        "strong points",
+        "never"
+      ],
+      "narration": "Secure it to strong points rated at least 48 kilonewtons, never to the accommodation ladder platform.",
+      "diagram": {
+        "bg": "blueprint",
+        "elements": [
+          {
+            "type": "ladder",
+            "x": 470,
+            "y": 330,
+            "len": 440
+          },
+          {
+            "type": "bollard",
+            "x": 330,
+            "y": 330,
+            "on": "strong"
+          },
+          {
+            "type": "path",
+            "x": 0,
+            "y": 0,
+            "points": [
+              [
+                470,
+                330
+              ],
+              [
+                350,
+                300
+              ]
+            ],
+            "color": "#C9A26B",
+            "on": "points"
+          },
+          {
+            "type": "label",
+            "x": 300,
+            "y": 200,
+            "text": "STRONG POINT",
+            "to": [
+              330,
+              300
+            ],
+            "on": "rated"
+          },
+          {
+            "type": "value",
+            "x": 760,
+            "y": 300,
+            "from": 0,
+            "to2": 48,
+            "unit": " kN",
+            "on": "48"
+          },
+          {
+            "type": "cross",
+            "x": 760,
+            "y": 470,
+            "on": "never"
+          },
+          {
+            "type": "hatch",
+            "x": 760,
+            "y": 610,
+            "on": "accommodation"
+          },
+          {
+            "type": "label",
+            "x": 760,
+            "y": 700,
+            "text": "NOT THE PLATFORM",
+            "on": "platform"
+          }
+        ]
+      }
+    },
+    {
+      "id": "access",
+      "kind": "diagram",
+      "label": "AT THE ACCESS POINT",
+      "heading": "Ready before the pilot boat arrives",
+      "cues": [
+        "lifebuoy",
+        "heaving line",
+        "manropes",
+        "responsible officer"
+      ],
+      "narration": "At the access point: a lifebuoy with self-igniting light, a heaving line, two manropes, and a responsible officer talking to the bridge.",
+      "diagram": {
+        "bg": "deck",
+        "elements": [
+          {
+            "type": "ring",
+            "x": 500,
+            "y": 410,
+            "r2": 70,
+            "on": "access"
+          },
+          {
+            "type": "lifebuoy",
+            "x": 230,
+            "y": 360,
+            "on": "lifebuoy"
+          },
+          {
+            "type": "light",
+            "x": 280,
+            "y": 300,
+            "on": "light"
+          },
+          {
+            "type": "label",
+            "x": 240,
+            "y": 560,
+            "text": "HEAVING LINE",
+            "on": "heaving"
+          },
+          {
+            "type": "path",
+            "x": 0,
+            "y": 0,
+            "points": [
+              [
+                460,
+                300
+              ],
+              [
+                460,
+                430
+              ]
+            ],
+            "color": "#C9A26B",
+            "on": "manropes"
+          },
+          {
+            "type": "path",
+            "x": 0,
+            "y": 0,
+            "points": [
+              [
+                540,
+                300
+              ],
+              [
+                540,
+                430
+              ]
+            ],
+            "color": "#C9A26B",
+            "on": "manropes"
+          },
+          {
+            "type": "person",
+            "x": 720,
+            "y": 500,
+            "color": "#1D2B4F",
+            "on": "officer"
+          },
+          {
+            "type": "label",
+            "x": 760,
+            "y": 300,
+            "text": "VHF TO BRIDGE",
+            "to": [
+              720,
+              420
+            ],
+            "on": "bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "life",
+      "kind": "diagram",
+      "label": "FROM 1 JANUARY 2028",
+      "heading": "Ladder withdrawn from service after",
+      "narration": "From 2028, a ladder leaves service after 30 months in use, or 36 months from manufacture, whichever comes first.",
+      "diagram": {
+        "bg": "blueprint",
+        "elements": [
+          {
+            "type": "ladder",
+            "x": 170,
+            "y": 200,
+            "len": 470
+          },
+          {
+            "type": "text",
+            "x": 600,
+            "y": 150,
+            "text": "2028",
+            "size": 90,
+            "on": "2028"
+          },
+          {
+            "type": "cross",
+            "x": 200,
+            "y": 420,
+            "on": "leaves"
+          },
+          {
+            "type": "value",
+            "x": 600,
+            "y": 330,
+            "from": 0,
+            "to2": 30,
+            "unit": " months",
+            "on": "30"
+          },
+          {
+            "type": "label",
+            "x": 600,
+            "y": 400,
+            "text": "IN USE",
+            "on": "use"
+          },
+          {
+            "type": "value",
+            "x": 600,
+            "y": 540,
+            "from": 0,
+            "to2": 36,
+            "unit": " months",
+            "on": "36"
+          },
+          {
+            "type": "label",
+            "x": 600,
+            "y": 610,
+            "text": "FROM MANUFACTURE",
+            "on": "manufacture"
+          },
+          {
+            "type": "label",
+            "x": 600,
+            "y": 720,
+            "text": "WHICHEVER IS FIRST",
+            "color": "#FDE047",
+            "on": "first"
+          }
+        ]
+      }
+    },
+    {
+      "id": "take",
+      "kind": "takeaway",
+      "label": "KEY TAKEAWAY",
+      "heading": "Inspect before and after every use",
+      "motif": "inspection",
+      "narration": "Inspect it before and after every use. Rig it as if you were climbing."
+    },
+    {
+      "id": "end",
+      "kind": "endcard",
+      "narration": "Follow HeyMariner for practical maritime knowledge."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Performance standards for pilot transfer arrangements, resolution MSC.576(110)",
+      "publisher": "IMO",
+      "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.576(110).pdf"
+    },
+    {
+      "title": "New IMO requirements for pilot transfer arrangements",
+      "publisher": "DNV",
+      "url": "https://www.dnv.com/news/2026/New-IMO-requirements-for-pilot-transfer-arrangements/",
+      "date": "2026"
+    },
+    {
+      "title": "Safety bulletin 02/25: proper maintenance and rigging of pilot transfer arrangements",
+      "publisher": "Tokyo MOU",
+      "url": "https://www.tokyo-mou.org/safety-bulletin/2025/08/25/safety-bulletin-02-25-proper-maintenance-and-rigging-of-pilot-transfer-arrangements"
+    }
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner daily desk",
+    "checkedAt": "2026-11-14",
+    "notes": "Checked against MSC.576(110): climb 1.5-9 m and combination above 9 m (3.2); clear of discharges, parallel body, steps firmly against ship's side, lowest step as pilot requests (12); strong points/shackles breaking strength not less than 48 kN (6.1); never secured to accommodation ladder lower platform (13.1.6); lifebuoy with self-igniting light, heaving line, two manropes (15.1); responsible officer with communication to bridge (3.7); inspection before and after each use (25.1); withdrawal at 30 months in service or 36 months from manufacture (30). 1 January 2028 application of stowage/maintenance/inspection/operation parts confirmed by DNV (amended SOLAS V/23, MSC.572(110))."
+  },
+  "meta": {
+    "description": "How to rig a pilot ladder the way the new IMO pilot transfer standards require: 1.5 to 9 metres climb, position clear of discharges and flat on the hull, 48 kN strong points and the gear at the access point. From 1 January 2028 ladders also leave service after 30 months in use or 36 months from manufacture.",
+    "keywords": [
+      "pilot ladder rigging",
+      "pilot ladder",
+      "pilot transfer arrangements",
+      "SOLAS V/23",
+      "MSC.576(110)",
+      "pilot boarding",
+      "combination ladder",
+      "seamanship",
+      "deck officer"
+    ],
+    "hashtags": [
+      "#PilotLadder",
+      "#PilotSafety",
+      "#Seamanship",
+      "#SOLAS",
+      "#DeckOfficer"
+    ],
+    "question": "Who on your ship checks the pilot ladder before the pilot boat comes alongside?"
+  },
+  "origin": {
+    "type": "queue"
+  }
+}

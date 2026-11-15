@@ -49,6 +49,29 @@ export const validateSpec = (s: ContentSpec): string[] => {
       if ((it.value ?? '').length > BUDGET.itemValue) e.push(`${at}: item value too long: "${it.title}"`);
     }
     if (x.motif && !MOTIFS.includes(x.motif)) e.push(`${at}: unknown motif "${x.motif}" (use one of: ${MOTIFS.join(', ')})`);
+    if (x.kind === 'diagram') {
+      const TYPES = ['ship', 'hull', 'quay', 'seabed', 'ladder', 'person', 'lifeboat', 'davit', 'liferaft', 'lifebuoy', 'anchor', 'bollard', 'winch', 'engine', 'pump', 'valve', 'pipe', 'tank', 'gauge', 'detector', 'extinguisher', 'fire', 'smoke', 'buoy', 'light', 'sector', 'compass', 'radar', 'clock', 'doc', 'container', 'hatch', 'ecdis', 'arrow', 'dim', 'label', 'text', 'zone', 'ring', 'tick', 'cross', 'badge', 'value', 'path'];
+      const els = x.diagram?.elements ?? [];
+      if (els.length < 4) e.push(`${at}: diagram needs at least 4 elements (a real picture, not a title)`);
+      if (els.length > 30) e.push(`${at}: diagram has more than 30 elements`);
+      if (x.diagram?.bg && !['sea', 'night', 'deck', 'engine', 'chart', 'blueprint'].includes(x.diagram.bg)) e.push(`${at}: diagram bg "${x.diagram.bg}"`);
+      const words = n.toLowerCase().replace(/[^a-z0-9' ]/g, ' ').split(/\s+/);
+      let wpos = 0;
+      els.forEach((el, j) => {
+        if (!TYPES.includes(el.type)) e.push(`${at}: diagram element ${j} type "${el.type}" (use ${TYPES.join(', ')})`);
+        if (!Number.isFinite(el.x) || !Number.isFinite(el.y) || el.x < -150 || el.x > 1150 || el.y < -150 || el.y > 950) e.push(`${at}: diagram element ${j} position outside the 1000x800 canvas`);
+        if (el.on) {
+          const w0 = el.on.toLowerCase().replace(/[^a-z0-9']/g, ' ').trim().split(/\s+/)[0] ?? '';
+          const k = words.indexOf(w0, Math.max(0, wpos - 1));
+          if (k < 0) e.push(`${at}: diagram element ${j} "on": "${el.on}" is not a word of the narration (elements must follow the narration order)`);
+          else wpos = k;
+        }
+        if (el.move && !words.includes(el.move.on.toLowerCase().replace(/[^a-z0-9']/g, ''))) e.push(`${at}: diagram element ${j} move.on "${el.move.on}" is not in the narration`);
+        if (['label', 'text', 'dim', 'value', 'badge'].includes(el.type) && el.type !== 'value' && el.type !== 'dim' && !el.text) e.push(`${at}: diagram element ${j} (${el.type}) needs "text"`);
+        if (el.text && el.text.length > 28) e.push(`${at}: diagram element ${j} text longer than 28 characters (labels stay short)`);
+      });
+      if (els.filter((el) => el.on).length < 3) e.push(`${at}: diagram needs at least 3 elements timed to spoken words ("on")`);
+    }
     if (x.kind === 'toon') {
       const tn = x.toon;
       const SETS = ['deck', 'bridge', 'engineroom', 'quay', 'lifeboat', 'office'];

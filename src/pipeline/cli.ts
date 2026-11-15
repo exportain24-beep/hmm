@@ -13,7 +13,7 @@ import {buildMetadata, uploadKit} from './metadata.ts';
 import {archiveQueueFile, choose, dueSlot, findSpec, loadBank, loadQueue, markSlot, slotPublishAt} from './plan.ts';
 import {makeThumbnail, produce} from './produce.ts';
 import {estimateTimeline} from '../shared/estimate.ts';
-import {varietyProblems} from '../shared/motifs.ts';
+import {styleProblems, varietyProblems} from '../shared/motifs.ts';
 import {setFacebookThumb} from './publish/meta.ts';
 import {PUBLISHERS, publishAll} from './publish/index.ts';
 import {cleanupMedia} from './publish/hosting.ts';
@@ -209,7 +209,7 @@ const main = async () => {
     const recent = Object.entries(state.published()).sort((a, b) => String(a[1].producedAt ?? '').localeCompare(String(b[1].producedAt ?? ''))).slice(-6).map(([id]) => findSpec(id)).filter((x): x is NonNullable<typeof x> => Boolean(x));
     const pending = queue.filter((q) => !state.published()[q.spec.id]).sort((a, b) => String(a.spec.id).localeCompare(String(b.spec.id)));
     const variety = new Map<string, string[]>();
-    pending.forEach((q, i) => variety.set(q.spec.id, varietyProblems(q.spec, [...recent, ...pending.slice(0, i).map((x) => x.spec)].slice(-6))));
+    pending.forEach((q, i) => variety.set(q.spec.id, [...styleProblems(q.spec), ...varietyProblems(q.spec, [...recent, ...pending.slice(0, i).map((x) => x.spec)].slice(-6))]));
     for (const b of [...loadBank(), ...queue]) {
       const e = [...validateSpec(b.spec), ...(variety.get(b.spec.id) ?? []).map((x) => `variety: ${x}`)];
       console.log(`${e.length ? 'FAIL' : 'ok  '} ${b.spec.id}${e.length ? '\n   - ' + e.join('\n   - ') : ''}`);

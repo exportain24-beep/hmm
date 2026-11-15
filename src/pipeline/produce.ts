@@ -41,7 +41,7 @@ export const contactSheet = (video: string, tl: Timeline, out: string) => {
 /** Thumbnail from the strongest visual moment of the video itself (topic graphic + big highlighted headline).
  * Vertical videos get the Reels cover (Facebook + Instagram, 4:5 safe zone) plus a 16:9 version. */
 export const makeThumbnail = (spec: ContentSpec, timeline: Timeline, video: string, out: string, wide: string) => {
-  const vis = spec.scenes.findIndex((s) => THREE_D_KINDS.includes(s.kind) || ['radar', 'ukc', 'stat', 'compare'].includes(s.kind));
+  const vis = spec.scenes.findIndex((s) => THREE_D_KINDS.includes(s.kind) || ['diagram', 'radar', 'ukc', 'stat', 'compare'].includes(s.kind));
   const k = Math.min(vis >= 0 ? vis : 1, timeline.scenes.length - 1);
   const tt = timeline.scenes[k];
   const at = tt.start + Math.min(tt.end - tt.start - 0.4, (tt.cueTimes[0] ?? 0.8) + 1.4);
