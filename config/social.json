@@ -16,9 +16,9 @@
       "privacyStatus": "public"
     },
     "facebook": {
-      "enabled": false,
+      "enabled": true,
       "via": "meta-graph",
-      "_note": "Off since 2026-11-15 by the owner: Instagram cross-posts to Facebook automatically, so HeyMariner posts to Instagram only (videos and photo cards)."
+      "_note": "Back on since 16 Nov 2026: Instagram cross-posting does not carry API posts, so HeyMariner posts to Facebook directly (videos and photo cards)."
     },
     "instagram": {
       "enabled": true,
@@ -51,7 +51,7 @@
     "#shipping"
   ],
   "cards": {
-    "facebook": false,
+    "facebook": true,
     "instagram": true,
     "linkedin": true,
     "x": true
