@@ -33,6 +33,27 @@
    "usedAt": "2026-11-13"
   },
   {
+   "id": "navigating-without-gnss-backup-position-fixing",
+   "title": "GNSS lost: backup position fixing a watchkeeper must be ready for",
+   "stream": "deck",
+   "pillar": "navigation",
+   "level": "L2",
+   "priority": 88,
+   "tags": [
+    "critical",
+    "exam",
+    "new",
+    "visual"
+   ],
+   "startFrom": [
+    "https://imo.org/en/MediaCentre/PressBriefings/Pages/Joint-IMO-ICAO-ITU-statement-satellite-interference.aspx"
+   ],
+   "origin": "IMO/ICAO/ITU warn of rising jamming and spoofing; SOLAS V/19 requires position at all times",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
+  },
+  {
    "id": "pilot-boarding-ladder-rigging-rules",
    "title": "Pilot boarding: ladder rigging rules",
    "stream": "deck",
@@ -93,6 +114,69 @@
    "status": "used",
    "usedBy": "2026-11-14-eca-fuel-changeover",
    "usedAt": "2026-11-14"
+  },
+  {
+   "id": "cargo-securing-manual-what-psc-checks",
+   "title": "Cargo Securing Manual: what PSC checks in the 2026 CIC",
+   "stream": "deck",
+   "pillar": "cargo",
+   "level": "L3",
+   "priority": 84,
+   "tags": [
+    "psc",
+    "new",
+    "critical"
+   ],
+   "startFrom": [
+    "https://parismou.org/2026/08/concentrated-inspection-campaign-cargo-securing",
+    "https://www.imo.org/en/mediacentre/meetingsummaries/pages/msc-default.aspx"
+   ],
+   "origin": "Paris/Tokyo MoU CIC on cargo securing, 1 Sep - 30 Nov 2026",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
+  },
+  {
+   "id": "co2-cylinder-hydrostatic-test-and-weighing",
+   "title": "CO2 cylinders: weighing, level checks and hydrostatic test dates",
+   "stream": "engine",
+   "pillar": "fire",
+   "level": "L3",
+   "priority": 84,
+   "tags": [
+    "psc",
+    "new",
+    "critical"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/mediacentre/meetingsummaries/pages/msc-default.aspx",
+    "https://www.dnv.com/news/2026/imo-sub-committee-on-ship-systems-and-equipment-sse-12/"
+   ],
+   "origin": "SSE 12 draft changes to MSC.1/Circ.1318 go to MSC 112 (Dec 2026)",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
+  },
+  {
+   "id": "lifting-appliances-solas-ii-1-3-13",
+   "title": "Cranes and anchor handling winches: SOLAS II-1/3-13 tests and marking",
+   "stream": "safety",
+   "pillar": "equipment",
+   "level": "L2",
+   "priority": 84,
+   "tags": [
+    "psc",
+    "new",
+    "critical"
+   ],
+   "startFrom": [
+    "https://www.ukpandi.com/news-and-resources/news/article/imo-regulatory-update-2026/",
+    "https://www.imo.org/en/mediacentre/meetingsummaries/pages/msc-default.aspx"
+   ],
+   "origin": "New SOLAS rule in force 1 January 2026; PSC now checks test records",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
   },
   {
    "id": "crankcase-explosion-causes-and-relief-doors",
@@ -210,6 +294,27 @@
    "status": "open"
   },
   {
+   "id": "calculating-safety-depth-draught-ukc-squat-tide",
+   "title": "Calculating your ECDIS safety depth: draught + UKC + squat - tide",
+   "stream": "deck",
+   "pillar": "navigation",
+   "level": "L3",
+   "priority": 80,
+   "tags": [
+    "exam",
+    "critical",
+    "visual",
+    "faq"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/understanding-ecdis-beyond-default-30m-safety-contour"
+   ],
+   "origin": "Over two-thirds of bridge teams leave the 30 m default; worked example on ADMIRALTY",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
+  },
+  {
    "id": "solid-bulk-cargo-liquefaction-imsbc",
    "title": "Solid bulk cargo liquefaction (IMSBC)",
    "stream": "deck",
@@ -248,6 +353,198 @@
    "usedAt": "2026-11-15"
   },
   {
+   "id": "bwms-why-treatment-systems-get-ships-detained",
+   "title": "Why ballast water treatment systems get ships detained",
+   "stream": "engine",
+   "pillar": "environment",
+   "level": "L3",
+   "priority": 78,
+   "tags": [
+    "psc",
+    "faq",
+    "new"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/mediacentre/meetingsummaries/pages/temporary-mepc-84th-session.aspx",
+    "https://www.iims.org.uk/technical-failures-behind-most-ballast-water-detentions/"
+   ],
+   "origin": "BWM CIC: 46% of detainable BWM deficiencies are technical BWMS failures",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
+  },
+  {
+   "id": "purifier-room-fires-and-hot-surfaces",
+   "title": "Purifier room fires: leaks, hot surfaces and quick closing",
+   "stream": "engine",
+   "pillar": "fire",
+   "level": "L2",
+   "priority": 78,
+   "tags": [
+    "accident",
+    "critical",
+    "psc"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/mediacentre/meetingsummaries/pages/msc-default.aspx",
+    "https://www.iims.org.uk/rising-detention-rates-and-recurring-areas-of-concern-in-paris-mou-annual-report-2025/",
+    "https://www.ntsb.gov/news/press-releases/Pages/NR20260915.aspx"
+   ],
+   "origin": "Fire safety is the top Paris MoU deficiency area (16.8%)",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
+  },
+  {
+   "id": "mlc-2025-shore-leave-without-visa",
+   "title": "MLC 2025 amendments: shore leave without a visa",
+   "stream": "safety",
+   "pillar": "welfare",
+   "level": "L2",
+   "priority": 78,
+   "tags": [
+    "new",
+    "faq",
+    "psc"
+   ],
+   "startFrom": [
+    "https://imo.org/en/OurWork/HumanElement/Pages/Seafarers-hours-of-work-and-rest.aspx",
+    "https://www.dnv.com/news/2025/new-amendments-to-the-mlc-2006/"
+   ],
+   "origin": "MLC amendments expected in force December 2027: shore leave, key workers, repatriation",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
+  },
+  {
+   "id": "lithium-ion-battery-fire-on-board",
+   "title": "Lithium-ion battery fires on board: thermal runaway and first actions",
+   "stream": "safety",
+   "pillar": "fire",
+   "level": "L2",
+   "priority": 78,
+   "tags": [
+    "critical",
+    "new",
+    "accident"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/mediacentre/meetingsummaries/pages/msc-default.aspx",
+    "https://www.ntsb.gov/news/press-releases/Pages/NR20260915.aspx",
+    "https://www.dnv.com/news/2026/imo-sub-committee-on-ship-systems-and-equipment-sse-12/"
+   ],
+   "origin": "NTSB lesson: secure and monitor lithium-ion batteries; IMO BESS guidelines due 2028",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
+  },
+  {
+   "id": "watertight-doors-and-integrity",
+   "title": "Watertight doors: why open doors sink ships",
+   "stream": "safety",
+   "pillar": "stability",
+   "level": "L2",
+   "priority": 78,
+   "tags": [
+    "psc",
+    "accident",
+    "critical"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/mediacentre/meetingsummaries/pages/msc-default.aspx",
+    "https://www.ntsb.gov/news/press-releases/Pages/NR20260915.aspx"
+   ],
+   "origin": "NTSB lesson: maintain watertight integrity",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
+  },
+  {
+   "id": "not-all-encs-include-t-and-p-notices",
+   "title": "Not every ENC carries T&P notices: how to check yours",
+   "stream": "deck",
+   "pillar": "charts",
+   "level": "L3",
+   "priority": 76,
+   "tags": [
+    "psc",
+    "critical",
+    "faq"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/charts/digital-charts/admiralty-vector-chart-service/updates-support"
+   ],
+   "origin": "UKHO warns some ENC producers omit T&P NMs; PSC checks chart corrections",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
+  },
+  {
+   "id": "fuel-flashpoint-and-the-bdn-solas-ii-2-4",
+   "title": "Fuel flashpoint and the new BDN declaration under SOLAS II-2/4",
+   "stream": "engine",
+   "pillar": "fuel",
+   "level": "L3",
+   "priority": 76,
+   "tags": [
+    "psc",
+    "critical",
+    "faq"
+   ],
+   "startFrom": [
+    "https://www.ukpandi.com/news-and-resources/news/article/imo-regulatory-update-2026/",
+    "https://www.imo.org/en/mediacentre/meetingsummaries/pages/msc-default.aspx"
+   ],
+   "origin": "SOLAS fuel oil safety amendments in force since 1 January 2026",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
+  },
+  {
+   "id": "strait-of-hormuz-trapped-seafarers-help",
+   "title": "Trapped in a conflict zone: help IMO calls for seafarers",
+   "stream": "safety",
+   "pillar": "welfare",
+   "level": "L2",
+   "priority": 76,
+   "tags": [
+    "new",
+    "faq",
+    "critical"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/mediacentre/pressbriefings/pages/imo-adopts-mass-code.aspx",
+    "https://www.imo.org/en/mediacentre/meetingsummaries/pages/msc-default.aspx",
+    "https://www.hellenicshippingnews.com/maritime-safety-committee-msc-111-key-outcomes-on-autonomous-ships-ghg-safety-and-situation-in-the-strait-of-hormuz/"
+   ],
+   "origin": "MSC 111 resolution on ships and seafarers trapped in the Persian Gulf",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
+  },
+  {
+   "id": "dead-ship-condition-what-it-means",
+   "title": "Dead ship condition: what it means and how you start from it",
+   "stream": "engine",
+   "pillar": "electrical",
+   "level": "L2",
+   "priority": 72,
+   "tags": [
+    "exam",
+    "critical",
+    "faq"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/mediacentre/meetingsummaries/pages/msc-default.aspx",
+    "https://www.glasgowmaritimeacademy.com/new-mca-engineer-orals-syllabus-what-you-need-to-know-min-654-amendment-1-april-2026/",
+    "https://www.ntsb.gov/news/press-releases/Pages/NR20260915.aspx"
+   ],
+   "origin": "Classic oral question; NTSB lesson on loss of electrical power",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
+  },
+  {
    "id": "no-go-areas-and-safety-margins-in-a-passage-plan",
    "title": "No-go areas and safety margins in a passage plan",
    "stream": "deck",
@@ -284,6 +581,26 @@
    "status": "open"
   },
   {
+   "id": "s-129-under-keel-clearance-management",
+   "title": "S-129 under keel clearance management explained",
+   "stream": "deck",
+   "pillar": "navigation",
+   "level": "L4",
+   "priority": 70,
+   "tags": [
+    "new",
+    "visual",
+    "critical"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/news/s-100-timelines-explained"
+   ],
+   "origin": "First-wave S-100 product for UKC planning in shallow ports",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
+  },
+  {
    "id": "fire-triangle-and-classes-of-fire-on-ships",
    "title": "Fire triangle and classes of fire on ships",
    "stream": "safety",
@@ -318,6 +635,26 @@
    ],
    "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
    "status": "open"
+  },
+  {
+   "id": "ecdis-alert-colours-alarm-warning-caution",
+   "title": "ECDIS alarm, warning or caution: what red, orange and yellow mean",
+   "stream": "deck",
+   "pillar": "equipment",
+   "level": "L2",
+   "priority": 68,
+   "tags": [
+    "exam",
+    "psc",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/understanding-ecdis-alerts-how-reduce-alarm-fatigue"
+   ],
+   "origin": "ADMIRALTY/NorthStandard: half of bridge teams cannot tell an alarm from a general alert",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
   },
   {
    "id": "colreg-annex-iv-distress-signals",
@@ -735,23 +1072,6 @@
    "status": "open"
   },
   {
-   "id": "ballast-water-exchange-vs-treatment-d-1-vs-d-2",
-   "title": "Ballast water exchange vs treatment (D-1 vs D-2)",
-   "stream": "deck",
-   "pillar": "deck",
-   "level": "L3",
-   "priority": 64,
-   "tags": [
-    "psc",
-    "new"
-   ],
-   "startFrom": [
-    "https://www.imo.org/en/OurWork/Environment/Pages/Default.aspx"
-   ],
-   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
-   "status": "open"
-  },
-  {
    "id": "dragging-anchor-early-signs-and-actions",
    "title": "Dragging anchor: early signs and actions",
    "stream": "deck",
@@ -859,6 +1179,214 @@
    "status": "used",
    "usedBy": "eca-canadian-arctic-norwegian-sea-2027",
    "usedAt": "2026-11-13"
+  },
+  {
+   "id": "s-100-ecdis-1-january-2029-deadline",
+   "title": "S-100 ECDIS: what must change for installations from 1 January 2029",
+   "stream": "deck",
+   "pillar": "equipment",
+   "level": "L3",
+   "priority": 64,
+   "tags": [
+    "new",
+    "faq",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/news/s-100-timelines-explained",
+    "https://www.admiralty.co.uk/news"
+   ],
+   "origin": "Officers keep asking if their ECDIS must be replaced; only post-2029 installs must comply",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
+  },
+  {
+   "id": "shifting-sandbanks-when-the-chart-is-older-than-the-seabed",
+   "title": "Shifting sandbanks: when the charted depth is out of date",
+   "stream": "deck",
+   "pillar": "navigation",
+   "level": "L3",
+   "priority": 64,
+   "tags": [
+    "accident",
+    "critical",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/publications/publications-and-reference-guides/admiralty-mariners-handbook",
+    "https://www.imarest.org/resource/mp-lessons-learned-at-sea-safety-insights-from-2025.html"
+   ],
+   "origin": "MAIB: bulk carrier grounded on a sandbank formed after river bed shifts",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
+  },
+  {
+   "id": "lost-container-reporting-master-duty",
+   "title": "Lost containers: what the master must now report",
+   "stream": "deck",
+   "pillar": "cargo",
+   "level": "L2",
+   "priority": 64,
+   "tags": [
+    "psc",
+    "faq",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.ukpandi.com/news-and-resources/news/article/imo-regulatory-update-2026/",
+    "https://www.imo.org/en/mediacentre/meetingsummaries/pages/msc-default.aspx"
+   ],
+   "origin": "SOLAS V/31-32 container loss reporting in force since 1 January 2026",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
+  },
+  {
+   "id": "electronic-inclinometers-bulk-and-container-ships",
+   "title": "Electronic inclinometers on bulk carriers and container ships",
+   "stream": "deck",
+   "pillar": "equipment",
+   "level": "L2",
+   "priority": 64,
+   "tags": [
+    "psc",
+    "faq",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.ukpandi.com/news-and-resources/news/article/imo-regulatory-update-2026/",
+    "https://www.imo.org/en/mediacentre/meetingsummaries/pages/msc-default.aspx"
+   ],
+   "origin": "SOLAS V requirement for new ships of 3,000 GT and above from 2026",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
+  },
+  {
+   "id": "north-east-atlantic-eca-what-engineers-must-prepare",
+   "title": "North-East Atlantic ECA: what engineers must prepare for 2027-2028",
+   "stream": "engine",
+   "pillar": "environment",
+   "level": "L3",
+   "priority": 64,
+   "tags": [
+    "new",
+    "psc"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/mediacentre/pressbriefings/pages/imo-progresses-work-on-ship-emissions-pollution-and-ocean-protection.aspx",
+    "https://www.imo.org/en/mediacentre/meetingsummaries/pages/temporary-mepc-84th-session.aspx"
+   ],
+   "origin": "MEPC 84 adopted the world's largest ECA, entry into force 1 September 2027",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
+  },
+  {
+   "id": "lead-acid-battery-explosion-hydrogen",
+   "title": "Battery room explosions: hydrogen from lead-acid batteries",
+   "stream": "engine",
+   "pillar": "electrical",
+   "level": "L2",
+   "priority": 64,
+   "tags": [
+    "accident",
+    "critical",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/mediacentre/meetingsummaries/pages/msc-default.aspx",
+    "https://www.imarest.org/resource/mp-lessons-learned-at-sea-safety-insights-from-2025.html"
+   ],
+   "origin": "MAIB: overdue lead-acid batteries on float charge exploded on a barge",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
+  },
+  {
+   "id": "ozone-depleting-substances-on-board",
+   "title": "Ozone-depleting substances on board: record book and the new ban",
+   "stream": "engine",
+   "pillar": "environment",
+   "level": "L3",
+   "priority": 64,
+   "tags": [
+    "psc",
+    "new"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/mediacentre/meetingsummaries/pages/temporary-mepc-84th-session.aspx"
+   ],
+   "origin": "MEPC 84 new output to prohibit reintroducing ODS on ships (MARPOL VI reg 12)",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
+  },
+  {
+   "id": "pfos-foam-ban-what-crews-must-do",
+   "title": "PFOS foam ban: what crews must do with old foam",
+   "stream": "safety",
+   "pillar": "fire",
+   "level": "L2",
+   "priority": 64,
+   "tags": [
+    "psc",
+    "new"
+   ],
+   "startFrom": [
+    "https://www.ukpandi.com/news-and-resources/news/article/imo-regulatory-update-2026/",
+    "https://www.imo.org/en/mediacentre/meetingsummaries/pages/msc-default.aspx"
+   ],
+   "origin": "PFOS foam prohibited from 1 Jan 2026 (existing ships at first survey)",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
+  },
+  {
+   "id": "vehicle-deck-crush-zones-on-ferries",
+   "title": "Vehicle deck crush zones: staying visible while loading",
+   "stream": "safety",
+   "pillar": "cargo",
+   "level": "L2",
+   "priority": 64,
+   "tags": [
+    "accident",
+    "critical",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/mediacentre/meetingsummaries/pages/msc-default.aspx",
+    "https://www.imarest.org/resource/mp-lessons-learned-at-sea-safety-insights-from-2025.html"
+   ],
+   "origin": "MAIB: bosun fatally crushed guiding vehicles onto a ferry",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
+  },
+  {
+   "id": "top-psc-deficiency-areas-2025",
+   "title": "The three areas where PSC finds the most deficiencies",
+   "stream": "safety",
+   "pillar": "psc",
+   "level": "L3",
+   "priority": 64,
+   "tags": [
+    "psc",
+    "faq",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/mediacentre/meetingsummaries/pages/msc-default.aspx",
+    "https://parismou.org/2026/07/2025-paris-mou-annual-report-port-state-control-progress-and-performance-highlights-paris",
+    "https://www.iims.org.uk/rising-detention-rates-and-recurring-areas-of-concern-in-paris-mou-annual-report-2025/",
+    "https://www.steamshipmutual.com/publications/articles/uscg-publishes-2025-port-state-control-annual-report"
+   ],
+   "origin": "Paris MoU 2025: fire safety 16.8%, structure/electrical 11.6%, MLC Title IV 10%",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
   },
   {
    "id": "gnss-jamming-and-spoofing-what-to-watch-for",
@@ -1068,6 +1596,26 @@
    ],
    "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
    "status": "open"
+  },
+  {
+   "id": "ro-ro-vehicle-deck-fire-detection-2028",
+   "title": "Ro-ro vehicle deck fires: detection and video rules for existing ships from 2028",
+   "stream": "safety",
+   "pillar": "fire",
+   "level": "L3",
+   "priority": 62,
+   "tags": [
+    "new",
+    "critical"
+   ],
+   "startFrom": [
+    "https://www.ukpandi.com/news-and-resources/news/article/imo-regulatory-update-2026/",
+    "https://www.imo.org/en/mediacentre/meetingsummaries/pages/msc-default.aspx"
+   ],
+   "origin": "Existing ro-ro passenger and vehicle ships must comply at first survey after 1 Jan 2028",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
   },
   {
    "id": "ecdis-alarms-vs-indications",
@@ -1293,6 +1841,27 @@
    ],
    "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
    "status": "open"
+  },
+  {
+   "id": "bwms-uv-vs-electrochlorination",
+   "title": "UV vs electro-chlorination ballast water treatment",
+   "stream": "engine",
+   "pillar": "machinery",
+   "level": "L2",
+   "priority": 60,
+   "tags": [
+    "exam",
+    "visual",
+    "faq"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/mediacentre/meetingsummaries/pages/temporary-mepc-84th-session.aspx",
+    "https://www.iims.org.uk/technical-failures-behind-most-ballast-water-detentions/"
+   ],
+   "origin": "Crews lack familiarity with the specific installed BWMS",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
   },
   {
    "id": "mooring-winch-brakes-and-brake-rendering",
@@ -1724,6 +2293,261 @@
    "status": "open"
   },
   {
+   "id": "enc-cancelled-and-withdrawn-cells-readme",
+   "title": "Cancelled cells, withdrawn cells and the AVCS README after each update",
+   "stream": "deck",
+   "pillar": "charts",
+   "level": "L3",
+   "priority": 56,
+   "tags": [
+    "psc",
+    "faq"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/charts/digital-charts/admiralty-vector-chart-service/updates-support"
+   ],
+   "origin": "Navigationally significant README changes are missed after weekly ENC updates",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
+  },
+  {
+   "id": "vdes-successor-to-ais-2028",
+   "title": "VDES: the VHF data exchange system that joins AIS from 2028",
+   "stream": "deck",
+   "pillar": "equipment",
+   "level": "L3",
+   "priority": 56,
+   "tags": [
+    "new",
+    "faq"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/mediacentre/pressbriefings/pages/imo-adopts-mass-code.aspx",
+    "https://www.hellenicshippingnews.com/maritime-safety-committee-msc-111-key-outcomes-on-autonomous-ships-ghg-safety-and-situation-in-the-strait-of-hormuz/"
+   ],
+   "origin": "MSC 111 adopted VDES with entry into force 1 January 2028",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
+  },
+  {
+   "id": "aenp-e-nautical-publications-flag-acceptance",
+   "title": "e-Nautical Publications: are they accepted instead of paper?",
+   "stream": "deck",
+   "pillar": "publications",
+   "level": "L2",
+   "priority": 56,
+   "tags": [
+    "faq",
+    "psc"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/publications/admiralty-e-nautical-publications",
+    "https://www.admiralty.co.uk/publications/publications-and-reference-guides/admiralty-mariners-handbook"
+   ],
+   "origin": "Recurring question on SOLAS carriage of digital publications and flag acceptance",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
+  },
+  {
+   "id": "msi-website-does-not-replace-navtex-egc",
+   "title": "Why a warnings website does not replace NAVTEX and EGC",
+   "stream": "deck",
+   "pillar": "msi",
+   "level": "L3",
+   "priority": 56,
+   "tags": [
+    "faq",
+    "psc"
+   ],
+   "startFrom": [
+    "https://msi.admiralty.co.uk/RadioNavigationalWarnings/About"
+   ],
+   "origin": "UKHO NAVAREA I states online MSI does not relieve masters of monitoring GMDSS broadcasts",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
+  },
+  {
+   "id": "strong-currents-loss-of-control-near-berths",
+   "title": "Strong currents and heavy weather: keeping control near berths",
+   "stream": "deck",
+   "pillar": "shiphandling",
+   "level": "L3",
+   "priority": 56,
+   "tags": [
+    "accident",
+    "critical"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/mediacentre/meetingsummaries/pages/msc-default.aspx",
+    "https://www.ntsb.gov/news/press-releases/Pages/NR20260915.aspx"
+   ],
+   "origin": "NTSB Safer Seas Digest 2025 lesson: operate safely in strong currents or heavy weather",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
+  },
+  {
+   "id": "paper-charts-after-2030-what-ukho-says",
+   "title": "Will ADMIRALTY paper charts disappear? The real timeline",
+   "stream": "deck",
+   "pillar": "charts",
+   "level": "L2",
+   "priority": 56,
+   "tags": [
+    "faq",
+    "new"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/news/paper-chart-withdrawal"
+   ],
+   "origin": "Mariners keep asking about paper chart withdrawal; UKHO extended to at least 2030",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
+  },
+  {
+   "id": "reassembly-after-maintenance-fuel-leak-fires",
+   "title": "Engine room fires after maintenance: put it back exactly right",
+   "stream": "engine",
+   "pillar": "fire",
+   "level": "L3",
+   "priority": 56,
+   "tags": [
+    "accident",
+    "critical"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/mediacentre/meetingsummaries/pages/msc-default.aspx",
+    "https://www.ntsb.gov/news/press-releases/Pages/NR20260915.aspx"
+   ],
+   "origin": "NTSB: O-ring and lube oil maintenance failures caused engine room fires",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
+  },
+  {
+   "id": "methane-slip-measuring-ch4-and-n2o",
+   "title": "Methane slip: how CH4 and N2O from engines are measured",
+   "stream": "engine",
+   "pillar": "environment",
+   "level": "L4",
+   "priority": 56,
+   "tags": [
+    "new",
+    "faq"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/mediacentre/pressbriefings/pages/imo-progresses-work-on-ship-emissions-pollution-and-ocean-protection.aspx",
+    "https://www.imo.org/en/mediacentre/meetingsummaries/pages/temporary-mepc-84th-session.aspx"
+   ],
+   "origin": "MEPC 84 adopted 2026 guidelines on measuring CH4/N2O from marine diesel engines",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
+  },
+  {
+   "id": "fischer-tropsch-and-biofuel-blends-engine-care",
+   "title": "Biofuel and Fischer-Tropsch blends: what changes in the engine room",
+   "stream": "engine",
+   "pillar": "fuel",
+   "level": "L3",
+   "priority": 56,
+   "tags": [
+    "new",
+    "faq"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/mediacentre/meetingsummaries/pages/msc-default.aspx",
+    "https://www.dnv.com/news/2026/imo-sub-committee-on-ship-systems-and-equipment-sse-12/"
+   ],
+   "origin": "SSE 12 alternative fuels work plan includes FT diesel",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
+  },
+  {
+   "id": "fatigue-review-are-rest-hours-enough",
+   "title": "IMO's fatigue review: are today's rest-hour rules enough?",
+   "stream": "safety",
+   "pillar": "human-element",
+   "level": "L3",
+   "priority": 56,
+   "tags": [
+    "new",
+    "faq"
+   ],
+   "startFrom": [
+    "https://imo.org/en/OurWork/HumanElement/Pages/Seafarers-hours-of-work-and-rest.aspx",
+    "https://www.hellenicshippingnews.com/htw-12-imo-advances-seafarer-training-and-launches-new-fatigue-management-initiative/"
+   ],
+   "origin": "HTW 12 began scoping review of hours of work/rest, target 2027",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
+  },
+  {
+   "id": "stcw-simulator-time-replacing-sea-time",
+   "title": "Can simulator time replace sea time? The STCW review",
+   "stream": "safety",
+   "pillar": "career",
+   "level": "L3",
+   "priority": 56,
+   "tags": [
+    "new",
+    "faq"
+   ],
+   "startFrom": [
+    "https://imo.org/en/OurWork/HumanElement/Pages/Seafarers-hours-of-work-and-rest.aspx",
+    "https://www.hellenicshippingnews.com/htw-12-imo-advances-seafarer-training-and-launches-new-fatigue-management-initiative/"
+   ],
+   "origin": "HTW 12 working on partial substitution of seagoing service with simulators",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
+  },
+  {
+   "id": "mlc-medical-care-on-board-psc-findings",
+   "title": "Medical care and welfare: the MLC area PSC flags most",
+   "stream": "safety",
+   "pillar": "welfare",
+   "level": "L2",
+   "priority": 56,
+   "tags": [
+    "psc",
+    "faq"
+   ],
+   "startFrom": [
+    "https://imo.org/en/OurWork/HumanElement/Pages/Seafarers-hours-of-work-and-rest.aspx",
+    "https://www.iims.org.uk/rising-detention-rates-and-recurring-areas-of-concern-in-paris-mou-annual-report-2025/"
+   ],
+   "origin": "MLC Title IV is 10% of Paris MoU deficiencies in 2025",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
+  },
+  {
+   "id": "ballast-water-exchange-vs-treatment-d-1-vs-d-2",
+   "title": "Ballast water exchange vs treatment (D-1 vs D-2)",
+   "stream": "deck",
+   "pillar": "deck",
+   "level": "L3",
+   "priority": 54,
+   "tags": [
+    "psc",
+    "new"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Environment/Pages/Default.aspx"
+   ],
+   "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
+   "status": "open",
+   "rescored": "2026-11-15: -10, D-2 compliance deadline (Sept 2024) has passed"
+  },
+  {
    "id": "ais-what-it-shows-and-what-it-does-not",
    "title": "AIS: what it shows and what it does not",
    "stream": "deck",
@@ -1843,6 +2667,26 @@
    "status": "open"
   },
   {
+   "id": "engine-room-watch-handover-checklist",
+   "title": "Engine room watch handover: the checks the incoming EOOW must make",
+   "stream": "engine",
+   "pillar": "watchkeeping",
+   "level": "L2",
+   "priority": 54,
+   "tags": [
+    "exam",
+    "accident"
+   ],
+   "startFrom": [
+    "https://imo.org/en/OurWork/HumanElement/Pages/Seafarers-hours-of-work-and-rest.aspx",
+    "https://www.glasgowmaritimeacademy.com/new-mca-engineer-orals-syllabus-what-you-need-to-know-min-654-amendment-1-april-2026/"
+   ],
+   "origin": "MIN 654 (Apr 2026) strengthens STCW engineering watchkeeping links",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
+  },
+  {
    "id": "admiralty-list-of-radio-signals-which-volume-for-what",
    "title": "Admiralty List of Radio Signals: which volume for what",
    "stream": "deck",
@@ -1946,6 +2790,26 @@
    "status": "open"
   },
   {
+   "id": "engineer-oral-what-if-scenario-questions",
+   "title": "Engineer orals: how to answer 'what if' scenario questions",
+   "stream": "engine",
+   "pillar": "career",
+   "level": "L3",
+   "priority": 52,
+   "tags": [
+    "exam",
+    "faq"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/mediacentre/meetingsummaries/pages/msc-default.aspx",
+    "https://www.glasgowmaritimeacademy.com/new-mca-engineer-orals-syllabus-what-you-need-to-know-min-654-amendment-1-april-2026/"
+   ],
+   "origin": "MCA engineer orals now more scenario-based",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
+  },
+  {
    "id": "hatch-cover-weathertightness-checks",
    "title": "Hatch cover weathertightness checks",
    "stream": "deck",
@@ -2013,6 +2877,46 @@
    ],
    "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
    "status": "open"
+  },
+  {
+   "id": "s-124-navigational-warnings-on-ecdis",
+   "title": "S-124: navigational warnings drawn directly on ECDIS",
+   "stream": "deck",
+   "pillar": "msi",
+   "level": "L4",
+   "priority": 50,
+   "tags": [
+    "new",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/news/s-100-timelines-explained",
+    "https://msi.admiralty.co.uk/RadioNavigationalWarnings/About"
+   ],
+   "origin": "First-wave S-100 product that changes how NAVAREA and coastal warnings reach the bridge",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
+  },
+  {
+   "id": "totally-enclosed-lifeboat-ventilation-co2",
+   "title": "Lifeboat ventilation: why CO2 must stay under 5,000 ppm",
+   "stream": "safety",
+   "pillar": "lsa",
+   "level": "L3",
+   "priority": 50,
+   "tags": [
+    "new",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/mediacentre/meetingsummaries/pages/msc-default.aspx",
+    "https://www.dnv.com/news/2026/imo-sub-committee-on-ship-systems-and-equipment-sse-12/"
+   ],
+   "origin": "New ventilation rule for survival craft installed from 1 January 2029",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
   },
   {
    "id": "enc-isolated-danger-symbol-and-why-it-matters",
@@ -2804,6 +3708,44 @@
    "status": "open"
   },
   {
+   "id": "nox-technical-code-non-carbon-fuels",
+   "title": "NOx Technical Code changes for ammonia and hydrogen engines",
+   "stream": "engine",
+   "pillar": "environment",
+   "level": "L5",
+   "priority": 42,
+   "tags": [
+    "new"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/mediacentre/pressbriefings/pages/imo-progresses-work-on-ship-emissions-pollution-and-ocean-protection.aspx",
+    "https://www.imo.org/en/mediacentre/meetingsummaries/pages/temporary-mepc-84th-session.aspx"
+   ],
+   "origin": "MEPC 84 approved draft NTC 2008 amendments for non-carbon fuels",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
+  },
+  {
+   "id": "plastic-pellets-transport-code",
+   "title": "Plastic pellets: why IMO is writing a mandatory code",
+   "stream": "safety",
+   "pillar": "environment",
+   "level": "L3",
+   "priority": 42,
+   "tags": [
+    "new"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/mediacentre/pressbriefings/pages/imo-progresses-work-on-ship-emissions-pollution-and-ocean-protection.aspx",
+    "https://www.imo.org/en/mediacentre/meetingsummaries/pages/temporary-mepc-84th-session.aspx"
+   ],
+   "origin": "MEPC 84 agreed a mandatory code for plastic pellets in containers",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
+  },
+  {
    "id": "nautical-almanac-what-officers-still-use-it-for",
    "title": "Nautical Almanac: what officers still use it for",
    "stream": "deck",
@@ -3139,6 +4081,24 @@
    ],
    "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
    "status": "open"
+  },
+  {
+   "id": "maritime-single-window-what-masters-submit",
+   "title": "Maritime Single Window: one submission for every port call",
+   "stream": "safety",
+   "pillar": "facilitation",
+   "level": "L3",
+   "priority": 34,
+   "tags": [
+    "faq"
+   ],
+   "startFrom": [
+    "https://imo.org/en/OurWork/Facilitation/Pages/MaritimeSingleWindow-default.aspx"
+   ],
+   "origin": "Mandatory since 2024; masters still spend hours on port documents",
+   "status": "open",
+   "addedAt": "2026-11-15",
+   "addedBy": "weekly-scout"
   }
  ]
 }
