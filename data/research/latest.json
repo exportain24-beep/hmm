@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-15T17:13:56.797Z",
+  "updatedAt": "2026-11-15T17:25:23.172Z",
   "feedStatus": {
-    "safety4sea": "ok (0)",
+    "safety4sea": "failed: HTTP 415",
     "gcaptain": "ok (12)",
-    "splash247": "ok (10)",
+    "splash247": "failed: HTTP 415",
     "marex": "ok (25)",
     "marineinsight": "ok (15)",
     "hellenic": "ok (20)",
@@ -96,7 +96,7 @@
       "publishedAt": "2026-11-14T22:23:43.000Z",
       "score": 54,
       "scores": {
-        "recency": 0.65,
+        "recency": 0.64,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -132,30 +132,6 @@
       }
     },
     {
-      "fingerprint": "6be2b3d20a947d8fc8a08888ba2139066f805630",
-      "storyKey": "669598384aa7443c24e7d405cc32ac957fd8d9e3",
-      "sourceId": "splash247",
-      "sourceName": "Splash247",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Gulf war leaves toxic legacy that could last decades",
-      "url": "https://splash247.com/gulf-war-leaves-toxic-legacy-that-could-last-decades/",
-      "summary": "Greenpeace has identified 540 possible oil spills across the Gulf, Strait of Hormuz and Arabian Sea since the US-Iran war began on February 28 (see map below), with satellite imagery showing a cumulative slick footprint of approximately 20,000 sq km. Not all detections have been conclusively linked to attacks on shipping. The environmental consequences could",
-      "publishedAt": "2026-11-13T08:10:39.000Z",
-      "score": 51,
-      "scores": {
-        "recency": 0.27,
-        "reliability": 0.85,
-        "maritimeRelevance": 1,
-        "educationalValue": 0.5,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0.5,
-        "regulatoryImportance": 0.5,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
       "fingerprint": "86716c873267097b638dc785954eef0b18b640c1",
       "storyKey": "f580664809554ee78e276fc57ac3b958efe16b59",
       "sourceId": "marineinsight",
@@ -168,7 +144,7 @@
       "publishedAt": "2026-11-15T14:48:43.000Z",
       "score": 51,
       "scores": {
-        "recency": 0.95,
+        "recency": 0.94,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -204,30 +180,6 @@
       }
     },
     {
-      "fingerprint": "2d4f7faa89ee449610a1d44a550fb91cefc15a9a",
-      "storyKey": "320279df07b9e8d3c24da9039426cb38cafa3161",
-      "sourceId": "splash247",
-      "sourceName": "Splash247",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "US court orders arrest of tanker after New Orleans cruise ship collision",
-      "url": "https://splash247.com/us-court-orders-arrest-of-tanker-after-new-orleans-cruise-ship-collision/",
-      "summary": "A US federal court has authorised the arrest of the tanker Atlantic Asphalt after the Port of New Orleans launched legal action seeking more than $1m in damages following the collision that sank American Cruise Lines’ American Heritage. The Board of Commissioners of the Port of New Orleans filed the lawsuit in the Eastern District",
-      "publishedAt": "2026-11-15T01:06:11.000Z",
-      "score": 48,
-      "scores": {
-        "recency": 0.69,
-        "reliability": 0.85,
-        "maritimeRelevance": 1,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0.5,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
       "fingerprint": "90efabd028225c473026ab07bc7b18c84685c51f",
       "storyKey": "3ca83e0238325611b9b021e9062f8239983edea2",
       "sourceId": "marineinsight",
@@ -240,7 +192,7 @@
       "publishedAt": "2026-11-15T13:03:46.000Z",
       "score": 48,
       "scores": {
-        "recency": 0.91,
+        "recency": 0.9,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -540,30 +492,6 @@
       }
     },
     {
-      "fingerprint": "de51dd407f266f42507871dfd3ee4a81ecea6c9a",
-      "storyKey": "4e8f7ba13212d36555b5470eebfa01f00c63486c",
-      "sourceId": "splash247",
-      "sourceName": "Splash247",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "From ocean liner to artificial reef: A warning for container shipping",
-      "url": "https://splash247.com/from-ocean-liner-to-artificial-reef-a-warning-for-container-shipping/",
-      "summary": "Dr Raymon Krishnan, president of Singapore’s Logistics Supply Chain Management Society, writes for Splash today, reflecting on one of this week’s most talked about stories in the mainstream press. On Wednesday, the 990-foot ocean liner SS United States was deliberately sunk off Destin, Florida, to become what is expected to be the world’s largest",
-      "publishedAt": "2026-11-13T10:07:00.000Z",
-      "score": 42,
-      "scores": {
-        "recency": 0.28,
-        "reliability": 0.85,
-        "maritimeRelevance": 1,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 1,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
       "fingerprint": "03c6ce4133eb6b72373ab203e73c613fffe93768",
       "storyKey": "26c52965502c2e25ae71702f62beb206e2ec2e16",
       "sourceId": "marex",
@@ -852,30 +780,6 @@
       }
     },
     {
-      "fingerprint": "d737e28e89ffbc9498450d7f827d069b4333bafb",
-      "storyKey": "606bee6a7b581d0b8291c1ab48cb5f5907e796d7",
-      "sourceId": "splash247",
-      "sourceName": "Splash247",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Tanker sinks river cruise ship in New Orleans collision",
-      "url": "https://splash247.com/tanker-sinks-river-cruise-ship-in-new-orleans-collision/",
-      "summary": "The 17,764 dwt bitumen tanker Atlantic Asphalt has struck and partially sunk a river cruise ship on the Mississippi River in New Orleans, leaving 32 people hospitalised and prompting a major emergency response. The collision occurred at approximately 12.30 pm local time on November 13, when the 2017-built tanker struck American Cruise Lines' American Heritage,",
-      "publishedAt": "2026-11-14T00:58:11.000Z",
-      "score": 37,
-      "scores": {
-        "recency": 0.39,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.67,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0.5,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
       "fingerprint": "f9c7a70d36ccff6ef1a0103ef29503bf70d42362",
       "storyKey": "fdf4b32198d3073a75af0f99d882f29f02233e6e",
       "sourceId": "marex",
@@ -1044,78 +948,6 @@
       }
     },
     {
-      "fingerprint": "6c502059e6bb764240a864fa9afefbf0bd479280",
-      "storyKey": "40c633bf26ce2a3cced422d6f8d72034243e50b2",
-      "sourceId": "splash247",
-      "sourceName": "Splash247",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "UK blacklists 11 ships in fresh Russia sanctions sweep",
-      "url": "https://splash247.com/uk-blacklists-11-ships-in-fresh-russia-sanctions-sweep/",
-      "summary": "Britain has slapped fresh sanctions on 11 ships linked to Russian energy exports, targeting five LNG carriers, five oil tankers and a floating storage unit in its latest effort to disrupt Moscow's seaborne oil and gas trade. The measures also cover nine companies, including Russian oil producer Slavneft, Rosneft's Vostok Oil project and several energy",
-      "publishedAt": "2026-11-13T09:35:00.000Z",
-      "score": 36,
-      "scores": {
-        "recency": 0.28,
-        "reliability": 0.85,
-        "maritimeRelevance": 1,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "f4b19193b79453cc67cc371db4d887b59c0cae03",
-      "storyKey": "3463352bc3a3efe01eef6d6cfdef69413b659739",
-      "sourceId": "splash247",
-      "sourceName": "Splash247",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Pyxis cashes in on ageing MR tanker in $37m deal",
-      "url": "https://splash247.com/pyxis-cashes-in-on-ageing-mr-tanker-in-37m-deal/",
-      "summary": "Greek shipowner Pyxis Tankers has agreed to sell its oldest product tanker for $37m, cashing in on firm asset values and cutting its MR fleet from three vessels to two. The Nasdaq-listed company, led by Eddie Valentis, has struck a deal with an undisclosed third-party buyer for the 2013-built, 46,652 dwt Pyxis Karteria, constructed at",
-      "publishedAt": "2026-11-13T09:23:00.000Z",
-      "score": 36,
-      "scores": {
-        "recency": 0.28,
-        "reliability": 0.85,
-        "maritimeRelevance": 1,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "5ccfdcb0650e0647194d9e192bfa4c8e5f394de5",
-      "storyKey": "4553d01120e7acf2c38ed99fb575339202781537",
-      "sourceId": "splash247",
-      "sourceName": "Splash247",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Baltic Exchange and Mercuria await verdict in landmark tanker index trial",
-      "url": "https://splash247.com/baltic-exchange-and-mercuria-await-verdict-in-landmark-tanker-index-trial/",
-      "summary": "One of shipping's most consequential legal battles has concluded in London, with the Baltic Exchange and commodities trader Mercuria awaiting a High Court ruling on whether the industry's leading VLCC freight benchmark should have continued operating after war erupted in the Middle East. The three-week trial ended yesterday, with judgment expected to take several months.",
-      "publishedAt": "2026-11-13T08:00:31.000Z",
-      "score": 36,
-      "scores": {
-        "recency": 0.27,
-        "reliability": 0.85,
-        "maritimeRelevance": 1,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
       "fingerprint": "d8c265631c1ffff5f6c871a6d1c164f5a99857ba",
       "storyKey": "ef3b0237ca92d7e1c95a5bbc6ab7fc449fa7252f",
       "sourceId": "marex",
@@ -1140,30 +972,6 @@
       }
     },
     {
-      "fingerprint": "46a86d6dbeda982f6e06fb18eb8f6fe29465d795",
-      "storyKey": "97a259e7e89ec3b35e8aee20fa227befef7840c5",
-      "sourceId": "marex",
-      "sourceName": "The Maritime Executive",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "India's Shipping Ministry Asks Public for Help on Cold-Case Fatal Accidents",
-      "url": "https://maritime-executive.com/article/india-s-shipping-ministry-asks-public-for-help-on-cold-case-fatal-accidents",
-      "summary": "India's Directorate General of Maritime Administration is looking for information about a long list of long-past fatality and missing-persons cases in...",
-      "publishedAt": "2026-11-13T02:26:00.000Z",
-      "score": 36,
-      "scores": {
-        "recency": 0.23,
-        "reliability": 0.85,
-        "maritimeRelevance": 1,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
       "fingerprint": "edbd647f8ebf1d81c3f6ac80c3f6e0761d8cf1f1",
       "storyKey": "c856f1786b201b97cb890e2e5351620c90a8cee2",
       "sourceId": "marineinsight",
@@ -1176,7 +984,7 @@
       "publishedAt": "2026-11-14T15:04:25.000Z",
       "score": 36,
       "scores": {
-        "recency": 0.55,
+        "recency": 0.54,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1308,6 +1116,30 @@
       }
     },
     {
+      "fingerprint": "46a86d6dbeda982f6e06fb18eb8f6fe29465d795",
+      "storyKey": "97a259e7e89ec3b35e8aee20fa227befef7840c5",
+      "sourceId": "marex",
+      "sourceName": "The Maritime Executive",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "India's Shipping Ministry Asks Public for Help on Cold-Case Fatal Accidents",
+      "url": "https://maritime-executive.com/article/india-s-shipping-ministry-asks-public-for-help-on-cold-case-fatal-accidents",
+      "summary": "India's Directorate General of Maritime Administration is looking for information about a long list of long-past fatality and missing-persons cases in...",
+      "publishedAt": "2026-11-13T02:26:00.000Z",
+      "score": 35,
+      "scores": {
+        "recency": 0.23,
+        "reliability": 0.85,
+        "maritimeRelevance": 1,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
       "fingerprint": "f4262b41f729bc0dd64e8d84c93225af4af0511d",
       "storyKey": "c1ae217ae42d959ef1cc02954bb223be3430c3de",
       "sourceId": "marex",
@@ -1320,7 +1152,7 @@
       "publishedAt": "2026-11-13T21:38:00.000Z",
       "score": 33,
       "scores": {
-        "recency": 0.37,
+        "recency": 0.36,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1513,54 +1345,6 @@
       "score": 26,
       "scores": {
         "recency": 0.32,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.33,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "a2bbac3b04ab07071c9df0ce02001a5aa1011662",
-      "storyKey": "f1b1d77fa1e39ae66bfd952612bfd74be3b432f3",
-      "sourceId": "splash247",
-      "sourceName": "Splash247",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "BW LPG scores another lucrative Avance VLGC flip",
-      "url": "https://splash247.com/bw-lpg-scores-another-lucrative-avance-vlgc-flip/",
-      "summary": "BW LPG has struck another lucrative vessel sale, offloading a VLGC acquired in John Fredriksen's Avance Gas fleet deal less than two years ago for well over $100m. The New York- and Oslo-listed gas carrier giant has agreed to sell the 2015-built, 83,134 cu m BW Mistral, with the transaction expected to generate a net",
-      "publishedAt": "2026-11-13T09:50:00.000Z",
-      "score": 26,
-      "scores": {
-        "recency": 0.28,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.33,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "66efb4a23e84c0c458391459a56c7a52dd6ab1d0",
-      "storyKey": "96fbaa62b0380121f864febd9cfd9a49b4d960f4",
-      "sourceId": "splash247",
-      "sourceName": "Splash247",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Cetus seals $200m share placement ahead of Oslo debut",
-      "url": "https://splash247.com/cetus-seals-200m-share-placement-ahead-of-oslo-debut/",
-      "summary": "Hong Kong-based dry bulk owner Cetus Maritime has successfully placed a NOK1.89bn ($200m) share offering, including an over-allotment, clearing a major hurdle ahead of its planned Oslo stock market debut next week. The Mark Young-led company said it had conditionally allocated 108.5m shares at NOK17.44 ($1.83) apiece, taking up the full $25m over-allotment on top",
-      "publishedAt": "2026-11-13T09:42:00.000Z",
-      "score": 26,
-      "scores": {
-        "recency": 0.28,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1873,30 +1657,6 @@
       "score": 21,
       "scores": {
         "recency": 0.34,
-        "reliability": 0.85,
-        "maritimeRelevance": 0,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "e56139c229bff13b74f969f7c24af88ad82a27e2",
-      "storyKey": "05a7e6083615d55740c4e4f27f50ff727fa0b88f",
-      "sourceId": "splash247",
-      "sourceName": "Splash247",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Deutsche Windtechnik picked for UK offshore wind maintenance job",
-      "url": "https://splash247.com/deutsche-windtechnik-picked-for-uk-offshore-wind-maintenance-job/",
-      "summary": "German offshore wind services specialist Deutsche Windtechnik has secured a five-year operations and maintenance contract covering two offshore wind farms in the UK. The agreement, awarded by asset manager XceCo, covers the Lynn and Inner Dowsing wind farms off Lincolnshire, which have a combined installed capacity of 194.4MW. The contract will begin on April 1,",
-      "publishedAt": "2026-11-13T09:30:00.000Z",
-      "score": 20,
-      "scores": {
-        "recency": 0.28,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
