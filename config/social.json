@@ -16,8 +16,9 @@
       "privacyStatus": "public"
     },
     "facebook": {
-      "enabled": true,
-      "via": "meta-graph"
+      "enabled": false,
+      "via": "meta-graph",
+      "_note": "Off since 2026-11-15 by the owner: Instagram cross-posts to Facebook automatically, so HeyMariner posts to Instagram only (videos and photo cards)."
     },
     "instagram": {
       "enabled": true,
@@ -48,5 +49,11 @@
     "#maritime",
     "#seafarers",
     "#shipping"
-  ]
+  ],
+  "cards": {
+    "facebook": false,
+    "instagram": true,
+    "linkedin": true,
+    "x": true
+  }
 }
