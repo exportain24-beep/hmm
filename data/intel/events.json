@@ -711,14 +711,14 @@
       },
       "status": "monitoring",
       "published": false,
-      "notes": "Rejected for publication: incidents rest only on Iranian state statements, no vessel identified, no independent confirmation. Re-score if UKMTO/JMIC/owner confirms; then treat as new incident or UPDATE to HM-2026-111207 cluster. 14 Nov 21:50: desk run, quota 0; no UKMTO/JMIC/CENTCOM confirmation of the 13-14 Nov mine claims found. gCaptain \"U.S. rejects Iran's mine claim\" (El Gaia) dates from 14 Sep 2026, not this event; excluded as old. Still monitoring, not carded. 15 Nov 00:50: desk run, quota 0; searches still show no UKMTO/JMIC/owner confirmation of the 13-14 Nov mine claims. Monitoring. 15 Nov 07:20: desk run; still no UKMTO/JMIC/CENTCOM/owner confirmation of the 13-14 Nov mine claims found. Monitoring, not carded. 15 Nov 09:50: desk run, quota 0 (next slot 14:22 outside window); still no UKMTO/JMIC/CENTCOM/owner confirmation found. Monitoring, not carded.",
+      "notes": "Rejected for publication: incidents rest only on Iranian state statements, no vessel identified, no independent confirmation. Re-score if UKMTO/JMIC/owner confirms; then treat as new incident or UPDATE to HM-2026-111207 cluster. 14 Nov 21:50: desk run, quota 0; no UKMTO/JMIC/CENTCOM confirmation of the 13-14 Nov mine claims found. gCaptain \"U.S. rejects Iran's mine claim\" (El Gaia) dates from 14 Sep 2026, not this event; excluded as old. Still monitoring, not carded. 15 Nov 00:50: desk run, quota 0; searches still show no UKMTO/JMIC/owner confirmation of the 13-14 Nov mine claims. Monitoring. 15 Nov 07:20: desk run; still no UKMTO/JMIC/CENTCOM/owner confirmation of the 13-14 Nov mine claims found. Monitoring, not carded. 15 Nov 09:50: desk run, quota 0 (next slot 14:22 outside window); still no UKMTO/JMIC/CENTCOM/owner confirmation found. Monitoring, not carded. 15 Nov 12:50: desk run, quota 1 (14:22 slot); still no UKMTO/JMIC/CENTCOM/owner confirmation (latest JMIC advisory found is Update 113, 12 Nov). Monitoring, not carded. Slot left empty: no fresh candidate scored >=55 (CCC 12 OCCS item dates from Sep session; Oman grounding unnamed/undated; MSC Poesia 'magic pipe' single-source).",
       "versions": [
         {
           "at": "2026-11-14T19:10:00Z",
           "change": "created; not published (UNCONFIRMED, score 52)"
         }
       ],
-      "updatedAt": "2026-11-15T09:50:00Z"
+      "updatedAt": "2026-11-15T12:50:00Z"
     },
     "HM-2026-111404": {
       "eventId": "HM-2026-111404",
