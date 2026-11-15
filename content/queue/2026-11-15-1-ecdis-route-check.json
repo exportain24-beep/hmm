@@ -1,0 +1,218 @@
+{
+  "id": "2026-11-15-ecdis-route-check",
+  "template": "equipment-explained",
+  "pillar": "equipment",
+  "series": "Know Your Equipment",
+  "level": "L3",
+  "audience": [
+    "OOW",
+    "Second Officer",
+    "Chief Officer",
+    "Master",
+    "Deck Cadet"
+  ],
+  "title": "ECDIS route check: how to run it properly before the master approves the plan",
+  "thumbnailText": "EVERY WARNING, EVERY LEG",
+  "aspect": "9:16",
+  "mood": "curious",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "label": "KNOW YOUR EQUIPMENT",
+      "heading": "The route check only knows the numbers you give it",
+      "motif": "chart",
+      "narration": "The ECDIS route check scans every leg for dangers, but only against the settings you give it."
+    },
+    {
+      "id": "set",
+      "kind": "contour3d",
+      "label": "SET IT FIRST",
+      "heading": "Your own safety contour, not the default",
+      "visual": {
+        "type": "safety-contour",
+        "draft": 8,
+        "enteredValue": 11,
+        "contours": [
+          5,
+          10,
+          15,
+          20,
+          30
+        ]
+      },
+      "cues": [
+        "safety contour",
+        "default"
+      ],
+      "narration": "First, set the safety contour from your draught, squat and UKC policy, never the 30 metre default."
+    },
+    {
+      "id": "flags",
+      "kind": "bullets",
+      "label": "WHAT IT FLAGS",
+      "heading": "Inside your XTD corridor",
+      "motif": "bridge",
+      "items": [
+        {
+          "title": "Safety contour crossings"
+        },
+        {
+          "title": "Charted hazards"
+        },
+        {
+          "title": "Special areas"
+        }
+      ],
+      "cues": [
+        "safety contour crossings",
+        "charted hazards",
+        "special areas"
+      ],
+      "narration": "Set a cross-track limit for each leg. The check then flags safety contour crossings, charted hazards in that corridor, and special areas."
+    },
+    {
+      "id": "review",
+      "kind": "toon",
+      "label": "REVIEW EVERY WARNING",
+      "heading": "Amend, check again, then approve",
+      "narration": "Open every warning, do not just acknowledge it. Amend the leg, run the check again, then pass the plan to the master.",
+      "toon": {
+        "set": "bridge",
+        "time": "night",
+        "shot": "medium",
+        "cast": [
+          {
+            "role": "officer",
+            "arms": "hold"
+          },
+          {
+            "role": "master",
+            "arms": "hips"
+          }
+        ],
+        "beats": [
+          {
+            "on": "Open",
+            "who": 0,
+            "arms": "reach",
+            "face": "thinking"
+          },
+          {
+            "on": "acknowledge",
+            "who": 1,
+            "arms": "cross",
+            "face": "determined",
+            "fx": "exclaim"
+          },
+          {
+            "on": "Amend",
+            "who": 0,
+            "arms": "point",
+            "face": "determined"
+          },
+          {
+            "on": "again",
+            "who": 0,
+            "face": "happy",
+            "fx": "sparkle"
+          },
+          {
+            "on": "master",
+            "who": 1,
+            "arms": "clap",
+            "face": "happy"
+          }
+        ]
+      }
+    },
+    {
+      "id": "limits",
+      "kind": "statement",
+      "label": "KNOW ITS LIMITS",
+      "heading": "Then look at the whole route yourself",
+      "motif": "chart",
+      "narration": "Some systems skip small-scale ENCs, and islets hide under labels. So inspect the whole route by eye on the largest scale ENC too."
+    },
+    {
+      "id": "ovit",
+      "kind": "statement",
+      "label": "LESSON: OVIT, 2013",
+      "heading": "A plan straight over the Varne Bank",
+      "motif": "lighthouse",
+      "narration": "In 2013 the tanker Ovit grounded on the Varne Bank. The plan crossed it, was not properly route-checked, and the safety contour sat on the 30 metre default."
+    },
+    {
+      "id": "take",
+      "kind": "takeaway",
+      "label": "KEY TAKEAWAY",
+      "heading": "Right settings. Full check. Every warning.",
+      "motif": "inspection",
+      "narration": "Right settings, a full check, and every warning reviewed."
+    },
+    {
+      "id": "end",
+      "kind": "endcard",
+      "narration": "Follow HeyMariner for practical maritime knowledge."
+    }
+  ],
+  "sources": [
+    {
+      "title": "ECDIS – Guidance for Good Practice (MSC.1/Circ.1503/Rev.2)",
+      "publisher": "IMO",
+      "date": "2022-11-28",
+      "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/IMO%20Documents%20related%20to/MSC.1-Circ.1503-Rev.2.pdf"
+    },
+    {
+      "title": "Understanding ECDIS: beyond the default 30m safety contour",
+      "publisher": "ADMIRALTY (UKHO)",
+      "url": "https://www.admiralty.co.uk/understanding-ecdis-beyond-default-30m-safety-contour"
+    },
+    {
+      "title": "Understanding ECDIS alerts: how to reduce alarm fatigue",
+      "publisher": "ADMIRALTY (UKHO)",
+      "url": "https://www.admiralty.co.uk/understanding-ecdis-alerts-how-reduce-alarm-fatigue"
+    },
+    {
+      "title": "Voyage planning and execution within planned navigation corridors (Marine Notice 09/2024)",
+      "publisher": "AMSA",
+      "url": "https://www.amsa.gov.au/092024-voyage-planning-and-execution-within-planned-navigation-corridors"
+    },
+    {
+      "title": "Grounding of oil/chemical tanker Ovit on the Varne Bank",
+      "publisher": "MAIB",
+      "url": "https://assets.publishing.service.gov.uk/media/547c6f2640f0b60244000007/OvitReport.pdf"
+    }
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner daily desk",
+    "checkedAt": "2026-11-15",
+    "notes": "Safety contour set from vessel requirements (draught, UKC, squat), 30 m default not an effective fallback: ADMIRALTY article. XTD/XTL set per leg, corridor electronically checked for charted hazards with the route check function, hazards reviewed and amended before master's approval: AMSA MN 09/2024. Route check flags hazards within a user-defined distance of the track: ADMIRALTY alerts article. Some ECDIS may not route-check small-scale ENCs; small land features obscured by names/labels; visual inspection of entire route and manual inspection of largest scale ENC: MSC.1/Circ.1503/Rev.2 Appendix 1 item 5. Ovit, 18 Sep 2013, Varne Bank, plan not properly checked using the check-route function, safety contour set to 30 m manufacturer default: MAIB report. 'Special areas' = areas for which special conditions exist (IMO ECDIS performance standards). The contour3d numbers are an illustration only and are not narrated. imo.org Safety page could not be fetched by the desk; the IMO circular PDF on imo.org was used."
+  },
+  "meta": {
+    "description": "How to run the ECDIS route check properly during passage planning: set your own safety contour and cross-track limits, review every warning, and inspect the route by eye where the check has limits. With the lesson of the Ovit grounding on the Varne Bank.",
+    "keywords": [
+      "ECDIS route check",
+      "ECDIS passage planning",
+      "safety contour",
+      "cross track distance",
+      "XTD",
+      "MSC.1/Circ.1503",
+      "ECDIS grounding",
+      "Ovit Varne Bank",
+      "navigation officer"
+    ],
+    "hashtags": [
+      "#ECDIS",
+      "#PassagePlanning",
+      "#Navigation",
+      "#SafetyContour",
+      "#DeckOfficer"
+    ],
+    "question": "What cross-track limit does your ship use in confined waters?"
+  },
+  "origin": {
+    "type": "queue"
+  }
+}

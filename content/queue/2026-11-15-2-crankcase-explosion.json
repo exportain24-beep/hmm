@@ -1,0 +1,195 @@
+{
+  "id": "2026-11-15-crankcase-explosion",
+  "template": "educational-explainer",
+  "pillar": "engine",
+  "series": "Engine Room Insight",
+  "level": "L3",
+  "audience": [
+    "Second Engineer",
+    "Chief Engineer",
+    "Third Engineer",
+    "Engine Cadet"
+  ],
+  "title": "Crankcase explosion: causes, relief valves and actions on an oil mist alarm",
+  "thumbnailText": "STAND CLEAR OF THE DOORS",
+  "aspect": "9:16",
+  "mood": "tense",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "label": "ENGINE ROOM INSIGHT",
+      "heading": "Oil mist alarm: the last warning before the blast",
+      "motif": "fire",
+      "narration": "A high oil mist alarm can be your last warning before a crankcase explosion."
+    },
+    {
+      "id": "start",
+      "kind": "statement",
+      "label": "HOW IT STARTS",
+      "heading": "Hot spot, then oil mist",
+      "motif": "engine",
+      "narration": "It starts with a hot spot, often a rubbing bearing. Near 200 degrees, splashed oil vaporises and condenses into a fine mist. At about 50 milligrams per litre, that mist can explode."
+    },
+    {
+      "id": "second",
+      "kind": "statement",
+      "label": "PRIMARY, THEN SECONDARY",
+      "heading": "The second blast can be worse",
+      "motif": "lighthouse",
+      "narration": "The first blast vents, pressure drops below atmospheric, and fresh air is drawn in. The second explosion can be far more violent."
+    },
+    {
+      "id": "valves",
+      "kind": "bullets",
+      "label": "RELIEF VALVES",
+      "heading": "200 mm bore or 0.6 m³ crankcase",
+      "motif": "pump",
+      "items": [
+        {
+          "title": "Vent the pressure"
+        },
+        {
+          "title": "Trap the flame"
+        },
+        {
+          "title": "Close again"
+        }
+      ],
+      "cues": [
+        "vent the pressure",
+        "trap the flame",
+        "close again"
+      ],
+      "narration": "So engines with a 200 millimetre bore, or a crankcase of 0.6 cubic metres or more, have relief valves. They vent the pressure, trap the flame, and must close again."
+    },
+    {
+      "id": "act",
+      "kind": "toon",
+      "label": "ON THE ALARM",
+      "heading": "Inform, slow down, stand clear",
+      "narration": "On the alarm, tell the bridge and the chief. Slow down and stop when the bridge confirms it is safe. Stay away from the relief doors, with firefighting gear ready.",
+      "toon": {
+        "set": "engineroom",
+        "shot": "medium",
+        "cast": [
+          {
+            "role": "engineer",
+            "face": "worried"
+          },
+          {
+            "role": "rating"
+          }
+        ],
+        "beats": [
+          {
+            "on": "alarm",
+            "who": 0,
+            "face": "shocked",
+            "fx": "exclaim"
+          },
+          {
+            "on": "bridge",
+            "who": 0,
+            "arms": "point",
+            "face": "determined"
+          },
+          {
+            "on": "Slow",
+            "who": 0,
+            "arms": "hold",
+            "face": "thinking"
+          },
+          {
+            "on": "safe",
+            "who": 1,
+            "face": "worried",
+            "fx": "sweat"
+          },
+          {
+            "on": "Stay",
+            "who": 0,
+            "arms": "cross",
+            "face": "determined"
+          },
+          {
+            "on": "firefighting",
+            "who": 1,
+            "arms": "hold",
+            "face": "determined"
+          }
+        ]
+      }
+    },
+    {
+      "id": "take",
+      "kind": "takeaway",
+      "label": "KEY TAKEAWAY",
+      "heading": "Never open a hot crankcase",
+      "motif": "fire",
+      "narration": "Open the crankcase only once it has cooled. Then find the hot spot."
+    },
+    {
+      "id": "end",
+      "kind": "endcard",
+      "narration": "Follow HeyMariner for practical maritime knowledge."
+    }
+  ],
+  "sources": [
+    {
+      "title": "SOLAS chapter II-1 (machinery installations), as implemented in The Merchant Shipping (Cargo Ship Construction) Regulations 1997, reg. 63",
+      "publisher": "UK legislation",
+      "url": "https://www.legislation.gov.uk/uksi/1998/2514/regulation/63/data.xht"
+    },
+    {
+      "title": "Emergency checklists, C6 Oil mist in crankcase",
+      "publisher": "International Chamber of Shipping",
+      "url": "https://www.ics-shipping.org/crm_common/assets/resources/ics_erpg2_c_emergency_checklists.pdf"
+    },
+    {
+      "title": "Crankcase explosions: operational information",
+      "publisher": "marinediesels.info",
+      "url": "https://marinediesels.info/2_stroke_engine_parts/Other_info/Crankcase_Explosions.htm"
+    },
+    {
+      "title": "IACS updates unified requirement on crankcase explosions",
+      "publisher": "MarineLink",
+      "url": "https://marinelink.com/amp/news/iacs-updates-unified-requirement-519775"
+    },
+    {
+      "title": "MAN B&W issues oil mist advice",
+      "publisher": "The Motorship",
+      "url": "https://www.motorship.com/?p=128834"
+    }
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner daily desk",
+    "checkedAt": "2026-11-15",
+    "notes": "Relief valves on engines with cylinder diameter 200 mm or more or crankcase volume 0.6 m3 or more, discharge directed to minimise injury: UK SI 1998/2514 reg. 63(4) (SOLAS II-1 text); 0.6 m3 also MarineLink/IACS UR M10. Hot spot at about 200 C vaporises oil, condenses to mist, lower explosive limit about 50 mg/l; secondary explosion after pressure falls below atmospheric and air is drawn in, more violent; flame arrestors and resealing: marinediesels.info. Alarm actions (inform chief engineer and bridge, slow down and stop if the bridge confirms safe, relief doors not approached, firefighting appliances ready, crankcase opened only once sufficiently cooled, locate hotspot): ICS emergency checklist C6. imo.org Safety page could not be fetched by the desk; SOLAS text verified via UK implementing regulation."
+  },
+  "meta": {
+    "description": "How a crankcase explosion develops from a hot spot to oil mist, why the second explosion can be worse, and what crankcase relief valves must do. The immediate actions on a high oil mist alarm, from informing the bridge to keeping clear of the relief doors.",
+    "keywords": [
+      "crankcase explosion",
+      "oil mist detector",
+      "crankcase relief valve",
+      "oil mist alarm",
+      "main engine",
+      "hot spot",
+      "marine engineering",
+      "engine room safety"
+    ],
+    "hashtags": [
+      "#CrankcaseExplosion",
+      "#MarineEngineering",
+      "#EngineRoom",
+      "#OilMist",
+      "#MarineEngineer"
+    ],
+    "question": "When was the oil mist detector on your main engine last tested?"
+  },
+  "origin": {
+    "type": "queue"
+  }
+}

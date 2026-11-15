@@ -1,0 +1,208 @@
+{
+  "id": "2026-11-15-enclosed-space-rescue-drills",
+  "template": "safety-alert",
+  "pillar": "safety",
+  "series": "Safety Insight",
+  "level": "L3",
+  "audience": [
+    "Chief Officer",
+    "Second Engineer",
+    "Master",
+    "Rating",
+    "Deck Cadet",
+    "Engine Cadet"
+  ],
+  "title": "Enclosed space rescue drills: what SOLAS requires and how to make them real",
+  "thumbnailText": "NEVER RESCUE ALONE",
+  "aspect": "9:16",
+  "mood": "tense",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "label": "SAFETY INSIGHT",
+      "heading": "The urge to jump in is how rescuers die",
+      "motif": "tank",
+      "narration": "When someone collapses in a tank, the urge to jump in is huge. That is how rescuers become casualties."
+    },
+    {
+      "id": "stat",
+      "kind": "stat",
+      "label": "ENCLOSED SPACE DEATHS",
+      "heading": "Deaths in enclosed spaces since 1996",
+      "motif": "globe",
+      "items": [
+        {
+          "title": "InterManager estimate, 2025",
+          "value": "≈350"
+        }
+      ],
+      "narration": "InterManager estimates that around 350 seafarers and other workers have died in enclosed spaces since 1996."
+    },
+    {
+      "id": "attendant",
+      "kind": "toon",
+      "label": "THE ATTENDANT",
+      "heading": "Raise the alarm. Do not go in.",
+      "narration": "The attendant at the hatch never goes in. Raise the alarm, keep talking to the entrant, and wait for the rescue team in breathing apparatus.",
+      "toon": {
+        "set": "deck",
+        "time": "day",
+        "shot": "medium",
+        "cast": [
+          {
+            "role": "cadet",
+            "face": "worried"
+          },
+          {
+            "role": "rating"
+          }
+        ],
+        "beats": [
+          {
+            "on": "attendant",
+            "who": 0,
+            "face": "shocked",
+            "fx": "exclaim"
+          },
+          {
+            "on": "never",
+            "who": 1,
+            "arms": "cross",
+            "face": "determined"
+          },
+          {
+            "on": "alarm",
+            "who": 0,
+            "arms": "armsUp",
+            "face": "determined",
+            "fx": "ring"
+          },
+          {
+            "on": "talking",
+            "who": 0,
+            "arms": "reach",
+            "face": "worried"
+          },
+          {
+            "on": "rescue",
+            "who": 1,
+            "arms": "point",
+            "face": "determined"
+          }
+        ]
+      }
+    },
+    {
+      "id": "solas",
+      "kind": "checklist",
+      "label": "SOLAS III/19.3.6",
+      "heading": "A drill at least every two months",
+      "motif": "inspection",
+      "items": [
+        {
+          "title": "PPE for entry"
+        },
+        {
+          "title": "Communications"
+        },
+        {
+          "title": "Gas meters"
+        },
+        {
+          "title": "Rescue gear"
+        },
+        {
+          "title": "First aid and CPR"
+        }
+      ],
+      "cues": [
+        "PPE",
+        "communications",
+        "gas meters",
+        "rescue gear",
+        "first aid"
+      ],
+      "narration": "So SOLAS requires an entry and rescue drill at least every two months, using PPE, communications, gas meters and rescue gear, plus first aid and resuscitation."
+    },
+    {
+      "id": "real",
+      "kind": "statement",
+      "label": "MAKE IT REAL",
+      "heading": "Drill the spaces on your register",
+      "motif": "tank",
+      "narration": "IMO's 2025 revised recommendations say: drill the spaces in your enclosed space register, review the rescue plan after each drill, and never use an EEBD for entry."
+    },
+    {
+      "id": "take",
+      "kind": "takeaway",
+      "label": "KEY TAKEAWAY",
+      "heading": "Never rescue alone. Drill it until it is automatic.",
+      "motif": "clock",
+      "narration": "Never rescue alone. Drill it until the team moves without thinking."
+    },
+    {
+      "id": "end",
+      "kind": "endcard",
+      "narration": "Follow HeyMariner for practical maritime knowledge."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Resolution MSC.581(110): Revised recommendations for entering enclosed spaces aboard ships",
+      "publisher": "IMO",
+      "date": "2025-06-27",
+      "url": "https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.581(110).pdf"
+    },
+    {
+      "title": "SOLAS mandatory enclosed space entry and rescue drills (MSC.350(92))",
+      "publisher": "West P&I",
+      "url": "https://www.westpandi.com/News-and-Resources/News/SOLAS-Mandatory-Enclosed-Space-Entry-and-Rescue-Dr/"
+    },
+    {
+      "title": "Mandatory drills for entry into enclosed spaces",
+      "publisher": "Skuld",
+      "url": "https://skuld.com/topics/ship/safety/mandatory-drills-for-entry-into-enclosed-spaces"
+    },
+    {
+      "title": "Entering enclosed spaces",
+      "publisher": "Britannia P&I",
+      "url": "https://britanniapandi.com/wp-content/uploads/2025/10/Entering-Eclosed-Spaces.pdf"
+    },
+    {
+      "title": "Revised IMO recommendations for entering enclosed spaces aboard ships",
+      "publisher": "DNV",
+      "url": "https://www.dnv.com/news/2026/revised-imo-recommendations-for-entering-enclosed-spaces-aboard-ships/"
+    }
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner daily desk",
+    "checkedAt": "2026-11-15",
+    "notes": "SOLAS III/19.3.3 drill at least once every two months for crew with entry or rescue responsibilities, and III/19.3.6.2 content (PPE, communication equipment and procedures, atmosphere instruments, rescue equipment and procedures, first aid and resuscitation): West P&I regulation text, Skuld, Britannia; in force 1 Jan 2015 via MSC.350(92). Urge to enter must be resisted, never rescue independently (11.1, 11.2), attendant never enters before help arrives (8.5), attendant communicates (2.7), drills of spaces in the Enclosed Space Register (3.8), emergency response plan reviewed after each drill (4.1), EEBDs not suitable for entry (9.2): MSC.581(110), adopted 27 June 2025. Attendant raises alarm, only SCBA rescue team enters: Britannia. Would-be rescuers among fatalities: Skuld. About 350 deaths since 1996 (InterManager 2025 estimate): DNV."
+  },
+  "meta": {
+    "description": "Enclosed space rescue drills explained for officers and crews: why rescuers become casualties, the attendant's role, and what SOLAS regulation III/19 requires in every drill at least every two months. With the key points of IMO's 2025 revised recommendations for entering enclosed spaces.",
+    "keywords": [
+      "enclosed space rescue drill",
+      "enclosed space entry",
+      "SOLAS III/19",
+      "MSC.581(110)",
+      "enclosed space attendant",
+      "rescue team breathing apparatus",
+      "ship safety drills",
+      "seafarer safety"
+    ],
+    "hashtags": [
+      "#EnclosedSpace",
+      "#ShipSafety",
+      "#SOLAS",
+      "#SafetyDrill",
+      "#Seafarers"
+    ],
+    "question": "Which enclosed space did your ship use for its last rescue drill?"
+  },
+  "origin": {
+    "type": "queue"
+  }
+}
