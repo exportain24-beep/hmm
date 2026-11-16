@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T19:25:43.858Z",
+  "updatedAt": "2026-11-16T19:28:03.900Z",
   "feedStatus": {
     "safety4sea": "ok (0)",
     "gcaptain": "ok (12)",
@@ -144,7 +144,7 @@
       "publishedAt": "2026-11-16T17:53:16.000Z",
       "score": 55,
       "scores": {
-        "recency": 0.97,
+        "recency": 0.96,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -192,7 +192,7 @@
       "publishedAt": "2026-11-16T16:03:34.000Z",
       "score": 54,
       "scores": {
-        "recency": 0.93,
+        "recency": 0.92,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -648,7 +648,7 @@
       "publishedAt": "2026-11-16T09:30:00.000Z",
       "score": 46,
       "scores": {
-        "recency": 0.8,
+        "recency": 0.79,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -696,7 +696,7 @@
       "publishedAt": "2026-11-15T19:29:00.000Z",
       "score": 46,
       "scores": {
-        "recency": 0.58,
+        "recency": 0.57,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -924,30 +924,6 @@
       }
     },
     {
-      "fingerprint": "ed70c0267cd7b4c220a1268e9a3131f4d66270fc",
-      "storyKey": "68de395ec6bc99c4fe546c6fe9835209316065d5",
-      "sourceId": "marex",
-      "sourceName": "The Maritime Executive",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Three More Ships Hit by Drone Strikes off Coast of Romania",
-      "url": "https://maritime-executive.com/article/three-more-ships-hit-by-drone-strikes-off-coast-of-romania",
-      "summary": "Romania's government is protesting a new series of strikes on merchant shipping off the coast of Sulina, a busy anchorage area and a strategic waypoin...",
-      "publishedAt": "2026-11-16T03:47:00.000Z",
-      "score": 43,
-      "scores": {
-        "recency": 0.7,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.67,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0.5,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
       "fingerprint": "86716c873267097b638dc785954eef0b18b640c1",
       "storyKey": "f580664809554ee78e276fc57ac3b958efe16b59",
       "sourceId": "marineinsight",
@@ -985,6 +961,30 @@
       "score": 42,
       "scores": {
         "recency": 0.64,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.67,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0.5,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "ed70c0267cd7b4c220a1268e9a3131f4d66270fc",
+      "storyKey": "68de395ec6bc99c4fe546c6fe9835209316065d5",
+      "sourceId": "marex",
+      "sourceName": "The Maritime Executive",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Three More Ships Hit by Drone Strikes off Coast of Romania",
+      "url": "https://maritime-executive.com/article/three-more-ships-hit-by-drone-strikes-off-coast-of-romania",
+      "summary": "Romania's government is protesting a new series of strikes on merchant shipping off the coast of Sulina, a busy anchorage area and a strategic waypoin...",
+      "publishedAt": "2026-11-16T03:47:00.000Z",
+      "score": 42,
+      "scores": {
+        "recency": 0.7,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1227,6 +1227,30 @@
         "recency": 0.4,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 1,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "204cc2fbddaa9196b2fb15d915a11daefd81b957",
+      "storyKey": "5151eae8c7d1442c3914f6e96cce20fb0823f99d",
+      "sourceId": "marex",
+      "sourceName": "The Maritime Executive",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "217 Days Underwater: British Nuclear-Missile Sub Returns from Record Patrol",
+      "url": "https://maritime-executive.com/article/217-days-underwater-british-bomber-returns-from-record-patrol",
+      "summary": "A Royal Navy nuclear ballistic missile submarine, the Vanguard Class HMS Vengeance (S31), has returned to Faslane having completed a record-breaking 2...",
+      "publishedAt": "2026-11-16T18:13:00.000Z",
+      "score": 39,
+      "scores": {
+        "recency": 0.97,
+        "reliability": 0.85,
+        "maritimeRelevance": 0,
         "educationalValue": 0,
         "seafarerValue": 0,
         "shareability": 1,
@@ -1899,30 +1923,6 @@
         "recency": 0.71,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "ad4ac39d94defc1abee9f73775d46b008bab8287",
-      "storyKey": "0bbe7d59f75b3e42c740df557e00252907010ab4",
-      "sourceId": "marex",
-      "sourceName": "The Maritime Executive",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Bulker Hits Bridge Near Philadelphia",
-      "url": "https://maritime-executive.com/article/bulker-hits-bridge-near-philadelphia",
-      "summary": "On Thursday, a foreign-flagged bulker hit a bridge on the Delaware River, forcing a rush-hour closure for inspections. On Thursday afternoon, the bulk...",
-      "publishedAt": "2026-11-14T07:40:00.000Z",
-      "score": 20,
-      "scores": {
-        "recency": 0.25,
-        "reliability": 0.85,
-        "maritimeRelevance": 0,
         "educationalValue": 0,
         "seafarerValue": 0,
         "shareability": 0,
