@@ -468,5 +468,37 @@
         "at": "2026-11-15T19:29:45.900Z"
       }
     }
+  },
+  "2026-11-16-gnss-spoofing-position-check": {
+    "title": "GNSS spoofing: how to check your position when GPS may be lying",
+    "producedAt": "2026-11-16T02:51:20.565Z",
+    "platforms": {
+      "youtube": {
+        "id": "eRwWxhF1uOw",
+        "url": "https://www.youtube.com/watch?v=eRwWxhF1uOw",
+        "at": "2026-11-16T04:00:05.538Z"
+      },
+      "facebook": {
+        "id": "981493301250685",
+        "url": "https://www.facebook.com/reel/981493301250685",
+        "at": "2026-11-16T04:00:20.104Z"
+      },
+      "instagram": {
+        "id": "17945221860098696",
+        "at": "2026-11-16T04:01:50.783Z"
+      },
+      "tiktok": {
+        "id": "6afa802f60a910801c68922d",
+        "at": "2026-11-16T04:02:01.856Z"
+      },
+      "linkedin": {
+        "id": "6afa803aa869c35e5bb6f618",
+        "at": "2026-11-16T04:02:12.846Z"
+      },
+      "x": {
+        "id": "6afa8045ff465c57dacf99a6",
+        "at": "2026-11-16T04:02:23.906Z"
+      }
+    }
   }
 }
