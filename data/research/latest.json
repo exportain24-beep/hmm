@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T10:24:56.493Z",
+  "updatedAt": "2026-11-16T11:24:57.812Z",
   "feedStatus": {
     "safety4sea": "ok (0)",
     "gcaptain": "ok (12)",
@@ -24,7 +24,7 @@
       "publishedAt": "2026-11-16T07:14:11.000Z",
       "score": 64,
       "scores": {
-        "recency": 0.93,
+        "recency": 0.91,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 1,
@@ -48,37 +48,13 @@
       "publishedAt": "2026-11-16T09:28:01.000Z",
       "score": 62,
       "scores": {
-        "recency": 0.98,
+        "recency": 0.96,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
         "seafarerValue": 0,
         "shareability": 0,
         "visualPotential": 1,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "fc6edbd178ea92f410d2598137e79a1b414e389a",
-      "storyKey": "b04ea5bb9e04f251f8190915787c89c3d77a2cc8",
-      "sourceId": "splash247",
-      "sourceName": "Splash247",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Steering failure blamed for New Orleans tanker-cruise ship collision",
-      "url": "https://splash247.com/steering-failure-blamed-for-new-orleans-tanker-cruise-ship-collision/",
-      "summary": "A steering failure aboard the asphalt tanker Atlantic Asphalt has emerged as the likely cause of Friday's collision with a river cruise ship in New Orleans, with US investigators revealing that the vessel lost steering control just two minutes before impact. The National Transportation Safety Board (NTSB) said preliminary analysis of the tanker's voyage data",
-      "publishedAt": "2026-11-16T06:23:57.000Z",
-      "score": 58,
-      "scores": {
-        "recency": 0.91,
-        "reliability": 0.85,
-        "maritimeRelevance": 1,
-        "educationalValue": 0,
-        "seafarerValue": 0.5,
-        "shareability": 0,
-        "visualPotential": 0.5,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
@@ -94,9 +70,9 @@
       "url": "https://splash247.com/black-sea-drone-attacks-trigger-romanian-fighter-jet-scramble/",
       "summary": "Three commercial vessels have been struck by drones near Romania's Black Sea coast, prompting the scrambling of fighter jets and fresh warnings from Bucharest as the maritime war between Russia and Ukraine moves increasingly close to NATO territory. Romanian prime minister Luca Niculescu confirmed on Sunday that three ships had been attacked near the Sulina",
       "publishedAt": "2026-11-16T06:35:27.000Z",
-      "score": 54,
+      "score": 53,
       "scores": {
-        "recency": 0.92,
+        "recency": 0.89,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -120,7 +96,7 @@
       "publishedAt": "2026-11-13T11:41:30.000Z",
       "score": 53,
       "scores": {
-        "recency": 0.2,
+        "recency": 0.19,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -156,30 +132,6 @@
       }
     },
     {
-      "fingerprint": "63f24279902136c3f04ed9eec2caf1a520c1555c",
-      "storyKey": "0131492a96f12a4f469993f2d641efe0853f4c93",
-      "sourceId": "splash247",
-      "sourceName": "Splash247",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Himalaya secures fresh 2027 charter cover for newcastlemax pair",
-      "url": "https://splash247.com/himalaya-secures-fresh-2027-charter-cover-for-newcastlemax-pair/",
-      "summary": "Tor Olav Trøim-backed Himalaya Shipping has switched two of its newcastlemax bulkers from index-linked employment to fixed-rate charters averaging $41,550 per day for the first quarter of 2027. The Oslo- and New York-listed owner said the rate locks will run from January 1 through March 31, securing approximately $7.5m in gross hire across the two",
-      "publishedAt": "2026-11-16T10:00:00.000Z",
-      "score": 50,
-      "scores": {
-        "recency": 0.99,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.67,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 1,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
       "fingerprint": "cd0fab1f0e5327a8aaa19316b5c8004af0a277b9",
       "storyKey": "331962d89306a2b935b5f72e5a3e45427081535f",
       "sourceId": "marex",
@@ -192,7 +144,7 @@
       "publishedAt": "2026-11-14T22:23:43.000Z",
       "score": 50,
       "scores": {
-        "recency": 0.44,
+        "recency": 0.43,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -216,7 +168,7 @@
       "publishedAt": "2026-11-14T15:30:10.000Z",
       "score": 50,
       "scores": {
-        "recency": 0.37,
+        "recency": 0.36,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -224,6 +176,30 @@
         "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0.5,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "63f24279902136c3f04ed9eec2caf1a520c1555c",
+      "storyKey": "0131492a96f12a4f469993f2d641efe0853f4c93",
+      "sourceId": "splash247",
+      "sourceName": "Splash247",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Himalaya secures fresh 2027 charter cover for newcastlemax pair",
+      "url": "https://splash247.com/himalaya-secures-fresh-2027-charter-cover-for-newcastlemax-pair/",
+      "summary": "Tor Olav Trøim-backed Himalaya Shipping has switched two of its newcastlemax bulkers from index-linked employment to fixed-rate charters averaging $41,550 per day for the first quarter of 2027. The Oslo- and New York-listed owner said the rate locks will run from January 1 through March 31, securing approximately $7.5m in gross hire across the two",
+      "publishedAt": "2026-11-16T10:00:00.000Z",
+      "score": 49,
+      "scores": {
+        "recency": 0.97,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.67,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 1,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
     },
@@ -240,7 +216,7 @@
       "publishedAt": "2026-11-16T09:30:00.000Z",
       "score": 49,
       "scores": {
-        "recency": 0.98,
+        "recency": 0.96,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -264,12 +240,36 @@
       "publishedAt": "2026-11-15T16:02:22.000Z",
       "score": 48,
       "scores": {
-        "recency": 0.65,
+        "recency": 0.64,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
         "seafarerValue": 0.5,
         "shareability": 1,
+        "visualPotential": 0.5,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "8191136a123e67e16e2e768ec44c5689a8b6338e",
+      "storyKey": "c017dda9f211772dc9f7023cae65fcc06399421d",
+      "sourceId": "splash247",
+      "sourceName": "Splash247",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "JFE Engineering wins offshore wind maintenance contract",
+      "url": "https://splash247.com/jfe-engineering-wins-offshore-wind-maintenance-contract/",
+      "summary": "Japanese engineering company JFE Engineering and local partner Akita Maritime Service have secured a five-year maintenance contract for Japan's 315MW Oga-Katagami-Akita offshore wind farm. The joint venture will provide inspection and maintenance services for the project's balance-of-plant infrastructure, covering 21 monopile foundations, subsea cables, onshore substations, and transmission lines. The contract excludes maintenance of the",
+      "publishedAt": "2026-11-16T11:00:00.000Z",
+      "score": 48,
+      "scores": {
+        "recency": 0.99,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0,
+        "seafarerValue": 0.5,
+        "shareability": 0,
         "visualPotential": 0.5,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
@@ -288,7 +288,7 @@
       "publishedAt": "2026-11-16T09:55:00.000Z",
       "score": 48,
       "scores": {
-        "recency": 0.99,
+        "recency": 0.97,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -312,7 +312,7 @@
       "publishedAt": "2026-11-16T09:50:00.000Z",
       "score": 48,
       "scores": {
-        "recency": 0.99,
+        "recency": 0.96,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -336,11 +336,35 @@
       "publishedAt": "2026-11-15T19:29:00.000Z",
       "score": 48,
       "scores": {
-        "recency": 0.71,
+        "recency": 0.69,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
         "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0.5,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "3bec3398601691a2cc5bb2ff6a3127298a88385b",
+      "storyKey": "a54ccaf9e96dbde62a587a2e15b564b600c95b38",
+      "sourceId": "marex",
+      "sourceName": "The Maritime Executive",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "GHD Announces Port Engineering Contracts in Los Angeles and Savannah",
+      "url": "https://maritime-executive.com/article/ghd-announces-port-engineering-contracts-in-los-angeles-and-savannah",
+      "summary": "GHD has been selected as the design engineer for the new marine terminal at the SeaPoint Industrial Terminal Complex in Savannah, Georgia, partnering...",
+      "publishedAt": "2026-11-16T04:34:00.000Z",
+      "score": 46,
+      "scores": {
+        "recency": 0.85,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0,
+        "seafarerValue": 0.5,
         "shareability": 0,
         "visualPotential": 0.5,
         "regulatoryImportance": 0,
@@ -358,9 +382,9 @@
       "url": "https://maritime-executive.com/article/hardest-part-maritime-regulation-after-the-rule",
       "summary": "Maritime regulation is often discussed in terms of the rules themselves: what has been agreed, when it enters into force, and what ships, owners or op...",
       "publishedAt": "2026-11-16T01:26:00.000Z",
-      "score": 47,
+      "score": 46,
       "scores": {
-        "recency": 0.81,
+        "recency": 0.79,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -368,30 +392,6 @@
         "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0.5,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "3bec3398601691a2cc5bb2ff6a3127298a88385b",
-      "storyKey": "a54ccaf9e96dbde62a587a2e15b564b600c95b38",
-      "sourceId": "marex",
-      "sourceName": "The Maritime Executive",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "GHD Announces Port Engineering Contracts in Los Angeles and Savannah",
-      "url": "https://maritime-executive.com/article/ghd-announces-port-engineering-contracts-in-los-angeles-and-savannah",
-      "summary": "GHD has been selected as the design engineer for the new marine terminal at the SeaPoint Industrial Terminal Complex in Savannah, Georgia, partnering...",
-      "publishedAt": "2026-11-16T04:34:00.000Z",
-      "score": 46,
-      "scores": {
-        "recency": 0.87,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.33,
-        "educationalValue": 0,
-        "seafarerValue": 0.5,
-        "shareability": 0,
-        "visualPotential": 0.5,
-        "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
     },
@@ -408,7 +408,7 @@
       "publishedAt": "2026-11-16T03:47:00.000Z",
       "score": 45,
       "scores": {
-        "recency": 0.86,
+        "recency": 0.84,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -432,7 +432,7 @@
       "publishedAt": "2026-11-15T14:48:43.000Z",
       "score": 45,
       "scores": {
-        "recency": 0.64,
+        "recency": 0.62,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -456,7 +456,7 @@
       "publishedAt": "2026-11-16T00:26:49.000Z",
       "score": 44,
       "scores": {
-        "recency": 0.79,
+        "recency": 0.78,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -480,7 +480,7 @@
       "publishedAt": "2026-11-16T09:26:57.000Z",
       "score": 44,
       "scores": {
-        "recency": 0.98,
+        "recency": 0.96,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -504,7 +504,7 @@
       "publishedAt": "2026-11-15T19:18:00.000Z",
       "score": 44,
       "scores": {
-        "recency": 0.71,
+        "recency": 0.69,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -528,7 +528,7 @@
       "publishedAt": "2026-11-15T17:29:00.000Z",
       "score": 44,
       "scores": {
-        "recency": 0.68,
+        "recency": 0.66,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -576,36 +576,12 @@
       "publishedAt": "2026-11-15T17:31:34.000Z",
       "score": 43,
       "scores": {
-        "recency": 0.68,
+        "recency": 0.66,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
         "seafarerValue": 0,
         "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "029292bb5b12da07b35830955b4dfe04ebda52c5",
-      "storyKey": "2e8644e0accf0866f785171becf853cec198b2b6",
-      "sourceId": "marex",
-      "sourceName": "The Maritime Executive",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Abandoned Freighter Drifts Towards Bulgarian Waters",
-      "url": "https://maritime-executive.com/article/abandoned-freighter-drifts-towards-bulgarian-waters",
-      "summary": "A freighter damaged in a Russian drone strike two months ago is now drifting south along the Romanian coast at a swift pace, and is heading toward Bul...",
-      "publishedAt": "2026-11-16T03:31:58.000Z",
-      "score": 43,
-      "scores": {
-        "recency": 0.85,
-        "reliability": 0.85,
-        "maritimeRelevance": 0,
-        "educationalValue": 0,
-        "seafarerValue": 0.5,
-        "shareability": 1,
         "visualPotential": 0,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
@@ -624,12 +600,36 @@
       "publishedAt": "2026-11-14T02:34:17.000Z",
       "score": 42,
       "scores": {
-        "recency": 0.28,
+        "recency": 0.27,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
         "seafarerValue": 0.5,
         "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "029292bb5b12da07b35830955b4dfe04ebda52c5",
+      "storyKey": "2e8644e0accf0866f785171becf853cec198b2b6",
+      "sourceId": "marex",
+      "sourceName": "The Maritime Executive",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Abandoned Freighter Drifts Towards Bulgarian Waters",
+      "url": "https://maritime-executive.com/article/abandoned-freighter-drifts-towards-bulgarian-waters",
+      "summary": "A freighter damaged in a Russian drone strike two months ago is now drifting south along the Romanian coast at a swift pace, and is heading toward Bul...",
+      "publishedAt": "2026-11-16T03:31:58.000Z",
+      "score": 42,
+      "scores": {
+        "recency": 0.83,
+        "reliability": 0.85,
+        "maritimeRelevance": 0,
+        "educationalValue": 0,
+        "seafarerValue": 0.5,
+        "shareability": 1,
         "visualPotential": 0,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
@@ -648,7 +648,7 @@
       "publishedAt": "2026-11-15T13:03:46.000Z",
       "score": 42,
       "scores": {
-        "recency": 0.61,
+        "recency": 0.6,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -672,7 +672,7 @@
       "publishedAt": "2026-11-15T03:48:26.000Z",
       "score": 41,
       "scores": {
-        "recency": 0.49,
+        "recency": 0.48,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -696,55 +696,7 @@
       "publishedAt": "2026-11-16T03:31:00.000Z",
       "score": 41,
       "scores": {
-        "recency": 0.85,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.67,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "ac2ee5f5768c68c082372ff1778e745c24b33e49",
-      "storyKey": "6ab524648ab008c149bf7bae9a532eb43dfbcec9",
-      "sourceId": "marex",
-      "sourceName": "The Maritime Executive",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Euroports Rauma Container Terminal has Joined the Portchain Connect Network",
-      "url": "https://maritime-executive.com/article/euroports-rauma-container-terminal-has-joined-the-portchain-connect-network",
-      "summary": "Portchain today announced Euroports’ container terminal in the Port of Rauma, will join the Portchain Connect network. Rauma terminal will use Portcha...",
-      "publishedAt": "2026-11-16T01:40:34.000Z",
-      "score": 41,
-      "scores": {
-        "recency": 0.82,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.67,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "76a2a3ab39c8346b27fa1e1195511a8e4f4c4992",
-      "storyKey": "67b423cb59092171bf784d9ce3258793c908f4ca",
-      "sourceId": "marex",
-      "sourceName": "The Maritime Executive",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Can a US-Approved Sale Clean a Shadow Fleet Tanker?",
-      "url": "https://maritime-executive.com/article/us-approved-sale-shadow-fleet-tanker",
-      "summary": "On October 19, US Energy Secretary Chris Wright told an audience in New York that Washington would move some ships from \"the bad-guy fleet to the good...",
-      "publishedAt": "2026-11-16T01:35:00.000Z",
-      "score": 41,
-      "scores": {
-        "recency": 0.82,
+        "recency": 0.83,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -768,11 +720,59 @@
       "publishedAt": "2026-11-13T11:46:27.000Z",
       "score": 41,
       "scores": {
-        "recency": 0.2,
+        "recency": 0.19,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
         "seafarerValue": 0.5,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "ac2ee5f5768c68c082372ff1778e745c24b33e49",
+      "storyKey": "6ab524648ab008c149bf7bae9a532eb43dfbcec9",
+      "sourceId": "marex",
+      "sourceName": "The Maritime Executive",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Euroports Rauma Container Terminal has Joined the Portchain Connect Network",
+      "url": "https://maritime-executive.com/article/euroports-rauma-container-terminal-has-joined-the-portchain-connect-network",
+      "summary": "Portchain today announced Euroports’ container terminal in the Port of Rauma, will join the Portchain Connect network. Rauma terminal will use Portcha...",
+      "publishedAt": "2026-11-16T01:40:34.000Z",
+      "score": 40,
+      "scores": {
+        "recency": 0.8,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.67,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "76a2a3ab39c8346b27fa1e1195511a8e4f4c4992",
+      "storyKey": "67b423cb59092171bf784d9ce3258793c908f4ca",
+      "sourceId": "marex",
+      "sourceName": "The Maritime Executive",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Can a US-Approved Sale Clean a Shadow Fleet Tanker?",
+      "url": "https://maritime-executive.com/article/us-approved-sale-shadow-fleet-tanker",
+      "summary": "On October 19, US Energy Secretary Chris Wright told an audience in New York that Washington would move some ships from \"the bad-guy fleet to the good...",
+      "publishedAt": "2026-11-16T01:35:00.000Z",
+      "score": 40,
+      "scores": {
+        "recency": 0.8,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.67,
+        "educationalValue": 0,
+        "seafarerValue": 0,
         "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0,
@@ -792,7 +792,7 @@
       "publishedAt": "2026-11-16T00:17:00.000Z",
       "score": 40,
       "scores": {
-        "recency": 0.79,
+        "recency": 0.77,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -816,7 +816,7 @@
       "publishedAt": "2026-11-15T21:19:58.000Z",
       "score": 39,
       "scores": {
-        "recency": 0.74,
+        "recency": 0.72,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -840,7 +840,7 @@
       "publishedAt": "2026-11-14T22:08:51.000Z",
       "score": 39,
       "scores": {
-        "recency": 0.43,
+        "recency": 0.42,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -864,7 +864,7 @@
       "publishedAt": "2026-11-14T18:13:54.000Z",
       "score": 39,
       "scores": {
-        "recency": 0.4,
+        "recency": 0.39,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -912,7 +912,7 @@
       "publishedAt": "2026-11-15T20:05:00.000Z",
       "score": 39,
       "scores": {
-        "recency": 0.72,
+        "recency": 0.7,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0.5,
@@ -936,7 +936,7 @@
       "publishedAt": "2026-11-16T09:45:00.000Z",
       "score": 38,
       "scores": {
-        "recency": 0.98,
+        "recency": 0.96,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -960,7 +960,7 @@
       "publishedAt": "2026-11-14T16:50:51.000Z",
       "score": 38,
       "scores": {
-        "recency": 0.38,
+        "recency": 0.37,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -968,30 +968,6 @@
         "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "512f15c647d9deed681a0a4e63535621ae0e8a94",
-      "storyKey": "78c1217f82be578576e566de0b39e44108ef5035",
-      "sourceId": "marineinsight",
-      "sourceName": "Marine Insight",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "MSC Poesia Faces Criminal Probe Over Alleged Magic Pipe After 11-Day Detention In Miami",
-      "url": "https://www.marineinsight.com/msc-poesia-criminal-probe-magic-pipe/?utm_source=rss utm_medium=rss utm_campaign=msc-poesia-criminal-probe-magic-pipe",
-      "summary": "MSC Poesia is under a criminal investigation by the U.S. Coast Guard over the alleged illegal discharge of oil at sea through a so-called ‘magic pipe’, a U.S. official familiar with the probe has revealed.",
-      "publishedAt": "2026-11-15T14:33:56.000Z",
-      "score": 38,
-      "scores": {
-        "recency": 0.63,
-        "reliability": 0.85,
-        "maritimeRelevance": 0,
-        "educationalValue": 0.5,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0.5,
         "corroboratingOutlets": 1
       }
     },
@@ -1008,7 +984,7 @@
       "publishedAt": "2026-11-16T04:38:00.000Z",
       "score": 37,
       "scores": {
-        "recency": 0.87,
+        "recency": 0.85,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1020,26 +996,26 @@
       }
     },
     {
-      "fingerprint": "6470611f8e68cc470d31c71c8a8941ef3a63aa2f",
-      "storyKey": "9ab264038caab387351cfdbd51a6e74329a62825",
+      "fingerprint": "512f15c647d9deed681a0a4e63535621ae0e8a94",
+      "storyKey": "78c1217f82be578576e566de0b39e44108ef5035",
       "sourceId": "marineinsight",
       "sourceName": "Marine Insight",
       "tier": "press",
       "reliability": 0.85,
-      "title": "US Shipbuilder Selects “World’s Largest Shiplift” For Texas Shipyard",
-      "url": "https://www.marineinsight.com/worlds-largest-shiplift-texas-shipyard/?utm_source=rss utm_medium=rss utm_campaign=worlds-largest-shiplift-texas-shipyard",
-      "summary": "The world's largest shiplift, as described by Saronic and Syncrolift, will be supplied for the Port Alpha shipyard in Brownsville, Texas, under a contract awarded to Syncrolift AS.",
-      "publishedAt": "2026-11-13T12:52:44.000Z",
-      "score": 36,
+      "title": "MSC Poesia Faces Criminal Probe Over Alleged Magic Pipe After 11-Day Detention In Miami",
+      "url": "https://www.marineinsight.com/msc-poesia-criminal-probe-magic-pipe/?utm_source=rss utm_medium=rss utm_campaign=msc-poesia-criminal-probe-magic-pipe",
+      "summary": "MSC Poesia is under a criminal investigation by the U.S. Coast Guard over the alleged illegal discharge of oil at sea through a so-called ‘magic pipe’, a U.S. official familiar with the probe has revealed.",
+      "publishedAt": "2026-11-15T14:33:56.000Z",
+      "score": 37,
       "scores": {
-        "recency": 0.2,
+        "recency": 0.62,
         "reliability": 0.85,
-        "maritimeRelevance": 0.67,
-        "educationalValue": 0,
+        "maritimeRelevance": 0,
+        "educationalValue": 0.5,
         "seafarerValue": 0,
-        "shareability": 1,
+        "shareability": 0,
         "visualPotential": 0,
-        "regulatoryImportance": 0,
+        "regulatoryImportance": 0.5,
         "corroboratingOutlets": 1
       }
     },
@@ -1068,6 +1044,30 @@
       }
     },
     {
+      "fingerprint": "6470611f8e68cc470d31c71c8a8941ef3a63aa2f",
+      "storyKey": "9ab264038caab387351cfdbd51a6e74329a62825",
+      "sourceId": "marineinsight",
+      "sourceName": "Marine Insight",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "US Shipbuilder Selects “World’s Largest Shiplift” For Texas Shipyard",
+      "url": "https://www.marineinsight.com/worlds-largest-shiplift-texas-shipyard/?utm_source=rss utm_medium=rss utm_campaign=worlds-largest-shiplift-texas-shipyard",
+      "summary": "The world's largest shiplift, as described by Saronic and Syncrolift, will be supplied for the Port Alpha shipyard in Brownsville, Texas, under a contract awarded to Syncrolift AS.",
+      "publishedAt": "2026-11-13T12:52:44.000Z",
+      "score": 35,
+      "scores": {
+        "recency": 0.2,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.67,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 1,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
       "fingerprint": "c9efdc28fcdeb743f7f661641e45fcdcbcfd5a0d",
       "storyKey": "136d85a7c4816f1a95ff86d429b114bb7921435b",
       "sourceId": "marineinsight",
@@ -1080,7 +1080,7 @@
       "publishedAt": "2026-11-13T11:48:52.000Z",
       "score": 35,
       "scores": {
-        "recency": 0.2,
+        "recency": 0.19,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1104,7 +1104,7 @@
       "publishedAt": "2026-11-15T19:45:00.000Z",
       "score": 34,
       "scores": {
-        "recency": 0.71,
+        "recency": 0.7,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1128,7 +1128,7 @@
       "publishedAt": "2026-11-14T18:33:00.000Z",
       "score": 34,
       "scores": {
-        "recency": 0.4,
+        "recency": 0.39,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1152,7 +1152,7 @@
       "publishedAt": "2026-11-13T11:53:55.000Z",
       "score": 34,
       "scores": {
-        "recency": 0.2,
+        "recency": 0.19,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0.5,
@@ -1176,7 +1176,7 @@
       "publishedAt": "2026-11-15T17:05:00.000Z",
       "score": 33,
       "scores": {
-        "recency": 0.67,
+        "recency": 0.65,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1184,30 +1184,6 @@
         "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0.5,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "edbd647f8ebf1d81c3f6ac80c3f6e0761d8cf1f1",
-      "storyKey": "c856f1786b201b97cb890e2e5351620c90a8cee2",
-      "sourceId": "marineinsight",
-      "sourceName": "Marine Insight",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "River Cruise Ship With Nearly 200 People Aboard Capsizes After Tanker Strikes It In New Orleans",
-      "url": "https://www.marineinsight.com/american-heritage-riverboat-capsizes-tanker-new-orleans/?utm_source=rss utm_medium=rss utm_campaign=american-heritage-riverboat-capsizes-tanker-new-orleans",
-      "summary": "Riverboat American Heritage capsized on the Mississippi River in New Orleans on November 13, 2026, after the tanker Atlantic Asphalt struck it while it was docked, sending 32 people to hospitals.",
-      "publishedAt": "2026-11-14T15:04:25.000Z",
-      "score": 33,
-      "scores": {
-        "recency": 0.37,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.67,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
     },
@@ -1224,9 +1200,33 @@
       "publishedAt": "2026-11-16T07:08:00.000Z",
       "score": 32,
       "scores": {
-        "recency": 0.93,
+        "recency": 0.91,
         "reliability": 0.85,
         "maritimeRelevance": 0,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "edbd647f8ebf1d81c3f6ac80c3f6e0761d8cf1f1",
+      "storyKey": "c856f1786b201b97cb890e2e5351620c90a8cee2",
+      "sourceId": "marineinsight",
+      "sourceName": "Marine Insight",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "River Cruise Ship With Nearly 200 People Aboard Capsizes After Tanker Strikes It In New Orleans",
+      "url": "https://www.marineinsight.com/american-heritage-riverboat-capsizes-tanker-new-orleans/?utm_source=rss utm_medium=rss utm_campaign=american-heritage-riverboat-capsizes-tanker-new-orleans",
+      "summary": "Riverboat American Heritage capsized on the Mississippi River in New Orleans on November 13, 2026, after the tanker Atlantic Asphalt struck it while it was docked, sending 32 people to hospitals.",
+      "publishedAt": "2026-11-14T15:04:25.000Z",
+      "score": 32,
+      "scores": {
+        "recency": 0.36,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.67,
         "educationalValue": 0,
         "seafarerValue": 0,
         "shareability": 0,
@@ -1246,9 +1246,9 @@
       "url": "https://www.marineinsight.com/uss-spruance-357-day-combat-deployment/?utm_source=rss utm_medium=rss utm_campaign=uss-spruance-357-day-combat-deployment",
       "summary": "USS Spruance returned to Naval Base San Diego on November 13, 2026, after a 357-day combat deployment that took the Arleigh Burke-class destroyer across the U.S. 3rd, 7th and 5th Fleet areas.",
       "publishedAt": "2026-11-15T12:50:27.000Z",
-      "score": 32,
+      "score": 31,
       "scores": {
-        "recency": 0.61,
+        "recency": 0.59,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1296,7 +1296,7 @@
       "publishedAt": "2026-11-15T23:36:00.000Z",
       "score": 29,
       "scores": {
-        "recency": 0.78,
+        "recency": 0.76,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1320,7 +1320,7 @@
       "publishedAt": "2026-11-13T12:38:32.000Z",
       "score": 24,
       "scores": {
-        "recency": 0.2,
+        "recency": 0.19,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1344,7 +1344,7 @@
       "publishedAt": "2026-11-14T07:40:00.000Z",
       "score": 21,
       "scores": {
-        "recency": 0.31,
+        "recency": 0.3,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1368,7 +1368,7 @@
       "publishedAt": "2026-11-16T04:32:00.000Z",
       "score": 20,
       "scores": {
-        "recency": 0.87,
+        "recency": 0.85,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1392,7 +1392,7 @@
       "publishedAt": "2026-11-14T04:37:00.000Z",
       "score": 20,
       "scores": {
-        "recency": 0.29,
+        "recency": 0.28,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
