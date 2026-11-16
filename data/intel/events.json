@@ -750,7 +750,7 @@
       },
       "status": "monitoring",
       "published": false,
-      "notes": "Rejected for publication: incidents rest only on Iranian state statements, no vessel identified, no independent confirmation. Re-score if UKMTO/JMIC/owner confirms; then treat as new incident or UPDATE to HM-2026-111207 cluster. 14 Nov 21:50: desk run, quota 0; no UKMTO/JMIC/CENTCOM confirmation of the 13-14 Nov mine claims found. gCaptain \"U.S. rejects Iran's mine claim\" (El Gaia) dates from 14 Sep 2026, not this event; excluded as old. Still monitoring, not carded. 15 Nov 00:50: desk run, quota 0; searches still show no UKMTO/JMIC/owner confirmation of the 13-14 Nov mine claims. Monitoring. 15 Nov 07:20: desk run; still no UKMTO/JMIC/CENTCOM/owner confirmation of the 13-14 Nov mine claims found. Monitoring, not carded. 15 Nov 09:50: desk run, quota 0 (next slot 14:22 outside window); still no UKMTO/JMIC/CENTCOM/owner confirmation found. Monitoring, not carded. 15 Nov 12:50: desk run, quota 1 (14:22 slot); still no UKMTO/JMIC/CENTCOM/owner confirmation (latest JMIC advisory found is Update 113, 12 Nov). Monitoring, not carded. Slot left empty: no fresh candidate scored >=55 (CCC 12 OCCS item dates from Sep session; Oman grounding unnamed/undated; MSC Poesia 'magic pipe' single-source). 15 Nov 15:50: desk run, quota 0; Marine Insight re-reported the Iranian mine claim (15 Nov 14:48) but still no UKMTO/JMIC/owner confirmation or vessel identity found. Monitoring.",
+      "notes": "Rejected for publication: incidents rest only on Iranian state statements, no vessel identified, no independent confirmation. Re-score if UKMTO/JMIC/owner confirms; then treat as new incident or UPDATE to HM-2026-111207 cluster. 14 Nov 21:50: desk run, quota 0; no UKMTO/JMIC/CENTCOM confirmation of the 13-14 Nov mine claims found. gCaptain \"U.S. rejects Iran's mine claim\" (El Gaia) dates from 14 Sep 2026, not this event; excluded as old. Still monitoring, not carded. 15 Nov 00:50: desk run, quota 0; searches still show no UKMTO/JMIC/owner confirmation of the 13-14 Nov mine claims. Monitoring. 15 Nov 07:20: desk run; still no UKMTO/JMIC/CENTCOM/owner confirmation of the 13-14 Nov mine claims found. Monitoring, not carded. 15 Nov 09:50: desk run, quota 0 (next slot 14:22 outside window); still no UKMTO/JMIC/CENTCOM/owner confirmation found. Monitoring, not carded. 15 Nov 12:50: desk run, quota 1 (14:22 slot); still no UKMTO/JMIC/CENTCOM/owner confirmation (latest JMIC advisory found is Update 113, 12 Nov). Monitoring, not carded. Slot left empty: no fresh candidate scored >=55 (CCC 12 OCCS item dates from Sep session; Oman grounding unnamed/undated; MSC Poesia 'magic pipe' single-source). 15 Nov 15:50: desk run, quota 0; Marine Insight re-reported the Iranian mine claim (15 Nov 14:48) but still no UKMTO/JMIC/owner confirmation or vessel identity found. Monitoring. 16 Nov 22:00: Hellenic/AP 16 Nov repeats Iran state TV claim of three tankers hitting mines; still no UKMTO/JMIC/owner confirmation or vessel names. Monitoring.",
       "versions": [
         {
           "at": "2026-11-14T19:10:00Z",
@@ -1036,6 +1036,74 @@
       ],
       "updatedAt": "2026-11-16T19:05:00Z",
       "cardId": "eu-irini-boards-false-flag-tanker-midag"
+    },
+    "HM-2026-111602": {
+      "eventId": "HM-2026-111602",
+      "slug": "betul-8-capsizes-off-bulgaria-sea-drones",
+      "type": "incident",
+      "title": "Betul 8 Capsizes Off Bulgaria, 12 Rescued",
+      "location": "BLACK SEA, BULGARIA",
+      "eventDate": "16 NOV 2026",
+      "sources": [
+        {
+          "title": "All 12 Crew Members Rescued After Cargo Ship Capsizes in Bulgarian Black Sea Waters",
+          "publisher": "BTA (Bulgarian state news agency)",
+          "url": "https://www.bta.bg/en/news/bulgaria/1247572-all-12-crew-members-rescued-after-cargo-ship-capsizes-in-bulgarian-black-sea-wat",
+          "date": "2026-11-16"
+        },
+        {
+          "title": "12 crew members rescued after cargo ship capsizes off Bulgaria following suspected drone strike",
+          "publisher": "Euronews",
+          "url": "https://www.euronews.com/2026/11/16/12-crew-members-rescued-after-cargo-ship-capsizes-off-bulgaria-following-suspected-drone-s",
+          "date": "2026-11-16"
+        },
+        {
+          "title": "Cargo ship capsizes off Bulgaria's Black Sea coast",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/16/cargo-ship-capsizes-off-bulgarias-black-sea-coast",
+          "date": "2026-11-16"
+        },
+        {
+          "title": "Bulgaria Rescues 12 Crew as Attacked Cargo Ship Capsizes",
+          "publisher": "The Maritime Executive",
+          "url": "",
+          "date": "2026-11-16"
+        },
+        {
+          "title": "Cargo Ship Capsizes Off Bulgaria After Reported Sea Drone Attack",
+          "publisher": "gCaptain",
+          "url": "",
+          "date": "2026-11-16"
+        }
+      ],
+      "verifiedFacts": [
+        "Somali-flagged cargo ship Betul 8, Tulcea (Romania) to Egypt with bulk wheat, capsized in Bulgaria's EEZ on 16 Nov 2026 (Bulgarian Ministry of Transport via BTA; Euronews)",
+        "Distress call shortly after 09:00 local; all 12 crew winched from two life rafts by Bulgarian Air Force Cougar helicopters and flown to Chaika naval air base, Varna; one minor head cut (BTA)",
+        "MRCC Varna coordinated; four MCM Black Sea task group vessels (2 BG, 1 RO, 1 TR) deployed; naval vessel sampling water for pollution and collecting any drone debris (BTA; Euronews)"
+      ],
+      "unverifiedClaims": [
+        "Crew say two sea drones struck the ship; authorities say cause to be determined after questioning crew",
+        "Attribution to Russia suspected by media, not confirmed"
+      ],
+      "conflicts": [
+        "Cargo quantity: BTA text says about three tonnes, Euronews almost 3,000 tonnes - do not state quantity",
+        "Position: ~40 nm SE of Cape Kaliakra vs ~60 nm E of Cape Galata (BTA gives both)"
+      ],
+      "verificationStatus": "CORROBORATED",
+      "priorityScore": 81,
+      "scoreBreakdown": {
+        "recency": 20,
+        "safety": 18,
+        "operational": 13,
+        "regulatory": 4,
+        "human": 8,
+        "industry": 9,
+        "source": 9
+      },
+      "status": "candidate",
+      "published": false,
+      "last_updated": "2026-11-16T22:00Z",
+      "notes": "16 Nov 22:00 desk run: quota 0 (next slot 17 Nov 08:22 UTC). Score 81 < breakingMinScore 90 (no fatalities, cause unconfirmed), so no breaking card. Eligible incident card for next slot if no fresher higher-priority event; cause must be framed as crew-reported sea drones. Separate from HM-2026-111502 (Sulina drones)."
     }
   }
 }
