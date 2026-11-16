@@ -935,9 +935,9 @@
         "Several similar Black Sea drone incidents in Oct 2026; must not be conflated with this one"
       ],
       "verificationStatus": "CORROBORATED",
-      "priorityScore": 69,
+      "priorityScore": 66,
       "scoreBreakdown": {
-        "recency": 16,
+        "recency": 13,
         "safety": 16,
         "operational": 13,
         "regulatory": 2,
@@ -945,9 +945,9 @@
         "industry": 7,
         "source": 9
       },
-      "status": "monitoring",
+      "status": "queued",
       "published": false,
-      "notes": "Quota 0 at 21:50Z run (no slot before 00:48Z); below breaking threshold 90. Candidate for 16 Nov 08:22Z slot once ship details/casualties confirmed by a second source. 16 Nov 07:10: corroborated (Reuters, Euronews, Kyiv Post, MarEx); event date corrected to 14 Nov. Not carded this run: no free-licence photo could be verified (Wikimedia Commons unreachable from this run) and the single 08:22Z slot went to the NTSB update. Candidate for 14:22Z if a verified photo is found.",
+      "notes": "Quota 0 at 21:50Z run (no slot before 00:48Z); below breaking threshold 90. Candidate for 16 Nov 08:22Z slot once ship details/casualties confirmed by a second source. 16 Nov 07:10: corroborated (Reuters, Euronews, Kyiv Post, MarEx); event date corrected to 14 Nov. Not carded this run: no free-licence photo could be verified (Wikimedia Commons unreachable from this run) and the single 08:22Z slot went to the NTSB update. Candidate for 14:22Z if a verified photo is found. 16 Nov 13:10: facts re-checked against Reuters via gCaptain; carded for 14:22Z slot (recency reduced to 13, event 14 Nov). Photo: previously verified public-domain U.S. Navy tanker photo on Commons, marked representative (Commons not reachable this run to verify a Black Sea image).",
       "versions": [
         {
           "at": "2026-11-15T21:55:00Z",
@@ -956,9 +956,14 @@
         {
           "at": "2026-11-16T07:10:00Z",
           "change": "facts corroborated, ship names added, eventDate corrected 15->14 Nov; still monitoring (no verified photo)"
+        },
+        {
+          "at": "2026-11-16T13:10:00Z",
+          "change": "queued card drones-strike-three-ships-sulina for 2026-11-16T14:22Z; score 66"
         }
       ],
-      "updatedAt": "2026-11-16T07:10:00Z"
+      "updatedAt": "2026-11-16T13:10:00Z",
+      "cardId": "drones-strike-three-ships-sulina"
     }
   }
 }
