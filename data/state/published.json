@@ -564,5 +564,37 @@
         "at": "2026-11-16T10:02:47.171Z"
       }
     }
+  },
+  "2026-11-16-ecdis-safety-depth-calculation": {
+    "title": "How to calculate ECDIS safety depth: draught + UKC + squat - tide",
+    "producedAt": "2026-11-16T11:48:46.409Z",
+    "platforms": {
+      "youtube": {
+        "id": "VBFIpdxKJJw",
+        "url": "https://www.youtube.com/watch?v=VBFIpdxKJJw",
+        "at": "2026-11-16T13:00:07.956Z"
+      },
+      "facebook": {
+        "id": "1724884555645165",
+        "url": "https://www.facebook.com/reel/1724884555645165",
+        "at": "2026-11-16T13:00:19.833Z"
+      },
+      "instagram": {
+        "id": "18065860463631917",
+        "at": "2026-11-16T13:03:19.672Z"
+      },
+      "tiktok": {
+        "id": "6afaff1815603179b13b8ec2",
+        "at": "2026-11-16T13:03:30.999Z"
+      },
+      "linkedin": {
+        "id": "6afaff2339da3e2902d63ce4",
+        "at": "2026-11-16T13:03:42.198Z"
+      },
+      "x": {
+        "id": "6afaff2f39da3e2902d643c5",
+        "at": "2026-11-16T13:03:53.722Z"
+      }
+    }
   }
 }
