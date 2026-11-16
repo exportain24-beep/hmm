@@ -520,6 +520,36 @@
           "publisher": "NBC News",
           "url": "https://www.nbcnews.com/news/us-news/new-orleans-port-sues-get-control-tanker-crashed-cruise-ship-mississip-rcna609362",
           "date": "2026-11-14"
+        },
+        {
+          "title": "NTSB says tanker suffered 'steering casualty' before New Orleans riverboat crash",
+          "publisher": "Fox News",
+          "url": "https://www.foxnews.com/us/ntsb-details-warning-whistles-emergency-orders-before-tanker-collision-capsized-new-orleans-riverboat",
+          "date": "2026-11-15"
+        },
+        {
+          "title": "Officials investigating steering of tanker in New Orleans riverboat collision: NTSB",
+          "publisher": "ABC News",
+          "url": "https://abcnews.com/US/officials-investigating-steering-tanker-new-orleans-riverboat-collision/story?id=138167031",
+          "date": "2026-11-15"
+        },
+        {
+          "title": "Steering Problem On Tanker Caused Collision In New Orleans",
+          "publisher": "gCaptain (Reuters)",
+          "url": "https://gcaptain.com/steering-problem-on-tanker-caused-collision-in-new-orleans/",
+          "date": "2026-11-15"
+        },
+        {
+          "title": "Steering failure blamed for New Orleans tanker-cruise ship collision",
+          "publisher": "Splash247",
+          "url": "https://splash247.com/steering-failure-blamed-for-new-orleans-tanker-cruise-ship-collision/",
+          "date": "2026-11-16"
+        },
+        {
+          "title": "NTSB: Tanker That Hit New Orleans Riverboat Suffered a Steering Failure",
+          "publisher": "The Maritime Executive",
+          "url": "https://maritime-executive.com/article/ntsb-tanker-that-hit-new-orleans-riverboat-suffered-a-steering-failure",
+          "date": "2026-11-16"
         }
       ],
       "verifiedFacts": [
@@ -531,17 +561,22 @@
         "Port NOLA described the event as an allision; American Heritage had docked ~2 hours earlier for disembarkation at 1350 Port of New Orleans Place (WDSU)",
         "NTSB leads the investigation with USCG under MOU; 16 investigators on site for ~7 days; tanker VDR recovered; preliminary report within 30 days, final 18-24 months; no cause determined (NTSB briefing 14 Nov via WDSU, Yahoo News)",
         "American Heritage lies on its side in ~25 ft of water; salvage after conditions confirmed safe (NTSB via Yahoo News)",
-        "Port of New Orleans sued the tanker's owners for more than $1m; federal court (E.D. La.) authorised arrest of Atlantic Asphalt (Splash247; NBC News; Yahoo-linked coverage)"
+        "Port of New Orleans sued the tanker's owners for more than $1m; federal court (E.D. La.) authorised arrest of Atlantic Asphalt (Splash247; NBC News; Yahoo-linked coverage)",
+        "NTSB briefing 15 Nov (DeLeeuw, Barnum): preliminary VDR data shows a steering casualty with the rudder remaining to starboard; tanker veered to the east bank; casualty ~12:26, impact ~12:28 local (Fox, ABC, Reuters/gCaptain, MarEx, Splash247)",
+        "VDR (9+ h) captured whistle, VHF requests for assistance, anchor orders and emergency shiphandling orders; riverboat capsized ~22 min after impact (NTSB via Fox, ABC)",
+        "American Heritage ~140 passengers + 50 crew; Atlantic Asphalt 19 crew; all accounted for (NTSB/officials via Fox, ABC)",
+        "NTSB: 'steering casualty' does not establish root cause; tanker crew interviews from 16 Nov; preliminary report in ~30 days; last on-site briefing (Fox)"
       ],
       "unverifiedClaims": [
         "Tanker lost power/control before impact (mayor per CNN; emergency source) - cause under investigation",
-        "Total persons aboard incl. crew (~200 in some reports)",
         "Tanker flag Marshall Islands and 17,764 dwt, built 2017 (single trade-media summary)",
         "Any pollution or river closure",
-        "Eight people still hospitalised (single linked report, 14 Nov)"
+        "Eight people still hospitalised (single linked report, 14 Nov)",
+        "Root cause of the steering casualty (mechanical/electrical/hydraulic/human) - under NTSB investigation"
       ],
       "conflicts": [
-        "Some outlets say 'sunk', others 'capsized/partly submerged'; use capsized"
+        "Some outlets say 'sunk', others 'capsized/partly submerged'; use capsized",
+        "Some headlines say steering failure 'caused' the collision; NTSB says the term does not establish cause - card follows NTSB wording"
       ],
       "verificationStatus": "CORROBORATED",
       "priorityScore": 82,
@@ -555,9 +590,9 @@
         "source": 9
       },
       "status": "queued",
-      "cardFile": "content/cards/queue/2026-11-15T0822-ntsb-recovers-vdr-atlantic-asphalt.json",
+      "cardFile": "content/cards/queue/2026-11-16T0822-ntsb-atlantic-asphalt-rudder-stuck-starboard.json",
       "published": false,
-      "notes": "Card queued for 08:22 UTC slot 14 Nov. No official USCG/NTSB cause yet; Commons photo of actual vessel not verifiable this run, so CC0 representative New Orleans riverboat photo used. Watch for NTSB launch, cause, salvage/river restrictions -> UPDATE card only if material. 15 Nov 07:20: UPDATE card (NTSB investigation, VDR recovered, port lawsuit and vessel arrest) queued for 08:22Z, score 66. Next update only for NTSB preliminary report/cause, salvage or river restrictions.",
+      "notes": "Card queued for 08:22 UTC slot 14 Nov. No official USCG/NTSB cause yet; Commons photo of actual vessel not verifiable this run, so CC0 representative New Orleans riverboat photo used. Watch for NTSB launch, cause, salvage/river restrictions -> UPDATE card only if material. 15 Nov 07:20: UPDATE card (NTSB investigation, VDR recovered, port lawsuit and vessel arrest) queued for 08:22Z, score 66. Next update only for NTSB preliminary report/cause, salvage or river restrictions. 16 Nov 07:10: UPDATE card (NTSB: steering casualty, rudder to starboard ~2 min before impact) queued for 08:22Z, score 72. Next update only for NTSB preliminary report, root cause or salvage/river restrictions.",
       "versions": [
         {
           "at": "2026-11-14T03:55:00Z",
@@ -570,18 +605,22 @@
         {
           "at": "2026-11-15T07:20:00Z",
           "change": "UPDATE card queued for 2026-11-15T08:22Z: NTSB probe, VDR recovered, Port NOLA lawsuit, tanker arrest"
+        },
+        {
+          "at": "2026-11-16T07:10:00Z",
+          "change": "UPDATE card queued for 2026-11-16T08:22Z: NTSB preliminary VDR finding of steering casualty"
         }
       ],
-      "updatedAt": "2026-11-15T07:20:00Z",
-      "updateScore": 66,
+      "updatedAt": "2026-11-16T07:10:00Z",
+      "updateScore": 72,
       "updateScoreBreakdown": {
         "recency": 18,
-        "safety": 13,
-        "operational": 9,
-        "regulatory": 6,
-        "human": 5,
+        "safety": 16,
+        "operational": 12,
+        "regulatory": 4,
+        "human": 6,
         "industry": 6,
-        "source": 9
+        "source": 10
       }
     },
     "HM-2026-111402": {
@@ -853,46 +892,73 @@
       "type": "security",
       "title": "Drones Strike Three Ships Near Sulina Canal",
       "location": "BLACK SEA / ROMANIA",
-      "eventDate": "15 NOV 2026",
+      "eventDate": "14 NOV 2026",
       "sources": [
         {
           "title": "Three Ships Struck By Drones In Black Sea Near Romanian Shipping Canal",
           "publisher": "gCaptain (Reuters)",
           "url": "https://gcaptain.com/three-ships-struck-by-drones-in-black-sea-near-romanian-shipping-canal/",
           "date": "2026-11-15"
+        },
+        {
+          "title": "Three commercial vessels struck by drones near Romania's Black Sea, PM says",
+          "publisher": "Euronews",
+          "url": "https://www.euronews.com/2026/11/15/three-commercial-vessels-struck-by-drones-near-romanias-black-sea-pm-says",
+          "date": "2026-11-15"
+        },
+        {
+          "title": "Romanian PM Condemns Drone Strikes on 3 Commercial Ships Near Danube Delta",
+          "publisher": "Kyiv Post",
+          "url": "https://www.kyivpost.com/post/90181",
+          "date": "2026-11-15"
+        },
+        {
+          "title": "Three More Ships Hit by Drone Strikes off Coast of Romania",
+          "publisher": "The Maritime Executive",
+          "url": "https://maritime-executive.com/article/three-more-ships-hit-by-drone-strikes-off-coast-of-romania",
+          "date": "2026-11-16"
         }
       ],
       "verifiedFacts": [
-        "Romanian Prime Minister said drones struck three commercial ships in the Black Sea near the Sulina canal on 15 Nov 2026; fighter jets scrambled (Reuters via gCaptain)"
+        "Drones struck three commercial ships near the Sulina canal late on Sat 14 Nov 2026; PM Luca Niculescu announced it 15 Nov; fighter jets scrambled twice (Reuters via gCaptain; Euronews; Kyiv Post)",
+        "Defence Minister Stefan Radu Oprea named Evia Petrol V (Greek-flag oil/chemical tanker), Marsol (St Kitts & Nevis bulk carrier), Ali Najafov (oil products tanker); Evia Petrol V and Marsol hit 4-5 nm SE of Sulina canal inside Romanian territorial waters (Reuters via gCaptain; Euronews)",
+        "No casualties; crews controlled fires on board (Oprea via Reuters, Euronews)",
+        "Separate: Palau-flag general cargo ship Larissa 1 hit late Fri 13 Nov in Romanian waters, crane damaged, no injuries; investigated by Romanian military, Naval Forces, Coast Guard, Interior Ministry (Reuters/Digi24 via gCaptain; Kyiv Post)",
+        "Russia denies targeting Ukraine's neighbours; Romania did not name the launcher (Reuters; Euronews)"
       ],
       "unverifiedClaims": [
-        "Ship names, flags, casualties and damage not yet confirmed",
-        "Attribution"
+        "Attribution of the drones",
+        "Ali Najafov flag (St Kitts & Nevis per Reuters, not stated by Euronews)",
+        "Extent of damage to each ship"
       ],
       "conflicts": [
         "Several similar Black Sea drone incidents in Oct 2026; must not be conflated with this one"
       ],
       "verificationStatus": "CORROBORATED",
-      "priorityScore": 70,
+      "priorityScore": 69,
       "scoreBreakdown": {
-        "recency": 20,
-        "safety": 15,
-        "operational": 12,
+        "recency": 16,
+        "safety": 16,
+        "operational": 13,
         "regulatory": 2,
-        "human": 5,
+        "human": 6,
         "industry": 7,
         "source": 9
       },
       "status": "monitoring",
       "published": false,
-      "notes": "Quota 0 at 21:50Z run (no slot before 00:48Z); below breaking threshold 90. Candidate for 16 Nov 08:22Z slot once ship details/casualties confirmed by a second source.",
+      "notes": "Quota 0 at 21:50Z run (no slot before 00:48Z); below breaking threshold 90. Candidate for 16 Nov 08:22Z slot once ship details/casualties confirmed by a second source. 16 Nov 07:10: corroborated (Reuters, Euronews, Kyiv Post, MarEx); event date corrected to 14 Nov. Not carded this run: no free-licence photo could be verified (Wikimedia Commons unreachable from this run) and the single 08:22Z slot went to the NTSB update. Candidate for 14:22Z if a verified photo is found.",
       "versions": [
         {
           "at": "2026-11-15T21:55:00Z",
           "change": "created; monitoring"
+        },
+        {
+          "at": "2026-11-16T07:10:00Z",
+          "change": "facts corroborated, ship names added, eventDate corrected 15->14 Nov; still monitoring (no verified photo)"
         }
       ],
-      "updatedAt": "2026-11-15T21:55:00Z"
+      "updatedAt": "2026-11-16T07:10:00Z"
     }
   }
 }

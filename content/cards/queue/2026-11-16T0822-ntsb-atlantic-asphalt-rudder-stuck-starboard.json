@@ -1,0 +1,43 @@
+{
+  "id": "ntsb-atlantic-asphalt-rudder-stuck-starboard",
+  "type": "investigation",
+  "badge": "UPDATE",
+  "headline": "NTSB: Steering Casualty Before Riverboat Hit",
+  "headlineAccent": "Before Riverboat Hit",
+  "subheadline": "What the tanker's VDR shows so far",
+  "location": "NEW ORLEANS, USA",
+  "dateLabel": "15 NOV 2026",
+  "insight": "NTSB: VDR data shows Atlantic Asphalt's rudder stayed to starboard about two minutes before it struck the moored American Heritage. Root cause not yet determined.",
+  "publishAtUtc": "2026-11-16T08:22:00Z",
+  "eventId": "HM-2026-111401",
+  "update": true,
+  "priorityScore": 72,
+  "pillar": "safety",
+  "audience": ["Master", "Pilot", "OOW", "Chief Engineer", "ETO", "DPA", "Ship Manager"],
+  "sources": [
+    {"title": "NTSB says tanker suffered 'steering casualty' before New Orleans riverboat crash", "publisher": "Fox News", "url": "https://www.foxnews.com/us/ntsb-details-warning-whistles-emergency-orders-before-tanker-collision-capsized-new-orleans-riverboat", "date": "2026-11-15"},
+    {"title": "Officials investigating steering of tanker in New Orleans riverboat collision: NTSB", "publisher": "ABC News", "url": "https://abcnews.com/US/officials-investigating-steering-tanker-new-orleans-riverboat-collision/story?id=138167031", "date": "2026-11-15"},
+    {"title": "Steering Problem On Tanker Caused Collision In New Orleans", "publisher": "gCaptain (Reuters)", "url": "https://gcaptain.com/steering-problem-on-tanker-caused-collision-in-new-orleans/", "date": "2026-11-15"},
+    {"title": "Steering failure blamed for New Orleans tanker-cruise ship collision", "publisher": "Splash247", "url": "https://splash247.com/steering-failure-blamed-for-new-orleans-tanker-cruise-ship-collision/", "date": "2026-11-16"},
+    {"title": "NTSB: Tanker That Hit New Orleans Riverboat Suffered a Steering Failure", "publisher": "The Maritime Executive", "url": "https://maritime-executive.com/article/ntsb-tanker-that-hit-new-orleans-riverboat-suffered-a-steering-failure", "date": "2026-11-16"}
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner intelligence desk",
+    "checkedAt": "2026-11-16T07:10:00Z",
+    "notes": "UPDATE to HM-2026-111401 (cards 14 Nov and 15 Nov 08:22). NTSB on-site briefing Sun 15 Nov (Board Member John DeLeeuw, senior investigator Bart Barnum), corroborated by Fox News, ABC News, Reuters via gCaptain, MarEx and Splash247: preliminary VDR data shows a 'steering casualty resulting in the rudder remaining to starboard'; tanker veered toward the east bank; steering problem began about 12:26, impact about 12:28 local (Fox; Splash247 'two minutes before impact'); VDR (9+ hours) captured whistle, radio requests for assistance, anchor and emergency shiphandling orders; riverboat capsized about 22 minutes after impact; ~140 passengers and 50 crew aboard American Heritage, 19 crew aboard the tanker; preliminary report expected in about 30 days; tanker crew interviews from 16 Nov. NTSB stressed 'steering casualty' does not establish the cause, so headlines saying 'steering failure caused' are not followed."
+  },
+  "image": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Steamboat_Natchez._New_Orleans._(48759732042).jpg?width=1600",
+    "credit": "Bernard Spragg / Wikimedia Commons",
+    "license": "CC0 1.0",
+    "representative": true
+  },
+  "meta": {
+    "description": "At an on-site briefing on 15 November 2026 the U.S. National Transportation Safety Board said preliminary voyage data recorder data shows the asphalt tanker Atlantic Asphalt suffered a steering casualty that left its rudder to starboard about two minutes before it struck American Cruise Lines' moored riverboat American Heritage at New Orleans on 13 November. The tanker veered toward the east bank; the recorder captured the ship's whistle, radio calls for assistance, orders to let go the anchors and emergency shiphandling orders, and the riverboat capsized about 22 minutes after impact with everyone aboard accounted for. NTSB said the term does not establish the root cause, which is still under investigation; tanker crew interviews start this week and a preliminary report is expected in about 30 days.",
+    "keywords": ["NTSB", "Atlantic Asphalt", "steering failure", "voyage data recorder", "American Heritage", "Mississippi River"],
+    "hashtags": ["#MaritimeSafety", "#NTSB", "#SteeringGear", "#MississippiRiver", "#ShippingNews"],
+    "question": "If the rudder jammed hard over in a confined river, what would your first three actions be?",
+    "altText": "Representative photo of a sternwheel riverboat on the Mississippi at New Orleans, with HeyMariner update card text on the NTSB finding that the tanker Atlantic Asphalt had a steering casualty with the rudder stuck to starboard about two minutes before striking the riverboat American Heritage."
+  }
+}
