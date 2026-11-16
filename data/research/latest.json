@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T02:12:41.148Z",
+  "updatedAt": "2026-11-16T02:25:19.499Z",
   "feedStatus": {
     "safety4sea": "ok (0)",
     "gcaptain": "ok (12)",
@@ -24,7 +24,7 @@
       "publishedAt": "2026-11-15T22:00:54.000Z",
       "score": 57,
       "scores": {
-        "recency": 0.91,
+        "recency": 0.9,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -48,7 +48,7 @@
       "publishedAt": "2026-11-15T22:00:32.000Z",
       "score": 57,
       "scores": {
-        "recency": 0.91,
+        "recency": 0.9,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -72,7 +72,7 @@
       "publishedAt": "2026-11-15T22:00:44.000Z",
       "score": 56,
       "scores": {
-        "recency": 0.91,
+        "recency": 0.9,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 1,
@@ -96,7 +96,7 @@
       "publishedAt": "2026-11-13T11:41:30.000Z",
       "score": 54,
       "scores": {
-        "recency": 0.24,
+        "recency": 0.23,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -144,7 +144,7 @@
       "publishedAt": "2026-11-15T22:00:58.000Z",
       "score": 52,
       "scores": {
-        "recency": 0.91,
+        "recency": 0.9,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -168,7 +168,7 @@
       "publishedAt": "2026-11-15T22:00:52.000Z",
       "score": 52,
       "scores": {
-        "recency": 0.91,
+        "recency": 0.9,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -216,7 +216,7 @@
       "publishedAt": "2026-11-15T19:29:00.000Z",
       "score": 51,
       "scores": {
-        "recency": 0.86,
+        "recency": 0.85,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -240,7 +240,7 @@
       "publishedAt": "2026-11-14T22:23:43.000Z",
       "score": 51,
       "scores": {
-        "recency": 0.53,
+        "recency": 0.52,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -288,7 +288,7 @@
       "publishedAt": "2026-11-15T22:00:59.000Z",
       "score": 51,
       "scores": {
-        "recency": 0.91,
+        "recency": 0.9,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -312,7 +312,7 @@
       "publishedAt": "2026-11-14T01:44:29.000Z",
       "score": 48,
       "scores": {
-        "recency": 0.33,
+        "recency": 0.32,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 1,
@@ -336,7 +336,7 @@
       "publishedAt": "2026-11-15T14:48:43.000Z",
       "score": 48,
       "scores": {
-        "recency": 0.77,
+        "recency": 0.76,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -384,7 +384,7 @@
       "publishedAt": "2026-11-15T20:00:00.000Z",
       "score": 47,
       "scores": {
-        "recency": 0.87,
+        "recency": 0.86,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -408,7 +408,7 @@
       "publishedAt": "2026-11-15T19:33:00.000Z",
       "score": 47,
       "scores": {
-        "recency": 0.86,
+        "recency": 0.85,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -456,7 +456,7 @@
       "publishedAt": "2026-11-15T17:31:34.000Z",
       "score": 46,
       "scores": {
-        "recency": 0.82,
+        "recency": 0.81,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -504,7 +504,7 @@
       "publishedAt": "2026-11-15T22:00:57.000Z",
       "score": 46,
       "scores": {
-        "recency": 0.91,
+        "recency": 0.9,
         "reliability": 0.75,
         "maritimeRelevance": 0.33,
         "educationalValue": 0.5,
@@ -552,7 +552,7 @@
       "publishedAt": "2026-11-15T13:03:46.000Z",
       "score": 45,
       "scores": {
-        "recency": 0.74,
+        "recency": 0.73,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -600,7 +600,7 @@
       "publishedAt": "2026-11-15T03:48:26.000Z",
       "score": 43,
       "scores": {
-        "recency": 0.6,
+        "recency": 0.59,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -648,7 +648,7 @@
       "publishedAt": "2026-11-16T00:17:00.000Z",
       "score": 43,
       "scores": {
-        "recency": 0.96,
+        "recency": 0.95,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -744,7 +744,7 @@
       "publishedAt": "2026-11-15T20:05:00.000Z",
       "score": 42,
       "scores": {
-        "recency": 0.87,
+        "recency": 0.86,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0.5,
@@ -852,102 +852,6 @@
       }
     },
     {
-      "fingerprint": "9b6a36aeac230491e77b4c179bc425693f2b18fc",
-      "storyKey": "708787baabc2b4bd5ee72aec698f8228438d009d",
-      "sourceId": "hellenic",
-      "sourceName": "Hellenic Shipping News",
-      "tier": "press",
-      "reliability": 0.75,
-      "title": "Dry Bulk Shipping: Capesizes Retain Positive Momentum",
-      "url": "https://www.hellenicshippingnews.com/dry-bulk-shipping-capesizes-retain-positive-momentum-2/",
-      "summary": "Capesize The Capesize market maintained a positive trajectory throughout the week, with the Pacific emerging as the clear driver of overall gains. Despite some midweek volatility, improving miner demand and increasingly competitive fixing levels saw C5 recover strongly, climbing from $13.80 on Monday to $15.20 by Thursday, before easing back to $14.50–$14.60 towards the end ...",
-      "publishedAt": "2026-11-15T22:00:58.000Z",
-      "score": 41,
-      "scores": {
-        "recency": 0.91,
-        "reliability": 0.75,
-        "maritimeRelevance": 0.67,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "d55f7a2b055043ef6b925ed61a4d3bf382888986",
-      "storyKey": "24f1e355e04b07529f9ed97671e77a01b67af509",
-      "sourceId": "hellenic",
-      "sourceName": "Hellenic Shipping News",
-      "tier": "press",
-      "reliability": 0.75,
-      "title": "The Week in Alt Fuels: A drop in the tank",
-      "url": "https://www.hellenicshippingnews.com/the-week-in-alt-fuels-a-drop-in-the-tank/",
-      "summary": "Several producers are developing small-scale low- and zero-emission fuel projects around the world. But shipping needs far greater volumes available at competitive prices and at major bunker locations. Several small-scale biofuel and e-fuel projects are being developed around the world. Swiss startup Synhelion expects to start commercial operations at its 1,000 mt/year synthetic fuel plant ...",
-      "publishedAt": "2026-11-15T22:00:50.000Z",
-      "score": 41,
-      "scores": {
-        "recency": 0.91,
-        "reliability": 0.75,
-        "maritimeRelevance": 0.67,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "38c41576348b2fb92666547647e1d4e64e0c7701",
-      "storyKey": "a822bcdb8b79a062bb7a58f0cedfb7793bf25b1d",
-      "sourceId": "hellenic",
-      "sourceName": "Hellenic Shipping News",
-      "tier": "press",
-      "reliability": 0.75,
-      "title": "Maersk Europe Market Update November 2026",
-      "url": "https://www.hellenicshippingnews.com/maersk-europe-market-update-november-2026/",
-      "summary": "Ocean and Key Ports Update Maersk and Hapag-Lloyd have announced a structural change to the ME1 Gemini service, which will now sail through the Suez Canal instead of via the Cape of Good Hope. The ME1 joins the AE5, AE11, AE12, AE15, AE19, and ME2 in returning to the trans-Suez routing, providing more efficient transit ...",
-      "publishedAt": "2026-11-15T22:00:40.000Z",
-      "score": 41,
-      "scores": {
-        "recency": 0.91,
-        "reliability": 0.75,
-        "maritimeRelevance": 0.67,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "cff386490db884d1c8aa20120578a964026feaa5",
-      "storyKey": "3c1420e81588e52efd8ac72a14cbd3b573f4667d",
-      "sourceId": "hellenic",
-      "sourceName": "Hellenic Shipping News",
-      "tier": "press",
-      "reliability": 0.75,
-      "title": "The US and China reciprocally extend the suspensions of service fees",
-      "url": "https://www.hellenicshippingnews.com/the-us-and-china-reciprocally-extend-the-suspensions-of-service-fees/",
-      "summary": "The United States and China reciprocally extend the suspensions of service fees on Chinese-linked vessels and Special port fees on US-linked vessels. On 6 November 2026, the United States Trade Representative (USTR) suspended the implementation of the service fees on Chinese-linked vessels for another two months, up to 11:59 p.m. Eastern Time on 9 January ...",
-      "publishedAt": "2026-11-15T22:00:38.000Z",
-      "score": 41,
-      "scores": {
-        "recency": 0.91,
-        "reliability": 0.75,
-        "maritimeRelevance": 0.67,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
       "fingerprint": "c59a72431a240fe0bbb728a2ac7cd30eb60a1507",
       "storyKey": "e9dae4be5b28957746803c13b520821c71972a2a",
       "sourceId": "hellenic",
@@ -960,7 +864,7 @@
       "publishedAt": "2026-11-15T22:00:36.000Z",
       "score": 41,
       "scores": {
-        "recency": 0.91,
+        "recency": 0.9,
         "reliability": 0.75,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1068,6 +972,54 @@
       }
     },
     {
+      "fingerprint": "9b6a36aeac230491e77b4c179bc425693f2b18fc",
+      "storyKey": "708787baabc2b4bd5ee72aec698f8228438d009d",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "Dry Bulk Shipping: Capesizes Retain Positive Momentum",
+      "url": "https://www.hellenicshippingnews.com/dry-bulk-shipping-capesizes-retain-positive-momentum-2/",
+      "summary": "Capesize The Capesize market maintained a positive trajectory throughout the week, with the Pacific emerging as the clear driver of overall gains. Despite some midweek volatility, improving miner demand and increasingly competitive fixing levels saw C5 recover strongly, climbing from $13.80 on Monday to $15.20 by Thursday, before easing back to $14.50–$14.60 towards the end ...",
+      "publishedAt": "2026-11-15T22:00:58.000Z",
+      "score": 40,
+      "scores": {
+        "recency": 0.9,
+        "reliability": 0.75,
+        "maritimeRelevance": 0.67,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "d55f7a2b055043ef6b925ed61a4d3bf382888986",
+      "storyKey": "24f1e355e04b07529f9ed97671e77a01b67af509",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "The Week in Alt Fuels: A drop in the tank",
+      "url": "https://www.hellenicshippingnews.com/the-week-in-alt-fuels-a-drop-in-the-tank/",
+      "summary": "Several producers are developing small-scale low- and zero-emission fuel projects around the world. But shipping needs far greater volumes available at competitive prices and at major bunker locations. Several small-scale biofuel and e-fuel projects are being developed around the world. Swiss startup Synhelion expects to start commercial operations at its 1,000 mt/year synthetic fuel plant ...",
+      "publishedAt": "2026-11-15T22:00:50.000Z",
+      "score": 40,
+      "scores": {
+        "recency": 0.9,
+        "reliability": 0.75,
+        "maritimeRelevance": 0.67,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
       "fingerprint": "c7398d7f5e1accd13c5e71ad66f30cbb7d59959a",
       "storyKey": "9d7215f188eb6df47e3c64a425946a79b77e8162",
       "sourceId": "hellenic",
@@ -1080,10 +1032,58 @@
       "publishedAt": "2026-11-15T22:00:42.000Z",
       "score": 40,
       "scores": {
-        "recency": 0.91,
+        "recency": 0.9,
         "reliability": 0.75,
         "maritimeRelevance": 0.33,
         "educationalValue": 0.5,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "38c41576348b2fb92666547647e1d4e64e0c7701",
+      "storyKey": "a822bcdb8b79a062bb7a58f0cedfb7793bf25b1d",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "Maersk Europe Market Update November 2026",
+      "url": "https://www.hellenicshippingnews.com/maersk-europe-market-update-november-2026/",
+      "summary": "Ocean and Key Ports Update Maersk and Hapag-Lloyd have announced a structural change to the ME1 Gemini service, which will now sail through the Suez Canal instead of via the Cape of Good Hope. The ME1 joins the AE5, AE11, AE12, AE15, AE19, and ME2 in returning to the trans-Suez routing, providing more efficient transit ...",
+      "publishedAt": "2026-11-15T22:00:40.000Z",
+      "score": 40,
+      "scores": {
+        "recency": 0.9,
+        "reliability": 0.75,
+        "maritimeRelevance": 0.67,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "cff386490db884d1c8aa20120578a964026feaa5",
+      "storyKey": "3c1420e81588e52efd8ac72a14cbd3b573f4667d",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "The US and China reciprocally extend the suspensions of service fees",
+      "url": "https://www.hellenicshippingnews.com/the-us-and-china-reciprocally-extend-the-suspensions-of-service-fees/",
+      "summary": "The United States and China reciprocally extend the suspensions of service fees on Chinese-linked vessels and Special port fees on US-linked vessels. On 6 November 2026, the United States Trade Representative (USTR) suspended the implementation of the service fees on Chinese-linked vessels for another two months, up to 11:59 p.m. Eastern Time on 9 January ...",
+      "publishedAt": "2026-11-15T22:00:38.000Z",
+      "score": 40,
+      "scores": {
+        "recency": 0.9,
+        "reliability": 0.75,
+        "maritimeRelevance": 0.67,
+        "educationalValue": 0,
         "seafarerValue": 0,
         "shareability": 0,
         "visualPotential": 0,
@@ -1104,7 +1104,7 @@
       "publishedAt": "2026-11-15T22:00:28.000Z",
       "score": 39,
       "scores": {
-        "recency": 0.91,
+        "recency": 0.9,
         "reliability": 0.75,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1344,7 +1344,7 @@
       "publishedAt": "2026-11-15T22:00:34.000Z",
       "score": 36,
       "scores": {
-        "recency": 0.91,
+        "recency": 0.9,
         "reliability": 0.75,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1464,7 +1464,7 @@
       "publishedAt": "2026-11-15T22:00:48.000Z",
       "score": 35,
       "scores": {
-        "recency": 0.91,
+        "recency": 0.9,
         "reliability": 0.75,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1488,7 +1488,7 @@
       "publishedAt": "2026-11-15T22:00:46.000Z",
       "score": 35,
       "scores": {
-        "recency": 0.91,
+        "recency": 0.9,
         "reliability": 0.75,
         "maritimeRelevance": 0,
         "educationalValue": 0.5,
@@ -1512,7 +1512,7 @@
       "publishedAt": "2026-11-15T22:00:26.000Z",
       "score": 35,
       "scores": {
-        "recency": 0.91,
+        "recency": 0.9,
         "reliability": 0.75,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1680,7 +1680,7 @@
       "publishedAt": "2026-11-15T22:00:56.000Z",
       "score": 30,
       "scores": {
-        "recency": 0.91,
+        "recency": 0.9,
         "reliability": 0.75,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1704,7 +1704,7 @@
       "publishedAt": "2026-11-15T22:00:30.000Z",
       "score": 30,
       "scores": {
-        "recency": 0.91,
+        "recency": 0.9,
         "reliability": 0.75,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1728,7 +1728,7 @@
       "publishedAt": "2026-11-13T09:50:00.000Z",
       "score": 25,
       "scores": {
-        "recency": 0.23,
+        "recency": 0.22,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1752,7 +1752,7 @@
       "publishedAt": "2026-11-13T09:42:00.000Z",
       "score": 25,
       "scores": {
-        "recency": 0.23,
+        "recency": 0.22,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1944,7 +1944,7 @@
       "publishedAt": "2026-11-13T19:56:00.000Z",
       "score": 20,
       "scores": {
-        "recency": 0.29,
+        "recency": 0.28,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
