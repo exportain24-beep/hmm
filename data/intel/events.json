@@ -759,9 +759,13 @@
         {
           "at": "2026-11-15T19:05:00Z",
           "change": "IRGC 15 Nov claims a supertanker sank after a mine strike; still no independent confirmation; possible link to UKMTO 205-26 tracked under HM-2026-111501"
+        },
+        {
+          "at": "2026-11-16T19:05:00Z",
+          "change": "re-checked: new IRGC claim of a 2m-barrel supertanker mine strike/sinking reported by media; still Iranian claims only, no vessel named or independent confirmation; remains UNCONFIRMED, not published"
         }
       ],
-      "updatedAt": "2026-11-15T19:05:00Z"
+      "updatedAt": "2026-11-16T19:05:00Z"
     },
     "HM-2026-111404": {
       "eventId": "HM-2026-111404",
@@ -964,6 +968,74 @@
       ],
       "updatedAt": "2026-11-16T13:10:00Z",
       "cardId": "drones-strike-three-ships-sulina"
+    },
+    "HM-2026-111601": {
+      "eventId": "HM-2026-111601",
+      "slug": "eu-irini-boards-false-flag-tanker-midag",
+      "type": "regulation",
+      "title": "EU Navy Exposes False Flag on Tanker Midag",
+      "location": "MEDITERRANEAN SEA",
+      "eventDate": "13 NOV 2026",
+      "sources": [
+        {
+          "title": "EU forces board suspected Russian shadow fleet tanker in Mediterranean, Kallas says",
+          "publisher": "The Kyiv Independent",
+          "url": "https://kyivindependent.com/eu-forces-board-suspected-russian-shadow-fleet-tanker-in-mediterranean-kallas-says/",
+          "date": "2026-11-15"
+        },
+        {
+          "title": "EU Forces Board Russian Shadow Fleet Tanker MV MIDAG Sailing Under False Flag",
+          "publisher": "Militarnyi",
+          "url": "https://militarnyi.com/en/news/eu-forces-board-russian-shadow-fleet-tanker-mv-midag-sailing-under-false-flag/",
+          "date": "2026-11-15"
+        },
+        {
+          "title": "Kallas: EU forces from Operation EUNAVFOR MED IRINI boarded a suspected Russian shadow fleet tanker",
+          "publisher": "CGTN",
+          "url": "https://news.cgtn.com/news/2026-11-15/news-1S5P68BEnaE/p.html",
+          "date": "2026-11-15"
+        },
+        {
+          "title": "EU Forces Board Oil Tanker Suspected Of Sailing Under False Flag In Mediterranean Sea",
+          "publisher": "Marine Insight",
+          "url": "https://www.marineinsight.com/eu-forces-board-oil-tanker-suspected-of-sailing-under-false-flag-in-mediterranean-sea/",
+          "date": "2026-11-16"
+        }
+      ],
+      "verifiedFacts": [
+        "EUNAVFOR MED IRINI personnel boarded the tanker MIDAG in the Mediterranean on 13 Nov 2026 (Kallas statement via Kyiv Independent, Militarnyi, CGTN)",
+        "Boarding conducted under UNCLOS Article 110; confirmed the vessel was sailing under a false flag (Kallas statement)",
+        "Kallas announced it 15 Nov; EU foreign ministers due 16 Nov to approve new Russia sanctions listings incl. shadow fleet supporters (Kyiv Independent, CGTN)"
+      ],
+      "unverifiedClaims": [
+        "Claimed flag Zimbabwe (MarineTraffic/AIS as cited by Militarnyi and Kyiv Independent)",
+        "IMO 9266841 and 241 m length (MarineTraffic data cited by outlets)",
+        "Any detention, diversion or further action - not reported",
+        "Adoption of 16 Nov sanctions listings - not yet confirmed"
+      ],
+      "conflicts": [],
+      "verificationStatus": "CORROBORATED",
+      "priorityScore": 61,
+      "scoreBreakdown": {
+        "recency": 14,
+        "safety": 5,
+        "operational": 10,
+        "regulatory": 13,
+        "human": 2,
+        "industry": 8,
+        "source": 9
+      },
+      "status": "queued",
+      "published": false,
+      "notes": "Event 13 Nov, announced 15 Nov, MarEx/Marine Insight 16 Nov. Carded for 20:22Z slot. Photo: previously verified public-domain USCG boarding photo, representative (Commons unreachable this run).",
+      "versions": [
+        {
+          "at": "2026-11-16T19:05:00Z",
+          "change": "created; queued card eu-irini-boards-false-flag-tanker-midag for 2026-11-16T20:22Z; score 61"
+        }
+      ],
+      "updatedAt": "2026-11-16T19:05:00Z",
+      "cardId": "eu-irini-boards-false-flag-tanker-midag"
     }
   }
 }

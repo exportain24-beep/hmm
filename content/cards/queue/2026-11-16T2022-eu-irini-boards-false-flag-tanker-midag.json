@@ -1,0 +1,40 @@
+{
+  "id": "eu-irini-boards-false-flag-tanker-midag",
+  "type": "regulation",
+  "headline": "EU Navy Exposes False Flag on Tanker Midag",
+  "headlineAccent": "on Tanker Midag",
+  "subheadline": "Flag fraud is now checked at sea",
+  "location": "MEDITERRANEAN SEA",
+  "dateLabel": "13 NOV 2026",
+  "insight": "Operation IRINI boarded suspected shadow fleet tanker MIDAG on 13 Nov under UNCLOS Article 110 and confirmed it was sailing under a false flag.",
+  "publishAtUtc": "2026-11-16T20:22:00Z",
+  "eventId": "HM-2026-111601",
+  "priorityScore": 61,
+  "pillar": "regulation",
+  "audience": ["Master", "Ship Manager", "DPA", "CSO", "Compliance Officer", "Charterer"],
+  "sources": [
+    {"title": "EU forces board suspected Russian shadow fleet tanker in Mediterranean, Kallas says", "publisher": "The Kyiv Independent", "url": "https://kyivindependent.com/eu-forces-board-suspected-russian-shadow-fleet-tanker-in-mediterranean-kallas-says/", "date": "2026-11-15"},
+    {"title": "EU Forces Board Russian Shadow Fleet Tanker MV MIDAG Sailing Under False Flag", "publisher": "Militarnyi", "url": "https://militarnyi.com/en/news/eu-forces-board-russian-shadow-fleet-tanker-mv-midag-sailing-under-false-flag/", "date": "2026-11-15"},
+    {"title": "Kallas: EU forces from Operation EUNAVFOR MED IRINI boarded a suspected Russian shadow fleet tanker", "publisher": "CGTN", "url": "https://news.cgtn.com/news/2026-11-15/news-1S5P68BEnaE/p.html", "date": "2026-11-15"},
+    {"title": "EU Forces Board Oil Tanker Suspected Of Sailing Under False Flag In Mediterranean Sea", "publisher": "Marine Insight", "url": "https://www.marineinsight.com/eu-forces-board-oil-tanker-suspected-of-sailing-under-false-flag-in-mediterranean-sea/", "date": "2026-11-16"}
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner intelligence desk",
+    "checkedAt": "2026-11-16T19:05:00Z",
+    "notes": "Primary source: statement by EU High Representative Kaja Kallas (15 Nov), carried by Kyiv Independent, Militarnyi and CGTN; Marine Insight used for discovery. Claimed Zimbabwe flag rests on AIS/MarineTraffic data and is given as reported; detention or further action not reported and not claimed."
+  },
+  "image": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Coast_Guard_Cutter_Sea_Otter_conducts_boarding_130727-G-ZZ999-001.jpg?width=1600",
+    "credit": "U.S. Coast Guard / Wikimedia Commons",
+    "license": "Public domain",
+    "representative": true
+  },
+  "meta": {
+    "description": "On 13 November 2026 personnel from the EU naval operation EUNAVFOR MED IRINI boarded the crude oil tanker MIDAG (IMO 9266841, 241 m), a suspected Russian shadow fleet vessel, in the Mediterranean Sea. The boarding was carried out under Article 110 of the UN Convention on the Law of the Sea and confirmed the ship was sailing under a false flag; AIS data had shown it under the flag of Zimbabwe. EU High Representative Kaja Kallas announced the boarding on 15 November and said the EU will keep disrupting the shadow fleet at sea and through diplomatic means.",
+    "keywords": ["MIDAG tanker", "Operation IRINI", "false flag", "UNCLOS Article 110", "shadow fleet", "flag verification"],
+    "hashtags": ["#MaritimeSecurity", "#ShadowFleet", "#FlagState", "#Tankers", "#Shipping"],
+    "question": "How does your company verify a counterparty vessel's flag registration before fixing or STS?",
+    "altText": "Representative photo of a coast guard boarding team with HeyMariner news card text on EU forces finding a false flag on the tanker MIDAG."
+  }
+}
