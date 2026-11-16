@@ -500,5 +500,37 @@
         "at": "2026-11-16T04:02:23.906Z"
       }
     }
+  },
+  "2026-11-16-scavenge-fire-actions": {
+    "title": "Scavenge fire on a two-stroke engine: symptoms and what to do",
+    "producedAt": "2026-11-16T05:38:51.758Z",
+    "platforms": {
+      "youtube": {
+        "id": "zyb24s8Vtts",
+        "url": "https://www.youtube.com/watch?v=zyb24s8Vtts",
+        "at": "2026-11-16T07:00:05.476Z"
+      },
+      "facebook": {
+        "id": "939550699088896",
+        "url": "https://www.facebook.com/reel/939550699088896",
+        "at": "2026-11-16T07:00:17.812Z"
+      },
+      "instagram": {
+        "id": "17890562679622805",
+        "at": "2026-11-16T07:01:56.312Z"
+      },
+      "tiktok": {
+        "id": "6afaaa65ff465c57dadc9cf9",
+        "at": "2026-11-16T07:02:07.330Z"
+      },
+      "linkedin": {
+        "id": "6afaaa7006e1675856d2232f",
+        "at": "2026-11-16T07:02:18.534Z"
+      },
+      "x": {
+        "id": "6afaaa7b8e87c256a3bb9345",
+        "at": "2026-11-16T07:02:29.485Z"
+      }
+    }
   }
 }
