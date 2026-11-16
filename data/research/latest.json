@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T01:25:35.122Z",
+  "updatedAt": "2026-11-16T02:12:41.148Z",
   "feedStatus": {
     "safety4sea": "ok (0)",
     "gcaptain": "ok (12)",
@@ -24,7 +24,7 @@
       "publishedAt": "2026-11-15T22:00:54.000Z",
       "score": 57,
       "scores": {
-        "recency": 0.92,
+        "recency": 0.91,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -48,7 +48,7 @@
       "publishedAt": "2026-11-15T22:00:32.000Z",
       "score": 57,
       "scores": {
-        "recency": 0.92,
+        "recency": 0.91,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -72,7 +72,7 @@
       "publishedAt": "2026-11-15T22:00:44.000Z",
       "score": 56,
       "scores": {
-        "recency": 0.92,
+        "recency": 0.91,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 1,
@@ -120,7 +120,7 @@
       "publishedAt": "2026-11-14T14:41:03.000Z",
       "score": 52,
       "scores": {
-        "recency": 0.45,
+        "recency": 0.44,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -128,54 +128,6 @@
         "shareability": 0,
         "visualPotential": 1,
         "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "cd0fab1f0e5327a8aaa19316b5c8004af0a277b9",
-      "storyKey": "331962d89306a2b935b5f72e5a3e45427081535f",
-      "sourceId": "marex",
-      "sourceName": "The Maritime Executive",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Everllence Two-Stroke Dual-Fuel Technology Selected for Tanker Project",
-      "url": "https://maritime-executive.com/article/everllence-two-stroke-dual-fuel-technology-selected-for-tanker-project",
-      "summary": "Everllence has received an order from Swan Defence and Heavy Industries Limited (SDHI), India’s largest shipbuilding and heavy engineering company, fo...",
-      "publishedAt": "2026-11-14T22:23:43.000Z",
-      "score": 52,
-      "scores": {
-        "recency": 0.54,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.67,
-        "educationalValue": 0,
-        "seafarerValue": 0.5,
-        "shareability": 1,
-        "visualPotential": 0.5,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "af8fd3c12fcffe3f586b64fd4ce396943ddfc7e9",
-      "storyKey": "86b513a2fb00439b7247356dfd3851dedea5365a",
-      "sourceId": "marex",
-      "sourceName": "The Maritime Executive",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Korean Partnership's Carbon Capture Proposal Chosen as Basis for IMO Safety",
-      "url": "https://maritime-executive.com/article/korean-partnership-s-carbon-capture-proposal-chosen-as-basis-for-imo-safety",
-      "summary": "A leading Korean public-private partnership comprising 10 maritime organizations has reached a major milestone in the development of international saf...",
-      "publishedAt": "2026-11-14T15:30:10.000Z",
-      "score": 52,
-      "scores": {
-        "recency": 0.46,
-        "reliability": 0.85,
-        "maritimeRelevance": 1,
-        "educationalValue": 0,
-        "seafarerValue": 0.5,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0.5,
         "corroboratingOutlets": 1
       }
     },
@@ -192,7 +144,7 @@
       "publishedAt": "2026-11-15T22:00:58.000Z",
       "score": 52,
       "scores": {
-        "recency": 0.92,
+        "recency": 0.91,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -216,7 +168,7 @@
       "publishedAt": "2026-11-15T22:00:52.000Z",
       "score": 52,
       "scores": {
-        "recency": 0.92,
+        "recency": 0.91,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -240,7 +192,7 @@
       "publishedAt": "2026-11-15T16:02:22.000Z",
       "score": 51,
       "scores": {
-        "recency": 0.81,
+        "recency": 0.79,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -264,7 +216,7 @@
       "publishedAt": "2026-11-15T19:29:00.000Z",
       "score": 51,
       "scores": {
-        "recency": 0.87,
+        "recency": 0.86,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -272,6 +224,54 @@
         "shareability": 0,
         "visualPotential": 0.5,
         "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "cd0fab1f0e5327a8aaa19316b5c8004af0a277b9",
+      "storyKey": "331962d89306a2b935b5f72e5a3e45427081535f",
+      "sourceId": "marex",
+      "sourceName": "The Maritime Executive",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Everllence Two-Stroke Dual-Fuel Technology Selected for Tanker Project",
+      "url": "https://maritime-executive.com/article/everllence-two-stroke-dual-fuel-technology-selected-for-tanker-project",
+      "summary": "Everllence has received an order from Swan Defence and Heavy Industries Limited (SDHI), India’s largest shipbuilding and heavy engineering company, fo...",
+      "publishedAt": "2026-11-14T22:23:43.000Z",
+      "score": 51,
+      "scores": {
+        "recency": 0.53,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.67,
+        "educationalValue": 0,
+        "seafarerValue": 0.5,
+        "shareability": 1,
+        "visualPotential": 0.5,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "af8fd3c12fcffe3f586b64fd4ce396943ddfc7e9",
+      "storyKey": "86b513a2fb00439b7247356dfd3851dedea5365a",
+      "sourceId": "marex",
+      "sourceName": "The Maritime Executive",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Korean Partnership's Carbon Capture Proposal Chosen as Basis for IMO Safety",
+      "url": "https://maritime-executive.com/article/korean-partnership-s-carbon-capture-proposal-chosen-as-basis-for-imo-safety",
+      "summary": "A leading Korean public-private partnership comprising 10 maritime organizations has reached a major milestone in the development of international saf...",
+      "publishedAt": "2026-11-14T15:30:10.000Z",
+      "score": 51,
+      "scores": {
+        "recency": 0.45,
+        "reliability": 0.85,
+        "maritimeRelevance": 1,
+        "educationalValue": 0,
+        "seafarerValue": 0.5,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0.5,
         "corroboratingOutlets": 1
       }
     },
@@ -288,37 +288,13 @@
       "publishedAt": "2026-11-15T22:00:59.000Z",
       "score": 51,
       "scores": {
-        "recency": 0.92,
+        "recency": 0.91,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
         "seafarerValue": 0,
         "shareability": 0,
         "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "c8b1c162c7901084035efce9535160fdd54ba964",
-      "storyKey": "6ba78b6420ce86cc8c843332eb579428068c3871",
-      "sourceId": "gcaptain",
-      "sourceName": "gCaptain",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Steering Problem On Tanker Caused Collision In New Orleans",
-      "url": "https://gcaptain.com/steering-problem-on-tanker-caused-collision-in-new-orleans/",
-      "summary": "By Siddharth Cavale Nov 15 (Reuters) - The asphalt tanker vessel that struck a docked paddlewheel cruise boat in the Mississippi River at New Orleans last week experienced a steering problem in which its...",
-      "publishedAt": "2026-11-16T00:26:49.000Z",
-      "score": 48,
-      "scores": {
-        "recency": 0.98,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.67,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0.5,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
@@ -360,13 +336,37 @@
       "publishedAt": "2026-11-15T14:48:43.000Z",
       "score": 48,
       "scores": {
-        "recency": 0.78,
+        "recency": 0.77,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
         "seafarerValue": 0,
         "shareability": 0,
         "visualPotential": 1,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "c8b1c162c7901084035efce9535160fdd54ba964",
+      "storyKey": "6ba78b6420ce86cc8c843332eb579428068c3871",
+      "sourceId": "gcaptain",
+      "sourceName": "gCaptain",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Steering Problem On Tanker Caused Collision In New Orleans",
+      "url": "https://gcaptain.com/steering-problem-on-tanker-caused-collision-in-new-orleans/",
+      "summary": "By Siddharth Cavale Nov 15 (Reuters) - The asphalt tanker vessel that struck a docked paddlewheel cruise boat in the Mississippi River at New Orleans last week experienced a steering problem in which its...",
+      "publishedAt": "2026-11-16T00:26:49.000Z",
+      "score": 47,
+      "scores": {
+        "recency": 0.96,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.67,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0.5,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
@@ -384,34 +384,10 @@
       "publishedAt": "2026-11-15T20:00:00.000Z",
       "score": 47,
       "scores": {
-        "recency": 0.88,
+        "recency": 0.87,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "18f3db1b6f91e966482a89f7915630c3b12f21aa",
-      "storyKey": "553951a6b775e34fef76697b624dac8fcae9ff0a",
-      "sourceId": "splash247",
-      "sourceName": "Splash247",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Naftomar returns to South Korea for LPG quartet",
-      "url": "https://splash247.com/naftomar-returns-to-south-korea-for-lpg-quartet/",
-      "summary": "Greek gas carrier specialist Naftomar has been linked to an order for four 9,000 cu m semi-refrigerated LPG carriers at HD Hyundai's medium-sized shipbuilding operation in South Korea .Shipbroking sources have identified the Athens-based owner behind the quartet, with deliveries scheduled between December 2028 and September 2029. No contract price has been reported, and the",
-      "publishedAt": "2026-11-15T19:44:00.000Z",
-      "score": 47,
-      "scores": {
-        "recency": 0.88,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.67,
-        "educationalValue": 0.5,
         "seafarerValue": 0,
         "shareability": 0,
         "visualPotential": 0,
@@ -432,7 +408,7 @@
       "publishedAt": "2026-11-15T19:33:00.000Z",
       "score": 47,
       "scores": {
-        "recency": 0.87,
+        "recency": 0.86,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -456,7 +432,7 @@
       "publishedAt": "2026-11-15T19:18:00.000Z",
       "score": 47,
       "scores": {
-        "recency": 0.87,
+        "recency": 0.85,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -480,7 +456,7 @@
       "publishedAt": "2026-11-15T17:31:34.000Z",
       "score": 46,
       "scores": {
-        "recency": 0.83,
+        "recency": 0.82,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -492,25 +468,25 @@
       }
     },
     {
-      "fingerprint": "2d4f7faa89ee449610a1d44a550fb91cefc15a9a",
-      "storyKey": "320279df07b9e8d3c24da9039426cb38cafa3161",
+      "fingerprint": "18f3db1b6f91e966482a89f7915630c3b12f21aa",
+      "storyKey": "553951a6b775e34fef76697b624dac8fcae9ff0a",
       "sourceId": "splash247",
       "sourceName": "Splash247",
       "tier": "press",
       "reliability": 0.85,
-      "title": "US court orders arrest of tanker after New Orleans cruise ship collision",
-      "url": "https://splash247.com/us-court-orders-arrest-of-tanker-after-new-orleans-cruise-ship-collision/",
-      "summary": "A US federal court has authorised the arrest of the tanker Atlantic Asphalt after the Port of New Orleans launched legal action seeking more than $1m in damages following the collision that sank American Cruise Lines’ American Heritage. The Board of Commissioners of the Port of New Orleans filed the lawsuit in the Eastern District",
-      "publishedAt": "2026-11-15T01:06:11.000Z",
+      "title": "Naftomar returns to South Korea for LPG quartet",
+      "url": "https://splash247.com/naftomar-returns-to-south-korea-for-lpg-quartet/",
+      "summary": "Greek gas carrier specialist Naftomar has been linked to an order for four 9,000 cu m semi-refrigerated LPG carriers at HD Hyundai's medium-sized shipbuilding operation in South Korea .Shipbroking sources have identified the Athens-based owner behind the quartet, with deliveries scheduled between December 2028 and September 2029. No contract price has been reported, and the",
+      "publishedAt": "2026-11-15T19:44:00.000Z",
       "score": 46,
       "scores": {
-        "recency": 0.57,
+        "recency": 0.86,
         "reliability": 0.85,
-        "maritimeRelevance": 1,
-        "educationalValue": 0,
+        "maritimeRelevance": 0.67,
+        "educationalValue": 0.5,
         "seafarerValue": 0,
         "shareability": 0,
-        "visualPotential": 0.5,
+        "visualPotential": 0,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
@@ -528,13 +504,37 @@
       "publishedAt": "2026-11-15T22:00:57.000Z",
       "score": 46,
       "scores": {
-        "recency": 0.92,
+        "recency": 0.91,
         "reliability": 0.75,
         "maritimeRelevance": 0.33,
         "educationalValue": 0.5,
         "seafarerValue": 0,
         "shareability": 1,
         "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "2d4f7faa89ee449610a1d44a550fb91cefc15a9a",
+      "storyKey": "320279df07b9e8d3c24da9039426cb38cafa3161",
+      "sourceId": "splash247",
+      "sourceName": "Splash247",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "US court orders arrest of tanker after New Orleans cruise ship collision",
+      "url": "https://splash247.com/us-court-orders-arrest-of-tanker-after-new-orleans-cruise-ship-collision/",
+      "summary": "A US federal court has authorised the arrest of the tanker Atlantic Asphalt after the Port of New Orleans launched legal action seeking more than $1m in damages following the collision that sank American Cruise Lines’ American Heritage. The Board of Commissioners of the Port of New Orleans filed the lawsuit in the Eastern District",
+      "publishedAt": "2026-11-15T01:06:11.000Z",
+      "score": 45,
+      "scores": {
+        "recency": 0.56,
+        "reliability": 0.85,
+        "maritimeRelevance": 1,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0.5,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
@@ -552,7 +552,7 @@
       "publishedAt": "2026-11-15T13:03:46.000Z",
       "score": 45,
       "scores": {
-        "recency": 0.75,
+        "recency": 0.74,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -576,7 +576,7 @@
       "publishedAt": "2026-11-13T13:08:13.000Z",
       "score": 45,
       "scores": {
-        "recency": 0.25,
+        "recency": 0.24,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -600,7 +600,7 @@
       "publishedAt": "2026-11-15T03:48:26.000Z",
       "score": 43,
       "scores": {
-        "recency": 0.61,
+        "recency": 0.6,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -624,7 +624,7 @@
       "publishedAt": "2026-11-14T02:34:17.000Z",
       "score": 43,
       "scores": {
-        "recency": 0.34,
+        "recency": 0.33,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -648,7 +648,7 @@
       "publishedAt": "2026-11-16T00:17:00.000Z",
       "score": 43,
       "scores": {
-        "recency": 0.97,
+        "recency": 0.96,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -672,7 +672,7 @@
       "publishedAt": "2026-11-13T21:11:53.000Z",
       "score": 43,
       "scores": {
-        "recency": 0.3,
+        "recency": 0.29,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -696,7 +696,7 @@
       "publishedAt": "2026-11-15T21:19:58.000Z",
       "score": 42,
       "scores": {
-        "recency": 0.91,
+        "recency": 0.89,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -720,7 +720,7 @@
       "publishedAt": "2026-11-15T20:23:00.000Z",
       "score": 42,
       "scores": {
-        "recency": 0.89,
+        "recency": 0.87,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -744,7 +744,7 @@
       "publishedAt": "2026-11-15T20:05:00.000Z",
       "score": 42,
       "scores": {
-        "recency": 0.88,
+        "recency": 0.87,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0.5,
@@ -792,7 +792,7 @@
       "publishedAt": "2026-11-14T22:08:51.000Z",
       "score": 41,
       "scores": {
-        "recency": 0.53,
+        "recency": 0.52,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -816,7 +816,7 @@
       "publishedAt": "2026-11-14T18:13:54.000Z",
       "score": 41,
       "scores": {
-        "recency": 0.49,
+        "recency": 0.48,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -864,7 +864,7 @@
       "publishedAt": "2026-11-15T22:00:58.000Z",
       "score": 41,
       "scores": {
-        "recency": 0.92,
+        "recency": 0.91,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -888,7 +888,7 @@
       "publishedAt": "2026-11-15T22:00:50.000Z",
       "score": 41,
       "scores": {
-        "recency": 0.92,
+        "recency": 0.91,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -912,7 +912,7 @@
       "publishedAt": "2026-11-15T22:00:40.000Z",
       "score": 41,
       "scores": {
-        "recency": 0.92,
+        "recency": 0.91,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -936,7 +936,7 @@
       "publishedAt": "2026-11-15T22:00:38.000Z",
       "score": 41,
       "scores": {
-        "recency": 0.92,
+        "recency": 0.91,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -960,7 +960,7 @@
       "publishedAt": "2026-11-15T22:00:36.000Z",
       "score": 41,
       "scores": {
-        "recency": 0.92,
+        "recency": 0.91,
         "reliability": 0.75,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -984,7 +984,7 @@
       "publishedAt": "2026-11-13T17:51:12.000Z",
       "score": 40,
       "scores": {
-        "recency": 0.28,
+        "recency": 0.27,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -1008,7 +1008,7 @@
       "publishedAt": "2026-11-14T16:50:51.000Z",
       "score": 40,
       "scores": {
-        "recency": 0.47,
+        "recency": 0.46,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -1032,7 +1032,7 @@
       "publishedAt": "2026-11-15T14:33:56.000Z",
       "score": 40,
       "scores": {
-        "recency": 0.78,
+        "recency": 0.76,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0.5,
@@ -1080,7 +1080,7 @@
       "publishedAt": "2026-11-15T22:00:42.000Z",
       "score": 40,
       "scores": {
-        "recency": 0.92,
+        "recency": 0.91,
         "reliability": 0.75,
         "maritimeRelevance": 0.33,
         "educationalValue": 0.5,
@@ -1104,7 +1104,7 @@
       "publishedAt": "2026-11-15T22:00:28.000Z",
       "score": 39,
       "scores": {
-        "recency": 0.92,
+        "recency": 0.91,
         "reliability": 0.75,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1128,7 +1128,7 @@
       "publishedAt": "2026-11-15T19:45:00.000Z",
       "score": 37,
       "scores": {
-        "recency": 0.88,
+        "recency": 0.86,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1176,7 +1176,7 @@
       "publishedAt": "2026-11-13T21:13:00.000Z",
       "score": 37,
       "scores": {
-        "recency": 0.3,
+        "recency": 0.29,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1200,7 +1200,7 @@
       "publishedAt": "2026-11-13T17:37:39.000Z",
       "score": 36,
       "scores": {
-        "recency": 0.28,
+        "recency": 0.27,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -1224,7 +1224,7 @@
       "publishedAt": "2026-11-14T00:58:11.000Z",
       "score": 36,
       "scores": {
-        "recency": 0.33,
+        "recency": 0.32,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1248,7 +1248,7 @@
       "publishedAt": "2026-11-15T17:05:00.000Z",
       "score": 36,
       "scores": {
-        "recency": 0.82,
+        "recency": 0.81,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1296,7 +1296,7 @@
       "publishedAt": "2026-11-13T12:52:44.000Z",
       "score": 36,
       "scores": {
-        "recency": 0.25,
+        "recency": 0.24,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1344,7 +1344,7 @@
       "publishedAt": "2026-11-15T22:00:34.000Z",
       "score": 36,
       "scores": {
-        "recency": 0.92,
+        "recency": 0.91,
         "reliability": 0.75,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1368,7 +1368,7 @@
       "publishedAt": "2026-11-13T09:35:00.000Z",
       "score": 35,
       "scores": {
-        "recency": 0.23,
+        "recency": 0.22,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -1392,7 +1392,7 @@
       "publishedAt": "2026-11-14T18:33:00.000Z",
       "score": 35,
       "scores": {
-        "recency": 0.49,
+        "recency": 0.48,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1464,7 +1464,7 @@
       "publishedAt": "2026-11-15T22:00:48.000Z",
       "score": 35,
       "scores": {
-        "recency": 0.92,
+        "recency": 0.91,
         "reliability": 0.75,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1488,7 +1488,7 @@
       "publishedAt": "2026-11-15T22:00:46.000Z",
       "score": 35,
       "scores": {
-        "recency": 0.92,
+        "recency": 0.91,
         "reliability": 0.75,
         "maritimeRelevance": 0,
         "educationalValue": 0.5,
@@ -1512,7 +1512,7 @@
       "publishedAt": "2026-11-15T22:00:26.000Z",
       "score": 35,
       "scores": {
-        "recency": 0.92,
+        "recency": 0.91,
         "reliability": 0.75,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1536,7 +1536,7 @@
       "publishedAt": "2026-11-15T12:50:27.000Z",
       "score": 34,
       "scores": {
-        "recency": 0.75,
+        "recency": 0.73,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1560,7 +1560,7 @@
       "publishedAt": "2026-11-14T15:04:25.000Z",
       "score": 34,
       "scores": {
-        "recency": 0.45,
+        "recency": 0.44,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1582,9 +1582,9 @@
       "url": "https://maritime-executive.com/article/uscg-cutter-stops-two-cocaine-boats-with-disabling-fire-off-colombia",
       "summary": "A U.S. Coast Guard cutter to stop two suspected drug-smuggling boats in the Caribbean last month, seizing about 10,900 pounds of cocaine with an estim...",
       "publishedAt": "2026-11-15T23:36:00.000Z",
-      "score": 33,
+      "score": 32,
       "scores": {
-        "recency": 0.96,
+        "recency": 0.94,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1608,7 +1608,7 @@
       "publishedAt": "2026-11-13T20:45:59.000Z",
       "score": 31,
       "scores": {
-        "recency": 0.3,
+        "recency": 0.29,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1680,7 +1680,7 @@
       "publishedAt": "2026-11-15T22:00:56.000Z",
       "score": 30,
       "scores": {
-        "recency": 0.92,
+        "recency": 0.91,
         "reliability": 0.75,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1704,7 +1704,7 @@
       "publishedAt": "2026-11-15T22:00:30.000Z",
       "score": 30,
       "scores": {
-        "recency": 0.92,
+        "recency": 0.91,
         "reliability": 0.75,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1776,7 +1776,7 @@
       "publishedAt": "2026-11-13T12:38:32.000Z",
       "score": 25,
       "scores": {
-        "recency": 0.25,
+        "recency": 0.24,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1800,7 +1800,7 @@
       "publishedAt": "2026-11-14T07:40:00.000Z",
       "score": 22,
       "scores": {
-        "recency": 0.38,
+        "recency": 0.37,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1822,9 +1822,9 @@
       "url": "https://maritime-executive.com/article/guardia-civil-catches-2-6-tonnes-of-cocaine-in-coconut-crates",
       "summary": "The West African nation of Ghana is gaining more notoriety as a cocaine transit hub after Spanish authorities seized 2.6 tonnes of the drug hidden in...",
       "publishedAt": "2026-11-14T04:02:13.000Z",
-      "score": 22,
+      "score": 21,
       "scores": {
-        "recency": 0.35,
+        "recency": 0.34,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1848,7 +1848,7 @@
       "publishedAt": "2026-11-14T02:39:30.000Z",
       "score": 21,
       "scores": {
-        "recency": 0.34,
+        "recency": 0.33,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1872,31 +1872,7 @@
       "publishedAt": "2026-11-14T02:35:00.000Z",
       "score": 21,
       "scores": {
-        "recency": 0.34,
-        "reliability": 0.85,
-        "maritimeRelevance": 0,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "c72dda5e925abe57d1174801752c0f77621881ee",
-      "storyKey": "5f50b8576d3fd260f19fc9994358dcccc1acd5f3",
-      "sourceId": "marex",
-      "sourceName": "The Maritime Executive",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Ukraine Hits Russian Corvette With Multiple Drones in the Gulf of Finland",
-      "url": "https://maritime-executive.com/article/estonia-confirms-ukrainian-drone-hits-on-russian-corvette-in-the-baltic",
-      "summary": "In addition to the serious damage inflicted on the Ust-Luga oil terminal in a Ukrainian strike on Wednesday night, a Russian Navy corvette suffered di...",
-      "publishedAt": "2026-11-13T19:56:00.000Z",
-      "score": 21,
-      "scores": {
-        "recency": 0.29,
+        "recency": 0.33,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1920,7 +1896,7 @@
       "publishedAt": "2026-11-14T04:37:00.000Z",
       "score": 20,
       "scores": {
-        "recency": 0.36,
+        "recency": 0.35,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1956,6 +1932,30 @@
       }
     },
     {
+      "fingerprint": "c72dda5e925abe57d1174801752c0f77621881ee",
+      "storyKey": "5f50b8576d3fd260f19fc9994358dcccc1acd5f3",
+      "sourceId": "marex",
+      "sourceName": "The Maritime Executive",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Ukraine Hits Russian Corvette With Multiple Drones in the Gulf of Finland",
+      "url": "https://maritime-executive.com/article/estonia-confirms-ukrainian-drone-hits-on-russian-corvette-in-the-baltic",
+      "summary": "In addition to the serious damage inflicted on the Ust-Luga oil terminal in a Ukrainian strike on Wednesday night, a Russian Navy corvette suffered di...",
+      "publishedAt": "2026-11-13T19:56:00.000Z",
+      "score": 20,
+      "scores": {
+        "recency": 0.29,
+        "reliability": 0.85,
+        "maritimeRelevance": 0,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
       "fingerprint": "e649bcbd33d0503c9b180b4e57ee8127265e3857",
       "storyKey": "0e1e00b9aa6f16683ad33180b15639145553266f",
       "sourceId": "marex",
@@ -1968,7 +1968,7 @@
       "publishedAt": "2026-11-13T18:18:00.000Z",
       "score": 20,
       "scores": {
-        "recency": 0.28,
+        "recency": 0.27,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
