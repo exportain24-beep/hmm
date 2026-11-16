@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T20:25:03.217Z",
+  "updatedAt": "2026-11-16T20:31:01.173Z",
   "feedStatus": {
     "safety4sea": "ok (0)",
     "gcaptain": "ok (12)",
@@ -60,6 +60,30 @@
       }
     },
     {
+      "fingerprint": "b89c1f3b1a70284854c2d39eafdac88bd805d38c",
+      "storyKey": "7858f533c11efa74fec15a9898348dd82fe9bdaa",
+      "sourceId": "marex",
+      "sourceName": "The Maritime Executive",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Bulgaria Rescues 12 Crew as Attacked Cargo Ship Capsizes",
+      "url": "https://maritime-executive.com/article/bulgaria-rescues-12-crew-as-attacked-cargo-ship-capsizes",
+      "summary": "Strikes on commercial shipping in the Black Sea east of Bulgaria and Romania have resumed, with the latest incident coming Monday morning, November 16...",
+      "publishedAt": "2026-11-16T20:22:29.000Z",
+      "score": 61,
+      "scores": {
+        "recency": 1,
+        "reliability": 0.85,
+        "maritimeRelevance": 1,
+        "educationalValue": 0,
+        "seafarerValue": 0.5,
+        "shareability": 1,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
       "fingerprint": "920d197f39cf9f9f7c10e009a224af55fabb6a60",
       "storyKey": "a07abd9d234aadf7ab7ea17fad21798fbe3e7eef",
       "sourceId": "hellenic",
@@ -70,34 +94,10 @@
       "url": "https://www.hellenicshippingnews.com/three-tankers-hit-naval-mines-in-strait-of-hormuz-iran-state-tv-says-ap/",
       "summary": "Three oil tankers caught fire overnight and early on Monday after hitting naval mines in the Strait of Hormuz, the Associated Press reported, citing Iranian state television. Statements from Iran's paramilitary Revolutionary Guard Corps and the army warned shipping companies that a U.S.-protected path through the strait remains dangerous due to the mines. The report ...",
       "publishedAt": "2026-11-16T18:00:57.000Z",
-      "score": 60,
+      "score": 59,
       "scores": {
-        "recency": 0.95,
+        "recency": 0.94,
         "reliability": 0.75,
-        "maritimeRelevance": 1,
-        "educationalValue": 0.5,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 1,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "608ebdb2a10c83f0f873f75ea2f22de3abd20ee7",
-      "storyKey": "6779b298350cc4f1ef328c610323d670f0c96815",
-      "sourceId": "splash247",
-      "sourceName": "Splash247",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Why a collision with no deaths got more attention than two wars at sea",
-      "url": "https://splash247.com/why-a-collision-with-no-deaths-got-more-attention-than-two-wars-at-sea/",
-      "summary": "Dustin Eno, a crisis communications consultant, and founder of the Maritime Attention Index, gives his take on Friday’s high-profile allision in New Orleans. On Friday November 13, Iran said an LNG tanker had hit a mine in the Strait of Hormuz and exploded. That afternoon in New Orleans, the tanker Atlantic Asphalt ran into the",
-      "publishedAt": "2026-11-16T09:28:01.000Z",
-      "score": 58,
-      "scores": {
-        "recency": 0.78,
-        "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
         "seafarerValue": 0,
@@ -144,7 +144,7 @@
       "publishedAt": "2026-11-16T17:05:21.000Z",
       "score": 54,
       "scores": {
-        "recency": 0.93,
+        "recency": 0.92,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -204,25 +204,25 @@
       }
     },
     {
-      "fingerprint": "96043b2bd8a5982038f10d07d3d174513d3cff9d",
-      "storyKey": "64562b410bd80a5cab6ee0b5f7ab7e1af8217176",
-      "sourceId": "hellenic",
-      "sourceName": "Hellenic Shipping News",
+      "fingerprint": "01f59d07dd3a4ea23208cb9b74685bb6f37e562a",
+      "storyKey": "84591f9738fd6d5f2a6b57c56a3f6194fecc03e3",
+      "sourceId": "splash247",
+      "sourceName": "Splash247",
       "tier": "press",
-      "reliability": 0.75,
-      "title": "Cool Carriers Launches Newest Vessel, Cool Eternity, at Shikoku Shipyard in Japan",
-      "url": "https://www.hellenicshippingnews.com/cool-carriers-launches-newest-vessel-cool-eternity-at-shikoku-shipyard-in-japan/",
-      "summary": "Cool Carriers, the world's largest operator of specialised reefer vessels, held a naming and launch ceremony for its newest vessel, Cool Eternity, last week at Shikoku Shipyard in Japan. Cool Eternity is the latest addition to the Cool Carriers fleet. Designed to transport fresh fruit and other perishable cargo, the vessel measures 189.9 metres in ...",
-      "publishedAt": "2026-11-16T18:00:55.000Z",
+      "reliability": 0.85,
+      "title": "Hong Kong’s shipowner dynasties face the succession test",
+      "url": "https://splash247.com/hong-kongs-shipowner-dynasties-face-the-succession-test/",
+      "summary": "The city's great shipping families have survived every imaginable market shock. Keeping the next generation – and its capital – anchored in Hong Kong may prove a different challenge. The latest chapter from our brand new Hong Kong magazine, which is being distributed across the city’s maritime week. Three sets of initials still define Hong",
+      "publishedAt": "2026-11-16T20:28:00.000Z",
       "score": 53,
       "scores": {
-        "recency": 0.95,
-        "reliability": 0.75,
+        "recency": 1,
+        "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
         "seafarerValue": 0,
-        "shareability": 1,
-        "visualPotential": 0,
+        "shareability": 0,
+        "visualPotential": 0.5,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
@@ -300,6 +300,30 @@
       }
     },
     {
+      "fingerprint": "96043b2bd8a5982038f10d07d3d174513d3cff9d",
+      "storyKey": "64562b410bd80a5cab6ee0b5f7ab7e1af8217176",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "Cool Carriers Launches Newest Vessel, Cool Eternity, at Shikoku Shipyard in Japan",
+      "url": "https://www.hellenicshippingnews.com/cool-carriers-launches-newest-vessel-cool-eternity-at-shikoku-shipyard-in-japan/",
+      "summary": "Cool Carriers, the world's largest operator of specialised reefer vessels, held a naming and launch ceremony for its newest vessel, Cool Eternity, last week at Shikoku Shipyard in Japan. Cool Eternity is the latest addition to the Cool Carriers fleet. Designed to transport fresh fruit and other perishable cargo, the vessel measures 189.9 metres in ...",
+      "publishedAt": "2026-11-16T18:00:55.000Z",
+      "score": 52,
+      "scores": {
+        "recency": 0.94,
+        "reliability": 0.75,
+        "maritimeRelevance": 1,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 1,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
       "fingerprint": "f362303045e67277796439e883e6e840f32f1f1f",
       "storyKey": "af76f70172302d513775e8b15d47a286d23bf723",
       "sourceId": "hellenic",
@@ -312,7 +336,7 @@
       "publishedAt": "2026-11-16T18:00:51.000Z",
       "score": 52,
       "scores": {
-        "recency": 0.95,
+        "recency": 0.94,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0.5,
@@ -420,30 +444,6 @@
       }
     },
     {
-      "fingerprint": "af8fd3c12fcffe3f586b64fd4ce396943ddfc7e9",
-      "storyKey": "86b513a2fb00439b7247356dfd3851dedea5365a",
-      "sourceId": "marex",
-      "sourceName": "The Maritime Executive",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Korean Partnership's Carbon Capture Proposal Chosen as Basis for IMO Safety",
-      "url": "https://maritime-executive.com/article/korean-partnership-s-carbon-capture-proposal-chosen-as-basis-for-imo-safety",
-      "summary": "A leading Korean public-private partnership comprising 10 maritime organizations has reached a major milestone in the development of international saf...",
-      "publishedAt": "2026-11-14T15:30:10.000Z",
-      "score": 49,
-      "scores": {
-        "recency": 0.29,
-        "reliability": 0.85,
-        "maritimeRelevance": 1,
-        "educationalValue": 0,
-        "seafarerValue": 0.5,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0.5,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
       "fingerprint": "d34b7f6bbf7c1c54f3d0aba55e6aa30b3105348c",
       "storyKey": "aa332696b56d800669447ae531a3f8f22c57d545",
       "sourceId": "gcaptain",
@@ -504,7 +504,7 @@
       "publishedAt": "2026-11-14T22:23:43.000Z",
       "score": 48,
       "scores": {
-        "recency": 0.35,
+        "recency": 0.34,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -576,32 +576,8 @@
       "publishedAt": "2026-11-16T15:13:27.000Z",
       "score": 47,
       "scores": {
-        "recency": 0.89,
+        "recency": 0.88,
         "reliability": 0.85,
-        "maritimeRelevance": 1,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "aca7b66afb8514013b35bd772edc56b7cef899b9",
-      "storyKey": "3723818f4cf6f9c9799325cad70dec1fb9916244",
-      "sourceId": "hellenic",
-      "sourceName": "Hellenic Shipping News",
-      "tier": "press",
-      "reliability": 0.75,
-      "title": "Maran Tankers takes delivery of sixth LNG dual-fuel oil tanker",
-      "url": "https://www.hellenicshippingnews.com/maran-tankers-takes-delivery-of-sixth-lng-dual-fuel-oil-tanker/",
-      "summary": "Maran Tankers Management (MTM), part of Greece’s Angelicoussis Group, has taken delivery of the sixth of eight LNG dual-fuel oil tankers under construction at China’s New Times Shipbuilding. The 156,000-dwt vessel, Maran Myron, can operate on both LNG and conventional marine fuels and will sail under the Greek flag. MTM has not disclosed where the ...",
-      "publishedAt": "2026-11-16T18:00:59.000Z",
-      "score": 47,
-      "scores": {
-        "recency": 0.95,
-        "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0,
         "seafarerValue": 0,
@@ -648,7 +624,7 @@
       "publishedAt": "2026-11-16T10:00:00.000Z",
       "score": 46,
       "scores": {
-        "recency": 0.79,
+        "recency": 0.78,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -674,6 +650,30 @@
       "scores": {
         "recency": 0.82,
         "reliability": 0.85,
+        "maritimeRelevance": 1,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "aca7b66afb8514013b35bd772edc56b7cef899b9",
+      "storyKey": "3723818f4cf6f9c9799325cad70dec1fb9916244",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "Maran Tankers takes delivery of sixth LNG dual-fuel oil tanker",
+      "url": "https://www.hellenicshippingnews.com/maran-tankers-takes-delivery-of-sixth-lng-dual-fuel-oil-tanker/",
+      "summary": "Maran Tankers Management (MTM), part of Greece’s Angelicoussis Group, has taken delivery of the sixth of eight LNG dual-fuel oil tankers under construction at China’s New Times Shipbuilding. The 156,000-dwt vessel, Maran Myron, can operate on both LNG and conventional marine fuels and will sail under the Greek flag. MTM has not disclosed where the ...",
+      "publishedAt": "2026-11-16T18:00:59.000Z",
+      "score": 46,
+      "scores": {
+        "recency": 0.94,
+        "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0,
         "seafarerValue": 0,
@@ -792,7 +792,7 @@
       "publishedAt": "2026-11-16T18:00:53.000Z",
       "score": 45,
       "scores": {
-        "recency": 0.95,
+        "recency": 0.94,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -864,7 +864,7 @@
       "publishedAt": "2026-11-16T18:00:49.000Z",
       "score": 45,
       "scores": {
-        "recency": 0.95,
+        "recency": 0.94,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1104,7 +1104,7 @@
       "publishedAt": "2026-11-16T18:00:47.000Z",
       "score": 41,
       "scores": {
-        "recency": 0.95,
+        "recency": 0.94,
         "reliability": 0.75,
         "maritimeRelevance": 0.33,
         "educationalValue": 0.5,
@@ -1128,7 +1128,7 @@
       "publishedAt": "2026-11-16T18:00:16.000Z",
       "score": 41,
       "scores": {
-        "recency": 0.95,
+        "recency": 0.94,
         "reliability": 0.75,
         "maritimeRelevance": 0.33,
         "educationalValue": 0.5,
@@ -1476,54 +1476,6 @@
       }
     },
     {
-      "fingerprint": "1adf10224bb7c8799051b431abf87a86b666ad92",
-      "storyKey": "0e7eda4116132db83efb769f4f3b525eff19758a",
-      "sourceId": "hellenic",
-      "sourceName": "Hellenic Shipping News",
-      "tier": "press",
-      "reliability": 0.75,
-      "title": "China Fixed Investment Contraction Deepens",
-      "url": "https://www.hellenicshippingnews.com/china-fixed-investment-contraction-deepens/",
-      "summary": "China’s fixed-asset investment dropped by 8.1% year-on-year in the January-October 2026 period, deepening from a 7.2% fall recorded in the first nine months of the year and worse than market expectations of a 7% decline. Weak property investment remained the primary drag, slumping 21.6%, compared with 20.6% in January-September, amid tepid housing demand, falling property ...",
-      "publishedAt": "2026-11-16T18:00:43.000Z",
-      "score": 37,
-      "scores": {
-        "recency": 0.95,
-        "reliability": 0.75,
-        "maritimeRelevance": 0,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 1,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "fa96ac125612a5f6443ac8907a0f94e54c0107fd",
-      "storyKey": "b7e2bd463ef913a73602ab8c3fd6d19b21eec00e",
-      "sourceId": "hellenic",
-      "sourceName": "Hellenic Shipping News",
-      "tier": "press",
-      "reliability": 0.75,
-      "title": "Iran says it will not wait for U.S. to attack first",
-      "url": "https://www.hellenicshippingnews.com/iran-says-it-will-not-wait-for-u-s-to-attack-first/",
-      "summary": "Iranian Deputy Foreign Minister Kazem Gharibabadi said on Sunday Iran “will not wait for the US to attack first” and that the United States “may be seeking to buy time by abusing diplomacy, in order to prepare the ground for another attack,” according to a video on state television released by Fars. He said the ...",
-      "publishedAt": "2026-11-16T18:00:41.000Z",
-      "score": 37,
-      "scores": {
-        "recency": 0.95,
-        "reliability": 0.75,
-        "maritimeRelevance": 0,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 1,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
       "fingerprint": "c9bb75cdbe8875164b85f8934df8eef9973e3b32",
       "storyKey": "397c198602b39b0dfa0c25a554c9bf6fd917049e",
       "sourceId": "gcaptain",
@@ -1566,6 +1518,54 @@
         "educationalValue": 0,
         "seafarerValue": 0,
         "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "1adf10224bb7c8799051b431abf87a86b666ad92",
+      "storyKey": "0e7eda4116132db83efb769f4f3b525eff19758a",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "China Fixed Investment Contraction Deepens",
+      "url": "https://www.hellenicshippingnews.com/china-fixed-investment-contraction-deepens/",
+      "summary": "China’s fixed-asset investment dropped by 8.1% year-on-year in the January-October 2026 period, deepening from a 7.2% fall recorded in the first nine months of the year and worse than market expectations of a 7% decline. Weak property investment remained the primary drag, slumping 21.6%, compared with 20.6% in January-September, amid tepid housing demand, falling property ...",
+      "publishedAt": "2026-11-16T18:00:43.000Z",
+      "score": 36,
+      "scores": {
+        "recency": 0.94,
+        "reliability": 0.75,
+        "maritimeRelevance": 0,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 1,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "fa96ac125612a5f6443ac8907a0f94e54c0107fd",
+      "storyKey": "b7e2bd463ef913a73602ab8c3fd6d19b21eec00e",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "Iran says it will not wait for U.S. to attack first",
+      "url": "https://www.hellenicshippingnews.com/iran-says-it-will-not-wait-for-u-s-to-attack-first/",
+      "summary": "Iranian Deputy Foreign Minister Kazem Gharibabadi said on Sunday Iran “will not wait for the US to attack first” and that the United States “may be seeking to buy time by abusing diplomacy, in order to prepare the ground for another attack,” according to a video on state television released by Fars. He said the ...",
+      "publishedAt": "2026-11-16T18:00:41.000Z",
+      "score": 36,
+      "scores": {
+        "recency": 0.94,
+        "reliability": 0.75,
+        "maritimeRelevance": 0,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 1,
         "visualPotential": 0,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
@@ -1704,7 +1704,7 @@
       "publishedAt": "2026-11-15T19:45:00.000Z",
       "score": 31,
       "scores": {
-        "recency": 0.57,
+        "recency": 0.56,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1774,9 +1774,9 @@
       "url": "https://www.hellenicshippingnews.com/eurozone-industrial-production-ticked-up-but-still-unimpressive-in-september/",
       "summary": "The small September increase followed three consecutive declines. Industrial production surprised at the start of the Middle East war but has since petered out to levels last seen in 2024 (outside of a large January decline). Weakness among energy-intensive sectors continues, although September saw a small production increase. The most notable moves in September were ...",
       "publishedAt": "2026-11-16T18:00:45.000Z",
-      "score": 31,
+      "score": 30,
       "scores": {
-        "recency": 0.95,
+        "recency": 0.94,
         "reliability": 0.75,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1800,7 +1800,7 @@
       "publishedAt": "2026-11-16T07:08:00.000Z",
       "score": 29,
       "scores": {
-        "recency": 0.74,
+        "recency": 0.73,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
