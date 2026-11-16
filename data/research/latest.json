@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T09:24:54.009Z",
+  "updatedAt": "2026-11-16T09:49:36.172Z",
   "feedStatus": {
     "safety4sea": "ok (0)",
     "gcaptain": "ok (12)",
@@ -24,13 +24,37 @@
       "publishedAt": "2026-11-16T07:14:11.000Z",
       "score": 64,
       "scores": {
-        "recency": 0.95,
+        "recency": 0.94,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 1,
         "seafarerValue": 0,
         "shareability": 1,
         "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "608ebdb2a10c83f0f873f75ea2f22de3abd20ee7",
+      "storyKey": "6779b298350cc4f1ef328c610323d670f0c96815",
+      "sourceId": "splash247",
+      "sourceName": "Splash247",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Why a collision with no deaths got more attention than two wars at sea",
+      "url": "https://splash247.com/why-a-collision-with-no-deaths-got-more-attention-than-two-wars-at-sea/",
+      "summary": "Dustin Eno, a crisis communications consultant, and founder of the Maritime Attention Index, gives his take on Friday’s high-profile allision in New Orleans. On Friday November 13, Iran said an LNG tanker had hit a mine in the Strait of Hormuz and exploded. That afternoon in New Orleans, the tanker Atlantic Asphalt ran into the",
+      "publishedAt": "2026-11-16T09:28:01.000Z",
+      "score": 62,
+      "scores": {
+        "recency": 0.99,
+        "reliability": 0.85,
+        "maritimeRelevance": 1,
+        "educationalValue": 0.5,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 1,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
@@ -48,7 +72,7 @@
       "publishedAt": "2026-11-16T06:23:57.000Z",
       "score": 58,
       "scores": {
-        "recency": 0.93,
+        "recency": 0.92,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -72,31 +96,7 @@
       "publishedAt": "2026-11-16T06:35:27.000Z",
       "score": 54,
       "scores": {
-        "recency": 0.94,
-        "reliability": 0.85,
-        "maritimeRelevance": 1,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 1,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "7d62ca8f82b5cfb5b2afa0f8d105d8bf81f6eaa5",
-      "storyKey": "0ef8a95955f078224f5e9ce2ddfa24f663ad4961",
-      "sourceId": "splash247",
-      "sourceName": "Splash247",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "JHI Steamship enters MR2 market with Korean double",
-      "url": "https://splash247.com/jhi-steamship-enters-mr2-market-with-korean-double/",
-      "summary": "Greek shipowner JHI Steamship has made its first move into the MR product tanker segment, booking two 50,000 dwt newbuildings at South Korea's K Shipbuilding and lifting its tanker orderbook to nine vessels. The John Inglessis-led company has secured delivery slots in the first quarter of 2029 for the pair, marking its second newbuilding deal",
-      "publishedAt": "2026-11-16T05:03:00.000Z",
-      "score": 54,
-      "scores": {
-        "recency": 0.9,
+        "recency": 0.93,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -120,7 +120,7 @@
       "publishedAt": "2026-11-15T22:00:54.000Z",
       "score": 54,
       "scores": {
-        "recency": 0.77,
+        "recency": 0.76,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -144,10 +144,34 @@
       "publishedAt": "2026-11-15T22:00:32.000Z",
       "score": 54,
       "scores": {
-        "recency": 0.77,
+        "recency": 0.76,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
+        "seafarerValue": 0,
+        "shareability": 1,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "7d62ca8f82b5cfb5b2afa0f8d105d8bf81f6eaa5",
+      "storyKey": "0ef8a95955f078224f5e9ce2ddfa24f663ad4961",
+      "sourceId": "splash247",
+      "sourceName": "Splash247",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "JHI Steamship enters MR2 market with Korean double",
+      "url": "https://splash247.com/jhi-steamship-enters-mr2-market-with-korean-double/",
+      "summary": "Greek shipowner JHI Steamship has made its first move into the MR product tanker segment, booking two 50,000 dwt newbuildings at South Korea's K Shipbuilding and lifting its tanker orderbook to nine vessels. The John Inglessis-led company has secured delivery slots in the first quarter of 2029 for the pair, marking its second newbuilding deal",
+      "publishedAt": "2026-11-16T05:03:00.000Z",
+      "score": 53,
+      "scores": {
+        "recency": 0.9,
+        "reliability": 0.85,
+        "maritimeRelevance": 1,
+        "educationalValue": 0,
         "seafarerValue": 0,
         "shareability": 1,
         "visualPotential": 0,
@@ -192,7 +216,7 @@
       "publishedAt": "2026-11-15T22:00:44.000Z",
       "score": 53,
       "scores": {
-        "recency": 0.77,
+        "recency": 0.76,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 1,
@@ -240,7 +264,7 @@
       "publishedAt": "2026-11-14T22:23:43.000Z",
       "score": 50,
       "scores": {
-        "recency": 0.45,
+        "recency": 0.44,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -288,13 +312,37 @@
       "publishedAt": "2026-11-15T16:02:22.000Z",
       "score": 49,
       "scores": {
-        "recency": 0.67,
+        "recency": 0.66,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
         "seafarerValue": 0.5,
         "shareability": 1,
         "visualPotential": 0.5,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "57fc05174d94c59267ee41b3565d72dd7ed48663",
+      "storyKey": "a6d4b8ad5dc9b612714ee755a84ef9832b4eed9a",
+      "sourceId": "splash247",
+      "sourceName": "Splash247",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Italy's Ve-Na di Navigazione returns to China for another newbuild",
+      "url": "https://splash247.com/italys-ve-na-di-navigazione-returns-to-china-for-another-newbuild/",
+      "summary": "Italian shipowner Ve-Na di Navigazione has returned to China's CSSC Guangxi Shipbuilding for another general cargo vessel, extending a newbuilding relationship established last year. The Naples-based company will see the 9,200 dwt unit delivered in July 2028, according to shipbroking sources, although the yard has not disclosed a delivery date or contract price. The order",
+      "publishedAt": "2026-11-16T09:30:00.000Z",
+      "score": 49,
+      "scores": {
+        "recency": 0.99,
+        "reliability": 0.85,
+        "maritimeRelevance": 1,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
@@ -312,7 +360,7 @@
       "publishedAt": "2026-11-15T22:00:58.000Z",
       "score": 49,
       "scores": {
-        "recency": 0.77,
+        "recency": 0.76,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -336,7 +384,7 @@
       "publishedAt": "2026-11-15T22:00:52.000Z",
       "score": 49,
       "scores": {
-        "recency": 0.77,
+        "recency": 0.76,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -384,7 +432,7 @@
       "publishedAt": "2026-11-16T05:40:00.000Z",
       "score": 48,
       "scores": {
-        "recency": 0.92,
+        "recency": 0.91,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -432,33 +480,9 @@
       "publishedAt": "2026-11-15T22:00:59.000Z",
       "score": 48,
       "scores": {
-        "recency": 0.77,
+        "recency": 0.76,
         "reliability": 0.75,
         "maritimeRelevance": 1,
-        "educationalValue": 0.5,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "18f3db1b6f91e966482a89f7915630c3b12f21aa",
-      "storyKey": "553951a6b775e34fef76697b624dac8fcae9ff0a",
-      "sourceId": "splash247",
-      "sourceName": "Splash247",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Naftomar returns to South Korea for LPG quartet",
-      "url": "https://splash247.com/naftomar-returns-to-south-korea-for-lpg-quartet/",
-      "summary": "Greek gas carrier specialist Naftomar has been linked to an order for four 9,000 cu m semi-refrigerated LPG carriers at HD Hyundai's medium-sized shipbuilding operation in South Korea .Shipbroking sources have identified the Athens-based owner behind the quartet, with deliveries scheduled between December 2028 and September 2029. No contract price has been reported, and the",
-      "publishedAt": "2026-11-16T04:44:00.000Z",
-      "score": 47,
-      "scores": {
-        "recency": 0.9,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.67,
         "educationalValue": 0.5,
         "seafarerValue": 0,
         "shareability": 0,
@@ -504,7 +528,7 @@
       "publishedAt": "2026-11-16T01:26:00.000Z",
       "score": 47,
       "scores": {
-        "recency": 0.83,
+        "recency": 0.82,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -512,30 +536,6 @@
         "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0.5,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "3bd56bb5559d9d3ba26f19fffc181f291bfdd740",
-      "storyKey": "60c93ec9dd5a1385745839812d2672a183e96ea9",
-      "sourceId": "splash247",
-      "sourceName": "Splash247",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Subsea 7 lands US Gulf deepwater contract",
-      "url": "https://splash247.com/subsea-7-lands-us-gulf-deepwater-contract/",
-      "summary": "Norwegian offshore engineering and construction specialist Subsea 7 has secured a contract worth between $50m and $150m from Kosmos Energy for the Tiberius development in the US Gulf. The deal covers the fabrication, transportation and installation of a 14 km steel catenary riser and wet-insulated flowline connecting the deepwater development to Occidental's existing Lucius spar.",
-      "publishedAt": "2026-11-16T02:30:00.000Z",
-      "score": 46,
-      "scores": {
-        "recency": 0.85,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.33,
-        "educationalValue": 0,
-        "seafarerValue": 0.5,
-        "shareability": 0,
-        "visualPotential": 0.5,
-        "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
     },
@@ -552,7 +552,7 @@
       "publishedAt": "2026-11-16T03:47:00.000Z",
       "score": 46,
       "scores": {
-        "recency": 0.88,
+        "recency": 0.87,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -576,7 +576,7 @@
       "publishedAt": "2026-11-15T14:48:43.000Z",
       "score": 46,
       "scores": {
-        "recency": 0.65,
+        "recency": 0.64,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -598,7 +598,7 @@
       "url": "https://gcaptain.com/steering-problem-on-tanker-caused-collision-in-new-orleans/",
       "summary": "By Siddharth Cavale Nov 15 (Reuters) - The asphalt tanker vessel that struck a docked paddlewheel cruise boat in the Mississippi River at New Orleans last week experienced a steering problem in which its...",
       "publishedAt": "2026-11-16T00:26:49.000Z",
-      "score": 45,
+      "score": 44,
       "scores": {
         "recency": 0.81,
         "reliability": 0.85,
@@ -636,6 +636,30 @@
       }
     },
     {
+      "fingerprint": "7ccc4cc69125634ebf8a72503eb78efd22869850",
+      "storyKey": "afd0ae01f30f6c47ca9f4f93aa81031df1c26ba8",
+      "sourceId": "splash247",
+      "sourceName": "Splash247",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "DOF lands up to $100m Australian subsea contract",
+      "url": "https://splash247.com/dof-lands-up-to-100m-australian-subsea-contract/",
+      "summary": "Norwegian offshore vessel owner DOF has secured a subsea installation contract worth between $50m and $100m from Australia's Amplitude Energy, lining up its construction vessel Skandi Inventor for work in the Otway Basin. The Oslo-listed group has firmed up an agreement first announced as a letter of intent in October, with the 2018-built vessel set",
+      "publishedAt": "2026-11-16T09:26:57.000Z",
+      "score": 44,
+      "scores": {
+        "recency": 0.99,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 1,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
       "fingerprint": "5309b8e09581402c55189527dfb6a6e4bcb0c1bc",
       "storyKey": "34ff8f6f100862f88facb6b5080d1219d3c3ddc5",
       "sourceId": "marex",
@@ -648,7 +672,7 @@
       "publishedAt": "2026-11-15T19:18:00.000Z",
       "score": 44,
       "scores": {
-        "recency": 0.72,
+        "recency": 0.71,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -696,7 +720,7 @@
       "publishedAt": "2026-11-13T13:08:13.000Z",
       "score": 44,
       "scores": {
-        "recency": 0.21,
+        "recency": 0.2,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -720,7 +744,7 @@
       "publishedAt": "2026-11-15T22:00:57.000Z",
       "score": 44,
       "scores": {
-        "recency": 0.77,
+        "recency": 0.76,
         "reliability": 0.75,
         "maritimeRelevance": 0.33,
         "educationalValue": 0.5,
@@ -744,36 +768,12 @@
       "publishedAt": "2026-11-16T03:31:58.000Z",
       "score": 43,
       "scores": {
-        "recency": 0.87,
+        "recency": 0.86,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
         "seafarerValue": 0.5,
         "shareability": 1,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "90efabd028225c473026ab07bc7b18c84685c51f",
-      "storyKey": "3ca83e0238325611b9b021e9062f8239983edea2",
-      "sourceId": "marineinsight",
-      "sourceName": "Marine Insight",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Port Of New Orleans Seeks Seizure Of Tanker That Capsized Cruise Ship, Sues For $1 Million",
-      "url": "https://www.marineinsight.com/port-new-orleans-lawsuit-tanker-seizure/?utm_source=rss utm_medium=rss utm_campaign=port-new-orleans-lawsuit-tanker-seizure",
-      "summary": "Port of New Orleans has filed a federal lawsuit seeking more than $1 million in damages from the owner and manager of the tanker Atlantic Asphalt, which struck and capsized a docked river cruise ship on the Mississippi River on November 13, 2026.",
-      "publishedAt": "2026-11-15T13:03:46.000Z",
-      "score": 43,
-      "scores": {
-        "recency": 0.62,
-        "reliability": 0.85,
-        "maritimeRelevance": 1,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
@@ -816,9 +816,33 @@
       "publishedAt": "2026-11-16T03:31:00.000Z",
       "score": 42,
       "scores": {
-        "recency": 0.87,
+        "recency": 0.86,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "90efabd028225c473026ab07bc7b18c84685c51f",
+      "storyKey": "3ca83e0238325611b9b021e9062f8239983edea2",
+      "sourceId": "marineinsight",
+      "sourceName": "Marine Insight",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Port Of New Orleans Seeks Seizure Of Tanker That Capsized Cruise Ship, Sues For $1 Million",
+      "url": "https://www.marineinsight.com/port-new-orleans-lawsuit-tanker-seizure/?utm_source=rss utm_medium=rss utm_campaign=port-new-orleans-lawsuit-tanker-seizure",
+      "summary": "Port of New Orleans has filed a federal lawsuit seeking more than $1 million in damages from the owner and manager of the tanker Atlantic Asphalt, which struck and capsized a docked river cruise ship on the Mississippi River on November 13, 2026.",
+      "publishedAt": "2026-11-15T13:03:46.000Z",
+      "score": 42,
+      "scores": {
+        "recency": 0.62,
+        "reliability": 0.85,
+        "maritimeRelevance": 1,
         "educationalValue": 0,
         "seafarerValue": 0,
         "shareability": 0,
@@ -852,30 +876,6 @@
       }
     },
     {
-      "fingerprint": "93165f075c96de7aec32864625c6ff171ff82864",
-      "storyKey": "99933428140a3128971195709c1acd046145ae4a",
-      "sourceId": "splash247",
-      "sourceName": "Splash247",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Hong Kong’s five-year clock",
-      "url": "https://splash247.com/hong-kongs-five-year-clock/",
-      "summary": "From tax reform and green bunkering to ship registration and a new partnership with Shanghai, the government in Hong Kong is pursuing an increasingly ambitious maritime strategy. The challenge is turning policy commitments into lasting commercial activity. The latest instalment from our new Hong Kong magazine, which is being distributed across the city’s maritime week.",
-      "publishedAt": "2026-11-16T03:00:00.000Z",
-      "score": 41,
-      "scores": {
-        "recency": 0.86,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.67,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
       "fingerprint": "ac2ee5f5768c68c082372ff1778e745c24b33e49",
       "storyKey": "6ab524648ab008c149bf7bae9a532eb43dfbcec9",
       "sourceId": "marex",
@@ -888,7 +888,7 @@
       "publishedAt": "2026-11-16T01:40:34.000Z",
       "score": 41,
       "scores": {
-        "recency": 0.84,
+        "recency": 0.83,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -924,30 +924,6 @@
       }
     },
     {
-      "fingerprint": "7f97280ae1fc5c4e55adb3017f84c63437b379af",
-      "storyKey": "0f62c7b9ccde033c4a0a209fe61070a63afaa0de",
-      "sourceId": "marex",
-      "sourceName": "The Maritime Executive",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "NTSB: Tanker That Hit New Orleans Riverboat Suffered a Steering Failure",
-      "url": "https://maritime-executive.com/article/ntsb-tanker-that-hit-new-orleans-riverboat-suffered-a-steering-failure",
-      "summary": "The asphalt tanker Atlantic Asphalt sustained a steering failure just before it turned hard to starboard and struck the moored cruise ship American He...",
-      "publishedAt": "2026-11-16T00:17:00.000Z",
-      "score": 41,
-      "scores": {
-        "recency": 0.81,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.67,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
       "fingerprint": "c37a61fac5b3a8df2a7e27a2c6352db7456be9a0",
       "storyKey": "a1cef47c00187f07e93c205453141b26b0fd74f0",
       "sourceId": "marineinsight",
@@ -972,19 +948,19 @@
       }
     },
     {
-      "fingerprint": "f8e8ec2c57e297a1246a7171c2d9bdc1dbe8782c",
-      "storyKey": "56dcc7c1114c7fb844851444608a0ace2f1c5474",
-      "sourceId": "gcaptain",
-      "sourceName": "gCaptain",
+      "fingerprint": "7f97280ae1fc5c4e55adb3017f84c63437b379af",
+      "storyKey": "0f62c7b9ccde033c4a0a209fe61070a63afaa0de",
+      "sourceId": "marex",
+      "sourceName": "The Maritime Executive",
       "tier": "press",
       "reliability": 0.85,
-      "title": "Imported Goods Keep Surging Through Southern California Ports",
-      "url": "https://gcaptain.com/imported-goods-keep-surging-through-southern-california-ports/",
-      "summary": "By Laura Curtis Nov 15, 2026, (Bloomberg)-Import containers moving through the US’s busiest trade hub passed the one million mark for the second time in October, as some firms bring in...",
-      "publishedAt": "2026-11-15T21:19:58.000Z",
+      "title": "NTSB: Tanker That Hit New Orleans Riverboat Suffered a Steering Failure",
+      "url": "https://maritime-executive.com/article/ntsb-tanker-that-hit-new-orleans-riverboat-suffered-a-steering-failure",
+      "summary": "The asphalt tanker Atlantic Asphalt sustained a steering failure just before it turned hard to starboard and struck the moored cruise ship American He...",
+      "publishedAt": "2026-11-16T00:17:00.000Z",
       "score": 40,
       "scores": {
-        "recency": 0.76,
+        "recency": 0.8,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -996,24 +972,24 @@
       }
     },
     {
-      "fingerprint": "96adc53f4406ce103899bb1ba4717ca5251e8b11",
-      "storyKey": "e5e57917bde173e89c357bd0be80b39df366d615",
-      "sourceId": "marex",
-      "sourceName": "The Maritime Executive",
+      "fingerprint": "f8e8ec2c57e297a1246a7171c2d9bdc1dbe8782c",
+      "storyKey": "56dcc7c1114c7fb844851444608a0ace2f1c5474",
+      "sourceId": "gcaptain",
+      "sourceName": "gCaptain",
       "tier": "press",
       "reliability": 0.85,
-      "title": "Flash Flood Warning in Nepal Came Far Too Late. How Could it be Improved?",
-      "url": "https://maritime-executive.com/article/flash-flood-warning-in-nepal-came-far-too-late-how-could-it-be-improved",
-      "summary": "At least 1,455 people are confirmed dead following the flood disaster in Nepal on 26 August. Over 5,000 more are missing. Fourteen power stations and...",
-      "publishedAt": "2026-11-15T20:05:00.000Z",
-      "score": 40,
+      "title": "Imported Goods Keep Surging Through Southern California Ports",
+      "url": "https://gcaptain.com/imported-goods-keep-surging-through-southern-california-ports/",
+      "summary": "By Laura Curtis Nov 15, 2026, (Bloomberg)-Import containers moving through the US’s busiest trade hub passed the one million mark for the second time in October, as some firms bring in...",
+      "publishedAt": "2026-11-15T21:19:58.000Z",
+      "score": 39,
       "scores": {
-        "recency": 0.73,
+        "recency": 0.75,
         "reliability": 0.85,
-        "maritimeRelevance": 0,
-        "educationalValue": 0.5,
+        "maritimeRelevance": 0.67,
+        "educationalValue": 0,
         "seafarerValue": 0,
-        "shareability": 1,
+        "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
@@ -1092,6 +1068,54 @@
       }
     },
     {
+      "fingerprint": "2e7b0dba15c0d744919b2fbd3532814f7caf2a85",
+      "storyKey": "50b2e4ba5e2e266520386c89799fcded6656eb40",
+      "sourceId": "splash247",
+      "sourceName": "Splash247",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "SwissChemGas joins VLAC ordering rush with Hengli pair",
+      "url": "https://splash247.com/swisschemgas-joins-vlac-ordering-rush-with-hengli-pair/",
+      "summary": "Greece-linked LPG trader SwissChemGas has been linked to an order for two very large ammonia carriers at China's Hengli Heavy Industries, joining a growing list of owners investing in the sector. Shipbroking sources have identified the Bermuda-based company behind the pair of 93,000 cu m VLACs, with deliveries lined up for 2028 and 2029. The",
+      "publishedAt": "2026-11-16T09:45:00.000Z",
+      "score": 39,
+      "scores": {
+        "recency": 1,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "96adc53f4406ce103899bb1ba4717ca5251e8b11",
+      "storyKey": "e5e57917bde173e89c357bd0be80b39df366d615",
+      "sourceId": "marex",
+      "sourceName": "The Maritime Executive",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Flash Flood Warning in Nepal Came Far Too Late. How Could it be Improved?",
+      "url": "https://maritime-executive.com/article/flash-flood-warning-in-nepal-came-far-too-late-how-could-it-be-improved",
+      "summary": "At least 1,455 people are confirmed dead following the flood disaster in Nepal on 26 August. Over 5,000 more are missing. Fourteen power stations and...",
+      "publishedAt": "2026-11-15T20:05:00.000Z",
+      "score": 39,
+      "scores": {
+        "recency": 0.73,
+        "reliability": 0.85,
+        "maritimeRelevance": 0,
+        "educationalValue": 0.5,
+        "seafarerValue": 0,
+        "shareability": 1,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
       "fingerprint": "d58ae9cf66b564d4d3b048346b306a4358e1264d",
       "storyKey": "dda503f2e8a25122bb4a1e2eb614e34d951c65d9",
       "sourceId": "marineinsight",
@@ -1128,7 +1152,7 @@
       "publishedAt": "2026-11-15T22:00:36.000Z",
       "score": 39,
       "scores": {
-        "recency": 0.77,
+        "recency": 0.76,
         "reliability": 0.75,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1176,7 +1200,7 @@
       "publishedAt": "2026-11-15T14:33:56.000Z",
       "score": 38,
       "scores": {
-        "recency": 0.65,
+        "recency": 0.64,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0.5,
@@ -1200,7 +1224,7 @@
       "publishedAt": "2026-11-15T22:00:58.000Z",
       "score": 38,
       "scores": {
-        "recency": 0.77,
+        "recency": 0.76,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1224,7 +1248,7 @@
       "publishedAt": "2026-11-15T22:00:50.000Z",
       "score": 38,
       "scores": {
-        "recency": 0.77,
+        "recency": 0.76,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1248,7 +1272,7 @@
       "publishedAt": "2026-11-15T22:00:42.000Z",
       "score": 38,
       "scores": {
-        "recency": 0.77,
+        "recency": 0.76,
         "reliability": 0.75,
         "maritimeRelevance": 0.33,
         "educationalValue": 0.5,
@@ -1272,7 +1296,7 @@
       "publishedAt": "2026-11-15T22:00:40.000Z",
       "score": 38,
       "scores": {
-        "recency": 0.77,
+        "recency": 0.76,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1296,7 +1320,7 @@
       "publishedAt": "2026-11-15T22:00:38.000Z",
       "score": 38,
       "scores": {
-        "recency": 0.77,
+        "recency": 0.76,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1304,30 +1328,6 @@
         "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "c3bb53dec20e57853779bc9df0f31debf0f48775",
-      "storyKey": "d5a7c0d111a5b64102c4d2c88328784e0cb299db",
-      "sourceId": "splash247",
-      "sourceName": "Splash247",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Norway's court invalidates approvals for three offshore developments",
-      "url": "https://splash247.com/norways-court-invalidates-approvals-for-three-offshore-developments/",
-      "summary": "Norway's Supreme Court has ruled that government approvals for three major North Sea oil and gas developments are invalid because their environmental assessments failed to adequately account for greenhouse gas emissions. The ruling concerns Equinor's Breidablikk field and Aker BP's Tyrving and Yggdrasil developments, whose approval processes environmental organisations Greenpeace and Natur og Ungdom challenged",
-      "publishedAt": "2026-11-16T02:40:00.000Z",
-      "score": 37,
-      "scores": {
-        "recency": 0.86,
-        "reliability": 0.85,
-        "maritimeRelevance": 0,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0.5,
         "corroboratingOutlets": 1
       }
     },
@@ -1344,7 +1344,7 @@
       "publishedAt": "2026-11-16T04:38:00.000Z",
       "score": 37,
       "scores": {
-        "recency": 0.9,
+        "recency": 0.89,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1368,7 +1368,7 @@
       "publishedAt": "2026-11-15T22:00:28.000Z",
       "score": 37,
       "scores": {
-        "recency": 0.77,
+        "recency": 0.76,
         "reliability": 0.75,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1392,7 +1392,7 @@
       "publishedAt": "2026-11-13T12:52:44.000Z",
       "score": 36,
       "scores": {
-        "recency": 0.21,
+        "recency": 0.2,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1512,7 +1512,7 @@
       "publishedAt": "2026-11-15T19:45:00.000Z",
       "score": 34,
       "scores": {
-        "recency": 0.73,
+        "recency": 0.72,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1536,7 +1536,7 @@
       "publishedAt": "2026-11-15T17:05:00.000Z",
       "score": 34,
       "scores": {
-        "recency": 0.69,
+        "recency": 0.68,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1560,7 +1560,7 @@
       "publishedAt": "2026-11-14T18:33:00.000Z",
       "score": 34,
       "scores": {
-        "recency": 0.41,
+        "recency": 0.4,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1584,7 +1584,7 @@
       "publishedAt": "2026-11-14T15:04:25.000Z",
       "score": 33,
       "scores": {
-        "recency": 0.38,
+        "recency": 0.37,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1608,7 +1608,7 @@
       "publishedAt": "2026-11-15T22:00:48.000Z",
       "score": 33,
       "scores": {
-        "recency": 0.77,
+        "recency": 0.76,
         "reliability": 0.75,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1632,7 +1632,7 @@
       "publishedAt": "2026-11-15T22:00:34.000Z",
       "score": 33,
       "scores": {
-        "recency": 0.77,
+        "recency": 0.76,
         "reliability": 0.75,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1656,7 +1656,7 @@
       "publishedAt": "2026-11-15T22:00:26.000Z",
       "score": 33,
       "scores": {
-        "recency": 0.77,
+        "recency": 0.76,
         "reliability": 0.75,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1680,7 +1680,7 @@
       "publishedAt": "2026-11-16T07:08:00.000Z",
       "score": 32,
       "scores": {
-        "recency": 0.95,
+        "recency": 0.94,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1728,7 +1728,7 @@
       "publishedAt": "2026-11-15T22:00:46.000Z",
       "score": 32,
       "scores": {
-        "recency": 0.77,
+        "recency": 0.76,
         "reliability": 0.75,
         "maritimeRelevance": 0,
         "educationalValue": 0.5,
@@ -1752,7 +1752,7 @@
       "publishedAt": "2026-11-13T20:45:59.000Z",
       "score": 30,
       "scores": {
-        "recency": 0.25,
+        "recency": 0.24,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1776,7 +1776,7 @@
       "publishedAt": "2026-11-15T23:36:00.000Z",
       "score": 30,
       "scores": {
-        "recency": 0.8,
+        "recency": 0.79,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1824,7 +1824,7 @@
       "publishedAt": "2026-11-15T22:00:56.000Z",
       "score": 27,
       "scores": {
-        "recency": 0.77,
+        "recency": 0.76,
         "reliability": 0.75,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1848,7 +1848,7 @@
       "publishedAt": "2026-11-15T22:00:30.000Z",
       "score": 27,
       "scores": {
-        "recency": 0.77,
+        "recency": 0.76,
         "reliability": 0.75,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1896,31 +1896,7 @@
       "publishedAt": "2026-11-14T07:40:00.000Z",
       "score": 21,
       "scores": {
-        "recency": 0.32,
-        "reliability": 0.85,
-        "maritimeRelevance": 0,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "eb2645a6b8bdb15adb53b09da4a8194c052ecc22",
-      "storyKey": "ea7345e3df6e73a2bc81327a9ade15e969fd4a55",
-      "sourceId": "marex",
-      "sourceName": "The Maritime Executive",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Guardia Civil Catches 2.6 Tonnes of Cocaine in Coconut Crates",
-      "url": "https://maritime-executive.com/article/guardia-civil-catches-2-6-tonnes-of-cocaine-in-coconut-crates",
-      "summary": "The West African nation of Ghana is gaining more notoriety as a cocaine transit hub after Spanish authorities seized 2.6 tonnes of the drug hidden in...",
-      "publishedAt": "2026-11-14T04:02:13.000Z",
-      "score": 21,
-      "scores": {
-        "recency": 0.29,
+        "recency": 0.31,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1944,7 +1920,7 @@
       "publishedAt": "2026-11-16T04:32:00.000Z",
       "score": 20,
       "scores": {
-        "recency": 0.89,
+        "recency": 0.88,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1968,9 +1944,33 @@
       "publishedAt": "2026-11-14T04:37:00.000Z",
       "score": 20,
       "scores": {
-        "recency": 0.3,
+        "recency": 0.29,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "eb2645a6b8bdb15adb53b09da4a8194c052ecc22",
+      "storyKey": "ea7345e3df6e73a2bc81327a9ade15e969fd4a55",
+      "sourceId": "marex",
+      "sourceName": "The Maritime Executive",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Guardia Civil Catches 2.6 Tonnes of Cocaine in Coconut Crates",
+      "url": "https://maritime-executive.com/article/guardia-civil-catches-2-6-tonnes-of-cocaine-in-coconut-crates",
+      "summary": "The West African nation of Ghana is gaining more notoriety as a cocaine transit hub after Spanish authorities seized 2.6 tonnes of the drug hidden in...",
+      "publishedAt": "2026-11-14T04:02:13.000Z",
+      "score": 20,
+      "scores": {
+        "recency": 0.29,
+        "reliability": 0.85,
+        "maritimeRelevance": 0,
         "educationalValue": 0,
         "seafarerValue": 0,
         "shareability": 0,
