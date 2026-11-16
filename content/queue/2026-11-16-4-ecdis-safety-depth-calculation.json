@@ -1,0 +1,490 @@
+{
+  "id": "2026-11-16-ecdis-safety-depth-calculation",
+  "template": "educational-explainer",
+  "pillar": "deck",
+  "series": "Bridge Calculations",
+  "level": "L3",
+  "audience": [
+    "Second Officer",
+    "OOW",
+    "Chief Officer",
+    "Deck Cadet"
+  ],
+  "title": "How to calculate ECDIS safety depth: draught + UKC + squat - tide",
+  "thumbnailText": "SAFETY DEPTH IN 4 TERMS",
+  "aspect": "9:16",
+  "mood": "curious",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "beat": "hook",
+      "label": "PRACTICAL CALCULATION",
+      "heading": "One wrong term moves your safety contour",
+      "motif": "chart",
+      "narration": "The Chief Officer asks for your ECDIS safety depth. Get one term wrong and the safety contour lies to you."
+    },
+    {
+      "id": "sd-ctx",
+      "kind": "diagram",
+      "beat": "context",
+      "label": "THE SITUATION",
+      "heading": "The 30 m default is not a setting",
+      "narration": "You are the second officer planning a coastal approach. ECDIS is still on the 30 metre default contour: of little use close inshore.",
+      "diagram": {
+        "bg": "sea",
+        "elements": [
+          {
+            "type": "ship",
+            "x": 430,
+            "y": 590,
+            "variant": "tanker",
+            "len": 440
+          },
+          {
+            "type": "seabed",
+            "x": 0,
+            "y": 720,
+            "h": 30
+          },
+          {
+            "type": "ecdis",
+            "x": 800,
+            "y": 190,
+            "s": 0.75,
+            "on": "ecdis"
+          },
+          {
+            "type": "label",
+            "x": 800,
+            "y": 340,
+            "text": "DEFAULT: 30 m",
+            "on": "30"
+          },
+          {
+            "type": "cross",
+            "x": 930,
+            "y": 110,
+            "on": "little"
+          },
+          {
+            "type": "dim",
+            "x": 120,
+            "y": 520,
+            "to": [
+              120,
+              712
+            ],
+            "text": "COASTAL",
+            "on": "inshore"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sd-formula",
+      "kind": "diagram",
+      "beat": "explain",
+      "label": "THE FORMULA",
+      "heading": "Safety depth = draught + UKC + squat - tide",
+      "narration": "Safety depth equals draught plus UKC plus squat, minus tide. Draught from the loading computer, UKC from your SMS, squat at planned speed, tide from the tables.",
+      "diagram": {
+        "bg": "blueprint",
+        "elements": [
+          {
+            "type": "eq",
+            "x": 500,
+            "y": 110,
+            "text": "SAFETY DEPTH =",
+            "on": "safety"
+          },
+          {
+            "type": "eq",
+            "x": 500,
+            "y": 220,
+            "text": "DRAUGHT + UKC + SQUAT - TIDE",
+            "on": "draught"
+          },
+          {
+            "type": "label",
+            "x": 270,
+            "y": 380,
+            "text": "LOADING COMPUTER",
+            "to": [
+              330,
+              250
+            ],
+            "on": "loading"
+          },
+          {
+            "type": "label",
+            "x": 760,
+            "y": 380,
+            "text": "COMPANY SMS",
+            "to": [
+              450,
+              250
+            ],
+            "on": "sms"
+          },
+          {
+            "type": "label",
+            "x": 270,
+            "y": 520,
+            "text": "PLANNED SPEED",
+            "to": [
+              600,
+              250
+            ],
+            "on": "planned"
+          },
+          {
+            "type": "label",
+            "x": 760,
+            "y": 520,
+            "text": "TIDE TABLES",
+            "to": [
+              720,
+              250
+            ],
+            "on": "tables"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sd-figures",
+      "kind": "diagram",
+      "beat": "explain",
+      "label": "STEP BY STEP",
+      "heading": "Worked example: 9.0 m",
+      "narration": "Illustrative ship: draught 9.8 metres, UKC 1.0, squat 0.6. That makes 11.4. Minus 2.4 metres of tide: safety depth 9.0 metres.",
+      "diagram": {
+        "bg": "blueprint",
+        "elements": [
+          {
+            "type": "label",
+            "x": 500,
+            "y": 90,
+            "text": "ILLUSTRATIVE DATA",
+            "color": "#FDE047",
+            "on": "illustrative"
+          },
+          {
+            "type": "eq",
+            "x": 500,
+            "y": 230,
+            "text": "9.8 + 1.0 + 0.6 = 11.4 m",
+            "on": "9.8"
+          },
+          {
+            "type": "eq",
+            "x": 500,
+            "y": 360,
+            "text": "11.4 - 2.4 = 9.0 m",
+            "on": "minus"
+          },
+          {
+            "type": "eq",
+            "x": 500,
+            "y": 490,
+            "text": "SAFETY DEPTH = 9.0 m",
+            "variant": "result",
+            "on": "safety"
+          },
+          {
+            "type": "value",
+            "x": 500,
+            "y": 680,
+            "from": 0,
+            "to2": 9.0,
+            "decimals": 1,
+            "unit": " m",
+            "on": "depth"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sd-contour",
+      "kind": "diagram",
+      "beat": "example",
+      "label": "ON THE ENC",
+      "heading": "ECDIS rounds up to the next contour",
+      "narration": "Your ENC only has 5 and 10 metre contours, so ECDIS takes the next deeper one. The 10 metre contour becomes your safety contour.",
+      "diagram": {
+        "bg": "chart",
+        "elements": [
+          {
+            "type": "zone",
+            "x": 0,
+            "y": 0,
+            "points": [
+              [
+                0,
+                0
+              ],
+              [
+                1000,
+                0
+              ],
+              [
+                1000,
+                140
+              ],
+              [
+                600,
+                200
+              ],
+              [
+                0,
+                170
+              ]
+            ],
+            "color": "#E9D8A6"
+          },
+          {
+            "type": "path",
+            "x": 0,
+            "y": 0,
+            "points": [
+              [
+                0,
+                280
+              ],
+              [
+                300,
+                300
+              ],
+              [
+                600,
+                320
+              ],
+              [
+                1000,
+                260
+              ]
+            ],
+            "color": "#93C5FD",
+            "on": "5"
+          },
+          {
+            "type": "text",
+            "x": 880,
+            "y": 240,
+            "text": "5 m",
+            "size": 40,
+            "on": "5"
+          },
+          {
+            "type": "path",
+            "x": 0,
+            "y": 0,
+            "points": [
+              [
+                0,
+                460
+              ],
+              [
+                350,
+                500
+              ],
+              [
+                650,
+                480
+              ],
+              [
+                1000,
+                430
+              ]
+            ],
+            "color": "#F8FAFC",
+            "on": "10"
+          },
+          {
+            "type": "text",
+            "x": 880,
+            "y": 410,
+            "text": "10 m",
+            "size": 40,
+            "on": "10"
+          },
+          {
+            "type": "eq",
+            "x": 500,
+            "y": 640,
+            "text": "9.0 m ROUNDS UP TO 10 m",
+            "on": "deeper"
+          },
+          {
+            "type": "label",
+            "x": 330,
+            "y": 560,
+            "text": "SAFETY CONTOUR",
+            "color": "#FF4FA3",
+            "to": [
+              350,
+              500
+            ],
+            "on": "becomes"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sd-mistake",
+      "kind": "diagram",
+      "beat": "mistake",
+      "label": "COMMON MISTAKE",
+      "heading": "Only subtract tide you will really have",
+      "narration": "The common mistake: subtracting tide you won't have. If you run late and the tide falls, your margin goes. Use the lowest tide of your transit.",
+      "diagram": {
+        "bg": "sea",
+        "elements": [
+          {
+            "type": "ship",
+            "x": 470,
+            "y": 590,
+            "variant": "tanker",
+            "len": 400
+          },
+          {
+            "type": "seabed",
+            "x": 0,
+            "y": 690,
+            "h": 25
+          },
+          {
+            "type": "cross",
+            "x": 840,
+            "y": 140,
+            "on": "subtracting"
+          },
+          {
+            "type": "clock",
+            "x": 170,
+            "y": 170,
+            "value": 0.6,
+            "on": "late"
+          },
+          {
+            "type": "arrow",
+            "x": 840,
+            "y": 280,
+            "to": [
+              840,
+              450
+            ],
+            "color": "#EF4444",
+            "on": "falls"
+          },
+          {
+            "type": "dim",
+            "x": 300,
+            "y": 590,
+            "to": [
+              300,
+              680
+            ],
+            "text": "UKC",
+            "color": "#EF4444",
+            "on": "margin"
+          },
+          {
+            "type": "label",
+            "x": 500,
+            "y": 760,
+            "text": "USE LOWEST TIDE IN WINDOW",
+            "on": "lowest"
+          }
+        ]
+      }
+    },
+    {
+      "id": "take",
+      "kind": "takeaway",
+      "beat": "takeaway",
+      "label": "KEY TAKEAWAY",
+      "heading": "Calculate it, then let ECDIS round up",
+      "motif": "bridge",
+      "narration": "Draught plus UKC plus squat, minus the tide you will really have. Then let ECDIS round up."
+    },
+    {
+      "id": "end",
+      "kind": "endcard",
+      "beat": "endcard",
+      "narration": "Follow HeyMariner for practical maritime knowledge."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Understanding ECDIS beyond the default 30 m safety contour",
+      "publisher": "ADMIRALTY (UKHO)",
+      "date": "2026-08-03",
+      "url": "https://www.admiralty.co.uk/understanding-ecdis-beyond-default-30m-safety-contour"
+    },
+    {
+      "title": "Safety contours",
+      "publisher": "The Nautical Institute",
+      "url": "https://nautinst.org/resources-page/safety-contours.html"
+    }
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner daily desk",
+    "checkedAt": "2026-11-16",
+    "notes": "ADMIRALTY (3 Aug 2026): safety depth = (draught + UKC + dynamic factors such as squat, pitch, roll) - height of tide; UKC per company policy; squat based on planned speed; predicted tide may be applied in coastal waters; the 30 m default is not an effective fallback; ENC contours at fixed intervals (2, 5, 10, 20, 30, 50 m) and ECDIS defaults to the next deeper available contour (their example 6.5 m with 5 and 10 m contours displays 10 m). Worked figures 9.8 + 1.0 + 0.6 - 2.4 = 9.0 m are illustrative and arithmetic checked. Pitch/roll allowances and the UKC figure depend on the company SMS; using the lowest predicted tide for the transit window is prudent practice consistent with applying the predicted height of tide for the time of passage."
+  },
+  "meta": {
+    "description": "How to calculate your ECDIS safety depth step by step: draught plus UKC plus squat, minus the predicted height of tide, with illustrative figures. ECDIS then uses the next deeper contour in the ENC as the safety contour, so the 30 m default is not an effective setting for coastal waters.",
+    "keywords": [
+      "ECDIS safety depth",
+      "how to calculate safety contour",
+      "safety depth formula",
+      "under keel clearance",
+      "squat",
+      "height of tide",
+      "passage planning",
+      "second officer"
+    ],
+    "hashtags": [
+      "#ECDIS",
+      "#PassagePlanning",
+      "#Navigation",
+      "#SecondOfficer",
+      "#Seafarer"
+    ],
+    "question": "Which tide do you apply when the passage runs across low water?"
+  },
+  "origin": {
+    "type": "queue"
+  },
+  "concept": {
+    "domain": "Navigation",
+    "category": "ECDIS",
+    "subcategory": "Safety settings",
+    "concept": "Calculating ECDIS safety depth",
+    "microConcept": "Safety depth = draught + UKC + squat - height of tide; ECDIS rounds up to the next ENC contour",
+    "contentType": "Practical Calculation",
+    "audience": "OOW / Second Officer",
+    "department": "deck",
+    "knowledgeLevel": "Intermediate",
+    "shipType": "All",
+    "regulation": "SOLAS V/34 passage planning, company SMS UKC policy",
+    "equipment": "ECDIS, loading computer, tide tables",
+    "calculation": "Safety depth = draught + UKC + squat - tide",
+    "operationalStage": "Passage planning / coastal approach",
+    "safetyCriticality": "high",
+    "series": "Bridge Calculations",
+    "episode": 1,
+    "keyTakeaway": "Draught plus UKC plus squat, minus the tide you will really have; then let ECDIS round up.",
+    "commonMistake": "Subtracting a height of tide that will not be there when the ship transits.",
+    "relatedTopics": [
+      "Squat calculation at planned speed",
+      "Company UKC policy explained",
+      "Shallow contour and deep contour settings",
+      "Height of tide at secondary ports",
+      "Safety contour alarm fatigue"
+    ]
+  }
+}

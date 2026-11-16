@@ -1,0 +1,488 @@
+{
+  "id": "2026-11-16-trawler-vs-fishing-vessel-lights",
+  "template": "colreg-scenario",
+  "pillar": "colreg",
+  "series": "COLREG Night Navigation",
+  "level": "L2",
+  "audience": [
+    "OOW",
+    "Deck Cadet",
+    "Second Officer"
+  ],
+  "title": "Trawler or fishing vessel? COLREG Rule 26 lights at night explained",
+  "thumbnailText": "GREEN OR RED OVER WHITE?",
+  "aspect": "9:16",
+  "mood": "curious",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "beat": "hook",
+      "label": "NIGHT NAVIGATION",
+      "heading": "Green over white, or red over white?",
+      "motif": "lighthouse",
+      "narration": "Green over white, or red over white? Those two lights tell you what a fishing vessel's gear is doing."
+    },
+    {
+      "id": "fish-ctx",
+      "kind": "diagram",
+      "beat": "context",
+      "label": "THE SITUATION",
+      "heading": "What is she doing?",
+      "narration": "You are the OOW crossing a fishing ground at night. On your bow: an all-round green light over a white one, and a red sidelight.",
+      "diagram": {
+        "bg": "night",
+        "elements": [
+          {
+            "type": "nightvessel",
+            "x": 500,
+            "y": 560,
+            "bearing": 320,
+            "len": 460,
+            "status": "trawling",
+            "masthead": 0
+          },
+          {
+            "type": "ring",
+            "x": 485,
+            "y": 302,
+            "r2": 75,
+            "on": "green"
+          },
+          {
+            "type": "label",
+            "x": 780,
+            "y": 200,
+            "text": "GREEN OVER WHITE",
+            "to": [
+              505,
+              300
+            ],
+            "on": "white"
+          },
+          {
+            "type": "label",
+            "x": 200,
+            "y": 420,
+            "text": "RED SIDELIGHT",
+            "to": [
+              419,
+              482
+            ],
+            "on": "sidelight"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fish-trawl",
+      "kind": "diagram",
+      "beat": "explain",
+      "label": "RULE 26(b)",
+      "heading": "Green over white: trawling",
+      "narration": "Green over white: trawling, dragging a net. Making way, she adds sidelights and a sternlight. From 50 metres, a masthead light too, abaft and above the green.",
+      "diagram": {
+        "bg": "night",
+        "elements": [
+          {
+            "type": "nightvessel",
+            "x": 500,
+            "y": 560,
+            "bearing": 112.5,
+            "len": 460,
+            "status": "trawling",
+            "masthead": 0
+          },
+          {
+            "type": "label",
+            "x": 780,
+            "y": 140,
+            "text": "TRAWLING",
+            "on": "trawling"
+          },
+          {
+            "type": "path",
+            "x": 0,
+            "y": 0,
+            "points": [
+              [
+                309,
+                535
+              ],
+              [
+                170,
+                620
+              ],
+              [
+                60,
+                720
+              ]
+            ],
+            "color": "#94A3B8",
+            "on": "net"
+          },
+          {
+            "type": "ring",
+            "x": 617,
+            "y": 482,
+            "r2": 40,
+            "on": "sidelights"
+          },
+          {
+            "type": "ring",
+            "x": 309,
+            "y": 524,
+            "r2": 40,
+            "on": "sternlight"
+          },
+          {
+            "type": "label",
+            "x": 230,
+            "y": 200,
+            "text": "50 m AND OVER",
+            "to": [
+              455,
+              230
+            ],
+            "on": "50"
+          },
+          {
+            "type": "light",
+            "x": 465,
+            "y": 230,
+            "color": "#F8FAFC",
+            "on": "masthead"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fish-other",
+      "kind": "diagram",
+      "beat": "explain",
+      "label": "RULE 26(c)",
+      "heading": "Red over white: other fishing",
+      "narration": "Red over white: fishing other than trawling, with lines or nets. Gear out more than 150 metres? A third white light shows which way it lies.",
+      "diagram": {
+        "bg": "night",
+        "elements": [
+          {
+            "type": "nightvessel",
+            "x": 500,
+            "y": 560,
+            "bearing": 270,
+            "len": 460,
+            "status": "fishing"
+          },
+          {
+            "type": "ring",
+            "x": 477,
+            "y": 302,
+            "r2": 75,
+            "on": "red"
+          },
+          {
+            "type": "label",
+            "x": 790,
+            "y": 170,
+            "text": "NOT TRAWLING",
+            "to": [
+              520,
+              300
+            ],
+            "on": "other"
+          },
+          {
+            "type": "path",
+            "x": 0,
+            "y": 0,
+            "points": [
+              [
+                640,
+                525
+              ],
+              [
+                980,
+                600
+              ]
+            ],
+            "color": "#94A3B8",
+            "on": "gear"
+          },
+          {
+            "type": "dim",
+            "x": 640,
+            "y": 650,
+            "to": [
+              980,
+              650
+            ],
+            "text": "OVER 150 m",
+            "on": "150"
+          },
+          {
+            "type": "light",
+            "x": 625,
+            "y": 400,
+            "color": "#F8FAFC",
+            "on": "third"
+          },
+          {
+            "type": "label",
+            "x": 790,
+            "y": 320,
+            "text": "GEAR THIS SIDE",
+            "to": [
+              640,
+              395
+            ],
+            "on": "way"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fish-action",
+      "kind": "diagram",
+      "beat": "example",
+      "label": "WHAT YOU DO",
+      "heading": "Keep clear, and away from the gear",
+      "narration": "Say red over white, plus a third white light to one side. You are power-driven, so Rule 18 says keep out of her way: alter early, away from her gear.",
+      "diagram": {
+        "bg": "night",
+        "elements": [
+          {
+            "type": "nightvessel",
+            "x": 560,
+            "y": 380,
+            "bearing": 90,
+            "len": 320,
+            "status": "fishing",
+            "makingWay": false
+          },
+          {
+            "type": "light",
+            "x": 430,
+            "y": 300,
+            "color": "#F8FAFC",
+            "on": "third"
+          },
+          {
+            "type": "path",
+            "x": 0,
+            "y": 0,
+            "points": [
+              [
+                420,
+                330
+              ],
+              [
+                80,
+                420
+              ]
+            ],
+            "color": "#94A3B8",
+            "on": "side"
+          },
+          {
+            "type": "label",
+            "x": 220,
+            "y": 170,
+            "text": "RULE 18: KEEP CLEAR",
+            "on": "rule"
+          },
+          {
+            "type": "path",
+            "x": 0,
+            "y": 0,
+            "points": [
+              [
+                520,
+                790
+              ],
+              [
+                520,
+                660
+              ],
+              [
+                790,
+                560
+              ],
+              [
+                870,
+                320
+              ]
+            ],
+            "mover": "ship",
+            "color": "#FDE047",
+            "on": "alter"
+          },
+          {
+            "type": "zone",
+            "x": 0,
+            "y": 0,
+            "points": [
+              [
+                60,
+                330
+              ],
+              [
+                420,
+                300
+              ],
+              [
+                420,
+                470
+              ],
+              [
+                60,
+                500
+              ]
+            ],
+            "color": "#EF4444",
+            "on": "gear"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fish-mistake",
+      "kind": "diagram",
+      "beat": "mistake",
+      "label": "COMMON MISTAKE",
+      "heading": "Do not confuse her with a pilot vessel",
+      "narration": "The common mistake: reading red over white as a pilot vessel. A pilot shows white over red. White over red, pilot ahead.",
+      "diagram": {
+        "bg": "night",
+        "elements": [
+          {
+            "type": "nightvessel",
+            "x": 270,
+            "y": 600,
+            "bearing": 90,
+            "len": 300,
+            "status": "fishing",
+            "makingWay": false
+          },
+          {
+            "type": "cross",
+            "x": 500,
+            "y": 470,
+            "on": "reading"
+          },
+          {
+            "type": "label",
+            "x": 270,
+            "y": 180,
+            "text": "FISHING: RED / WHITE",
+            "on": "red"
+          },
+          {
+            "type": "nightvessel",
+            "x": 730,
+            "y": 600,
+            "bearing": 90,
+            "len": 300,
+            "status": "pilot",
+            "on": "pilot"
+          },
+          {
+            "type": "label",
+            "x": 730,
+            "y": 260,
+            "text": "PILOT: WHITE / RED",
+            "on": "shows"
+          }
+        ]
+      }
+    },
+    {
+      "id": "take",
+      "kind": "takeaway",
+      "beat": "takeaway",
+      "label": "KEY TAKEAWAY",
+      "heading": "Green over white: trawling. Red over white: fishing",
+      "motif": "voyage",
+      "narration": "Green over white, trawling tonight. Red over white, fishing at night."
+    },
+    {
+      "id": "end",
+      "kind": "endcard",
+      "beat": "endcard",
+      "narration": "Follow HeyMariner for practical maritime knowledge."
+    }
+  ],
+  "sources": [
+    {
+      "title": "IMO: COLREG Convention",
+      "publisher": "IMO",
+      "url": "https://www.imo.org/en/About/Conventions/Pages/COLREG.aspx"
+    },
+    {
+      "title": "Rule 26 Fishing vessels (33 CFR 83.26, Inland text identical to COLREG Rule 26)",
+      "publisher": "Cornell LII",
+      "url": "https://www.law.cornell.edu/cfr/text/33/83.26"
+    },
+    {
+      "title": "COLREG Rule 26: Fishing vessels",
+      "publisher": "IALA COLREG",
+      "url": "https://ialacolreg.com/en/colreg/rule-26"
+    }
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner daily desk",
+    "checkedAt": "2026-11-16",
+    "notes": "Rule 26(b): trawling = two all-round lights in a vertical line, green over white; masthead light abaft of and higher than the all-round green (vessel under 50 m not obliged); making way: sidelights and sternlight. Rule 26(c): fishing other than trawling = all-round red over white; outlying gear extending more than 150 m horizontally: an all-round white light or a cone apex upwards in the direction of the gear; making way: sidelights and sternlight. Day shape for both: two cones apexes together (not shown). Rule 18(a)(iii): a power-driven vessel underway keeps out of the way of a vessel engaged in fishing (subject to Rules 9, 10 and 13). Pilot vessel Rule 29: white over red all-round. Mnemonics are memory aids, not rule text. Diagram trawler drawn with the masthead light added separately (render preset shows two masthead lights)."
+  },
+  "meta": {
+    "description": "How to tell a trawler from another fishing vessel at night under COLREG Rule 26: green over white means trawling, red over white means fishing by other means, and a third white light shows outlying gear beyond 150 metres. A power-driven vessel keeps out of the way under Rule 18, and red over white must not be confused with the pilot vessel's white over red.",
+    "keywords": [
+      "COLREG Rule 26",
+      "fishing vessel lights",
+      "trawler lights at night",
+      "green over white",
+      "red over white",
+      "navigation lights",
+      "OOW night watch",
+      "COLREG lights and shapes"
+    ],
+    "hashtags": [
+      "#COLREG",
+      "#NavigationLights",
+      "#OOW",
+      "#MaritimeEducation",
+      "#Seafarer"
+    ],
+    "question": "Which fishing light confused you most on your first night watch?"
+  },
+  "origin": {
+    "type": "queue"
+  },
+  "concept": {
+    "domain": "Navigation",
+    "category": "COLREG",
+    "subcategory": "Lights and shapes",
+    "concept": "Identify trawling and other fishing vessels at night",
+    "microConcept": "Green over white (trawling) vs red over white (other fishing) and the outlying gear light",
+    "contentType": "Night Navigation Challenge",
+    "audience": "Cadet / OOW",
+    "department": "deck",
+    "knowledgeLevel": "Beginner",
+    "shipType": "All",
+    "regulation": "COLREG Rules 18, 26, 29",
+    "equipment": "Navigation lights",
+    "operationalStage": "Navigation watch",
+    "safetyCriticality": "high",
+    "series": "COLREG Night Navigation",
+    "episode": 3,
+    "keyTakeaway": "Green over white, trawling tonight; red over white, fishing at night.",
+    "commonMistake": "Reading red over white as a pilot vessel (white over red).",
+    "relatedTopics": [
+      "Fishing vessel day shapes: two cones",
+      "Pilot vessel lights (Rule 29)",
+      "Fishing vessels in a TSS: Rule 10(i)",
+      "Purse seiner yellow lights (Annex II)"
+    ]
+  }
+}

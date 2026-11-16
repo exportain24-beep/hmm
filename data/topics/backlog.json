@@ -51,9 +51,11 @@
     "https://imo.org/en/MediaCentre/PressBriefings/Pages/Joint-IMO-ICAO-ITU-statement-satellite-interference.aspx"
    ],
    "origin": "IMO/ICAO/ITU warn of rising jamming and spoofing; SOLAS V/19 requires position at all times",
-   "status": "open",
+   "status": "used",
    "addedAt": "2026-11-15",
-   "addedBy": "weekly-scout"
+   "addedBy": "weekly-scout",
+   "usedBy": "2026-11-16-gnss-spoofing-position-check",
+   "usedAt": "2026-11-16"
   },
   {
    "id": "pilot-boarding-ladder-rigging-rules",
@@ -176,9 +178,72 @@
     "https://www.imo.org/en/mediacentre/meetingsummaries/pages/msc-default.aspx"
    ],
    "origin": "New SOLAS rule in force 1 January 2026; PSC now checks test records",
-   "status": "open",
+   "status": "used",
    "addedAt": "2026-11-15",
-   "addedBy": "weekly-scout"
+   "addedBy": "weekly-scout",
+   "usedBy": "2026-11-16-lifting-appliances-solas-ii-1-3-13",
+   "usedAt": "2026-11-16"
+  },
+  {
+   "id": "loose-gear-proof-test-and-certificates",
+   "title": "Loose gear proof test and certificates",
+   "stream": "safety",
+   "pillar": "equipment",
+   "level": "L2",
+   "priority": 84,
+   "tags": [
+    "psc",
+    "new",
+    "critical"
+   ],
+   "startFrom": [
+    "https://www.irclass.org/media/7976/technical-circular-no026.pdf"
+   ],
+   "origin": "chained from 2026-11-16-lifting-appliances-solas-ii-1-3-13",
+   "status": "open",
+   "addedAt": "2026-11-16",
+   "addedBy": "daily-video-desk"
+  },
+  {
+   "id": "anchor-handling-winch-annual-test",
+   "title": "Anchor handling winch annual test",
+   "stream": "safety",
+   "pillar": "equipment",
+   "level": "L3",
+   "priority": 84,
+   "tags": [
+    "psc",
+    "new",
+    "critical"
+   ],
+   "startFrom": [
+    "https://www.irclass.org/media/7976/technical-circular-no026.pdf"
+   ],
+   "origin": "chained from 2026-11-16-lifting-appliances-solas-ii-1-3-13",
+   "status": "open",
+   "addedAt": "2026-11-16",
+   "addedBy": "daily-video-desk"
+  },
+  {
+   "id": "squat-calculation-at-planned-speed",
+   "title": "Squat calculation at planned speed",
+   "stream": "deck",
+   "pillar": "navigation",
+   "level": "L3",
+   "priority": 84,
+   "tags": [
+    "exam",
+    "calc",
+    "critical",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/understanding-ecdis-beyond-default-30m-safety-contour"
+   ],
+   "origin": "chained from 2026-11-16-ecdis-safety-depth-calculation",
+   "status": "open",
+   "addedAt": "2026-11-16",
+   "addedBy": "daily-video-desk"
   },
   {
    "id": "crankcase-explosion-causes-and-relief-doors",
@@ -218,7 +283,9 @@
     "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
    ],
    "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
-   "status": "open"
+   "status": "used",
+   "usedBy": "2026-11-16-scavenge-fire-actions",
+   "usedAt": "2026-11-16"
   },
   {
    "id": "ecdis-route-check-how-to-run-it-properly",
@@ -312,9 +379,11 @@
     "https://www.admiralty.co.uk/understanding-ecdis-beyond-default-30m-safety-contour"
    ],
    "origin": "Over two-thirds of bridge teams leave the 30 m default; worked example on ADMIRALTY",
-   "status": "open",
+   "status": "used",
    "addedAt": "2026-11-15",
-   "addedBy": "weekly-scout"
+   "addedBy": "weekly-scout",
+   "usedBy": "2026-11-16-ecdis-safety-depth-calculation",
+   "usedAt": "2026-11-16"
   },
   {
    "id": "solid-bulk-cargo-liquefaction-imsbc",
@@ -523,6 +592,26 @@
    "status": "open",
    "addedAt": "2026-11-15",
    "addedBy": "weekly-scout"
+  },
+  {
+   "id": "fishing-vessels-in-a-tss-rule-10-i",
+   "title": "Fishing vessels in a TSS: Rule 10(i)",
+   "stream": "deck",
+   "pillar": "colreg",
+   "level": "L2",
+   "priority": 76,
+   "tags": [
+    "exam",
+    "critical",
+    "colreg"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/About/Conventions/Pages/COLREG.aspx"
+   ],
+   "origin": "chained from 2026-11-16-trawler-vs-fishing-vessel-lights",
+   "status": "open",
+   "addedAt": "2026-11-16",
+   "addedBy": "daily-video-desk"
   },
   {
    "id": "dead-ship-condition-what-it-means",
@@ -818,7 +907,9 @@
     "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
    ],
    "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
-   "status": "open"
+   "status": "used",
+   "usedBy": "2026-11-16-trawler-vs-fishing-vessel-lights",
+   "usedAt": "2026-11-16"
   },
   {
    "id": "colreg-rule-27-nuc-and-ram-lights",
@@ -1072,6 +1163,26 @@
    ],
    "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
    "status": "open"
+  },
+  {
+   "id": "parallel-indexing-on-coastal-passages",
+   "title": "Parallel indexing on coastal passages",
+   "stream": "deck",
+   "pillar": "navigation",
+   "level": "L2",
+   "priority": 66,
+   "tags": [
+    "exam",
+    "visual",
+    "critical"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/publications/publications-and-reference-guides/admiralty-mariners-handbook"
+   ],
+   "origin": "chained from 2026-11-16-gnss-spoofing-position-check",
+   "status": "open",
+   "addedAt": "2026-11-16",
+   "addedBy": "daily-video-desk"
   },
   {
    "id": "dragging-anchor-early-signs-and-actions",
@@ -1391,6 +1502,145 @@
    "addedBy": "weekly-scout"
   },
   {
+   "id": "running-fix-by-radar-ranges",
+   "title": "Running fix by radar ranges",
+   "stream": "deck",
+   "pillar": "navigation",
+   "level": "L2",
+   "priority": 64,
+   "tags": [
+    "exam",
+    "visual",
+    "calc"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/publications/publications-and-reference-guides/admiralty-mariners-handbook"
+   ],
+   "origin": "chained from 2026-11-16-gnss-spoofing-position-check",
+   "status": "open",
+   "addedAt": "2026-11-16",
+   "addedBy": "daily-video-desk"
+  },
+  {
+   "id": "dead-reckoning-and-estimated-position",
+   "title": "Dead reckoning and estimated position",
+   "stream": "deck",
+   "pillar": "navigation",
+   "level": "L1",
+   "priority": 64,
+   "tags": [
+    "exam",
+    "visual",
+    "calc"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/publications/publications-and-reference-guides/admiralty-mariners-handbook"
+   ],
+   "origin": "chained from 2026-11-16-gnss-spoofing-position-check",
+   "status": "open",
+   "addedAt": "2026-11-16",
+   "addedBy": "daily-video-desk"
+  },
+  {
+   "id": "register-of-lifting-appliances",
+   "title": "Register of lifting appliances",
+   "stream": "safety",
+   "pillar": "regulation",
+   "level": "L2",
+   "priority": 64,
+   "tags": [
+    "psc",
+    "new"
+   ],
+   "startFrom": [
+    "https://www.irclass.org/media/7976/technical-circular-no026.pdf"
+   ],
+   "origin": "chained from 2026-11-16-lifting-appliances-solas-ii-1-3-13",
+   "status": "open",
+   "addedAt": "2026-11-16",
+   "addedBy": "daily-video-desk"
+  },
+  {
+   "id": "crane-pre-use-checks-and-limit-switches",
+   "title": "Crane pre-use checks and limit switches",
+   "stream": "safety",
+   "pillar": "equipment",
+   "level": "L2",
+   "priority": 64,
+   "tags": [
+    "critical",
+    "accident",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.dnv.com/news/2025/new-safety-requirements-for-onboard-lifting-appliances-from-1-january-2026/"
+   ],
+   "origin": "chained from 2026-11-16-lifting-appliances-solas-ii-1-3-13",
+   "status": "open",
+   "addedAt": "2026-11-16",
+   "addedBy": "daily-video-desk"
+  },
+  {
+   "id": "fishing-vessel-day-shapes-two-cones",
+   "title": "Fishing vessel day shapes: two cones",
+   "stream": "deck",
+   "pillar": "colreg",
+   "level": "L1",
+   "priority": 64,
+   "tags": [
+    "exam",
+    "visual",
+    "colreg"
+   ],
+   "startFrom": [
+    "https://ialacolreg.com/en/colreg/rule-26"
+   ],
+   "origin": "chained from 2026-11-16-trawler-vs-fishing-vessel-lights",
+   "status": "open",
+   "addedAt": "2026-11-16",
+   "addedBy": "daily-video-desk"
+  },
+  {
+   "id": "pilot-vessel-lights-rule-29",
+   "title": "Pilot vessel lights (Rule 29)",
+   "stream": "deck",
+   "pillar": "colreg",
+   "level": "L1",
+   "priority": 64,
+   "tags": [
+    "exam",
+    "visual",
+    "colreg"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/About/Conventions/Pages/COLREG.aspx"
+   ],
+   "origin": "chained from 2026-11-16-trawler-vs-fishing-vessel-lights",
+   "status": "open",
+   "addedAt": "2026-11-16",
+   "addedBy": "daily-video-desk"
+  },
+  {
+   "id": "purse-seiner-yellow-lights-annex-ii",
+   "title": "Purse seiner yellow lights (Annex II)",
+   "stream": "deck",
+   "pillar": "colreg",
+   "level": "L2",
+   "priority": 64,
+   "tags": [
+    "exam",
+    "visual",
+    "colreg"
+   ],
+   "startFrom": [
+    "https://www.law.cornell.edu/cfr/text/33/83.26"
+   ],
+   "origin": "chained from 2026-11-16-trawler-vs-fishing-vessel-lights",
+   "status": "open",
+   "addedAt": "2026-11-16",
+   "addedBy": "daily-video-desk"
+  },
+  {
    "id": "gnss-jamming-and-spoofing-what-to-watch-for",
    "title": "GNSS jamming and spoofing: what to watch for",
    "stream": "deck",
@@ -1618,6 +1868,45 @@
    "status": "open",
    "addedAt": "2026-11-15",
    "addedBy": "weekly-scout"
+  },
+  {
+   "id": "radar-overlay-on-ecdis-as-a-gnss-check",
+   "title": "Radar overlay on ECDIS as a GNSS check",
+   "stream": "deck",
+   "pillar": "navigation",
+   "level": "L2",
+   "priority": 62,
+   "tags": [
+    "critical",
+    "visual",
+    "faq"
+   ],
+   "startFrom": [
+    "https://www.ukpandi.com/news-and-resources/news/article/gnss-disruption-at-sea-what-bridge-teams-need-to-know/"
+   ],
+   "origin": "chained from 2026-11-16-gnss-spoofing-position-check",
+   "status": "open",
+   "addedAt": "2026-11-16",
+   "addedBy": "daily-video-desk"
+  },
+  {
+   "id": "company-ukc-policy-explained",
+   "title": "Company UKC policy explained",
+   "stream": "deck",
+   "pillar": "navigation",
+   "level": "L3",
+   "priority": 62,
+   "tags": [
+    "psc",
+    "critical"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/understanding-ecdis-beyond-default-30m-safety-contour"
+   ],
+   "origin": "chained from 2026-11-16-ecdis-safety-depth-calculation",
+   "status": "open",
+   "addedAt": "2026-11-16",
+   "addedBy": "daily-video-desk"
   },
   {
    "id": "ecdis-alarms-vs-indications",
@@ -1866,6 +2155,26 @@
    "addedBy": "weekly-scout"
   },
   {
+   "id": "turbocharger-surging-causes",
+   "title": "Turbocharger surging causes",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L3",
+   "priority": 60,
+   "tags": [
+    "exam",
+    "faq",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.marineinsight.com/tech/everything-you-ever-wanted-to-know-about-scavenge-fires/"
+   ],
+   "origin": "chained from 2026-11-16-scavenge-fire-actions",
+   "status": "open",
+   "addedAt": "2026-11-16",
+   "addedBy": "daily-video-desk"
+  },
+  {
    "id": "mooring-winch-brakes-and-brake-rendering",
    "title": "Mooring winch brakes and brake rendering",
    "stream": "deck",
@@ -1969,6 +2278,25 @@
    ],
    "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
    "status": "open"
+  },
+  {
+   "id": "scavenge-space-fixed-fire-extinguishing",
+   "title": "Scavenge space fixed fire extinguishing",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L3",
+   "priority": 58,
+   "tags": [
+    "critical",
+    "exam"
+   ],
+   "startFrom": [
+    "https://marinediesels.info/2_stroke_engine_parts/Other_info/scavenge_fires.htm"
+   ],
+   "origin": "chained from 2026-11-16-scavenge-fire-actions",
+   "status": "open",
+   "addedAt": "2026-11-16",
+   "addedBy": "daily-video-desk"
   },
   {
    "id": "enc-updating-base-update-and-re-issue",
@@ -2532,6 +2860,63 @@
    "addedBy": "weekly-scout"
   },
   {
+   "id": "reporting-gnss-interference",
+   "title": "Reporting GNSS interference",
+   "stream": "deck",
+   "pillar": "navigation",
+   "level": "L2",
+   "priority": 56,
+   "tags": [
+    "new",
+    "faq"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/mediacentre/pressbriefings/pages/joint-imo-icao-itu-statement-satellite-interference.aspx"
+   ],
+   "origin": "chained from 2026-11-16-gnss-spoofing-position-check",
+   "status": "open",
+   "addedAt": "2026-11-16",
+   "addedBy": "daily-video-desk"
+  },
+  {
+   "id": "cylinder-oil-feed-rate",
+   "title": "Cylinder oil feed rate",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L3",
+   "priority": 56,
+   "tags": [
+    "exam",
+    "calc"
+   ],
+   "startFrom": [
+    "https://marinediesels.info/2_stroke_engine_parts/Other_info/scavenge_fires.htm"
+   ],
+   "origin": "chained from 2026-11-16-scavenge-fire-actions",
+   "status": "open",
+   "addedAt": "2026-11-16",
+   "addedBy": "daily-video-desk"
+  },
+  {
+   "id": "height-of-tide-at-secondary-ports",
+   "title": "Height of tide at secondary ports",
+   "stream": "deck",
+   "pillar": "navigation",
+   "level": "L3",
+   "priority": 56,
+   "tags": [
+    "exam",
+    "calc"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/understanding-ecdis-beyond-default-30m-safety-contour"
+   ],
+   "origin": "chained from 2026-11-16-ecdis-safety-depth-calculation",
+   "status": "open",
+   "addedAt": "2026-11-16",
+   "addedBy": "daily-video-desk"
+  },
+  {
    "id": "ballast-water-exchange-vs-treatment-d-1-vs-d-2",
    "title": "Ballast water exchange vs treatment (D-1 vs D-2)",
    "stream": "deck",
@@ -2687,6 +3072,25 @@
    "status": "open",
    "addedAt": "2026-11-15",
    "addedBy": "weekly-scout"
+  },
+  {
+   "id": "safety-contour-alarm-fatigue",
+   "title": "Safety contour alarm fatigue",
+   "stream": "deck",
+   "pillar": "equipment",
+   "level": "L3",
+   "priority": 54,
+   "tags": [
+    "faq",
+    "critical"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/understanding-ecdis-alerts-how-reduce-alarm-fatigue"
+   ],
+   "origin": "chained from 2026-11-16-ecdis-safety-depth-calculation",
+   "status": "open",
+   "addedAt": "2026-11-16",
+   "addedBy": "daily-video-desk"
   },
   {
    "id": "admiralty-list-of-radio-signals-which-volume-for-what",
@@ -3434,6 +3838,44 @@
    "status": "open"
   },
   {
+   "id": "piston-ring-blow-by-symptoms",
+   "title": "Piston ring blow-by symptoms",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L3",
+   "priority": 46,
+   "tags": [
+    "exam",
+    "visual"
+   ],
+   "startFrom": [
+    "https://marinediesels.info/2_stroke_engine_parts/Other_info/scavenge_fires.htm"
+   ],
+   "origin": "chained from 2026-11-16-scavenge-fire-actions",
+   "status": "open",
+   "addedAt": "2026-11-16",
+   "addedBy": "daily-video-desk"
+  },
+  {
+   "id": "shallow-contour-and-deep-contour-settings",
+   "title": "Shallow contour and deep contour settings",
+   "stream": "deck",
+   "pillar": "equipment",
+   "level": "L2",
+   "priority": 46,
+   "tags": [
+    "exam",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.admiralty.co.uk/understanding-ecdis-beyond-default-30m-safety-contour"
+   ],
+   "origin": "chained from 2026-11-16-ecdis-safety-depth-calculation",
+   "status": "open",
+   "addedAt": "2026-11-16",
+   "addedBy": "daily-video-desk"
+  },
+  {
    "id": "bank-effect-and-ship-interaction-in-channels",
    "title": "Bank effect and ship interaction in channels",
    "stream": "deck",
@@ -3466,6 +3908,25 @@
    ],
    "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
    "status": "open"
+  },
+  {
+   "id": "scavenge-drain-monitoring-and-blow-down",
+   "title": "Scavenge drain monitoring and blow-down",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L2",
+   "priority": 44,
+   "tags": [
+    "accident",
+    "visual"
+   ],
+   "startFrom": [
+    "https://marinediesels.info/2_stroke_engine_parts/Other_info/scavenge_fires.htm"
+   ],
+   "origin": "chained from 2026-11-16-scavenge-fire-actions",
+   "status": "open",
+   "addedAt": "2026-11-16",
+   "addedBy": "daily-video-desk"
   },
   {
    "id": "bnwas-bridge-watch-alarm-stages",

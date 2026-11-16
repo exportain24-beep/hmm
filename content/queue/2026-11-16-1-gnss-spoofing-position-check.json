@@ -1,0 +1,523 @@
+{
+  "id": "2026-11-16-gnss-spoofing-position-check",
+  "template": "navigation-scenario",
+  "pillar": "deck",
+  "series": "Bridge Watch Decisions",
+  "level": "L2",
+  "audience": [
+    "OOW",
+    "Deck Cadet",
+    "Second Officer",
+    "Master"
+  ],
+  "title": "GNSS spoofing: how to check your position when GPS may be lying",
+  "thumbnailText": "NO ALARM. WRONG POSITION.",
+  "aspect": "9:16",
+  "mood": "tense",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "beat": "hook",
+      "label": "GNSS IN DOUBT",
+      "heading": "ECDIS says on track. Radar disagrees.",
+      "motif": "radar",
+      "narration": "ECDIS shows you on track. Radar says half a mile off. No alarm. Which one do you trust?"
+    },
+    {
+      "id": "gnss-ctx",
+      "kind": "diagram",
+      "beat": "context",
+      "label": "THE SITUATION",
+      "heading": "Radar overlay and GNSS disagree",
+      "narration": "You are the OOW on a coastal passage. The radar overlay no longer matches the coastline, yet the GNSS fix looks normal.",
+      "diagram": {
+        "bg": "chart",
+        "elements": [
+          {
+            "type": "ecdis",
+            "x": 500,
+            "y": 300,
+            "s": 1.4
+          },
+          {
+            "type": "ring",
+            "x": 560,
+            "y": 330,
+            "r2": 70,
+            "on": "radar"
+          },
+          {
+            "type": "label",
+            "x": 230,
+            "y": 560,
+            "text": "RADAR OVERLAY",
+            "to": [
+              470,
+              400
+            ],
+            "on": "overlay"
+          },
+          {
+            "type": "cross",
+            "x": 800,
+            "y": 170,
+            "on": "coastline"
+          },
+          {
+            "type": "label",
+            "x": 690,
+            "y": 640,
+            "text": "GNSS FIX LOOKS NORMAL",
+            "to": [
+              560,
+              420
+            ],
+            "on": "gnss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gnss-jam",
+      "kind": "diagram",
+      "beat": "explain",
+      "label": "JAMMING VS SPOOFING",
+      "heading": "Jamming: no fix. Spoofing: a false fix",
+      "narration": "Jamming kills the signal, and the receiver usually alarms. Spoofing is worse: a believable wrong position, often with no alarm.",
+      "diagram": {
+        "bg": "blueprint",
+        "elements": [
+          {
+            "type": "text",
+            "x": 250,
+            "y": 140,
+            "text": "JAMMING",
+            "size": 52,
+            "on": "jamming"
+          },
+          {
+            "type": "gauge",
+            "x": 250,
+            "y": 330,
+            "value": 0.05,
+            "text": "SIGNAL",
+            "on": "kills"
+          },
+          {
+            "type": "label",
+            "x": 250,
+            "y": 500,
+            "text": "ALARM",
+            "color": "#EF4444",
+            "on": "alarms"
+          },
+          {
+            "type": "text",
+            "x": 750,
+            "y": 140,
+            "text": "SPOOFING",
+            "size": 52,
+            "on": "spoofing"
+          },
+          {
+            "type": "ship",
+            "x": 720,
+            "y": 330,
+            "view": "top",
+            "len": 180,
+            "on": "believable"
+          },
+          {
+            "type": "path",
+            "x": 0,
+            "y": 0,
+            "points": [
+              [
+                720,
+                330
+              ],
+              [
+                860,
+                470
+              ]
+            ],
+            "mover": "ship",
+            "color": "#EF4444",
+            "on": "wrong"
+          },
+          {
+            "type": "label",
+            "x": 750,
+            "y": 590,
+            "text": "BELIEVABLE BUT WRONG",
+            "on": "position"
+          },
+          {
+            "type": "label",
+            "x": 750,
+            "y": 690,
+            "text": "OFTEN NO ALARM",
+            "color": "#EF4444",
+            "on": "often"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gnss-clues",
+      "kind": "diagram",
+      "beat": "explain",
+      "label": "WHAT TO WATCH",
+      "heading": "Four clues the fix is false",
+      "narration": "Watch the clues: position jumps, speed over ground unlike the log, course over ground unlike the heading, depths that don't match the chart.",
+      "diagram": {
+        "bg": "chart",
+        "elements": [
+          {
+            "type": "path",
+            "x": 0,
+            "y": 0,
+            "points": [
+              [
+                100,
+                620
+              ],
+              [
+                380,
+                540
+              ],
+              [
+                410,
+                330
+              ],
+              [
+                640,
+                270
+              ]
+            ],
+            "color": "#FF4FA3",
+            "on": "position"
+          },
+          {
+            "type": "label",
+            "x": 230,
+            "y": 400,
+            "text": "POSITION JUMP",
+            "to": [
+              400,
+              430
+            ],
+            "on": "jumps"
+          },
+          {
+            "type": "label",
+            "x": 700,
+            "y": 420,
+            "text": "SOG vs LOG",
+            "on": "log"
+          },
+          {
+            "type": "compass",
+            "x": 850,
+            "y": 200,
+            "s": 0.8,
+            "on": "course"
+          },
+          {
+            "type": "label",
+            "x": 700,
+            "y": 520,
+            "text": "COG vs HEADING",
+            "on": "heading"
+          },
+          {
+            "type": "label",
+            "x": 500,
+            "y": 690,
+            "text": "DEPTH vs CHART",
+            "on": "depths"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gnss-fix",
+      "kind": "diagram",
+      "beat": "example",
+      "label": "WHAT YOU DO",
+      "heading": "Fix her without satellites",
+      "narration": "So fix her independently: a radar range of a charted headland, a visual bearing of a lighthouse, the echo sounder. Call the Master, run dead reckoning, report the interference.",
+      "diagram": {
+        "bg": "chart",
+        "elements": [
+          {
+            "type": "zone",
+            "x": 0,
+            "y": 0,
+            "points": [
+              [
+                0,
+                0
+              ],
+              [
+                330,
+                0
+              ],
+              [
+                300,
+                160
+              ],
+              [
+                200,
+                260
+              ],
+              [
+                0,
+                320
+              ]
+            ],
+            "color": "#E9D8A6"
+          },
+          {
+            "type": "ship",
+            "x": 520,
+            "y": 560,
+            "view": "top",
+            "len": 160
+          },
+          {
+            "type": "path",
+            "x": 0,
+            "y": 0,
+            "points": [
+              [
+                520,
+                560
+              ],
+              [
+                230,
+                260
+              ]
+            ],
+            "color": "#FDE047",
+            "on": "radar"
+          },
+          {
+            "type": "label",
+            "x": 190,
+            "y": 470,
+            "text": "RADAR RANGE",
+            "on": "headland"
+          },
+          {
+            "type": "path",
+            "x": 0,
+            "y": 0,
+            "points": [
+              [
+                520,
+                560
+              ],
+              [
+                780,
+                210
+              ]
+            ],
+            "color": "#FDE047",
+            "on": "visual"
+          },
+          {
+            "type": "light",
+            "x": 780,
+            "y": 200,
+            "color": "#F8FAFC",
+            "on": "lighthouse"
+          },
+          {
+            "type": "label",
+            "x": 820,
+            "y": 120,
+            "text": "VISUAL BEARING",
+            "on": "lighthouse"
+          },
+          {
+            "type": "label",
+            "x": 250,
+            "y": 650,
+            "text": "ECHO SOUNDER",
+            "on": "echo"
+          },
+          {
+            "type": "label",
+            "x": 760,
+            "y": 650,
+            "text": "CALL THE MASTER",
+            "on": "master"
+          },
+          {
+            "type": "label",
+            "x": 520,
+            "y": 745,
+            "text": "DR PLOT + REPORT",
+            "on": "dead"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gnss-mistake",
+      "kind": "diagram",
+      "beat": "mistake",
+      "label": "COMMON MISTAKE",
+      "heading": "No alarm does not mean no problem",
+      "narration": "The mistake: trusting GNSS because no alarm sounded. Treat AIS with caution too. Nearby ships may be spoofed as well.",
+      "diagram": {
+        "bg": "blueprint",
+        "elements": [
+          {
+            "type": "ecdis",
+            "x": 290,
+            "y": 330,
+            "s": 1.0
+          },
+          {
+            "type": "cross",
+            "x": 430,
+            "y": 200,
+            "on": "trusting"
+          },
+          {
+            "type": "label",
+            "x": 290,
+            "y": 510,
+            "text": "NO ALARM",
+            "color": "#EF4444",
+            "on": "alarm"
+          },
+          {
+            "type": "ship",
+            "x": 700,
+            "y": 300,
+            "view": "top",
+            "len": 120,
+            "on": "ais"
+          },
+          {
+            "type": "ship",
+            "x": 830,
+            "y": 420,
+            "view": "top",
+            "len": 120,
+            "on": "ais"
+          },
+          {
+            "type": "zone",
+            "x": 760,
+            "y": 360,
+            "r2": 130,
+            "color": "#EF4444",
+            "on": "nearby"
+          },
+          {
+            "type": "label",
+            "x": 740,
+            "y": 580,
+            "text": "AIS MAY BE SPOOFED TOO",
+            "on": "spoofed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "take",
+      "kind": "takeaway",
+      "beat": "takeaway",
+      "label": "KEY TAKEAWAY",
+      "heading": "Prove your position without a satellite",
+      "motif": "bridge",
+      "narration": "GNSS is one source, never the only one. Prove your position without a satellite."
+    },
+    {
+      "id": "end",
+      "kind": "endcard",
+      "beat": "endcard",
+      "narration": "Follow HeyMariner for practical maritime knowledge."
+    }
+  ],
+  "sources": [
+    {
+      "title": "GNSS disruption at sea: what bridge teams need to know",
+      "publisher": "UK P&I Club",
+      "date": "2026-04-15",
+      "url": "https://www.ukpandi.com/news-and-resources/news/article/gnss-disruption-at-sea-what-bridge-teams-need-to-know/"
+    },
+    {
+      "title": "Joint IMO-ICAO-ITU statement on satellite interference",
+      "publisher": "IMO",
+      "url": "https://www.imo.org/en/mediacentre/pressbriefings/pages/joint-imo-icao-itu-statement-satellite-interference.aspx"
+    },
+    {
+      "title": "Navigational risks at sea: jamming and spoofing",
+      "publisher": "Britannia P&I",
+      "url": "https://britanniapandi.com/wp-content/uploads/2024/10/Navigational-Risks-at-Sea-Jamming-and-Spoofing.pdf"
+    }
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner daily desk",
+    "checkedAt": "2026-11-16",
+    "notes": "UK P&I (15 Apr 2026): jamming = loss of signal, usually recognisable as systems fail; spoofing = wrong but believable fix, alarms may not activate; indicators: position jumps, SOG differing from log speed, gyro heading differing from COG, AIS targets implausible, echo sounder not matching charted depths; actions: radar ranges and bearings, visual fixes, echo sounder, dead reckoning, involve the Master, treat AIS with caution (other vessels may be affected), report interference (e.g. USCG NAVCEN); GNSS never the sole source of position. IMO-ICAO-ITU joint statement confirms rising jamming/spoofing and SOLAS V/19 position-fixing carriage. The half-mile offset in the hook is an illustrative scenario. Reporting channels depend on area, flag and company SMS."
+  },
+  "meta": {
+    "description": "How to recognise GNSS jamming and spoofing on the bridge and what the OOW does about it. Spoofing can give a believable wrong position with no alarm, so cross-check with radar ranges, visual bearings, the echo sounder and dead reckoning, call the Master and report the interference.",
+    "keywords": [
+      "GNSS spoofing",
+      "GPS jamming at sea",
+      "how to check ship position",
+      "radar position fixing",
+      "ECDIS position",
+      "OOW watchkeeping",
+      "dead reckoning",
+      "bridge procedures"
+    ],
+    "hashtags": [
+      "#GNSS",
+      "#ECDIS",
+      "#Navigation",
+      "#OOW",
+      "#Seafarer"
+    ],
+    "question": "What is the first independent check you make when you doubt the GPS position?"
+  },
+  "origin": {
+    "type": "queue"
+  },
+  "concept": {
+    "domain": "Navigation",
+    "category": "Position fixing",
+    "subcategory": "GNSS integrity",
+    "concept": "Detecting GNSS spoofing and fixing the position independently",
+    "microConcept": "Spoofing gives a believable wrong fix with no alarm: cross-check with radar, visual and echo sounder",
+    "contentType": "What Would You Do?",
+    "audience": "Cadet / OOW",
+    "department": "deck",
+    "knowledgeLevel": "Intermediate",
+    "shipType": "All",
+    "regulation": "SOLAS V/19 (position fixing), company SMS",
+    "equipment": "GNSS receiver, ECDIS, radar, echo sounder",
+    "operationalStage": "Coastal navigation watch",
+    "safetyCriticality": "high",
+    "series": "Bridge Watch Decisions",
+    "episode": 1,
+    "keyTakeaway": "GNSS is one source, never the only one: prove your position without a satellite.",
+    "commonMistake": "Trusting the GNSS position because no alarm has sounded.",
+    "relatedTopics": [
+      "Radar overlay on ECDIS as a GNSS check",
+      "Parallel indexing on coastal passages",
+      "Running fix by radar ranges",
+      "Reporting GNSS interference",
+      "Dead reckoning and estimated position"
+    ]
+  }
+}

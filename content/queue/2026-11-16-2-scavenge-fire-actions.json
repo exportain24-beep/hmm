@@ -1,0 +1,504 @@
+{
+  "id": "2026-11-16-scavenge-fire-actions",
+  "template": "educational-explainer",
+  "pillar": "engine",
+  "series": "Engine Room Emergencies",
+  "level": "L3",
+  "audience": [
+    "Engine Cadet",
+    "Junior Engineer",
+    "Second Engineer",
+    "Chief Engineer"
+  ],
+  "title": "Scavenge fire on a two-stroke engine: symptoms and what to do",
+  "thumbnailText": "SPARKS AT THE DRAIN?",
+  "aspect": "9:16",
+  "mood": "tense",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "beat": "hook",
+      "label": "MAIN ENGINE",
+      "heading": "Sparks from a scavenge drain?",
+      "motif": "fire",
+      "narration": "Exhaust temperature rising on one unit. Sparks from a scavenge drain. You may have a scavenge fire."
+    },
+    {
+      "id": "scav-ctx",
+      "kind": "diagram",
+      "beat": "context",
+      "label": "THE SITUATION",
+      "heading": "The scavenge space under the cylinders",
+      "narration": "You are on watch. Below the cylinders of a two-stroke engine sits the scavenge space: full of air, and sometimes oily residue.",
+      "diagram": {
+        "bg": "engine",
+        "elements": [
+          {
+            "type": "engine",
+            "x": 500,
+            "y": 520,
+            "s": 1.3
+          },
+          {
+            "type": "ring",
+            "x": 500,
+            "y": 290,
+            "r2": 60,
+            "on": "cylinders"
+          },
+          {
+            "type": "zone",
+            "x": 0,
+            "y": 0,
+            "points": [
+              [
+                250,
+                420
+              ],
+              [
+                750,
+                420
+              ],
+              [
+                750,
+                490
+              ],
+              [
+                250,
+                490
+              ]
+            ],
+            "color": "#F59E0B",
+            "on": "scavenge"
+          },
+          {
+            "type": "label",
+            "x": 500,
+            "y": 630,
+            "text": "SCAVENGE SPACE",
+            "to": [
+              500,
+              490
+            ],
+            "on": "space"
+          },
+          {
+            "type": "arrow",
+            "x": 930,
+            "y": 455,
+            "to": [
+              770,
+              455
+            ],
+            "on": "air"
+          },
+          {
+            "type": "label",
+            "x": 500,
+            "y": 720,
+            "text": "OILY RESIDUE",
+            "to": [
+              380,
+              480
+            ],
+            "on": "residue"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scav-cause",
+      "kind": "diagram",
+      "beat": "explain",
+      "label": "WHY IT STARTS",
+      "heading": "Fuel, air and heat in one space",
+      "narration": "Fire needs fuel, air and heat: cylinder oil, or crankcase oil past a worn stuffing box, plenty of air, and blow-by past worn piston rings.",
+      "diagram": {
+        "bg": "blueprint",
+        "elements": [
+          {
+            "type": "path",
+            "x": 0,
+            "y": 0,
+            "points": [
+              [
+                500,
+                200
+              ],
+              [
+                790,
+                620
+              ],
+              [
+                210,
+                620
+              ],
+              [
+                500,
+                200
+              ]
+            ],
+            "color": "#F59E0B"
+          },
+          {
+            "type": "label",
+            "x": 500,
+            "y": 160,
+            "text": "OIL",
+            "on": "fuel"
+          },
+          {
+            "type": "label",
+            "x": 210,
+            "y": 650,
+            "text": "AIR",
+            "on": "air"
+          },
+          {
+            "type": "label",
+            "x": 790,
+            "y": 650,
+            "text": "HEAT",
+            "on": "heat"
+          },
+          {
+            "type": "label",
+            "x": 500,
+            "y": 80,
+            "text": "CYL OIL, STUFFING BOX",
+            "on": "cylinder"
+          },
+          {
+            "type": "label",
+            "x": 210,
+            "y": 735,
+            "text": "SCAVENGE AIR",
+            "on": "plenty"
+          },
+          {
+            "type": "fire",
+            "x": 500,
+            "y": 480,
+            "on": "blow"
+          },
+          {
+            "type": "label",
+            "x": 790,
+            "y": 735,
+            "text": "RING BLOW-BY",
+            "on": "rings"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scav-signs",
+      "kind": "diagram",
+      "beat": "explain",
+      "label": "HOW YOU KNOW",
+      "heading": "Symptoms of a scavenge fire",
+      "narration": "Signs: high exhaust temperature on that unit, power loss, turbocharger surging, hot spots on the trunk, sparks or smoke at the drains.",
+      "diagram": {
+        "bg": "engine",
+        "elements": [
+          {
+            "type": "engine",
+            "x": 500,
+            "y": 580,
+            "s": 1.1
+          },
+          {
+            "type": "gauge",
+            "x": 170,
+            "y": 180,
+            "value": 0.9,
+            "danger": 0.75,
+            "text": "EXH TEMP",
+            "on": "exhaust"
+          },
+          {
+            "type": "label",
+            "x": 500,
+            "y": 120,
+            "text": "POWER LOSS",
+            "on": "power"
+          },
+          {
+            "type": "label",
+            "x": 820,
+            "y": 190,
+            "text": "T/C SURGING",
+            "on": "turbocharger"
+          },
+          {
+            "type": "ring",
+            "x": 500,
+            "y": 500,
+            "r2": 60,
+            "color": "#EF4444",
+            "on": "hot"
+          },
+          {
+            "type": "label",
+            "x": 300,
+            "y": 690,
+            "text": "HOT SPOTS",
+            "to": [
+              460,
+              520
+            ],
+            "on": "trunk"
+          },
+          {
+            "type": "smoke",
+            "x": 760,
+            "y": 620,
+            "on": "sparks"
+          },
+          {
+            "type": "label",
+            "x": 760,
+            "y": 740,
+            "text": "SPARKS AT DRAINS",
+            "on": "drains"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scav-act",
+      "kind": "diagram",
+      "beat": "example",
+      "label": "WHAT YOU DO",
+      "heading": "Slow down, cut fuel, more cylinder oil",
+      "narration": "Tell the bridge and go dead slow. Cut fuel to that unit, raise its cylinder lube, shut the drains. If it spreads: stop, engage turning gear, inject CO2 or steam.",
+      "diagram": {
+        "bg": "blueprint",
+        "elements": [
+          {
+            "type": "engine",
+            "x": 500,
+            "y": 620,
+            "s": 0.9
+          },
+          {
+            "type": "badge",
+            "x": 120,
+            "y": 100,
+            "text": "1",
+            "on": "bridge"
+          },
+          {
+            "type": "label",
+            "x": 410,
+            "y": 100,
+            "text": "BRIDGE: DEAD SLOW",
+            "on": "dead"
+          },
+          {
+            "type": "badge",
+            "x": 120,
+            "y": 190,
+            "text": "2",
+            "on": "cut"
+          },
+          {
+            "type": "label",
+            "x": 420,
+            "y": 190,
+            "text": "FUEL OFF THAT UNIT",
+            "on": "fuel"
+          },
+          {
+            "type": "badge",
+            "x": 120,
+            "y": 280,
+            "text": "3",
+            "on": "raise"
+          },
+          {
+            "type": "label",
+            "x": 420,
+            "y": 280,
+            "text": "MORE CYLINDER LUBE",
+            "on": "lube"
+          },
+          {
+            "type": "badge",
+            "x": 120,
+            "y": 370,
+            "text": "4",
+            "on": "shut"
+          },
+          {
+            "type": "label",
+            "x": 370,
+            "y": 370,
+            "text": "DRAINS SHUT",
+            "on": "drains"
+          },
+          {
+            "type": "fire",
+            "x": 830,
+            "y": 360,
+            "on": "spreads"
+          },
+          {
+            "type": "label",
+            "x": 500,
+            "y": 730,
+            "text": "STOP, TURNING GEAR, CO2",
+            "on": "stop"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scav-mistake",
+      "kind": "diagram",
+      "beat": "mistake",
+      "label": "COMMON MISTAKE",
+      "heading": "Never open up while it is hot",
+      "narration": "The mistake: opening the scavenge doors while it is still hot. Keep clear of the relief valves and wait until the engine cools.",
+      "diagram": {
+        "bg": "engine",
+        "elements": [
+          {
+            "type": "engine",
+            "x": 500,
+            "y": 560,
+            "s": 1.2
+          },
+          {
+            "type": "cross",
+            "x": 300,
+            "y": 440,
+            "on": "opening"
+          },
+          {
+            "type": "label",
+            "x": 280,
+            "y": 660,
+            "text": "SCAVENGE DOOR",
+            "to": [
+              300,
+              480
+            ],
+            "on": "doors"
+          },
+          {
+            "type": "zone",
+            "x": 720,
+            "y": 450,
+            "r2": 80,
+            "color": "#EF4444",
+            "on": "relief"
+          },
+          {
+            "type": "label",
+            "x": 690,
+            "y": 170,
+            "text": "RELIEF VALVES: KEEP CLEAR",
+            "to": [
+              720,
+              380
+            ],
+            "on": "valves"
+          },
+          {
+            "type": "clock",
+            "x": 860,
+            "y": 660,
+            "value": 0.3,
+            "on": "cools"
+          }
+        ]
+      }
+    },
+    {
+      "id": "take",
+      "kind": "takeaway",
+      "beat": "takeaway",
+      "label": "KEY TAKEAWAY",
+      "heading": "Slow down, cut fuel, add cylinder oil",
+      "motif": "engine",
+      "narration": "Clean drains and healthy rings prevent it. Slow down, cut fuel, add cylinder oil."
+    },
+    {
+      "id": "end",
+      "kind": "endcard",
+      "beat": "endcard",
+      "narration": "Follow HeyMariner for practical maritime knowledge."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Scavenge fires: operational information",
+      "publisher": "marinediesels.info",
+      "url": "https://marinediesels.info/2_stroke_engine_parts/Other_info/scavenge_fires.htm"
+    },
+    {
+      "title": "Everything you ever wanted to know about scavenge fires",
+      "publisher": "Marine Insight",
+      "url": "https://www.marineinsight.com/tech/everything-you-ever-wanted-to-know-about-scavenge-fires/"
+    }
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner daily desk",
+    "checkedAt": "2026-11-16",
+    "notes": "marinediesels.info: causes = combustible oil in the scavenge space (cylinder oil draining down, crankcase oil carried up through a faulty stuffing box), plentiful scavenge air, heat from piston blow-by; symptoms = high exhaust temperature of affected units, power loss, turbocharger surging, hot spots on the scavenge trunk, sparks/smoke from scavenge drains; actions = dead slow ahead, fuel taken off affected cylinders, increase cylinder lubrication, shut scavenge drains; major fire: stop engine, engage turning gear, extinguishing medium (CO2, dry powder or steam) through scavenge trunk fittings; keep clear of relief valves and do not open up until the engine has cooled; prevention = clean drains, piston ring maintenance, no excess cylinder oil. Exact procedure and fixed extinguishing medium depend on the engine maker manual and the company SMS."
+  },
+  "meta": {
+    "description": "What a scavenge fire is, why it starts and how the engineer on watch recognises it: high exhaust temperature on one unit, power loss, turbocharger surging, hot spots and sparks at the drains. The actions are slow down, cut fuel to the unit, increase its cylinder lubrication and shut the drains, and never open up until the engine has cooled.",
+    "keywords": [
+      "scavenge fire",
+      "scavenge fire causes and actions",
+      "two-stroke main engine",
+      "marine engineering",
+      "engine room emergency",
+      "piston ring blow-by",
+      "cylinder lubrication",
+      "MEO oral question"
+    ],
+    "hashtags": [
+      "#MarineEngineering",
+      "#EngineRoom",
+      "#MarineEngineer",
+      "#ShipSafety",
+      "#Seafarer"
+    ],
+    "question": "How often are the scavenge drains blown down on your engine?"
+  },
+  "origin": {
+    "type": "queue"
+  },
+  "concept": {
+    "domain": "Engineering",
+    "category": "Main engine",
+    "subcategory": "Two-stroke scavenge system",
+    "concept": "Scavenge fire: symptoms and immediate actions",
+    "microConcept": "Oil residue + scavenge air + blow-by heat; slow down, cut fuel, increase cylinder lube, shut drains",
+    "contentType": "Troubleshooting",
+    "audience": "Engine cadet / junior engineer",
+    "department": "engine",
+    "knowledgeLevel": "Intermediate",
+    "shipType": "Ships with two-stroke crosshead main engines",
+    "regulation": "Engine maker instructions, company SMS",
+    "equipment": "Main engine scavenge space, drains, relief valves",
+    "operationalStage": "Engine room watch at sea",
+    "safetyCriticality": "high",
+    "series": "Engine Room Emergencies",
+    "episode": 2,
+    "keyTakeaway": "Slow down, cut fuel to the unit, add cylinder oil, and keep the scavenge space shut until it cools.",
+    "commonMistake": "Opening the scavenge doors for inspection before the engine has cooled down.",
+    "relatedTopics": [
+      "Scavenge drain monitoring and blow-down",
+      "Piston ring blow-by symptoms",
+      "Cylinder oil feed rate",
+      "Scavenge space fixed fire extinguishing",
+      "Turbocharger surging causes"
+    ]
+  }
+}

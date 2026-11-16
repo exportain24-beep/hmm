@@ -1,0 +1,535 @@
+{
+  "id": "2026-11-16-lifting-appliances-solas-ii-1-3-13",
+  "template": "regulation-update",
+  "pillar": "regulation",
+  "series": "One Rule Mariners Should Know",
+  "level": "L3",
+  "audience": [
+    "Chief Officer",
+    "Chief Engineer",
+    "Master",
+    "Bosun",
+    "Superintendent"
+  ],
+  "title": "SOLAS II-1/3-13 lifting appliances: examination, load test and records",
+  "thumbnailText": "YOUR CRANE IS IN SCOPE",
+  "aspect": "9:16",
+  "mood": "curious",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "beat": "hook",
+      "label": "PSC QUESTION",
+      "heading": "PSC asks: where is the crane load test?",
+      "motif": "cargo",
+      "narration": "PSC points at your provision crane and asks for its last load test. Can you show it?"
+    },
+    {
+      "id": "lift-ctx",
+      "kind": "diagram",
+      "beat": "context",
+      "label": "SINCE 1 JANUARY 2026",
+      "heading": "New SOLAS rule for onboard lifting",
+      "narration": "You are the Chief Officer. SOLAS II-1/3-13, in force since January 2026, covers cargo, engine room and stores cranes, and anchor handling winches.",
+      "diagram": {
+        "bg": "deck",
+        "elements": [
+          {
+            "type": "pipe",
+            "x": 0,
+            "y": 0,
+            "points": [
+              [
+                300,
+                440
+              ],
+              [
+                300,
+                250
+              ]
+            ]
+          },
+          {
+            "type": "pipe",
+            "x": 0,
+            "y": 0,
+            "points": [
+              [
+                300,
+                260
+              ],
+              [
+                560,
+                140
+              ]
+            ]
+          },
+          {
+            "type": "path",
+            "x": 0,
+            "y": 0,
+            "points": [
+              [
+                560,
+                140
+              ],
+              [
+                560,
+                320
+              ]
+            ],
+            "color": "#94A3B8"
+          },
+          {
+            "type": "container",
+            "x": 560,
+            "y": 360,
+            "s": 0.6
+          },
+          {
+            "type": "text",
+            "x": 500,
+            "y": 80,
+            "text": "SOLAS II-1/3-13",
+            "size": 56,
+            "on": "solas"
+          },
+          {
+            "type": "text",
+            "x": 190,
+            "y": 560,
+            "text": "1 JAN 2026",
+            "size": 44,
+            "on": "january"
+          },
+          {
+            "type": "label",
+            "x": 500,
+            "y": 660,
+            "text": "CARGO, E/R, STORES CRANES",
+            "on": "cargo"
+          },
+          {
+            "type": "winch",
+            "x": 820,
+            "y": 390,
+            "on": "anchor"
+          },
+          {
+            "type": "label",
+            "x": 760,
+            "y": 740,
+            "text": "ANCHOR HANDLING WINCH",
+            "on": "winches"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lift-scope",
+      "kind": "diagram",
+      "beat": "explain",
+      "label": "SCOPE",
+      "heading": "What is outside, and who decides",
+      "narration": "Launching appliances for lifeboats and liferafts stay under the LSA Code. Below one tonne SWL, the flag decides the extent.",
+      "diagram": {
+        "bg": "blueprint",
+        "elements": [
+          {
+            "type": "davit",
+            "x": 220,
+            "y": 470
+          },
+          {
+            "type": "lifeboat",
+            "x": 340,
+            "y": 420,
+            "s": 0.6,
+            "on": "lifeboats"
+          },
+          {
+            "type": "liferaft",
+            "x": 300,
+            "y": 620,
+            "on": "liferafts"
+          },
+          {
+            "type": "label",
+            "x": 280,
+            "y": 200,
+            "text": "LSA CODE, NOT 3-13",
+            "on": "lsa"
+          },
+          {
+            "type": "value",
+            "x": 750,
+            "y": 300,
+            "from": 0,
+            "to2": 1,
+            "unit": " t SWL",
+            "on": "one"
+          },
+          {
+            "type": "doc",
+            "x": 750,
+            "y": 500,
+            "s": 0.9,
+            "text": "FLAG STATE",
+            "on": "flag"
+          },
+          {
+            "type": "label",
+            "x": 750,
+            "y": 700,
+            "text": "EXTENT: FLAG DECIDES",
+            "on": "extent"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lift-rules",
+      "kind": "diagram",
+      "beat": "explain",
+      "label": "WHAT IT NEEDS",
+      "heading": "Examined yearly, load tested five-yearly",
+      "narration": "Each lifting appliance needs a thorough examination every year, a load test at least every five years and after major repairs, and its SWL marked.",
+      "diagram": {
+        "bg": "deck",
+        "elements": [
+          {
+            "type": "pipe",
+            "x": 0,
+            "y": 0,
+            "points": [
+              [
+                220,
+                440
+              ],
+              [
+                220,
+                230
+              ]
+            ]
+          },
+          {
+            "type": "pipe",
+            "x": 0,
+            "y": 0,
+            "points": [
+              [
+                220,
+                240
+              ],
+              [
+                460,
+                120
+              ]
+            ]
+          },
+          {
+            "type": "path",
+            "x": 0,
+            "y": 0,
+            "points": [
+              [
+                460,
+                120
+              ],
+              [
+                460,
+                300
+              ]
+            ],
+            "color": "#94A3B8"
+          },
+          {
+            "type": "badge",
+            "x": 575,
+            "y": 160,
+            "text": "1",
+            "on": "examination"
+          },
+          {
+            "type": "label",
+            "x": 810,
+            "y": 160,
+            "text": "EXAM: EVERY YEAR",
+            "on": "year"
+          },
+          {
+            "type": "badge",
+            "x": 575,
+            "y": 290,
+            "text": "5",
+            "on": "load"
+          },
+          {
+            "type": "container",
+            "x": 460,
+            "y": 330,
+            "s": 0.6,
+            "on": "load"
+          },
+          {
+            "type": "label",
+            "x": 800,
+            "y": 290,
+            "text": "LOAD TEST: 5 YEARS",
+            "on": "five"
+          },
+          {
+            "type": "label",
+            "x": 770,
+            "y": 400,
+            "text": "+ AFTER MAJOR REPAIRS",
+            "on": "repairs"
+          },
+          {
+            "type": "label",
+            "x": 330,
+            "y": 560,
+            "text": "SWL 3 t",
+            "to": [
+              220,
+              400
+            ],
+            "on": "swl"
+          },
+          {
+            "type": "tick",
+            "x": 500,
+            "y": 560,
+            "on": "marked"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lift-calc",
+      "kind": "diagram",
+      "beat": "example",
+      "label": "WORKED EXAMPLE",
+      "heading": "Proof load for a 3 t crane",
+      "narration": "Say a 3 tonne provision crane used in port. Up to 20 tonnes SWL, the test load is 1.25 times SWL: 3.75 tonnes. Log it in the register of lifting appliances.",
+      "diagram": {
+        "bg": "blueprint",
+        "elements": [
+          {
+            "type": "text",
+            "x": 500,
+            "y": 100,
+            "text": "PROVISION CRANE, SWL 3 t",
+            "size": 44,
+            "on": "provision"
+          },
+          {
+            "type": "eq",
+            "x": 500,
+            "y": 220,
+            "text": "UP TO 20 t SWL: 1.25 x SWL",
+            "on": "20"
+          },
+          {
+            "type": "eq",
+            "x": 500,
+            "y": 340,
+            "text": "1.25 x 3 t",
+            "on": "1.25"
+          },
+          {
+            "type": "eq",
+            "x": 500,
+            "y": 460,
+            "text": "TEST LOAD = 3.75 t",
+            "variant": "result",
+            "on": "3.75"
+          },
+          {
+            "type": "doc",
+            "x": 500,
+            "y": 650,
+            "s": 0.7,
+            "text": "LIFTING REGISTER",
+            "on": "register"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lift-mistake",
+      "kind": "diagram",
+      "beat": "mistake",
+      "label": "COMMON MISTAKE",
+      "heading": "Engine room and stores cranes count",
+      "narration": "Common mistake: thinking engine room and provision cranes are exempt because ILO 152 covered only cargo gear. Under SOLAS they are in.",
+      "diagram": {
+        "bg": "blueprint",
+        "elements": [
+          {
+            "type": "engine",
+            "x": 250,
+            "y": 420,
+            "s": 0.7,
+            "on": "engine"
+          },
+          {
+            "type": "label",
+            "x": 250,
+            "y": 520,
+            "text": "ENGINE ROOM CRANE",
+            "on": "room"
+          },
+          {
+            "type": "pipe",
+            "x": 0,
+            "y": 0,
+            "points": [
+              [
+                750,
+                440
+              ],
+              [
+                750,
+                270
+              ]
+            ],
+            "on": "provision"
+          },
+          {
+            "type": "pipe",
+            "x": 0,
+            "y": 0,
+            "points": [
+              [
+                750,
+                280
+              ],
+              [
+                900,
+                190
+              ]
+            ]
+          },
+          {
+            "type": "label",
+            "x": 750,
+            "y": 520,
+            "text": "PROVISION CRANE",
+            "on": "cranes"
+          },
+          {
+            "type": "cross",
+            "x": 500,
+            "y": 300,
+            "on": "exempt"
+          },
+          {
+            "type": "label",
+            "x": 500,
+            "y": 650,
+            "text": "ILO 152: CARGO GEAR ONLY",
+            "on": "ilo"
+          },
+          {
+            "type": "tick",
+            "x": 500,
+            "y": 745,
+            "on": "in"
+          }
+        ]
+      }
+    },
+    {
+      "id": "take",
+      "kind": "takeaway",
+      "beat": "takeaway",
+      "label": "KEY TAKEAWAY",
+      "heading": "If it lifts on board, it needs records",
+      "motif": "inspection",
+      "narration": "If it lifts on board, it needs records: examined yearly, load tested five-yearly, SWL marked."
+    },
+    {
+      "id": "end",
+      "kind": "endcard",
+      "beat": "endcard",
+      "narration": "Follow HeyMariner for practical maritime knowledge."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Technical Circular 026: SOLAS II-1/3-13 lifting appliances and anchor handling winches",
+      "publisher": "Indian Register of Shipping",
+      "url": "https://www.irclass.org/media/7976/technical-circular-no026.pdf"
+    },
+    {
+      "title": "New safety requirements for onboard lifting appliances from 1 January 2026",
+      "publisher": "DNV",
+      "date": "2025",
+      "url": "https://www.dnv.com/news/2025/new-safety-requirements-for-onboard-lifting-appliances-from-1-january-2026/"
+    },
+    {
+      "title": "New SOLAS requirements for lifting appliances",
+      "publisher": "IIMS / Lloyd's Register",
+      "url": "https://www.iims.org.uk/new-solas-requirements-for-lifting-appliances/"
+    }
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner daily desk",
+    "checkedAt": "2026-11-16",
+    "notes": "SOLAS II-1/3-13 adopted by MSC.532(107), in force 1 January 2026; guidelines MSC.1/Circ.1663 (lifting appliances) and MSC.1/Circ.1662 (anchor handling winches). Scope includes cargo, hatch cover, engine-room, stores, hose handling, tender and personnel cranes, anchor handling winches and loose gear; LSA Code launching appliances excluded (IRClass TC 026, DNV). Administration determines extent of application below 1,000 kg SWL. Thorough examination after any load test and annually (Circ.1663 3.2.2.1); load test at least once every five years (3.2.1.4), and after major repairs/alterations; SWL marking (para 2.3, Circ.1663 3.4.1). Test load SWL up to 20 t = 1.25 x SWL for port/sheltered-water use (Circ.1663 3.2.1.5, Table 1) - 3 t crane example illustrative. Register of lifting appliances on board (3.2.3.1). DNV: new IMO scope broader than ILO 152 (cargo-handling appliances only). Existing appliances: transition at first renewal survey on/after 1 Jan 2026. Anchor handling winches follow Circ.1662 (annual operational test, five-yearly witnessed test) - not detailed in the video. Flag and class may add requirements."
+  },
+  "meta": {
+    "description": "SOLAS regulation II-1/3-13, in force since 1 January 2026, brings cargo, engine room and stores cranes and anchor handling winches under one rule. Each lifting appliance needs an annual thorough examination, a load test at least every five years and after major repairs, its SWL marked and its records kept in the register of lifting appliances.",
+    "keywords": [
+      "SOLAS II-1/3-13",
+      "lifting appliances SOLAS",
+      "crane load test",
+      "MSC.1/Circ.1663",
+      "provision crane",
+      "register of lifting appliances",
+      "PSC inspection",
+      "chief officer"
+    ],
+    "hashtags": [
+      "#SOLAS",
+      "#PSC",
+      "#ShipSafety",
+      "#ChiefOfficer",
+      "#Seafarer"
+    ],
+    "question": "Is your engine room crane in your register of lifting appliances?"
+  },
+  "origin": {
+    "type": "queue"
+  },
+  "concept": {
+    "domain": "Rules & Regulations",
+    "category": "SOLAS",
+    "subcategory": "Chapter II-1: lifting appliances",
+    "concept": "SOLAS II-1/3-13 examination, testing and records for onboard lifting appliances",
+    "microConcept": "Annual thorough examination, five-yearly load test (1.25 x SWL up to 20 t), SWL marking, register on board",
+    "contentType": "Regulation Explained",
+    "audience": "Chief Officer / Chief Engineer",
+    "department": "both",
+    "knowledgeLevel": "Intermediate",
+    "shipType": "All SOLAS ships with lifting appliances",
+    "regulation": "SOLAS II-1/3-13 (MSC.532(107)), MSC.1/Circ.1663, MSC.1/Circ.1662",
+    "equipment": "Cranes, anchor handling winches, loose gear",
+    "calculation": "Test load = 1.25 x SWL (SWL up to 20 t)",
+    "operationalStage": "Port / PSC inspection / maintenance",
+    "safetyCriticality": "high",
+    "series": "One Rule Mariners Should Know",
+    "episode": 2,
+    "keyTakeaway": "If it lifts on board, it needs records: examined yearly, load tested five-yearly, SWL marked.",
+    "commonMistake": "Assuming engine room and provision cranes are exempt because ILO 152 covered only cargo gear.",
+    "relatedTopics": [
+      "Loose gear proof test and certificates",
+      "Anchor handling winch annual test",
+      "Register of lifting appliances",
+      "Crane pre-use checks and limit switches"
+    ]
+  }
+}
