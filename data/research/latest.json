@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T14:09:53.970Z",
+  "updatedAt": "2026-11-16T14:26:32.641Z",
   "feedStatus": {
     "safety4sea": "ok (0)",
     "gcaptain": "ok (12)",
@@ -24,7 +24,7 @@
       "publishedAt": "2026-11-16T11:00:55.000Z",
       "score": 69,
       "scores": {
-        "recency": 0.93,
+        "recency": 0.92,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -72,7 +72,7 @@
       "publishedAt": "2026-11-16T09:28:01.000Z",
       "score": 60,
       "scores": {
-        "recency": 0.9,
+        "recency": 0.89,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -96,7 +96,7 @@
       "publishedAt": "2026-11-16T11:21:19.000Z",
       "score": 59,
       "scores": {
-        "recency": 0.94,
+        "recency": 0.93,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -120,7 +120,7 @@
       "publishedAt": "2026-11-16T13:05:14.000Z",
       "score": 54,
       "scores": {
-        "recency": 0.98,
+        "recency": 0.97,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -168,7 +168,7 @@
       "publishedAt": "2026-11-16T11:52:43.000Z",
       "score": 54,
       "scores": {
-        "recency": 0.95,
+        "recency": 0.94,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -192,7 +192,7 @@
       "publishedAt": "2026-11-16T11:45:08.000Z",
       "score": 54,
       "scores": {
-        "recency": 0.95,
+        "recency": 0.94,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -240,7 +240,7 @@
       "publishedAt": "2026-11-16T11:00:57.000Z",
       "score": 53,
       "scores": {
-        "recency": 0.93,
+        "recency": 0.92,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -288,7 +288,7 @@
       "publishedAt": "2026-11-16T12:53:38.000Z",
       "score": 50,
       "scores": {
-        "recency": 0.97,
+        "recency": 0.96,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -360,7 +360,7 @@
       "publishedAt": "2026-11-16T10:00:00.000Z",
       "score": 48,
       "scores": {
-        "recency": 0.91,
+        "recency": 0.9,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -384,7 +384,7 @@
       "publishedAt": "2026-11-16T11:53:31.000Z",
       "score": 48,
       "scores": {
-        "recency": 0.95,
+        "recency": 0.94,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -432,7 +432,7 @@
       "publishedAt": "2026-11-16T11:00:00.000Z",
       "score": 47,
       "scores": {
-        "recency": 0.93,
+        "recency": 0.92,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -456,7 +456,7 @@
       "publishedAt": "2026-11-16T09:55:00.000Z",
       "score": 47,
       "scores": {
-        "recency": 0.91,
+        "recency": 0.9,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -504,7 +504,7 @@
       "publishedAt": "2026-11-16T09:30:00.000Z",
       "score": 47,
       "scores": {
-        "recency": 0.9,
+        "recency": 0.89,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -576,7 +576,7 @@
       "publishedAt": "2026-11-16T11:00:59.000Z",
       "score": 46,
       "scores": {
-        "recency": 0.93,
+        "recency": 0.92,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -624,7 +624,7 @@
       "publishedAt": "2026-11-16T01:26:00.000Z",
       "score": 45,
       "scores": {
-        "recency": 0.75,
+        "recency": 0.74,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -648,7 +648,7 @@
       "publishedAt": "2026-11-16T03:47:00.000Z",
       "score": 44,
       "scores": {
-        "recency": 0.79,
+        "recency": 0.78,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -696,7 +696,7 @@
       "publishedAt": "2026-11-16T00:26:49.000Z",
       "score": 43,
       "scores": {
-        "recency": 0.73,
+        "recency": 0.72,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -720,7 +720,7 @@
       "publishedAt": "2026-11-16T09:26:57.000Z",
       "score": 43,
       "scores": {
-        "recency": 0.9,
+        "recency": 0.89,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -744,7 +744,7 @@
       "publishedAt": "2026-11-15T19:18:00.000Z",
       "score": 43,
       "scores": {
-        "recency": 0.65,
+        "recency": 0.64,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -852,30 +852,6 @@
       }
     },
     {
-      "fingerprint": "02dadd636f7b9e5d837cda124cba5979eedee11f",
-      "storyKey": "a8f76ea3da1cc8b0b990eda1d2f1b8c7ac12699d",
-      "sourceId": "hellenic",
-      "sourceName": "Hellenic Shipping News",
-      "tier": "press",
-      "reliability": 0.75,
-      "title": "Adani Ports taps more global lenders for $2.9-billion Evos acquisition funding",
-      "url": "https://www.hellenicshippingnews.com/adani-ports-taps-more-global-lenders-for-2-9-billion-evos-acquisition-funding/",
-      "summary": "Adani Ports and Special Economic Zone is looking to bring UAE’s First Abu Dhabi Bank and Singapore’s DBS Bank into the financing of its proposed acquisition of European liquid-storage operator Evos, widening the lender group beyond Japan’s MUFG, which has underwritten the transaction, people aware of the development told Moneycontrol.The company is discussing a mix ...",
-      "publishedAt": "2026-11-16T11:00:47.000Z",
-      "score": 42,
-      "scores": {
-        "recency": 0.93,
-        "reliability": 0.75,
-        "maritimeRelevance": 0.33,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 1,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
       "fingerprint": "1b9a5615357f7c8929128eb168d0884b6d4495a4",
       "storyKey": "ef2110f83ecbde816ef2a5c1ce3fbe9d7a8d5e85",
       "sourceId": "hellenic",
@@ -888,7 +864,7 @@
       "publishedAt": "2026-11-16T11:00:41.000Z",
       "score": 42,
       "scores": {
-        "recency": 0.93,
+        "recency": 0.92,
         "reliability": 0.75,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -896,54 +872,6 @@
         "shareability": 1,
         "visualPotential": 0,
         "regulatoryImportance": 0.5,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "6fe54b98fd59e2052e7b9a690c25ba9872229480",
-      "storyKey": "e44e864e59ae9c251dc65f51c1d25f4aed396523",
-      "sourceId": "hellenic",
-      "sourceName": "Hellenic Shipping News",
-      "tier": "press",
-      "reliability": 0.75,
-      "title": "Russian crude production rebounds after Trump diesel deal, IEA says as oil markets return to surplus",
-      "url": "https://www.hellenicshippingnews.com/russian-crude-production-rebounds-after-trump-diesel-deal-iea-says-as-oil-markets-return-to-surplus/",
-      "summary": "Russia’s crude oil production rose to 8.73 million barrels a day in October, a 210,000-barrel-a-day surge, as a rebound in Gulf shipments pushes oil markets into a surplus for the first time since the Middle East conflict began, the International Energy Agency said. Global supply and stocks have both swelled, though Middle East disruptions and ...",
-      "publishedAt": "2026-11-16T11:00:27.000Z",
-      "score": 42,
-      "scores": {
-        "recency": 0.93,
-        "reliability": 0.75,
-        "maritimeRelevance": 0.33,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 1,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "7e3c44e6ab25feb12935f3a6e734ac320ded6804",
-      "storyKey": "595110cba383a53d779f90b9d7fbd418e6670e7e",
-      "sourceId": "hellenic",
-      "sourceName": "Hellenic Shipping News",
-      "tier": "press",
-      "reliability": 0.75,
-      "title": "EU spent €8.7bn on Russian Arctic LNG in 2026, as import ban looms",
-      "url": "https://www.hellenicshippingnews.com/eu-spent-e8-7bn-on-russian-arctic-lng-in-2026-as-import-ban-looms/",
-      "summary": "The European Union spent an estimated €8.7 billion on Russian liquefied natural gas (LNG) from the Arctic in the first ten months of 2026, exceeding its estimated bill for the whole of 2025 by 21%, according to an analysis by environmental campaign group Urgewald. With Brussels preparing to ban Russian LNG imports from January 1, ...",
-      "publishedAt": "2026-11-16T11:00:25.000Z",
-      "score": 42,
-      "scores": {
-        "recency": 0.93,
-        "reliability": 0.75,
-        "maritimeRelevance": 0.33,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 1,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
     },
@@ -996,48 +924,72 @@
       }
     },
     {
-      "fingerprint": "7ad571cf77da35d77e7f290fed684452bdd0396e",
-      "storyKey": "fe04622f258a803b8501cd2df28333d7dfbc1010",
+      "fingerprint": "02dadd636f7b9e5d837cda124cba5979eedee11f",
+      "storyKey": "a8f76ea3da1cc8b0b990eda1d2f1b8c7ac12699d",
       "sourceId": "hellenic",
       "sourceName": "Hellenic Shipping News",
       "tier": "press",
       "reliability": 0.75,
-      "title": "MMI Daily Iron Ore Index Report November 16 2026",
-      "url": "https://www.hellenicshippingnews.com/mmi-daily-iron-ore-index-report-november-16-2026/",
-      "summary": "Iron ore futures and spot prices weakened broadly today. DCE most-traded closed at 648.0 yuan/mt, down 3.21% from the previous close. All eight Qingdao spot products declined, seaborne 61% and 65% indices fell to USD 88.70 and 104.20/dmt, and all 12 brands moved lower. Prices indicate near-term quotation pressure, but synchronized declines do not establish ...",
-      "publishedAt": "2026-11-16T11:00:48.000Z",
+      "title": "Adani Ports taps more global lenders for $2.9-billion Evos acquisition funding",
+      "url": "https://www.hellenicshippingnews.com/adani-ports-taps-more-global-lenders-for-2-9-billion-evos-acquisition-funding/",
+      "summary": "Adani Ports and Special Economic Zone is looking to bring UAE’s First Abu Dhabi Bank and Singapore’s DBS Bank into the financing of its proposed acquisition of European liquid-storage operator Evos, widening the lender group beyond Japan’s MUFG, which has underwritten the transaction, people aware of the development told Moneycontrol.The company is discussing a mix ...",
+      "publishedAt": "2026-11-16T11:00:47.000Z",
       "score": 41,
       "scores": {
-        "recency": 0.93,
+        "recency": 0.92,
         "reliability": 0.75,
         "maritimeRelevance": 0.33,
-        "educationalValue": 0.5,
+        "educationalValue": 0,
         "seafarerValue": 0,
-        "shareability": 0,
+        "shareability": 1,
         "visualPotential": 0,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
     },
     {
-      "fingerprint": "689d0757558ff9059834082d80dd998696fa9ae1",
-      "storyKey": "a7f20a7ff18b624859a06bdf065c1c9842d70145",
+      "fingerprint": "6fe54b98fd59e2052e7b9a690c25ba9872229480",
+      "storyKey": "e44e864e59ae9c251dc65f51c1d25f4aed396523",
       "sourceId": "hellenic",
       "sourceName": "Hellenic Shipping News",
       "tier": "press",
       "reliability": 0.75,
-      "title": "Copper Sinks to Near Five-Month Low",
-      "url": "https://www.hellenicshippingnews.com/copper-sinks-to-near-five-month-low/",
-      "summary": "Copper futures declined to around $6.00 per pound on Monday, reaching their lowest levels since June as concerns surrounding the artificial intelligence sector and a strengthening US dollar weighed on the metal. AI-related stocks faced renewed selling pressure ahead of Nvidia’s earnings report and Anthropic’s highly anticipated IPO this week, dampening market sentiment toward copper. ...",
-      "publishedAt": "2026-11-16T11:00:35.000Z",
+      "title": "Russian crude production rebounds after Trump diesel deal, IEA says as oil markets return to surplus",
+      "url": "https://www.hellenicshippingnews.com/russian-crude-production-rebounds-after-trump-diesel-deal-iea-says-as-oil-markets-return-to-surplus/",
+      "summary": "Russia’s crude oil production rose to 8.73 million barrels a day in October, a 210,000-barrel-a-day surge, as a rebound in Gulf shipments pushes oil markets into a surplus for the first time since the Middle East conflict began, the International Energy Agency said. Global supply and stocks have both swelled, though Middle East disruptions and ...",
+      "publishedAt": "2026-11-16T11:00:27.000Z",
       "score": 41,
       "scores": {
-        "recency": 0.93,
+        "recency": 0.92,
         "reliability": 0.75,
         "maritimeRelevance": 0.33,
-        "educationalValue": 0.5,
+        "educationalValue": 0,
         "seafarerValue": 0,
-        "shareability": 0,
+        "shareability": 1,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "7e3c44e6ab25feb12935f3a6e734ac320ded6804",
+      "storyKey": "595110cba383a53d779f90b9d7fbd418e6670e7e",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "EU spent €8.7bn on Russian Arctic LNG in 2026, as import ban looms",
+      "url": "https://www.hellenicshippingnews.com/eu-spent-e8-7bn-on-russian-arctic-lng-in-2026-as-import-ban-looms/",
+      "summary": "The European Union spent an estimated €8.7 billion on Russian liquefied natural gas (LNG) from the Arctic in the first ten months of 2026, exceeding its estimated bill for the whole of 2025 by 21%, according to an analysis by environmental campaign group Urgewald. With Brussels preparing to ban Russian LNG imports from January 1, ...",
+      "publishedAt": "2026-11-16T11:00:25.000Z",
+      "score": 41,
+      "scores": {
+        "recency": 0.92,
+        "reliability": 0.75,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 1,
         "visualPotential": 0,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
@@ -1092,6 +1044,54 @@
       }
     },
     {
+      "fingerprint": "7ad571cf77da35d77e7f290fed684452bdd0396e",
+      "storyKey": "fe04622f258a803b8501cd2df28333d7dfbc1010",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "MMI Daily Iron Ore Index Report November 16 2026",
+      "url": "https://www.hellenicshippingnews.com/mmi-daily-iron-ore-index-report-november-16-2026/",
+      "summary": "Iron ore futures and spot prices weakened broadly today. DCE most-traded closed at 648.0 yuan/mt, down 3.21% from the previous close. All eight Qingdao spot products declined, seaborne 61% and 65% indices fell to USD 88.70 and 104.20/dmt, and all 12 brands moved lower. Prices indicate near-term quotation pressure, but synchronized declines do not establish ...",
+      "publishedAt": "2026-11-16T11:00:48.000Z",
+      "score": 40,
+      "scores": {
+        "recency": 0.92,
+        "reliability": 0.75,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0.5,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "689d0757558ff9059834082d80dd998696fa9ae1",
+      "storyKey": "a7f20a7ff18b624859a06bdf065c1c9842d70145",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "Copper Sinks to Near Five-Month Low",
+      "url": "https://www.hellenicshippingnews.com/copper-sinks-to-near-five-month-low/",
+      "summary": "Copper futures declined to around $6.00 per pound on Monday, reaching their lowest levels since June as concerns surrounding the artificial intelligence sector and a strengthening US dollar weighed on the metal. AI-related stocks faced renewed selling pressure ahead of Nvidia’s earnings report and Anthropic’s highly anticipated IPO this week, dampening market sentiment toward copper. ...",
+      "publishedAt": "2026-11-16T11:00:35.000Z",
+      "score": 40,
+      "scores": {
+        "recency": 0.92,
+        "reliability": 0.75,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0.5,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
       "fingerprint": "9238341d95d262eb5d21bfdaec1fbef306c4541e",
       "storyKey": "f0e230194b07b1b8bcc3d9918e4ec0403235c1ec",
       "sourceId": "gcaptain",
@@ -1128,7 +1128,7 @@
       "publishedAt": "2026-11-16T01:40:34.000Z",
       "score": 39,
       "scores": {
-        "recency": 0.75,
+        "recency": 0.74,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1152,7 +1152,7 @@
       "publishedAt": "2026-11-16T01:35:00.000Z",
       "score": 39,
       "scores": {
-        "recency": 0.75,
+        "recency": 0.74,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1176,7 +1176,7 @@
       "publishedAt": "2026-11-16T00:17:00.000Z",
       "score": 39,
       "scores": {
-        "recency": 0.73,
+        "recency": 0.72,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1200,7 +1200,7 @@
       "publishedAt": "2026-11-15T21:19:58.000Z",
       "score": 38,
       "scores": {
-        "recency": 0.68,
+        "recency": 0.67,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1224,7 +1224,7 @@
       "publishedAt": "2026-11-14T22:08:51.000Z",
       "score": 38,
       "scores": {
-        "recency": 0.4,
+        "recency": 0.39,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -1272,7 +1272,7 @@
       "publishedAt": "2026-11-15T20:05:00.000Z",
       "score": 38,
       "scores": {
-        "recency": 0.66,
+        "recency": 0.65,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0.5,
@@ -1404,30 +1404,6 @@
       }
     },
     {
-      "fingerprint": "0ed846ff74773c2c3bc1f962ac45d45b0f3ef789",
-      "storyKey": "fe07c52a529078c288cd9640ab7acbc42441a728",
-      "sourceId": "hellenic",
-      "sourceName": "Hellenic Shipping News",
-      "tier": "press",
-      "reliability": 0.75,
-      "title": "Biofuel Bunker Snapshot: Rotterdam’s B30-VLSFO price jumps as Singapore’s slides",
-      "url": "https://www.hellenicshippingnews.com/biofuel-bunker-snapshot-rotterdams-b30-vlsfo-price-jumps-as-singapores-slides/",
-      "summary": "Europe Rotterdam’s B30-VLSFO (POMEME) price has jumped $104/mt in the past week to $865/mt, while the Dutch port’s conventional VLSFO price has gained only $5/mt to $726/mt. This has widened Rotterdam’s B30-VLSFO price premium over conventional VLSFO by $99/mt to $139/mt. Dutch suppliers can generate ZRE A tickets for selling low-carbon fuels, which can be ...",
-      "publishedAt": "2026-11-16T11:00:51.000Z",
-      "score": 36,
-      "scores": {
-        "recency": 0.93,
-        "reliability": 0.75,
-        "maritimeRelevance": 0.33,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
       "fingerprint": "48a226f8d7ad141eef583b1859988c5859ef50e6",
       "storyKey": "20b5c4eea4f226f2a1f4f5096e819f062fb0f4d3",
       "sourceId": "hellenic",
@@ -1440,36 +1416,12 @@
       "publishedAt": "2026-11-16T11:00:45.000Z",
       "score": 36,
       "scores": {
-        "recency": 0.93,
+        "recency": 0.92,
         "reliability": 0.75,
         "maritimeRelevance": 0,
         "educationalValue": 0,
         "seafarerValue": 0,
         "shareability": 1,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "df2101f1b7bb4d9fc1e8471c7ad23f31ff514df5",
-      "storyKey": "3cd631b3f2cb96c3e469e11119e55a44d46c188a",
-      "sourceId": "hellenic",
-      "sourceName": "Hellenic Shipping News",
-      "tier": "press",
-      "reliability": 0.75,
-      "title": "Firm Refinery Runs, Weak Demand To Build Gasoline Stocks",
-      "url": "https://www.hellenicshippingnews.com/firm-refinery-runs-weak-demand-to-build-gasoline-stocks/",
-      "summary": "Asia’s gasoline market heads well supplied into winter. Strong diesel and jet cracks, lifted by lower Middle Eastern exports since the US–Iran conflict began, are keeping East of Suez refinery runs high despite weak gasoline margins and elevated freight. With Northeast Asian demand easing seasonally and export outlets narrowing, the region’s gasoline length is set ...",
-      "publishedAt": "2026-11-16T11:00:31.000Z",
-      "score": 36,
-      "scores": {
-        "recency": 0.93,
-        "reliability": 0.75,
-        "maritimeRelevance": 0.33,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
@@ -1488,9 +1440,33 @@
       "publishedAt": "2026-11-13T17:37:39.000Z",
       "score": 35,
       "scores": {
-        "recency": 0.21,
+        "recency": 0.2,
         "reliability": 0.85,
         "maritimeRelevance": 1,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "0ed846ff74773c2c3bc1f962ac45d45b0f3ef789",
+      "storyKey": "fe07c52a529078c288cd9640ab7acbc42441a728",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "Biofuel Bunker Snapshot: Rotterdam’s B30-VLSFO price jumps as Singapore’s slides",
+      "url": "https://www.hellenicshippingnews.com/biofuel-bunker-snapshot-rotterdams-b30-vlsfo-price-jumps-as-singapores-slides/",
+      "summary": "Europe Rotterdam’s B30-VLSFO (POMEME) price has jumped $104/mt in the past week to $865/mt, while the Dutch port’s conventional VLSFO price has gained only $5/mt to $726/mt. This has widened Rotterdam’s B30-VLSFO price premium over conventional VLSFO by $99/mt to $139/mt. Dutch suppliers can generate ZRE A tickets for selling low-carbon fuels, which can be ...",
+      "publishedAt": "2026-11-16T11:00:51.000Z",
+      "score": 35,
+      "scores": {
+        "recency": 0.92,
+        "reliability": 0.75,
+        "maritimeRelevance": 0.33,
         "educationalValue": 0,
         "seafarerValue": 0,
         "shareability": 0,
@@ -1512,10 +1488,34 @@
       "publishedAt": "2026-11-16T11:00:39.000Z",
       "score": 35,
       "scores": {
-        "recency": 0.93,
+        "recency": 0.92,
         "reliability": 0.75,
         "maritimeRelevance": 0,
         "educationalValue": 0.5,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "df2101f1b7bb4d9fc1e8471c7ad23f31ff514df5",
+      "storyKey": "3cd631b3f2cb96c3e469e11119e55a44d46c188a",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "Firm Refinery Runs, Weak Demand To Build Gasoline Stocks",
+      "url": "https://www.hellenicshippingnews.com/firm-refinery-runs-weak-demand-to-build-gasoline-stocks/",
+      "summary": "Asia’s gasoline market heads well supplied into winter. Strong diesel and jet cracks, lifted by lower Middle Eastern exports since the US–Iran conflict began, are keeping East of Suez refinery runs high despite weak gasoline margins and elevated freight. With Northeast Asian demand easing seasonally and export outlets narrowing, the region’s gasoline length is set ...",
+      "publishedAt": "2026-11-16T11:00:31.000Z",
+      "score": 35,
+      "scores": {
+        "recency": 0.92,
+        "reliability": 0.75,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0,
         "seafarerValue": 0,
         "shareability": 0,
         "visualPotential": 0,
@@ -1536,7 +1536,7 @@
       "publishedAt": "2026-11-16T11:00:29.000Z",
       "score": 34,
       "scores": {
-        "recency": 0.93,
+        "recency": 0.92,
         "reliability": 0.75,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1584,7 +1584,7 @@
       "publishedAt": "2026-11-14T18:33:00.000Z",
       "score": 33,
       "scores": {
-        "recency": 0.37,
+        "recency": 0.36,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1632,7 +1632,7 @@
       "publishedAt": "2026-11-14T15:04:25.000Z",
       "score": 32,
       "scores": {
-        "recency": 0.34,
+        "recency": 0.33,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1656,7 +1656,7 @@
       "publishedAt": "2026-11-16T07:08:00.000Z",
       "score": 31,
       "scores": {
-        "recency": 0.85,
+        "recency": 0.84,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1680,7 +1680,7 @@
       "publishedAt": "2026-11-15T12:50:27.000Z",
       "score": 31,
       "scores": {
-        "recency": 0.56,
+        "recency": 0.55,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1728,7 +1728,7 @@
       "publishedAt": "2026-11-16T11:00:53.000Z",
       "score": 30,
       "scores": {
-        "recency": 0.93,
+        "recency": 0.92,
         "reliability": 0.75,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1752,7 +1752,7 @@
       "publishedAt": "2026-11-16T11:00:49.000Z",
       "score": 30,
       "scores": {
-        "recency": 0.93,
+        "recency": 0.92,
         "reliability": 0.75,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1776,7 +1776,7 @@
       "publishedAt": "2026-11-16T11:00:43.000Z",
       "score": 30,
       "scores": {
-        "recency": 0.93,
+        "recency": 0.92,
         "reliability": 0.75,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1800,7 +1800,7 @@
       "publishedAt": "2026-11-16T11:00:37.000Z",
       "score": 30,
       "scores": {
-        "recency": 0.93,
+        "recency": 0.92,
         "reliability": 0.75,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1824,7 +1824,7 @@
       "publishedAt": "2026-11-16T11:00:33.000Z",
       "score": 30,
       "scores": {
-        "recency": 0.93,
+        "recency": 0.92,
         "reliability": 0.75,
         "maritimeRelevance": 0,
         "educationalValue": 0,
