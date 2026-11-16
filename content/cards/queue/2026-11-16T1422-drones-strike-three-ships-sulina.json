@@ -1,0 +1,40 @@
+{
+  "id": "drones-strike-three-ships-sulina",
+  "type": "security",
+  "headline": "Drones Strike Three Ships Near Sulina Canal",
+  "headlineAccent": "Near Sulina Canal",
+  "subheadline": "No casualties; crews controlled fires on board",
+  "location": "SULINA, ROMANIA",
+  "dateLabel": "14 NOV 2026",
+  "insight": "Drones hit tankers Evia Petrol V and Ali Najafov and bulker Marsol late on 14 Nov; two were struck 4-5 nm SE of Sulina in Romanian waters. No casualties, fires out.",
+  "publishAtUtc": "2026-11-16T14:22:00Z",
+  "eventId": "HM-2026-111502",
+  "priorityScore": 66,
+  "pillar": "safety",
+  "audience": ["Master", "Chief Officer", "OOW", "Ship Security Officer", "CSO", "Ship Manager"],
+  "sources": [
+    {"title": "Three Ships Struck By Drones In Black Sea Near Romanian Shipping Canal", "publisher": "gCaptain (Reuters)", "url": "https://gcaptain.com/three-ships-struck-by-drones-in-black-sea-near-romanian-shipping-canal/", "date": "2026-11-15"},
+    {"title": "Three commercial vessels struck by drones near Romania's Black Sea, PM says", "publisher": "Euronews", "url": "https://www.euronews.com/2026/11/15/three-commercial-vessels-struck-by-drones-near-romanias-black-sea-pm-says", "date": "2026-11-15"},
+    {"title": "Romanian PM Condemns Drone Strikes on 3 Commercial Ships Near Danube Delta", "publisher": "Kyiv Post", "url": "https://www.kyivpost.com/post/90181", "date": "2026-11-15"},
+    {"title": "Three More Ships Hit by Drone Strikes off Coast of Romania", "publisher": "The Maritime Executive", "url": "https://maritime-executive.com/article/three-more-ships-hit-by-drone-strikes-off-coast-of-romania", "date": "2026-11-16"}
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner intelligence desk",
+    "checkedAt": "2026-11-16T13:10:00Z",
+    "notes": "CORROBORATED (Reuters via gCaptain re-checked 16 Nov 13:05; Euronews; Kyiv Post; MarEx): Defence Minister Stefan Radu Oprea named Evia Petrol V (Greek-flag oil/chemical tanker), Marsol (St Kitts & Nevis bulk carrier) and Ali Najafov (oil products tanker, St Kitts & Nevis per Reuters); struck late Sat 14 Nov; Evia Petrol V and Marsol 4 and 5 nm SE of the Sulina canal inside Romanian territorial waters; no casualties; crews controlled fires; jets scrambled twice (PM Luca Niculescu, 15 Nov). Separate strike on Palau-flag Larissa 1 late 13 Nov kept in description only. Romania did not name the launcher; Russia denies targeting Ukraine's neighbours, so no attribution on the card. Ali Najafov's position not published, hence 'two were struck'. Event date 14 Nov stated on card; not presented as new today."
+  },
+  "image": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/USS_Hawes_(FFG-53),_USS_William_H._Standley_(CG-32)_and_USS_Guadalcanal_(LPH-7)_escort_tanker_Gas_King_in_the_Persian_Gullf_on_21_October_1987_(6432283).jpg?width=1600",
+    "credit": "PH2 Elliot, U.S. Navy / Wikimedia Commons",
+    "license": "Public domain",
+    "representative": true
+  },
+  "meta": {
+    "description": "Drones struck three commercial ships near Romania's Sulina canal late on 14 November 2026: the Greek-flag oil and chemical tanker Evia Petrol V, the St Kitts and Nevis-flag bulk carrier Marsol and the oil products tanker Ali Najafov, Romanian Defence Minister Stefan Radu Oprea said. Evia Petrol V and Marsol were hit 4 and 5 nautical miles southeast of the canal inside Romanian territorial waters; there were no casualties and crews brought the fires on board under control, while Romania scrambled fighter jets twice. A separate drone strike hit the Palau-flag general cargo ship Larissa 1 in Romanian waters late on 13 November, also without injuries; Romania has not named who launched the drones.",
+    "keywords": ["Black Sea", "Sulina canal", "drone strike", "Evia Petrol V", "maritime security", "Romania"],
+    "hashtags": ["#MaritimeSecurity", "#BlackSea", "#Romania", "#Tankers", "#ShippingNews"],
+    "question": "Trading near Sulina or the Danube Delta this month: what has changed in your ship security plan?",
+    "altText": "Representative public-domain photo of a tanker under way with naval vessels, with HeyMariner security card text on drones striking the tankers Evia Petrol V and Ali Najafov and the bulk carrier Marsol near Romania's Sulina canal on 14 November 2026, with no casualties."
+  }
+}
