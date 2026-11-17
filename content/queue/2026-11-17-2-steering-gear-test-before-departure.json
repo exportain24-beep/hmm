@@ -1,0 +1,426 @@
+{
+  "id": "2026-11-17-steering-gear-test-before-departure",
+  "template": "educational-explainer",
+  "pillar": "engine",
+  "series": "Before Departure",
+  "level": "L2",
+  "audience": [
+    "Third Engineer",
+    "OOW",
+    "Engine Cadet",
+    "Deck Cadet"
+  ],
+  "title": "Steering gear test before departure: what SOLAS V/26 requires within 12 hours",
+  "thumbnailText": "12 H STEERING TEST",
+  "aspect": "9:16",
+  "mood": "curious",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "beat": "hook",
+      "label": "BEFORE DEPARTURE",
+      "heading": "Sailing at 0800? Test since 2000 last night",
+      "motif": "pump",
+      "narration": "Sailing at 0800? Then your steering gear must be tested after 2000 last night. Here is what that test covers."
+    },
+    {
+      "id": "sg-ctx",
+      "kind": "diagram",
+      "beat": "context",
+      "label": "THE SITUATION",
+      "heading": "Bridge on the wheel, you in the steering flat",
+      "narration": "You are the third engineer: the OOW on the wheel, you in the steering gear room, for the pre-departure test.",
+      "diagram": {
+        "bg": "engine",
+        "elements": [
+          {
+            "type": "label",
+            "x": 500,
+            "y": 90,
+            "text": "BRIDGE",
+            "on": "oow"
+          },
+          {
+            "type": "compass",
+            "x": 260,
+            "y": 250,
+            "s": 0.7,
+            "on": "wheel"
+          },
+          {
+            "type": "label",
+            "x": 500,
+            "y": 470,
+            "text": "STEERING GEAR ROOM",
+            "on": "steering"
+          },
+          {
+            "type": "pump",
+            "x": 350,
+            "y": 640,
+            "on": "room"
+          },
+          {
+            "type": "path",
+            "x": 0,
+            "y": 0,
+            "points": [
+              [
+                500,
+                130
+              ],
+              [
+                500,
+                430
+              ]
+            ],
+            "mover": "dot",
+            "color": "#FDE047",
+            "on": "test"
+          },
+          {
+            "type": "pump",
+            "x": 650,
+            "y": 640
+          }
+        ]
+      }
+    },
+    {
+      "id": "sg-rule",
+      "kind": "diagram",
+      "beat": "explain",
+      "label": "SOLAS V/26",
+      "heading": "Within 12 hours: every unit, every position",
+      "narration": "SOLAS V/26: within 12 hours before departure, test main and auxiliary gear, remote controls, each bridge steering position and emergency power.",
+      "diagram": {
+        "bg": "engine",
+        "elements": [
+          {
+            "type": "doc",
+            "x": 150,
+            "y": 200,
+            "text": "SOLAS V/26",
+            "on": "solas"
+          },
+          {
+            "type": "clock",
+            "x": 850,
+            "y": 200,
+            "value": 0.5,
+            "on": "12"
+          },
+          {
+            "type": "pump",
+            "x": 330,
+            "y": 520,
+            "on": "main"
+          },
+          {
+            "type": "label",
+            "x": 330,
+            "y": 640,
+            "text": "MAIN",
+            "on": "main"
+          },
+          {
+            "type": "pump",
+            "x": 670,
+            "y": 520,
+            "on": "auxiliary"
+          },
+          {
+            "type": "label",
+            "x": 670,
+            "y": 640,
+            "text": "AUXILIARY",
+            "on": "auxiliary"
+          },
+          {
+            "type": "label",
+            "x": 500,
+            "y": 380,
+            "text": "REMOTE CONTROL",
+            "on": "remote"
+          },
+          {
+            "type": "label",
+            "x": 500,
+            "y": 720,
+            "text": "ALL BRIDGE POSITIONS",
+            "on": "position"
+          },
+          {
+            "type": "label",
+            "x": 500,
+            "y": 120,
+            "text": "EMERGENCY POWER",
+            "color": "#FDE047",
+            "on": "emergency"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sg-checks",
+      "kind": "diagram",
+      "beat": "explain",
+      "label": "WHAT YOU TEST",
+      "heading": "Indicator, alarms, full movement, linkage",
+      "narration": "Then compare the rudder indicator with the actual rudder, test the failure alarms, run full rudder movement, and check linkage and bridge communications.",
+      "diagram": {
+        "bg": "engine",
+        "elements": [
+          {
+            "type": "gauge",
+            "x": 250,
+            "y": 220,
+            "value": 0.5,
+            "text": "RUDDER ANGLE",
+            "on": "indicator"
+          },
+          {
+            "type": "label",
+            "x": 250,
+            "y": 360,
+            "text": "VS ACTUAL RUDDER",
+            "on": "actual"
+          },
+          {
+            "type": "detector",
+            "x": 750,
+            "y": 220,
+            "text": "ALARM",
+            "color": "#EF4444",
+            "on": "alarms"
+          },
+          {
+            "type": "arrow",
+            "x": 300,
+            "y": 520,
+            "to": [
+              700,
+              520
+            ],
+            "color": "#FDE047",
+            "on": "full"
+          },
+          {
+            "type": "label",
+            "x": 500,
+            "y": 600,
+            "text": "FULL MOVEMENT",
+            "on": "movement"
+          },
+          {
+            "type": "ring",
+            "x": 500,
+            "y": 520,
+            "r2": 70,
+            "on": "linkage"
+          },
+          {
+            "type": "label",
+            "x": 500,
+            "y": 730,
+            "text": "BRIDGE COMMS",
+            "on": "communications"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sg-example",
+      "kind": "diagram",
+      "beat": "example",
+      "label": "REAL CASE",
+      "heading": "35 on the bridge, 30 at the rudder",
+      "narration": "Bridge indicator shows 35 degrees, local scale 30? That is a defect: report it to the Chief Engineer and Master, and log the test.",
+      "diagram": {
+        "bg": "engine",
+        "elements": [
+          {
+            "type": "gauge",
+            "x": 280,
+            "y": 260,
+            "value": 0.9,
+            "text": "BRIDGE 35",
+            "on": "bridge"
+          },
+          {
+            "type": "gauge",
+            "x": 720,
+            "y": 260,
+            "value": 0.75,
+            "text": "LOCAL 30",
+            "on": "local"
+          },
+          {
+            "type": "cross",
+            "x": 500,
+            "y": 260,
+            "on": "defect"
+          },
+          {
+            "type": "label",
+            "x": 500,
+            "y": 470,
+            "text": "REPORT BEFORE SAILING",
+            "on": "report"
+          },
+          {
+            "type": "doc",
+            "x": 500,
+            "y": 660,
+            "text": "LOG BOOK",
+            "s": 0.8,
+            "on": "log"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sg-mistake",
+      "kind": "diagram",
+      "beat": "mistake",
+      "label": "COMMON MISTAKE",
+      "heading": "Not just the centre console",
+      "narration": "The common mistake: testing from the centre console only. Every bridge steering position is part of the test, wing controls included.",
+      "diagram": {
+        "bg": "engine",
+        "elements": [
+          {
+            "type": "compass",
+            "x": 500,
+            "y": 330,
+            "s": 0.8,
+            "on": "console"
+          },
+          {
+            "type": "cross",
+            "x": 500,
+            "y": 160,
+            "on": "only"
+          },
+          {
+            "type": "compass",
+            "x": 160,
+            "y": 330,
+            "s": 0.5,
+            "on": "every"
+          },
+          {
+            "type": "compass",
+            "x": 840,
+            "y": 330,
+            "s": 0.5
+          },
+          {
+            "type": "label",
+            "x": 500,
+            "y": 560,
+            "text": "ALL STEERING POSITIONS",
+            "on": "position"
+          },
+          {
+            "type": "label",
+            "x": 500,
+            "y": 680,
+            "text": "WING CONTROLS TOO",
+            "color": "#FDE047",
+            "on": "wing"
+          }
+        ]
+      }
+    },
+    {
+      "id": "take",
+      "kind": "takeaway",
+      "beat": "takeaway",
+      "label": "KEY TAKEAWAY",
+      "heading": "Every unit, every position, every alarm",
+      "motif": "inspection",
+      "narration": "Every power unit, every steering position, every alarm, and the rudder itself."
+    },
+    {
+      "id": "end",
+      "kind": "endcard",
+      "beat": "endcard",
+      "narration": "Follow HeyMariner for practical maritime knowledge."
+    }
+  ],
+  "sources": [
+    {
+      "title": "SOLAS on-board drill requirements (SOLAS V/26 steering gear testing and drills)",
+      "publisher": "The Nautical Institute",
+      "url": "https://www.nautinst.org/static/095339d6-8534-4630-a725c69f502dd9b5/HE01195-SOLAS-onboard-drill-requirements.pdf"
+    },
+    {
+      "title": "SOLAS steering gear test requirements: pre-departure guide",
+      "publisher": "Marine Inspection",
+      "url": "https://marineinspection.app/article/solas-steering-gear-test-requirements-pre-departure-guide"
+    },
+    {
+      "title": "IMO: International Convention for the Safety of Life at Sea (SOLAS)",
+      "publisher": "IMO",
+      "url": "https://www.imo.org/en/About/Conventions/Pages/International-Convention-for-the-Safety-of-Life-at-Sea-(SOLAS),-1974.aspx"
+    }
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner daily desk",
+    "checkedAt": "2026-11-17",
+    "notes": "SOLAS V/26.1: within 12 hours before departure the steering gear shall be checked and tested by the ship's crew. V/26.2 (where applicable): main steering gear, auxiliary steering gear, remote steering gear control systems, steering positions located on the navigation bridge, emergency power supply, rudder angle indicators in relation to the actual rudder position, remote control system power failure alarms, steering gear power unit failure alarms, automatic isolating arrangements and other automatic equipment. V/26.3: full movement of the rudder according to the required capabilities, visual inspection of the steering gear and its connecting linkage, operation of the means of communication between bridge and steering gear compartment. V/26.5: dates of checks and tests and emergency steering drills recorded (log). Ships on regular short voyages may follow the Administration's weekly alternative (V/26.1) - not mentioned. The 35 vs 30 degree discrepancy is an illustrative example; acceptance tolerance depends on class / maker / SMS, so the script only says report and record. Bridge wing positions 'where fitted'."
+  },
+  "meta": {
+    "description": "What the SOLAS V/26 steering gear test before departure really covers: within 12 hours of sailing the crew tests main and auxiliary gear, remote controls, every bridge steering position, emergency power, the rudder angle indicator against the actual rudder, alarms, full rudder movement, linkage and communications. Includes a real-case indicator discrepancy and the most common testing mistake.",
+    "keywords": [
+      "steering gear test",
+      "SOLAS V/26",
+      "steering gear test before departure",
+      "rudder angle indicator",
+      "marine engineering",
+      "pre-departure checks",
+      "third engineer duties",
+      "steering gear room"
+    ],
+    "hashtags": [
+      "#SteeringGear",
+      "#SOLAS",
+      "#MarineEngineering",
+      "#MaritimeEducation",
+      "#Seafarer"
+    ],
+    "question": "Who runs the steering test on your ship: deck, engine, or both together?"
+  },
+  "origin": {
+    "type": "queue"
+  },
+  "concept": {
+    "domain": "Engineering",
+    "category": "Steering gear",
+    "subcategory": "Testing and drills",
+    "concept": "Pre-departure steering gear checks and tests",
+    "microConcept": "The SOLAS V/26 12-hour test: what is tested and how a discrepancy is handled",
+    "contentType": "Before Departure",
+    "audience": "Engineer / OOW / Cadet",
+    "department": "both",
+    "knowledgeLevel": "Beginner",
+    "shipType": "All",
+    "regulation": "SOLAS V/26",
+    "equipment": "Steering gear, rudder angle indicator, steering control systems",
+    "operationalStage": "Port departure",
+    "safetyCriticality": "high",
+    "series": "Before Departure",
+    "episode": 1,
+    "keyTakeaway": "Within 12 hours of sailing, test every power unit, every steering position, every alarm and the rudder itself.",
+    "commonMistake": "Testing only from the centre console and skipping the other bridge steering positions.",
+    "relatedTopics": [
+      "Emergency steering drill every three months",
+      "Steering gear changeover block diagram",
+      "Rudder angle indicator calibration",
+      "Steering gear power unit failure alarm"
+    ]
+  }
+}

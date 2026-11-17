@@ -1,0 +1,407 @@
+{
+  "id": "2026-11-17-squat-calculation-at-planned-speed",
+  "template": "educational-explainer",
+  "pillar": "deck",
+  "series": "Bridge Calculations",
+  "level": "L3",
+  "audience": [
+    "OOW",
+    "Second Officer",
+    "Chief Officer",
+    "Deck Cadet"
+  ],
+  "title": "Ship squat calculation: how to estimate squat at your planned channel speed",
+  "thumbnailText": "SQUAT AT 10 KNOTS?",
+  "aspect": "9:16",
+  "mood": "curious",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "beat": "hook",
+      "label": "PRACTICAL CALCULATION",
+      "heading": "Same draught. Why 1.6 m less water under you?",
+      "motif": "bridge",
+      "narration": "Same ship, same draught, same channel. Why lose 1.6 metres of under keel clearance at ten knots?"
+    },
+    {
+      "id": "sq-ctx",
+      "kind": "diagram",
+      "beat": "context",
+      "label": "THE SITUATION",
+      "heading": "The Master asks: what squat do we get?",
+      "narration": "You are the OOW on a loaded bulk carrier entering a dredged channel at ten knots. The Master asks: what squat?",
+      "diagram": {
+        "bg": "sea",
+        "elements": [
+          {
+            "type": "ship",
+            "x": 480,
+            "y": 590,
+            "variant": "bulk",
+            "len": 520,
+            "on": "bulk"
+          },
+          {
+            "type": "seabed",
+            "x": 0,
+            "y": 700,
+            "h": 30,
+            "on": "channel"
+          },
+          {
+            "type": "label",
+            "x": 500,
+            "y": 760,
+            "text": "DREDGED CHANNEL",
+            "on": "dredged"
+          },
+          {
+            "type": "value",
+            "x": 830,
+            "y": 160,
+            "from": 0,
+            "to2": 10,
+            "unit": " kn",
+            "decimals": 0,
+            "on": "ten"
+          },
+          {
+            "type": "label",
+            "x": 500,
+            "y": 300,
+            "text": "SQUAT?",
+            "color": "#FDE047",
+            "on": "squat"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sq-why",
+      "kind": "diagram",
+      "beat": "explain",
+      "label": "WHAT IS SQUAT?",
+      "heading": "Faster flow under the keel, ship settles",
+      "narration": "Squat: water speeds up under a moving hull in shallow water, pressure drops, and the ship settles. Full-form ships squat most at the bow.",
+      "diagram": {
+        "bg": "sea",
+        "elements": [
+          {
+            "type": "ship",
+            "x": 480,
+            "y": 590,
+            "variant": "bulk",
+            "len": 520,
+            "move": {
+              "to": [
+                480,
+                630
+              ],
+              "on": "settles"
+            },
+            "on": "squat"
+          },
+          {
+            "type": "seabed",
+            "x": 0,
+            "y": 710,
+            "h": 30
+          },
+          {
+            "type": "arrow",
+            "x": 860,
+            "y": 655,
+            "to": [
+              120,
+              655
+            ],
+            "color": "#38BDF8",
+            "on": "speeds"
+          },
+          {
+            "type": "label",
+            "x": 480,
+            "y": 770,
+            "text": "LOWER PRESSURE",
+            "on": "pressure"
+          },
+          {
+            "type": "label",
+            "x": 800,
+            "y": 400,
+            "text": "FULL FORM: BOW",
+            "to": [
+              720,
+              560
+            ],
+            "on": "full"
+          },
+          {
+            "type": "ring",
+            "x": 715,
+            "y": 600,
+            "r2": 60,
+            "on": "bow"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sq-formula",
+      "kind": "diagram",
+      "beat": "explain",
+      "label": "BARRASS ESTIMATE",
+      "heading": "Squat = Cb x V² / 100",
+      "narration": "Barrass gives a quick estimate. Squat in metres equals block coefficient times speed through the water squared, over 100. In a confined channel, over 50.",
+      "diagram": {
+        "bg": "blueprint",
+        "elements": [
+          {
+            "type": "label",
+            "x": 500,
+            "y": 110,
+            "text": "BARRASS ESTIMATE",
+            "on": "estimate"
+          },
+          {
+            "type": "eq",
+            "x": 500,
+            "y": 250,
+            "text": "OPEN: SQUAT = Cb x V² / 100",
+            "on": "metres"
+          },
+          {
+            "type": "label",
+            "x": 500,
+            "y": 380,
+            "text": "Cb: BLOCK COEFFICIENT",
+            "on": "block"
+          },
+          {
+            "type": "label",
+            "x": 500,
+            "y": 490,
+            "text": "V: KNOTS THROUGH WATER",
+            "on": "through"
+          },
+          {
+            "type": "eq",
+            "x": 500,
+            "y": 640,
+            "text": "CONFINED: SQUAT = Cb x V² / 50",
+            "on": "confined"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sq-example",
+      "kind": "diagram",
+      "beat": "example",
+      "label": "WORKED EXAMPLE",
+      "heading": "Ten knots: 1.6 m. Seven knots: 0.78 m",
+      "narration": "Illustrative ship: block coefficient 0.8, ten knots. Open water: 0.8 metres. In the channel: 1.6. Slow to seven knots: about 0.78.",
+      "diagram": {
+        "bg": "blueprint",
+        "elements": [
+          {
+            "type": "label",
+            "x": 500,
+            "y": 90,
+            "text": "ILLUSTRATIVE DATA",
+            "color": "#FDE047",
+            "on": "illustrative"
+          },
+          {
+            "type": "eq",
+            "x": 500,
+            "y": 220,
+            "text": "OPEN: 0.8 x 10² / 100 = 0.8 m",
+            "on": "open"
+          },
+          {
+            "type": "eq",
+            "x": 500,
+            "y": 340,
+            "text": "CHANNEL: 0.8 x 10² / 50 = 1.6 m",
+            "variant": "result",
+            "on": "channel"
+          },
+          {
+            "type": "eq",
+            "x": 500,
+            "y": 480,
+            "text": "7 kn: 0.8 x 7² / 50 = 0.78 m",
+            "variant": "result",
+            "on": "seven"
+          },
+          {
+            "type": "value",
+            "x": 500,
+            "y": 660,
+            "from": 1.6,
+            "to2": 0.78,
+            "unit": " m",
+            "decimals": 2,
+            "on": "about"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sq-mistake",
+      "kind": "diagram",
+      "beat": "mistake",
+      "label": "COMMON MISTAKE",
+      "heading": "Squat follows speed through the water",
+      "narration": "The common mistake: using speed over the ground. Eight knots over the ground against a two knot current is ten through the water.",
+      "diagram": {
+        "bg": "sea",
+        "elements": [
+          {
+            "type": "ship",
+            "x": 430,
+            "y": 590,
+            "variant": "bulk",
+            "len": 440
+          },
+          {
+            "type": "cross",
+            "x": 880,
+            "y": 120,
+            "on": "using"
+          },
+          {
+            "type": "label",
+            "x": 250,
+            "y": 160,
+            "text": "SOG 8 kn",
+            "on": "eight"
+          },
+          {
+            "type": "arrow",
+            "x": 960,
+            "y": 400,
+            "to": [
+              720,
+              400
+            ],
+            "color": "#EF4444",
+            "on": "current"
+          },
+          {
+            "type": "label",
+            "x": 250,
+            "y": 260,
+            "text": "STW 10 kn",
+            "color": "#FDE047",
+            "on": "ten"
+          },
+          {
+            "type": "label",
+            "x": 500,
+            "y": 760,
+            "text": "USE SPEED THROUGH WATER",
+            "on": "water"
+          }
+        ]
+      }
+    },
+    {
+      "id": "take",
+      "kind": "takeaway",
+      "beat": "takeaway",
+      "label": "KEY TAKEAWAY",
+      "heading": "Squat grows with speed squared",
+      "motif": "chart",
+      "narration": "Squat grows with speed squared. Halve your speed, keep only a quarter of the squat."
+    },
+    {
+      "id": "end",
+      "kind": "endcard",
+      "beat": "endcard",
+      "narration": "Follow HeyMariner for practical maritime knowledge."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ship squat: Barrass formulae for open and confined water",
+      "publisher": "Oways Online",
+      "url": "https://owaysonline.com/?p=3668"
+    },
+    {
+      "title": "Ship squat part 1: are we out of our depth?",
+      "publisher": "The Pilot (UKMPA)",
+      "url": "https://www.pilotmag.co.uk/squat-part-1/"
+    },
+    {
+      "title": "All you ever wanted to know about under keel clearance",
+      "publisher": "The Nautical Institute",
+      "url": "https://www.nautinst.org/resources-page/all-you-ever-wanted-to-know-about-under-keel-clearance-but-were-afraid-to-ask.html"
+    },
+    {
+      "title": "What is ship squat? Causes, formula and how to calculate it",
+      "publisher": "Maritime Page",
+      "url": "https://maritimepage.com/what-is-ship-squat-and-how-to-calculate-it/"
+    }
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner daily desk",
+    "checkedAt": "2026-11-17",
+    "notes": "Barrass simplified estimate: maximum squat (m) = Cb x V^2 / 100 in open water and 2 x Cb x V^2 / 100 (= /50) in confined water, V in knots relative to the water (Oways, Maritime Page). Squat varies with the square of speed; full-form ships (high Cb, e.g. tankers, bulk carriers) have maximum squat at the bow (The Pilot). Arithmetic checked: 0.8x100/100 = 0.80; 0.8x100/50 = 1.60; 0.8x49/50 = 0.784. Vessel data is illustrative. It is an empirical estimate: the ship's own squat tables / pilot card and company UKC policy take precedence."
+  },
+  "meta": {
+    "description": "How to estimate ship squat at your planned speed with the Barrass formula: block coefficient times speed through the water squared, over 100 in open water and over 50 in a confined channel. A worked example shows why slowing from ten to seven knots halves the squat, and why speed over the ground gives the wrong answer.",
+    "keywords": [
+      "ship squat calculation",
+      "Barrass squat formula",
+      "what is squat",
+      "under keel clearance",
+      "block coefficient",
+      "squat in shallow water",
+      "ship stability",
+      "OOW calculation",
+      "speed through water"
+    ],
+    "hashtags": [
+      "#ShipSquat",
+      "#UKC",
+      "#Navigation",
+      "#MaritimeEducation",
+      "#DeckOfficer"
+    ],
+    "question": "Does your passage plan list squat for each channel speed?"
+  },
+  "origin": {
+    "type": "queue"
+  },
+  "concept": {
+    "domain": "Navigation",
+    "category": "Shallow water navigation",
+    "subcategory": "Squat",
+    "concept": "Estimating squat at planned speed",
+    "microConcept": "Barrass formula Cb x V^2 / 100 (open) and / 50 (confined) using speed through the water",
+    "contentType": "Practical Calculation",
+    "audience": "OOW / Second Officer / Chief Officer",
+    "department": "deck",
+    "knowledgeLevel": "Intermediate",
+    "shipType": "Bulk carrier (applies to all)",
+    "regulation": "Company UKC policy; ship's squat tables",
+    "equipment": "Speed log, passage plan",
+    "calculation": "Squat = Cb x V^2 / 100 (open), / 50 (confined)",
+    "operationalStage": "Port approach / pilotage",
+    "safetyCriticality": "high",
+    "series": "Bridge Calculations",
+    "episode": 2,
+    "keyTakeaway": "Squat grows with the square of speed through the water: halve the speed, keep a quarter of the squat.",
+    "commonMistake": "Using speed over the ground instead of speed through the water.",
+    "relatedTopics": [
+      "Blockage factor and confined channels",
+      "Squat by the bow or by the stern",
+      "Dynamic UKC and wave response",
+      "Speed through the water vs speed over the ground"
+    ]
+  }
+}

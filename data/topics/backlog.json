@@ -241,9 +241,11 @@
     "https://www.admiralty.co.uk/understanding-ecdis-beyond-default-30m-safety-contour"
    ],
    "origin": "chained from 2026-11-16-ecdis-safety-depth-calculation",
-   "status": "open",
+   "status": "used",
    "addedAt": "2026-11-16",
-   "addedBy": "daily-video-desk"
+   "addedBy": "daily-video-desk",
+   "usedBy": "2026-11-17-squat-calculation-at-planned-speed",
+   "usedAt": "2026-11-17"
   },
   {
    "id": "crankcase-explosion-causes-and-relief-doors",
@@ -360,7 +362,9 @@
     "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
    ],
    "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
-   "status": "open"
+   "status": "used",
+   "usedBy": "2026-11-17-steering-gear-test-before-departure",
+   "usedAt": "2026-11-17"
   },
   {
    "id": "calculating-safety-depth-draught-ukc-squat-tide",
@@ -384,6 +388,26 @@
    "addedBy": "weekly-scout",
    "usedBy": "2026-11-16-ecdis-safety-depth-calculation",
    "usedAt": "2026-11-16"
+  },
+  {
+   "id": "emergency-steering-drill-every-three-months",
+   "title": "Emergency steering drill every three months",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L2",
+   "priority": 80,
+   "tags": [
+    "psc",
+    "exam",
+    "critical"
+   ],
+   "startFrom": [
+    "https://www.nautinst.org/static/095339d6-8534-4630-a725c69f502dd9b5/HE01195-SOLAS-onboard-drill-requirements.pdf"
+   ],
+   "origin": "chained from 2026-11-17-steering-gear-test-before-departure",
+   "status": "open",
+   "addedAt": "2026-11-17",
+   "addedBy": "daily-video-desk"
   },
   {
    "id": "solid-bulk-cargo-liquefaction-imsbc",
@@ -1641,6 +1665,26 @@
    "addedBy": "daily-video-desk"
   },
   {
+   "id": "blockage-factor-and-confined-channels",
+   "title": "Blockage factor and confined channels",
+   "stream": "deck",
+   "pillar": "navigation",
+   "level": "L3",
+   "priority": 64,
+   "tags": [
+    "exam",
+    "calc",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.nautinst.org/resources-page/all-you-ever-wanted-to-know-about-under-keel-clearance-but-were-afraid-to-ask.html"
+   ],
+   "origin": "chained from 2026-11-17-squat-calculation-at-planned-speed",
+   "status": "open",
+   "addedAt": "2026-11-17",
+   "addedBy": "daily-video-desk"
+  },
+  {
    "id": "gnss-jamming-and-spoofing-what-to-watch-for",
    "title": "GNSS jamming and spoofing: what to watch for",
    "stream": "deck",
@@ -2175,6 +2219,26 @@
    "addedBy": "daily-video-desk"
   },
   {
+   "id": "speed-through-the-water-vs-speed-over-the-ground",
+   "title": "Speed through the water vs speed over the ground",
+   "stream": "deck",
+   "pillar": "navigation",
+   "level": "L1",
+   "priority": 60,
+   "tags": [
+    "exam",
+    "faq",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "chained from 2026-11-17-squat-calculation-at-planned-speed",
+   "status": "open",
+   "addedAt": "2026-11-17",
+   "addedBy": "daily-video-desk"
+  },
+  {
    "id": "mooring-winch-brakes-and-brake-rendering",
    "title": "Mooring winch brakes and brake rendering",
    "stream": "deck",
@@ -2296,6 +2360,25 @@
    "origin": "chained from 2026-11-16-scavenge-fire-actions",
    "status": "open",
    "addedAt": "2026-11-16",
+   "addedBy": "daily-video-desk"
+  },
+  {
+   "id": "steering-gear-power-unit-failure-alarm",
+   "title": "Steering gear power unit failure alarm",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L3",
+   "priority": 58,
+   "tags": [
+    "exam",
+    "critical"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "chained from 2026-11-17-steering-gear-test-before-departure",
+   "status": "open",
+   "addedAt": "2026-11-17",
    "addedBy": "daily-video-desk"
   },
   {
@@ -3325,6 +3408,44 @@
    "addedBy": "weekly-scout"
   },
   {
+   "id": "steering-gear-changeover-block-diagram",
+   "title": "Steering gear changeover block diagram",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L2",
+   "priority": 50,
+   "tags": [
+    "psc",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "chained from 2026-11-17-steering-gear-test-before-departure",
+   "status": "open",
+   "addedAt": "2026-11-17",
+   "addedBy": "daily-video-desk"
+  },
+  {
+   "id": "rudder-angle-indicator-calibration",
+   "title": "Rudder angle indicator calibration",
+   "stream": "engine",
+   "pillar": "engine",
+   "level": "L3",
+   "priority": 50,
+   "tags": [
+    "psc",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "chained from 2026-11-17-steering-gear-test-before-departure",
+   "status": "open",
+   "addedAt": "2026-11-17",
+   "addedBy": "daily-video-desk"
+  },
+  {
    "id": "enc-isolated-danger-symbol-and-why-it-matters",
    "title": "ENC isolated danger symbol and why it matters",
    "stream": "deck",
@@ -3357,6 +3478,25 @@
    ],
    "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
    "status": "open"
+  },
+  {
+   "id": "dynamic-ukc-and-wave-response",
+   "title": "Dynamic UKC and wave response",
+   "stream": "deck",
+   "pillar": "navigation",
+   "level": "L4",
+   "priority": 48,
+   "tags": [
+    "critical",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.nautinst.org/resources-page/all-you-ever-wanted-to-know-about-under-keel-clearance-but-were-afraid-to-ask.html"
+   ],
+   "origin": "chained from 2026-11-17-squat-calculation-at-planned-speed",
+   "status": "open",
+   "addedAt": "2026-11-17",
+   "addedBy": "daily-video-desk"
   },
   {
    "id": "admiralty-list-of-lights-reading-a-light-entry",
@@ -3873,6 +4013,25 @@
    "origin": "chained from 2026-11-16-ecdis-safety-depth-calculation",
    "status": "open",
    "addedAt": "2026-11-16",
+   "addedBy": "daily-video-desk"
+  },
+  {
+   "id": "squat-by-the-bow-or-by-the-stern",
+   "title": "Squat by the bow or by the stern",
+   "stream": "deck",
+   "pillar": "navigation",
+   "level": "L2",
+   "priority": 46,
+   "tags": [
+    "exam",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.pilotmag.co.uk/squat-part-1/"
+   ],
+   "origin": "chained from 2026-11-17-squat-calculation-at-planned-speed",
+   "status": "open",
+   "addedAt": "2026-11-17",
    "addedBy": "daily-video-desk"
   },
   {
