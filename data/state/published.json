@@ -660,5 +660,37 @@
         "at": "2026-11-17T04:01:48.929Z"
       }
     }
+  },
+  "2026-11-17-steering-gear-test-before-departure": {
+    "title": "Steering gear test before departure: what SOLAS V/26 requires within 12 hours",
+    "producedAt": "2026-11-17T05:49:10.103Z",
+    "platforms": {
+      "youtube": {
+        "id": "i4GDuTldxWk",
+        "url": "https://www.youtube.com/watch?v=i4GDuTldxWk",
+        "at": "2026-11-17T07:00:07.371Z"
+      },
+      "facebook": {
+        "id": "4579738922172910",
+        "url": "https://www.facebook.com/reel/4579738922172910",
+        "at": "2026-11-17T07:00:21.415Z"
+      },
+      "instagram": {
+        "id": "17957418897037071",
+        "at": "2026-11-17T07:02:08.901Z"
+      },
+      "tiktok": {
+        "id": "6afbfbf1a23f2007cb7bb8d8",
+        "at": "2026-11-17T07:02:20.128Z"
+      },
+      "linkedin": {
+        "id": "6afbfbfc9f28abc456204694",
+        "at": "2026-11-17T07:02:31.062Z"
+      },
+      "x": {
+        "id": "6afbfc071fd23f254448cdf4",
+        "at": "2026-11-17T07:02:42.146Z"
+      }
+    }
   }
 }
