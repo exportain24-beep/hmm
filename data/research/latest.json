@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T03:56:48.294Z",
+  "updatedAt": "2026-11-17T04:25:31.890Z",
   "feedStatus": {
     "safety4sea": "ok (0)",
     "gcaptain": "ok (12)",
@@ -24,7 +24,7 @@
       "publishedAt": "2026-11-16T13:31:38.000Z",
       "score": 71,
       "scores": {
-        "recency": 0.72,
+        "recency": 0.71,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -48,7 +48,7 @@
       "publishedAt": "2026-11-17T02:53:00.000Z",
       "score": 67,
       "scores": {
-        "recency": 0.98,
+        "recency": 0.97,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -72,7 +72,7 @@
       "publishedAt": "2026-11-16T22:30:41.000Z",
       "score": 66,
       "scores": {
-        "recency": 0.88,
+        "recency": 0.87,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -96,7 +96,7 @@
       "publishedAt": "2026-11-17T00:53:07.000Z",
       "score": 60,
       "scores": {
-        "recency": 0.93,
+        "recency": 0.92,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -120,7 +120,7 @@
       "publishedAt": "2026-11-16T20:22:29.000Z",
       "score": 58,
       "scores": {
-        "recency": 0.84,
+        "recency": 0.83,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -144,7 +144,7 @@
       "publishedAt": "2026-11-16T20:36:56.000Z",
       "score": 57,
       "scores": {
-        "recency": 0.84,
+        "recency": 0.83,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -168,36 +168,12 @@
       "publishedAt": "2026-11-16T22:00:57.000Z",
       "score": 56,
       "scores": {
-        "recency": 0.87,
+        "recency": 0.86,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
         "seafarerValue": 0.5,
         "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "7482476a793ffa158701f7f2b7195d8d19369bb0",
-      "storyKey": "56a37933fad3957d17230d89ae78dd0d998e5d23",
-      "sourceId": "marineinsight",
-      "sourceName": "Marine Insight",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Wind-Powered Cargo Ship Neoliner Origin Cuts Fuel Use By 70% In Its First Year",
-      "url": "https://www.marineinsight.com/wind-powered-cargo-ship-neoliner-origin-cuts-fuel-use-by-70-in-its-first-year/?utm_source=rss utm_medium=rss utm_campaign=wind-powered-cargo-ship-neoliner-origin-cuts-fuel-use-by-70-in-its-first-year",
-      "summary": "By combining energy efficiency with the use of wind power, Neoliner Origin achieved 70% fuel savings in 2026 compared with comparable vessels listed in the latest GLEC report",
-      "publishedAt": "2026-11-16T11:21:19.000Z",
-      "score": 55,
-      "scores": {
-        "recency": 0.68,
-        "reliability": 0.85,
-        "maritimeRelevance": 1,
-        "educationalValue": 0.5,
-        "seafarerValue": 0,
-        "shareability": 1,
         "visualPotential": 0,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
@@ -216,7 +192,7 @@
       "publishedAt": "2026-11-16T22:00:59.000Z",
       "score": 55,
       "scores": {
-        "recency": 0.87,
+        "recency": 0.86,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 1,
@@ -240,7 +216,7 @@
       "publishedAt": "2026-11-16T22:00:55.000Z",
       "score": 55,
       "scores": {
-        "recency": 0.87,
+        "recency": 0.86,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -264,13 +240,37 @@
       "publishedAt": "2026-11-16T22:00:45.000Z",
       "score": 55,
       "scores": {
-        "recency": 0.87,
+        "recency": 0.86,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0,
         "seafarerValue": 0.5,
         "shareability": 0,
         "visualPotential": 0.5,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "7482476a793ffa158701f7f2b7195d8d19369bb0",
+      "storyKey": "56a37933fad3957d17230d89ae78dd0d998e5d23",
+      "sourceId": "marineinsight",
+      "sourceName": "Marine Insight",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Wind-Powered Cargo Ship Neoliner Origin Cuts Fuel Use By 70% In Its First Year",
+      "url": "https://www.marineinsight.com/wind-powered-cargo-ship-neoliner-origin-cuts-fuel-use-by-70-in-its-first-year/?utm_source=rss utm_medium=rss utm_campaign=wind-powered-cargo-ship-neoliner-origin-cuts-fuel-use-by-70-in-its-first-year",
+      "summary": "By combining energy efficiency with the use of wind power, Neoliner Origin achieved 70% fuel savings in 2026 compared with comparable vessels listed in the latest GLEC report",
+      "publishedAt": "2026-11-16T11:21:19.000Z",
+      "score": 54,
+      "scores": {
+        "recency": 0.67,
+        "reliability": 0.85,
+        "maritimeRelevance": 1,
+        "educationalValue": 0.5,
+        "seafarerValue": 0,
+        "shareability": 1,
+        "visualPotential": 0,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
@@ -286,9 +286,9 @@
       "url": "https://gcaptain.com/armed-skiff-approaches-tanker-far-out-in-arabian-sea/",
       "summary": "A commercial tanker reported being approached by a small boat carrying four armed men in the Arabian Sea on Monday, raising fresh concerns about piracy activity in waters off the...",
       "publishedAt": "2026-11-16T19:05:57.000Z",
-      "score": 52,
+      "score": 51,
       "scores": {
-        "recency": 0.82,
+        "recency": 0.81,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0.5,
@@ -296,30 +296,6 @@
         "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "2fc5598b414a8d0cfb7ca104397db181fe8af9cf",
-      "storyKey": "e7dc750580172773ea29c031ca3b8be1e7df11db",
-      "sourceId": "splash247",
-      "sourceName": "Splash247",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Greek shipowners put Brussels on the spot over IMO deadlock",
-      "url": "https://splash247.com/greek-shipowners-put-brussels-on-the-spot-over-imo-deadlock/",
-      "summary": "Greek shipowners have launched a fresh attack on Brussels ahead of the next round of international shipping emissions negotiations, accusing the European Union of putting its own regulatory interests ahead of a global agreement. Union of Greek Shipowners president Melina Travlos warned on Monday that the EU's unwillingness to compromise risks pushing the International Maritime",
-      "publishedAt": "2026-11-16T17:53:16.000Z",
-      "score": 52,
-      "scores": {
-        "recency": 0.79,
-        "reliability": 0.85,
-        "maritimeRelevance": 1,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0.5,
         "corroboratingOutlets": 1
       }
     },
@@ -336,7 +312,7 @@
       "publishedAt": "2026-11-16T17:05:21.000Z",
       "score": 51,
       "scores": {
-        "recency": 0.78,
+        "recency": 0.77,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -360,7 +336,7 @@
       "publishedAt": "2026-11-16T16:03:34.000Z",
       "score": 51,
       "scores": {
-        "recency": 0.76,
+        "recency": 0.75,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -368,6 +344,30 @@
         "shareability": 1,
         "visualPotential": 0,
         "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "2fc5598b414a8d0cfb7ca104397db181fe8af9cf",
+      "storyKey": "e7dc750580172773ea29c031ca3b8be1e7df11db",
+      "sourceId": "splash247",
+      "sourceName": "Splash247",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Greek shipowners put Brussels on the spot over IMO deadlock",
+      "url": "https://splash247.com/greek-shipowners-put-brussels-on-the-spot-over-imo-deadlock/",
+      "summary": "Greek shipowners have launched a fresh attack on Brussels ahead of the next round of international shipping emissions negotiations, accusing the European Union of putting its own regulatory interests ahead of a global agreement. Union of Greek Shipowners president Melina Travlos warned on Monday that the EU's unwillingness to compromise risks pushing the International Maritime",
+      "publishedAt": "2026-11-16T17:53:16.000Z",
+      "score": 51,
+      "scores": {
+        "recency": 0.78,
+        "reliability": 0.85,
+        "maritimeRelevance": 1,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0.5,
         "corroboratingOutlets": 1
       }
     },
@@ -384,7 +384,7 @@
       "publishedAt": "2026-11-16T20:28:00.000Z",
       "score": 50,
       "scores": {
-        "recency": 0.84,
+        "recency": 0.83,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -408,7 +408,7 @@
       "publishedAt": "2026-11-16T11:52:43.000Z",
       "score": 50,
       "scores": {
-        "recency": 0.69,
+        "recency": 0.68,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -432,7 +432,7 @@
       "publishedAt": "2026-11-16T11:45:08.000Z",
       "score": 50,
       "scores": {
-        "recency": 0.69,
+        "recency": 0.68,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -456,7 +456,7 @@
       "publishedAt": "2026-11-16T22:00:50.000Z",
       "score": 50,
       "scores": {
-        "recency": 0.87,
+        "recency": 0.86,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -480,7 +480,7 @@
       "publishedAt": "2026-11-16T23:29:44.000Z",
       "score": 49,
       "scores": {
-        "recency": 0.9,
+        "recency": 0.89,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -504,7 +504,7 @@
       "publishedAt": "2026-11-16T13:05:14.000Z",
       "score": 49,
       "scores": {
-        "recency": 0.71,
+        "recency": 0.7,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -528,7 +528,7 @@
       "publishedAt": "2026-11-16T12:58:43.000Z",
       "score": 49,
       "scores": {
-        "recency": 0.71,
+        "recency": 0.7,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0.5,
@@ -552,35 +552,11 @@
       "publishedAt": "2026-11-16T12:54:05.000Z",
       "score": 48,
       "scores": {
-        "recency": 0.71,
+        "recency": 0.7,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
         "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0.5,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "5ce5b90dc6e401f7922d038fb2d3e9af61a90497",
-      "storyKey": "e5402929da8be0ae8ee3f485ed6b8cdb10e2dd06",
-      "sourceId": "marex",
-      "sourceName": "The Maritime Executive",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Massachusetts Maritime Academy Names New Captain of SSV Ernestina-Morrissey",
-      "url": "https://maritime-executive.com/article/massachusetts-maritime-academy-names-new-captain-of-ssv-ernestina-morrissey",
-      "summary": "Massachusetts Maritime Academy (MMA), a top-ranked public university with undergraduate degree programs focusing on science, engineering, technology,...",
-      "publishedAt": "2026-11-17T01:17:00.000Z",
-      "score": 48,
-      "scores": {
-        "recency": 0.94,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.33,
-        "educationalValue": 0,
-        "seafarerValue": 0.5,
         "shareability": 0,
         "visualPotential": 0.5,
         "regulatoryImportance": 0,
@@ -600,13 +576,37 @@
       "publishedAt": "2026-11-16T23:20:40.000Z",
       "score": 47,
       "scores": {
-        "recency": 0.9,
+        "recency": 0.89,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
         "seafarerValue": 0,
         "shareability": 0,
         "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "5ce5b90dc6e401f7922d038fb2d3e9af61a90497",
+      "storyKey": "e5402929da8be0ae8ee3f485ed6b8cdb10e2dd06",
+      "sourceId": "marex",
+      "sourceName": "The Maritime Executive",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Massachusetts Maritime Academy Names New Captain of SSV Ernestina-Morrissey",
+      "url": "https://maritime-executive.com/article/massachusetts-maritime-academy-names-new-captain-of-ssv-ernestina-morrissey",
+      "summary": "Massachusetts Maritime Academy (MMA), a top-ranked public university with undergraduate degree programs focusing on science, engineering, technology,...",
+      "publishedAt": "2026-11-17T01:17:00.000Z",
+      "score": 47,
+      "scores": {
+        "recency": 0.93,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0,
+        "seafarerValue": 0.5,
+        "shareability": 0,
+        "visualPotential": 0.5,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
@@ -624,7 +624,7 @@
       "publishedAt": "2026-11-16T18:42:24.000Z",
       "score": 46,
       "scores": {
-        "recency": 0.81,
+        "recency": 0.8,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -648,7 +648,7 @@
       "publishedAt": "2026-11-16T20:00:00.000Z",
       "score": 46,
       "scores": {
-        "recency": 0.83,
+        "recency": 0.82,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0.5,
@@ -672,7 +672,7 @@
       "publishedAt": "2026-11-17T01:48:00.000Z",
       "score": 46,
       "scores": {
-        "recency": 0.95,
+        "recency": 0.94,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -696,55 +696,7 @@
       "publishedAt": "2026-11-16T23:39:00.000Z",
       "score": 46,
       "scores": {
-        "recency": 0.91,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.67,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0.5,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "c18332679d7322463569269fb8b22759dee7c1b2",
-      "storyKey": "41a263ea2d0ed145dc9ccf5172c4a6e35a76acde",
-      "sourceId": "hellenic",
-      "sourceName": "Hellenic Shipping News",
-      "tier": "press",
-      "reliability": 0.75,
-      "title": "Why the carrier with the shortest terminal wait isn’t always the fastest option",
-      "url": "https://www.hellenicshippingnews.com/why-the-carrier-with-the-shortest-terminal-wait-isnt-always-the-fastest-option/",
-      "summary": "Peak season volume has to land somewhere. The usual inputs to that decision are cost, space, and a general sense of which carrier “runs well” on a given route. Reliability gets discussed, but rarely checked against anything concrete, because container terminal performance data has not been easily compiled across carriers at the same set of ...",
-      "publishedAt": "2026-11-16T22:00:59.000Z",
-      "score": 46,
-      "scores": {
-        "recency": 0.87,
-        "reliability": 0.75,
-        "maritimeRelevance": 0.33,
-        "educationalValue": 0.5,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0.5,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "c6f4f0c46b8e7bd35d335cb710df2b99aa4e2b30",
-      "storyKey": "fa0bc9347209747eb85f15edf4b02e2434256652",
-      "sourceId": "gcaptain",
-      "sourceName": "gCaptain",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "The Oil Market Is Brimming With Crude Despite Tanker Attacks",
-      "url": "https://gcaptain.com/the-oil-market-is-brimming-with-crude-despite-tanker-attacks/",
-      "summary": "More than eight months into the Iran war, smoke continues to billow from oil tankers as Tehran presses ahead with repeated attacks near the Strait of Hormuz.",
-      "publishedAt": "2026-11-16T18:45:55.000Z",
-      "score": 45,
-      "scores": {
-        "recency": 0.81,
+        "recency": 0.9,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -816,7 +768,7 @@
       "publishedAt": "2026-11-16T15:13:27.000Z",
       "score": 45,
       "scores": {
-        "recency": 0.75,
+        "recency": 0.74,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -840,7 +792,7 @@
       "publishedAt": "2026-11-16T17:15:53.000Z",
       "score": 45,
       "scores": {
-        "recency": 0.78,
+        "recency": 0.77,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0.5,
@@ -864,7 +816,7 @@
       "publishedAt": "2026-11-16T12:53:38.000Z",
       "score": 45,
       "scores": {
-        "recency": 0.71,
+        "recency": 0.7,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -872,6 +824,30 @@
         "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "c18332679d7322463569269fb8b22759dee7c1b2",
+      "storyKey": "41a263ea2d0ed145dc9ccf5172c4a6e35a76acde",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "Why the carrier with the shortest terminal wait isn’t always the fastest option",
+      "url": "https://www.hellenicshippingnews.com/why-the-carrier-with-the-shortest-terminal-wait-isnt-always-the-fastest-option/",
+      "summary": "Peak season volume has to land somewhere. The usual inputs to that decision are cost, space, and a general sense of which carrier “runs well” on a given route. Reliability gets discussed, but rarely checked against anything concrete, because container terminal performance data has not been easily compiled across carriers at the same set of ...",
+      "publishedAt": "2026-11-16T22:00:59.000Z",
+      "score": 45,
+      "scores": {
+        "recency": 0.86,
+        "reliability": 0.75,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0.5,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0.5,
         "corroboratingOutlets": 1
       }
     },
@@ -888,7 +864,7 @@
       "publishedAt": "2026-11-16T22:00:58.000Z",
       "score": 45,
       "scores": {
-        "recency": 0.87,
+        "recency": 0.86,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -912,7 +888,7 @@
       "publishedAt": "2026-11-16T22:00:57.000Z",
       "score": 45,
       "scores": {
-        "recency": 0.87,
+        "recency": 0.86,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -936,7 +912,7 @@
       "publishedAt": "2026-11-16T22:00:53.000Z",
       "score": 45,
       "scores": {
-        "recency": 0.87,
+        "recency": 0.86,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -960,7 +936,7 @@
       "publishedAt": "2026-11-16T22:00:49.000Z",
       "score": 45,
       "scores": {
-        "recency": 0.87,
+        "recency": 0.86,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -984,7 +960,7 @@
       "publishedAt": "2026-11-16T22:00:39.000Z",
       "score": 45,
       "scores": {
-        "recency": 0.87,
+        "recency": 0.86,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -1008,13 +984,37 @@
       "publishedAt": "2026-11-16T22:00:33.000Z",
       "score": 45,
       "scores": {
-        "recency": 0.87,
+        "recency": 0.86,
         "reliability": 0.75,
         "maritimeRelevance": 1,
         "educationalValue": 0,
         "seafarerValue": 0,
         "shareability": 0,
         "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "c6f4f0c46b8e7bd35d335cb710df2b99aa4e2b30",
+      "storyKey": "fa0bc9347209747eb85f15edf4b02e2434256652",
+      "sourceId": "gcaptain",
+      "sourceName": "gCaptain",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "The Oil Market Is Brimming With Crude Despite Tanker Attacks",
+      "url": "https://gcaptain.com/the-oil-market-is-brimming-with-crude-despite-tanker-attacks/",
+      "summary": "More than eight months into the Iran war, smoke continues to billow from oil tankers as Tehran presses ahead with repeated attacks near the Strait of Hormuz.",
+      "publishedAt": "2026-11-16T18:45:55.000Z",
+      "score": 44,
+      "scores": {
+        "recency": 0.8,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.67,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0.5,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
@@ -1032,7 +1032,7 @@
       "publishedAt": "2026-11-16T10:00:00.000Z",
       "score": 44,
       "scores": {
-        "recency": 0.66,
+        "recency": 0.65,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1056,7 +1056,7 @@
       "publishedAt": "2026-11-16T21:19:44.000Z",
       "score": 44,
       "scores": {
-        "recency": 0.86,
+        "recency": 0.85,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1080,7 +1080,7 @@
       "publishedAt": "2026-11-16T11:53:31.000Z",
       "score": 44,
       "scores": {
-        "recency": 0.69,
+        "recency": 0.68,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
@@ -1104,31 +1104,7 @@
       "publishedAt": "2026-11-16T11:00:00.000Z",
       "score": 43,
       "scores": {
-        "recency": 0.68,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.33,
-        "educationalValue": 0,
-        "seafarerValue": 0.5,
-        "shareability": 0,
-        "visualPotential": 0.5,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "c6082399a853474d522d89cfa96791868dba7581",
-      "storyKey": "edd55c1cda07c2e07b08e2fa4f61a231172cbae4",
-      "sourceId": "splash247",
-      "sourceName": "Splash247",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Seatrium adds another Guyana FPSO to its books",
-      "url": "https://splash247.com/seatrium-adds-another-guyana-fpso-to-its-books/",
-      "summary": "Singapore offshore engineering group Seatrium has secured another FPSO integration contract from Japan's Modec, this time for a floating production unit destined for ExxonMobil's $6.8bn Hammerhead development offshore Guyana. The contract covers topside module integration on the Essequibo 1899 FPSO, fabrication of the flare tower and crane pedestal, as well as support for pre-commissioning and",
-      "publishedAt": "2026-11-16T09:55:00.000Z",
-      "score": 43,
-      "scores": {
-        "recency": 0.66,
+        "recency": 0.67,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1176,7 +1152,7 @@
       "publishedAt": "2026-11-17T01:17:00.000Z",
       "score": 43,
       "scores": {
-        "recency": 0.94,
+        "recency": 0.93,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0.5,
@@ -1200,13 +1176,61 @@
       "publishedAt": "2026-11-17T01:16:00.000Z",
       "score": 43,
       "scores": {
-        "recency": 0.94,
+        "recency": 0.93,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
         "seafarerValue": 0,
         "shareability": 0,
         "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "c6082399a853474d522d89cfa96791868dba7581",
+      "storyKey": "edd55c1cda07c2e07b08e2fa4f61a231172cbae4",
+      "sourceId": "splash247",
+      "sourceName": "Splash247",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Seatrium adds another Guyana FPSO to its books",
+      "url": "https://splash247.com/seatrium-adds-another-guyana-fpso-to-its-books/",
+      "summary": "Singapore offshore engineering group Seatrium has secured another FPSO integration contract from Japan's Modec, this time for a floating production unit destined for ExxonMobil's $6.8bn Hammerhead development offshore Guyana. The contract covers topside module integration on the Essequibo 1899 FPSO, fabrication of the flare tower and crane pedestal, as well as support for pre-commissioning and",
+      "publishedAt": "2026-11-16T09:55:00.000Z",
+      "score": 42,
+      "scores": {
+        "recency": 0.65,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0,
+        "seafarerValue": 0.5,
+        "shareability": 0,
+        "visualPotential": 0.5,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "160a94e4974ff4d759a585b4c1008b7b0e791298",
+      "storyKey": "f95418a7e9d2064f354e7fa60bd49f911a920fae",
+      "sourceId": "splash247",
+      "sourceName": "Splash247",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "KBR wraps up hull design for Equinor's Wisting FPSO",
+      "url": "https://splash247.com/kbr-wraps-up-hull-design-for-equinors-wisting-fpso/",
+      "summary": "US engineering group KBR has completed the hull and marine systems design for the proposed Wisting FPSO in Norway's Barents Sea, delivering a design package ready for handover to shipyards. The work was carried out in cooperation with Norwegian engineering contractor Aibel, which secured the front-end engineering and design (FEED) contract for the FPSO topsides",
+      "publishedAt": "2026-11-16T09:50:00.000Z",
+      "score": 42,
+      "scores": {
+        "recency": 0.65,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0,
+        "seafarerValue": 0.5,
+        "shareability": 0,
+        "visualPotential": 0.5,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
@@ -1222,9 +1246,9 @@
       "url": "https://maritime-executive.com/article/chilean-ship-makes-ready-to-start-controversial-falklands-freight-service",
       "summary": "A Chilean freighter has arrived at Punta Arenas and is preparing to begin a regular cargo service to and from the Falkland Islands, bypassing Argentin...",
       "publishedAt": "2026-11-17T00:24:00.000Z",
-      "score": 43,
+      "score": 42,
       "scores": {
-        "recency": 0.92,
+        "recency": 0.91,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1246,9 +1270,9 @@
       "url": "https://maritime-executive.com/article/one-joins-maersk-hapag-and-others-in-return-to-suez-canal",
       "summary": "Ocean Network Express (ONE) returned to the Suez Canal route for the first time in nearly three years as it seeks to keep up with its alliance partner...",
       "publishedAt": "2026-11-16T22:37:31.000Z",
-      "score": 43,
+      "score": 42,
       "scores": {
-        "recency": 0.88,
+        "recency": 0.87,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1270,37 +1294,13 @@
       "url": "https://www.marineinsight.com/supertanker-with-2-million-barrels-of-oil-sinks-after-hitting-mine-in-strait-of-hormuz-iran-says/?utm_source=rss utm_medium=rss utm_campaign=supertanker-with-2-million-barrels-of-oil-sinks-after-hitting-mine-in-strait-of-hormuz-iran-says",
       "summary": "Supertanker carrying over 2 million barrels of oil sank after hitting a mine in the Strait of Hormuz, Iran’s IRGC said, with no independent confirmation.",
       "publishedAt": "2026-11-16T12:34:58.000Z",
-      "score": 43,
+      "score": 42,
       "scores": {
-        "recency": 0.7,
+        "recency": 0.69,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
         "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0.5,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "160a94e4974ff4d759a585b4c1008b7b0e791298",
-      "storyKey": "f95418a7e9d2064f354e7fa60bd49f911a920fae",
-      "sourceId": "splash247",
-      "sourceName": "Splash247",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "KBR wraps up hull design for Equinor's Wisting FPSO",
-      "url": "https://splash247.com/kbr-wraps-up-hull-design-for-equinors-wisting-fpso/",
-      "summary": "US engineering group KBR has completed the hull and marine systems design for the proposed Wisting FPSO in Norway's Barents Sea, delivering a design package ready for handover to shipyards. The work was carried out in cooperation with Norwegian engineering contractor Aibel, which secured the front-end engineering and design (FEED) contract for the FPSO topsides",
-      "publishedAt": "2026-11-16T09:50:00.000Z",
-      "score": 42,
-      "scores": {
-        "recency": 0.66,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.33,
-        "educationalValue": 0,
-        "seafarerValue": 0.5,
         "shareability": 0,
         "visualPotential": 0.5,
         "regulatoryImportance": 0,
@@ -1332,6 +1332,30 @@
       }
     },
     {
+      "fingerprint": "ad71c72fe79d22372ec2f196ca33cf9e8f524dbe",
+      "storyKey": "d537f55903c8aec490b2a7f08156d9645d393592",
+      "sourceId": "marex",
+      "sourceName": "The Maritime Executive",
+      "tier": "press",
+      "reliability": 0.85,
+      "title": "Everllence 175D Engines Selected for State-of-the-Art Live Fish Carrier",
+      "url": "https://maritime-executive.com/article/everllence-175d-engines-selected-for-state-of-the-art-live-fish-carrier-2",
+      "summary": "Everllence has signed a contract with the Astilleros Zamakona shipyard in Bilbao, Spain to supply 4 × 12V175D-MEV variable-speed Generator Sets (each...",
+      "publishedAt": "2026-11-17T01:15:17.000Z",
+      "score": 41,
+      "scores": {
+        "recency": 0.93,
+        "reliability": 0.85,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0.5,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
       "fingerprint": "f35847d41b99b8aa4d81871a780345982a16d886",
       "storyKey": "6a9ba8cab30e0af9fbe7064400dedef3ed76d34c",
       "sourceId": "marex",
@@ -1344,7 +1368,7 @@
       "publishedAt": "2026-11-16T20:59:00.000Z",
       "score": 41,
       "scores": {
-        "recency": 0.85,
+        "recency": 0.84,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1380,30 +1404,6 @@
       }
     },
     {
-      "fingerprint": "ed70c0267cd7b4c220a1268e9a3131f4d66270fc",
-      "storyKey": "68de395ec6bc99c4fe546c6fe9835209316065d5",
-      "sourceId": "marex",
-      "sourceName": "The Maritime Executive",
-      "tier": "press",
-      "reliability": 0.85,
-      "title": "Three More Ships Hit by Drone Strikes off Coast of Romania",
-      "url": "https://maritime-executive.com/article/three-more-ships-hit-by-drone-strikes-off-coast-of-romania",
-      "summary": "Romania's government is protesting a new series of strikes on merchant shipping off the coast of Sulina, a busy anchorage area and a strategic waypoin...",
-      "publishedAt": "2026-11-16T03:47:00.000Z",
-      "score": 40,
-      "scores": {
-        "recency": 0.57,
-        "reliability": 0.85,
-        "maritimeRelevance": 0.67,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0.5,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
       "fingerprint": "a265bcf16dcbb34931e409dfd96b494c3986d30b",
       "storyKey": "3d9aecfbffb5486e9721d1d573e765c908f1d27d",
       "sourceId": "hellenic",
@@ -1416,34 +1416,10 @@
       "publishedAt": "2026-11-16T22:00:41.000Z",
       "score": 40,
       "scores": {
-        "recency": 0.87,
+        "recency": 0.86,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "4ece7212877ba2276b71b1b63d6a846a2ec7215b",
-      "storyKey": "dc5ae23c762ea5c13dd9314186de8ff6c350061a",
-      "sourceId": "hellenic",
-      "sourceName": "Hellenic Shipping News",
-      "tier": "press",
-      "reliability": 0.75,
-      "title": "Iron ore may rebound slightly as steel export orders improve",
-      "url": "https://www.hellenicshippingnews.com/iron-ore-may-rebound-slightly-as-steel-export-orders-improve/",
-      "summary": "The average imported iron ore margin rose from -7.71 yuan/mt to -5.90 yuan/mt in the latest period, with losses narrowing on higher spot prices for some products and lower seaborne premiums. On the supply side, SMM data showed iron ore inventories at 35 major Chinese ports stood at 152.12 million mt as of November 13, ...",
-      "publishedAt": "2026-11-16T22:00:37.000Z",
-      "score": 40,
-      "scores": {
-        "recency": 0.87,
-        "reliability": 0.75,
-        "maritimeRelevance": 0.33,
-        "educationalValue": 0.5,
         "seafarerValue": 0,
         "shareability": 0,
         "visualPotential": 0,
@@ -1464,7 +1440,7 @@
       "publishedAt": "2026-11-16T22:00:35.000Z",
       "score": 40,
       "scores": {
-        "recency": 0.87,
+        "recency": 0.86,
         "reliability": 0.75,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1488,10 +1464,34 @@
       "publishedAt": "2026-11-15T13:03:46.000Z",
       "score": 39,
       "scores": {
-        "recency": 0.41,
+        "recency": 0.4,
         "reliability": 0.85,
         "maritimeRelevance": 1,
         "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "4ece7212877ba2276b71b1b63d6a846a2ec7215b",
+      "storyKey": "dc5ae23c762ea5c13dd9314186de8ff6c350061a",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "Iron ore may rebound slightly as steel export orders improve",
+      "url": "https://www.hellenicshippingnews.com/iron-ore-may-rebound-slightly-as-steel-export-orders-improve/",
+      "summary": "The average imported iron ore margin rose from -7.71 yuan/mt to -5.90 yuan/mt in the latest period, with losses narrowing on higher spot prices for some products and lower seaborne premiums. On the supply side, SMM data showed iron ore inventories at 35 major Chinese ports stood at 152.12 million mt as of November 13, ...",
+      "publishedAt": "2026-11-16T22:00:37.000Z",
+      "score": 39,
+      "scores": {
+        "recency": 0.86,
+        "reliability": 0.75,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0.5,
         "seafarerValue": 0,
         "shareability": 0,
         "visualPotential": 0,
@@ -1512,7 +1512,7 @@
       "publishedAt": "2026-11-17T02:55:00.000Z",
       "score": 38,
       "scores": {
-        "recency": 0.98,
+        "recency": 0.97,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1534,9 +1534,9 @@
       "url": "https://maritime-executive.com/article/furetank-wins-ey-entrepreneurship-award",
       "summary": "Furetank has been named a regional winner of the international EY Entrepreneur Of The Year 2026 award. The company took the Best International Growth...",
       "publishedAt": "2026-11-17T01:18:00.000Z",
-      "score": 38,
+      "score": 37,
       "scores": {
-        "recency": 0.94,
+        "recency": 0.93,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1558,9 +1558,9 @@
       "url": "https://maritime-executive.com/article/spl-and-jingdong-industrials-sign-strategic-partnership-in-saudi-arabia",
       "summary": "Saudi Postal and Logistics (SPL) and JINGDONG Industrials (JDi), an industrial supply chain technology and service provider and a subsidiary of JD.com...",
       "publishedAt": "2026-11-17T01:16:00.000Z",
-      "score": 38,
+      "score": 37,
       "scores": {
-        "recency": 0.94,
+        "recency": 0.93,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1584,7 +1584,7 @@
       "publishedAt": "2026-11-16T23:49:11.000Z",
       "score": 37,
       "scores": {
-        "recency": 0.91,
+        "recency": 0.9,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1608,36 +1608,12 @@
       "publishedAt": "2026-11-16T18:13:00.000Z",
       "score": 36,
       "scores": {
-        "recency": 0.8,
+        "recency": 0.79,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
         "seafarerValue": 0,
         "shareability": 1,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "d9443849a734a171a6c4ecdae6e1c5fed2f24019",
-      "storyKey": "3a2e5388302238cc9d03ba634e07de153773169c",
-      "sourceId": "hellenic",
-      "sourceName": "Hellenic Shipping News",
-      "tier": "press",
-      "reliability": 0.75,
-      "title": "Xclusiv Shipbrokers Weekly 16th November 2026",
-      "url": "https://www.hellenicshippingnews.com/xclusiv-shipbrokers-weekly-16th-november-2026/",
-      "summary": "The dry bulk market continues to demonstrate con trasting dynamics across the Kamsarmax and Ultramax segments, Source: Xclusiv Shipbrokers Inc.",
-      "publishedAt": "2026-11-16T22:00:50.000Z",
-      "score": 35,
-      "scores": {
-        "recency": 0.87,
-        "reliability": 0.75,
-        "maritimeRelevance": 0.33,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0,
         "corroboratingOutlets": 1
@@ -1656,7 +1632,7 @@
       "publishedAt": "2026-11-16T22:00:47.000Z",
       "score": 35,
       "scores": {
-        "recency": 0.87,
+        "recency": 0.86,
         "reliability": 0.75,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1664,30 +1640,6 @@
         "shareability": 0,
         "visualPotential": 0,
         "regulatoryImportance": 0.5,
-        "corroboratingOutlets": 1
-      }
-    },
-    {
-      "fingerprint": "170a75391d9e89a3484ed3fc3fad274f5eeebaeb",
-      "storyKey": "33a339e0c96d8201b086a6b40543ab36cd9e7402",
-      "sourceId": "hellenic",
-      "sourceName": "Hellenic Shipping News",
-      "tier": "press",
-      "reliability": 0.75,
-      "title": "Venezuela eyes bigger slice of India’s oil imports from Russia",
-      "url": "https://www.hellenicshippingnews.com/venezuela-eyes-bigger-slice-of-indias-oil-imports-from-russia/",
-      "summary": "Venezuela could regain a share of India’s crude oil imports from Russia as Washington continues to exert greater pressure on buyers of Russian oil, according to Rystad Energy. The consultancy said the shift in US policy and Venezuela’s changing export patterns could improve its position in the Indian market, although higher freight costs and differences ...",
-      "publishedAt": "2026-11-16T22:00:43.000Z",
-      "score": 35,
-      "scores": {
-        "recency": 0.87,
-        "reliability": 0.75,
-        "maritimeRelevance": 0.33,
-        "educationalValue": 0,
-        "seafarerValue": 0,
-        "shareability": 0,
-        "visualPotential": 0,
-        "regulatoryImportance": 0,
         "corroboratingOutlets": 1
       }
     },
@@ -1704,7 +1656,7 @@
       "publishedAt": "2026-11-16T16:29:07.000Z",
       "score": 34,
       "scores": {
-        "recency": 0.77,
+        "recency": 0.76,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1740,6 +1692,54 @@
       }
     },
     {
+      "fingerprint": "d9443849a734a171a6c4ecdae6e1c5fed2f24019",
+      "storyKey": "3a2e5388302238cc9d03ba634e07de153773169c",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "Xclusiv Shipbrokers Weekly 16th November 2026",
+      "url": "https://www.hellenicshippingnews.com/xclusiv-shipbrokers-weekly-16th-november-2026/",
+      "summary": "The dry bulk market continues to demonstrate con trasting dynamics across the Kamsarmax and Ultramax segments, Source: Xclusiv Shipbrokers Inc.",
+      "publishedAt": "2026-11-16T22:00:50.000Z",
+      "score": 34,
+      "scores": {
+        "recency": 0.86,
+        "reliability": 0.75,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
+      "fingerprint": "170a75391d9e89a3484ed3fc3fad274f5eeebaeb",
+      "storyKey": "33a339e0c96d8201b086a6b40543ab36cd9e7402",
+      "sourceId": "hellenic",
+      "sourceName": "Hellenic Shipping News",
+      "tier": "press",
+      "reliability": 0.75,
+      "title": "Venezuela eyes bigger slice of India’s oil imports from Russia",
+      "url": "https://www.hellenicshippingnews.com/venezuela-eyes-bigger-slice-of-indias-oil-imports-from-russia/",
+      "summary": "Venezuela could regain a share of India’s crude oil imports from Russia as Washington continues to exert greater pressure on buyers of Russian oil, according to Rystad Energy. The consultancy said the shift in US policy and Venezuela’s changing export patterns could improve its position in the Indian market, although higher freight costs and differences ...",
+      "publishedAt": "2026-11-16T22:00:43.000Z",
+      "score": 34,
+      "scores": {
+        "recency": 0.86,
+        "reliability": 0.75,
+        "maritimeRelevance": 0.33,
+        "educationalValue": 0,
+        "seafarerValue": 0,
+        "shareability": 0,
+        "visualPotential": 0,
+        "regulatoryImportance": 0,
+        "corroboratingOutlets": 1
+      }
+    },
+    {
       "fingerprint": "13959786fc4990b154428410178f84d49b793dc6",
       "storyKey": "335227ed4454ccaaa5e719af90877278e54af51f",
       "sourceId": "marineinsight",
@@ -1752,7 +1752,7 @@
       "publishedAt": "2026-11-16T13:02:53.000Z",
       "score": 33,
       "scores": {
-        "recency": 0.71,
+        "recency": 0.7,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1776,7 +1776,7 @@
       "publishedAt": "2026-11-16T09:45:00.000Z",
       "score": 32,
       "scores": {
-        "recency": 0.66,
+        "recency": 0.65,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1824,7 +1824,7 @@
       "publishedAt": "2026-11-14T15:04:25.000Z",
       "score": 30,
       "scores": {
-        "recency": 0.25,
+        "recency": 0.24,
         "reliability": 0.85,
         "maritimeRelevance": 0.67,
         "educationalValue": 0,
@@ -1848,7 +1848,7 @@
       "publishedAt": "2026-11-16T22:00:51.000Z",
       "score": 29,
       "scores": {
-        "recency": 0.87,
+        "recency": 0.86,
         "reliability": 0.75,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1872,7 +1872,7 @@
       "publishedAt": "2026-11-16T22:00:31.000Z",
       "score": 29,
       "scores": {
-        "recency": 0.87,
+        "recency": 0.86,
         "reliability": 0.75,
         "maritimeRelevance": 0,
         "educationalValue": 0,
@@ -1896,7 +1896,7 @@
       "publishedAt": "2026-11-15T12:50:27.000Z",
       "score": 28,
       "scores": {
-        "recency": 0.41,
+        "recency": 0.4,
         "reliability": 0.85,
         "maritimeRelevance": 0.33,
         "educationalValue": 0,
@@ -1920,7 +1920,7 @@
       "publishedAt": "2026-11-16T07:08:00.000Z",
       "score": 26,
       "scores": {
-        "recency": 0.62,
+        "recency": 0.61,
         "reliability": 0.85,
         "maritimeRelevance": 0,
         "educationalValue": 0,
