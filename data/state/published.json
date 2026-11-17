@@ -628,5 +628,37 @@
         "at": "2026-11-16T17:03:54.530Z"
       }
     }
+  },
+  "2026-11-17-squat-calculation-at-planned-speed": {
+    "title": "Ship squat calculation: how to estimate squat at your planned channel speed",
+    "producedAt": "2026-11-17T03:02:36.000Z",
+    "platforms": {
+      "youtube": {
+        "id": "Xm10C2jG3wU",
+        "url": "https://www.youtube.com/watch?v=Xm10C2jG3wU",
+        "at": "2026-11-17T04:00:09.669Z"
+      },
+      "facebook": {
+        "id": "1825875735331510",
+        "url": "https://www.facebook.com/reel/1825875735331510",
+        "at": "2026-11-17T04:00:22.537Z"
+      },
+      "instagram": {
+        "id": "18037802855887388",
+        "at": "2026-11-17T04:01:13.168Z"
+      },
+      "tiktok": {
+        "id": "6afbd18c3e42cd001e4e0406",
+        "at": "2026-11-17T04:01:26.847Z"
+      },
+      "linkedin": {
+        "id": "6afbd197f83aaca8f3a9543b",
+        "at": "2026-11-17T04:01:37.842Z"
+      },
+      "x": {
+        "id": "6afbd1a24b26315855bcbfdc",
+        "at": "2026-11-17T04:01:48.929Z"
+      }
+    }
   }
 }
