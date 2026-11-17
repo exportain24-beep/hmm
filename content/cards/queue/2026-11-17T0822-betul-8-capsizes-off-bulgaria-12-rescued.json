@@ -1,0 +1,41 @@
+{
+  "id": "betul-8-capsizes-off-bulgaria-12-rescued",
+  "type": "incident",
+  "headline": "Betul 8 Capsizes Off Bulgaria, 12 Rescued",
+  "headlineAccent": "12 Rescued",
+  "subheadline": "Crew report sea drone strike; cause under investigation",
+  "location": "BLACK SEA, BULGARIA",
+  "dateLabel": "16 NOV 2026",
+  "insight": "Somali-flag cargo ship Betul 8, carrying wheat from Tulcea to Egypt, capsized in Bulgaria's EEZ on 16 Nov. Air Force helicopters winched all 12 crew from two life rafts.",
+  "publishAtUtc": "2026-11-17T08:22:00Z",
+  "eventId": "HM-2026-111602",
+  "priorityScore": 81,
+  "pillar": "safety",
+  "audience": ["Master", "Chief Officer", "OOW", "Ship Security Officer", "CSO", "Ship Manager"],
+  "sources": [
+    {"title": "All 12 Crew Members Rescued After Cargo Ship Capsizes in Bulgarian Black Sea Waters", "publisher": "BTA (Bulgarian state news agency)", "url": "https://www.bta.bg/en/news/bulgaria/1247572-all-12-crew-members-rescued-after-cargo-ship-capsizes-in-bulgarian-black-sea-wat", "date": "2026-11-16"},
+    {"title": "12 crew members rescued after cargo ship capsizes off Bulgaria following suspected drone strike", "publisher": "Euronews", "url": "https://www.euronews.com/2026/11/16/12-crew-members-rescued-after-cargo-ship-capsizes-off-bulgaria-following-suspected-drone-s", "date": "2026-11-16"},
+    {"title": "Cargo ship capsizes off Bulgaria's Black Sea coast", "publisher": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/11/16/cargo-ship-capsizes-off-bulgarias-black-sea-coast", "date": "2026-11-16"},
+    {"title": "Bulgaria Rescues 12 Crew as Attacked Cargo Ship Capsizes", "publisher": "The Maritime Executive", "url": "https://maritime-executive.com/article/bulgaria-rescues-12-crew-as-attacked-cargo-ship-capsizes", "date": "2026-11-16"},
+    {"title": "Cargo Ship Capsizes Off Bulgaria After Reported Sea Drone Attack", "publisher": "gCaptain", "url": "https://gcaptain.com/cargo-ship-capsizes-off-bulgaria-after-reported-sea-drone-attack/", "date": "2026-11-16"}
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner intelligence desk",
+    "checkedAt": "2026-11-17T06:55:00Z",
+    "notes": "CORROBORATED: Bulgarian Ministry of Transport via BTA, Euronews, Al Jazeera, MarEx, gCaptain. Betul 8 (IMO 8817198, Somali flag) capsized in Bulgaria's EEZ on 16 Nov 2026; distress call shortly after 09:00 local; all 12 crew winched from two life rafts by Bulgarian Air Force Cougar helicopters to Chaika naval air base, Varna; one minor head injury; MRCC Varna coordinated; MCM Black Sea vessels deployed, water sampled for pollution. Sea drone cause is the crew's account only, framed as reported; no attribution. Cargo quantity conflicts between sources, so not stated. Re-searched 06:50 UTC 17 Nov: no new official findings. Event date 16 Nov shown; published next day, not presented as new today."
+  },
+  "image": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Coast_Guard_rescues_3_mariners_from_life_raft_near_Kodiak,_Alaska_150421-G-MF861-098.jpg?width=1600",
+    "credit": "U.S. Coast Guard / Wikimedia Commons",
+    "license": "Public domain",
+    "representative": true
+  },
+  "meta": {
+    "description": "The Somali-flagged general cargo ship Betul 8, carrying bulk wheat from Tulcea in Romania to Egypt, capsized in Bulgaria's exclusive economic zone in the Black Sea on 16 November 2026 after a distress call shortly after 09:00 local time. Bulgarian Air Force Cougar helicopters winched all 12 crew from two life rafts and flew them to the Chaika naval air base in Varna; one seafarer had a minor head injury. MRCC Varna coordinated the response and vessels of the Black Sea mine countermeasures task group were deployed, with a naval ship sampling the water for pollution. Crew members say two sea drones struck the ship; Bulgarian authorities say the cause will be determined after questioning the crew.",
+    "keywords": ["Black Sea", "Betul 8", "capsizing", "search and rescue", "sea drones", "Bulgaria"],
+    "hashtags": ["#MaritimeSafety", "#BlackSea", "#Bulgaria", "#SearchAndRescue", "#ShippingNews"],
+    "question": "If your ship had to be abandoned in minutes, would every crew member reach a life raft?",
+    "altText": "Representative public-domain photo of a U.S. Coast Guard helicopter rescue of mariners from a life raft, with HeyMariner incident card text on the cargo ship Betul 8 capsizing off Bulgaria on 16 November 2026 and all 12 crew rescued."
+  }
+}

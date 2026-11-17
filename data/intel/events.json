@@ -1066,20 +1066,21 @@
         {
           "title": "Bulgaria Rescues 12 Crew as Attacked Cargo Ship Capsizes",
           "publisher": "The Maritime Executive",
-          "url": "",
+          "url": "https://maritime-executive.com/article/bulgaria-rescues-12-crew-as-attacked-cargo-ship-capsizes",
           "date": "2026-11-16"
         },
         {
           "title": "Cargo Ship Capsizes Off Bulgaria After Reported Sea Drone Attack",
           "publisher": "gCaptain",
-          "url": "",
+          "url": "https://gcaptain.com/cargo-ship-capsizes-off-bulgaria-after-reported-sea-drone-attack/",
           "date": "2026-11-16"
         }
       ],
       "verifiedFacts": [
         "Somali-flagged cargo ship Betul 8, Tulcea (Romania) to Egypt with bulk wheat, capsized in Bulgaria's EEZ on 16 Nov 2026 (Bulgarian Ministry of Transport via BTA; Euronews)",
         "Distress call shortly after 09:00 local; all 12 crew winched from two life rafts by Bulgarian Air Force Cougar helicopters and flown to Chaika naval air base, Varna; one minor head cut (BTA)",
-        "MRCC Varna coordinated; four MCM Black Sea task group vessels (2 BG, 1 RO, 1 TR) deployed; naval vessel sampling water for pollution and collecting any drone debris (BTA; Euronews)"
+        "MRCC Varna coordinated; four MCM Black Sea task group vessels (2 BG, 1 RO, 1 TR) deployed; naval vessel sampling water for pollution and collecting any drone debris (BTA; Euronews)",
+        "Vessel IMO 8817198 (MaritimeOptima / Magicport vessel registers)"
       ],
       "unverifiedClaims": [
         "Crew say two sea drones struck the ship; authorities say cause to be determined after questioning crew",
@@ -1100,10 +1101,18 @@
         "industry": 9,
         "source": 9
       },
-      "status": "candidate",
+      "status": "queued",
       "published": false,
-      "last_updated": "2026-11-16T22:00Z",
-      "notes": "16 Nov 22:00 desk run: quota 0 (next slot 17 Nov 08:22 UTC). Score 81 < breakingMinScore 90 (no fatalities, cause unconfirmed), so no breaking card. Eligible incident card for next slot if no fresher higher-priority event; cause must be framed as crew-reported sea drones. Separate from HM-2026-111502 (Sulina drones)."
+      "last_updated": "2026-11-17T06:55Z",
+      "notes": "16 Nov 22:00 desk run: quota 0 (next slot 17 Nov 08:22 UTC). Score 81 < breakingMinScore 90 (no fatalities, cause unconfirmed), so no breaking card. Eligible incident card for next slot if no fresher higher-priority event; cause must be framed as crew-reported sea drones. Separate from HM-2026-111502 (Sulina drones).",
+      "cardFile": "content/cards/queue/2026-11-17T0822-betul-8-capsizes-off-bulgaria-12-rescued.json",
+      "publishAtUtc": "2026-11-17T08:22:00Z",
+      "versions": [
+        {
+          "at": "2026-11-17T06:55:00Z",
+          "change": "incident card queued for 2026-11-17T08:22Z (picked over HM-2026-111701, 76)"
+        }
+      ]
     },
     "HM-2026-111701": {
       "eventId": "HM-2026-111701",
@@ -1154,8 +1163,8 @@
       },
       "status": "candidate",
       "published": false,
-      "last_updated": "2026-11-17T03:55Z",
-      "notes": "17 Nov 03:50 desk run: quota 0 (next slot 08:22 UTC). Score 76 < 90, no breaking card. Distinct from HM-2026-111403 (Iran mine claims) and HM-2026-111501 (15 Nov). Next run: compare with HM-2026-111602 (Betul 8, 81) for the 08:22 slot; confirm vessel names via UKMTO/JMIC before writing; avoid back-to-back Hormuz cards."
+      "last_updated": "2026-11-17T06:55Z",
+      "notes": "17 Nov 03:50 desk run: quota 0 (next slot 08:22 UTC). Score 76 < 90, no breaking card. Distinct from HM-2026-111403 (Iran mine claims) and HM-2026-111501 (15 Nov). Next run: compare with HM-2026-111602 (Betul 8, 81) for the 08:22 slot; confirm vessel names via UKMTO/JMIC before writing; avoid back-to-back Hormuz cards. 17 Nov 06:55 desk run: 08:22 slot went to Betul 8 (81); Hormuz remains candidate for 14:22 if vessel names confirmed."
     }
   }
 }
