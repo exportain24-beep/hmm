@@ -692,5 +692,37 @@
         "at": "2026-11-17T07:02:42.146Z"
       }
     }
+  },
+  "2026-11-17-liferaft-hydrostatic-release-unit": {
+    "title": "Liferaft hydrostatic release unit: how the HRU floats your raft free",
+    "producedAt": "2026-11-17T12:17:57.994Z",
+    "platforms": {
+      "youtube": {
+        "id": "V-EREH3N8L0",
+        "url": "https://www.youtube.com/watch?v=V-EREH3N8L0",
+        "at": "2026-11-17T12:18:03.694Z"
+      },
+      "facebook": {
+        "id": "1408843257997669",
+        "url": "https://www.facebook.com/reel/1408843257997669",
+        "at": "2026-11-17T12:18:18.634Z"
+      },
+      "instagram": {
+        "id": "18183424681430013",
+        "at": "2026-11-17T12:20:03.446Z"
+      },
+      "tiktok": {
+        "id": "6afc467455207cffaee82471",
+        "at": "2026-11-17T12:20:14.865Z"
+      },
+      "linkedin": {
+        "id": "6afc467f3fd21b249966a452",
+        "at": "2026-11-17T12:20:25.969Z"
+      },
+      "x": {
+        "id": "6afc468abea63ad8bdcfe729",
+        "at": "2026-11-17T12:20:34.921Z"
+      }
+    }
   }
 }
