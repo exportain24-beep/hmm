@@ -1,0 +1,468 @@
+{
+  "id": "2026-11-17-liferaft-hydrostatic-release-unit",
+  "template": "equipment-explained",
+  "pillar": "equipment",
+  "series": "LSA Explained",
+  "level": "L1",
+  "audience": [
+    "Third Officer",
+    "Deck Cadet",
+    "Deck Rating",
+    "OOW"
+  ],
+  "title": "Liferaft hydrostatic release unit: how the HRU floats your raft free",
+  "thumbnailText": "HOW THE HRU WORKS",
+  "aspect": "9:16",
+  "mood": "curious",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "beat": "hook",
+      "label": "EQUIPMENT EXPLAINED",
+      "heading": "Nobody reached the raft. It still surfaced",
+      "motif": "lifeboat",
+      "narration": "The ship goes down in seconds. Nobody reaches the liferaft. A small unit on the cradle still gets it to the surface."
+    },
+    {
+      "id": "hru-ctx",
+      "kind": "diagram",
+      "beat": "context",
+      "label": "THE SITUATION",
+      "heading": "On every cradle: the HRU",
+      "narration": "You are the third officer on your LSA round. On every liferaft cradle sits a hydrostatic release unit, the HRU.",
+      "diagram": {
+        "bg": "deck",
+        "elements": [
+          {
+            "type": "doc",
+            "x": 160,
+            "y": 210,
+            "text": "LSA ROUND",
+            "on": "lsa"
+          },
+          {
+            "type": "liferaft",
+            "x": 540,
+            "y": 420,
+            "s": 2.2,
+            "on": "liferaft"
+          },
+          {
+            "type": "label",
+            "x": 540,
+            "y": 600,
+            "text": "CRADLE",
+            "to": [
+              540,
+              500
+            ],
+            "on": "cradle"
+          },
+          {
+            "type": "ring",
+            "x": 700,
+            "y": 500,
+            "r2": 45,
+            "on": "hydrostatic"
+          },
+          {
+            "type": "label",
+            "x": 820,
+            "y": 680,
+            "text": "HRU",
+            "to": [
+              705,
+              520
+            ],
+            "on": "hru"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hru-knife",
+      "kind": "diagram",
+      "beat": "explain",
+      "label": "STEP 1: RELEASE",
+      "heading": "Water pressure fires the knife at 1.5-4 m",
+      "narration": "If the ship sinks, water pressure fires a knife inside the HRU, between 1.5 and 4 metres deep. It cuts the lashing, and the canister floats free.",
+      "diagram": {
+        "bg": "sea",
+        "elements": [
+          {
+            "type": "ship",
+            "x": 420,
+            "y": 720,
+            "len": 380,
+            "r": -8,
+            "move": {
+              "to": [
+                420,
+                800
+              ],
+              "on": "cuts"
+            },
+            "on": "sinks"
+          },
+          {
+            "type": "arrow",
+            "x": 860,
+            "y": 560,
+            "to": [
+              700,
+              640
+            ],
+            "color": "#38BDF8",
+            "on": "pressure"
+          },
+          {
+            "type": "label",
+            "x": 300,
+            "y": 200,
+            "text": "KNIFE CUTS LASHING",
+            "on": "knife"
+          },
+          {
+            "type": "dim",
+            "x": 930,
+            "y": 525,
+            "to": [
+              930,
+              650
+            ],
+            "text": "1.5 - 4 m",
+            "on": "metres"
+          },
+          {
+            "type": "liferaft",
+            "x": 620,
+            "y": 640,
+            "move": {
+              "to": [
+                620,
+                495
+              ],
+              "on": "floats"
+            },
+            "on": "canister"
+          },
+          {
+            "type": "label",
+            "x": 620,
+            "y": 380,
+            "text": "FLOATS FREE",
+            "to": [
+              620,
+              465
+            ],
+            "on": "free"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hru-link",
+      "kind": "diagram",
+      "beat": "explain",
+      "label": "STEP 2: INFLATE",
+      "heading": "Painter inflates, weak link breaks",
+      "narration": "The ship keeps sinking, the painter pulls tight and inflates the raft. Then the weak link, 2.2 kilonewtons on a standard unit, breaks. The raft is free.",
+      "diagram": {
+        "bg": "sea",
+        "elements": [
+          {
+            "type": "ship",
+            "x": 330,
+            "y": 800,
+            "len": 360,
+            "r": -12,
+            "on": "sinking"
+          },
+          {
+            "type": "path",
+            "x": 0,
+            "y": 0,
+            "points": [
+              [
+                400,
+                730
+              ],
+              [
+                640,
+                530
+              ]
+            ],
+            "color": "#C9A26B",
+            "on": "painter"
+          },
+          {
+            "type": "label",
+            "x": 800,
+            "y": 300,
+            "text": "INFLATES",
+            "on": "inflates"
+          },
+          {
+            "type": "liferaft",
+            "x": 660,
+            "y": 500,
+            "s": 1.6,
+            "on": "raft"
+          },
+          {
+            "type": "label",
+            "x": 300,
+            "y": 200,
+            "text": "WEAK LINK 2.2 kN",
+            "to": [
+              420,
+              715
+            ],
+            "on": "weak"
+          },
+          {
+            "type": "cross",
+            "x": 420,
+            "y": 715,
+            "on": "breaks"
+          },
+          {
+            "type": "label",
+            "x": 800,
+            "y": 400,
+            "text": "RAFT FREE",
+            "color": "#22C55E",
+            "on": "free"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hru-check",
+      "kind": "diagram",
+      "beat": "example",
+      "label": "ON YOUR ROUND",
+      "heading": "Three checks on every raft",
+      "narration": "On your round, check three things: painter shackled to the weak link, lashing through the HRU, and a valid expiry date. Most disposable units last two years.",
+      "diagram": {
+        "bg": "deck",
+        "elements": [
+          {
+            "type": "liferaft",
+            "x": 500,
+            "y": 270,
+            "s": 1.8,
+            "on": "round"
+          },
+          {
+            "type": "label",
+            "x": 380,
+            "y": 470,
+            "text": "PAINTER ON WEAK LINK",
+            "on": "painter"
+          },
+          {
+            "type": "tick",
+            "x": 780,
+            "y": 470,
+            "on": "shackled"
+          },
+          {
+            "type": "label",
+            "x": 380,
+            "y": 580,
+            "text": "LASHING THROUGH HRU",
+            "on": "lashing"
+          },
+          {
+            "type": "tick",
+            "x": 780,
+            "y": 580,
+            "on": "hru"
+          },
+          {
+            "type": "label",
+            "x": 380,
+            "y": 690,
+            "text": "VALID EXPIRY DATE",
+            "on": "expiry"
+          },
+          {
+            "type": "tick",
+            "x": 780,
+            "y": 690,
+            "on": "date"
+          },
+          {
+            "type": "value",
+            "x": 850,
+            "y": 120,
+            "from": 0,
+            "to2": 2,
+            "unit": " YEARS",
+            "decimals": 0,
+            "on": "two"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hru-mistake",
+      "kind": "diagram",
+      "beat": "mistake",
+      "label": "COMMON MISTAKE",
+      "heading": "Painter on the rail: raft held down",
+      "narration": "The common mistake: making the painter fast to the cradle or a rail. The raft inflates, but the sinking ship holds it down.",
+      "diagram": {
+        "bg": "sea",
+        "elements": [
+          {
+            "type": "cross",
+            "x": 880,
+            "y": 120,
+            "on": "making"
+          },
+          {
+            "type": "label",
+            "x": 320,
+            "y": 180,
+            "text": "PAINTER ON THE RAIL",
+            "on": "rail"
+          },
+          {
+            "type": "liferaft",
+            "x": 620,
+            "y": 630,
+            "s": 1.4,
+            "on": "raft"
+          },
+          {
+            "type": "ship",
+            "x": 380,
+            "y": 800,
+            "len": 380,
+            "r": -10,
+            "on": "sinking"
+          },
+          {
+            "type": "path",
+            "x": 0,
+            "y": 0,
+            "points": [
+              [
+                470,
+                730
+              ],
+              [
+                600,
+                650
+              ]
+            ],
+            "color": "#EF4444",
+            "on": "holds"
+          },
+          {
+            "type": "arrow",
+            "x": 620,
+            "y": 540,
+            "to": [
+              620,
+              690
+            ],
+            "color": "#EF4444",
+            "on": "down"
+          }
+        ]
+      }
+    },
+    {
+      "id": "take",
+      "kind": "takeaway",
+      "beat": "takeaway",
+      "label": "KEY TAKEAWAY",
+      "heading": "Knife frees it, painter inflates it",
+      "motif": "inspection",
+      "narration": "Knife frees it, painter inflates it, weak link lets it go."
+    },
+    {
+      "id": "end",
+      "kind": "endcard",
+      "beat": "endcard",
+      "narration": "Follow HeyMariner for practical maritime knowledge."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Correct use of hydrostatic release units",
+      "publisher": "AMSA",
+      "url": "https://www.amsa.gov.au/vessels-operators/domestic-commercial-vessels/correct-use-hydrostatic-release-units"
+    },
+    {
+      "title": "Hammar H20R hydrostatic release unit manual",
+      "publisher": "Hammar / De Wolf Maritime",
+      "url": "https://www.dewolfmaritime.com/app/uploads/2020/12/Hammar-H20R-manual.pdf"
+    },
+    {
+      "title": "Hammar H20 Standard SOLAS hydrostatic release unit",
+      "publisher": "Survitec",
+      "url": "https://survitecgroup.com/liferafts/liferaft-equipment/hammar-h20-standard"
+    }
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner daily desk",
+    "checkedAt": "2026-11-17",
+    "notes": "AMSA: HRU operates at depths between 1.5 and 4 m; for liferafts it cuts the cord holding the securing straps, the canister floats free, pulls out the painter which inflates the raft; the painter is attached to a weak link that breaks once the raft is inflated; common error: painter not attached to the weak link; disposable HRUs replaced at expiry, most about 2 years after installation; reusable units serviced annually. Hammar H20 manual: release depth 1.5-4.0 m per IMO/SOLAS; standard red weak link 2.2 +/- 0.4 kN; valid 2 years from month of installation. Painter-fast-to-ship consequence (raft held down) follows from the weak link function. Service intervals depend on unit type and maker."
+  },
+  "meta": {
+    "description": "How a liferaft hydrostatic release unit works: water pressure fires a knife between 1.5 and 4 metres, the canister floats free, the painter inflates the raft and the weak link breaks so the raft is not dragged down. What to check on every LSA round and the rigging mistake that defeats the whole system.",
+    "keywords": [
+      "hydrostatic release unit",
+      "how does an HRU work",
+      "liferaft HRU",
+      "weak link",
+      "liferaft painter",
+      "LSA inspection",
+      "SOLAS life-saving appliances",
+      "third officer duties"
+    ],
+    "hashtags": [
+      "#Liferaft",
+      "#LSA",
+      "#MaritimeSafety",
+      "#MaritimeEducation",
+      "#Seafarer"
+    ],
+    "question": "When did you last check the painter on your liferafts?"
+  },
+  "origin": {
+    "type": "queue"
+  },
+  "concept": {
+    "domain": "Safety",
+    "category": "Life-saving appliances",
+    "subcategory": "Liferafts",
+    "concept": "How a hydrostatic release unit floats a liferaft free",
+    "microConcept": "Knife release at 1.5-4 m, painter inflation and weak link break; correct painter rigging",
+    "contentType": "Equipment Explained",
+    "audience": "Cadet / Third Officer / Rating",
+    "department": "deck",
+    "knowledgeLevel": "Beginner",
+    "shipType": "All",
+    "regulation": "SOLAS III; LSA Code (liferaft stowage and float-free arrangements)",
+    "equipment": "Liferaft, hydrostatic release unit, weak link",
+    "operationalStage": "LSA inspection / abandon ship",
+    "safetyCriticality": "high",
+    "series": "LSA Explained",
+    "episode": 1,
+    "keyTakeaway": "Knife frees it, painter inflates it, weak link lets it go.",
+    "commonMistake": "Making the painter fast to the cradle or rail instead of the weak link, so the sinking ship holds the raft down.",
+    "relatedTopics": [
+      "Liferaft annual servicing",
+      "Float-free EPIRB release",
+      "Davit-launched liferafts",
+      "Liferaft painter length and launching"
+    ]
+  }
+}

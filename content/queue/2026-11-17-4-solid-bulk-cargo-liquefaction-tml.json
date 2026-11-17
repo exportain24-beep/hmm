@@ -1,0 +1,405 @@
+{
+  "id": "2026-11-17-solid-bulk-cargo-liquefaction-tml",
+  "template": "educational-explainer",
+  "pillar": "deck",
+  "series": "Cargo Hazards",
+  "level": "L3",
+  "audience": [
+    "Chief Officer",
+    "Master",
+    "Second Officer",
+    "Deck Cadet"
+  ],
+  "title": "Cargo liquefaction: why Group A bulk cargo flows and what the TML means",
+  "thumbnailText": "WHEN ORE TURNS LIQUID",
+  "aspect": "9:16",
+  "mood": "tense",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "beat": "hook",
+      "label": "CARGO HAZARD",
+      "heading": "Dry on the quay. Liquid at sea. Why?",
+      "motif": "cargo",
+      "narration": "The ore looked dry on the quay. Three days out, it moves like a liquid and your bulk carrier takes a list. Why?"
+    },
+    {
+      "id": "lq-ctx",
+      "kind": "diagram",
+      "beat": "context",
+      "label": "THE SITUATION",
+      "heading": "Iron ore fines: IMSBC Group A",
+      "narration": "You are the Chief Officer loading iron ore fines: a Group A cargo under the IMSBC Code, one that may liquefy.",
+      "diagram": {
+        "bg": "sea",
+        "elements": [
+          {
+            "type": "ship",
+            "x": 500,
+            "y": 590,
+            "variant": "bulk",
+            "len": 600,
+            "on": "officer"
+          },
+          {
+            "type": "label",
+            "x": 500,
+            "y": 300,
+            "text": "IRON ORE FINES",
+            "to": [
+              500,
+              480
+            ],
+            "on": "iron"
+          },
+          {
+            "type": "label",
+            "x": 840,
+            "y": 190,
+            "text": "GROUP A",
+            "on": "group"
+          },
+          {
+            "type": "doc",
+            "x": 160,
+            "y": 200,
+            "text": "IMSBC CODE",
+            "on": "imsbc"
+          },
+          {
+            "type": "label",
+            "x": 500,
+            "y": 90,
+            "text": "MAY LIQUEFY",
+            "color": "#EF4444",
+            "on": "liquefy"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lq-how",
+      "kind": "diagram",
+      "beat": "explain",
+      "label": "HOW IT HAPPENS",
+      "heading": "Motion squeezes water up: slurry",
+      "narration": "The ship's motion compacts the fine particles. Water is squeezed up between the grains, and the cargo becomes a slurry that flows to one side.",
+      "diagram": {
+        "bg": "blueprint",
+        "elements": [
+          {
+            "type": "tank",
+            "x": 250,
+            "y": 220,
+            "w": 500,
+            "h": 400,
+            "level": 0.55,
+            "color": "#8B6B4A",
+            "on": "motion"
+          },
+          {
+            "type": "arrow",
+            "x": 250,
+            "y": 690,
+            "to": [
+              750,
+              690
+            ],
+            "color": "#FDE047",
+            "on": "compacts"
+          },
+          {
+            "type": "arrow",
+            "x": 500,
+            "y": 580,
+            "to": [
+              500,
+              430
+            ],
+            "color": "#38BDF8",
+            "on": "water"
+          },
+          {
+            "type": "label",
+            "x": 500,
+            "y": 130,
+            "text": "SLURRY",
+            "color": "#EF4444",
+            "on": "slurry"
+          },
+          {
+            "type": "zone",
+            "x": 0,
+            "y": 0,
+            "points": [
+              [
+                256,
+                614
+              ],
+              [
+                744,
+                614
+              ],
+              [
+                744,
+                400
+              ]
+            ],
+            "color": "#EF4444",
+            "on": "flows"
+          },
+          {
+            "type": "arrow",
+            "x": 380,
+            "y": 480,
+            "to": [
+              700,
+              480
+            ],
+            "color": "#EF4444",
+            "on": "side"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lq-tml",
+      "kind": "diagram",
+      "beat": "explain",
+      "label": "THE LIMIT",
+      "heading": "TML = 90% of the flow moisture point",
+      "narration": "So each cargo has a transportable moisture limit, the TML. From a flow table test, it is 90 percent of the flow moisture point.",
+      "diagram": {
+        "bg": "blueprint",
+        "elements": [
+          {
+            "type": "label",
+            "x": 500,
+            "y": 110,
+            "text": "TRANSPORTABLE MOISTURE LIMIT",
+            "on": "transportable"
+          },
+          {
+            "type": "label",
+            "x": 500,
+            "y": 250,
+            "text": "FLOW TABLE TEST",
+            "on": "table"
+          },
+          {
+            "type": "eq",
+            "x": 500,
+            "y": 400,
+            "text": "TML = 90% x FLOW MOISTURE POINT",
+            "variant": "result",
+            "on": "90"
+          },
+          {
+            "type": "gauge",
+            "x": 500,
+            "y": 620,
+            "value": 0.8,
+            "danger": 0.9,
+            "text": "MOISTURE",
+            "on": "point"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lq-load",
+      "kind": "diagram",
+      "beat": "example",
+      "label": "WHILE LOADING",
+      "heading": "Check the paper, then test the cargo",
+      "narration": "Before loading: TML certificate under six months old, moisture tested within seven days. During loading, can tests. Free water on the sample? Stop and get lab results.",
+      "diagram": {
+        "bg": "deck",
+        "elements": [
+          {
+            "type": "doc",
+            "x": 200,
+            "y": 190,
+            "text": "TML < 6 MONTHS",
+            "on": "tml"
+          },
+          {
+            "type": "doc",
+            "x": 520,
+            "y": 190,
+            "text": "MOISTURE < 7 DAYS",
+            "on": "moisture"
+          },
+          {
+            "type": "tank",
+            "x": 300,
+            "y": 430,
+            "w": 160,
+            "h": 200,
+            "level": 0.7,
+            "color": "#8B6B4A",
+            "on": "can"
+          },
+          {
+            "type": "label",
+            "x": 700,
+            "y": 470,
+            "text": "FREE WATER ON TOP",
+            "to": [
+              385,
+              470
+            ],
+            "on": "free"
+          },
+          {
+            "type": "label",
+            "x": 500,
+            "y": 730,
+            "text": "STOP: LAB TEST",
+            "color": "#EF4444",
+            "on": "stop"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lq-mistake",
+      "kind": "diagram",
+      "beat": "mistake",
+      "label": "COMMON MISTAKE",
+      "heading": "A passed can test proves nothing",
+      "narration": "The common mistake: trusting a passed can test. It is only a rough check. It never proves the moisture is below the TML.",
+      "diagram": {
+        "bg": "deck",
+        "elements": [
+          {
+            "type": "tank",
+            "x": 220,
+            "y": 200,
+            "w": 160,
+            "h": 200,
+            "level": 0.6,
+            "color": "#8B6B4A",
+            "on": "trusting"
+          },
+          {
+            "type": "tick",
+            "x": 420,
+            "y": 220,
+            "on": "passed"
+          },
+          {
+            "type": "label",
+            "x": 680,
+            "y": 420,
+            "text": "ROUGH CHECK ONLY",
+            "on": "rough"
+          },
+          {
+            "type": "cross",
+            "x": 680,
+            "y": 560,
+            "on": "never"
+          },
+          {
+            "type": "label",
+            "x": 500,
+            "y": 700,
+            "text": "NOT PROOF BELOW TML",
+            "on": "proves"
+          }
+        ]
+      }
+    },
+    {
+      "id": "take",
+      "kind": "takeaway",
+      "beat": "takeaway",
+      "label": "KEY TAKEAWAY",
+      "heading": "Certificates first, can tests always",
+      "motif": "weather",
+      "narration": "Certificates first, can tests always, and never load above the TML."
+    },
+    {
+      "id": "end",
+      "kind": "endcard",
+      "beat": "endcard",
+      "narration": "Follow HeyMariner for practical maritime knowledge."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Liquefaction: loss prevention advice",
+      "publisher": "The Swedish Club",
+      "url": "https://www.swedishclub.com/loss-prevention/loss-prevention-advice/liquefaction/"
+    },
+    {
+      "title": "Cargo advice: liquefaction",
+      "publisher": "The Swedish Club",
+      "url": "https://www.swedishclub.com/uploads/2025/12/Cargo-Advice-Liquefaction.pdf"
+    },
+    {
+      "title": "Beware cargoes which may liquefy not listed in the IMSBC Code",
+      "publisher": "Gard",
+      "url": "https://gard.no/articles/beware-cargoes-which-may-liquefy-not-listed-imsbc-code"
+    }
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner daily desk",
+    "checkedAt": "2026-11-17",
+    "notes": "Swedish Club: Group A cargoes (e.g. iron ore fines, nickel ore, mineral concentrates) may liquefy if shipped above their TML; liquefaction = cargo turns from solid to an almost fluid state as the ship moves. TML: for the flow table and penetration tests, 90% of the flow moisture point (other test methods differ - script says 'from a flow table test'). TML certificate no older than six months; moisture sampling/testing never more than seven days before loading; can test is not quantitative, only indicates whether the FMP may be exceeded, must not be relied on alone; free moisture on the sample - arrange laboratory tests, reject/stop until results show moisture below TML. Mechanism (compaction by ship motion, water pressure between particles rises) is the standard explanation. 'Three days out' is an illustrative scenario, not a real casualty. Exact time limits can vary for cargoes with specific schedule provisions: script follows the general IMSBC rule."
+  },
+  "meta": {
+    "description": "Why Group A solid bulk cargoes such as iron ore fines can liquefy at sea, and what the transportable moisture limit (TML) under the IMSBC Code really means. The Chief Officer's checks before and during loading, and why a passed can test never proves the cargo is safe.",
+    "keywords": [
+      "cargo liquefaction",
+      "what is TML",
+      "IMSBC Code Group A",
+      "transportable moisture limit",
+      "flow moisture point",
+      "can test",
+      "iron ore fines",
+      "bulk carrier safety",
+      "chief officer cargo"
+    ],
+    "hashtags": [
+      "#BulkCarrier",
+      "#IMSBC",
+      "#CargoSafety",
+      "#MaritimeEducation",
+      "#ChiefOfficer"
+    ],
+    "question": "Have you ever stopped loading after a failed can test?"
+  },
+  "origin": {
+    "type": "queue"
+  },
+  "concept": {
+    "domain": "Cargo",
+    "category": "Solid bulk cargoes",
+    "subcategory": "Cargoes which may liquefy (Group A)",
+    "concept": "Liquefaction and the transportable moisture limit",
+    "microConcept": "How compaction turns Group A cargo into a slurry; TML = 90% FMP (flow table); certificates and can tests",
+    "contentType": "Cargo Hazard",
+    "audience": "Chief Officer / Master / Cadet",
+    "department": "deck",
+    "knowledgeLevel": "Intermediate",
+    "shipType": "Bulk carrier",
+    "regulation": "IMSBC Code (Group A, TML)",
+    "equipment": "Can test, moisture and TML certificates",
+    "operationalStage": "Cargo loading",
+    "safetyCriticality": "high",
+    "series": "Cargo Hazards",
+    "episode": 1,
+    "keyTakeaway": "Certificates first, can tests always, and never load Group A cargo above its TML.",
+    "commonMistake": "Treating a passed can test as proof the moisture content is below the TML.",
+    "relatedTopics": [
+      "How to do a can test",
+      "Wet base formation in bulk cargo",
+      "Bauxite dynamic separation",
+      "Trimming bulk cargo to reduce shift"
+    ]
+  }
+}

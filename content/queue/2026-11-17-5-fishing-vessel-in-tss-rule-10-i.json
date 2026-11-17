@@ -1,0 +1,431 @@
+{
+  "id": "2026-11-17-fishing-vessel-in-tss-rule-10-i",
+  "template": "colreg-scenario",
+  "pillar": "colreg",
+  "series": "Bridge Watch Decisions",
+  "level": "L2",
+  "audience": [
+    "OOW",
+    "Second Officer",
+    "Deck Cadet"
+  ],
+  "title": "COLREG Rule 10(i): a trawler in your TSS lane, who acts first?",
+  "thumbnailText": "TRAWLER IN THE LANE",
+  "aspect": "9:16",
+  "mood": "tense",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "beat": "hook",
+      "label": "WHAT WOULD YOU DO?",
+      "heading": "She must not impede you. So you stand on?",
+      "motif": "radar",
+      "narration": "Following a TSS lane at night, a trawler crosses ahead. Rule 10 says she must not impede you. So you stand on?"
+    },
+    {
+      "id": "tss-ctx",
+      "kind": "diagram",
+      "beat": "context",
+      "label": "THE SITUATION",
+      "heading": "Trawler on the starboard bow",
+      "narration": "You are the OOW of a container ship in the northbound lane. Green over white, a red sidelight: a trawler on your starboard bow, bearing steady.",
+      "diagram": {
+        "bg": "night",
+        "elements": [
+          {
+            "type": "ship",
+            "x": 300,
+            "y": 640,
+            "view": "top",
+            "len": 140,
+            "on": "container"
+          },
+          {
+            "type": "path",
+            "x": 0,
+            "y": 0,
+            "points": [
+              [
+                150,
+                800
+              ],
+              [
+                150,
+                80
+              ]
+            ],
+            "color": "#94A3B8",
+            "on": "northbound"
+          },
+          {
+            "type": "path",
+            "x": 0,
+            "y": 0,
+            "points": [
+              [
+                450,
+                800
+              ],
+              [
+                450,
+                80
+              ]
+            ],
+            "color": "#94A3B8"
+          },
+          {
+            "type": "label",
+            "x": 300,
+            "y": 760,
+            "text": "NORTHBOUND LANE",
+            "on": "lane"
+          },
+          {
+            "type": "nightvessel",
+            "x": 720,
+            "y": 430,
+            "bearing": 300,
+            "status": "trawling",
+            "len": 340,
+            "on": "green"
+          },
+          {
+            "type": "label",
+            "x": 720,
+            "y": 150,
+            "text": "TRAWLER",
+            "on": "trawler"
+          },
+          {
+            "type": "label",
+            "x": 720,
+            "y": 560,
+            "text": "BEARING STEADY",
+            "on": "steady"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tss-10i",
+      "kind": "diagram",
+      "beat": "explain",
+      "label": "RULE 10(i)",
+      "heading": "Fishing vessel: must not impede",
+      "narration": "Rule 10(i): a vessel engaged in fishing shall not impede the passage of any vessel following a traffic lane. Rule 8(f): she acts early to leave you sea room.",
+      "diagram": {
+        "bg": "night",
+        "elements": [
+          {
+            "type": "label",
+            "x": 500,
+            "y": 90,
+            "text": "RULE 10(i)",
+            "on": "rule"
+          },
+          {
+            "type": "nightvessel",
+            "x": 500,
+            "y": 440,
+            "bearing": 300,
+            "status": "trawling",
+            "len": 360
+          },
+          {
+            "type": "label",
+            "x": 500,
+            "y": 560,
+            "text": "MUST NOT IMPEDE",
+            "on": "impede"
+          },
+          {
+            "type": "label",
+            "x": 250,
+            "y": 660,
+            "text": "LANE TRAFFIC",
+            "on": "traffic"
+          },
+          {
+            "type": "arrow",
+            "x": 560,
+            "y": 700,
+            "to": [
+              900,
+              700
+            ],
+            "color": "#22C55E",
+            "on": "early"
+          },
+          {
+            "type": "label",
+            "x": 780,
+            "y": 770,
+            "text": "SEA ROOM",
+            "on": "room"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tss-8f",
+      "kind": "diagram",
+      "beat": "explain",
+      "label": "RULE 8(f)(iii)",
+      "heading": "Risk of collision: you are still bound",
+      "narration": "Once risk of collision exists, Rule 8(f) keeps you fully obliged to comply with the steering rules. Her duty does not cancel yours.",
+      "diagram": {
+        "bg": "night",
+        "elements": [
+          {
+            "type": "label",
+            "x": 500,
+            "y": 90,
+            "text": "RISK OF COLLISION",
+            "on": "risk"
+          },
+          {
+            "type": "nightvessel",
+            "x": 680,
+            "y": 420,
+            "bearing": 300,
+            "status": "trawling",
+            "len": 320
+          },
+          {
+            "type": "ship",
+            "x": 260,
+            "y": 640,
+            "view": "top",
+            "len": 140,
+            "on": "you"
+          },
+          {
+            "type": "label",
+            "x": 300,
+            "y": 300,
+            "text": "YOU REMAIN BOUND",
+            "on": "obliged"
+          },
+          {
+            "type": "tick",
+            "x": 300,
+            "y": 420,
+            "on": "rules"
+          },
+          {
+            "type": "label",
+            "x": 500,
+            "y": 760,
+            "text": "BOTH DUTIES APPLY",
+            "on": "yours"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tss-act",
+      "kind": "diagram",
+      "beat": "example",
+      "label": "WHAT YOU DO",
+      "heading": "Do not wait: act early and boldly",
+      "narration": "Bearing steady, range closing, she is not altering. Don't wait: check the lane around you, then alter early and boldly, or slow down.",
+      "diagram": {
+        "bg": "night",
+        "elements": [
+          {
+            "type": "nightvessel",
+            "x": 680,
+            "y": 330,
+            "bearing": 300,
+            "status": "trawling",
+            "len": 280
+          },
+          {
+            "type": "ship",
+            "x": 300,
+            "y": 700,
+            "view": "top",
+            "len": 140
+          },
+          {
+            "type": "label",
+            "x": 300,
+            "y": 110,
+            "text": "BEARING STEADY",
+            "on": "steady"
+          },
+          {
+            "type": "arrow",
+            "x": 260,
+            "y": 610,
+            "to": [
+              520,
+              420
+            ],
+            "color": "#EF4444",
+            "on": "closing"
+          },
+          {
+            "type": "label",
+            "x": 300,
+            "y": 300,
+            "text": "CHECK THE LANE",
+            "on": "check"
+          },
+          {
+            "type": "label",
+            "x": 650,
+            "y": 520,
+            "text": "ALTER EARLY AND BOLDLY",
+            "color": "#FDE047",
+            "on": "alter"
+          },
+          {
+            "type": "label",
+            "x": 700,
+            "y": 680,
+            "text": "OR SLOW DOWN",
+            "on": "slow"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tss-mistake",
+      "kind": "diagram",
+      "beat": "mistake",
+      "label": "COMMON MISTAKE",
+      "heading": "Not impede is not give way",
+      "narration": "The common mistake: reading not impede as give way. She must leave you room early. Close in, the steering rules bind you both.",
+      "diagram": {
+        "bg": "night",
+        "elements": [
+          {
+            "type": "cross",
+            "x": 870,
+            "y": 110,
+            "on": "reading"
+          },
+          {
+            "type": "label",
+            "x": 330,
+            "y": 220,
+            "text": "MUST NOT IMPEDE",
+            "on": "impede"
+          },
+          {
+            "type": "label",
+            "x": 650,
+            "y": 330,
+            "text": "IS NOT GIVE WAY",
+            "on": "give"
+          },
+          {
+            "type": "label",
+            "x": 500,
+            "y": 480,
+            "text": "EARLY: HER DUTY",
+            "on": "early"
+          },
+          {
+            "type": "label",
+            "x": 500,
+            "y": 620,
+            "text": "CLOSE IN: BOTH BOUND",
+            "color": "#FDE047",
+            "on": "both"
+          }
+        ]
+      }
+    },
+    {
+      "id": "take",
+      "kind": "takeaway",
+      "beat": "takeaway",
+      "label": "KEY TAKEAWAY",
+      "heading": "She must not impede. You must still act",
+      "motif": "voyage",
+      "narration": "She must not impede. You must still avoid collision. Both duties, same time."
+    },
+    {
+      "id": "end",
+      "kind": "endcard",
+      "beat": "endcard",
+      "narration": "Follow HeyMariner for practical maritime knowledge."
+    }
+  ],
+  "sources": [
+    {
+      "title": "IMO: COLREG Convention",
+      "publisher": "IMO",
+      "url": "https://www.imo.org/en/About/Conventions/Pages/COLREG.aspx"
+    },
+    {
+      "title": "Rule 10 Traffic separation schemes (33 CFR 83.10, text identical to COLREG Rule 10)",
+      "publisher": "Cornell LII",
+      "url": "https://www.law.cornell.edu/cfr/text/33/83.10"
+    },
+    {
+      "title": "Rules of the road MSN 1781: Rules 4 to 10 (incl. Rule 8(f))",
+      "publisher": "Portreath Harbour",
+      "url": "https://portreath-harbour.org/rules-of-the-road-msn1781/steering-and-sailing-rules/section-1-rules-4-10/"
+    }
+  ],
+  "factCheck": {
+    "status": "verified",
+    "by": "HeyMariner daily desk",
+    "checkedAt": "2026-11-17",
+    "notes": "Rule 10(i): 'A vessel engaged in fishing shall not impede the passage of any vessel following a traffic lane.' Rule 8(f)(i): a vessel required not to impede shall, when required by the circumstances, take early action to allow sufficient sea-room. 8(f)(ii): not relieved of this obligation if approaching so as to involve risk of collision. 8(f)(iii): the vessel the passage of which is not to be impeded remains fully obliged to comply with the Rules of Part B when risk of collision exists. Trawler lights (Rule 26(b)): all-round green over white plus sidelights when making way; red sidelight seen = observer on her port side (nightvessel bearing 300). 'Alter early and boldly, or slow down' reflects Rule 8(a),(b),(e) in general terms; no specific direction is prescribed in the script. Scenario is illustrative."
+  },
+  "meta": {
+    "description": "What COLREG Rule 10(i) really means when a trawler crosses your traffic separation scheme lane at night: the fishing vessel must not impede you and must act early, but under Rule 8(f) you remain fully bound by the steering rules once risk of collision exists. What the OOW does, and why 'must not impede' is not the same as 'must give way'.",
+    "keywords": [
+      "COLREG Rule 10",
+      "Rule 10(i) fishing vessel",
+      "traffic separation scheme",
+      "not impede",
+      "COLREG Rule 8(f)",
+      "trawler lights",
+      "OOW night watch",
+      "TSS rules"
+    ],
+    "hashtags": [
+      "#COLREG",
+      "#TSS",
+      "#OOW",
+      "#MaritimeEducation",
+      "#Seafarer"
+    ],
+    "question": "Would you stand on, alter or slow down for a trawler in your lane?"
+  },
+  "origin": {
+    "type": "queue"
+  },
+  "concept": {
+    "domain": "Navigation",
+    "category": "COLREG",
+    "subcategory": "Traffic separation schemes",
+    "concept": "Fishing vessels in a TSS: Rule 10(i) and Rule 8(f)",
+    "microConcept": "'Not impede' duty of the fishing vessel vs the lane vessel's continuing obligations once risk of collision exists",
+    "contentType": "What Would You Do?",
+    "audience": "Cadet / OOW",
+    "department": "deck",
+    "knowledgeLevel": "Intermediate",
+    "shipType": "All",
+    "regulation": "COLREG Rules 8(f), 10(i), 26",
+    "equipment": "Navigation lights, radar/ARPA",
+    "operationalStage": "Navigation watch",
+    "safetyCriticality": "high",
+    "series": "Bridge Watch Decisions",
+    "episode": 2,
+    "keyTakeaway": "She must not impede; you must still avoid collision. Both duties apply at the same time.",
+    "commonMistake": "Reading 'must not impede' as 'must give way' and standing on into close quarters.",
+    "relatedTopics": [
+      "Rule 8(f) not to impede explained",
+      "Rule 10(c) crossing a traffic lane",
+      "Inshore traffic zones: Rule 10(d)",
+      "Vessels under 20 m in a TSS: Rule 10(j)"
+    ]
+  }
+}

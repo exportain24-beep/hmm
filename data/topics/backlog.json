@@ -425,7 +425,9 @@
     "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
    ],
    "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
-   "status": "open"
+   "status": "used",
+   "usedBy": "2026-11-17-solid-bulk-cargo-liquefaction-tml",
+   "usedAt": "2026-11-17"
   },
   {
    "id": "enclosed-space-rescue-drills",
@@ -555,6 +557,26 @@
    "addedBy": "weekly-scout"
   },
   {
+   "id": "bauxite-dynamic-separation",
+   "title": "Bauxite dynamic separation",
+   "stream": "deck",
+   "pillar": "cargo",
+   "level": "L4",
+   "priority": 78,
+   "tags": [
+    "accident",
+    "critical",
+    "new"
+   ],
+   "startFrom": [
+    "https://gard.no/articles/beware-cargoes-which-may-liquefy-not-listed-imsbc-code"
+   ],
+   "origin": "chained from 2026-11-17-solid-bulk-cargo-liquefaction-tml",
+   "status": "open",
+   "addedAt": "2026-11-17",
+   "addedBy": "daily-video-desk"
+  },
+  {
    "id": "not-all-encs-include-t-and-p-notices",
    "title": "Not every ENC carries T&P notices: how to check yours",
    "stream": "deck",
@@ -633,9 +655,11 @@
     "https://www.imo.org/en/About/Conventions/Pages/COLREG.aspx"
    ],
    "origin": "chained from 2026-11-16-trawler-vs-fishing-vessel-lights",
-   "status": "open",
+   "status": "used",
    "addedAt": "2026-11-16",
-   "addedBy": "daily-video-desk"
+   "addedBy": "daily-video-desk",
+   "usedBy": "2026-11-17-fishing-vessel-in-tss-rule-10-i",
+   "usedAt": "2026-11-17"
   },
   {
    "id": "dead-ship-condition-what-it-means",
@@ -716,6 +740,46 @@
    "addedBy": "weekly-scout"
   },
   {
+   "id": "float-free-epirb-release",
+   "title": "Float-free EPIRB release",
+   "stream": "safety",
+   "pillar": "gmdss",
+   "level": "L2",
+   "priority": 70,
+   "tags": [
+    "psc",
+    "critical",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.amsa.gov.au/vessels-operators/domestic-commercial-vessels/correct-use-hydrostatic-release-units"
+   ],
+   "origin": "chained from 2026-11-17-liferaft-hydrostatic-release-unit",
+   "status": "open",
+   "addedAt": "2026-11-17",
+   "addedBy": "daily-video-desk"
+  },
+  {
+   "id": "rule-8-f-not-to-impede-explained",
+   "title": "Rule 8(f) not to impede explained",
+   "stream": "deck",
+   "pillar": "colreg",
+   "level": "L3",
+   "priority": 70,
+   "tags": [
+    "exam",
+    "colreg",
+    "faq"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/About/Conventions/Pages/COLREG.aspx"
+   ],
+   "origin": "chained from 2026-11-17-fishing-vessel-in-tss-rule-10-i",
+   "status": "open",
+   "addedAt": "2026-11-17",
+   "addedBy": "daily-video-desk"
+  },
+  {
    "id": "fire-triangle-and-classes-of-fire-on-ships",
    "title": "Fire triangle and classes of fire on ships",
    "stream": "safety",
@@ -749,7 +813,9 @@
     "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
    ],
    "origin": "seed: imo.org / admiralty.co.uk + PSC deficiency stats + oral exam questions",
-   "status": "open"
+   "status": "used",
+   "usedBy": "2026-11-17-liferaft-hydrostatic-release-unit",
+   "usedAt": "2026-11-17"
   },
   {
    "id": "ecdis-alert-colours-alarm-warning-caution",
@@ -1685,6 +1751,26 @@
    "addedBy": "daily-video-desk"
   },
   {
+   "id": "rule-10-c-crossing-a-traffic-lane",
+   "title": "Rule 10(c) crossing a traffic lane",
+   "stream": "deck",
+   "pillar": "colreg",
+   "level": "L2",
+   "priority": 64,
+   "tags": [
+    "exam",
+    "colreg",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.law.cornell.edu/cfr/text/33/83.10"
+   ],
+   "origin": "chained from 2026-11-17-fishing-vessel-in-tss-rule-10-i",
+   "status": "open",
+   "addedAt": "2026-11-17",
+   "addedBy": "daily-video-desk"
+  },
+  {
    "id": "gnss-jamming-and-spoofing-what-to-watch-for",
    "title": "GNSS jamming and spoofing: what to watch for",
    "stream": "deck",
@@ -1950,6 +2036,26 @@
    "origin": "chained from 2026-11-16-ecdis-safety-depth-calculation",
    "status": "open",
    "addedAt": "2026-11-16",
+   "addedBy": "daily-video-desk"
+  },
+  {
+   "id": "how-to-do-a-can-test",
+   "title": "How to do a can test",
+   "stream": "deck",
+   "pillar": "cargo",
+   "level": "L2",
+   "priority": 62,
+   "tags": [
+    "critical",
+    "visual",
+    "faq"
+   ],
+   "startFrom": [
+    "https://www.swedishclub.com/loss-prevention/loss-prevention-advice/liquefaction/"
+   ],
+   "origin": "chained from 2026-11-17-solid-bulk-cargo-liquefaction-tml",
+   "status": "open",
+   "addedAt": "2026-11-17",
    "addedBy": "daily-video-desk"
   },
   {
@@ -2239,6 +2345,25 @@
    "addedBy": "daily-video-desk"
   },
   {
+   "id": "liferaft-annual-servicing",
+   "title": "Liferaft annual servicing",
+   "stream": "safety",
+   "pillar": "safety",
+   "level": "L2",
+   "priority": 60,
+   "tags": [
+    "psc",
+    "exam"
+   ],
+   "startFrom": [
+    "https://www.amsa.gov.au/vessels-operators/domestic-commercial-vessels/correct-use-hydrostatic-release-units"
+   ],
+   "origin": "chained from 2026-11-17-liferaft-hydrostatic-release-unit",
+   "status": "open",
+   "addedAt": "2026-11-17",
+   "addedBy": "daily-video-desk"
+  },
+  {
    "id": "mooring-winch-brakes-and-brake-rendering",
    "title": "Mooring winch brakes and brake rendering",
    "stream": "deck",
@@ -2377,6 +2502,25 @@
     "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
    ],
    "origin": "chained from 2026-11-17-steering-gear-test-before-departure",
+   "status": "open",
+   "addedAt": "2026-11-17",
+   "addedBy": "daily-video-desk"
+  },
+  {
+   "id": "liferaft-painter-length-and-launching",
+   "title": "Liferaft painter length and launching",
+   "stream": "safety",
+   "pillar": "safety",
+   "level": "L2",
+   "priority": 58,
+   "tags": [
+    "exam",
+    "critical"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "chained from 2026-11-17-liferaft-hydrostatic-release-unit",
    "status": "open",
    "addedAt": "2026-11-17",
    "addedBy": "daily-video-desk"
@@ -2997,6 +3141,63 @@
    "origin": "chained from 2026-11-16-ecdis-safety-depth-calculation",
    "status": "open",
    "addedAt": "2026-11-16",
+   "addedBy": "daily-video-desk"
+  },
+  {
+   "id": "wet-base-formation-in-bulk-cargo",
+   "title": "Wet base formation in bulk cargo",
+   "stream": "deck",
+   "pillar": "cargo",
+   "level": "L3",
+   "priority": 56,
+   "tags": [
+    "critical",
+    "accident"
+   ],
+   "startFrom": [
+    "https://www.swedishclub.com/uploads/2025/12/Cargo-Advice-Liquefaction.pdf"
+   ],
+   "origin": "chained from 2026-11-17-solid-bulk-cargo-liquefaction-tml",
+   "status": "open",
+   "addedAt": "2026-11-17",
+   "addedBy": "daily-video-desk"
+  },
+  {
+   "id": "inshore-traffic-zones-rule-10-d",
+   "title": "Inshore traffic zones: Rule 10(d)",
+   "stream": "deck",
+   "pillar": "colreg",
+   "level": "L2",
+   "priority": 56,
+   "tags": [
+    "exam",
+    "colreg"
+   ],
+   "startFrom": [
+    "https://www.law.cornell.edu/cfr/text/33/83.10"
+   ],
+   "origin": "chained from 2026-11-17-fishing-vessel-in-tss-rule-10-i",
+   "status": "open",
+   "addedAt": "2026-11-17",
+   "addedBy": "daily-video-desk"
+  },
+  {
+   "id": "vessels-under-20-m-in-a-tss-rule-10-j",
+   "title": "Vessels under 20 m in a TSS: Rule 10(j)",
+   "stream": "deck",
+   "pillar": "colreg",
+   "level": "L2",
+   "priority": 56,
+   "tags": [
+    "exam",
+    "colreg"
+   ],
+   "startFrom": [
+    "https://www.law.cornell.edu/cfr/text/33/83.10"
+   ],
+   "origin": "chained from 2026-11-17-fishing-vessel-in-tss-rule-10-i",
+   "status": "open",
+   "addedAt": "2026-11-17",
    "addedBy": "daily-video-desk"
   },
   {
@@ -4030,6 +4231,44 @@
     "https://www.pilotmag.co.uk/squat-part-1/"
    ],
    "origin": "chained from 2026-11-17-squat-calculation-at-planned-speed",
+   "status": "open",
+   "addedAt": "2026-11-17",
+   "addedBy": "daily-video-desk"
+  },
+  {
+   "id": "davit-launched-liferafts",
+   "title": "Davit-launched liferafts",
+   "stream": "safety",
+   "pillar": "safety",
+   "level": "L3",
+   "priority": 46,
+   "tags": [
+    "exam",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "chained from 2026-11-17-liferaft-hydrostatic-release-unit",
+   "status": "open",
+   "addedAt": "2026-11-17",
+   "addedBy": "daily-video-desk"
+  },
+  {
+   "id": "trimming-bulk-cargo-to-reduce-shift",
+   "title": "Trimming bulk cargo to reduce shift",
+   "stream": "deck",
+   "pillar": "cargo",
+   "level": "L2",
+   "priority": 46,
+   "tags": [
+    "exam",
+    "visual"
+   ],
+   "startFrom": [
+    "https://www.imo.org/en/OurWork/Safety/Pages/default.aspx"
+   ],
+   "origin": "chained from 2026-11-17-solid-bulk-cargo-liquefaction-tml",
    "status": "open",
    "addedAt": "2026-11-17",
    "addedBy": "daily-video-desk"
