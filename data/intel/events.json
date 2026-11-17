@@ -1104,6 +1104,58 @@
       "published": false,
       "last_updated": "2026-11-16T22:00Z",
       "notes": "16 Nov 22:00 desk run: quota 0 (next slot 17 Nov 08:22 UTC). Score 81 < breakingMinScore 90 (no fatalities, cause unconfirmed), so no breaking card. Eligible incident card for next slot if no fresher higher-priority event; cause must be framed as crew-reported sea drones. Separate from HM-2026-111502 (Sulina drones)."
+    },
+    "HM-2026-111701": {
+      "eventId": "HM-2026-111701",
+      "slug": "ukmto-two-tankers-attacked-hormuz-16-nov",
+      "type": "incident",
+      "title": "Two Tankers Hit Near Hormuz, One Disabled",
+      "location": "STRAIT OF HORMUZ",
+      "eventDate": "16 NOV 2026",
+      "sources": [
+        {
+          "title": "UKMTO Reports Two Tanker Attacks in Strait of Hormuz",
+          "publisher": "gCaptain",
+          "url": "https://gcaptain.com/ukmto-reports-two-tanker-attacks-in-strait-of-hormuz/",
+          "date": "2026-11-16"
+        },
+        {
+          "title": "Two Tankers Hit Near Strait of Hormuz, One Disabled",
+          "publisher": "The Maritime Executive",
+          "url": "https://maritime-executive.com/article/two-tankers-hit-near-strait-of-hormuz-one-disabled",
+          "date": "2026-11-16"
+        },
+        {
+          "title": "Two attacks on tankers reported near Strait of Hormuz - UK Maritime Trade Operations",
+          "publisher": "Ukrainian News",
+          "url": "https://ukranews.com/en/news/1166206-two-attacks-on-tankers-reported-near-strait-of-hormuz-uk-maritime-trade-operations",
+          "date": "2026-11-16"
+        }
+      ],
+      "verifiedFacts": [
+        "UKMTO issued two separate warnings on 16 Nov 2026 of tankers attacked in/near the Strait of Hormuz (gCaptain; MarEx; Ukrainian News citing UKMTO)",
+        "Both incidents reported engine-room fires; one vessel left disabled (UKMTO via gCaptain; MarEx headline)"
+      ],
+      "unverifiedClaims": [
+        "Vessel names, flags, weapon type and casualties not confirmed at 03:50 UTC 17 Nov",
+        "MarEx reports one tanker was on Iran's 'non-compliance' list - single source"
+      ],
+      "conflicts": [],
+      "verificationStatus": "CORROBORATED",
+      "priorityScore": 76,
+      "scoreBreakdown": {
+        "recency": 19,
+        "safety": 17,
+        "operational": 13,
+        "regulatory": 4,
+        "human": 6,
+        "industry": 9,
+        "source": 8
+      },
+      "status": "candidate",
+      "published": false,
+      "last_updated": "2026-11-17T03:55Z",
+      "notes": "17 Nov 03:50 desk run: quota 0 (next slot 08:22 UTC). Score 76 < 90, no breaking card. Distinct from HM-2026-111403 (Iran mine claims) and HM-2026-111501 (15 Nov). Next run: compare with HM-2026-111602 (Betul 8, 81) for the 08:22 slot; confirm vessel names via UKMTO/JMIC before writing; avoid back-to-back Hormuz cards."
     }
   }
 }
