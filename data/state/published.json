@@ -724,5 +724,37 @@
         "at": "2026-11-17T12:20:34.921Z"
       }
     }
+  },
+  "2026-11-17-solid-bulk-cargo-liquefaction-tml": {
+    "title": "Cargo liquefaction: why Group A bulk cargo flows and what the TML means",
+    "producedAt": "2026-11-18T03:22:16.890Z",
+    "platforms": {
+      "youtube": {
+        "id": "kqa61qozU5U",
+        "url": "https://www.youtube.com/watch?v=kqa61qozU5U",
+        "at": "2026-11-18T04:00:07.598Z"
+      },
+      "facebook": {
+        "id": "1156356927089986",
+        "url": "https://www.facebook.com/reel/1156356927089986",
+        "at": "2026-11-18T04:00:18.221Z"
+      },
+      "instagram": {
+        "id": "18404374780206414",
+        "at": "2026-11-18T04:01:47.193Z"
+      },
+      "tiktok": {
+        "id": "6afd232c9f3765f6ab2da1ca",
+        "at": "2026-11-18T04:01:58.288Z"
+      },
+      "linkedin": {
+        "id": "6afd2337aa3b065dd96fb037",
+        "at": "2026-11-18T04:02:09.348Z"
+      },
+      "x": {
+        "id": "6afd2342fc933ac285c1a318",
+        "at": "2026-11-18T04:02:17.316Z"
+      }
+    }
   }
 }
