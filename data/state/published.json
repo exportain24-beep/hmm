@@ -788,5 +788,37 @@
         "at": "2026-11-18T12:27:24.933Z"
       }
     }
+  },
+  "ecdis-safety-contour": {
+    "title": "How does an ECDIS safety contour work?",
+    "producedAt": "2026-11-19T12:17:44.518Z",
+    "platforms": {
+      "youtube": {
+        "id": "rU1YSzSznFY",
+        "url": "https://www.youtube.com/watch?v=rU1YSzSznFY",
+        "at": "2026-11-19T12:17:53.116Z"
+      },
+      "facebook": {
+        "id": "1474299071302724",
+        "url": "https://www.facebook.com/reel/1474299071302724",
+        "at": "2026-11-19T12:18:08.582Z"
+      },
+      "instagram": {
+        "id": "18080824163725922",
+        "at": "2026-11-19T12:18:56.385Z"
+      },
+      "tiktok": {
+        "id": "6afee932492e6916c0a384fb",
+        "at": "2026-11-19T12:19:08.933Z"
+      },
+      "linkedin": {
+        "id": "6afee93deded3996f6e4e8fb",
+        "at": "2026-11-19T12:19:19.730Z"
+      },
+      "x": {
+        "id": "6afee9483a2938e203075e90",
+        "at": "2026-11-19T12:19:29.510Z"
+      }
+    }
   }
 }
