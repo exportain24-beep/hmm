@@ -820,5 +820,37 @@
         "at": "2026-11-19T12:19:29.510Z"
       }
     }
+  },
+  "enclosed-space-entry": {
+    "title": "Enclosed space entry: why you never go in without a permit and a gas test",
+    "producedAt": "2026-11-20T12:02:10.738Z",
+    "platforms": {
+      "youtube": {
+        "id": "VVy1oEsBxP8",
+        "url": "https://www.youtube.com/watch?v=VVy1oEsBxP8",
+        "at": "2026-11-20T12:02:16.502Z"
+      },
+      "facebook": {
+        "id": "2996760337333620",
+        "url": "https://www.facebook.com/reel/2996760337333620",
+        "at": "2026-11-20T12:02:27.158Z"
+      },
+      "instagram": {
+        "id": "17957641545285465",
+        "at": "2026-11-20T12:04:23.959Z"
+      },
+      "tiktok": {
+        "id": "6b0037480c6d6b905284fde6",
+        "at": "2026-11-20T12:04:35.366Z"
+      },
+      "linkedin": {
+        "id": "6b00375339116a845dd5472f",
+        "at": "2026-11-20T12:04:46.340Z"
+      },
+      "x": {
+        "id": "6b00375f0c6d6b9052850d1c",
+        "at": "2026-11-20T12:04:57.552Z"
+      }
+    }
   }
 }
