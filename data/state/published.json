@@ -884,5 +884,33 @@
         "at": "2026-11-21T11:36:10.570Z"
       }
     }
+  },
+  "cpa-tcpa-explained": {
+    "title": "CPA and TCPA explained: the two radar numbers every OOW must watch",
+    "producedAt": "2026-11-21T18:33:19.425Z",
+    "platforms": {
+      "youtube": {
+        "id": "N-MrMdcbWUA",
+        "url": "https://www.youtube.com/watch?v=N-MrMdcbWUA",
+        "at": "2026-11-21T18:33:25.330Z"
+      },
+      "facebook": {
+        "id": "997837993404599",
+        "url": "https://www.facebook.com/reel/997837993404599",
+        "at": "2026-11-21T18:33:42.369Z"
+      },
+      "tiktok": {
+        "id": "6b01e4428bd84d59660df53f",
+        "at": "2026-11-21T18:34:52.965Z"
+      },
+      "linkedin": {
+        "id": "6b01e44d8bd84d59660df92c",
+        "at": "2026-11-21T18:35:04.436Z"
+      },
+      "x": {
+        "id": "6b01e459d5eabfb8cc519890",
+        "at": "2026-11-21T18:35:15.973Z"
+      }
+    }
   }
 }

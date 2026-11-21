@@ -186,5 +186,12 @@
     "error": "HTTP 400: {\"debug_info\":{\"retriable\":false,\"type\":\"ProcessingFailedError\",\"message\":\"Request processing failed\"}}",
     "at": "2026-11-13T04:44:02.799Z",
     "run": "43367239117"
+  },
+  {
+    "id": "cpa-tcpa-explained",
+    "stage": "publish:instagram",
+    "error": "container processing ERROR",
+    "at": "2026-11-21T18:34:41.672Z",
+    "run": "44933266341"
   }
 ]
